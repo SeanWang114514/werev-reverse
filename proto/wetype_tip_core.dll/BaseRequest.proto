@@ -1,0 +1,10 @@
+// file: BaseRequest.proto  package: com.tencent.wetype.pb  syntax: proto3  deps: -
+package com.tencent.wetype.pb;
+message BaseRequest {
+  optional bytes SessionKey = 1;
+  optional uint32 Uin = 2;
+  optional bytes DeviceID = 3;
+  optional int32 ClientVersion = 4;
+  optional bytes DeviceType = 5;
+  optional uint32 Scene = 6;
+}

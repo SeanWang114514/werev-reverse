@@ -1,0 +1,7 @@
+// file: WtExceptionSubtype.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtExceptionSubtype {
+  exception_cache_storage_overload_app = 0;
+  exception_cache_storage_overload_plugin = 1;
+  exception_cache_storage_overload_group = 2;
+}

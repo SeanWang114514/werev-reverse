@@ -1,0 +1,18 @@
+// file: WtPcPatchErrorType.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtPcPatchErrorType {
+  wt_pc_patch_error_unknown = 0;
+  wt_pc_patch_ok = 1;
+  wt_pc_patch_error_download = 2;
+  wt_pc_patch_error_check_env = 3;
+  wt_pc_patch_error_clear_target_path = 4;
+  wt_pc_patch_error_write_file = 5;
+  wt_pc_patch_error_kill_process = 6;
+  wt_pc_patch_error_registry = 7;
+  wt_pc_patch_error_commit_transaction = 8;
+  wt_pc_patch_error_launch_service = 9;
+  wt_pc_patch_error_clear_legacy_files = 10;
+  wt_pc_patch_user_input = 11;
+  wt_pc_patch_error_update_ver = 12;
+  wt_pc_patch_error_firewall = 13;
+}

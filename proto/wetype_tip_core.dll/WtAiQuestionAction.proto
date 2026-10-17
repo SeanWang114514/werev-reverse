@@ -1,0 +1,30 @@
+// file: WtAiQuestionAction.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtAiQuestionAction {
+  wt_ai_question_action_invalid = 0;
+  wt_ai_question_action_panel_exposure = 1;
+  wt_ai_question_action_answer_search = 2;
+  wt_ai_question_action_answer_exposure = 3;
+  wt_ai_question_action_cite_source_exposure = 4;
+  wt_ai_question_action_recommend_question_exposure = 5;
+  wt_ai_question_action_copy_text = 6;
+  wt_ai_question_action_click_copy_as_picture = 7;
+  wt_ai_question_action_click_recommend_question = 8;
+  wt_ai_question_action_click_cite_source = 9;
+  wt_ai_question_action_exit_answer_page = 10;
+  wt_ai_question_action_exit_panel = 11;
+  wt_ai_question_action_association_exposure = 12;
+  wt_ai_question_action_association_click = 13;
+  wt_ai_question_action_save_picture_button_exposure = 14;
+  wt_ai_question_action_send_button_exposure = 15;
+  wt_ai_question_action_click_save_picture_button = 16;
+  wt_ai_question_action_click_send_button = 17;
+  wt_ai_question_action_association_ai_content_exposure = 18;
+  wt_ai_question_action_association_ai_content_click = 19;
+  wt_ai_question_action_association_ai_content_full_exposure = 20;
+  wt_ai_question_action_panel_result_exposure = 21;
+  wt_ai_question_action_click_footnote = 22;
+  wt_ai_question_action_jump_wread_app = 23;
+  wt_ai_question_action_jump_wread_h5 = 24;
+  wt_ai_question_action_slide_to_bottom = 25;
+}

@@ -1,0 +1,11 @@
+// file: WtStatEmojiExitSource.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatEmojiExitSource {
+  wt_emoj_exit_source_invalid = 0;
+  wt_emoj_exit_source_click_symble = 1;
+  wt_emoj_exit_source_click_candidate = 2;
+  wt_emoj_exit_source_esc = 3;
+  wt_emoj_exit_source_space = 4;
+  wt_emoj_exit_source_delete = 5;
+  wt_emoj_exit_source_exit_column = 6;
+}

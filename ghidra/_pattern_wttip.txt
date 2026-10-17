@@ -1,0 +1,7 @@
+DllRegisterServer
+ITfTextInputProcessor
+PreservedKey
+LanguageProfile
+SetLanguageProfile
+ITfInputProcessorProfileMgr
+Category

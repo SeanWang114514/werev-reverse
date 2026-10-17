@@ -1,0 +1,338 @@
+### icu_73  (106)
+    ?$CacheKey@UCollationCacheEntry
+    ?$LocaleCacheKey@UCollationCacheEntry
+    Array1D
+    BMPSet
+    BreakIterator
+    BurmeseBreakEngine
+    ByteSink
+    BytesDictionaryMatcher
+    CacheKeyBase
+    CharStringByteSink
+    CharacterIterator
+    CheckedArrayByteSink
+    CjkBreakEngine
+    CodePointsVectorizer
+    CollationCacheEntry
+    CollationElementIterator
+    CollationIterator
+    CollationKeyByteSink
+    CollationSettings
+    CollationTailoring
+    Collator
+    ComposeNormalizer2
+    ConstArray1D
+    ConstArray2D
+    DecomposeNormalizer2
+    DictionaryBreakEngine
+    DictionaryMatcher
+    EventListener
+    FCDNormalizer2
+    FCDUIterCollationIterator
+    FCDUTF16CollationIterator
+    FCDUTF8CollationIterator
+    FilteredBreakIteratorBuilder
+    ForwardCharacterIterator
+    GraphemeClusterVectorizer
+    ICUBreakIteratorFactory
+    ICUBreakIteratorService
+    ICUCollatorFactory
+    ICUCollatorService
+    ICULanguageBreakFactory
+    ICULocaleService
+    ICUNotifier
+    ICUResourceBundleFactory
+    ICUService
+    ICUServiceFactory
+    ICUServiceKey
+    KeywordEnumeration
+    KhmerBreakEngine
+    LSTMBreakEngine
+    LanguageBreakEngine
+    LanguageBreakFactory
+    LaoBreakEngine
+    LoadedNormalizer2Impl
+    Locale
+    LocaleBuilder
+    LocaleKey
+    LocaleKeyFactory
+    MlBreakEngine
+    NoopNormalizer2
+    Normalizer2
+    Normalizer2Impl
+    Normalizer2WithImpl
+    ParsePosition
+    ReadArray1D
+    ReadArray2D
+    Replaceable
+    ResourceBundle
+    ResourceDataValue
+    ResourceValue
+    RuleBasedBreakIterator
+    RuleBasedCollator
+    ServiceEnumeration
+    ServiceListener
+    SharedObject
+    SimpleFactory
+    SimpleFilteredBreakIteratorBuilder
+    SimpleFilteredSentenceBreakData
+    SimpleFilteredSentenceBreakIterator
+    SimpleLocaleKeyFactory
+    SortKeyByteSink
+    StringEnumeration
+    StringTrieBuilder
+    ThaiBreakEngine
+    UCharCharacterIterator
+    UCharsDictionaryMatcher
+    UCharsTrieBuilder
+    UIterCollationIterator
+    UMemory
+    UObject
+    UStack
+    UStringSet
+    UTF16CollationIterator
+    UTF8CollationIterator
+    UVector
+    UVector32
+    UnhandledEngine
+    UnicodeFilter
+    UnicodeFunctor
+    UnicodeMatcher
+    UnicodeSet
+    UnicodeSetIterator
+    UnicodeString
+    UnifiedCache
+    UnifiedCacheBase
+    Vectorizer
+    WholeStringBreakIterator
+### std  (73)
+    ?$_Binder@U_Unforced
+    ?$_ExceptionPtr_static@Vbad_alloc
+    ?$_ExceptionPtr_static@Vbad_exception
+    ?$_Iosb@H
+    ?$_Mpunct@D
+    ?$_Mpunct@G
+    ?$_Mpunct@_W
+    ?$basic_filebuf@DU?$char_traits@D
+    ?$basic_ios@DU?$char_traits@D
+    ?$basic_ostream@DU?$char_traits@D
+    ?$basic_streambuf@DU?$char_traits@D
+    ?$collate@D
+    ?$collate@G
+    ?$collate@_W
+    ?$ctype@D
+    ?$ctype@G
+    ?$ctype@_W
+    ?$messages@D
+    ?$messages@G
+    ?$messages@_W
+    ?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G
+    ?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W
+    ?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G
+    ?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W
+    ?$moneypunct@D$00
+    ?$moneypunct@G$00
+    ?$moneypunct@_W$00
+    ?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G
+    ?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W
+    ?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G
+    ?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W
+    ?$numpunct@D
+    ?$numpunct@G
+    ?$numpunct@_W
+    ?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G
+    ?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W
+    ?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G
+    ?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W
+    _Crt_new_delete
+    _Facet_base
+    _Generic_error_category
+    _Iostream_error_category2
+    _Ref_count_base
+    _System_error
+    __non_rtti_object
+    bad_alloc
+    bad_array_new_length
+    bad_cast
+    bad_exception
+    bad_function_call
+    bad_typeid
+    codecvt_base
+    ctype_base
+    error_category
+    exception
+    future_error
+    invalid_argument
+    ios_base
+    length_error
+    logic_error
+    messages_base
+    money_base
+    out_of_range
+    regex_error
+    runtime_error
+    system_error
+    time_base
+### (global)  (14)
+    ?$codecvt@DDU_Mbstatet
+    ?$codecvt@GDU_Mbstatet
+    ?$codecvt@_WDU_Mbstatet
+    ?$default_delete@VSkUnicode
+    ?$moneypunct@D$0A
+    ?$moneypunct@G$0A
+    ?$moneypunct@_W$0A
+    DNameNode
+    DNameStatusNode
+    charNode
+    pDNameNode
+    pairNode
+    pcharNode
+    type_info
+### flutter  (9)
+    ?$default_delete@VDisplayListLayer
+    ?$default_delete@VEmbedderExternalViewEmbedder
+    ?$default_delete@VImageGenerator
+    ?$default_delete@VPerformanceOverlayLayer
+    ?$default_delete@VPlatformViewLayer
+    ?$default_delete@VTexture
+    ?$default_delete@VTextureLayer
+    ?$default_delete@VVsyncWaiter
+    ?$default_delete@VWindowsProcTable
+### icu_73::StringTrieBuilder  (9)
+    BranchHeadNode
+    BranchNode
+    FinalValueNode
+    IntermediateValueNode
+    LinearMatchNode
+    ListBranchNode
+    Node
+    SplitBranchNode
+    ValueNode
+### icu_73::?A0xC11AB4F5  (9)
+    FCDUIterNFDIterator
+    FCDUTF16NFDIterator
+    FCDUTF8NFDIterator
+    FixedSortKeyByteSink
+    NFDIterator
+    PartLevelCallback
+    UIterNFDIterator
+    UTF16NFDIterator
+    UTF8NFDIterator
+### flutter::?0???1Shell  (4)
+    ?$CopyableLambda@V<lambda_6>
+    ?$CopyableLambda@V<lambda_7>
+    ?$CopyableLambda@V<lambda_8>
+    ?$CopyableLambda@V<lambda_9>
+### fml  (3)
+    ?$default_delete@$$CBVMapping
+    ?$default_delete@$$CBVSymbolMapping
+    ?$default_delete@VMapping
+### impeller  (2)
+    ?$default_delete@VEntityPassDelegate
+    ?$default_delete@VRuntimeStage
+### dart  (2)
+    ?$_Mem_fn@P8Class
+    ?$default_delete@VIsolateGroupSource
+### flutter::MultiFrameCodec::?0??getNextFrame  (2)
+    ?$CopyableLambda@V<lambda_3>
+    ?$CopyableLambda@V<lambda_4>
+### flutter::Shell::?0??OnEngineHandlePlatformMessage  (2)
+    ?$CopyableLambda@V<lambda_40>
+    ?$CopyableLambda@V<lambda_41>
+### std::locale  (2)
+    _Locimp
+    facet
+### skia::textlayout  (1)
+    ?$default_delete@VParagraphBuilder
+### flutter::?0???0ImageDecoderImpeller  (1)
+    ?$CopyableLambda@V<lambda_0>
+### flutter::?0???1PlatformMessageResponseDart  (1)
+    ?$CopyableLambda@V<lambda_0>
+### flutter::EmbedderPlatformMessageResponse::?0??Complete  (1)
+    ?$CopyableLambda@V<lambda_0>
+### flutter::?0??PrepareKernelMappings  (1)
+    ?$CopyableLambda@V<lambda_0>
+### impeller::RuntimeEffectContents::?0??Render  (1)
+    ?$CopyableLambda@V<lambda_0>
+### ?0??InferOpenGLPlatformViewCreationCallback  (1)
+    ?$CopyableLambda@V<lambda_13>
+### flutter::Shell::?0??RunEngine  (1)
+    ?$CopyableLambda@V<lambda_15>
+### flutter::Shell::?0??OnPlatformViewCreated  (1)
+    ?$CopyableLambda@V<lambda_19>
+### tonic::?0???$PostCompletion@VDartPersistentValue  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::GPUSurfaceGLImpeller::?0???R1?0??AcquireFrame  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::ImageDecoderSkia::?0??Decode::?0???R<lambda_2>  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::ImageDecoderSkia::?0??Decode::?0???R<lambda_3>  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::Shell::?0??OnEngineHandlePlatformMessage::?0???R<lambda_40>  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::MultiFrameCodec::?0??getNextFrame::?0???R<lambda_4>  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::GPUSurfaceGLImpeller::?0??AcquireFrame  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::Picture::?0??DoRasterizeToImage  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::PlatformViewEmbedder::EmbedderPlatformMessageHandler::?0??HandlePlatformMessage  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::DlDeferredImageGPUImpeller::ImageWrapper::?0??SnapshotDisplayList  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::DlDeferredImageGPUSkia::ImageWrapper::?0??SnapshotDisplayList  (1)
+    ?$CopyableLambda@V<lambda_1>
+### flutter::Shell::?0??OnPlatformViewDispatchPlatformMessage  (1)
+    ?$CopyableLambda@V<lambda_27>
+### flutter::Shell::?0??OnPlatformViewDispatchPointerDataPacket  (1)
+    ?$CopyableLambda@V<lambda_28>
+### flutter::Shell::?0??OnPlatformViewDispatchSemanticsAction  (1)
+    ?$CopyableLambda@V<lambda_29>
+### flutter::?0??EncodeImage  (1)
+    ?$CopyableLambda@V<lambda_2>
+### flutter::MultiFrameCodec::State::?0??GetNextFrameAndInvokeCallback  (1)
+    ?$CopyableLambda@V<lambda_2>
+### flutter::Shell::?0??OnAnimatorDraw  (1)
+    ?$CopyableLambda@V<lambda_37>
+### flutter::Shell::?0??OnAnimatorDrawLastLayerTrees  (1)
+    ?$CopyableLambda@V<lambda_38>
+### flutter::Shell::?0??CreateShellOnPlatformThread  (1)
+    ?$CopyableLambda@V<lambda_3>
+### flutter::ImageDecoderSkia::?0??Decode  (1)
+    ?$CopyableLambda@V<lambda_3>
+### ?0??InferVulkanPlatformViewCreationCallback  (1)
+    ?$CopyableLambda@V<lambda_3>
+### flutter::?0??PersistentCacheStore  (1)
+    ?$CopyableLambda@V<lambda_3>
+### flutter::Shell::?0??LoadDartDeferredLibrary  (1)
+    ?$CopyableLambda@V<lambda_46>
+### flutter::Shell::?0??UpdateAssetResolverByType  (1)
+    ?$CopyableLambda@V<lambda_48>
+### flutter::Shell::?0??CreateWithSnapshot  (1)
+    ?$CopyableLambda@V<lambda_4>
+### flutter::?0???0Shell  (1)
+    ?$CopyableLambda@V<lambda_5>
+### ?0??InferSoftwarePlatformViewCreationCallback  (1)
+    ?$CopyableLambda@V<lambda_5>
+### icu_73::RuleBasedBreakIterator  (1)
+    BreakCache
+### icu_73::ContractionsAndExpansions  (1)
+    CESink
+### icu_73::CollationKeys  (1)
+    LevelCallback
+### icu_73::?A0x49A70B5  (1)
+    MaxExpSink
+### icu_73::UCharsTrieBuilder  (1)
+    UCTLinearMatchNode
+### ?A0x6e02efe5  (1)
+    _ExceptionPtr_normal
+### stdext  (1)
+    exception
+### std::ios_base  (1)
+    failure

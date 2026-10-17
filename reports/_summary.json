@@ -1,0 +1,80 @@
+{
+ "app.so": {
+  "total": 112964,
+  "urls": 12,
+  "domains": 10,
+  "pdbs": 0
+ },
+ "flutter_windows.dll": {
+  "total": 282041,
+  "urls": 194,
+  "domains": 69,
+  "pdbs": 1
+ },
+ "ime_net.dll": {
+  "total": 38395,
+  "urls": 14,
+  "domains": 13,
+  "pdbs": 29
+ },
+ "input_dll_import_lib.dll": {
+  "total": 6588,
+  "urls": 14,
+  "domains": 7,
+  "pdbs": 8
+ },
+ "libwxhld.dll": {
+  "total": 216328,
+  "urls": 15,
+  "domains": 28,
+  "pdbs": 268
+ },
+ "wcwss.dll": {
+  "total": 51596,
+  "urls": 14,
+  "domains": 4,
+  "pdbs": 5
+ },
+ "wetap_business.dll": {
+  "total": 51656,
+  "urls": 14,
+  "domains": 10,
+  "pdbs": 30
+ },
+ "wetype_renderer.exe": {
+  "total": 104846,
+  "urls": 18,
+  "domains": 31,
+  "pdbs": 90
+ },
+ "wetype_server.exe": {
+  "total": 115492,
+  "urls": 19,
+  "domains": 27,
+  "pdbs": 93
+ },
+ "wetype_service.exe": {
+  "total": 35537,
+  "urls": 14,
+  "domains": 19,
+  "pdbs": 41
+ },
+ "wetype_tip_core.dll": {
+  "total": 68524,
+  "urls": 15,
+  "domains": 30,
+  "pdbs": 90
+ },
+ "WeUIResource.dll": {
+  "total": 2480,
+  "urls": 14,
+  "domains": 5,
+  "pdbs": 1
+ },
+ "XNet.dll": {
+  "total": 212092,
+  "urls": 14,
+  "domains": 10,
+  "pdbs": 79
+ }
+}

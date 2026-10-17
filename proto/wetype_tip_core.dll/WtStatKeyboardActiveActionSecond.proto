@@ -1,0 +1,7 @@
+// file: WtStatKeyboardActiveActionSecond.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatKeyboardActiveActionSecond {
+  wt_stat_keyboard_active_action_second_invalid = 0;
+  wt_stat_keyboard_active_action_second_keyboard_taping = 1;
+  wt_stat_keyboard_active_action_second_candidate_exposure = 2;
+}

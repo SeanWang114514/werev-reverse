@@ -1,0 +1,9 @@
+// file: WtKeyboardShowMode.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtKeyboardShowMode {
+  keyboard_show_mode_invalid = 0;
+  keyboard_show_mode_normal = 1;
+  keyboard_show_mode_floating = 2;
+  keyboard_show_mode_separate = 3;
+  keyboard_show_mode_single = 4;
+}

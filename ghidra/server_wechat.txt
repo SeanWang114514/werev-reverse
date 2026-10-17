@@ -1,0 +1,3437 @@
+PATTERN: wechat_comm|checksum mismatch|GetProcessIntegrity|EmitEmoji
+
+=== MATCHING STRINGS: 41 ===
+140564300	string	TipTextService GetProcessIntegrity failed. 
+140564330	string	TipTextService GetProcessIntegrity pSidSubAuthorityCount is nullptr. 
+140564380	string	TipTextService GetProcessIntegrity pSidSubAuthority is nullptr. 
+1405643c8	string	TipTextService GetProcessIntegrity SidSubAuthority is 
+140568a40	string	[wechat_comm] wechat emoji is disabled, user={}, cloud={}
+140568ad0	string	[wechat_comm] parse from string failed
+140568af8	string	[wechat_comm] HandleWeChatMessage, type: {}
+140568b28	string	[wechat_comm] get encrypt key failed!!!
+140568b50	string	[wechat_comm] decrypt body failed!!!
+140568b78	string	[wechat_comm] GetWeChatUidResponse error: {}
+140568ba8	string	[wechat_comm] parse GetWeChatUidResponse failed
+140568bd8	string	[wechat_comm] GetWeChatUidResponse, wx_uid: {}
+140568c08	string	[wechat_comm] token is valid
+140568c28	string	[wechat_comm] token is expired, expire_ts: {}
+140568c58	string	[wechat_comm] VerifyTokenResponse error: {}
+140568c88	string	[wechat_comm] parse VerifyTokenResponse failed
+140568cb8	string	[wechat_comm] VerifyTokenResponse,directory: {}
+140568ce8	string	[wechat_comm] SupportEmojiResponse error: {}
+140568d18	string	[wechat_comm] parse SupportEmojiResponse failed
+140568d50	string	[wechat_comm] SupportEmojiResponse, support_emoji: {}, session_id: {}
+140568d98	string	[wechat_comm] parse RefreshStateRequest failed
+140568dc8	string	[wechat_comm] RefreshStateRequest, support_emoji: {}
+140568e00	string	[wechat_comm] EmitEmojiResponse error: {}
+140568e30	string	[wechat_comm] EmitEmojiResponse, result: {}
+140568e60	string	[wechat_comm] EmitSmallEmojiResponse, result: {}
+140568e98	string	[wechat_comm] CursorContextResponse, cursor_pos: {}
+140568ed0	string	[wechat_comm] unhandled message type: {}
+140568f00	string	[wechat_comm] weixin window not exist!!!
+140568f80	string	[wechat_comm] encrypt body failed!!!
+140568fa8	string	[wechat_comm] send message to wechat error: {} {}
+140568fe0	string	[wechat_comm] get wechat process path failed: {}
+140569070	string	[wechat_comm] signature verification failed: {}
+1405690a0	string	[wechat_comm] file_path is empty
+1405690d0	string	wetype::server::wechat_message::WeChatMessageManager::Impl::RequestEmitEmoji
+140569120	string	[wechat_comm] wechat emoji dir is empty
+14059c800	string	checksum mismatch
+14059cd30	string	block checksum mismatch
+1406e1d68	string	wetype.server.WTEmitEmojiResponseResult
+1406e1ea7	string		wetype.server.WTEmitEmojiRequestMd5FileNameProductIDPendingTextsessionId
+140709538	char[40]	.?AVWTEmitEmojiRequest@server@wetype@@
+140709570	char[40]	.?AVWTEmitEmojiResponse@server@wetype@@
+
+=== STRING XREFS ===
+--- 140564300 TipTextService GetProcessIntegrity failed.   refs=1
+    from 14008ab97  DATA  FUN_14008aa00@14008aa00
+--- 140564330 TipTextService GetProcessIntegrity pSidSubAuthorityCount is nullptr.   refs=1
+    from 14008ad49  DATA  FUN_14008aa00@14008aa00
+--- 140564380 TipTextService GetProcessIntegrity pSidSubAuthority is nullptr.   refs=1
+    from 14008aed0  DATA  FUN_14008aa00@14008aa00
+--- 1405643c8 TipTextService GetProcessIntegrity SidSubAuthority is   refs=1
+    from 14008b032  DATA  FUN_14008aa00@14008aa00
+--- 140568a40 [wechat_comm] wechat emoji is disabled, user={}, cloud={}  refs=2
+    from 1400c9709  DATA  FUN_1400c8180@1400c8180
+    from 1400c9710  DATA  FUN_1400c8180@1400c8180
+--- 140568ad0 [wechat_comm] parse from string failed  refs=2
+    from 1400c8282  DATA  FUN_1400c8180@1400c8180
+    from 1400c8289  DATA  FUN_1400c8180@1400c8180
+--- 140568af8 [wechat_comm] HandleWeChatMessage, type: {}  refs=2
+    from 1400c82cb  DATA  FUN_1400c8180@1400c8180
+    from 1400c82d2  DATA  FUN_1400c8180@1400c8180
+--- 140568b28 [wechat_comm] get encrypt key failed!!!  refs=4
+    from 1400ca19b  DATA  FUN_1400ca0d0@1400ca0d0
+    from 1400ca1a2  DATA  FUN_1400ca0d0@1400ca0d0
+    from 1400c8368  DATA  FUN_1400c8180@1400c8180
+    from 1400c836f  DATA  FUN_1400c8180@1400c8180
+--- 140568b50 [wechat_comm] decrypt body failed!!!  refs=2
+    from 1400c8623  DATA  FUN_1400c8180@1400c8180
+    from 1400c862a  DATA  FUN_1400c8180@1400c8180
+--- 140568b78 [wechat_comm] GetWeChatUidResponse error: {}  refs=2
+    from 1400c8709  DATA  FUN_1400c8180@1400c8180
+    from 1400c939c  DATA  FUN_1400c8180@1400c8180
+--- 140568ba8 [wechat_comm] parse GetWeChatUidResponse failed  refs=2
+    from 1400c877f  DATA  FUN_1400c8180@1400c8180
+    from 1400c8786  DATA  FUN_1400c8180@1400c8180
+--- 140568bd8 [wechat_comm] GetWeChatUidResponse, wx_uid: {}  refs=2
+    from 1400c8832  DATA  FUN_1400c8180@1400c8180
+    from 1400c8839  DATA  FUN_1400c8180@1400c8180
+--- 140568c08 [wechat_comm] token is valid  refs=2
+    from 1400c89d1  DATA  FUN_1400c8180@1400c8180
+    from 1400c89d8  DATA  FUN_1400c8180@1400c8180
+--- 140568c28 [wechat_comm] token is expired, expire_ts: {}  refs=2
+    from 1400c8ab8  DATA  FUN_1400c8180@1400c8180
+    from 1400c8abf  DATA  FUN_1400c8180@1400c8180
+--- 140568c58 [wechat_comm] VerifyTokenResponse error: {}  refs=2
+    from 1400c8c1d  DATA  FUN_1400c8180@1400c8180
+    from 1400c8c24  DATA  FUN_1400c8180@1400c8180
+--- 140568c88 [wechat_comm] parse VerifyTokenResponse failed  refs=2
+    from 1400c8d52  DATA  FUN_1400c8180@1400c8180
+    from 1400c8d59  DATA  FUN_1400c8180@1400c8180
+--- 140568cb8 [wechat_comm] VerifyTokenResponse,directory: {}  refs=2
+    from 1400c8da3  DATA  FUN_1400c8180@1400c8180
+    from 1400c8daa  DATA  FUN_1400c8180@1400c8180
+--- 140568ce8 [wechat_comm] SupportEmojiResponse error: {}  refs=2
+    from 1400c8eea  DATA  FUN_1400c8180@1400c8180
+    from 1400c939c  DATA  FUN_1400c8180@1400c8180
+--- 140568d18 [wechat_comm] parse SupportEmojiResponse failed  refs=2
+    from 1400c8f5a  DATA  FUN_1400c8180@1400c8180
+    from 1400c8f61  DATA  FUN_1400c8180@1400c8180
+--- 140568d50 [wechat_comm] SupportEmojiResponse, support_emoji: {}, session_id: {}  refs=2
+    from 1400c901c  DATA  FUN_1400c8180@1400c8180
+    from 1400c9023  DATA  FUN_1400c8180@1400c8180
+--- 140568d98 [wechat_comm] parse RefreshStateRequest failed  refs=2
+    from 1400c9193  DATA  FUN_1400c8180@1400c8180
+    from 1400c919a  DATA  FUN_1400c8180@1400c8180
+--- 140568dc8 [wechat_comm] RefreshStateRequest, support_emoji: {}  refs=2
+    from 1400c9222  DATA  FUN_1400c8180@1400c8180
+    from 1400c9229  DATA  FUN_1400c8180@1400c8180
+--- 140568e00 [wechat_comm] EmitEmojiResponse error: {}  refs=2
+    from 1400c9384  DATA  FUN_1400c8180@1400c8180
+    from 1400c939c  DATA  FUN_1400c8180@1400c8180
+--- 140568e30 [wechat_comm] EmitEmojiResponse, result: {}  refs=2
+    from 1400c9438  DATA  FUN_1400c8180@1400c8180
+    from 1400c943f  DATA  FUN_1400c8180@1400c8180
+--- 140568e60 [wechat_comm] EmitSmallEmojiResponse, result: {}  refs=2
+    from 1400c94ef  DATA  FUN_1400c8180@1400c8180
+    from 1400c94f6  DATA  FUN_1400c8180@1400c8180
+--- 140568e98 [wechat_comm] CursorContextResponse, cursor_pos: {}  refs=2
+    from 1400c95a9  DATA  FUN_1400c8180@1400c8180
+    from 1400c95b0  DATA  FUN_1400c8180@1400c8180
+--- 140568ed0 [wechat_comm] unhandled message type: {}  refs=2
+    from 1400c960f  DATA  FUN_1400c8180@1400c8180
+    from 1400c9616  DATA  FUN_1400c8180@1400c8180
+--- 140568f00 [wechat_comm] weixin window not exist!!!  refs=2
+    from 1400ca123  DATA  FUN_1400ca0d0@1400ca0d0
+    from 1400ca12a  DATA  FUN_1400ca0d0@1400ca0d0
+--- 140568f80 [wechat_comm] encrypt body failed!!!  refs=2
+    from 1400ca2bc  DATA  FUN_1400ca0d0@1400ca0d0
+    from 1400ca2c3  DATA  FUN_1400ca0d0@1400ca0d0
+--- 140568fa8 [wechat_comm] send message to wechat error: {} {}  refs=2
+    from 1400ca604  DATA  FUN_1400ca0d0@1400ca0d0
+    from 1400ca60b  DATA  FUN_1400ca0d0@1400ca0d0
+--- 140568fe0 [wechat_comm] get wechat process path failed: {}  refs=2
+    from 1400c7fd5  DATA  FUN_1400c7f30@1400c7f30
+    from 1400c7fdc  DATA  FUN_1400c7f30@1400c7f30
+--- 140569070 [wechat_comm] signature verification failed: {}  refs=2
+    from 1400c80ba  DATA  FUN_1400c7f30@1400c7f30
+    from 1400c80c1  DATA  FUN_1400c7f30@1400c7f30
+--- 1405690a0 [wechat_comm] file_path is empty  refs=2
+    from 1400c9cee  DATA  FUN_1400c9cb0@1400c9cb0
+    from 1400c9d03  DATA  FUN_1400c9cb0@1400c9cb0
+--- 1405690d0 wetype::server::wechat_message::WeChatMessageManager::Impl::RequestEmitEmoji  refs=1
+    from 1400c9d17  DATA  FUN_1400c9cb0@1400c9cb0
+--- 140569120 [wechat_comm] wechat emoji dir is empty  refs=2
+    from 1400c9d43  DATA  FUN_1400c9cb0@1400c9cb0
+    from 1400c9d03  DATA  FUN_1400c9cb0@1400c9cb0
+--- 14059c800 checksum mismatch  refs=2
+    from 1401f17c7  DATA  FUN_1401f1590@1401f1590
+    from 1401f17ce  DATA  FUN_1401f1590@1401f1590
+--- 14059cd30 block checksum mismatch  refs=2
+    from 1401ff532  DATA  FUN_1401ff3c0@1401ff3c0
+    from 1401ff539  DATA  FUN_1401ff3c0@1401ff3c0
+--- 1406e1d68 wetype.server.WTEmitEmojiResponseResult  refs=0
+--- 1406e1ea7 	wetype.server.WTEmitEmojiRequestMd5FileNameProductIDPendingTextsessionId  refs=0
+--- 140709538 .?AVWTEmitEmojiRequest@server@wetype@@  refs=0
+--- 140709570 .?AVWTEmitEmojiResponse@server@wetype@@  refs=0
+
+### CALLERS depth 1: 9
+    FUN_14008bfc0@14008bfc0
+    FUN_1400cadd0@1400cadd0
+    FUN_1400ca930@1400ca930
+    FUN_1400c71c0@1400c71c0
+    FUN_1400ca0a0@1400ca0a0
+    FUN_1401f18a0@1401f18a0
+    FUN_1401fffc0@1401fffc0
+    FUN_140200820@140200820
+    FUN_140200560@140200560
+
+=== DECOMPILED ===
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_14008aa00 @14008aa00  size=1737
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+DWORD FUN_14008aa00(HANDLE param_1)
+
+{
+  undefined8 *puVar1;
+  longlong lVar2;
+  BOOL BVar3;
+  DWORD DVar4;
+  undefined8 *TokenInformation;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  undefined8 uVar8;
+  PUCHAR pUVar9;
+  PDWORD pDVar10;
+  undefined1 auStackY_98 [32];
+  DWORD local_68 [2];
+  undefined1 local_60 [16];
+  HANDLE local_50;
+  undefined1 local_48;
+  undefined7 uStack_47;
+  undefined8 local_38;
+  ulonglong uStack_30;
+  ulonglong local_28;
+  
+  local_28 = DAT_1406f5e40 ^ (ulonglong)auStackY_98;
+  BVar3 = OpenProcessToken(param_1,8,&local_50);
+  if ((BVar3 != 0) && (local_50 != (HANDLE)0x0)) {
+    local_68[0] = 0;
+    GetTokenInformation(local_50,TokenIntegrityLevel,(LPVOID)0x0,0,local_68);
+    TokenInformation = LocalAlloc(0,(ulonglong)local_68[0]);
+    BVar3 = GetTokenInformation(local_50,TokenIntegrityLevel,TokenInformation,local_68[0],local_68);
+    if (BVar3 == 0) {
+      DVar4 = GetLastError();
+      uVar5 = FUN_1400a7a30(local_60,0);
+      uVar6 = FUN_1400a8520();
+      puVar7 = (undefined8 *)FUN_1400a8330(&local_48);
+      puVar1 = puVar7 + 2;
+      if (0xf < (ulonglong)puVar7[3]) {
+        puVar7 = (undefined8 *)*puVar7;
+      }
+      uVar6 = FUN_140083510(uVar6,puVar7,*puVar1);
+      uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+      uVar6 = FUN_140082860(uVar6,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp")
+      ;
+      uVar6 = FUN_140082860(uVar6,&DAT_140563f48);
+      uVar6 = FUN_140084f70(uVar6,0x5b7);
+      uVar6 = FUN_140082860(uVar6,&DAT_140563f94);
+      uVar8 = FUN_1400a82c0(0);
+      uVar6 = FUN_140082860(uVar6,uVar8);
+      uVar6 = FUN_140082860(uVar6,&DAT_140563f8c);
+      uVar8 = FUN_1400a84c0(0);
+      uVar6 = FUN_140082860(uVar6,uVar8);
+      uVar6 = FUN_140082860(uVar6,&DAT_140563f4c);
+      uVar8 = FUN_1400a8300();
+      uVar6 = FUN_140082860(uVar6,uVar8);
+      uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+      uVar6 = FUN_140082860(uVar6,"TipTextService GetProcessIntegrity failed. ");
+      uVar6 = FUN_140084f70(uVar6,DVar4);
+      FUN_1400a7dd0(uVar5,uVar6);
+      if (0xf < uStack_30) {
+        if (0xfff < uStack_30 + 1) {
+          lVar2 = *(longlong *)(CONCAT71(uStack_47,local_48) + -8);
+          if (0x1f < (CONCAT71(uStack_47,local_48) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+            FUN_14050cb84(lVar2,uStack_30 + 0x28);
+          }
+        }
+        thunk_FUN_1401ca000();
+      }
+    }
+    else {
+      pUVar9 = GetSidSubAuthorityCount((PSID)*TokenInformation);
+      if (pUVar9 == (PUCHAR)0x0) {
+        DVar4 = GetLastError();
+        uVar5 = FUN_1400a7a30(local_60,0);
+        uVar6 = FUN_1400a8520();
+        puVar7 = (undefined8 *)FUN_1400a8330(&local_48);
+        puVar1 = puVar7 + 2;
+        if (0xf < (ulonglong)puVar7[3]) {
+          puVar7 = (undefined8 *)*puVar7;
+        }
+        uVar6 = FUN_140083510(uVar6,puVar7,*puVar1);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+        uVar6 = FUN_140082860(uVar6,
+                              "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp");
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f48);
+        uVar6 = FUN_140084f70(uVar6,0x5be);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f94);
+        uVar8 = FUN_1400a82c0(0);
+        uVar6 = FUN_140082860(uVar6,uVar8);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f8c);
+        uVar8 = FUN_1400a84c0(0);
+        uVar6 = FUN_140082860(uVar6,uVar8);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f4c);
+        uVar8 = FUN_1400a8300();
+        uVar6 = FUN_140082860(uVar6,uVar8);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+        uVar6 = FUN_140082860(uVar6,
+                              "TipTextService GetProcessIntegrity pSidSubAuthorityCount is nullptr. "
+                             );
+        uVar6 = FUN_140084f70(uVar6,DVar4);
+        FUN_1400a7dd0(uVar5,uVar6);
+        if (0xf < uStack_30) {
+          if (0xfff < uStack_30 + 1) {
+            lVar2 = *(longlong *)(CONCAT71(uStack_47,local_48) + -8);
+            if (0x1f < (CONCAT71(uStack_47,local_48) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+              FUN_14050cb84(lVar2,uStack_30 + 0x28);
+            }
+          }
+          thunk_FUN_1401ca000();
+        }
+      }
+      else {
+        pDVar10 = GetSidSubAuthority((PSID)*TokenInformation,(uint)(byte)(*pUVar9 - 1));
+        if (pDVar10 != (PDWORD)0x0) {
+          uVar5 = FUN_1400a7a30(local_60,0);
+          uVar6 = FUN_1400a8520();
+          puVar7 = (undefined8 *)FUN_1400a8330(&local_48);
+          puVar1 = puVar7 + 2;
+          if (0xf < (ulonglong)puVar7[3]) {
+            puVar7 = (undefined8 *)*puVar7;
+          }
+          uVar6 = FUN_140083510(uVar6,puVar7,*puVar1);
+          uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+          uVar6 = FUN_140082860(uVar6,
+                                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp");
+          uVar6 = FUN_140082860(uVar6,&DAT_140563f48);
+          uVar6 = FUN_140084f70(uVar6,0x5c9);
+          uVar6 = FUN_140082860(uVar6,&DAT_140563f94);
+          uVar8 = FUN_1400a82c0(0);
+          uVar6 = FUN_140082860(uVar6,uVar8);
+          uVar6 = FUN_140082860(uVar6,&DAT_140563f8c);
+          uVar8 = FUN_1400a84c0(0);
+          uVar6 = FUN_140082860(uVar6,uVar8);
+          uVar6 = FUN_140082860(uVar6,&DAT_140563f4c);
+          uVar8 = FUN_1400a8300();
+          uVar6 = FUN_140082860(uVar6,uVar8);
+          uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+          uVar6 = FUN_140082860(uVar6,"TipTextService GetProcessIntegrity SidSubAuthority is ");
+          uVar6 = FUN_140089cc0(uVar6,*pDVar10);
+          FUN_1400a7dd0(uVar5,uVar6);
+          if (0xf < uStack_30) {
+            if (0xfff < uStack_30 + 1) {
+              lVar2 = *(longlong *)(CONCAT71(uStack_47,local_48) + -8);
+              if (0x1f < (CONCAT71(uStack_47,local_48) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+                FUN_14050cb84(lVar2,uStack_30 + 0x28);
+              }
+            }
+            thunk_FUN_1401ca000();
+          }
+          local_38 = 0;
+          uStack_30 = 0xf;
+          local_48 = 0;
+          FUN_1400a7cf0(local_60);
+          LocalFree(TokenInformation);
+          return *pDVar10;
+        }
+        DVar4 = GetLastError();
+        uVar5 = FUN_1400a7a30(local_60,0);
+        uVar6 = FUN_1400a8520();
+        puVar7 = (undefined8 *)FUN_1400a8330(&local_48);
+        puVar1 = puVar7 + 2;
+        if (0xf < (ulonglong)puVar7[3]) {
+          puVar7 = (undefined8 *)*puVar7;
+        }
+        uVar6 = FUN_140083510(uVar6,puVar7,*puVar1);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+        uVar6 = FUN_140082860(uVar6,
+                              "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp");
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f48);
+        uVar6 = FUN_140084f70(uVar6,0x5c5);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f94);
+        uVar8 = FUN_1400a82c0(0);
+        uVar6 = FUN_140082860(uVar6,uVar8);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f8c);
+        uVar8 = FUN_1400a84c0(0);
+        uVar6 = FUN_140082860(uVar6,uVar8);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563f4c);
+        uVar8 = FUN_1400a8300();
+        uVar6 = FUN_140082860(uVar6,uVar8);
+        uVar6 = FUN_140082860(uVar6,&DAT_140563fd8);
+        uVar6 = FUN_140082860(uVar6,
+                              "TipTextService GetProcessIntegrity pSidSubAuthority is nullptr. ");
+        uVar6 = FUN_140084f70(uVar6,DVar4);
+        FUN_1400a7dd0(uVar5,uVar6);
+        if (0xf < uStack_30) {
+          if (0xfff < uStack_30 + 1) {
+            lVar2 = *(longlong *)(CONCAT71(uStack_47,local_48) + -8);
+            if (0x1f < (CONCAT71(uStack_47,local_48) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+              FUN_14050cb84(lVar2,uStack_30 + 0x28);
+            }
+          }
+          thunk_FUN_1401ca000();
+        }
+      }
+    }
+    uStack_30 = 0xf;
+    local_38 = 0;
+    local_48 = 0;
+    FUN_1400a7cf0(local_60);
+    LocalFree(TokenInformation);
+  }
+  return 0xffffffff;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400c8180 @1400c8180  size=5961
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Type propagation algorithm not settling */
+
+void FUN_1400c8180(longlong param_1,undefined ********param_2)
+
+{
+  undefined8 *puVar1;
+  byte bVar2;
+  longlong lVar3;
+  uint uVar4;
+  undefined1 uVar5;
+  char cVar6;
+  uint uVar7;
+  int iVar8;
+  longlong lVar9;
+  undefined ********ppppppppuVar10;
+  undefined ********ppppppppuVar11;
+  undefined8 uVar12;
+  undefined ********ppppppppuVar13;
+  undefined *******pppppppuVar14;
+  ulonglong uVar15;
+  undefined1 *puVar16;
+  undefined8 *puVar17;
+  longlong lVar18;
+  undefined1 auStack_338 [32];
+  undefined ********local_318;
+  undefined ********local_310;
+  undefined ********local_308;
+  undefined1 local_2f8 [8];
+  undefined **local_2f0 [3];
+  ulonglong local_2d8;
+  undefined ********local_2c8;
+  int local_2c0;
+  undefined ********local_2b8;
+  undefined ********ppppppppuStack_2b0;
+  longlong local_2a8;
+  undefined ********local_298;
+  undefined *******pppppppuStack_290;
+  undefined *******local_288;
+  undefined *******pppppppuStack_280;
+  undefined ********local_278;
+  undefined *******pppppppuStack_270;
+  undefined8 *local_268;
+  ulonglong uStack_260;
+  undefined ********local_258;
+  undefined ********local_248 [2];
+  undefined *******local_238;
+  ulonglong local_230;
+  ulonglong local_228;
+  ulonglong local_220;
+  undefined *******local_210 [2];
+  undefined *******local_200;
+  ulonglong local_1f8;
+  undefined *******local_1f0;
+  undefined *******pppppppuStack_1e8;
+  undefined *******local_1e0;
+  ulonglong uStack_1d8;
+  undefined1 local_1d0;
+  undefined7 uStack_1cf;
+  longlong local_1c8;
+  undefined1 local_1b8 [93];
+  char local_15b;
+  undefined1 local_158 [256];
+  undefined ********local_58;
+  undefined ********ppppppppuStack_50;
+  undefined ********local_48;
+  undefined *******pppppppuStack_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_1406f5e40 ^ (ulonglong)auStack_338;
+  lVar18 = 0;
+  lVar3 = *(longlong *)(param_1 + 0x30);
+  lVar9 = *(longlong *)(lVar3 + 0x28);
+  if (lVar9 == 0) {
+    lVar9 = FUN_14011e300();
+    *(longlong *)(lVar3 + 0x28) = lVar9;
+    if (lVar9 == 0) {
+      FUN_140092850(&local_2b8,"cannot get instance for type");
+                    /* WARNING: Subroutine does not return */
+      FUN_1404fef54(&local_2b8,&DAT_1406d2180);
+    }
+  }
+  FUN_14011dc40(lVar9,local_1b8);
+  cVar6 = FUN_14011da90(lVar9);
+  if ((local_15b == '\0') || (cVar6 == '\0')) {
+    iVar8 = FUN_14048d4a0(2);
+    if (iVar8 == 0) {
+      return;
+    }
+    local_2b8 = (undefined ********)CONCAT71(local_2b8._1_7_,local_15b);
+    local_58 = (undefined ********)CONCAT71(local_58._1_7_,cVar6);
+    local_1f0 = (undefined *******)local_2b8;
+    pppppppuStack_1e8 = (undefined *******)ppppppppuStack_2b0;
+    local_1e0 = (undefined *******)local_58;
+    uStack_1d8 = (ulonglong)ppppppppuStack_50;
+    ppppppppuStack_2b0 = &local_1f0;
+    local_48 = (undefined ********)0x140568a40;
+    pppppppuStack_40 = (undefined *******)0x39;
+    local_2b8 = (undefined ********)0x77;
+    local_58 = (undefined ********)0x140568a40;
+    ppppppppuStack_50 = (undefined ********)0x39;
+    FUN_14047caf0(&local_278,&local_58,&local_2b8);
+    local_2b8 = (undefined ********)&local_278;
+    if (0xf < uStack_260) {
+      local_2b8 = local_278;
+    }
+    ppppppppuStack_50 = (undefined ********)local_268;
+    ppppppppuStack_2b0 = (undefined ********)local_268;
+    local_310 = (undefined ********)&local_2b8;
+    local_318 = (undefined ********)0x140568888;
+    local_58 = local_2b8;
+    FUN_14007f6c0(2,
+                  "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                  ,0x54,
+                  "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage")
+    ;
+    if (uStack_260 < 0x10) {
+      return;
+    }
+    if (0xfff < uStack_260 + 1) {
+      if (0x1f < (ulonglong)((longlong)local_278 + (-8 - (longlong)local_278[-1]))) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(local_278[-1],uStack_260 + 0x28);
+      }
+    }
+    thunk_FUN_1401ca000();
+    return;
+  }
+  FUN_140150d60(local_2f0,0);
+  local_2f0[0] = wetype::server::WeTypeCommunication::vftable;
+  local_58 = param_2;
+  if ((undefined *******)0xf < param_2[3]) {
+    local_58 = (undefined ********)*param_2;
+  }
+  ppppppppuStack_50 = (undefined ********)param_2[2];
+  local_48 = local_58;
+  pppppppuStack_40 = (undefined *******)ppppppppuStack_50;
+  cVar6 = FUN_14037d4d0(local_2f0,&local_58);
+  if (cVar6 == '\0') {
+    local_48 = (undefined ********)0x140568ad0;
+    pppppppuStack_40 = (undefined *******)0x26;
+    local_310 = (undefined ********)&local_48;
+    local_318 = (undefined ********)0x140568888;
+    FUN_14007d630(4,
+                  "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                  ,0x5a);
+    goto LAB_1400c96af;
+  }
+  local_48 = (undefined ********)CONCAT44(local_48._4_4_,local_2c0);
+  local_58 = (undefined ********)0x140568af8;
+  ppppppppuStack_50 = (undefined ********)0x2b;
+  local_308 = (undefined ********)&local_48;
+  local_310 = (undefined ********)&local_58;
+  local_318 = (undefined ********)0x140568888;
+  FUN_140090dc0(2,
+                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                ,0x5f,
+                "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage");
+  FUN_140084080(&local_298,local_2d8 & 0xfffffffffffffffc);
+  if (((local_2c0 == 0xe) || (local_2c0 == 2)) || (local_2c0 == 0x10)) {
+LAB_1400c85f7:
+    switch(local_2c0) {
+    case 2:
+      break;
+    default:
+      local_48 = (undefined ********)CONCAT44(local_48._4_4_,local_2c0);
+      local_58 = (undefined ********)0x140568ed0;
+      ppppppppuStack_50 = (undefined ********)0x28;
+      local_308 = (undefined ********)&local_48;
+      local_310 = (undefined ********)&local_58;
+      local_318 = (undefined ********)0x140568888;
+      FUN_140090dc0(3,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0xea,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                   );
+      break;
+    case 4:
+      if (local_2c8 == (undefined ********)0x0) {
+        FUN_140150cd0(&local_1f0,0);
+        local_1f0 = (undefined *******)wetype::server::WTSupportEmojiResponse::vftable;
+        local_2b8 = (undefined ********)&local_298;
+        if ((undefined *******)0xf < pppppppuStack_280) {
+          local_2b8 = local_298;
+        }
+        ppppppppuStack_50 = (undefined ********)local_288;
+        ppppppppuStack_2b0 = (undefined ********)local_288;
+        local_58 = local_2b8;
+        cVar6 = FUN_14037d4d0(&local_1f0,&local_2b8);
+        uVar5 = local_1d0;
+        if (cVar6 == '\0') {
+          local_58 = (undefined ********)0x140568d18;
+          ppppppppuStack_50 = (undefined ********)0x2f;
+          local_310 = (undefined ********)&local_58;
+          local_318 = (undefined ********)0x140568888;
+          FUN_14007d630(4,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                        ,0xb8,
+                        "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                       );
+          FUN_140150fe0(&local_1f0);
+        }
+        else {
+          puVar17 = (undefined8 *)(uStack_1d8 & 0xfffffffffffffffc);
+          iVar8 = FUN_14048d4a0(2);
+          if (iVar8 != 0) {
+            local_2b8 = (undefined ********)CONCAT71(local_2b8._1_7_,uVar5);
+            local_268 = puVar17;
+            if (0xf < (ulonglong)puVar17[3]) {
+              local_268 = (undefined8 *)*puVar17;
+            }
+            uStack_260 = puVar17[2];
+            local_278 = local_2b8;
+            pppppppuStack_270 = (undefined *******)ppppppppuStack_2b0;
+            ppppppppuStack_2b0 = (undefined ********)&local_278;
+            local_48 = (undefined ********)0x140568d50;
+            pppppppuStack_40 = (undefined *******)0x45;
+            local_2b8 = (undefined ********)0xd7;
+            local_58 = (undefined ********)0x140568d50;
+            ppppppppuStack_50 = (undefined ********)0x45;
+            FUN_14047caf0(local_248,&local_58,&local_2b8);
+            local_2b8 = (undefined ********)local_248;
+            if (0xf < local_230) {
+              local_2b8 = local_248[0];
+            }
+            ppppppppuStack_50 = (undefined ********)local_238;
+            ppppppppuStack_2b0 = (undefined ********)local_238;
+            local_310 = (undefined ********)&local_2b8;
+            local_318 = (undefined ********)0x140568888;
+            local_58 = local_2b8;
+            FUN_14007f6c0(2,
+                          "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                          ,0xbc,
+                          "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                         );
+            if (0xf < local_230) {
+              if (0xfff < local_230 + 1) {
+                if ((char *)0x1f <
+                    (char *)((longlong)local_248[0] + (-8 - (longlong)local_248[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+                  FUN_14050cb84(local_248[0][-1],local_230 + 0x28);
+                }
+              }
+              thunk_FUN_1401ca000();
+            }
+          }
+          puVar17 = (undefined8 *)(uStack_1d8 & 0xfffffffffffffffc);
+          if ((undefined8 *)(param_1 + 0x130) != puVar17) {
+            puVar1 = puVar17 + 2;
+            if (0xf < (ulonglong)puVar17[3]) {
+              puVar17 = (undefined8 *)*puVar17;
+            }
+            FUN_140082660((undefined8 *)(param_1 + 0x130),puVar17,*puVar1);
+          }
+          FUN_1400c7550(*(longlong *)(param_1 + 0x30) + 0x58,local_1d0);
+          FUN_140150fe0(&local_1f0);
+        }
+      }
+      else {
+        local_58 = (undefined ********)0x140568ce8;
+        ppppppppuStack_50 = (undefined ********)0x2c;
+        uVar12 = 0xb3;
+LAB_1400c939c:
+        local_48 = local_2c8;
+        local_308 = (undefined ********)&local_48;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_1400c4320(4,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,uVar12,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+      }
+      break;
+    case 6:
+      if (local_2c8 != (undefined ********)0x0) {
+        local_58 = (undefined ********)0x140568e00;
+        ppppppppuStack_50 = (undefined ********)0x29;
+        uVar12 = 0xcf;
+        goto LAB_1400c939c;
+      }
+      FUN_140150bc0(&local_278,0);
+      local_278 = (undefined ********)wetype::server::WTEmitEmojiResponse::vftable;
+      local_2b8 = (undefined ********)&local_298;
+      if ((undefined *******)0xf < pppppppuStack_280) {
+        local_2b8 = local_298;
+      }
+      ppppppppuStack_50 = (undefined ********)local_288;
+      ppppppppuStack_2b0 = (undefined ********)local_288;
+      local_58 = local_2b8;
+      cVar6 = FUN_14037d4d0(&local_278,&local_2b8);
+      if (cVar6 != '\0') {
+        local_308 = (undefined ********)(uStack_260 & 0xfffffffffffffffc);
+        local_58 = (undefined ********)0x140568e30;
+        ppppppppuStack_50 = (undefined ********)0x2b;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_1400c41c0(2,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,0xd5,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+      }
+      FUN_140150ec0(&local_278);
+      break;
+    case 8:
+      FUN_140150bf0(&local_278,0);
+      local_278 = (undefined ********)wetype::server::WTEmitSmallEmojiResponse::vftable;
+      local_2b8 = (undefined ********)&local_298;
+      if ((undefined *******)0xf < pppppppuStack_280) {
+        local_2b8 = local_298;
+      }
+      ppppppppuStack_50 = (undefined ********)local_288;
+      ppppppppuStack_2b0 = (undefined ********)local_288;
+      local_58 = local_2b8;
+      cVar6 = FUN_14037d4d0(&local_278,&local_2b8);
+      if (cVar6 != '\0') {
+        local_308 = (undefined ********)(uStack_260 & 0xfffffffffffffffc);
+        local_58 = (undefined ********)0x140568e60;
+        ppppppppuStack_50 = (undefined ********)0x30;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_1400c41c0(2,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,0xdc,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+      }
+      FUN_140150f00(&local_278);
+      break;
+    case 9:
+      FUN_140150c70(&local_278,0);
+      local_278 = (undefined ********)wetype::server::WTRefreshStateRequest::vftable;
+      local_2b8 = (undefined ********)&local_298;
+      if ((undefined *******)0xf < pppppppuStack_280) {
+        local_2b8 = local_298;
+      }
+      ppppppppuStack_50 = (undefined ********)local_288;
+      ppppppppuStack_2b0 = (undefined ********)local_288;
+      local_58 = local_2b8;
+      cVar6 = FUN_14037d4d0(&local_278,&local_2b8);
+      if (cVar6 == '\0') {
+        local_58 = (undefined ********)0x140568d98;
+        ppppppppuStack_50 = (undefined ********)0x2e;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_14007d630(4,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,0xc3,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+        FUN_140150f80(&local_278);
+      }
+      else {
+        uVar5 = (undefined1)uStack_260;
+        iVar8 = FUN_14048d4a0(2);
+        if (iVar8 != 0) {
+          local_2b8 = (undefined ********)CONCAT71(local_2b8._1_7_,uVar5);
+          ppppppppuStack_50 = (undefined ********)&local_2b8;
+          local_58 = (undefined ********)0x7;
+          local_48 = (undefined ********)0x140568dc8;
+          pppppppuStack_40 = (undefined *******)0x34;
+          FUN_14047caf0(local_248,&local_48,&local_58);
+          local_58 = (undefined ********)local_248;
+          if (0xf < local_230) {
+            local_58 = local_248[0];
+          }
+          ppppppppuStack_50 = (undefined ********)local_238;
+          local_310 = (undefined ********)&local_58;
+          local_318 = (undefined ********)0x140568888;
+          FUN_14007f6c0(2,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                        ,0xc6,
+                        "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                       );
+          if (0xf < local_230) {
+            if (0xfff < local_230 + 1) {
+              if ((char *)0x1f <
+                  (char *)((longlong)local_248[0] + (-8 - (longlong)local_248[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+                FUN_14050cb84(local_248[0][-1],local_230 + 0x28);
+              }
+            }
+            thunk_FUN_1401ca000();
+          }
+        }
+        FUN_1400c7550(*(longlong *)(param_1 + 0x30) + 0x58,uStack_260 & 0xff);
+        FUN_140150c90(&local_1f0,0);
+        local_1f0 = (undefined *******)wetype::server::WTRefreshStateResponse::vftable;
+        uStack_1d8 = CONCAT71(uStack_1d8._1_7_,1);
+        local_1e0 = (undefined *******)((ulonglong)local_1e0 | 1);
+        uVar12 = FUN_14037d570(&local_1f0,local_248);
+        FUN_1400ca0d0(param_1,10,uVar12,1);
+        FUN_140150fb0(&local_1f0);
+        FUN_140150f80(&local_278);
+      }
+      break;
+    case 0xc:
+      FUN_140150b50(&local_278,0);
+      local_278 = (undefined ********)wetype::server::WTCursorContextResponse::vftable;
+      local_2b8 = (undefined ********)&local_298;
+      if ((undefined *******)0xf < pppppppuStack_280) {
+        local_2b8 = local_298;
+      }
+      ppppppppuStack_50 = (undefined ********)local_288;
+      ppppppppuStack_2b0 = (undefined ********)local_288;
+      local_58 = local_2b8;
+      cVar6 = FUN_14037d4d0(&local_278,&local_2b8);
+      if (cVar6 != '\0') {
+        local_48 = local_258;
+        local_58 = (undefined ********)0x140568e98;
+        ppppppppuStack_50 = (undefined ********)0x33;
+        local_308 = (undefined ********)&local_48;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_1400c4320(2,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,0xe4,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+      }
+      FUN_140150e20(&local_278);
+      break;
+    case 0xe:
+      if (local_2c8 != (undefined ********)0x0) {
+        local_58 = (undefined ********)0x140568b78;
+        ppppppppuStack_50 = (undefined ********)0x2c;
+        uVar12 = 0x7d;
+        goto LAB_1400c939c;
+      }
+      FUN_140150c40(&local_278,0);
+      local_278 = (undefined ********)wetype::server::WTGetWechatUidResponse::vftable;
+      local_58 = (undefined ********)&local_298;
+      if ((undefined *******)0xf < pppppppuStack_280) {
+        local_58 = local_298;
+      }
+      ppppppppuStack_50 = (undefined ********)local_288;
+      cVar6 = FUN_14037d4d0(&local_278,&local_58);
+      if (cVar6 == '\0') {
+        local_58 = (undefined ********)0x140568ba8;
+        ppppppppuStack_50 = (undefined ********)0x2f;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_14007d630(4,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,0x82,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+      }
+      else {
+        FUN_140084080(local_210,uStack_260 & 0xfffffffffffffffc);
+        iVar8 = FUN_14048d4a0(2);
+        if (iVar8 != 0) {
+          local_2b8 = local_210;
+          if (0xf < local_1f8) {
+            local_2b8 = (undefined ********)CONCAT71(local_210[0]._1_7_,local_210[0]._0_1_);
+          }
+          ppppppppuStack_2b0 = (undefined ********)local_200;
+          ppppppppuStack_50 = (undefined ********)&local_2b8;
+          local_58 = (undefined ********)0xd;
+          local_48 = (undefined ********)0x140568bd8;
+          pppppppuStack_40 = (undefined *******)0x2e;
+          FUN_14047caf0(local_248,&local_48,&local_58);
+          local_58 = (undefined ********)local_248;
+          if (0xf < local_230) {
+            local_58 = local_248[0];
+          }
+          ppppppppuStack_50 = (undefined ********)local_238;
+          local_310 = (undefined ********)&local_58;
+          local_318 = (undefined ********)0x140568888;
+          FUN_14007f6c0(2,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                        ,0x86,
+                        "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                       );
+          if (0xf < local_230) {
+            if (0xfff < local_230 + 1) {
+              if ((char *)0x1f <
+                  (char *)((longlong)local_248[0] + (-8 - (longlong)local_248[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+                FUN_14050cb84(local_248[0][-1],local_230 + 0x28);
+              }
+            }
+            thunk_FUN_1401ca000();
+          }
+        }
+        ppppppppuVar11 = (undefined ********)(param_1 + 0xa0);
+        local_48 = ppppppppuVar11;
+        iVar8 = FUN_1404de430(ppppppppuVar11);
+        if (iVar8 != 0) {
+                    /* WARNING: Subroutine does not return */
+          FUN_1404de6ac(5);
+        }
+        if (*(int *)(param_1 + 0xec) == 0x7fffffff) {
+          *(undefined4 *)(param_1 + 0xec) = 0x7ffffffe;
+                    /* WARNING: Subroutine does not return */
+          FUN_1404de6ac(6);
+        }
+        if ((undefined ********)(param_1 + 0xf0) != local_210) {
+          puVar16 = (undefined1 *)local_210;
+          if (0xf < local_1f8) {
+            puVar16 = (undefined1 *)CONCAT71(local_210[0]._1_7_,local_210[0]._0_1_);
+          }
+          FUN_140082660((undefined1 *)(param_1 + 0xf0),puVar16,local_200);
+        }
+        FUN_1404de438(ppppppppuVar11);
+        lVar3 = *(longlong *)(param_1 + 0x30);
+        lVar9 = *(longlong *)(lVar3 + 0x28);
+        if (lVar9 == 0) {
+          lVar9 = FUN_14011e300();
+          *(longlong *)(lVar3 + 0x28) = lVar9;
+          if (lVar9 == 0) {
+            FUN_140092850(&local_2b8,"cannot get instance for type");
+                    /* WARNING: Subroutine does not return */
+            FUN_1404fef54(&local_2b8,&DAT_1406d2180);
+          }
+        }
+        FUN_14011dcc0(lVar9,&local_1f0);
+        if (*(longlong *)((uStack_1d8 & 0xfffffffffffffffc) + 0x10) == 0) {
+LAB_1400c8ba1:
+          uVar12 = FUN_1400c7100(*(longlong *)(param_1 + 0x30) + 0x10);
+          FUN_140158bc0(uVar12,local_210);
+          FUN_140150de0(&local_1f0);
+          if (0xf < local_1f8) {
+            if (0xfff < local_1f8 + 1) {
+              lVar3 = *(longlong *)(CONCAT71(local_210[0]._1_7_,local_210[0]._0_1_) + -8);
+              lVar9 = CONCAT71(local_210[0]._1_7_,local_210[0]._0_1_) - lVar3;
+joined_r0x0001400c8bfd:
+              if (0x1f < lVar9 - 8U) {
+                    /* WARNING: Subroutine does not return */
+                FUN_14050cb84(lVar3,local_1f8 + 0x28);
+              }
+            }
+LAB_1400c8a65:
+            thunk_FUN_1401ca000();
+          }
+        }
+        else {
+          ppppppppuVar10 = (undefined ********)(CONCAT71(uStack_1cf,local_1d0) + local_1c8);
+          ppppppppuVar11 = (undefined ********)FUN_14008d900();
+          if (ppppppppuVar10 <= ppppppppuVar11) {
+            iVar8 = FUN_14048d4a0(2);
+            if (iVar8 != 0) {
+              ppppppppuStack_50 = (undefined ********)&local_2b8;
+              local_58 = (undefined ********)0x4;
+              local_48 = (undefined ********)0x140568c28;
+              pppppppuStack_40 = (undefined *******)0x2d;
+              local_2b8 = ppppppppuVar10;
+              FUN_14047caf0(local_248,&local_48,&local_58);
+              local_58 = (undefined ********)local_248;
+              if (0xf < local_230) {
+                local_58 = local_248[0];
+              }
+              ppppppppuStack_50 = (undefined ********)local_238;
+              local_310 = (undefined ********)&local_58;
+              local_318 = (undefined ********)0x140568888;
+              FUN_14007f6c0(2,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                            ,0x92,
+                            "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                           );
+              if (0xf < local_230) {
+                if (0xfff < local_230 + 1) {
+                  if ((char *)0x1f <
+                      (char *)((longlong)local_248[0] + (-8 - (longlong)local_248[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+                    FUN_14050cb84(local_248[0][-1],local_230 + 0x28);
+                  }
+                }
+                thunk_FUN_1401ca000();
+              }
+            }
+            goto LAB_1400c8ba1;
+          }
+          local_58 = (undefined ********)0x140568c08;
+          ppppppppuStack_50 = (undefined ********)0x1c;
+          local_310 = (undefined ********)&local_58;
+          local_318 = (undefined ********)0x140568888;
+          FUN_14007d630(2,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                        ,0x8d,
+                        "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                       );
+          FUN_1400ca930(param_1,uStack_1d8 & 0xfffffffffffffffc);
+          FUN_140150de0(&local_1f0);
+          if (0xf < local_1f8) {
+            if (0xfff < local_1f8 + 1) {
+              lVar3 = *(longlong *)(CONCAT71(local_210[0]._1_7_,local_210[0]._0_1_) + -8);
+              lVar9 = CONCAT71(local_210[0]._1_7_,local_210[0]._0_1_) - lVar3;
+              goto joined_r0x0001400c8bfd;
+            }
+            goto LAB_1400c8a65;
+          }
+        }
+        local_200 = (undefined *******)0x0;
+        local_1f8 = 0xf;
+        local_210[0]._0_1_ = 0;
+      }
+      FUN_140150f40(&local_278);
+      break;
+    case 0x10:
+      if (local_2c8 == (undefined ********)0x0) {
+        FUN_140150d30(local_248,0);
+        local_248[0] = (undefined ********)wetype::server::WTVerifyTokenResponse::vftable;
+        local_2b8 = (undefined ********)&local_298;
+        if ((undefined *******)0xf < pppppppuStack_280) {
+          local_2b8 = local_298;
+        }
+        ppppppppuStack_50 = (undefined ********)local_288;
+        ppppppppuStack_2b0 = (undefined ********)local_288;
+        local_58 = local_2b8;
+        cVar6 = FUN_14037d4d0(local_248,&local_2b8);
+        if (cVar6 == '\0') {
+          local_58 = (undefined ********)0x140568c88;
+          ppppppppuStack_50 = (undefined ********)0x2e;
+          local_310 = (undefined ********)&local_58;
+          local_318 = (undefined ********)0x140568888;
+          FUN_14007d630(4,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                        ,0xa1);
+          FUN_140151060(local_248);
+        }
+        else {
+          local_308 = (undefined ********)(local_228 & 0xfffffffffffffffc);
+          local_58 = (undefined ********)0x140568cb8;
+          ppppppppuStack_50 = (undefined ********)0x2f;
+          local_310 = (undefined ********)&local_58;
+          local_318 = (undefined ********)0x140568888;
+          FUN_1400c41c0(2,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                        ,0xa5,
+                        "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                       );
+          puVar17 = (undefined8 *)(local_228 & 0xfffffffffffffffc);
+          if ((undefined8 *)(param_1 + 0x110) != puVar17) {
+            puVar1 = puVar17 + 2;
+            if (0xf < (ulonglong)puVar17[3]) {
+              puVar17 = (undefined8 *)*puVar17;
+            }
+            FUN_140082660((undefined8 *)(param_1 + 0x110),puVar17,*puVar1);
+          }
+          puVar17 = (undefined8 *)(local_220 & 0xfffffffffffffffc);
+          if ((undefined8 *)(param_1 + 0x130) != puVar17) {
+            puVar1 = puVar17 + 2;
+            if (0xf < (ulonglong)puVar17[3]) {
+              puVar17 = (undefined8 *)*puVar17;
+            }
+            FUN_140082660((undefined8 *)(param_1 + 0x130),puVar17,*puVar1);
+          }
+          FUN_140150cb0(&local_2b8,0);
+          local_2b8 = (undefined ********)wetype::server::WTSupportEmojiRequest::vftable;
+          FUN_14037d570(&local_2b8,&local_278);
+          uVar12 = FUN_140084080(&local_1f0,&local_278);
+          FUN_1400ca0d0(param_1,3,uVar12,1);
+          if (0xf < uStack_260) {
+            if (0xfff < uStack_260 + 1) {
+              if (0x1f < (ulonglong)((longlong)local_278 + (-8 - (longlong)local_278[-1]))) {
+                    /* WARNING: Subroutine does not return */
+                FUN_14050cb84(local_278[-1],uStack_260 + 0x28);
+              }
+            }
+            thunk_FUN_1401ca000();
+          }
+          local_268 = (undefined8 *)0x0;
+          uStack_260 = 0xf;
+          local_278 = (undefined ********)((ulonglong)local_278 & 0xffffffffffffff00);
+          FUN_14037e140(&local_2b8);
+          FUN_140151060(local_248);
+        }
+      }
+      else {
+        local_48 = local_2c8;
+        local_58 = (undefined ********)0x140568c58;
+        ppppppppuStack_50 = (undefined ********)0x2b;
+        local_308 = (undefined ********)&local_48;
+        local_310 = (undefined ********)&local_58;
+        local_318 = (undefined ********)0x140568888;
+        FUN_1400c4320(4,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                      ,0x99,
+                      "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                     );
+        FUN_140150a90(&local_278,0);
+        local_278 = (undefined ********)wetype::server::GetWxTokenRsp::vftable;
+        lVar3 = *(longlong *)(param_1 + 0x30);
+        lVar9 = *(longlong *)(lVar3 + 0x28);
+        if (lVar9 == 0) {
+          lVar9 = FUN_14011e300();
+          *(longlong *)(lVar3 + 0x28) = lVar9;
+          if (lVar9 == 0) {
+            FUN_140092850(&local_2b8,"cannot get instance for type");
+                    /* WARNING: Subroutine does not return */
+            FUN_1404fef54(&local_2b8,&DAT_1406d2180);
+          }
+        }
+        FUN_140122910(lVar9,&local_278);
+        FUN_140150de0(&local_278);
+        puVar17 = (undefined8 *)(param_1 + 0x110);
+        *(undefined8 *)(param_1 + 0x120) = 0;
+        if (0xf < *(ulonglong *)(param_1 + 0x128)) {
+          puVar17 = (undefined8 *)*puVar17;
+        }
+        *(undefined1 *)puVar17 = 0;
+        puVar17 = (undefined8 *)(param_1 + 0x130);
+        *(undefined8 *)(param_1 + 0x140) = 0;
+        if (0xf < *(ulonglong *)(param_1 + 0x148)) {
+          puVar17 = (undefined8 *)*puVar17;
+        }
+        *(undefined1 *)puVar17 = 0;
+      }
+    }
+  }
+  else {
+    local_2b8 = (undefined ********)0x0;
+    ppppppppuStack_2b0 = (undefined ********)0x0;
+    local_2a8 = 0;
+    FUN_1400c7a70(param_1,local_248);
+    pppppppuVar14 = local_288;
+    if (local_238 == (undefined *******)0x0) {
+      local_58 = (undefined ********)0x140568b28;
+      ppppppppuStack_50 = (undefined ********)0x27;
+      local_310 = (undefined ********)&local_58;
+      local_318 = (undefined ********)0x140568888;
+      FUN_14007d630(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0x6e,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                   );
+      ppppppppuVar13 = local_2b8;
+    }
+    else {
+      ppppppppuVar11 = (undefined ********)local_248;
+      if (0xf < local_230) {
+        ppppppppuVar11 = local_248[0];
+      }
+      uVar4 = (uint)local_288;
+      ppppppppuVar10 = (undefined ********)&local_298;
+      if ((undefined *******)0xf < pppppppuStack_280) {
+        ppppppppuVar10 = local_298;
+      }
+      ppppppppuVar13 = local_2b8;
+      if (((ppppppppuVar10 != (undefined ********)0x0) &&
+          (ppppppppuVar11 != (undefined ********)0x0)) &&
+         ((0xf < (uint)local_288 && (((ulonglong)local_288 & 0xf) == 0)))) {
+        local_48 = (undefined ********)0x0;
+        pppppppuStack_40 = (undefined *******)0x0;
+        uVar7 = (uint)local_238;
+        if (0x10 < uVar7) {
+          uVar7 = 0x10;
+        }
+        FUN_140545090(&local_48,ppppppppuVar11,uVar7);
+        local_58 = local_48;
+        ppppppppuStack_50 = (undefined ********)pppppppuStack_40;
+        FUN_1400cdef0(&local_2b8,(ulonglong)pppppppuVar14 & 0xffffffff);
+        FUN_1402426b0(&local_48,0x80,local_158);
+        ppppppppuVar13 = local_2b8;
+        local_310 = (undefined ********)((ulonglong)local_310 & 0xffffffff00000000);
+        local_318 = (undefined ********)&local_58;
+        FUN_140243880(ppppppppuVar10,local_2b8,(ulonglong)pppppppuVar14 & 0xffffffff,local_158);
+        bVar2 = *(byte *)((ulonglong)(uVar4 - 1) + (longlong)ppppppppuVar13);
+        lVar18 = local_2a8;
+        if (bVar2 - 1 < 0x10) {
+          FUN_1400cdef0(&local_2b8,uVar4 - bVar2);
+          ppppppppuVar11 = local_2b8;
+          ppppppppuVar10 =
+               (undefined ********)FUN_1400c4090(&local_278,local_2b8,ppppppppuStack_2b0,local_2f8);
+          if (&local_298 != (undefined *********)ppppppppuVar10) {
+            if ((undefined *******)0xf < pppppppuStack_280) {
+              pppppppuVar14 = (undefined *******)((longlong)pppppppuStack_280 + 1);
+              ppppppppuVar13 = local_298;
+              if ((undefined *******)0xfff < pppppppuVar14) {
+                pppppppuVar14 = pppppppuStack_280 + 5;
+                ppppppppuVar13 = (undefined ********)local_298[-1];
+                if ((char *)0x1f < (char *)((longlong)local_298 + (-8 - (longlong)ppppppppuVar13)))
+                goto LAB_1400c9846;
+              }
+              thunk_FUN_1401ca000(ppppppppuVar13,pppppppuVar14);
+            }
+            local_298 = (undefined ********)*ppppppppuVar10;
+            pppppppuStack_290 = ppppppppuVar10[1];
+            local_288 = ppppppppuVar10[2];
+            pppppppuStack_280 = ppppppppuVar10[3];
+            ppppppppuVar10[2] = (undefined *******)0x0;
+            ppppppppuVar10[3] = (undefined *******)0xf;
+            *(undefined1 *)ppppppppuVar10 = 0;
+          }
+          if (0xf < uStack_260) {
+            if (0xfff < uStack_260 + 1) {
+              pppppppuVar14 = (undefined *******)(uStack_260 + 0x28);
+              ppppppppuVar13 = (undefined ********)local_278[-1];
+              if (0x1f < (ulonglong)((longlong)local_278 + (-8 - (longlong)ppppppppuVar13))) {
+LAB_1400c9846:
+                    /* WARNING: Subroutine does not return */
+                FUN_14050cb84(ppppppppuVar13,pppppppuVar14);
+              }
+            }
+            thunk_FUN_1401ca000();
+          }
+          if (0xf < local_230) {
+            uVar15 = local_230 + 1;
+            ppppppppuVar10 = local_248[0];
+            if (0xfff < uVar15) {
+              uVar15 = local_230 + 0x28;
+              ppppppppuVar10 = (undefined ********)local_248[0][-1];
+              if ((char *)0x1f < (char *)((longlong)local_248[0] + (-8 - (longlong)ppppppppuVar10)))
+              goto LAB_1400c984c;
+            }
+            thunk_FUN_1401ca000(ppppppppuVar10,uVar15);
+          }
+          local_238 = (undefined *******)0x0;
+          local_230 = 0xf;
+          local_248[0] = (undefined ********)((ulonglong)local_248[0] & 0xffffffffffffff00);
+          if (ppppppppuVar11 != (undefined ********)0x0) {
+            uVar15 = local_2a8 - (longlong)ppppppppuVar11;
+            ppppppppuVar10 = ppppppppuVar11;
+            if (0xfff < uVar15) {
+              uVar15 = uVar15 + 0x27;
+              ppppppppuVar10 = (undefined ********)ppppppppuVar11[-1];
+              if ((char *)0x1f <
+                  (char *)((longlong)ppppppppuVar11 + (-8 - (longlong)ppppppppuVar10)))
+              goto LAB_1400c9852;
+            }
+            thunk_FUN_1401ca000(ppppppppuVar10,uVar15);
+          }
+          goto LAB_1400c85f7;
+        }
+      }
+      local_58 = (undefined ********)0x140568b50;
+      ppppppppuStack_50 = (undefined ********)0x24;
+      local_310 = (undefined ********)&local_58;
+      local_318 = (undefined ********)0x140568888;
+      FUN_14007d630(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0x73,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::HandleWeChatMessage"
+                   );
+    }
+    if (0xf < local_230) {
+      if (0xfff < local_230 + 1) {
+        uVar15 = local_230 + 0x28;
+        ppppppppuVar10 = (undefined ********)local_248[0][-1];
+        if ((char *)0x1f < (char *)((longlong)local_248[0] + (-8 - (longlong)ppppppppuVar10))) {
+LAB_1400c984c:
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(ppppppppuVar10,uVar15);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_238 = (undefined *******)0x0;
+    local_230 = 0xf;
+    local_248[0] = (undefined ********)((ulonglong)local_248[0] & 0xffffffffffffff00);
+    if (ppppppppuVar13 != (undefined ********)0x0) {
+      uVar15 = lVar18 - (longlong)ppppppppuVar13;
+      ppppppppuVar11 = ppppppppuVar13;
+      if (0xfff < uVar15) {
+        uVar15 = uVar15 + 0x27;
+        ppppppppuVar11 = (undefined ********)ppppppppuVar13[-1];
+        if ((char *)0x1f < (char *)((longlong)ppppppppuVar13 + (-8 - (longlong)ppppppppuVar11))) {
+LAB_1400c9852:
+          local_230 = 0xf;
+          local_238 = (undefined *******)0x0;
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84();
+        }
+      }
+      thunk_FUN_1401ca000(ppppppppuVar11,uVar15);
+    }
+  }
+  if ((undefined *******)0xf < pppppppuStack_280) {
+    if (0xfff < (longlong)pppppppuStack_280 + 1U) {
+      if ((char *)0x1f < (char *)((longlong)local_298 + (-8 - (longlong)local_298[-1]))) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(local_298[-1],pppppppuStack_280 + 5);
+      }
+    }
+    thunk_FUN_1401ca000();
+  }
+  local_288 = (undefined *******)0x0;
+  pppppppuStack_280 = (undefined *******)0xf;
+  local_298 = (undefined ********)((ulonglong)local_298 & 0xffffffffffffff00);
+LAB_1400c96af:
+  FUN_1401510b0(local_2f0);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400ca0d0 @1400ca0d0  size=2122
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Type propagation algorithm not settling */
+
+undefined8 FUN_1400ca0d0(longlong param_1,int param_2,longlong *param_3,char param_4)
+
+{
+  char *pcVar1;
+  int iVar2;
+  DWORD DVar3;
+  HWND hWnd;
+  undefined8 uVar4;
+  longlong *plVar5;
+  LRESULT LVar6;
+  longlong lVar7;
+  undefined1 *puVar8;
+  longlong lVar9;
+  undefined8 *******pppppppuVar10;
+  ulonglong uVar11;
+  ulonglong uVar12;
+  char *pcVar13;
+  undefined1 auStackY_1c8 [32];
+  undefined1 local_188 [16];
+  char *local_178;
+  longlong lStack_170;
+  longlong local_168;
+  ULONG_PTR local_158;
+  undefined **local_150;
+  byte local_148;
+  undefined7 uStack_147;
+  uint local_140;
+  undefined1 local_138 [8];
+  undefined8 local_130;
+  undefined8 local_128;
+  int local_120;
+  undefined8 local_118;
+  undefined4 local_110;
+  undefined8 *******local_108;
+  longlong *local_100;
+  char local_f8;
+  undefined7 uStack_f7;
+  longlong local_e8;
+  ulonglong local_e0;
+  char *local_d8;
+  char **ppcStack_d0;
+  ulonglong local_c0;
+  undefined8 *******local_b8;
+  undefined8 uStack_b0;
+  undefined8 local_a8;
+  ulonglong uStack_a0;
+  undefined1 local_98;
+  undefined7 uStack_97;
+  ulonglong local_88;
+  ulonglong uStack_80;
+  char *local_78;
+  longlong lStack_70;
+  ULONG_PTR local_68;
+  char **ppcStack_60;
+  ulonglong local_58;
+  
+  local_58 = DAT_1406f5e40 ^ (ulonglong)auStackY_1c8;
+  local_100 = param_3;
+  hWnd = (HWND)FUN_1400c7f30();
+  if (hWnd == (HWND)0x0) {
+    local_d8 = "[wechat_comm] weixin window not exist!!!";
+    ppcStack_d0 = (char **)0x28;
+    FUN_14007d630(4,
+                  "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                  ,0xf5,
+                  "wetype::server::wechat_message::WeChatMessageManager::Impl::SendMessageToWeChat")
+    ;
+    FUN_14007d8b0(param_3);
+    return 0;
+  }
+  uVar4 = 0;
+  if (param_4 == '\0') {
+LAB_1400ca486:
+    if (param_2 != 10) {
+      iVar2 = FUN_1404de430(param_1 + 0x48);
+      if (iVar2 != 0) {
+                    /* WARNING: Subroutine does not return */
+        FUN_1404de6ac(5);
+      }
+      if (*(int *)(param_1 + 0x94) == 0x7fffffff) {
+        *(undefined4 *)(param_1 + 0x94) = 0x7ffffffe;
+                    /* WARNING: Subroutine does not return */
+        FUN_1404de6ac(6);
+      }
+      *(longlong *)(param_1 + 0x98) = *(longlong *)(param_1 + 0x98) + 1;
+      uVar4 = *(undefined8 *)(param_1 + 0x98);
+      FUN_1404de438(param_1 + 0x48);
+    }
+    FUN_140150d60(&local_150,0);
+    local_150 = wetype::server::WeTypeCommunication::vftable;
+    local_140 = local_140 | 0xb;
+    if ((local_148 & 1) == 0) {
+      uVar11 = CONCAT71(uStack_147,local_148) & 0xfffffffffffffffe;
+    }
+    else {
+      uVar11 = *(ulonglong *)(CONCAT71(uStack_147,local_148) & 0xfffffffffffffffe);
+    }
+    local_130 = uVar4;
+    local_120 = param_2;
+    FUN_14037d920(local_138,param_3,uVar11);
+    local_128 = 0;
+    local_140 = local_140 | 4;
+    FUN_14037d570(&local_150,&local_98);
+    uStack_b0 = 0;
+    local_a8 = 0;
+    uStack_a0 = 0xf;
+    local_b8 = (undefined8 *******)0x0;
+    puVar8 = &local_98;
+    if (0xf < uStack_80) {
+      puVar8 = (undefined1 *)CONCAT71(uStack_97,local_98);
+    }
+    FUN_14053cb20(puVar8,&local_b8,local_88 & 0xffffffff);
+    local_118 = 0xf073a140;
+    local_110 = (undefined4)local_a8;
+    local_108 = &local_b8;
+    if (0xf < uStack_a0) {
+      local_108 = local_b8;
+    }
+    local_158 = 0;
+    LVar6 = SendMessageTimeoutW(hWnd,0x4a,0,(LPARAM)&local_118,8,500,&local_158);
+    if (LVar6 != 0) {
+      if (0xf < uStack_a0) {
+        uVar11 = uStack_a0 + 1;
+        pppppppuVar10 = local_b8;
+        if (0xfff < uVar11) {
+          uVar11 = uStack_a0 + 0x28;
+          pppppppuVar10 = (undefined8 *******)local_b8[-1];
+          if (0x1f < (ulonglong)((longlong)local_b8 + (-8 - (longlong)pppppppuVar10)))
+          goto LAB_1400ca91e;
+        }
+        thunk_FUN_1401ca000(pppppppuVar10,uVar11);
+      }
+      local_a8 = 0;
+      uStack_a0 = 0xf;
+      local_b8 = (undefined8 *******)((ulonglong)local_b8 & 0xffffffffffffff00);
+      if (0xf < uStack_80) {
+        uVar11 = uStack_80 + 1;
+        lVar7 = CONCAT71(uStack_97,local_98);
+        lVar9 = lVar7;
+        if (0xfff < uVar11) {
+          uVar11 = uStack_80 + 0x28;
+          lVar9 = *(longlong *)(lVar7 + -8);
+          if (0x1f < (lVar7 - lVar9) - 8U) goto LAB_1400ca8d9;
+        }
+        thunk_FUN_1401ca000(lVar9,uVar11);
+      }
+      local_88 = 0;
+      uStack_80 = 0xf;
+      local_98 = 0;
+      FUN_1401510b0(&local_150);
+      uVar11 = param_3[3];
+      if (0xf < uVar11) {
+        uVar12 = uVar11 + 1;
+        lVar9 = *param_3;
+        lVar7 = lVar9;
+        if (0xfff < uVar12) {
+          uVar12 = uVar11 + 0x28;
+          lVar7 = *(longlong *)(lVar9 + -8);
+          lVar9 = lVar9 - lVar7;
+          if (0x1f < lVar9 - 8U) goto LAB_1400ca8df;
+        }
+        thunk_FUN_1401ca000(lVar7,uVar12);
+      }
+      uVar4 = 1;
+      goto LAB_1400ca89b;
+    }
+    DVar3 = GetLastError();
+    iVar2 = FUN_14048d4a0(4);
+    if (iVar2 != 0) {
+      local_178 = (char *)CONCAT44(local_178._4_4_,DVar3);
+      local_78 = local_178;
+      lStack_70 = lStack_170;
+      local_68 = local_158;
+      ppcStack_60 = ppcStack_d0;
+      ppcStack_d0 = &local_78;
+      local_d8 = (char *)0x42;
+      local_178 = "[wechat_comm] send message to wechat error: {} {}";
+      lStack_170 = 0x31;
+      FUN_14047caf0(&local_f8,&local_178,&local_d8);
+      local_178 = &local_f8;
+      if (0xf < local_e0) {
+        local_178 = (char *)CONCAT71(uStack_f7,local_f8);
+      }
+      lStack_170 = local_e8;
+      FUN_14007f6c0(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0x124,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::SendMessageToWeChat"
+                   );
+      if (0xf < local_e0) {
+        if (0xfff < local_e0 + 1) {
+          lVar9 = *(longlong *)(CONCAT71(uStack_f7,local_f8) + -8);
+          if (0x1f < (CONCAT71(uStack_f7,local_f8) - lVar9) - 8U) {
+                    /* WARNING: Subroutine does not return */
+            FUN_14050cb84(lVar9,local_e0 + 0x28);
+          }
+        }
+        thunk_FUN_1401ca000();
+      }
+    }
+    if (0xf < uStack_a0) {
+      if (0xfff < uStack_a0 + 1) {
+        uVar11 = uStack_a0 + 0x28;
+        pppppppuVar10 = (undefined8 *******)local_b8[-1];
+        if (0x1f < (ulonglong)((longlong)local_b8 + (-8 - (longlong)pppppppuVar10))) {
+LAB_1400ca91e:
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(pppppppuVar10,uVar11);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_a8 = 0;
+    uStack_a0 = 0xf;
+    local_b8 = (undefined8 *******)((ulonglong)local_b8 & 0xffffffffffffff00);
+    if (0xf < uStack_80) {
+      if (0xfff < uStack_80 + 1) {
+        uVar11 = uStack_80 + 0x28;
+        lVar9 = *(longlong *)(CONCAT71(uStack_97,local_98) + -8);
+        if (0x1f < (CONCAT71(uStack_97,local_98) - lVar9) - 8U) {
+LAB_1400ca8d9:
+          uStack_a0 = 0xf;
+          local_a8 = 0;
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar9,uVar11);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_88 = 0;
+    uStack_80 = 0xf;
+    local_98 = 0;
+    FUN_1401510b0(&local_150);
+    uVar12 = param_3[3];
+    if (0xf < uVar12) {
+      lVar9 = *param_3;
+      lVar7 = lVar9;
+      if (0xfff < uVar12 + 1) {
+        uVar12 = uVar12 + 0x28;
+        lVar7 = *(longlong *)(lVar9 + -8);
+        lVar9 = lVar9 - lVar7;
+        if (0x1f < lVar9 - 8U) {
+LAB_1400ca8df:
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar9,uVar12);
+        }
+      }
+      thunk_FUN_1401ca000(lVar7);
+      uVar4 = 0;
+      goto LAB_1400ca89b;
+    }
+  }
+  else {
+    FUN_1400c7a70(param_1,&local_f8);
+    if (local_e8 == 0) {
+      local_d8 = "[wechat_comm] get encrypt key failed!!!";
+      ppcStack_d0 = (char **)0x27;
+      FUN_14007d630(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0xfd,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::SendMessageToWeChat"
+                   );
+    }
+    else {
+      local_178 = (char *)0x0;
+      lStack_170 = 0;
+      local_168 = 0;
+      plVar5 = param_3;
+      if (0xf < (ulonglong)param_3[3]) {
+        plVar5 = (longlong *)*param_3;
+      }
+      iVar2 = FUN_1400c7780(param_1,plVar5,(int)param_3[2],&local_178);
+      pcVar1 = local_178;
+      if (iVar2 == 0) {
+        plVar5 = (longlong *)FUN_1400c4090(&local_d8,local_178,lStack_170,local_188);
+        if (param_3 != plVar5) {
+          uVar11 = param_3[3];
+          if (0xf < uVar11) {
+            lVar7 = *param_3;
+            uVar12 = uVar11 + 1;
+            lVar9 = lVar7;
+            if (0xfff < uVar12) {
+              uVar12 = uVar11 + 0x28;
+              lVar9 = *(longlong *)(lVar7 + -8);
+              lVar7 = lVar7 - lVar9;
+              if (0x1f < lVar7 - 8U) goto LAB_1400ca8eb;
+            }
+            thunk_FUN_1401ca000(lVar9,uVar12);
+          }
+          param_3[2] = 0;
+          param_3[3] = 0xf;
+          *(undefined1 *)param_3 = 0;
+          lVar9 = plVar5[1];
+          *param_3 = *plVar5;
+          param_3[1] = lVar9;
+          lVar9 = plVar5[3];
+          param_3[2] = plVar5[2];
+          param_3[3] = lVar9;
+          plVar5[2] = 0;
+          plVar5[3] = 0xf;
+          *(undefined1 *)plVar5 = 0;
+        }
+        if (0xf < local_c0) {
+          if (0xfff < local_c0 + 1) {
+            uVar12 = local_c0 + 0x28;
+            lVar7 = *(longlong *)(local_d8 + -8);
+            if ((char *)0x1f < local_d8 + (-8 - lVar7)) {
+LAB_1400ca8eb:
+                    /* WARNING: Subroutine does not return */
+              FUN_14050cb84(lVar7,uVar12);
+            }
+          }
+          thunk_FUN_1401ca000();
+        }
+        if (pcVar1 != (char *)0x0) {
+          uVar11 = local_168 - (longlong)pcVar1;
+          pcVar13 = pcVar1;
+          if (0xfff < uVar11) {
+            uVar11 = uVar11 + 0x27;
+            pcVar13 = *(char **)(pcVar1 + -8);
+            if ((char *)0x1f < pcVar1 + (-8 - (longlong)pcVar13)) goto LAB_1400ca8f1;
+          }
+          thunk_FUN_1401ca000(pcVar13,uVar11);
+        }
+        if (0xf < local_e0) {
+          uVar11 = local_e0 + 1;
+          lVar7 = CONCAT71(uStack_f7,local_f8);
+          lVar9 = lVar7;
+          if (0xfff < uVar11) {
+            uVar11 = local_e0 + 0x28;
+            lVar9 = *(longlong *)(lVar7 + -8);
+            if (0x1f < (lVar7 - lVar9) - 8U) goto LAB_1400ca8f7;
+          }
+          thunk_FUN_1401ca000(lVar9,uVar11);
+        }
+        goto LAB_1400ca486;
+      }
+      local_d8 = "[wechat_comm] encrypt body failed!!!";
+      ppcStack_d0 = (char **)0x24;
+      FUN_14007d630(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0x105,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::SendMessageToWeChat"
+                   );
+      if (local_178 != (char *)0x0) {
+        if ((0xfff < (ulonglong)(local_168 - (longlong)local_178)) &&
+           ((char *)0x1f < local_178 + (-8 - *(longlong *)(local_178 + -8)))) {
+LAB_1400ca8f1:
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84();
+        }
+        thunk_FUN_1401ca000();
+      }
+    }
+    if (0xf < local_e0) {
+      if (0xfff < local_e0 + 1) {
+        lVar9 = *(longlong *)(CONCAT71(uStack_f7,local_f8) + -8);
+        uVar11 = local_e0 + 0x28;
+        if (0x1f < (CONCAT71(uStack_f7,local_f8) - lVar9) - 8U) {
+LAB_1400ca8f7:
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar9,uVar11);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_f8 = '\0';
+    local_e0 = 0xf;
+    local_e8 = 0;
+    uVar11 = param_3[3];
+    if (0xf < uVar11) {
+      lVar9 = *param_3;
+      lVar7 = lVar9;
+      if (0xfff < uVar11 + 1) {
+        lVar7 = *(longlong *)(lVar9 + -8);
+        if (0x1f < (lVar9 - lVar7) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar9 - lVar7,uVar11 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000(lVar7);
+    }
+  }
+  uVar4 = 0;
+LAB_1400ca89b:
+  *(undefined1 *)param_3 = 0;
+  param_3[3] = 0xf;
+  param_3[2] = 0;
+  return uVar4;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400c7f30 @1400c7f30  size=580
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+HWND FUN_1400c7f30(void)
+
+{
+  char cVar1;
+  DWORD DVar2;
+  int iVar3;
+  HWND pHVar4;
+  undefined1 auStack_d8 [32];
+  char *local_b8;
+  undefined8 ***local_b0;
+  DWORD *local_a8;
+  undefined8 ***local_98;
+  undefined8 uStack_90;
+  DWORD local_88 [4];
+  undefined8 local_78;
+  char **ppcStack_70;
+  undefined8 ***local_68 [2];
+  undefined8 local_58;
+  ulonglong local_50;
+  longlong local_48 [2];
+  longlong local_38;
+  ulonglong local_30;
+  undefined8 **local_28;
+  undefined8 uStack_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_1406f5e40 ^ (ulonglong)auStack_d8;
+  pHVar4 = FindWindowW(L"xWechatWindow",(LPCWSTR)0x0);
+  if ((pHVar4 == (HWND)0x0) &&
+     (pHVar4 = FindWindowW((LPCWSTR)0x0,L"xWechatWindow"), pHVar4 == (HWND)0x0)) {
+    return (HWND)0x0;
+  }
+  FUN_1400b2630(local_48,pHVar4);
+  if (local_38 == 0) {
+    DVar2 = GetLastError();
+    iVar3 = FUN_14048d4a0(4);
+    if (iVar3 != 0) {
+      local_98 = (undefined8 ***)CONCAT44(local_98._4_4_,DVar2);
+      local_28 = local_98;
+      uStack_20 = uStack_90;
+      ppcStack_70 = (char **)&local_28;
+      local_78 = 2;
+      local_98 = (undefined8 ***)0x140568fe0;
+      uStack_90 = 0x30;
+      FUN_14047caf0(local_68,&local_98,&local_78);
+      local_98 = local_68;
+      if (0xf < local_50) {
+        local_98 = local_68[0];
+      }
+      uStack_90 = local_58;
+      local_b0 = &local_98;
+      local_b8 = "WeChatMessageManager";
+      FUN_14007f6c0(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0x134,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::GetWeChatWindow");
+      if (0xf < local_50) {
+        if (0xfff < local_50 + 1) {
+          if (0x1f < (ulonglong)((longlong)local_68[0] + (-8 - (longlong)local_68[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+            FUN_14050cb84(local_68[0][-1],local_50 + 0x28);
+          }
+        }
+        thunk_FUN_1401ca000();
+      }
+    }
+  }
+  else {
+    cVar1 = FUN_1400b3120(local_48);
+    if (cVar1 == '\0') {
+      local_88[0] = GetLastError();
+      local_98 = (undefined8 ***)0x140569070;
+      uStack_90 = 0x2f;
+      local_a8 = local_88;
+      local_b0 = &local_98;
+      local_b8 = "WeChatMessageManager";
+      FUN_1400b6c40(4,
+                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                    ,0x136,
+                    "wetype::server::wechat_message::WeChatMessageManager::Impl::GetWeChatWindow");
+    }
+  }
+  if (7 < local_30) {
+    if (0xfff < local_30 * 2 + 2) {
+      if (0x1f < (local_48[0] - *(longlong *)(local_48[0] + -8)) - 8U) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(*(longlong *)(local_48[0] + -8),local_30 * 2 + 0x29);
+      }
+    }
+    thunk_FUN_1401ca000();
+  }
+  return pHVar4;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400c9cb0 @1400c9cb0  size=990
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_1400c9cb0(longlong param_1,undefined8 param_2,longlong param_3,longlong *param_4,
+                  undefined4 param_5,undefined8 param_6,undefined8 param_7)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  ulonglong uVar3;
+  undefined1 auStack_148 [32];
+  char *local_128;
+  char **local_120;
+  undefined **local_118;
+  byte local_110;
+  undefined7 uStack_10f;
+  uint local_108;
+  undefined1 local_100 [8];
+  undefined1 local_f8 [8];
+  undefined1 local_f0 [8];
+  undefined1 local_e8 [8];
+  undefined1 local_e0 [8];
+  undefined1 local_d8 [8];
+  undefined4 local_d0;
+  char *local_c8;
+  longlong local_c0;
+  longlong local_b8;
+  char local_b0;
+  longlong local_a8;
+  undefined8 uStack_a0;
+  undefined8 local_98;
+  ulonglong uStack_90;
+  longlong local_88;
+  undefined8 uStack_80;
+  undefined8 local_78;
+  ulonglong uStack_70;
+  undefined1 local_68;
+  undefined7 uStack_67;
+  undefined8 local_58;
+  ulonglong uStack_50;
+  ulonglong local_48;
+  
+  local_48 = DAT_1406f5e40 ^ (ulonglong)auStack_148;
+  if (*(longlong *)(param_3 + 0x10) == 0) {
+    local_c8 = "[wechat_comm] file_path is empty";
+    local_c0 = 0x20;
+    uVar2 = 0x167;
+  }
+  else {
+    if (*(longlong *)(param_1 + 0x120) != 0) {
+      uStack_a0 = 0;
+      local_98 = 0;
+      uStack_90 = 0xf;
+      local_a8 = 0;
+      if (param_4[2] == 0) {
+        if (&local_a8 != param_4) {
+          if (0xf < (ulonglong)param_4[3]) {
+            param_4 = (longlong *)*param_4;
+          }
+          FUN_140082660(&local_a8,param_4,0);
+        }
+      }
+      else {
+        FUN_1400cd3b0(param_1,&local_c8,param_4);
+        local_88 = 0;
+        uStack_80 = 0;
+        local_78 = 0;
+        uStack_70 = 0;
+        FUN_140082b10(&local_88,local_c8,local_c0 - (longlong)local_c8);
+        if (0xf < uStack_90) {
+          if (0xfff < uStack_90 + 1) {
+            if (0x1f < (local_a8 - *(longlong *)(local_a8 + -8)) - 8U) {
+                    /* WARNING: Subroutine does not return */
+              FUN_14050cb84(*(longlong *)(local_a8 + -8),uStack_90 + 0x28);
+            }
+          }
+          thunk_FUN_1401ca000();
+        }
+        local_a8 = local_88;
+        uStack_a0 = uStack_80;
+        local_98 = local_78;
+        uStack_90 = uStack_70;
+        if ((local_b0 != '\0') && (local_c8 != (char *)0x0)) {
+          if (0xfff < (ulonglong)(local_b8 - (longlong)local_c8)) {
+            if ((char *)0x1f < local_c8 + (-8 - *(longlong *)(local_c8 + -8))) {
+                    /* WARNING: Subroutine does not return */
+              FUN_14050cb84(*(longlong *)(local_c8 + -8),(local_b8 - (longlong)local_c8) + 0x27);
+            }
+          }
+          thunk_FUN_1401ca000();
+        }
+      }
+      FUN_140150b80(&local_118,0);
+      local_118 = wetype::server::WTEmitEmojiRequest::vftable;
+      local_108 = local_108 | 1;
+      if ((local_110 & 1) == 0) {
+        uVar3 = CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe;
+      }
+      else {
+        uVar3 = *(ulonglong *)(CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe);
+      }
+      FUN_14037d920(local_100,param_2,uVar3);
+      local_108 = local_108 | 2;
+      if ((local_110 & 1) == 0) {
+        uVar3 = CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe;
+      }
+      else {
+        uVar3 = *(ulonglong *)(CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe);
+      }
+      FUN_14037d920(local_f8,param_3,uVar3);
+      local_108 = local_108 | 4;
+      if ((local_110 & 1) == 0) {
+        uVar3 = CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe;
+      }
+      else {
+        uVar3 = *(ulonglong *)(CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe);
+      }
+      FUN_14037d920(local_f0,&local_a8,uVar3);
+      local_d0 = param_5;
+      local_108 = local_108 | 0x48;
+      if ((local_110 & 1) == 0) {
+        uVar3 = CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe;
+      }
+      else {
+        uVar3 = *(ulonglong *)(CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe);
+      }
+      FUN_14037d920(local_e8,param_6,uVar3);
+      local_108 = local_108 | 0x10;
+      if ((local_110 & 1) == 0) {
+        uVar3 = CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe;
+      }
+      else {
+        uVar3 = *(ulonglong *)(CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe);
+      }
+      FUN_14037d920(local_e0,param_7,uVar3);
+      local_108 = local_108 | 0x20;
+      if ((local_110 & 1) == 0) {
+        uVar3 = CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe;
+      }
+      else {
+        uVar3 = *(ulonglong *)(CONCAT71(uStack_10f,local_110) & 0xfffffffffffffffe);
+      }
+      FUN_14037d920(local_d8,param_1 + 0x130,uVar3);
+      FUN_14037d570(&local_118,&local_68);
+      uVar2 = FUN_140084080(&local_88,&local_68);
+      FUN_1400ca0d0(param_1,5,uVar2,1);
+      if (0xf < uStack_50) {
+        if (0xfff < uStack_50 + 1) {
+          lVar1 = *(longlong *)(CONCAT71(uStack_67,local_68) + -8);
+          if (0x1f < (CONCAT71(uStack_67,local_68) - lVar1) - 8U) {
+                    /* WARNING: Subroutine does not return */
+            FUN_14050cb84(lVar1,uStack_50 + 0x28);
+          }
+        }
+        thunk_FUN_1401ca000();
+      }
+      local_58 = 0;
+      uStack_50 = 0xf;
+      local_68 = 0;
+      FUN_140150e60(&local_118);
+      if (uStack_90 < 0x10) {
+        return;
+      }
+      if (0xfff < uStack_90 + 1) {
+        if (0x1f < (local_a8 - *(longlong *)(local_a8 + -8)) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(*(longlong *)(local_a8 + -8),uStack_90 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+      return;
+    }
+    local_c8 = "[wechat_comm] wechat emoji dir is empty";
+    local_c0 = 0x27;
+    uVar2 = 0x16b;
+  }
+  local_120 = &local_c8;
+  local_128 = "WeChatMessageManager";
+  FUN_14007d630(4,
+                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                ,uVar2,
+                "wetype::server::wechat_message::WeChatMessageManager::Impl::RequestEmitEmoji");
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1401f1590 @1401f1590  size=772
+////////////////////////////////////////////////////////////////
+
+char FUN_1401f1590(undefined8 *param_1,longlong *param_2)
+
+{
+  ulonglong uVar1;
+  int *piVar2;
+  longlong *plVar3;
+  longlong lVar4;
+  int iVar5;
+  char cVar6;
+  uint uVar7;
+  uint uVar8;
+  ulonglong uVar9;
+  longlong local_res8;
+  char *local_48;
+  undefined8 local_40;
+  char *local_38;
+  undefined8 uStack_30;
+  
+  uVar1 = param_1[5];
+  do {
+    if (6 < uVar1) {
+      piVar2 = (int *)param_1[4];
+      cVar6 = *(char *)((longlong)piVar2 + 6);
+      uVar8 = (uint)*(ushort *)(piVar2 + 1);
+      uVar9 = (ulonglong)(uVar8 + 7);
+      if (uVar1 < uVar9) {
+        param_1[4] = &DAT_1405639c8;
+        param_1[5] = 0;
+        if (*(char *)(param_1 + 6) == '\0') {
+          local_48 = "";
+          local_40 = 0;
+          local_38 = "bad record length";
+          uStack_30 = 0x11;
+          FUN_1401deaf0(&local_res8,2,&local_38,&local_48);
+          plVar3 = (longlong *)param_1[1];
+          if ((plVar3 != (longlong *)0x0) &&
+             ((ulonglong)param_1[9] <= (param_1[8] - param_1[5]) - uVar1)) {
+            (**(code **)(*plVar3 + 8))(plVar3,uVar1,&local_res8);
+          }
+          thunk_FUN_1401ca000(local_res8);
+          cVar6 = '\x06';
+        }
+        else {
+LAB_1401f1741:
+          cVar6 = '\x05';
+        }
+      }
+      else if ((cVar6 == '\0') && (*(ushort *)(piVar2 + 1) == 0)) {
+        param_1[4] = &DAT_1405639c8;
+        param_1[5] = 0;
+        cVar6 = '\x06';
+      }
+      else if ((*(char *)(param_1 + 2) == '\0') ||
+              (iVar5 = *piVar2, uVar7 = FUN_1401ff650(0,(char *)((longlong)piVar2 + 6),uVar8 + 1),
+              uVar7 == (iVar5 + 0x5d7d1528U >> 0x11 | (iVar5 + 0x5d7d1528U) * 0x8000))) {
+        param_1[4] = param_1[4] + uVar9;
+        param_1[5] = param_1[5] - uVar9;
+        if (((param_1[8] - (ulonglong)uVar8) - param_1[5]) - 7 < (ulonglong)param_1[9]) {
+          *param_2 = (longlong)&DAT_1405639c8;
+          param_2[1] = 0;
+          cVar6 = '\x06';
+        }
+        else {
+          *param_2 = (longlong)piVar2 + 7;
+          param_2[1] = (ulonglong)uVar8;
+        }
+      }
+      else {
+        lVar4 = param_1[5];
+        param_1[4] = &DAT_1405639c8;
+        param_1[5] = 0;
+        local_38 = "";
+        uStack_30 = 0;
+        local_48 = "checksum mismatch";
+        local_40 = 0x11;
+        FUN_1401deaf0(&local_res8,2,&local_48,&local_38);
+        plVar3 = (longlong *)param_1[1];
+        if ((plVar3 != (longlong *)0x0) &&
+           ((ulonglong)param_1[9] <= (ulonglong)((param_1[8] - param_1[5]) - lVar4))) {
+          (**(code **)(*plVar3 + 8))(plVar3,lVar4,&local_res8);
+        }
+        thunk_FUN_1401ca000(local_res8);
+        cVar6 = '\x06';
+      }
+      return cVar6;
+    }
+    param_1[4] = &DAT_1405639c8;
+    param_1[5] = 0;
+    if (*(char *)(param_1 + 6) != '\0') goto LAB_1401f1741;
+    (**(code **)(*(longlong *)*param_1 + 8))
+              ((longlong *)*param_1,&local_res8,0x8000,param_1 + 4,param_1[3]);
+    param_1[8] = param_1[8] + param_1[5];
+    if (local_res8 != 0) {
+      param_1[4] = &DAT_1405639c8;
+      param_1[5] = 0;
+      plVar3 = (longlong *)param_1[1];
+      if ((plVar3 != (longlong *)0x0) &&
+         ((ulonglong)param_1[9] <= (param_1[8] - param_1[5]) - 0x8000)) {
+        (**(code **)(*plVar3 + 8))(plVar3,0x8000,&local_res8);
+      }
+      *(undefined1 *)(param_1 + 6) = 1;
+      thunk_FUN_1401ca000(local_res8);
+      goto LAB_1401f1741;
+    }
+    if ((ulonglong)param_1[5] < 0x8000) {
+      *(undefined1 *)(param_1 + 6) = 1;
+    }
+    thunk_FUN_1401ca000(0);
+    uVar1 = param_1[5];
+  } while( true );
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1401ff3c0 @1401ff3c0  size=656
+////////////////////////////////////////////////////////////////
+
+undefined8 *
+FUN_1401ff3c0(undefined8 *param_1,longlong *param_2,char *param_3,undefined8 *param_4,
+             undefined4 *param_5)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined4 *puVar3;
+  char *pcVar4;
+  uint uVar5;
+  char *pcVar6;
+  uint uVar7;
+  bool bVar8;
+  undefined4 *local_res10;
+  char *local_res18;
+  char *local_70;
+  longlong lStack_68;
+  char *local_60;
+  undefined8 local_58;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  
+  puVar3 = param_5;
+  local_70 = "";
+  lStack_68 = 0;
+  *param_5 = 0x405639c8;
+  param_5[1] = 1;
+  param_5[2] = 0;
+  param_5[3] = 0;
+  *(undefined2 *)(param_5 + 4) = 0;
+  lVar2 = param_4[1];
+  lVar1 = lVar2 + 5;
+  local_res18 = param_3;
+  pcVar6 = (char *)thunk_FUN_1404fda70(lVar1);
+  local_70 = "";
+  lStack_68 = 0;
+  (**(code **)(*param_2 + 8))(param_2,&param_5,*param_4,lVar1,&local_70,pcVar6);
+  pcVar4 = local_70;
+  if (param_5 == (undefined4 *)0x0) {
+    if (lStack_68 == lVar1) {
+      if ((*local_res18 == '\0') ||
+         (uVar7 = CONCAT31(CONCAT21(CONCAT11(local_70[lVar2 + 4],local_70[lVar2 + 3]),
+                                    local_70[lVar2 + 2]),local_70[lVar2 + 1]) + 0x5d7d1528,
+         uVar5 = FUN_1401ff650(0,local_70,lVar2 + 1), uVar5 == (uVar7 >> 0x11 | uVar7 * 0x8000))) {
+        if (pcVar4[lVar2] == '\0') {
+          bVar8 = pcVar4 == pcVar6;
+          local_50 = pcVar6;
+          if (!bVar8) {
+            thunk_FUN_1401ca000(pcVar6);
+            local_50 = pcVar4;
+          }
+          uStack_48._0_4_ = (undefined4)lVar2;
+          uStack_48._4_4_ = (undefined4)((ulonglong)lVar2 >> 0x20);
+          *puVar3 = (undefined4)local_50;
+          puVar3[1] = local_50._4_4_;
+          puVar3[2] = (undefined4)uStack_48;
+          puVar3[3] = uStack_48._4_4_;
+          *(bool *)((longlong)puVar3 + 0x11) = bVar8;
+          *(bool *)(puVar3 + 4) = bVar8;
+          *param_1 = 0;
+          uStack_48 = lVar2;
+        }
+        else {
+          if (pcVar4[lVar2] == '\x01') {
+            thunk_FUN_1401ca000(pcVar6);
+            local_60 = "corrupted compressed block contents";
+            local_58 = 0x23;
+          }
+          else {
+            thunk_FUN_1401ca000(pcVar6);
+            local_60 = "bad block type";
+            local_58 = 0xe;
+          }
+          local_50 = "";
+          uStack_48 = 0;
+          FUN_1401deaf0(param_1,2,&local_60,&local_50);
+        }
+      }
+      else {
+        thunk_FUN_1401ca000(pcVar6);
+        local_50 = "";
+        uStack_48 = 0;
+        local_60 = "block checksum mismatch";
+        local_58 = 0x17;
+        FUN_1401deaf0(&local_res10,2,&local_60,&local_50);
+        puVar3 = param_5;
+        param_5 = local_res10;
+        local_res10 = puVar3;
+        thunk_FUN_1401ca000();
+        *param_1 = param_5;
+        param_5 = (undefined4 *)0x0;
+      }
+    }
+    else {
+      thunk_FUN_1401ca000(pcVar6);
+      local_60 = "";
+      local_58 = 0;
+      local_50 = "truncated block read";
+      uStack_48 = 0x14;
+      FUN_1401deaf0(param_1,2,&local_50,&local_60);
+    }
+  }
+  else {
+    thunk_FUN_1401ca000(pcVar6);
+    *param_1 = param_5;
+    param_5 = (undefined4 *)0x0;
+  }
+  thunk_FUN_1401ca000(param_5);
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_14008bfc0 @14008bfc0  size=1433
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_14008bfc0(void)
+
+{
+  undefined8 *puVar1;
+  longlong lVar2;
+  char cVar3;
+  DWORD DVar4;
+  int iVar5;
+  int iVar6;
+  undefined8 uVar7;
+  undefined8 uVar8;
+  undefined8 *puVar9;
+  undefined8 uVar10;
+  HANDLE pvVar11;
+  HWND hWnd;
+  undefined8 ****ppppuVar12;
+  undefined1 auStack_88 [32];
+  DWORD local_68 [2];
+  undefined1 local_60 [16];
+  undefined1 local_50;
+  undefined7 uStack_4f;
+  undefined8 local_40;
+  ulonglong uStack_38;
+  undefined8 ***local_30;
+  undefined8 uStack_28;
+  undefined8 local_20;
+  ulonglong local_18;
+  ulonglong local_10;
+  
+  local_10 = DAT_1406f5e40 ^ (ulonglong)auStack_88;
+  cVar3 = FUN_1400b3060();
+  if ((cVar3 != '\0') || (cVar3 = FUN_14008cfa0(), cVar3 != '\0')) {
+    uVar7 = FUN_1400a7a30(local_60,1);
+    uVar8 = FUN_1400a8520();
+    puVar9 = (undefined8 *)FUN_1400a8330(&local_50);
+    puVar1 = puVar9 + 2;
+    if (0xf < (ulonglong)puVar9[3]) {
+      puVar9 = (undefined8 *)*puVar9;
+    }
+    uVar8 = FUN_140083510(uVar8,puVar9,*puVar1);
+    uVar8 = FUN_140082860(uVar8,&DAT_140563fd8);
+    uVar8 = FUN_140082860(uVar8,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp");
+    uVar8 = FUN_140082860(uVar8,&DAT_140563f48);
+    uVar8 = FUN_140084f70(uVar8,0x5d0);
+    uVar8 = FUN_140082860(uVar8,&DAT_140563f94);
+    uVar10 = FUN_1400a82c0(1);
+    uVar8 = FUN_140082860(uVar8,uVar10);
+    uVar8 = FUN_140082860(uVar8,&DAT_140563f8c);
+    uVar10 = FUN_1400a84c0(1);
+    uVar8 = FUN_140082860(uVar8,uVar10);
+    uVar8 = FUN_140082860(uVar8,&DAT_140563f4c);
+    uVar10 = FUN_1400a8300();
+    uVar8 = FUN_140082860(uVar8,uVar10);
+    uVar8 = FUN_140082860(uVar8,&DAT_140563fd8);
+    uVar8 = FUN_140082860(uVar8,"Updating or crashing, stop SpawnUpdateProcess()");
+    FUN_1400a7dd0(uVar7,uVar8);
+    if (0xf < uStack_38) {
+      if (0xfff < uStack_38 + 1) {
+        lVar2 = *(longlong *)(CONCAT71(uStack_4f,local_50) + -8);
+        if (0x1f < (CONCAT71(uStack_4f,local_50) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar2,uStack_38 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_40 = 0;
+    uStack_38 = 0xf;
+    local_50 = 0;
+    FUN_1400a7cf0(local_60);
+    return;
+  }
+  uStack_28 = 0;
+  local_20 = 0;
+  local_18 = 0xf;
+  local_30 = (undefined8 ****)0x0;
+  uVar7 = FUN_14008b0d0();
+  FUN_1400ab0c0(uVar7,&local_30);
+  uVar7 = FUN_1400a7a30(local_60,0);
+  uVar8 = FUN_1400a8520();
+  puVar9 = (undefined8 *)FUN_1400a8330(&local_50);
+  puVar1 = puVar9 + 2;
+  if (0xf < (ulonglong)puVar9[3]) {
+    puVar9 = (undefined8 *)*puVar9;
+  }
+  uVar8 = FUN_140083510(uVar8,puVar9,*puVar1);
+  uVar8 = FUN_140082860(uVar8,&DAT_140563fd8);
+  uVar8 = FUN_140082860(uVar8,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp");
+  uVar8 = FUN_140082860(uVar8,&DAT_140563f48);
+  uVar8 = FUN_140084f70(uVar8,0x5d5);
+  uVar8 = FUN_140082860(uVar8,&DAT_140563f94);
+  uVar10 = FUN_1400a82c0(0);
+  uVar8 = FUN_140082860(uVar8,uVar10);
+  uVar8 = FUN_140082860(uVar8,&DAT_140563f8c);
+  uVar10 = FUN_1400a84c0(0);
+  uVar8 = FUN_140082860(uVar8,uVar10);
+  uVar8 = FUN_140082860(uVar8,&DAT_140563f4c);
+  uVar10 = FUN_1400a8300();
+  uVar8 = FUN_140082860(uVar8,uVar10);
+  uVar8 = FUN_140082860(uVar8,&DAT_140563fd8);
+  uVar8 = FUN_140082860(uVar8,"TipTextService Host process name: ");
+  ppppuVar12 = &local_30;
+  if (0xf < local_18) {
+    ppppuVar12 = (undefined8 ****)local_30;
+  }
+  uVar8 = FUN_140083510(uVar8,ppppuVar12,local_20);
+  uVar8 = FUN_140082860(uVar8,", process id: ");
+  DVar4 = GetCurrentProcessId();
+  uVar8 = FUN_140089cc0(uVar8,DVar4);
+  FUN_1400a7dd0(uVar7,uVar8);
+  if (0xf < uStack_38) {
+    if (0xfff < uStack_38 + 1) {
+      lVar2 = *(longlong *)(CONCAT71(uStack_4f,local_50) + -8);
+      if (0x1f < (CONCAT71(uStack_4f,local_50) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(lVar2,uStack_38 + 0x28);
+      }
+    }
+    thunk_FUN_1401ca000();
+  }
+  local_40 = 0;
+  uStack_38 = 0xf;
+  local_50 = 0;
+  FUN_1400a7cf0(local_60);
+  pvVar11 = GetCurrentProcess();
+  iVar5 = FUN_14008aa00(pvVar11);
+  if (iVar5 != -1) {
+    local_68[0] = 0;
+    hWnd = GetShellWindow();
+    GetWindowThreadProcessId(hWnd,local_68);
+    pvVar11 = OpenProcess(0x400,0,local_68[0]);
+    if ((pvVar11 != (HANDLE)0x0) && (iVar6 = FUN_14008aa00(pvVar11), iVar5 == iVar6)) {
+      uVar7 = FUN_1400a7a30(local_60,0);
+      uVar8 = FUN_1400a8520();
+      puVar9 = (undefined8 *)FUN_1400a8330(&local_50);
+      puVar1 = puVar9 + 2;
+      if (0xf < (ulonglong)puVar9[3]) {
+        puVar9 = (undefined8 *)*puVar9;
+      }
+      uVar8 = FUN_140083510(uVar8,puVar9,*puVar1);
+      uVar8 = FUN_140082860(uVar8,&DAT_140563fd8);
+      uVar8 = FUN_140082860(uVar8,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\base\\FileUtils.cpp")
+      ;
+      uVar8 = FUN_140082860(uVar8,&DAT_140563f48);
+      uVar8 = FUN_140084f70(uVar8,0x5e3);
+      uVar8 = FUN_140082860(uVar8,&DAT_140563f94);
+      uVar10 = FUN_1400a82c0(0);
+      uVar8 = FUN_140082860(uVar8,uVar10);
+      uVar8 = FUN_140082860(uVar8,&DAT_140563f8c);
+      uVar10 = FUN_1400a84c0(0);
+      uVar8 = FUN_140082860(uVar8,uVar10);
+      uVar8 = FUN_140082860(uVar8,&DAT_140563f4c);
+      uVar10 = FUN_1400a8300();
+      uVar8 = FUN_140082860(uVar8,uVar10);
+      uVar8 = FUN_140082860(uVar8,&DAT_140563fd8);
+      uVar8 = FUN_140082860(uVar8,"TipTextService SpawnUpdateProcess.");
+      FUN_1400a7dd0(uVar7,uVar8);
+      if (0xf < uStack_38) {
+        if (0xfff < uStack_38 + 1) {
+          lVar2 = *(longlong *)(CONCAT71(uStack_4f,local_50) + -8);
+          if (0x1f < (CONCAT71(uStack_4f,local_50) - lVar2) - 8U) {
+                    /* WARNING: Subroutine does not return */
+            FUN_14050cb84(lVar2,uStack_38 + 0x28);
+          }
+        }
+        thunk_FUN_1401ca000();
+      }
+      local_40 = 0;
+      uStack_38 = 0xf;
+      local_50 = 0;
+      FUN_1400a7cf0(local_60);
+      FUN_14008c560();
+    }
+  }
+  if (local_18 < 0x10) {
+    return;
+  }
+  if (0xfff < local_18 + 1) {
+    if (0x1f < (ulonglong)((longlong)local_30 + (-8 - (longlong)local_30[-1]))) {
+                    /* WARNING: Subroutine does not return */
+      FUN_14050cb84(local_30[-1],local_18 + 0x28);
+    }
+  }
+  thunk_FUN_1401ca000();
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400cadd0 @1400cadd0  size=132
+////////////////////////////////////////////////////////////////
+
+void FUN_1400cadd0(longlong param_1,undefined4 *param_2)
+
+{
+  longlong lVar1;
+  ulonglong uVar2;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 local_18;
+  undefined4 uStack_14;
+  undefined4 uStack_10;
+  undefined4 uStack_c;
+  
+  local_28 = *param_2;
+  uStack_24 = param_2[1];
+  uStack_20 = param_2[2];
+  uStack_1c = param_2[3];
+  local_18 = param_2[4];
+  uStack_14 = param_2[5];
+  uStack_10 = param_2[6];
+  uStack_c = param_2[7];
+  *(undefined8 *)(param_2 + 4) = 0;
+  *(undefined8 *)(param_2 + 6) = 0xf;
+  *(undefined1 *)param_2 = 0;
+  FUN_1400c8180(*(undefined8 *)(param_1 + 8),&local_28);
+  uVar2 = CONCAT44(uStack_c,uStack_10);
+  if (0xf < uVar2) {
+    if (0xfff < uVar2 + 1) {
+      lVar1 = *(longlong *)(CONCAT44(uStack_24,local_28) + -8);
+      if (0x1f < (CONCAT44(uStack_24,local_28) - lVar1) - 8U) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(lVar1,uVar2 + 0x28);
+      }
+    }
+    thunk_FUN_1401ca000();
+  }
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400ca930 @1400ca930  size=554
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 FUN_1400ca930(longlong param_1,undefined8 param_2)
+
+{
+  longlong lVar1;
+  undefined1 uVar2;
+  int iVar3;
+  longlong lVar4;
+  undefined8 uVar5;
+  ulonglong uVar6;
+  undefined1 auStack_b8 [32];
+  undefined **local_98;
+  byte local_90;
+  undefined7 uStack_8f;
+  uint local_88;
+  undefined1 local_80 [8];
+  undefined1 local_78 [8];
+  undefined8 local_70;
+  longlong local_68;
+  longlong local_60 [3];
+  ulonglong local_48;
+  undefined1 local_40;
+  undefined7 uStack_3f;
+  undefined8 local_30;
+  ulonglong uStack_28;
+  ulonglong local_20;
+  
+  local_20 = DAT_1406f5e40 ^ (ulonglong)auStack_b8;
+  FUN_140150d00(&local_98,0);
+  local_98 = wetype::server::WTVerifyTokenRequest::vftable;
+  lVar1 = *(longlong *)(param_1 + 0x30);
+  lVar4 = *(longlong *)(lVar1 + 0x28);
+  if (lVar4 == 0) {
+    lVar4 = FUN_14011e300();
+    *(longlong *)(lVar1 + 0x28) = lVar4;
+    if (lVar4 == 0) {
+      FUN_140092850(local_60,"cannot get instance for type");
+                    /* WARNING: Subroutine does not return */
+      FUN_1404fef54(local_60,&DAT_1406d2180);
+    }
+  }
+  local_70 = FUN_14011dc80(lVar4);
+  local_88 = local_88 | 4;
+  lVar1 = param_1 + 0xa0;
+  local_68 = lVar1;
+  iVar3 = FUN_1404de430(lVar1);
+  if (iVar3 == 0) {
+    if (*(int *)(param_1 + 0xec) == 0x7fffffff) {
+      *(undefined4 *)(param_1 + 0xec) = 0x7ffffffe;
+                    /* WARNING: Subroutine does not return */
+      FUN_1404de6ac(6);
+    }
+    FUN_140084080(local_60,param_1 + 0xf0);
+    FUN_1404de438(lVar1);
+    local_88 = local_88 | 1;
+    if ((local_90 & 1) == 0) {
+      uVar6 = CONCAT71(uStack_8f,local_90) & 0xfffffffffffffffe;
+    }
+    else {
+      uVar6 = *(ulonglong *)(CONCAT71(uStack_8f,local_90) & 0xfffffffffffffffe);
+    }
+    FUN_14037df70(local_80,local_60,uVar6);
+    if (0xf < local_48) {
+      if (0xfff < local_48 + 1) {
+        if (0x1f < (local_60[0] - *(longlong *)(local_60[0] + -8)) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(*(longlong *)(local_60[0] + -8),local_48 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_88 = local_88 | 2;
+    if ((local_90 & 1) == 0) {
+      uVar6 = CONCAT71(uStack_8f,local_90) & 0xfffffffffffffffe;
+    }
+    else {
+      uVar6 = *(ulonglong *)(CONCAT71(uStack_8f,local_90) & 0xfffffffffffffffe);
+    }
+    FUN_14037d920(local_78,param_2,uVar6);
+    FUN_14037d570(&local_98,&local_40);
+    uVar5 = FUN_140084080(local_60,&local_40);
+    uVar2 = FUN_1400ca0d0(param_1,0xf,uVar5,0);
+    if (0xf < uStack_28) {
+      if (0xfff < uStack_28 + 1) {
+        lVar1 = *(longlong *)(CONCAT71(uStack_3f,local_40) + -8);
+        if (0x1f < (CONCAT71(uStack_3f,local_40) - lVar1) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar1,uStack_28 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+    local_30 = 0;
+    uStack_28 = 0xf;
+    local_40 = 0;
+    FUN_140151020(&local_98);
+    return uVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_1404de6ac(5);
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400c71c0 @1400c71c0  size=820
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 FUN_1400c71c0(undefined8 *param_1,undefined4 param_2)
+
+{
+  undefined8 uVar1;
+  undefined1 uVar2;
+  int iVar3;
+  undefined8 uVar4;
+  longlong *plVar5;
+  longlong lVar6;
+  undefined1 auStack_e8 [32];
+  char *local_c8;
+  undefined ***local_c0;
+  undefined **local_b8;
+  undefined ***pppuStack_b0;
+  char *local_a8;
+  undefined8 uStack_a0;
+  undefined *local_98 [2];
+  undefined8 local_88;
+  ulonglong uStack_80;
+  undefined **local_78;
+  undefined8 *puStack_70;
+  undefined **local_58;
+  undefined8 uStack_50;
+  longlong local_48;
+  undefined8 uStack_40;
+  char *local_38;
+  undefined8 uStack_30;
+  ulonglong local_28;
+  
+  local_28 = DAT_1406f5e40 ^ (ulonglong)auStack_e8;
+  iVar3 = FUN_14048d4a0(2);
+  if (iVar3 != 0) {
+    local_b8 = (undefined **)CONCAT44(local_b8._4_4_,param_2);
+    local_78 = local_b8;
+    puStack_70 = pppuStack_b0;
+    pppuStack_b0 = &local_78;
+    local_b8 = (undefined **)0x2;
+    local_a8 = "[wechat_uid] RequestWeChatUid begin, pid={}";
+    uStack_a0 = 0x2b;
+    FUN_14047caf0(local_98,&local_a8,&local_b8);
+    local_b8 = local_98;
+    if (0xf < uStack_80) {
+      local_b8 = (undefined **)CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_);
+    }
+    pppuStack_b0 = (undefined ***)local_88;
+    local_c0 = &local_b8;
+    local_c8 = "WeChatMessageManager";
+    FUN_14007f6c0(2,
+                  "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                  ,0x2b,
+                  "wetype::server::wechat_message::WeChatMessageManager::Impl::{ctor}::<lambda_1>::operator ()"
+                 );
+    if (0xf < uStack_80) {
+      if (0xfff < uStack_80 + 1) {
+        lVar6 = *(longlong *)(CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_) + -8);
+        if (0x1f < (CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_) - lVar6) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar6,uStack_80 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+  }
+  FUN_1400cdd80(&local_a8);
+  uVar1 = *param_1;
+  FUN_140150c20(&local_78,0);
+  local_78 = wetype::server::WTGetWechatUidRequest::vftable;
+  FUN_14037d570(&local_78,local_98);
+  uVar4 = FUN_140084080(&local_58,local_98);
+  uVar2 = FUN_1400ca0d0(uVar1,0xd,uVar4,0);
+  if (0xf < uStack_80) {
+    if (0xfff < uStack_80 + 1) {
+      lVar6 = *(longlong *)(CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_) + -8);
+      if (0x1f < (CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_) - lVar6) - 8U) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(lVar6,uStack_80 + 0x28);
+      }
+    }
+    thunk_FUN_1401ca000();
+  }
+  local_88 = 0;
+  uStack_80 = 0xf;
+  local_98[0]._0_1_ = 0;
+  FUN_14037e140(&local_78);
+  plVar5 = (longlong *)FUN_1400cdd80(&local_b8);
+  lVar6 = *plVar5 - (longlong)local_a8;
+  iVar3 = FUN_14048d4a0(2);
+  if (iVar3 != 0) {
+    local_78 = (undefined **)CONCAT44(local_78._4_4_,param_2);
+    local_a8 = (char *)CONCAT71(local_a8._1_7_,uVar2);
+    local_58 = local_78;
+    uStack_50 = puStack_70;
+    uStack_40 = pppuStack_b0;
+    local_38 = local_a8;
+    uStack_30 = uStack_a0;
+    puStack_70 = &local_58;
+    local_a8 = "[wechat_uid] RequestWeChatUid end, pid={}, elapsed_ms={}, sent={}";
+    uStack_a0 = 0x41;
+    local_78 = (undefined **)0x732;
+    local_b8 = (undefined **)0x140568970;
+    pppuStack_b0 = (undefined ***)0x41;
+    local_48 = lVar6 / 1000000;
+    FUN_14047caf0(local_98,&local_b8,&local_78);
+    local_b8 = local_98;
+    if (0xf < uStack_80) {
+      local_b8 = (undefined **)CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_);
+    }
+    pppuStack_b0 = (undefined ***)local_88;
+    puStack_70 = (undefined8 *)local_88;
+    local_c0 = &local_78;
+    local_c8 = "WeChatMessageManager";
+    local_78 = local_b8;
+    FUN_14007f6c0(2,
+                  "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\modules\\wechatMessageMgr\\wechat_message_manager.cpp"
+                  ,0x33,
+                  "wetype::server::wechat_message::WeChatMessageManager::Impl::{ctor}::<lambda_1>::operator ()"
+                 );
+    if (0xf < uStack_80) {
+      if (0xfff < uStack_80 + 1) {
+        lVar6 = *(longlong *)(CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_) + -8);
+        if (0x1f < (CONCAT71(local_98[0]._1_7_,local_98[0]._0_1_) - lVar6) - 8U) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(lVar6,uStack_80 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+  }
+  return uVar2;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1400ca0a0 @1400ca0a0  size=9
+////////////////////////////////////////////////////////////////
+
+void FUN_1400ca0a0(longlong param_1)
+
+{
+  FUN_1400c9cb0(*(undefined8 *)(param_1 + 0x50));
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1401f18a0 @1401f18a0  size=1461
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_1401f18a0(undefined8 *param_1,undefined8 *param_2,undefined8 *param_3)
+
+{
+  ulonglong uVar1;
+  longlong *plVar2;
+  bool bVar3;
+  longlong lVar4;
+  int iVar5;
+  ulonglong uVar6;
+  undefined8 *puVar7;
+  longlong lVar8;
+  undefined8 uVar9;
+  longlong lVar10;
+  undefined1 auStack_188 [32];
+  ulonglong local_168;
+  undefined1 local_158;
+  longlong local_150;
+  longlong local_148;
+  undefined1 *local_140;
+  ulonglong uStack_138;
+  char *local_130;
+  longlong lStack_128;
+  undefined8 local_120;
+  undefined8 local_118;
+  undefined8 local_110;
+  undefined8 local_108;
+  char *local_100;
+  undefined8 local_f8;
+  undefined1 *local_f0;
+  undefined8 local_e8;
+  char *local_e0;
+  undefined8 local_d8;
+  undefined1 *local_d0;
+  undefined8 local_c8;
+  char *local_c0;
+  undefined8 local_b8;
+  undefined1 *local_b0;
+  undefined8 local_a8;
+  char *local_a0;
+  undefined8 local_98;
+  undefined1 *local_90;
+  undefined8 local_88;
+  char *local_80;
+  undefined8 local_78;
+  char local_70 [40];
+  ulonglong local_48;
+  
+  local_48 = DAT_1406f5e40 ^ (ulonglong)auStack_188;
+  uVar1 = param_1[9];
+  if ((ulonglong)param_1[7] < uVar1) {
+    uVar6 = (ulonglong)((uint)uVar1 & 0x7fff);
+    lVar8 = uVar1 - uVar6;
+    lVar10 = lVar8 + 0x8000;
+    if (uVar6 < 0x7ffb) {
+      lVar10 = lVar8;
+    }
+    param_1[8] = lVar10;
+    if (lVar10 != 0) {
+      (**(code **)(*(longlong *)*param_1 + 0x10))((longlong *)*param_1,&local_150,lVar10);
+      if (local_150 != 0) {
+        plVar2 = (longlong *)param_1[1];
+        if ((plVar2 != (longlong *)0x0) &&
+           ((ulonglong)param_1[9] <= (ulonglong)((param_1[8] - param_1[5]) - lVar10))) {
+          (**(code **)(*plVar2 + 8))(plVar2,lVar10,&local_150);
+        }
+        thunk_FUN_1401ca000(local_150);
+        return 0;
+      }
+      thunk_FUN_1401ca000(0);
+    }
+  }
+  param_3[2] = 0;
+  puVar7 = param_3;
+  if (0xf < (ulonglong)param_3[3]) {
+    puVar7 = (undefined8 *)*param_3;
+  }
+  *(undefined1 *)puVar7 = 0;
+  *param_2 = &DAT_1405639c8;
+  param_2[1] = 0;
+  bVar3 = false;
+  local_148 = 0;
+  local_140 = &DAT_1405639c8;
+  uStack_138 = 0;
+LAB_1401f19a0:
+  iVar5 = FUN_1401f1590(param_1,&local_140);
+  uVar1 = uStack_138;
+  lVar10 = ((param_1[8] - param_1[5]) - uStack_138) + -7;
+  if (*(char *)(param_1 + 10) != '\0') goto code_r0x0001401f19ca;
+  goto LAB_1401f19d8;
+code_r0x0001401f19ca:
+  if ((iVar5 != 3) && (*(undefined1 *)(param_1 + 10) = 0, iVar5 != 4)) {
+LAB_1401f19d8:
+    switch(iVar5 + -1) {
+    case 0:
+      if ((bVar3) && (lVar8 = param_3[2], lVar8 != 0)) {
+        local_130 = "";
+        lStack_128 = 0;
+        local_100 = "partial record without end(1)";
+        local_f8 = 0x1d;
+        FUN_1401deaf0(&local_148,2,&local_100,&local_130);
+        plVar2 = (longlong *)param_1[1];
+        if ((plVar2 != (longlong *)0x0) &&
+           ((ulonglong)param_1[9] <= (ulonglong)((param_1[8] - param_1[5]) - lVar8))) {
+          (**(code **)(*plVar2 + 8))(plVar2,lVar8,&local_148);
+        }
+        thunk_FUN_1401ca000(local_148);
+      }
+      param_3[2] = 0;
+      if (0xf < (ulonglong)param_3[3]) {
+        param_3 = (undefined8 *)*param_3;
+      }
+      *(undefined1 *)param_3 = 0;
+      *param_2 = local_140;
+      param_2[1] = uStack_138;
+      param_1[7] = lVar10;
+      return 1;
+    case 1:
+      if ((bVar3) && (lVar8 = param_3[2], lVar8 != 0)) {
+        local_f0 = &DAT_1405639c8;
+        local_e8 = 0;
+        local_e0 = "partial record without end(2)";
+        local_d8 = 0x1d;
+        FUN_1401deaf0(&local_150,2,&local_e0,&local_f0);
+        plVar2 = (longlong *)param_1[1];
+        if ((plVar2 != (longlong *)0x0) &&
+           ((ulonglong)param_1[9] <= (ulonglong)((param_1[8] - param_1[5]) - lVar8))) {
+          (**(code **)(*plVar2 + 8))(plVar2,lVar8,&local_150);
+        }
+        thunk_FUN_1401ca000(local_150);
+      }
+      local_148 = lVar10;
+      FUN_140082660(param_3,local_140,uVar1);
+      bVar3 = true;
+      goto LAB_1401f19a0;
+    case 2:
+      if (bVar3) {
+        FUN_140087070(param_3,local_140,uStack_138);
+      }
+      else {
+        local_d0 = &DAT_1405639c8;
+        local_c8 = 0;
+        local_c0 = "missing start of fragmented record(1)";
+        local_b8 = 0x25;
+        FUN_1401deaf0(&local_120,2,&local_c0,&local_d0);
+        plVar2 = (longlong *)param_1[1];
+        if ((plVar2 != (longlong *)0x0) &&
+           ((ulonglong)param_1[9] <= (param_1[8] - param_1[5]) - uVar1)) {
+          (**(code **)(*plVar2 + 8))(plVar2,uVar1,&local_120);
+        }
+        thunk_FUN_1401ca000(local_120);
+      }
+      goto LAB_1401f19a0;
+    case 3:
+      if (bVar3) {
+        lVar10 = param_3[2];
+        if ((ulonglong)(param_3[3] - lVar10) < uStack_138) {
+          local_168 = uStack_138;
+          FUN_140083840(param_3,uStack_138,local_158,local_140);
+        }
+        else {
+          param_3[2] = uStack_138 + lVar10;
+          puVar7 = param_3;
+          if (0xf < (ulonglong)param_3[3]) {
+            puVar7 = (undefined8 *)*param_3;
+          }
+          FUN_140545090((longlong)puVar7 + lVar10,local_140,uStack_138);
+          *(undefined1 *)((longlong)puVar7 + lVar10 + uVar1) = 0;
+        }
+        puVar7 = param_3;
+        if (0xf < (ulonglong)param_3[3]) {
+          puVar7 = (undefined8 *)*param_3;
+        }
+        uVar9 = param_3[2];
+        *param_2 = puVar7;
+        param_2[1] = uVar9;
+        param_1[7] = local_148;
+        return 1;
+      }
+      local_b0 = &DAT_1405639c8;
+      local_a8 = 0;
+      local_a0 = "missing start of fragmented record(2)";
+      local_98 = 0x25;
+      FUN_1401deaf0(&local_118,2,&local_a0,&local_b0);
+      plVar2 = (longlong *)param_1[1];
+      if ((plVar2 != (longlong *)0x0) &&
+         ((ulonglong)param_1[9] <= (param_1[8] - param_1[5]) - uVar1)) {
+        (**(code **)(*plVar2 + 8))(plVar2,uVar1,&local_118);
+      }
+      thunk_FUN_1401ca000(local_118);
+      goto LAB_1401f19a0;
+    case 4:
+      if (!bVar3) {
+        return 0;
+      }
+      param_3[2] = 0;
+      if (0xf < (ulonglong)param_3[3]) {
+        param_3 = (undefined8 *)*param_3;
+      }
+      *(undefined1 *)param_3 = 0;
+      return 0;
+    case 5:
+      if (!bVar3) goto LAB_1401f19a0;
+      lVar10 = param_3[2];
+      local_90 = &DAT_1405639c8;
+      local_88 = 0;
+      local_80 = "error in middle of record";
+      local_78 = 0x19;
+      FUN_1401deaf0(&local_110,2,&local_80,&local_90);
+      plVar2 = (longlong *)param_1[1];
+      uVar9 = local_110;
+      if ((plVar2 != (longlong *)0x0) &&
+         ((ulonglong)param_1[9] <= (ulonglong)((param_1[8] - param_1[5]) - lVar10))) {
+        (**(code **)(*plVar2 + 8))(plVar2,lVar10,&local_110);
+        uVar9 = local_110;
+      }
+      break;
+    default:
+      FUN_1400ab5d0(local_70,0x28,"unknown record type %u",iVar5);
+      if (bVar3) {
+        lVar10 = param_3[2];
+      }
+      else {
+        lVar10 = 0;
+      }
+      local_100 = "";
+      local_f8 = 0;
+      local_130 = local_70;
+      lVar8 = -1;
+      do {
+        lStack_128 = lVar8 + 1;
+        lVar4 = lVar8 + 1;
+        lVar8 = lStack_128;
+      } while (local_70[lVar4] != '\0');
+      FUN_1401deaf0(&local_108,2,&local_130,&local_100);
+      plVar2 = (longlong *)param_1[1];
+      uVar9 = local_108;
+      if ((plVar2 != (longlong *)0x0) &&
+         ((ulonglong)param_1[9] <= (param_1[8] - param_1[5]) - (uVar1 + lVar10))) {
+        (**(code **)(*plVar2 + 8))(plVar2,uVar1 + lVar10,&local_108);
+        uVar9 = local_108;
+      }
+    }
+    thunk_FUN_1401ca000(uVar9);
+    bVar3 = false;
+    param_3[2] = 0;
+    puVar7 = param_3;
+    if (0xf < (ulonglong)param_3[3]) {
+      puVar7 = (undefined8 *)*param_3;
+    }
+    *(undefined1 *)puVar7 = 0;
+  }
+  goto LAB_1401f19a0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1401fffc0 @1401fffc0  size=726
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Type propagation algorithm not settling */
+
+undefined8 FUN_1401fffc0(longlong *param_1,longlong param_2,undefined4 *param_3)
+
+{
+  longlong *plVar1;
+  longlong lVar2;
+  longlong *plVar3;
+  longlong *plVar4;
+  undefined8 uVar5;
+  code *pcVar6;
+  longlong *plVar7;
+  longlong *plVar8;
+  undefined1 auStack_d8 [32];
+  undefined1 **local_b8;
+  longlong local_a8;
+  longlong local_a0 [3];
+  undefined1 *local_88;
+  undefined8 local_80;
+  char local_78;
+  undefined1 *local_70;
+  undefined8 local_68;
+  undefined4 local_60;
+  undefined4 uStack_5c;
+  undefined4 uStack_58;
+  undefined4 uStack_54;
+  undefined1 local_50;
+  undefined1 local_4f;
+  undefined1 local_4e;
+  undefined1 local_4d;
+  undefined1 local_4c;
+  undefined1 local_4b;
+  undefined1 local_4a;
+  undefined1 local_49;
+  undefined1 local_48;
+  undefined1 local_47;
+  undefined1 local_46;
+  undefined1 local_45;
+  undefined1 local_44;
+  undefined1 local_43;
+  undefined1 local_42;
+  undefined1 local_41;
+  ulonglong local_40;
+  
+  local_40 = DAT_1406f5e40 ^ (ulonglong)auStack_d8;
+  plVar1 = *(longlong **)(*param_1 + 0x30);
+  plVar7 = (longlong *)0x0;
+  plVar8 = (longlong *)0x0;
+  local_a0[1] = 0xffffffffffffffff;
+  local_a0[2] = 0xffffffffffffffff;
+  local_60 = *param_3;
+  uStack_5c = param_3[1];
+  uStack_58 = param_3[2];
+  uStack_54 = param_3[3];
+  FUN_1401ff070(local_a0 + 1,&local_a8,&local_60);
+  plVar4 = plVar7;
+  plVar3 = plVar7;
+  if (local_a8 == 0) {
+    local_88 = &DAT_1405639c8;
+    local_80 = 0;
+    plVar4 = (longlong *)0x0;
+    if (plVar1 == (longlong *)0x0) {
+      local_b8 = &local_88;
+      plVar3 = (longlong *)
+               FUN_1401ff3c0(local_a0,*(undefined8 *)(*param_1 + 0x68),param_2,local_a0 + 1);
+      lVar2 = *plVar3;
+      *plVar3 = local_a8;
+      local_a8 = lVar2;
+      thunk_FUN_1401ca000(local_a0[0]);
+      plVar3 = plVar8;
+      if (local_a8 == 0) {
+        local_a0[0] = FUN_1404fda70(0x18);
+        if (local_a0[0] == 0) {
+          plVar4 = (longlong *)0x0;
+        }
+        else {
+          plVar4 = (longlong *)FUN_140201860(local_a0[0],&local_88);
+        }
+      }
+    }
+    else {
+      uVar5 = *(undefined8 *)(*param_1 + 0x70);
+      local_50 = (undefined1)uVar5;
+      local_4f = (undefined1)((ulonglong)uVar5 >> 8);
+      local_4e = (undefined1)((ulonglong)uVar5 >> 0x10);
+      local_4d = (undefined1)((ulonglong)uVar5 >> 0x18);
+      local_4c = (undefined1)((ulonglong)uVar5 >> 0x20);
+      local_4b = (undefined1)((ulonglong)uVar5 >> 0x28);
+      local_4a = (undefined1)((ulonglong)uVar5 >> 0x30);
+      local_49 = (undefined1)((ulonglong)uVar5 >> 0x38);
+      local_48 = (undefined1)local_a0[1];
+      local_47 = (undefined1)((ulonglong)local_a0[1] >> 8);
+      local_46 = (undefined1)((ulonglong)local_a0[1] >> 0x10);
+      local_45 = (undefined1)((ulonglong)local_a0[1] >> 0x18);
+      local_44 = (undefined1)((ulonglong)local_a0[1] >> 0x20);
+      local_43 = (undefined1)((ulonglong)local_a0[1] >> 0x28);
+      local_42 = (undefined1)((ulonglong)local_a0[1] >> 0x30);
+      local_41 = (undefined1)((ulonglong)local_a0[1] >> 0x38);
+      local_70 = &local_50;
+      local_68 = 0x10;
+      plVar3 = (longlong *)(**(code **)(*plVar1 + 0x10))(plVar1,&local_70);
+      if (plVar3 == (longlong *)0x0) {
+        local_b8 = &local_88;
+        plVar8 = (longlong *)
+                 FUN_1401ff3c0(local_a0,*(undefined8 *)(*param_1 + 0x68),param_2,local_a0 + 1);
+        lVar2 = *plVar8;
+        *plVar8 = local_a8;
+        local_a8 = lVar2;
+        thunk_FUN_1401ca000(local_a0[0]);
+        if (local_a8 == 0) {
+          local_a0[0] = FUN_1404fda70(0x18);
+          plVar4 = plVar7;
+          if (local_a0[0] != 0) {
+            plVar4 = (longlong *)FUN_140201860(local_a0[0],&local_88);
+          }
+          if ((local_78 != '\0') && (*(char *)(param_2 + 1) != '\0')) {
+            local_b8 = (undefined1 **)FUN_1402002d0;
+            plVar3 = (longlong *)(**(code **)(*plVar1 + 8))(plVar1,&local_70,plVar4,plVar4[1]);
+          }
+        }
+      }
+      else {
+        plVar4 = (longlong *)(**(code **)(*plVar1 + 0x20))(plVar1,plVar3);
+      }
+    }
+  }
+  if (plVar4 == (longlong *)0x0) {
+    uVar5 = FUN_1401ed250(&local_a8);
+  }
+  else {
+    uVar5 = FUN_140201a40(plVar4,*(undefined8 *)*param_1);
+    if (plVar3 != (longlong *)0x0) {
+      plVar4 = plVar1;
+      plVar7 = plVar3;
+    }
+    pcVar6 = FUN_1402002a0;
+    if (plVar3 != (longlong *)0x0) {
+      pcVar6 = (code *)&LAB_1401f3cc0;
+    }
+    FUN_1401ed2c0(uVar5,pcVar6,plVar4,plVar7);
+  }
+  thunk_FUN_1401ca000(local_a8);
+  return uVar5;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_140200820 @140200820  size=903
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_140200820(longlong *param_1,undefined8 param_2)
+
+{
+  size_t sVar1;
+  char cVar2;
+  int iVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  undefined8 uVar6;
+  longlong lVar7;
+  undefined8 *puVar8;
+  undefined4 *puVar9;
+  longlong *plVar10;
+  longlong lVar11;
+  longlong lVar12;
+  undefined1 **ppuVar14;
+  undefined1 auStack_128 [32];
+  undefined1 **local_108;
+  undefined1 local_f8;
+  longlong local_f0;
+  undefined8 ***local_e8;
+  size_t local_e0;
+  bool local_d8;
+  undefined1 uStack_d7;
+  undefined8 local_d0;
+  bool local_c8;
+  undefined1 uStack_c7;
+  undefined8 local_c0;
+  undefined1 *local_b8;
+  undefined8 local_b0;
+  char local_a7;
+  undefined4 local_a0;
+  undefined4 uStack_9c;
+  undefined4 uStack_98;
+  undefined4 uStack_94;
+  undefined1 *local_90;
+  undefined8 local_88;
+  undefined1 local_78 [16];
+  undefined8 ***local_68;
+  undefined8 uStack_60;
+  size_t local_58;
+  ulonglong local_50;
+  ulonglong local_48;
+  undefined8 ****ppppuVar13;
+  
+  local_48 = DAT_1406f5e40 ^ (ulonglong)auStack_128;
+  lVar5 = *param_1;
+  if (*(longlong *)(lVar5 + 0x58) != 0) {
+    lVar11 = 0;
+    local_d0 = 0;
+    _local_d8 = CONCAT11(1,*(char *)(lVar5 + 10) != '\0');
+    local_90 = &DAT_1405639c8;
+    local_88 = 0;
+    local_108 = &local_90;
+    plVar4 = (longlong *)FUN_1401ff3c0(&local_f0,*(undefined8 *)(lVar5 + 0x68),&local_d8,param_2);
+    lVar5 = *plVar4;
+    thunk_FUN_1401ca000(local_f0);
+    if (lVar5 == 0) {
+      local_f0 = FUN_1404fda70(0x18);
+      lVar5 = lVar11;
+      if (local_f0 != 0) {
+        lVar5 = FUN_140201860(local_f0,&local_90);
+      }
+      uVar6 = FUN_1401e8ab0();
+      plVar4 = (longlong *)FUN_140201a40(lVar5,uVar6);
+      uStack_60 = 0;
+      local_58 = 7;
+      local_50 = 0xf;
+      local_68 = (undefined8 ****)0x2e7265746c6966;
+      lVar7 = (**(code **)(**(longlong **)(*param_1 + 0x58) + 8))();
+      ppuVar14 = (undefined1 **)0xffffffffffffffff;
+      do {
+        ppuVar14 = (undefined1 **)((longlong)ppuVar14 + 1);
+      } while (*(char *)(lVar7 + (longlong)ppuVar14) != '\0');
+      if ((undefined1 **)(local_50 - local_58) < ppuVar14) {
+        local_108 = ppuVar14;
+        FUN_140083840(&local_68,ppuVar14,local_f8);
+      }
+      else {
+        ppppuVar13 = &local_68;
+        if (0xf < local_50) {
+          ppppuVar13 = (undefined8 ****)local_68;
+        }
+        lVar12 = (longlong)ppppuVar13 + local_58;
+        local_58 = (longlong)ppuVar14 + local_58;
+        FUN_140545090(lVar12,lVar7,ppuVar14);
+        *(undefined1 *)(lVar12 + (longlong)ppuVar14) = 0;
+      }
+      local_e8 = &local_68;
+      if (0xf < local_50) {
+        local_e8 = local_68;
+      }
+      local_e0 = local_58;
+      (**(code **)(*plVar4 + 0x20))(plVar4,&local_e8);
+      cVar2 = (**(code **)(*plVar4 + 8))(plVar4);
+      sVar1 = local_58;
+      if (cVar2 != '\0') {
+        ppppuVar13 = &local_68;
+        if (0xf < local_50) {
+          ppppuVar13 = (undefined8 ****)local_68;
+        }
+        puVar8 = (undefined8 *)(**(code **)(*plVar4 + 0x38))(plVar4,&local_a0);
+        if ((puVar8[1] == sVar1) &&
+           (iVar3 = memcmp((void *)*puVar8,ppppuVar13,puVar8[1]), iVar3 == 0)) {
+          puVar9 = (undefined4 *)(**(code **)(*plVar4 + 0x40))(plVar4,local_78);
+          local_a0 = *puVar9;
+          uStack_9c = puVar9[1];
+          uStack_98 = puVar9[2];
+          uStack_94 = puVar9[3];
+          local_e8 = (undefined8 ****)0xffffffffffffffff;
+          local_e0 = 0xffffffffffffffff;
+          plVar10 = (longlong *)FUN_1401ff070(&local_e8,&local_f0,&local_a0);
+          lVar7 = *plVar10;
+          thunk_FUN_1401ca000(local_f0);
+          if (lVar7 == 0) {
+            local_c0 = 0;
+            _local_c8 = CONCAT11(1,*(char *)(*param_1 + 10) != '\0');
+            local_b8 = &DAT_1405639c8;
+            local_b0 = 0;
+            local_108 = &local_b8;
+            plVar10 = (longlong *)
+                      FUN_1401ff3c0(&local_f0,*(undefined8 *)(*param_1 + 0x68),&local_c8,&local_e8);
+            lVar7 = *plVar10;
+            thunk_FUN_1401ca000(local_f0);
+            if (lVar7 == 0) {
+              if (local_a7 != '\0') {
+                *(undefined1 **)(*param_1 + 0x80) = local_b8;
+              }
+              local_f0 = FUN_1404fda70(0x28);
+              if (local_f0 != 0) {
+                lVar11 = FUN_1401fe950(local_f0,*(undefined8 *)(*param_1 + 0x58),&local_b8);
+              }
+              *(longlong *)(*param_1 + 0x78) = lVar11;
+            }
+          }
+        }
+      }
+      (**(code **)*plVar4)(plVar4,1);
+      if (lVar5 != 0) {
+        FUN_1402018f0(lVar5);
+        thunk_FUN_1401ca000(lVar5,0x18);
+      }
+      if (0xf < local_50) {
+        if (0xfff < local_50 + 1) {
+          if (0x1f < (ulonglong)((longlong)local_68 + (-8 - (longlong)local_68[-1]))) {
+                    /* WARNING: Subroutine does not return */
+            FUN_14050cb84(local_68[-1],local_50 + 0x28);
+          }
+        }
+        thunk_FUN_1401ca000();
+      }
+    }
+  }
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_140200560 @140200560  size=699
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+longlong *
+FUN_140200560(longlong *param_1,longlong *param_2,longlong *param_3,ulonglong param_4,
+             undefined8 *param_5)
+
+{
+  longlong lVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  longlong *plVar4;
+  longlong *plVar5;
+  longlong *plVar6;
+  longlong *plVar7;
+  undefined1 auStack_138 [32];
+  undefined1 **local_118;
+  undefined1 *local_110;
+  longlong local_108;
+  longlong *local_100;
+  undefined8 local_f8;
+  undefined1 *local_e8;
+  undefined8 local_e0;
+  undefined1 local_d8;
+  undefined1 local_d7;
+  undefined8 local_d0;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  undefined8 local_b8;
+  undefined8 local_b0;
+  char *local_a8;
+  undefined8 local_a0;
+  undefined1 *local_98;
+  undefined8 local_90;
+  undefined1 local_80 [48];
+  ulonglong local_50;
+  
+  local_50 = DAT_1406f5e40 ^ (ulonglong)auStack_138;
+  plVar6 = (longlong *)0x0;
+  *param_5 = 0;
+  if (param_4 < 0x30) {
+    local_100 = (longlong *)&DAT_1405639c8;
+    local_f8 = 0;
+    local_a8 = "file is too short to be an sstable";
+    local_a0 = 0x22;
+    FUN_1401deaf0(param_1,2,&local_a8,&local_100);
+  }
+  else {
+    local_e8 = &DAT_1405639c8;
+    local_e0 = 0;
+    local_110 = local_80;
+    local_118 = &local_e8;
+    local_100 = param_1;
+    (**(code **)(*param_3 + 8))(param_3,&local_108,param_4 - 0x30,0x30);
+    if (local_108 == 0) {
+      local_c8 = 0xffffffffffffffff;
+      uStack_c0 = 0xffffffffffffffff;
+      local_b8 = 0xffffffffffffffff;
+      local_b0 = 0xffffffffffffffff;
+      plVar4 = (longlong *)FUN_1401ff120(&local_c8,&local_100,&local_e8);
+      lVar1 = *plVar4;
+      *plVar4 = local_108;
+      local_108 = lVar1;
+      thunk_FUN_1401ca000(local_100);
+      if (local_108 == 0) {
+        local_98 = &DAT_1405639c8;
+        local_90 = 0;
+        local_d7 = 1;
+        local_d0 = 0;
+        local_d8 = *(char *)((longlong)param_2 + 10) != '\0';
+        local_118 = &local_98;
+        plVar4 = (longlong *)FUN_1401ff3c0(&local_100,param_3,&local_d8,&local_b8);
+        lVar1 = *plVar4;
+        *plVar4 = local_108;
+        local_108 = lVar1;
+        thunk_FUN_1401ca000(local_100);
+        if (local_108 == 0) {
+          local_100 = (longlong *)FUN_1404fda70(0x18);
+          plVar4 = plVar6;
+          if (local_100 != (longlong *)0x0) {
+            plVar4 = (longlong *)FUN_140201860(local_100,&local_98);
+          }
+          plVar5 = (longlong *)FUN_1404fda70(0xa0);
+          plVar7 = plVar6;
+          local_100 = plVar5;
+          if (plVar5 != (longlong *)0x0) {
+            FUN_1401deda0(plVar5);
+            plVar5[0xc] = 0;
+            plVar5[0x11] = -1;
+            plVar5[0x12] = -1;
+            plVar7 = plVar5;
+          }
+          lVar1 = param_2[1];
+          *plVar7 = *param_2;
+          plVar7[1] = lVar1;
+          lVar1 = param_2[3];
+          plVar7[2] = param_2[2];
+          plVar7[3] = lVar1;
+          lVar1 = param_2[5];
+          plVar7[4] = param_2[4];
+          plVar7[5] = lVar1;
+          lVar1 = param_2[7];
+          plVar7[6] = param_2[6];
+          plVar7[7] = lVar1;
+          lVar1 = param_2[9];
+          plVar7[8] = param_2[8];
+          plVar7[9] = lVar1;
+          uVar2 = *(undefined4 *)((longlong)param_2 + 0x54);
+          lVar1 = param_2[0xb];
+          uVar3 = *(undefined4 *)((longlong)param_2 + 0x5c);
+          *(int *)(plVar7 + 10) = (int)param_2[10];
+          *(undefined4 *)((longlong)plVar7 + 0x54) = uVar2;
+          *(int *)(plVar7 + 0xb) = (int)lVar1;
+          *(undefined4 *)((longlong)plVar7 + 0x5c) = uVar3;
+          plVar7[0xd] = (longlong)param_3;
+          *(undefined4 *)(plVar7 + 0x11) = (undefined4)local_c8;
+          *(undefined4 *)((longlong)plVar7 + 0x8c) = local_c8._4_4_;
+          *(undefined4 *)(plVar7 + 0x12) = (undefined4)uStack_c0;
+          *(undefined4 *)((longlong)plVar7 + 0x94) = uStack_c0._4_4_;
+          plVar7[0x13] = (longlong)plVar4;
+          plVar4 = plVar6;
+          if ((longlong *)param_2[6] != (longlong *)0x0) {
+            plVar4 = (longlong *)(**(code **)(*(longlong *)param_2[6] + 0x30))();
+          }
+          plVar7[0xe] = (longlong)plVar4;
+          plVar7[0x10] = 0;
+          plVar7[0xf] = 0;
+          local_100 = (longlong *)FUN_1404fda70(8);
+          if (local_100 != (longlong *)0x0) {
+            *local_100 = (longlong)plVar7;
+            plVar6 = local_100;
+          }
+          *param_5 = plVar6;
+          FUN_140200820(plVar6,&local_c8);
+        }
+      }
+    }
+    *param_1 = local_108;
+    local_108 = 0;
+    thunk_FUN_1401ca000(0);
+  }
+  return param_1;
+}
+
+
+
+// decompiled 16 functions

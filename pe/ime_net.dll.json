@@ -1,0 +1,580 @@
+{
+ "file": "ime_net.dll",
+ "size": 3005480,
+ "sha256": "83762c64327bbd2aa2c130de895ed188833f9cdc0c611331f63a5fb5333c274f",
+ "machine": "0x8664",
+ "timestamp": 1788855669,
+ "timestamp_iso": "2026-09-08T08:21:09Z",
+ "characteristics": "0x2022",
+ "subsystem": 3,
+ "dll": true,
+ "entrypoint": "0x186790",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 2223104,
+   "raw": "0x400",
+   "rawsize": 2223104,
+   "entropy": 6.399,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0x220000",
+   "vsize": 561476,
+   "raw": "0x21f000",
+   "rawsize": 561664,
+   "entropy": 5.509,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x2aa000",
+   "vsize": 94336,
+   "raw": "0x2a8200",
+   "rawsize": 72704,
+   "entropy": 4.818,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x2c2000",
+   "vsize": 116940,
+   "raw": "0x2b9e00",
+   "rawsize": 117248,
+   "entropy": 6.322,
+   "chars": "0x40000040"
+  },
+  {
+   "name": "_RDATA",
+   "va": "0x2df000",
+   "vsize": 244,
+   "raw": "0x2d6800",
+   "rawsize": 512,
+   "entropy": 2.43,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "va": "0x2e0000",
+   "vsize": 480,
+   "raw": "0x2d6a00",
+   "rawsize": 512,
+   "entropy": 4.702,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x2e1000",
+   "vsize": 17772,
+   "raw": "0x2d6c00",
+   "rawsize": 17920,
+   "entropy": 5.45,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "wcwss.dll",
+   "count": 4,
+   "funcs": [
+    "wcwss_connect_socket",
+    "wcwss_uninit",
+    "wcwss_send_socket_message",
+    "wcwss_close_socket"
+   ]
+  },
+  {
+   "dll": "KERNEL32.dll",
+   "count": 184,
+   "funcs": [
+    "FreeEnvironmentStringsW",
+    "CloseHandle",
+    "GetLastError",
+    "PostQueuedCompletionStatus",
+    "EnterCriticalSection",
+    "LeaveCriticalSection",
+    "DeleteCriticalSection",
+    "SetEvent",
+    "WaitForSingleObject",
+    "WaitForMultipleObjects",
+    "QueueUserAPC",
+    "TerminateThread",
+    "TlsAlloc",
+    "TlsFree",
+    "LocalFree",
+    "FormatMessageA",
+    "VerSetConditionMask",
+    "SetLastError",
+    "CreateIoCompletionPort",
+    "GetProcessHeap",
+    "InitializeCriticalSectionAndSpinCount",
+    "SleepEx",
+    "CreateEventW",
+    "SetWaitableTimer",
+    "TlsGetValue",
+    "TlsSetValue",
+    "VerifyVersionInfoA",
+    "CreateWaitableTimerA",
+    "GetCurrentDirectoryW",
+    "FindClose",
+    "FindFirstFileW",
+    "FindNextFileW",
+    "MultiByteToWideChar",
+    "WideCharToMultiByte",
+    "QueryPerformanceCounter",
+    "QueryPerformanceFrequency",
+    "GetCurrentThread",
+    "GetThreadTimes",
+    "GetEnvironmentStringsW",
+    "WriteConsoleW",
+    "OutputDebugStringW",
+    "GetQueuedCompletionStatus",
+    "DecodePointer",
+    "GetCommandLineW",
+    "GetCommandLineA",
+    "GetOEMCP",
+    "WaitForSingleObjectEx",
+    "Sleep",
+    "SwitchToThread",
+    "GetCurrentThreadId",
+    "GetExitCodeThread",
+    "GetNativeSystemInfo",
+    "SetCurrentDirectoryW",
+    "CreateDirectoryW",
+    "CreateFileW",
+    "FindFirstFileExW",
+    "GetDiskFreeSpaceExW",
+    "GetFileAttributesW",
+    "GetFileAttributesExW",
+    "GetFileInformationByHandle",
+    "GetFinalPathNameByHandleW",
+    "GetFullPathNameW",
+    "SetEndOfFile",
+    "SetFileAttributesW",
+    "SetFileInformationByHandle",
+    "SetFilePointerEx",
+    "SetFileTime",
+    "GetTempPathW",
+    "AreFileApisANSI",
+    "DeviceIoControl",
+    "CreateDirectoryExW",
+    "CopyFileW",
+    "MoveFileExW",
+    "CreateHardLinkW",
+    "GetFileInformationByHandleEx",
+    "CreateSymbolicLinkW",
+    "InitializeSRWLock",
+    "ReleaseSRWLockExclusive",
+    "AcquireSRWLockExclusive",
+    "InitializeCriticalSectionEx",
+    "TryEnterCriticalSection",
+    "ReleaseSRWLockShared",
+    "AcquireSRWLockShared",
+    "TryAcquireSRWLockExclusive",
+    "TryAcquireSRWLockShared",
+    "InitOnceBeginInitialize",
+    "InitOnceComplete",
+    "GetStringTypeW",
+    "InitializeConditionVariable",
+    "WakeConditionVariable",
+    "WakeAllConditionVariable",
+    "SleepConditionVariableCS",
+    "SleepConditionVariableSRW",
+    "EncodePointer",
+    "RtlUnwind",
+    "LCMapStringEx",
+    "FlsAlloc",
+    "FlsGetValue",
+    "FlsSetValue",
+    "FlsFree",
+    "InitOnceExecuteOnce",
+    "CreateEventExW",
+    "CreateSemaphoreExW",
+    "FlushProcessWriteBuffers",
+    "GetCurrentProcessorNumber",
+    "GetSystemTimeAsFileTime",
+    "GetTickCount64",
+    "FreeLibraryWhenCallbackReturns",
+    "CreateThreadpoolWork",
+    "SubmitThreadpoolWork",
+    "CloseThreadpoolWork",
+    "CreateThreadpoolTimer",
+    "SetThreadpoolTimer",
+    "WaitForThreadpoolTimerCallbacks",
+    "CloseThreadpoolTimer",
+    "CreateThreadpoolWait",
+    "SetThreadpoolWait",
+    "CloseThreadpoolWait",
+    "GetModuleHandleW",
+    "GetProcAddress",
+    "GetLocaleInfoEx",
+    "CompareStringEx",
+    "GetCPInfo",
+    "ResetEvent",
+    "InitializeSListHead",
+    "RtlCaptureContext",
+    "RtlLookupFunctionEntry",
+    "RtlVirtualUnwind",
+    "UnhandledExceptionFilter",
+    "SetUnhandledExceptionFilter",
+    "GetCurrentProcess",
+    "TerminateProcess",
+    "IsProcessorFeaturePresent",
+    "IsDebuggerPresent",
+    "GetStartupInfoW",
+    "GetCurrentProcessId",
+    "RtlPcToFileHeader",
+    "RaiseException",
+    "RtlUnwindEx",
+    "InterlockedPushEntrySList",
+    "InterlockedFlushSList",
+    "FreeLibrary",
+    "LoadLibraryExW",
+    "SetConsoleCtrlHandler",
+    "CreateThread",
+    "ExitThread",
+    "ResumeThread",
+    "FreeLibraryAndExitThread",
+    "GetModuleHandleExW",
+    "SetEnvironmentVariableW",
+    "GetFileType",
+    "GetDriveTypeW",
+    "PeekNamedPipe",
+    "SystemTimeToTzSpecificLocalTime",
+    "FileTimeToSystemTime",
+    "DuplicateHandle",
+    "ReadFile",
+    "GetConsoleMode",
+    "ReadConsoleW",
+    "WriteFile",
+    "GetConsoleOutputCP",
+    "ExitProcess",
+    "GetModuleFileNameW",
+    "HeapFree",
+    "HeapAlloc",
+    "GetStdHandle",
+    "GetDateFormatW",
+    "GetTimeFormatW",
+    "CompareStringW",
+    "LCMapStringW",
+    "GetLocaleInfoW",
+    "IsValidLocale",
+    "GetUserDefaultLCID",
+    "EnumSystemLocalesW",
+    "FlushFileBuffers",
+    "GetFileSizeEx",
+    "SetStdHandle",
+    "DeleteFileW",
+    "HeapReAlloc",
+    "HeapSize",
+    "HeapQueryInformation",
+    "GetTimeZoneInformation",
+    "IsValidCodePage",
+    "GetACP"
+   ]
+  },
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 3,
+   "funcs": [
+    "CryptReleaseContext",
+    "CryptAcquireContextA",
+    "CryptGenRandom"
+   ]
+  },
+  {
+   "dll": "WS2_32.dll",
+   "count": 2,
+   "funcs": [
+    "WSAStartup",
+    "WSACleanup"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "??0Callback@net@wetap@@QEAA@ULogConfig@@V?$function@$$A6AX_N@Z@std@@V?$function@$$A6AXH@Z@5@V?$shared_ptr@VThreadSafeRequestConfigMap@net@wetap@@@5@V?$function@$$A6AXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@5@@Z",
+   "addr": "0x4e1a0"
+  },
+  {
+   "ord": 2,
+   "name": "??1Callback@net@wetap@@UEAA@XZ",
+   "addr": "0x5e90"
+  },
+  {
+   "ord": 3,
+   "name": "??_7Callback@net@wetap@@6B@",
+   "addr": "0x229720"
+  },
+  {
+   "ord": 4,
+   "name": "?Decrypt@AES@Crypto@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV34@P6AXW4inner_loglevel@@PEBD@Z@Z",
+   "addr": "0x1f980"
+  },
+  {
+   "ord": 5,
+   "name": "?Encrypt@AES@Crypto@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV34@@Z",
+   "addr": "0x1fda0"
+  },
+  {
+   "ord": 6,
+   "name": "?bind_socket_to_cellular_and_dns_by_cellular@Callback@net@wetap@@UEAAHHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV45@@Z",
+   "addr": "0x56fd0"
+  },
+  {
+   "ord": 7,
+   "name": "?do_certificate_verify@Callback@net@wetap@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H0AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@5@@Z",
+   "addr": "0x57080"
+  },
+  {
+   "ord": 8,
+   "name": "?get_networktype@Callback@net@wetap@@UEAAHXZ",
+   "addr": "0x57800"
+  },
+  {
+   "ord": 9,
+   "name": "?log@Callback@net@wetap@@UEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00HPEAD@Z",
+   "addr": "0x57810"
+  },
+  {
+   "ord": 10,
+   "name": "?net_add_host_map_with_scope@net@wetap@@YAXPEAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HW4HostMapScope@12@@Z",
+   "addr": "0xc620"
+  },
+  {
+   "ord": 11,
+   "name": "?on_close@Callback@net@wetap@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IH0@Z",
+   "addr": "0x57820"
+  },
+  {
+   "ord": 12,
+   "name": "?on_handshake@Callback@net@wetap@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@5@@Z",
+   "addr": "0x578c0"
+  },
+  {
+   "ord": 13,
+   "name": "?on_idkey_stat@Callback@net@wetap@@UEAAXAEBV?$vector@UIDKey@wcwss@@V?$allocator@UIDKey@wcwss@@@std@@@std@@@Z",
+   "addr": "0x57960"
+  },
+  {
+   "ord": 14,
+   "name": "?on_kv_stat@Callback@net@wetap@@UEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+   "addr": "0x57970"
+  },
+  {
+   "ord": 15,
+   "name": "?on_message@Callback@net@wetap@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IPEBD_K_N@Z",
+   "addr": "0x57ad0"
+  },
+  {
+   "ord": 16,
+   "name": "?on_open@Callback@net@wetap@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I_NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@5@H0AEBUConnectProfile@wcwss@@@Z",
+   "addr": "0x57c30"
+  },
+  {
+   "ord": 17,
+   "name": "create_net_api_context",
+   "addr": "0xe790"
+  },
+  {
+   "ord": 18,
+   "name": "destroy_net_api_context",
+   "addr": "0xe7d0"
+  },
+  {
+   "ord": 19,
+   "name": "net_add_host_map",
+   "addr": "0xe870"
+  },
+  {
+   "ord": 20,
+   "name": "net_cancel_task",
+   "addr": "0xe8e0"
+  },
+  {
+   "ord": 21,
+   "name": "net_finalize",
+   "addr": "0xe9b0"
+  },
+  {
+   "ord": 22,
+   "name": "net_generate_device_code",
+   "addr": "0xeae0"
+  },
+  {
+   "ord": 23,
+   "name": "net_generate_device_code_v2",
+   "addr": "0xec10"
+  },
+  {
+   "ord": 24,
+   "name": "net_get_commit_date",
+   "addr": "0xed40"
+  },
+  {
+   "ord": 25,
+   "name": "net_get_version",
+   "addr": "0xeec0"
+  },
+  {
+   "ord": 26,
+   "name": "net_handshake_if_needed",
+   "addr": "0xef30"
+  },
+  {
+   "ord": 27,
+   "name": "net_initialize",
+   "addr": "0xefb0"
+  },
+  {
+   "ord": 28,
+   "name": "net_initialize_get_uin",
+   "addr": "0xefe0"
+  },
+  {
+   "ord": 29,
+   "name": "net_log",
+   "addr": "0xf030"
+  },
+  {
+   "ord": 30,
+   "name": "net_perform_init_action",
+   "addr": "0xf1d0"
+  },
+  {
+   "ord": 31,
+   "name": "net_reset_uin",
+   "addr": "0xf240"
+  },
+  {
+   "ord": 32,
+   "name": "net_resume_network_monitor",
+   "addr": "0xf320"
+  },
+  {
+   "ord": 33,
+   "name": "net_set_device_token",
+   "addr": "0xf3a0"
+  },
+  {
+   "ord": 34,
+   "name": "net_set_socket_ready_callback",
+   "addr": "0xf480"
+  },
+  {
+   "ord": 35,
+   "name": "net_set_user_device_name",
+   "addr": "0xf4f0"
+  },
+  {
+   "ord": 36,
+   "name": "net_start_custom_host_task",
+   "addr": "0xf5d0"
+  },
+  {
+   "ord": 37,
+   "name": "net_start_custom_host_task_with_auth",
+   "addr": "0xf610"
+  },
+  {
+   "ord": 38,
+   "name": "net_start_custom_host_ws_task_with_auth",
+   "addr": "0xfc00"
+  },
+  {
+   "ord": 39,
+   "name": "net_start_get_timestamp_task",
+   "addr": "0x101f0"
+  },
+  {
+   "ord": 40,
+   "name": "net_start_message_task",
+   "addr": "0x102e0"
+  },
+  {
+   "ord": 41,
+   "name": "net_start_message_task_with_option",
+   "addr": "0x104b0"
+  },
+  {
+   "ord": 42,
+   "name": "net_start_receive_notify_ws",
+   "addr": "0x106c0"
+  },
+  {
+   "ord": 43,
+   "name": "net_start_task",
+   "addr": "0x10780"
+  },
+  {
+   "ord": 44,
+   "name": "net_start_task_with_option",
+   "addr": "0x108e0"
+  },
+  {
+   "ord": 45,
+   "name": "net_start_task_with_option_v2",
+   "addr": "0x10a90"
+  },
+  {
+   "ord": 46,
+   "name": "net_stop_receive_notify_ws",
+   "addr": "0x10c30"
+  },
+  {
+   "ord": 47,
+   "name": "net_suspend_network_monitor",
+   "addr": "0x10cf0"
+  },
+  {
+   "ord": 48,
+   "name": "net_switch_server",
+   "addr": "0x10d70"
+  },
+  {
+   "ord": 49,
+   "name": "net_test_send_exception",
+   "addr": "0x10e70"
+  },
+  {
+   "ord": 50,
+   "name": "net_update_android_process_status",
+   "addr": "0x10ee0"
+  },
+  {
+   "ord": 51,
+   "name": "net_update_android_screen_status",
+   "addr": "0x10fb0"
+  },
+  {
+   "ord": 52,
+   "name": "net_update_log_level",
+   "addr": "0x11080"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\data\\landun\\workspace\\ime-business\\build_x64\\3rd\\ime-net\\Release\\ime_net.pdb\u0000",
+   "guid": "787617863",
+   "age": 1
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": [
+  {
+   "type": "RT_MANIFEST",
+   "id": 24
+  }
+ ]
+}

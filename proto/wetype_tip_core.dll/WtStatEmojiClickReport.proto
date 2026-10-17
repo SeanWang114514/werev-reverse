@@ -1,0 +1,21 @@
+// file: WtStatEmojiClickReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtKeyboardType.proto', 'WtStatEmojiQueryStatus.proto', 'WtStatEmojiType.proto', 'WtStatEmojiAction.proto']
+package com.tencent.wrbus.pb;
+message WtStatEmojiClickReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string dict_infos = 2;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 3;
+  optional string engine_version = 4;
+  optional string device_type = 5;
+  optional string request_id = 6;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiQueryStatus> query_status = 7;
+  optional string query = 8;
+  optional string tab_name = 9;
+  optional int64 tab_id = 10;
+  optional int64 tab_index = 11;
+  optional string emoji_content = 12;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiType> emoji_type = 13;
+  optional string a_b_params = 14;
+  optional string label = 15;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiAction> action = 16;
+  optional string emoji_content_extra = 17;
+}

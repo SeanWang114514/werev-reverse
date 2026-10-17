@@ -1,0 +1,36 @@
+// file: WtClipboardAction.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtClipboardAction {
+  clipboard_action_invalid = 0;
+  clipboard_action_panel_exposure = 1;
+  clipboard_action_cancel = 2;
+  clipboard_action_open_clipboard = 3;
+  clipboard_action_choose_five_min = 4;
+  clipboard_action_choose_one_day = 5;
+  clipboard_action_choose_seven_day = 6;
+  clipboard_action_choose_three_month = 7;
+  clipboard_action_click_setting = 8;
+  clipboard_action_add_content = 9;
+  clipboard_action_click_content_action = 10;
+  clipboard_action_add_to_common_terms = 11;
+  clipboard_action_delete = 12;
+  clipboard_action_click_content = 13;
+  clipboard_action_close_clipboard = 14;
+  clipboard_action_exposure_clipboard_entrance = 15;
+  clipboard_action_click_clipboard_entrance = 16;
+  clipboard_action_exposure_content = 17;
+  clipboard_action_picture_exposure = 18;
+  clipboard_action_click_save_picture = 19;
+  clipboard_action_click_send_picture = 20;
+  clipboard_action_click_permission = 21;
+  clipboard_action_click_clear_entrance = 22;
+  clipboard_action_exposure_clear_entrance = 23;
+  clipboard_action_click_confirm_clear = 24;
+  clipboard_action_exposure_choose_word_icon = 25;
+  clipboard_action_click_choose_word_icon = 26;
+  clipboard_action_exposure_drop_down_options = 27;
+  clipboard_action_click_drop_down_options = 28;
+  clipboard_action_click_choose_word = 29;
+  clipboard_action_click_button = 30;
+  clipboard_action_delete_confirm = 31;
+}

@@ -1,0 +1,19 @@
+// file: WtStatGroupClipboardUserActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto']
+package com.tencent.wrbus.pb;
+message WtStatGroupClipboardUserActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional int64 group_id = 2;
+  optional string vid_list = 3;
+  optional string data_id = 4;
+  optional int64 type = 5;
+  optional int64 clipboard_type = 6;
+  optional int64 receive_timestamp = 7;
+  optional int64 upload_cost = 8;
+  optional int64 send_timestamp = 9;
+  optional int64 receive_timestamp_from_server = 10;
+  optional int64 show_timestamp = 11;
+  optional int64 download_cost = 12;
+  optional int64 state = 13;
+  optional int64 size = 14;
+  optional string trace_id = 15;
+}

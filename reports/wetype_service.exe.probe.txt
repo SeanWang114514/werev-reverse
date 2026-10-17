@@ -1,0 +1,509 @@
+
+===== [ANTI-DEBUG] 39 =====
+  0x00143365 A dr0I
+  0x001a633c A int32
+  0x001a6380 A uint32
+  0x001a63ac A sint32
+  0x001a69b0 A google.protobuf.Int32Value
+  0x001a69d0 A google.protobuf.UInt32Value
+  0x001a98b8 A Invalid wire type for CPPTYPE_INT32: 
+  0x001a9908 A Invalid wire type for CPPTYPE_UINT32: 
+  0x001aa040 A CPPTYPE_INT32
+  0x001aa060 A CPPTYPE_UINT32
+  0x001aa6b0 A GetInt32
+  0x001aa6c0 A SetInt32
+  0x001aa6d0 A GetRepeatedInt32
+  0x001aa6e8 A AddInt32
+  0x001aa740 A GetUInt32
+  0x001aa750 A SetUInt32
+  0x001aa760 A GetRepeatedUInt32
+  0x001aa778 A AddUInt32
+  0x001aab40 A field->cpp_type() == cpp_type || (field->cpp_type() == FieldDescriptor::CPPTYPE_ENUM && cpp_type == FieldDescriptor::CPPTYPE_INT32)
+  0x001aac58 A type or int32_t).
+  0x001ab541 A TYPE_INT32
+  0x001ab5c7 A TYPE_UINT32
+  0x001ab60d A TYPE_SINT32
+  0x001ace08 A MapKey::GetInt32Value
+  0x001ace20 A MapKey::GetUInt32Value
+  0x001aceb0 A MapValueConstRef::GetInt32Value
+  0x001aced0 A MapValueConstRef::GetUInt32Value
+  0x001b00b7 A 2$.google.protobuf.FeatureSet.EnumTypeB#
+  0x001b2a78 A MapValueRef::SetInt32Value
+  0x001b2a98 A MapValueRef::SetUInt32Value
+  0x001b3060 A value.size() <= kInt32MaxSize
+  0x001fa598 A IsDebuggerPresent
+  0x001fa5ba A OutputDebugStringW
+  0x001fa6e8 A GetTickCount64
+  0x001fa9c8 A QueryPerformanceCounter
+  0x001faa80 A GetTickCount
+  0x001fab14 A OutputDebugStringA
+  0x001fae34 A SetUnhandledExceptionFilter
+  0x00201210 A .?AVReflectionOptionProvider@?1??CreateTcParseTable@Reflection@protobuf@google@@AEBAPEBUTcParseTableBase@internal@34@XZ@
+
+===== [ANTI-VM] 4 =====
+  0x001b5350 A VirtualAlloc failed
+  0x001bced0 A `virtual displacement map'
+  0x001fabc4 A VirtualAlloc
+  0x001fae04 A RtlVirtualUnwind
+
+===== [CRYPTO] 13 =====
+  0x001df384 A .tls
+  0x001df394 A .tls$
+  0x001df3a4 A .tls$ZZZ
+  0x001faab2 A TlsAlloc
+  0x001faabe A TlsGetValue
+  0x001faacc A TlsSetValue
+  0x001faada A TlsFree
+  0x001fac74 A SetEntriesInAclW
+  0x002379cf A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+  0x00237a5a A 2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+  0x00237d77 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x00237ddb A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x00238ce8 A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+
+===== [KEYS] 0 =====
+
+===== [PROTO/PORT] 271 =====
+  0x0010bd65 A 3333
+  0x001a5b70 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\io\zero_copy_stream.cc
+  0x001a5d10 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+  0x001a6020 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\io\coded_stream.cc
+  0x001a60f0 A  bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in third_party/protobuf/io/coded_stream.h.
+  0x001a61b0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\message_lite.cc
+  0x001a62f0 A  exceeded maximum protobuf size of 2GB: 
+  0x001a6568 A google.protobuf.Empty
+  0x001a6590 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/descriptor.h
+  0x001a6618 A google.protobuf.ServiceOptions
+  0x001a6638 A google.protobuf.OneofOptions
+  0x001a6658 A google.protobuf.MethodOptions
+  0x001a6678 A google.protobuf.MessageOptions
+  0x001a6698 A google.protobuf.FileOptions
+  0x001a66b8 A google.protobuf.FieldOptions
+  0x001a66d8 A google.protobuf.ExtensionRangeOptions
+  0x001a6700 A google.protobuf.EnumValueOptions
+  0x001a6728 A google.protobuf.EnumOptions
+  0x001a67a0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\descriptor.cc
+  0x001a68b8 A google.protobuf.
+  0x001a6930 A google.protobuf.DoubleValue
+  0x001a6950 A google.protobuf.FloatValue
+  0x001a6970 A google.protobuf.Int64Value
+  0x001a6990 A google.protobuf.UInt64Value
+  0x001a69b0 A google.protobuf.Int32Value
+  0x001a69d0 A google.protobuf.UInt32Value
+  0x001a69f0 A google.protobuf.StringValue
+  0x001a6a10 A google.protobuf.BytesValue
+  0x001a6a30 A google.protobuf.BoolValue
+  0x001a6a50 A google.protobuf.Any
+  0x001a6a68 A google.protobuf.FieldMask
+  0x001a6a88 A google.protobuf.Duration
+  0x001a6aa8 A google.protobuf.Timestamp
+  0x001a6ac8 A google.protobuf.Value
+  0x001a6ae0 A google.protobuf.ListValue
+  0x001a6b00 A google.protobuf.Struct
+  0x001a6b38 A google.protobuf.StreamOptions
+  0x001a6bf8 A proto3
+  0x001a7560 A The [proto3_optional=true] option may only be set on proto3fields, not 
+  0x001a7c50 A Fields with proto3_optional set must be a member of a one-field oneof
+  0x001a7f28 A google.protobuf.bridge.MessageSet
+  0x001a80f0 A Extension ranges are not allowed in proto3.
+  0x001a8120 A MessageSet is not supported in proto3.
+  0x001a8148 A " which is a proto3 message type.
+  0x001a8198 A Extensions in proto3 are only allowed for defining options.
+  0x001a81d8 A Required fields are not allowed in proto3.
+  0x001a8208 A Explicit default values are not allowed in proto3.
+  0x001a8240 A Groups are not supported in proto3 syntax.
+  0x001a9a70 A third_party/protobuf/cpp_features.proto
+  0x001a9a98 A google/protobuf/cpp_features.proto
+  0x001a9ae8 A google/protobuf/descriptor.proto
+  0x001aa0e0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/map_field.h
+  0x001aa230 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\generated_message_reflection.cc
+  0x001aa2e8 A   Method      : google::protobuf::Reflection::
+  0x001ab272 A google/protobuf/type.proto
+  0x001ab28e A google.protobuf
+  0x001ab29f A google/protobuf/any.proto
+  0x001ab2b9 A $google/protobuf/source_context.proto"
+  0x001ab307 A .google.protobuf.Field
+  0x001ab340 A .google.protobuf.Option
+  0x001ab371 A .google.protobuf.SourceContext
+  0x001ab3a1 A .google.protobuf.Syntax
+  0x001ab3e3 A .google.protobuf.Field.Kind
+  0x001ab413 A 2".google.protobuf.Field.Cardinality
+  0x001ab6cd A .google.protobuf.EnumValue
+  0x001ab7c1 A .google.protobuf.Option";
+  0x001ab801 A .google.protobuf.Any*C
+  0x001ab85e A com.google.protobufB
+  0x001ab87e A Z-google.golang.org/protobuf/types/known/typepb
+  0x001abc40 A google.protobuf.Type.name
+  0x001abc60 A google.protobuf.Type.oneofs
+  0x001abc80 A google.protobuf.Type.edition
+  0x001abcc0 A google.protobuf.Field.name
+  0x001abce0 A google.protobuf.Field.type_url
+  0x001abd00 A google.protobuf.Field.json_name
+  0x001abd20 A google.protobuf.Field.default_value
+  0x001abd68 A google.protobuf.Enum.name
+  0x001abd88 A google.protobuf.Enum.edition
+  0x001abdc8 A google.protobuf.EnumValue.name
+  0x001abe08 A google.protobuf.Option.name
+  0x001abe70 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\dynamic_message.cc
+  0x001ac030 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\arena.cc
+  0x001ac0c0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/parse_context.h
+  0x001ac190 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\extension_set.cc
+  0x001ac310 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/extension_set_inl.h
+  0x001ac4b0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/reflection_internal.h
+  0x001ac680 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\message.cc
+  0x001acfd0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\text_format.cc
+  0x001ad0c0 A " stored in google.protobuf.Any.
+  0x001ad508 A " stored in google.protobuf.Any has missing required fields
+  0x001ae431 A  google/protobuf/descriptor.proto
+  0x001ae454 A google.protobuf"G
+  0x001ae486 A 2$.google.protobuf.FileDescriptorProto"
+  0x001ae541 A 2 .google.protobuf.DescriptorProto
+  0x001ae576 A 2$.google.protobuf.EnumDescriptorProto
+  0x001ae5ad A 2'.google.protobuf.ServiceDescriptorProto
+  0x001ae5e9 A 2%.google.protobuf.FieldDescriptorProto
+  0x001ae623 A .google.protobuf.FileOptions
+  0x001ae65b A .google.protobuf.SourceCodeInfo
+  0x001ae69d A .google.protobuf.Edition"
+  0x001ae7d0 A 2/.google.protobuf.DescriptorProto.ExtensionRange
+  0x001ae815 A 2%.google.protobuf.OneofDescriptorProto
+  0x001ae84f A .google.protobuf.MessageOptions
+  0x001ae886 A 2..google.protobuf.DescriptorProto.ReservedRange
+  0x001ae90c A 2&.google.protobuf.ExtensionRangeOptions
+  0x001ae99a A 2$.google.protobuf.UninterpretedOption
+  0x001ae9d5 A 22.google.protobuf.ExtensionRangeOptions.DeclarationB
+  0x001aea22 A .google.protobuf.FeatureSet
+  0x001aea53 A 28.google.protobuf.ExtensionRangeOptions.VerificationState:
+  0x001aeb8f A 2+.google.protobuf.FieldDescriptorProto.Label
+  0x001aebca A 2*.google.protobuf.FieldDescriptorProto.Type
+  0x001aec6d A .google.protobuf.FieldOptions
+  0x001aec8e A proto3_optional
+  0x001aee5a A .google.protobuf.OneofOptions"
+  0x001aeeac A 2).google.protobuf.EnumValueDescriptorProto
+  0x001aeeea A .google.protobuf.EnumOptions
+  0x001aef1e A 26.google.protobuf.EnumDescriptorProto.EnumReservedRange
+  0x001aefe9 A 2!.google.protobuf.EnumValueOptions"
+  0x001af045 A 2&.google.protobuf.MethodDescriptorProto
+  0x001af080 A .google.protobuf.ServiceOptions"
+  0x001af103 A .google.protobuf.MethodOptions
+  0x001af233 A 2).google.protobuf.FileOptions.OptimizeMode:
+  0x001af422 A 2$.google.protobuf.UninterpretedOption":
+  0x001af5b6 A 2$.google.protobuf.UninterpretedOption*
+  0x001af625 A 2#.google.protobuf.FieldOptions.CType:
+  0x001af672 A 2$.google.protobuf.FieldOptions.JSType:
+  0x001af738 A 2-.google.protobuf.FieldOptions.OptionRetention
+  0x001af778 A 2..google.protobuf.FieldOptions.OptionTargetType
+  0x001af7c2 A 2,.google.protobuf.FieldOptions.EditionDefault
+  0x001af889 A .google.protobuf.Edition
+  0x001afddf A 2/.google.protobuf.MethodOptions.IdempotencyLevel:
+  0x001afe73 A 2$.google.protobuf.UninterpretedOption"P
+  0x001aff1c A 2-.google.protobuf.UninterpretedOption.NamePart
+  0x001b003e A 2).google.protobuf.FeatureSet.FieldPresenceB9
+  0x001b00b7 A 2$.google.protobuf.FeatureSet.EnumTypeB#
+  0x001b0123 A 21.google.protobuf.FeatureSet.RepeatedFieldEncodingB'
+  0x001b0198 A 2*.google.protobuf.FeatureSet.Utf8ValidationB#
+  0x001b0203 A 2+.google.protobuf.FeatureSet.MessageEncodingB 
+  0x001b0267 A 2&.google.protobuf.FeatureSet.JsonFormatB3
+  0x001b04f0 A 2<.google.protobuf.FeatureSetDefaults.FeatureSetEditionDefault
+  0x001b05ef A .google.protobuf.FeatureSet"
+  0x001b062f A 2(.google.protobuf.SourceCodeInfo.Location
+  0x001b070c A 2-.google.protobuf.GeneratedCodeInfo.Annotation
+  0x001b079f A 26.google.protobuf.GeneratedCodeInfo.Annotation.Semantic"(
+  0x001b0941 A Z-google.golang.org/protobuf/types/descriptorpb
+  0x001b1951 A "google/protobuf/cpp_features.proto
+  0x001b1979 A  google/protobuf/descriptor.proto"M
+  0x001b1b50 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\descriptor_database.cc
+  0x001b2500 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\extension_set_heavy.cc
+  0x001b2640 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\generated_message_tctable_gen.cc
+  0x001b2880 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\generated_message_tctable_lite.cc
+  0x001b2c2d A google.protobuf"&
+  0x001b2c87 A Z,google.golang.org/protobuf/types/known/anypb
+  0x001b2d80 A google.protobuf.Any.type_url
+  0x001b2df1 A $google/protobuf/source_context.proto
+  0x001b2e18 A google.protobuf""
+  0x001b2e79 A Z6google.golang.org/protobuf/types/known/sourcecontextpb
+  0x001b2f40 A google/protobuf/source_context.proto
+  0x001b2f88 A google.protobuf.SourceContext.file_name
+  0x001b3080 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\wire_format_lite.cc
+  0x001b31a0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\wire_format.cc
+  0x001b3290 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\reflection_ops.cc
+  0x001d6d67 A 1000
+  0x001d6d6d A 10000
+  0x001fb890 A google.protobuf.Optionname
+  0x001fba78 A google.protobuf.Fieldnametype_urljson_namedefault_value
+  0x001fbb58 A google.protobuf.EnumValuename
+  0x001fbca0 A google.protobuf.Typenameoneofsedition
+  0x001fbde8 A google.protobuf.Enumnameedition
+  0x001fc320 A google.protobuf.FileDescriptorProtonamepackagedependencysyntax
+  0x001fca30 A google.protobuf.FileOptionsjava_packagejava_outer_classnamego_packageobjc_class_prefixcsharp_namespaceswift_prefixphp_class_prefixphp_namespacephp_metadata_namespaceruby_package
+  0x001fd1c0 A google.protobuf.OneofDescriptorProtoname
+  0x001fd264 A google.protobuf.UninterpretedOption.NamePartname_part
+  0x001fd3b0 A google.protobuf.MethodDescriptorProtonameinput_typeoutput_type
+  0x001fd4e8 A google.protobuf.SourceCodeInfo.Locationleading_commentstrailing_commentsleading_detached_comments
+  0x001fd730 A google.protobuf.FieldDescriptorProtonameextendeetype_namedefault_valuejson_name
+  0x001fd880 A google.protobuf.GeneratedCodeInfo.Annotationsource_file
+  0x001fd960 A google.protobuf.EnumValueDescriptorProtoname
+  0x001fda10 A google.protobuf.FieldOptions.EditionDefaultvalue
+  0x001fdba0 A google.protobuf.ServiceDescriptorProtoname
+  0x001fde00 A google.protobuf.ExtensionRangeOptions.Declarationfull_nametype
+  0x001fdf50 A google.protobuf.EnumDescriptorProtonamereserved_name
+  0x001fe180 A google.protobuf.UninterpretedOptionidentifier_valueaggregate_value
+  0x001fe3c8 A google.protobuf.DescriptorProtonamereserved_name
+  0x001fe714 A google.protobuf.Anytype_url
+  0x001fe828 A google.protobuf.SourceContextfile_name
+  0x00200f60 A .?AVZeroCopyOutputStream@io@protobuf@google@@
+  0x00200fa0 A .?AVZeroCopyInputStream@io@protobuf@google@@
+  0x00200fe0 A .?AVArrayInputStream@io@protobuf@google@@
+  0x00201020 A .?AVStringOutputStream@io@protobuf@google@@
+  0x00201060 A .?AVZeroCopyCodedInputStream@protobuf@google@@
+  0x002010a0 A .?AVErrorCollector@io@protobuf@google@@
+  0x002010d8 A .?AVFinder@TextFormat@protobuf@google@@
+  0x00201110 A .?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
+  0x00201170 A .?AVAggregateErrorCollector@?A0x9d51359c@protobuf@google@@
+  0x002011c0 A .?AVOptionProvider@TailCallTableInfo@internal@protobuf@google@@
+  0x00201210 A .?AVReflectionOptionProvider@?1??CreateTcParseTable@Reflection@protobuf@google@@AEBAPEBUTcParseTableBase@internal@34@XZ@
+  0x002012a0 A .?AVMessageLite@protobuf@google@@
+  0x002012d8 A .?AVMessage@protobuf@google@@
+  0x00201308 A .?AVEnum@protobuf@google@@
+  0x00201338 A .?AVEnumValue@protobuf@google@@
+  0x00201368 A .?AVField@protobuf@google@@
+  0x00201398 A .?AVOption@protobuf@google@@
+  0x002013c8 A .?AVType@protobuf@google@@
+  0x002013f8 A .?AVMessageFactory@protobuf@google@@
+  0x00201430 A .?AVDynamicMessageFactory@protobuf@google@@
+  0x00201470 A .?AVDynamicMessage@protobuf@google@@
+  0x002014b0 A .?AVRepeatedFieldAccessor@internal@protobuf@google@@
+  0x00201500 A .?AVMapFieldAccessor@internal@protobuf@google@@
+  0x00201540 A .?AVRandomAccessRepeatedFieldAccessor@internal@protobuf@google@@
+  0x002015a0 A .?AVRepeatedPtrFieldStringAccessor@internal@protobuf@google@@
+  0x002015f0 A .?AV?$RepeatedPtrFieldWrapper@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@internal@protobuf@google@@
+  0x00201680 A .?AVRepeatedPtrFieldMessageAccessor@internal@protobuf@google@@
+  0x002016d0 A .?AV?$RepeatedPtrFieldWrapper@VMessage@protobuf@google@@@internal@protobuf@google@@
+  0x00201740 A .?AVGeneratedMessageFactory@?A0x33412b2f@protobuf@google@@
+  0x00201790 A .?AV?$RepeatedFieldPrimitiveAccessor@H@internal@protobuf@google@@
+  0x002017f0 A .?AV?$RepeatedFieldWrapper@H@internal@protobuf@google@@
+  0x00201840 A .?AV?$RepeatedFieldPrimitiveAccessor@I@internal@protobuf@google@@
+  0x002018a0 A .?AV?$RepeatedFieldWrapper@I@internal@protobuf@google@@
+  0x002018f0 A .?AV?$RepeatedFieldPrimitiveAccessor@_J@internal@protobuf@google@@
+  0x00201950 A .?AV?$RepeatedFieldWrapper@_J@internal@protobuf@google@@
+  0x002019a0 A .?AV?$RepeatedFieldPrimitiveAccessor@_K@internal@protobuf@google@@
+  0x00201a00 A .?AV?$RepeatedFieldWrapper@_K@internal@protobuf@google@@
+  0x00201a50 A .?AV?$RepeatedFieldPrimitiveAccessor@M@internal@protobuf@google@@
+  0x00201ab0 A .?AV?$RepeatedFieldWrapper@M@internal@protobuf@google@@
+  0x00201b00 A .?AV?$RepeatedFieldPrimitiveAccessor@N@internal@protobuf@google@@
+  0x00201b60 A .?AV?$RepeatedFieldWrapper@N@internal@protobuf@google@@
+  0x00201bb0 A .?AV?$RepeatedFieldPrimitiveAccessor@_N@internal@protobuf@google@@
+  0x00201c10 A .?AV?$RepeatedFieldWrapper@_N@internal@protobuf@google@@
+  0x00201c60 A .?AVBaseTextGenerator@TextFormat@protobuf@google@@
+  0x00201cb0 A .?AVFastFieldValuePrinter@TextFormat@protobuf@google@@
+  0x00201d00 A .?AVTextGenerator@Printer@TextFormat@protobuf@google@@
+  0x00201d50 A .?AVDebugStringFieldValuePrinter@Printer@TextFormat@protobuf@google@@
+  0x00201db0 A .?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
+  0x00201e08 A .?AVFeatureSet@protobuf@google@@
+  0x00201e40 A .?AVDescriptorProto@protobuf@google@@
+  0x00201e80 A .?AVDescriptorProto_ExtensionRange@protobuf@google@@
+  0x00201ec8 A .?AVFieldDescriptorProto@protobuf@google@@
+  0x00201f08 A .?AVOneofDescriptorProto@protobuf@google@@
+  0x00201f48 A .?AVEnumDescriptorProto@protobuf@google@@
+  0x00201f88 A .?AVEnumValueDescriptorProto@protobuf@google@@
+  0x00201fc8 A .?AVServiceDescriptorProto@protobuf@google@@
+  0x00202008 A .?AVMethodDescriptorProto@protobuf@google@@
+  0x00202048 A .?AVFileDescriptorProto@protobuf@google@@
+  0x00202088 A .?AVMessageOptions@protobuf@google@@
+  0x002020c0 A .?AVFieldOptions@protobuf@google@@
+  0x002020f8 A .?AVOneofOptions@protobuf@google@@
+  0x00202130 A .?AVEnumOptions@protobuf@google@@
+  0x00202168 A .?AVEnumValueOptions@protobuf@google@@
+  0x002021a0 A .?AVExtensionRangeOptions@protobuf@google@@
+  0x002021e0 A .?AVServiceOptions@protobuf@google@@
+  0x00202218 A .?AVMethodOptions@protobuf@google@@
+  0x00202250 A .?AVFileOptions@protobuf@google@@
+  0x00202288 A .?AVUninterpretedOption@protobuf@google@@
+  0x002022c8 A .?AVFeatureSetDefaults@protobuf@google@@
+  0x00202308 A .?AVSourceCodeInfo@protobuf@google@@
+  0x00202340 A .?AVDescriptorProto_ReservedRange@protobuf@google@@
+  0x00202390 A .?AVEnumDescriptorProto_EnumReservedRange@protobuf@google@@
+  0x002023e0 A .?AVExtensionRangeOptions_Declaration@protobuf@google@@
+  0x00202430 A .?AVFeatureSetDefaults_FeatureSetEditionDefault@protobuf@google@@
+  0x00202490 A .?AVFieldOptions_EditionDefault@protobuf@google@@
+  0x002024d8 A .?AVFileDescriptorSet@protobuf@google@@
+  0x00202510 A .?AVGeneratedCodeInfo@protobuf@google@@
+  0x00202550 A .?AVGeneratedCodeInfo_Annotation@protobuf@google@@
+  0x00202598 A .?AVSourceCodeInfo_Location@protobuf@google@@
+  0x002025e0 A .?AVUninterpretedOption_NamePart@protobuf@google@@
+  0x00202650 A .?AVDescriptorDatabase@protobuf@google@@
+  0x00202690 A .?AVEncodedDescriptorDatabase@protobuf@google@@
+  0x002026d0 A .?AVAny@protobuf@google@@
+  0x00202700 A .?AVSourceContext@protobuf@google@@
+  0x002371ba A 60402
+
+===== [IPC] 0 =====
+
+===== [TSF/TIP] 19 =====
+  0x0000588a A tYfD9*tSfD9lr
+  0x00005c43 A tSfD9"tMH
+  0x000060f8 A tYfD9"tSfD9dj
+  0x0017d45a A tSfD
+  0x0018bade A tSf91tNH
+  0x001a72f8 A Field name "$0" is reserved multiple times.
+  0x001a79c0 A Enum value "$0" is reserved multiple times.
+  0x001a8d18 A Extension declaration number $0 is declared multiple times.
+  0x001a8da0 A Extension field name "$0" is declared multiple times.
+  0x001ac208 A Multiple extension registrations for type "
+  0x001ad100 A Non-repeated Any specified multiple times.
+  0x001ad260 A " is specified multiple times.
+  0x001af1ab A java_multiple_files
+  0x001ba950 A cannot assign multiple tags to the same node
+  0x001ba980 A cannot assign multiple anchors to the same node
+  0x001fa64c A WaitForSingleObject
+  0x001fa662 A WaitForSingleObjectEx
+  0x001fa7f2 A WaitForMultipleObjects
+  0x001faca0 A WTSFreeMemory
+
+===== [HOOK/INJECT] 3 =====
+  0x001fa750 A GetProcAddress
+  0x001fa8b6 A OpenProcess
+  0x001fa962 A LoadLibraryExW
+
+===== [TELEMETRY] 22 =====
+  0x0019e078 A Status accessed after move.
+  0x001a5e10 A static_cast<size_t>(count) <= target_->size()
+  0x001a82e0 A Missing extension declaration for field $0 with number $1 in extendee message $2. An extension range must declare for all extension fields if its verification state is DECLARATION or there's any declaration in the range already. Otherwise, consider splitting up the range.
+  0x001ab080 A static_cast<int>(fast_entries_count) == 1 << table_info.table_size_log2
+  0x001ad3e0 A Reached an unintended state: CPPTYPE_MESSAGE
+  0x001aea53 A 28.google.protobuf.ExtensionRangeOptions.VerificationState:
+  0x001aeb0c A VerificationState
+  0x001b33f0 A An OK status is not a valid constructor argument to StatusOr<T>
+  0x001b3430 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\status\statusor.cc
+  0x001b37e0 A ' is being linked both statically and dynamically into this executable. e.g. some files listed as srcs to a test and also listed as srcs of some shared lib deps of the same test.
+  0x001bbf10 A state not recoverable
+  0x001bcdc8 A `local static guard'
+  0x001bd1b8 A `local static thread guard'
+  0x001fa2e8 A QueryServiceStatusEx
+  0x001fa32e A SetServiceStatus
+  0x001fa56a A WTHelperProvDataFromStateData
+  0x00200750 A .?AV?$codecvt@DDU_Mbstatet@@@std@@
+  0x00202740 A .?AVFlagStateInterface@flags_internal@lts_20240116@absl@@
+  0x00202790 A .?AVFlagState@flags_internal@lts_20240116@absl@@
+  0x001bfa90 U api-ms-win-core-xstate-l2-1-0
+  0x001bfbd0 U ext-ms-win-ntuser-windowstation-l1-1-0
+  0x001c17b8 U united-states
+
+===== [SECURITY-SW] 118 =====
+  0x000241f3 A tpB+
+  0x000942d4 A tpff
+  0x0009be08 A tPM;
+  0x0012735c A D8i$tP
+  0x0016f326 A D$Tp
+  0x0019bdc0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\wil-src\include\wil\resource.h
+  0x0019be50 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\wil-src\include\wil/win32_helpers.h
+  0x0019c110 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\wil-src\include\wil/resource.h
+  0x0019c5b0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\base\logging.cc
+  0x0019c9e0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\wil-src\include\wil\result_macros.h
+  0x0019ca50 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\wil-src\include\wil\registry_helpers.h
+  0x0019caf0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\base\system_util.cc
+  0x0019df20 A E:\workspace\WeChatPinYin\wxkb\01_mozc\base\win_util.cc
+  0x001a5b70 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\io\zero_copy_stream.cc
+  0x001a5bf0 A This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
+  0x001a5d10 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+  0x001a6020 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\io\coded_stream.cc
+  0x001a61b0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\message_lite.cc
+  0x001a6590 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/descriptor.h
+  0x001a67a0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\descriptor.cc
+  0x001a6fd8 A .placeholder.proto
+  0x001a6ff0 A PLACEHOLDER_VALUE
+  0x001a7008 A .PLACEHOLDER_VALUE
+  0x001aa0e0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/map_field.h
+  0x001aa230 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\generated_message_reflection.cc
+  0x001abe70 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\dynamic_message.cc
+  0x001ac030 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\arena.cc
+  0x001ac0c0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/parse_context.h
+  0x001ac190 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\extension_set.cc
+  0x001ac310 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/extension_set_inl.h
+  0x001ac4b0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google/protobuf/reflection_internal.h
+  0x001ac680 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\message.cc
+  0x001acfd0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\text_format.cc
+  0x001af0df A output_type
+  0x001af341 A csharp_namespace
+  0x001af38b A php_namespace
+  0x001af3a2 A php_metadata_namespace
+  0x001b1b50 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\descriptor_database.cc
+  0x001b22e0 A Need space between number and identifier.
+  0x001b2428 A Need space between identifier and decimal point.
+  0x001b2500 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\extension_set_heavy.cc
+  0x001b2598 A output->message_info.prototype != nullptr
+  0x001b25d0 A Extension factory's GetPrototype() returned nullptr; extension: 
+  0x001b2640 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\generated_message_tctable_gen.cc
+  0x001b2880 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\generated_message_tctable_lite.cc
+  0x001b2e65 A SourceContextProtoP
+  0x001b2e79 A Z6google.golang.org/protobuf/types/known/sourcecontextpb
+  0x001b3080 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\wire_format_lite.cc
+  0x001b31a0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\wire_format.cc
+  0x001b3290 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\protobuf-src\src\google\protobuf\reflection_ops.cc
+  0x001b3430 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\status\statusor.cc
+  0x001b3520 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\flags\internal\flag.cc
+  0x001b3a48 A *** Check failure stack trace: ***
+  0x001b3a70 A  (stacktrace:
+  0x001b3bd0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\log\internal\log_sink_set.cc
+  0x001b3ce0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\strings\internal\cord_rep_btree.cc
+  0x001b4200 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\mutex.cc
+  0x001b42c0 A s->waitp == nullptr || s->waitp == waitp || s->suppress_fatal_errors
+  0x001b4370 A s->waitp != nullptr || s->suppress_fatal_errors
+  0x001b4490 A waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+  0x001b4540 A waitp == nullptr || waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+  0x001b45b8 A waitp != nullptr
+  0x001b4790 A waitp->thread->waitp == nullptr
+  0x001b47e0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\internal\win32_waiter.cc
+  0x001b4890 A RtlCaptureStackBackTrace
+  0x001b4fb0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\base\internal\low_level_alloc.cc
+  0x001b6920 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\strings\escaping.cc
+  0x001bbcd8 A no buffer space
+  0x001bbd60 A no space on device
+  0x001bc310 A GetCurrentPackageId
+  0x001bced0 A `virtual displacement map'
+  0x001bd000 A `placement delete closure'
+  0x001bd020 A `placement delete[] closure'
+  0x001bd2a0 A `anonymous namespace'
+  0x001be3e0 A CorExitProcess
+  0x001bfe08 A AppPolicyGetProcessTerminationMethod
+  0x001c0408 A Input/output error
+  0x001c04c8 A Not enough space
+  0x001c05f0 A No space left on device
+  0x001c6618 A E:\workspace\WeChatPinYin\wxkb\01_mozc\base\version.cc
+  0x001def9c A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\service\wetype_service.pdb
+  0x001fa528 A WTHelperGetProvSignerFromChain
+  0x001fa54a A WTHelperGetProvCertFromChain
+  0x001fa5ba A OutputDebugStringW
+  0x001fa616 A GetProcessHeap
+  0x001fa6bc A GetCurrentProcessId
+  0x001fa750 A GetProcAddress
+  0x001fa8a2 A GetCurrentProcess
+  0x001fa974 A GetPrivateProfileStringW
+  0x001fab14 A OutputDebugStringA
+  0x001fac1c A AddAce
+  0x001faf68 A GetConsoleOutputCP
+  0x001faf7e A ExitProcess
+  0x001fb110 A SetPriorityClass
+  0x001fb124 A GetPriorityClass
+  0x001fca30 A google.protobuf.FileOptionsjava_packagejava_outer_classnamego_packageobjc_class_prefixcsharp_namespaceswift_prefixphp_class_prefixphp_namespacephp_metadata_namespaceruby_package
+  0x001fd3b0 A google.protobuf.MethodDescriptorProtonameinput_typeoutput_type
+  0x002002e8 A .?AV_Facet_base@std@@
+  0x00200310 A .?AVfacet@locale@std@@
+  0x00200928 A .?AVClockInterface@wetype@@
+  0x00200f60 A .?AVZeroCopyOutputStream@io@protobuf@google@@
+  0x00201020 A .?AVStringOutputStream@io@protobuf@google@@
+  0x00202740 A .?AVFlagStateInterface@flags_internal@lts_20240116@absl@@
+  0x00236a77 A http://ocsp.digicert.com0A
+  0x00236a9c A 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  0x00236ae4 A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  0x002371d6 A http://www.digicert.com/CPS0
+  0x0023722b A Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+  0x00237280 A Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+  0x002372ef A http://ocsp.digicert.com0\
+  0x00237314 A Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  0x00237d52 A http://ocsp.digicert.com0]
+  0x00237d77 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x00237ddb A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x002384af A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  0x00238ade A http://ocsp.digicert.com0C
+  0x00238b03 A 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  0x00238b4d A 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0

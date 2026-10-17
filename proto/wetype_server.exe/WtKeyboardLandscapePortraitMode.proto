@@ -1,0 +1,7 @@
+// file: WtKeyboardLandscapePortraitMode.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtKeyboardLandscapePortraitMode {
+  keyboad_mode_invalid = 0;
+  keyboad_mode_landscape = 1;
+  keyboad_mode_portrait = 2;
+}

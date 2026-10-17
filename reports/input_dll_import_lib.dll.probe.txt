@@ -1,0 +1,112 @@
+
+===== [ANTI-DEBUG] 3 =====
+  0x000650ce A QueryPerformanceCounter
+  0x00065450 A SetUnhandledExceptionFilter
+  0x000654b4 A IsDebuggerPresent
+
+===== [ANTI-VM] 4 =====
+  0x0004cfd0 A VirtualAlloc failed
+  0x00053260 A `virtual displacement map'
+  0x00065262 A VirtualAlloc
+  0x00065420 A RtlVirtualUnwind
+
+===== [CRYPTO] 12 =====
+  0x0005f3ec A .tls
+  0x0005f3fc A .tls$
+  0x0005f40c A .tls$ZZZ
+  0x0006554c A TlsAlloc
+  0x00065558 A TlsGetValue
+  0x00065566 A TlsSetValue
+  0x00065574 A TlsFree
+  0x0006e3cf A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+  0x0006e45a A 2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+  0x0006e777 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x0006e7db A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x0006f6e8 A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+
+===== [KEYS] 0 =====
+
+===== [PROTO/PORT] 1 =====
+  0x0006dbba A 60402
+
+===== [IPC] 0 =====
+
+===== [TSF/TIP] 8 =====
+  0x0002d562 A tSfD
+  0x00040376 A tSf91tNH
+  0x00064c94 A EnumEnabledLayoutOrTip
+  0x00064cab A EnumLayoutOrTipForSetup
+  0x00064cc3 A InstallLayoutOrTip
+  0x00064cd6 A InstallLayoutOrTipUserReg
+  0x00064cf0 A SetDefaultLayoutOrTip
+  0x000652c6 A WaitForSingleObjectEx
+
+===== [HOOK/INJECT] 2 =====
+  0x000651ee A GetProcAddress
+  0x0006522a A LoadLibraryExW
+
+===== [TELEMETRY] 12 =====
+  0x0004b8e0 A ' is being linked both statically and dynamically into this executable. e.g. some files listed as srcs to a test and also listed as srcs of some shared lib deps of the same test.
+  0x00052220 A state not recoverable
+  0x00053158 A `local static guard'
+  0x00053548 A `local static thread guard'
+  0x0005c330 A class boost::exception_ptr __cdecl boost::exception_detail::get_static_exception_object<struct boost::exception_detail::bad_alloc_>(void)
+  0x0005c410 A class boost::exception_ptr __cdecl boost::exception_detail::get_static_exception_object<struct boost::exception_detail::bad_exception_>(void)
+  0x00067420 A .?AV?$codecvt@DDU_Mbstatet@@@std@@
+  0x000674c0 A .?AVFlagStateInterface@flags_internal@lts_20240116@absl@@
+  0x00067510 A .?AVFlagState@flags_internal@lts_20240116@absl@@
+  0x00055ee0 U api-ms-win-core-xstate-l2-1-0
+  0x00056020 U ext-ms-win-ntuser-windowstation-l1-1-0
+  0x00057328 U united-states
+
+===== [SECURITY-SW] 50 =====
+  0x00031462 A D$Tp
+  0x0004aff8 A E:\workspace\WeChatPinYin\wxkb\01_mozc\win32\base\input_dll.cc
+  0x0004b1c0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\base\logging.cc
+  0x0004b5c0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\flags\internal\flag.cc
+  0x0004be70 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\mutex.cc
+  0x0004bf30 A s->waitp == nullptr || s->waitp == waitp || s->suppress_fatal_errors
+  0x0004bfe0 A s->waitp != nullptr || s->suppress_fatal_errors
+  0x0004c110 A waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+  0x0004c1c0 A waitp == nullptr || waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+  0x0004c238 A waitp != nullptr
+  0x0004c3e0 A waitp->thread->waitp == nullptr
+  0x0004c430 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\internal\win32_waiter.cc
+  0x0004c4e0 A RtlCaptureStackBackTrace
+  0x0004cc30 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\base\internal\low_level_alloc.cc
+  0x00051f68 A no buffer space
+  0x00051ff0 A no space on device
+  0x00052678 A GetCurrentPackageId
+  0x00053260 A `virtual displacement map'
+  0x00053390 A `placement delete closure'
+  0x000533b0 A `placement delete[] closure'
+  0x00053630 A `anonymous namespace'
+  0x00053a10 A CorExitProcess
+  0x00056258 A AppPolicyGetProcessTerminationMethod
+  0x0005c2a0 A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\boost-src\libs\exception\include\boost/exception/detail/exception_ptr.hpp
+  0x0005f04c A E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\win32\base\input_dll_import_lib.pdb
+  0x000650a2 A GetCurrentProcessId
+  0x000651ee A GetProcAddress
+  0x00065200 A GetCurrentProcess
+  0x0006557e A ExitProcess
+  0x000655ae A GetConsoleOutputCP
+  0x0006583e A GetProcessHeap
+  0x00066fe8 A .?AV_Facet_base@std@@
+  0x00067010 A .?AVfacet@locale@std@@
+  0x00067458 A .?AVClockInterface@wetype@@
+  0x000674c0 A .?AVFlagStateInterface@flags_internal@lts_20240116@absl@@
+  0x0006d477 A http://ocsp.digicert.com0A
+  0x0006d49c A 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  0x0006d4e4 A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  0x0006dbd6 A http://www.digicert.com/CPS0
+  0x0006dc2b A Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+  0x0006dc80 A Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+  0x0006dcef A http://ocsp.digicert.com0\
+  0x0006dd14 A Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  0x0006e752 A http://ocsp.digicert.com0]
+  0x0006e777 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x0006e7db A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x0006eeaf A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  0x0006f4de A http://ocsp.digicert.com0C
+  0x0006f503 A 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  0x0006f54d A 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0

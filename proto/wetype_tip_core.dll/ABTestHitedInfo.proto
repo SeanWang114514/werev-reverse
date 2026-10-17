@@ -1,0 +1,16 @@
+// file: ABTestHitedInfo.proto  package: com.tencent.wetype.pb  syntax: proto3  deps: -
+package com.tencent.wetype.pb;
+message ABTestHitedInfo {
+  optional uint32 expt_id = 1;
+  optional uint32 group_id = 2;
+  optional enum<.com.tencent.wetype.pb.ABTestHitedInfo.HitType> hit_type = 3;
+  optional uint32 launch_layer_id = 4;
+  optional uint64 bucket_src = 5;
+  enum HitType {
+    Unknown = 0;
+    WhiteList = 1;
+    LaunchLayer = 2;
+    BaseAB = 3;
+    DefaultParam = 4;
+  }
+}

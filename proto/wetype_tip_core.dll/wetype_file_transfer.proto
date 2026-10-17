@@ -1,0 +1,149 @@
+// file: wetype_file_transfer.proto  package: wetype.server  syntax: proto2  deps: -
+package wetype.server;
+message P2PPeerInfo {
+  optional uint64 uin = 1;
+  optional bytes public_cer = 2;
+  optional bytes link_net_info = 3;
+  optional string public_ip = 4;
+  optional bool ready = 5;
+  optional bytes grpc_net_info = 6;
+  optional bytes dispatch_buf = 7;
+  optional string biz_uin = 8;
+  optional enum<.wetype.server.Platform> platform = 9;
+  optional bytes direct_info = 10;
+  optional int32 state = 11;
+  optional string device_name = 12;
+  optional uint64 capabilities = 13;
+}
+message NetEndpoint {
+  optional string ip = 1;
+  optional int32 port = 2;
+  optional string ssid = 3;
+  optional string pwd = 4;
+}
+message AvailableNets {
+  repeated message<.wetype.server.NetEndpoint> awdl = 1;
+  repeated message<.wetype.server.NetEndpoint> lan = 2;
+  repeated message<.wetype.server.NetEndpoint> wfd = 3;
+}
+message GrpcNetInfo {
+  optional string ip = 1;
+  optional int32 port = 2;
+  optional string ca_cert = 3;
+  optional string server_name = 4;
+  optional string device_name = 5;
+  optional int32 device_type = 6;
+  optional int32 version = 7;
+  optional int32 platform = 8;
+  optional message<.wetype.server.AvailableNets> available_nets = 9;
+  optional bool preferred_client = 10;
+}
+message FileTransferFeature {
+  optional int32 wxp2p_thread_mb = 1;
+  optional int32 wxp2p_thread_second = 2;
+  optional bool open_status_bar = 3;
+}
+message GenP2PTransferCodeReq {
+  optional bytes public_cer = 1;
+  optional bytes link_net_info = 2;
+  optional string device_name = 3;
+  optional uint64 capabilities = 4;
+}
+message GenP2PTransferCodeRsp {
+  optional int32 err_code = 1;
+  optional string transfer_code = 2;
+  optional int64 expire_at = 3;
+  optional int64 expiration = 4;
+  optional string transfer_url = 5;
+  optional string transfer_img = 6;
+}
+message JoinP2PTransferReq {
+  optional string transfer_code = 1;
+  optional bytes public_cer = 2;
+  optional bytes link_net_info = 3;
+  optional bytes grpc_net_info = 4;
+  optional bytes direct_info = 5;
+  optional int32 state = 6;
+  optional uint64 capabilities = 7;
+}
+message JoinP2PTransferRsp {
+  optional int32 err_code = 1;
+  optional message<.wetype.server.P2PPeerInfo> peer_info = 2;
+  optional int64 expire_at = 3;
+  optional int64 expiration = 4;
+  optional bytes dispatch_buf = 5;
+  optional bytes peer_dispatch_buf = 6;
+}
+message GetP2PTransferPeerReq {
+  optional string transfer_code = 1;
+}
+message GetP2PTransferPeerRsp {
+  optional int32 err_code = 1;
+  optional message<.wetype.server.P2PPeerInfo> peer_info = 2;
+  optional int64 expire_at = 3;
+  optional int64 expiration = 4;
+  optional bytes dispatch_buf = 5;
+  optional bytes peer_dispatch_buf = 6;
+}
+message InitP2PTransferReq {
+  optional uint64 peer_uin = 1;
+  optional bytes public_cer = 2;
+  optional bytes link_net_info = 3;
+}
+message InitP2PTransferRsp {
+  optional int32 err_code = 1;
+  optional string transfer_code = 2;
+  optional int64 expire_at = 3;
+  optional int64 expiration = 4;
+}
+message UserTransferStatInfo {
+  optional uint64 user_id = 1;
+  optional bytes trans_stat_info = 2;
+}
+message HandleTransferCompletedReq {
+  repeated message<.wetype.server.UserTransferStatInfo> users = 1;
+  optional uint64 timestamp = 2;
+}
+message HandleTransferCompletedRsp {
+  optional int32 err_code = 1;
+}
+message P2PDeviceInfo {
+  optional string name = 1;
+  optional uint32 platform = 2;
+  optional int64 bind_time = 3;
+  optional string client_version = 4;
+  optional bool support_file_transfer = 5;
+}
+message P2PLinkedDevice {
+  optional uint64 uin = 1;
+  optional message<.wetype.server.P2PDeviceInfo> device_info = 2;
+}
+message GetLinkedDeviceListRsp {
+  optional int32 err_code = 1;
+  optional int64 group_id = 2;
+  repeated message<.wetype.server.P2PLinkedDevice> list = 3;
+}
+message PushP2PTransferInvite {
+  optional string transfer_code = 1;
+  optional string device_name = 2;
+  optional uint64 sender_uin = 3;
+  optional int64 send_time = 4;
+  optional uint32 platform = 5;
+}
+message FlurryMessage {
+  optional uint64 id = 1;
+  optional int32 cmd = 2;
+  optional bytes data = 3;
+}
+message FlurryMsgDisconnect {
+  optional int32 reason = 1;
+}
+enum Platform {
+  Android = 1;
+  IOS = 2;
+  MiniProgram = 3;
+  H5 = 4;
+  Mac = 5;
+  Windows = 6;
+  HarmonyMobile = 7;
+}

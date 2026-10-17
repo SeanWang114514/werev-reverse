@@ -1,0 +1,362 @@
+// file: update.proto  package: wetype.update  syntax: proto2  deps: -
+package wetype.update;
+message GetKbFeaturePair {
+  optional string key = 1;
+  optional int64 value = 2;
+}
+message GetKBFeaturesReq {
+  optional enum<.wetype.update.FeaturesType> type = 1;
+  optional uint64 synckey = 2;
+  repeated message<.wetype.update.GetKbFeaturePair> pairs = 10;
+}
+message GetKBFeaturesRsp {
+  optional string features = 1;
+  optional uint64 synckey = 2;
+}
+message ShowMenuWndReq {
+  optional uint32 receiver_handle = 1;
+  optional int32 x = 2;
+  optional int32 y = 3;
+  optional bool from_status = 4;
+}
+message ShowSettingWndReq {
+  optional int32 tab_id = 1;
+}
+message DictTypeFilter {
+  optional enum<.wetype.update.DictType> dictType = 1;
+  optional int32 compatibleVersion = 2;
+  optional string engineVersion = 3;
+}
+message ClientDictInfo {
+  optional string name = 1;
+  optional int32 version = 2;
+  optional int32 clientDictFeature = 3;
+}
+message ABTestStatus {
+  optional int32 code = 1;
+  optional string message = 2;
+}
+message ABTestHitedInfo {
+  optional enum<.wetype.update.ABTestHitedInfo.HitType> hit_type = 3;
+  optional uint32 expt_id = 1;
+  optional uint32 group_id = 2;
+  optional uint32 launch_layer_id = 4;
+  optional uint64 bucket_src = 5;
+  enum HitType {
+    Unknown = 0;
+    WhiteList = 1;
+    LaunchLayer = 2;
+    BaseAB = 3;
+    DefaultParam = 4;
+  }
+}
+message ABTestHitDetailInfo {
+  repeated message<.wetype.update.ABTestHitDetailInfo.Item> engine_item = 1;
+  repeated message<.wetype.update.ABTestHitDetailInfo.Item> client_item = 2;
+  message Item {
+    optional message<.wetype.update.ABTestHitedInfo> expt_info = 1;
+    repeated message<.wetype.update.ABTestHitDetailInfo.Item.ParamsEntry> params = 2;
+    message ParamsEntry {
+      optional string key = 1;
+      optional string value = 2;
+    }
+  }
+}
+message UserUsageStatus {
+  optional bool is_initial_installation = 1;
+}
+message ABTestClientVersion {
+  optional uint32 major = 1;
+  optional uint32 minor = 2;
+  optional uint32 patch = 3;
+  optional uint32 fix = 4;
+}
+message DeviceInfo {
+  optional string model = 1;
+  optional string brand = 2;
+  optional enum<.wetype.update.ABTestDevicePerformance> device_performance = 3;
+  optional string system_version = 4;
+}
+message GetImeDictListConfigReq {
+  optional enum<.wetype.update.DeviceType> expectedDeviceType = 1;
+  optional string engineVersion = 2;
+  repeated message<.wetype.update.ClientDictInfo> clientDicts = 3;
+  optional uint64 vid = 4;
+  optional uint64 featureFlags = 5;
+  optional string locationOverride = 6;
+  optional int32 cellDictCompatibleVersion = 7;
+  optional uint64 apiLevel = 10;
+  optional uint32 ipv4 = 11;
+  optional bytes ipv6 = 12;
+  optional bool test = 13;
+  repeated message<.wetype.update.DictTypeFilter> typeFilter = 14;
+  optional message<.wetype.update.DeviceInfo> device_info = 16;
+  optional message<.wetype.update.UserUsageStatus> user_usage_status = 17;
+}
+message GetImeDictListConfigResp {
+  repeated message<.wetype.update.ImeDictItem> dictItemList = 1;
+  optional uint32 interval = 2;
+  optional bool underExperiment = 3;
+  repeated message<.wetype.update.ABTestHitedInfo> abtest_infos = 4;
+}
+message GetImeNewHotDictConfigReq {
+  optional enum<.wetype.update.DeviceType> expectedDeviceType = 1;
+  optional string engineVersion = 2;
+  repeated message<.wetype.update.ClientDictInfo> clientDicts = 3;
+  optional uint64 vid = 4;
+  optional uint64 featureFlags = 5;
+  optional string locationOverride = 6;
+  optional int32 cellDictCompatibleVersion = 7;
+  optional uint64 apiLevel = 10;
+  optional uint32 ipv4 = 11;
+  optional bytes ipv6 = 12;
+  optional bool test = 13;
+  repeated message<.wetype.update.DictTypeFilter> typeFilter = 14;
+  optional message<.wetype.update.DeviceInfo> device_info = 15;
+  optional message<.wetype.update.UserUsageStatus> user_usage_status = 16;
+}
+message GetImeNewHotDictConfigResp {
+  repeated message<.wetype.update.ImeDictItem> dictItemList = 1;
+  optional uint32 interval = 2;
+  repeated message<.wetype.update.ABTestHitedInfo> abtest_infos = 3;
+}
+message ImeDictDownloadItem {
+  optional string cdnUrl = 1;
+  optional string md5 = 2;
+  optional string cdnKey = 3;
+  optional string decryptMd5 = 4;
+  optional enum<.wetype.update.CompressionAlgorithm> algorithm = 5;
+  optional string compressionMd5 = 6;
+  optional int32 baseVersion = 7;
+}
+message ImeDictCondition {
+  optional string description = 1;
+  repeated string urlSchemes = 2;
+  repeated string bundleIDs = 3;
+  repeated string packageNames = 4;
+  optional uint64 returnKeyTypes = 5;
+}
+message ImeDictItem {
+  optional string name = 1;
+  optional int32 version = 2;
+  optional int32 typeId = 3;
+  optional enum<.wetype.update.DictType> dictType = 4;
+  optional uint32 timestamp = 5;
+  optional string md5 = 6;
+  optional message<.wetype.update.ImeDictDownloadItem> full = 7;
+  optional message<.wetype.update.ImeDictDownloadItem> patch = 8;
+  optional uint64 experimentGroupId = 9;
+  optional bool isGray = 10;
+  optional message<.wetype.update.ImeDictCondition> condition = 11;
+  optional bool del = 12;
+  repeated int32 tags = 13;
+  repeated float weight = 14;
+  optional enum<.wetype.update.DictResourceType> resourceType = 15;
+  optional int32 compatibleVersion = 16;
+  optional string extraInfo = 17;
+  optional message<.wetype.update.ABTestHitedInfo> experiment_info = 18;
+  optional string uniqueID = 21;
+}
+message ApplicableVersion {
+  repeated string client_versions = 1;
+  optional enum<.wetype.update.KbOsType> os_type = 2;
+}
+message Command {
+  optional enum<.wetype.update.CommandType> type = 1;
+  optional bytes args = 2;
+  optional uint64 expire_time = 3;
+  optional int64 creat_time = 4;
+  repeated int32 gray_last_num = 5;
+  repeated message<.wetype.update.ApplicableVersion> applicable_versions = 6;
+  optional uint32 cmd_id = 7;
+  optional enum<.wetype.update.CommandSource> source = 8;
+}
+message GetKBCommandsReq {
+  repeated enum<.wetype.update.CommandFeatureFlag> flags = 3;
+}
+message GetKBCommandsRsp {
+  repeated message<.wetype.update.Command> commands = 1;
+}
+message UpdateKBCommandsReq {
+  repeated message<.wetype.update.Command> commands = 1;
+}
+message UpdateKBCommandsRsp {
+}
+message ApplyCosTokenReq {
+  optional enum<.wetype.update.CosUploadBiz> biz = 1;
+  optional string param = 2;
+}
+message ApplyCosTokenRsp {
+  optional string token = 1;
+  optional string tmpSecretId = 2;
+  optional string tmpSecretKey = 3;
+  optional string bucketName = 4;
+  optional string key = 5;
+  optional string region = 6;
+  optional string downloadUrl = 7;
+  optional uint64 fileSizeLimitInKB = 8;
+}
+message ApplyCosTokenReqV2 {
+  optional enum<.wetype.update.CosUploadBiz> biz = 1;
+  optional string param = 2;
+  optional int64 http_method = 3;
+  optional uint64 vid = 10;
+}
+message ApplyCosTokenRspV2 {
+  optional string bucketName = 1;
+  optional string key = 2;
+  optional string region = 3;
+  optional string download_url = 4;
+  optional string upload_url = 5;
+  optional uint64 fileSizeLimitInKB = 6;
+  optional string cos_obj_url = 7;
+  optional string head_url = 8;
+}
+message GetKBChatStatusRsp {
+  optional uint64 unreadCount = 1;
+  optional bool reddot = 2;
+}
+message BusLogSampleInfoReq {
+  optional int32 pf = 1;
+  optional string appver = 2;
+}
+message BusLogSampleInfoGroup {
+  optional string id = 1;
+  optional string name = 2;
+  repeated string ids = 3;
+  optional double ratio = 4;
+}
+message BusLogSampleInfoItem {
+  optional string id = 1;
+  optional double ratio = 2;
+}
+message BusLogSampleInfoRsp {
+  repeated message<.wetype.update.BusLogSampleInfoGroup> sample_info_groups = 1;
+  repeated message<.wetype.update.BusLogSampleInfoItem> sample_info_items = 2;
+}
+enum FeaturesType {
+  Invalid = 0;
+  MainApp = 1;
+  Keyboard = 2;
+}
+enum CommandFeatureFlag {
+  FeatureCosCmd = 1;
+}
+enum CommandSource {
+  SourceUnknown = 0;
+  SourceLocal = 1;
+  SourceCos = 2;
+}
+enum MenuItemType {
+  About = 0;
+  Debug = 1;
+}
+enum DictType {
+  DictTypeGeneral = 0;
+  DictTypeCellDict = 1;
+  DictTypeStrokeDict = 2;
+  DictTypeWuBiDict = 3;
+  DictTypeLarge = 4;
+  DictTypeE2e = 5;
+  DictTypeBaseDict = 6;
+  DictTypeSecondLevel = 7;
+  DictTypeNNLM = 8;
+  DictTypeJianPinDict = 9;
+  DictTypeHandWriteDict = 10;
+}
+enum DictRequestFeatureFlag {
+  DictRequestFeatureNone = 0;
+  DictRequestFeatureExperimentDict = 1;
+  DictRequestFeatureConditionalDict = 2;
+  DictRequestFeatureDeletedDict = 4;
+  DictRequestFeatureLocationDict = 8;
+  DictRequestFeatureBMMResource = 16;
+  DictRequestFeatureNewCellDictCompatibleVersion = 32;
+  DictRequestFeatureCompress = 64;
+  DictRequestFeatureForceInterven = 128;
+  DictRequestFeatureNewDictCompatibleVersion = 256;
+}
+enum DeviceType {
+  DeviceTypeGeneral = 0;
+  DeviceTypeAndroid = 1;
+  DeviceTypeIOS = 2;
+  DeviceTypeEInk = 3;
+  DeviceTypeMac = 4;
+  DeviceTypeWin = 5;
+}
+enum ClientDictFeatureFlag {
+  ClientDictFeatureBuiltin = 1;
+}
+enum ABTestKeyboardType {
+  kUnKnowKeyboardType = 0;
+  kFullPinyin = 1;
+  kT9Pinyin = 2;
+  kFullEnglish = 3;
+  KHandWriting = 4;
+  KT9Stroke = 5;
+  KFullWubi = 6;
+}
+enum ABTestOsType {
+  kUnKnow = 0;
+  kAndroid = 1;
+  kIos = 2;
+  kApplet = 3;
+  kH5 = 4;
+  kMac = 5;
+  kWindows = 6;
+}
+enum ABTestDevicePerformance {
+  HIGH = 0;
+  STANDARD = 1;
+  LOW = 2;
+  INVALID = 100;
+  ULTRA_HIGH = 18446744073709551611;
+}
+enum CompressionAlgorithm {
+  CompressionAlgorithmNone = 0;
+  CompressionAlgorithmZlib = 1;
+}
+enum DictResourceType {
+  DictResourceTypeDict = 0;
+  DictResourceTypeBMMAsset = 1;
+}
+enum CommandType {
+  LogUpload = 1;
+  CleanRemoteDicts = 2;
+  EnableDebugPanel = 3;
+  CloseDataLog = 5;
+  QuickUpdateDicts = 6;
+  ShowScoringEntry = 7;
+  PrintStorageInfo = 8;
+  CloseAdjustKeyboardAdaptive = 9;
+  MemoryCheck = 10;
+  ShowPCDownloadEntry = 11;
+  KillInBackground = 12;
+  EngineExe = 100;
+}
+enum KbOsType {
+  KB_OS_TYPE_UNKNOWN = 0;
+  KB_OS_TYPE_ANDROID = 1;
+  KB_OS_TYPE_IOS = 2;
+  KB_OS_TYPE_MINI_PROGRAM = 3;
+  KB_OS_H5 = 4;
+  KB_OS_TYPE_MAC = 5;
+  KB_OS_TYPE_WINDOWS = 6;
+  KB_OS_TYPE_HARMONY_MOBILE = 7;
+}
+enum CosUploadBiz {
+  BizUnknown = 0;
+  BizChatImageUpload = 1;
+  BizLogUpload = 2;
+  BizChatVideoUpload = 3;
+  BizFullyCustomPathUpload = 4;
+  BizUserDictUpload = 5;
+  BizUserClipboardData = 6;
+  BizAudioUpload = 7;
+}
+enum HttpMethodBit {
+  HttpMethodBit_Unknown = 0;
+  HttpMethodBit_Get = 1;
+  HttpMethodBit_Put = 2;
+  HttpMethodBit_Head = 4;
+}

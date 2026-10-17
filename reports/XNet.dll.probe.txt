@@ -1,0 +1,1184 @@
+
+===== [ANTI-DEBUG] 314 =====
+  0x000ec53c A CvEH
+  0x001448b3 A ByteLeveH+
+  0x00c7084c A Int32
+  0x00c70858 A Int32x2
+  0x00c70860 A Int32x3
+  0x00c70868 A Int32x4
+  0x00c70870 A UInt32
+  0x00c70878 A UInt32x2
+  0x00c70888 A UInt32x3
+  0x00c70898 A UInt32x4
+  0x00d209e8 A Illegal parameter: dstDataKind MUST BE StorageDataKindInt32/64
+  0x00d2dc54 A Int3
+  0x00d2dca0 A UInt3
+  0x00ea2580 A BFLOAT16BOOLCOMPLEX128COMPLEX64DOUBLEFLOATFLOAT16FLOAT8E4M3FNFLOAT8E4M3FNUZFLOAT8E5M2FLOAT8E5M2FNUZINT16INT32INT4INT64INT8STRINGUINT16UINT32UINT4UINT64UINT8UNDEFINED
+  0x00ea9a08 A can't convert for xInt64 to xInt32
+  0x00eaa5f0 A int32_t
+  0x00eaa5f8 A uint32_t
+  0x00eee4a0 A struct gl_TextureFootprint2DNV {uvec2 anchor;uvec2 offset;uvec2 mask;uint lod;uint granularity;};struct gl_TextureFootprint3DNV {uvec3 anchor;uvec3 offset;uvec2 mask;uint lod;uint granularity;};bool textureFootprintNV(sampler2D, vec2, int, bool, out gl_TextureFootprint2DNV);bool textureFootprintNV(sampler3D, vec3, int, bool, out gl_TextureFootprint3DNV);bool textureFootprintNV(sampler2D, vec2, int, bool, out gl_TextureFootprint2DNV, float);bool textureFootprintNV(sampler3D, vec3, int, bool, out gl_TextureFootprint3DNV, float);bool textureFootprintClampNV(sampler2D, vec2, float, int, bool, out gl_TextureFootprint2DNV);bool textureFootprintClampNV(sampler3D, vec3, float, int, bool, out gl_TextureFootprint3DNV);bool textureFootprintClampNV(sampler2D, vec2, float, int, bool, out gl_TextureFootprint2DNV, float);bool textureFootprintClampNV(sampler3D, vec3, float, int, bool, out gl_TextureFootprint3DNV, float);bool textureFootprintLodNV(sampler2D, vec2, float, int, bool, out gl_TextureFootprint2DNV);bool textureFootprintLodNV(sampler3D, vec3, float, int, bool, out gl_TextureFootprint3DNV);bool textureFootprintGradNV(sampler2D, vec2, vec2, vec2, int, bool, out gl_TextureFootprint2DNV);bool textureFootprintGradClampNV(sampler2D, vec2, vec2, vec2, float, int, bool, out gl_TextureFootprint2DNV);
+  0x00ef0ef0 A int8_t abs(int8_t);i8vec2 abs(i8vec2);i8vec3 abs(i8vec3);i8vec4 abs(i8vec4);int8_t sign(int8_t);i8vec2 sign(i8vec2);i8vec3 sign(i8vec3);i8vec4 sign(i8vec4);int8_t min(int8_t x, int8_t y);i8vec2 min(i8vec2 x, int8_t y);i8vec3 min(i8vec3 x, int8_t y);i8vec4 min(i8vec4 x, int8_t y);i8vec2 min(i8vec2 x, i8vec2 y);i8vec3 min(i8vec3 x, i8vec3 y);i8vec4 min(i8vec4 x, i8vec4 y);uint8_t min(uint8_t x, uint8_t y);u8vec2 min(u8vec2 x, uint8_t y);u8vec3 min(u8vec3 x, uint8_t y);u8vec4 min(u8vec4 x, uint8_t y);u8vec2 min(u8vec2 x, u8vec2 y);u8vec3 min(u8vec3 x, u8vec3 y);u8vec4 min(u8vec4 x, u8vec4 y);int8_t max(int8_t x, int8_t y);i8vec2 max(i8vec2 x, int8_t y);i8vec3 max(i8vec3 x, int8_t y);i8vec4 max(i8vec4 x, int8_t y);i8vec2 max(i8vec2 x, i8vec2 y);i8vec3 max(i8vec3 x, i8vec3 y);i8vec4 max(i8vec4 x, i8vec4 y);uint8_t max(uint8_t x, uint8_t y);u8vec2 max(u8vec2 x, uint8_t y);u8vec3 max(u8vec3 x, uint8_t y);u8vec4 max(u8vec4 x, uint8_t y);u8vec2 max(u8vec2 x, u8vec2 y);u8vec3 max(u8vec3 x, u8vec3 y);u8vec4 max(u8vec4 x, u8vec4 y);int8_t    clamp(int8_t x, int8_t minVal, int8_t maxVal);i8vec2  clamp(i8vec2  x, int8_t minVal, int8_t maxVal);i8vec3  clamp(i8vec3  x, int8_t minVal, int8_t maxVal);i8vec4  clamp(i8vec4  x, int8_t minVal, int8_t maxVal);i8vec2  clamp(i8vec2  x, i8vec2  minVal, i8vec2  maxVal);i8vec3  clamp(i8vec3  x, i8vec3  minVal, i8vec3  maxVal);i8vec4  clamp(i8vec4  x, i8vec4  minVal, i8vec4  maxVal);uint8_t   clamp(uint8_t x, uint8_t minVal, uint8_t maxVal);u8vec2  clamp(u8vec2  x, uint8_t minVal, uint8_t maxVal);u8vec3  clamp(u8vec3  x, uint8_t minVal, uint8_t maxVal);u8vec4  clamp(u8vec4  x, uint8_t minVal, uint8_t maxVal);u8vec2  clamp(u8vec2  x, u8vec2  minVal, u8vec2  maxVal);u8vec3  clamp(u8vec3  x, u8vec3  minVal, u8vec3  maxVal);u8vec4  clamp(u8vec4  x, u8vec4  minVal, u8vec4  maxVal);int8_t  mix(int8_t,  int8_t,  bool);i8vec2  mix(i8vec2,  i8vec2,  bvec2);i8vec3  mix(i8vec3,  i8vec3,  bvec3);i8vec4  mix(i8vec4,  i8vec4,  bvec4);uint8_t mix(uint8_t, uint8_t, bool);u8vec2  mix(u8vec2,  u8vec2,  bvec2);u8vec3  mix(u8vec3,  u8vec3,  bvec3);u8vec4  mix(u8vec4,  u8vec4,  bvec4);bvec2 lessThan(i8vec2, i8vec2);bvec3 lessThan(i8vec3, i8vec3);bvec4 lessThan(i8vec4, i8vec4);bvec2 lessThan(u8vec2, u8vec2);bvec3 lessThan(u8vec3, u8vec3);bvec4 lessThan(u8vec4, u8vec4);bvec2 lessThanEqual(i8vec2, i8vec2);bvec3 lessThanEqual(i8vec3, i8vec3);bvec4 lessThanEqual(i8vec4, i8vec4);bvec2 lessThanEqual(u8vec2, u8vec2);bvec3 lessThanEqual(u8vec3, u8vec3);bvec4 lessThanEqual(u8vec4, u8vec4);bvec2 greaterThan(i8vec2, i8vec2);bvec3 greaterThan(i8vec3, i8vec3);bvec4 greaterThan(i8vec4, i8vec4);bvec2 greaterThan(u8vec2, u8vec2);bvec3 greaterThan(u8vec3, u8vec3);bvec4 greaterThan(u8vec4, u8vec4);bvec2 greaterThanEqual(i8vec2, i8vec2);bvec3 greaterThanEqual(i8vec3, i8vec3);bvec4 greaterThanEqual(i8vec4, i8vec4);bvec2 greaterThanEqual(u8vec2, u8vec2);bvec3 greaterThanEqual(u8vec3, u8vec3);bvec4 greaterThanEqual(u8vec4, u8vec4);bvec2 equal(i8vec2, i8vec2);bvec3 equal(i8vec3, i8vec3);bvec4 equal(i8vec4, i8vec4);bvec2 equal(u8vec2, u8vec2);bvec3 equal(u8vec3, u8vec3);bvec4 equal(u8vec4, u8vec4);bvec2 notEqual(i8vec2, i8vec2);bvec3 notEqual(i8vec3, i8vec3);bvec4 notEqual(i8vec4, i8vec4);bvec2 notEqual(u8vec2, u8vec2);bvec3 notEqual(u8vec3, u8vec3);bvec4 notEqual(u8vec4, u8vec4);  int8_t bitfieldExtract(  int8_t, int8_t, int8_t);i8vec2 bitfieldExtract(i8vec2, int8_t, int8_t);i8vec3 bitfieldExtract(i8vec3, int8_t, int8_t);i8vec4 bitfieldExtract(i8vec4, int8_t, int8_t); uint8_t bitfieldExtract( uint8_t, int8_t, int8_t);u8vec2 bitfieldExtract(u8vec2, int8_t, int8_t);u8vec3 bitfieldExtract(u8vec3, int8_t, int8_t);u8vec4 bitfieldExtract(u8vec4, int8_t, int8_t);  int8_t bitfieldInsert(  int8_t base,   int8_t, int8_t, int8_t);i8vec2 bitfieldInsert(i8vec2 base, i8vec2, int8_t, int8_t);i8vec3 bitfieldInsert(i8vec3 base, i8vec3, int8_t, int8_t);i8vec4 bitfieldInsert(i8vec4 base, i8vec4, int8_t, int8_t); uint8_t bitfieldInsert( uint8_t base,  uint8_t, int8_t, int8_t);u8vec2 bitfieldInsert(u8vec2 base, u8vec2, int8_t, int8_t);u8vec3 bitfieldInsert(u8vec3 base, u8vec3, int8_t, int8_t);u8vec4 bitfieldInsert(u8vec4 base, u8vec4, int8_t, int8_t);  int8_t bitCount(  int8_t);i8vec2 bitCount(i8vec2);i8vec3 bitCount(i8vec3);i8vec4 bitCount(i8vec4);  int8_t bitCount( uint8_t);i8vec2 bitCount(u8vec2);i8vec3 bitCount(u8vec3);i8vec4 bitCount(u8vec4);  int8_t findLSB(  int8_t);i8vec2 findLSB(i8vec2);i8vec3 findLSB(i8vec3);i8vec4 findLSB(i8vec4);  int8_t findLSB( uint8_t);i8vec2 findLSB(u8vec2);i8vec3 findLSB(u8vec3);i8vec4 findLSB(u8vec4);  int8_t findMSB(  int8_t);i8vec2 findMSB(i8vec2);i8vec3 findMSB(i8vec3);i8vec4 findMSB(i8vec4);  int8_t findMSB( uint8_t);i8vec2 findMSB(u8vec2);i8vec3 findMSB(u8vec3);i8vec4 findMSB(u8vec4);int16_t abs(int16_t);i16vec2 abs(i16vec2);i16vec3 abs(i16vec3);i16vec4 abs(i16vec4);int16_t sign(int16_t);i16vec2 sign(i16vec2);i16vec3 sign(i16vec3);i16vec4 sign(i16vec4);int16_t min(int16_t x, int16_t y);i16vec2 min(i16vec2 x, int16_t y);i16vec3 min(i16vec3 x, int16_t y);i16vec4 min(i16vec4 x, int16_t y);i16vec2 min(i16vec2 x, i16vec2 y);i16vec3 min(i16vec3 x, i16vec3 y);i16vec4 min(i16vec4 x, i16vec4 y);uint16_t min(uint16_t x, uint16_t y);u16vec2 min(u16vec2 x, uint16_t y);u16vec3 min(u16vec3 x, uint16_t y);u16vec4 min(u16vec4 x, uint16_t y);u16vec2 min(u16vec2 x, u16vec2 y);u16vec3 min(u16vec3 x, u16vec3 y);u16vec4 min(u16vec4 x, u16vec4 y);int16_t max(int16_t x, int16_t y);i16vec2 max(i16vec2 x, int16_t y);i16vec3 max(i16vec3 x, int16_t y);i16vec4 max(i16vec4 x, int16_t y);i16vec2 max(i16vec2 x, i16vec2 y);i16vec3 max(i16vec3 x, i16vec3 y);i16vec4 max(i16vec4 x, i16vec4 y);uint16_t max(uint16_t x, uint16_t y);u16vec2 max(u16vec2 x, uint16_t y);u16vec3 max(u16vec3 x, uint16_t y);u16vec4 max(u16vec4 x, uint16_t y);u16vec2 max(u16vec2 x, u16vec2 y);u16vec3 max(u16vec3 x, u16vec3 y);u16vec4 max(u16vec4 x, u16vec4 y);int16_t    clamp(int16_t x, int16_t minVal, int16_t maxVal);i16vec2  clamp(i16vec2  x, int16_t minVal, int16_t maxVal);i16vec3  clamp(i16vec3  x, int16_t minVal, int16_t maxVal);i16vec4  clamp(i16vec4  x, int16_t minVal, int16_t maxVal);i16vec2  clamp(i16vec2  x, i16vec2  minVal, i16vec2  maxVal);i16vec3  clamp(i16vec3  x, i16vec3  minVal, i16vec3  maxVal);i16vec4  clamp(i16vec4  x, i16vec4  minVal, i16vec4  maxVal);uint16_t   clamp(uint16_t x, uint16_t minVal, uint16_t maxVal);u16vec2  clamp(u16vec2  x, uint16_t minVal, uint16_t maxVal);u16vec3  clamp(u16vec3  x, uint16_t minVal, uint16_t maxVal);u16vec4  clamp(u16vec4  x, uint16_t minVal, uint16_t maxVal);u16vec2  clamp(u16vec2  x, u16vec2  minVal, u16vec2  maxVal);u16vec3  clamp(u16vec3  x, u16vec3  minVal, u16vec3  maxVal);u16vec4  clamp(u16vec4  x, u16vec4  minVal, u16vec4  maxVal);int16_t  mix(int16_t,  int16_t,  bool);i16vec2  mix(i16vec2,  i16vec2,  bvec2);i16vec3  mix(i16vec3,  i16vec3,  bvec3);i16vec4  mix(i16vec4,  i16vec4,  bvec4);uint16_t mix(uint16_t, uint16_t, bool);u16vec2  mix(u16vec2,  u16vec2,  bvec2);u16vec3  mix(u16vec3,  u16vec3,  bvec3);u16vec4  mix(u16vec4,  u16vec4,  bvec4);float16_t frexp(float16_t, out int16_t);f16vec2   frexp(f16vec2,   out i16vec2);f16vec3   frexp(f16vec3,   out i16vec3);f16vec4   frexp(f16vec4,   out i16vec4);float16_t ldexp(float16_t, int16_t);f16vec2   ldexp(f16vec2,   i16vec2);f16vec3   ldexp(f16vec3,   i16vec3);f16vec4   ldexp(f16vec4,   i16vec4);int16_t halfBitsToInt16(float16_t);i16vec2 halfBitsToInt16(f16vec2);i16vec3 halhBitsToInt16(f16vec3);i16vec4 halfBitsToInt16(f16vec4);uint16_t halfBitsToUint16(float16_t);u16vec2  halfBitsToUint16(f16vec2);u16vec3  halfBitsToUint16(f16vec3);u16vec4  halfBitsToUint16(f16vec4);int16_t float16BitsToInt16(float16_t);i16vec2 float16BitsToInt16(f16vec2);i16vec3 float16BitsToInt16(f16vec3);i16vec4 float16BitsToInt16(f16vec4);uint16_t float16BitsToUint16(float16_t);u16vec2  float16BitsToUint16(f16vec2);u16vec3  float16BitsToUint16(f16vec3);u16vec4  float16BitsToUint16(f16vec4);float16_t int16BitsToFloat16(int16_t);f16vec2   int16BitsToFloat16(i16vec2);f16vec3   int16BitsToFloat16(i16vec3);f16vec4   int16BitsToFloat16(i16vec4);float16_t uint16BitsToFloat16(uint16_t);f16vec2   uint16BitsToFloat16(u16vec2);f16vec3   uint16BitsToFloat16(u16vec3);f16vec4   uint16BitsToFloat16(u16vec4);float16_t int16BitsToHalf(int16_t);f16vec2   int16BitsToHalf(i16vec2);f16vec3   int16BitsToHalf(i16vec3);f16vec4   int16BitsToHalf(i16vec4);float16_t uint16BitsToHalf(uint16_t);f16vec2   uint16BitsToHalf(u16vec2);f16vec3   uint16BitsToHalf(u16vec3);f16vec4   uint16BitsToHalf(u16vec4);int      packInt2x16(i16vec2);uint     packUint2x16(u16vec2);int64_t  packInt4x16(i16vec4);uint64_t packUint4x16(u16vec4);i16vec2  unpackInt2x16(int);u16vec2  unpackUint2x16(uint);i16vec4  unpackInt4x16(int64_t);u16vec4  unpackUint4x16(uint64_t);bvec2 lessThan(i16vec2, i16vec2);bvec3 lessThan(i16vec3, i16vec3);bvec4 lessThan(i16vec4, i16vec4);bvec2 lessThan(u16vec2, u16vec2);bvec3 lessThan(u16vec3, u16vec3);bvec4 lessThan(u16vec4, u16vec4);bvec2 lessThanEqual(i16vec2, i16vec2);bvec3 lessThanEqual(i16vec3, i16vec3);bvec4 lessThanEqual(i16vec4, i16vec4);bvec2 lessThanEqual(u16vec2, u16vec2);bvec3 lessThanEqual(u16vec3, u16vec3);bvec4 lessThanEqual(u16vec4, u16vec4);bvec2 greaterThan(i16vec2, i16vec2);bvec3 greaterThan(i16vec3, i16vec3);bvec4 greaterThan(i16vec4, i16vec4);bvec2 greaterThan(u16vec2, u16vec2);bvec3 greaterThan(u16vec3, u16vec3);bvec4 greaterThan(u16vec4, u16vec4);bvec2 greaterThanEqual(i16vec2, i16vec2);bvec3 greaterThanEqual(i16vec3, i16vec3);bvec4 greaterThanEqual(i16vec4, i16vec4);bvec2 greaterThanEqual(u16vec2, u16vec2);bvec3 greaterThanEqual(u16vec3, u16vec3);bvec4 greaterThanEqual(u16vec4, u16vec4);bvec2 equal(i16vec2, i16vec2);bvec3 equal(i16vec3, i16vec3);bvec4 equal(i16vec4, i16vec4);bvec2 equal(u16vec2, u16vec2);bvec3 equal(u16vec3, u16vec3);bvec4 equal(u16vec4, u16vec4);bvec2 notEqual(i16vec2, i16vec2);bvec3 notEqual(i16vec3, i16vec3);bvec4 notEqual(i16vec4, i16vec4);bvec2 notEqual(u16vec2, u16vec2);bvec3 notEqual(u16vec3, u16vec3);bvec4 notEqual(u16vec4, u16vec4);  int16_t bitfieldExtract(  int16_t, int16_t, int16_t);i16vec2 bitfieldExtract(i16vec2, int16_t, int16_t);i16vec3 bitfieldExtract(i16vec3, int16_t, int16_t);i16vec4 bitfieldExtract(i16vec4, int16_t, int16_t); uint16_t bitfieldExtract( uint16_t, int16_t, int16_t);u16vec2 bitfieldExtract(u16vec2, int16_t, int16_t);u16vec3 bitfieldExtract(u16vec3, int16_t, int16_t);u16vec4 bitfieldExtract(u16vec4, int16_t, int16_t);  int16_t bitfieldInsert(  int16_t base,   int16_t, int16_t, int16_t);i16vec2 bitfieldInsert(i16vec2 base, i16vec2, int16_t, int16_t);i16vec3 bitfieldInsert(i16vec3 base, i16vec3, int16_t, int16_t);i16vec4 bitfieldInsert(i16vec4 base, i16vec4, int16_t, int16_t); uint16_t bitfieldInsert( uint16_t base,  uint16_t, int16_t, int16_t);u16vec2 bitfieldInsert(u16vec2 base, u16vec2, int16_t, int16_t);u16vec3 bitfieldInsert(u16vec3 base, u16vec3, int16_t, int16_t);u16vec4 bitfieldInsert(u16vec4 base, u16vec4, int16_t, int16_t);  int16_t bitCount(  int16_t);i16vec2 bitCount(i16vec2);i16vec3 bitCount(i16vec3);i16vec4 bitCount(i16vec4);  int16_t bitCount( uint16_t);i16vec2 bitCount(u16vec2);i16vec3 bitCount(u16vec3);i16vec4 bitCount(u16vec4);  int16_t findLSB(  int16_t);i16vec2 findLSB(i16vec2);i16vec3 findLSB(i16vec3);i16vec4 findLSB(i16vec4);  int16_t findLSB( uint16_t);i16vec2 findLSB(u16vec2);i16vec3 findLSB(u16vec3);i16vec4 findLSB(u16vec4);  int16_t findMSB(  int16_t);i16vec2 findMSB(i16vec2);i16vec3 findMSB(i16vec3);i16vec4 findMSB(i16vec4);  int16_t findMSB( uint16_t);i16vec2 findMSB(u16vec2);i16vec3 findMSB(u16vec3);i16vec4 findMSB(u16vec4);int16_t  pack16(i8vec2);uint16_t pack16(u8vec2);int32_t  pack32(i8vec4);uint32_t pack32(u8vec4);int32_t  pack32(i16vec2);uint32_t pack32(u16vec2);int64_t  pack64(i16vec4);uint64_t pack64(u16vec4);int64_t  pack64(i32vec2);uint64_t pack64(u32vec2);i8vec2   unpack8(int16_t);u8vec2   unpack8(uint16_t);i8vec4   unpack8(int32_t);u8vec4   unpack8(uint32_t);i16vec2  unpack16(int32_t);u16vec2  unpack16(uint32_t);i16vec4  unpack16(int64_t);u16vec4  unpack16(uint64_t);i32vec2  unpack32(int64_t);u32vec2  unpack32(uint64_t);
+  0x00ef6a6d A void coopMatLoad(out coopmat m, volatile coherent int32_t[] buf, uint element, uint stride, int matrixLayout);
+  0x00ef6c2a A void coopMatLoad(out coopmat m, volatile coherent uint32_t[] buf, uint element, uint stride, int matrixLayout);
+  0x00ef78b6 A void coopMatStore(coopmat m, volatile coherent int32_t[] buf, uint element, uint stride, int matrixLayout);
+  0x00ef7a67 A void coopMatStore(coopmat m, volatile coherent uint32_t[] buf, uint element, uint stride, int matrixLayout);
+  0x00f06bd8 A GL_EXT_shader_explicit_arithmetic_types_int32
+  0x00f13659 A #define GL_EXT_shader_explicit_arithmetic_types_int32 1
+  0x00f24ef0 A INT32_T
+  0x00f24ef8 A UINT32_T
+  0x00f26348 A INT32CONSTANT
+  0x00f26358 A UINT32CONSTANT
+  0x01024f30 A ??$CopyTensor@EM@xnet@@YA_NPEAEPEBM_JPEB_J@Z
+  0x01024f5d A ??$CopyTensor@MM@xnet@@YA_NPEAMPEBM_JPEB_J3@Z
+  0x01024f8b A ??$CopyTensor@MM@xnet@@YA_NPEAMPEBM_JPEB_J@Z
+  0x01024fb8 A ??$CopyTensor@MUFloat16@xnet@@@xnet@@YA_NPEAMPEBUFloat16@0@_JPEB_J3@Z
+  0x01024ffe A ??$CopyTensor@MUFloat16@xnet@@@xnet@@YA_NPEAMPEBUFloat16@0@_JPEB_J@Z
+  0x01025043 A ??$CopyTensor@UFloat16@xnet@@M@xnet@@YA_NPEAUFloat16@0@PEBM_JPEB_J3@Z
+  0x01025089 A ??$CopyTensor@UFloat16@xnet@@M@xnet@@YA_NPEAUFloat16@0@PEBM_JPEB_J@Z
+  0x010250ce A ??$CopyTensor@UFloat16@xnet@@U12@@xnet@@YA_NPEAUFloat16@0@PEBU10@_JPEB_J3@Z
+  0x0102511a A ??$CopyTensor@UFloat16@xnet@@U12@@xnet@@YA_NPEAUFloat16@0@PEBU10@_JPEB_J@Z
+  0x01025165 A ??$SubmeanNCHW@ME@udip@xnet@@YA_NPEAMPEBE_J222PEBM32@Z
+  0x0102519c A ??$SubmeanNCHW@MM@udip@xnet@@YA_NPEAMPEBM_J222112@Z
+  0x01026f96 A ??0LLMMessage@xllm@@QEAA@W4ELLMRoleKind@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1AEBV?$vector@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@V?$allocator@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@@std@@@4@PEBV?$ImageCpu@E@udip@xnet@@@Z
+  0x01027342 A ??0LogMessage@xnet@@QEAA@PEAVLogger@1@PEBDH@Z
+  0x01027772 A ??0RciDataTypeInfo@rci@xnet@@QEAA@PEBDIW4ERciDataType@12@I_N22@Z
+  0x01027a2c A ??0RciPixelFormatInfo@rci@xnet@@QEAA@PEBDIIIIII_N@Z
+  0x01027f5a A ??0RciVertexAttribFormatInfo@rci@xnet@@QEAA@PEBDII_N@Z
+  0x01031efa A ?Append@SequentialOutputFile@xnet@@UEAA_NPEBX_K@Z
+  0x010325fc A ?ArrayPtr@?$TypedProperty@$0BE@@xnet@@UEBAPEBU12@XZ
+  0x010326bc A ?AttribDesc@GfxMesh@gfx@xnet@@UEBAPEBUGfxVertexAttribDesc@23@W4EGfxVertexSemantic@23@@Z
+  0x01032714 A ?AttribDesc@GfxVertexFactory@gfx@xnet@@UEBAPEBUGfxVertexAttribDesc@23@W4EGfxVertexSemantic@23@@Z
+  0x01032c13 A ?BeginFrameCapture@RciComputeDevice@rci@xnet@@UEAAIPEBD@Z
+  0x010331d8 A ?BinormalDesc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01033223 A ?BlendIndices0Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01033273 A ?BlendIndices1Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x010332c3 A ?BlendWeights0Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01033313 A ?BlendWeights1Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x0103339a A ?BoolPtr@?$TypedProperty@$01@xnet@@UEBAPEB_NXZ
+  0x0103358a A ?BufferPtr@?$TypedProperty@$0BI@@xnet@@UEBAPEBV?$ObjectRef@VGfxBuffer@gfx@xnet@@@2@XZ
+  0x010335e0 A ?BuildFreezeTokenTrie@LlmTokenizerBpe@llm@xnet@@IEAA_NV?$vector@PEBDV?$allocator@PEBD@std@@@std@@@Z
+  0x01035852 A ?CheckError@RciDevice@rci@xnet@@UEAA_NPEBD@Z
+  0x0103587f A ?CheckFailed@xnet@@YAXPEBD00H@Z
+  0x0103642e A ?ColorDesc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x010364d3 A ?CompileFrom@?$Pcre2CompiledPattern@D@upcre@xnet@@QEAA_NPEBD_KI@Z
+  0x01036515 A ?CompileFrom@?$Pcre2CompiledPattern@_U@upcre@xnet@@QEAA_NPEB_U_KI@Z
+  0x01036559 A ?CompileFrom@?$Pcre2CompiledPattern@_W@upcre@xnet@@QEAA_NPEB_W_KI@Z
+  0x01036871 A ?ConvertRGBToGray@udip@xnet@@YA_NAEAV?$ImageCpu@M@12@AEBV?$ImageCpu@E@12@PEBM2_J@Z
+  0x0103699d A ?CopyTensor@xnet@@YA_NPEAXPEBX_JPEB_J3_K@Z
+  0x010369c8 A ?CopyTensor@xnet@@YA_NPEAXPEBX_JPEB_J_K@Z
+  0x01037315 A ?Create@Tensor@api@xnet@@QEAA_N_KPEB_KW4XNetDnnDataKind@@@Z
+  0x01037fc2 A ?CreateFromBuffer@Tensor@api@xnet@@QEAA_NPEAX_KPEB_KW4XNetDnnDataKind@@@Z
+  0x0103823a A ?CreateFromFile@Model@api@xnet@@QEAA_NPEBDAEBUXNetDnnOptionsCpu@@@Z
+  0x01038341 A ?CreateFromStream@Model@api@xnet@@QEAA_NPEBX_KAEBUXNetDnnOptionsCpu@@@Z
+  0x010387d4 A ?CreateReadOnly@MemoryBlock@xnet@@QEAA_NPEBD_K1@Z
+  0x01038aff A ?CreateShader@RciComputeShaderVariantCollection@rci@xnet@@QEBA?AV?$ObjectRef@VRciComputeShader@rci@xnet@@@3@AEAVRciComputeDevice@23@AEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBD2AEBURciShaderOptions@23@@Z
+  0x01038c88 A ?CreateShader@RciPixelShaderVariantCollection@rci@xnet@@QEBA?AV?$ObjectRef@VRciPixelShader@rci@xnet@@@3@AEAVRciRenderDevice@23@AEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBDAEBURciShaderOptions@23@_N@Z
+  0x01038e0d A ?CreateShader@RciVertexShaderVariantCollection@rci@xnet@@QEBA?AV?$ObjectRef@VRciVertexShader@rci@xnet@@@3@AEAVRciRenderDevice@23@AEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBDAEBURciShaderOptions@23@@Z
+  0x0103926a A ?CreateShaderResourceSetLayouts@RciWithPipelineInfo@rci@xnet@@IEAA_NAEAVRciComputeDevice@23@PEBV?$map@IURciShaderResourceEntryDesc@rci@xnet@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIURciShaderResourceEntryDesc@rci@xnet@@@std@@@5@@std@@@Z
+  0x0103975c A ?CreateUberShader@RciComputeShaderVariantCollection@rci@xnet@@QEBA?AV?$ObjectRef@VRciComputeUberShader@rci@xnet@@@3@AEAVRciComputeDevice@23@AEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBD2AEBURciShaderOptions@23@@Z
+  0x010398ed A ?CreateUberShader@RciPixelShaderVariantCollection@rci@xnet@@QEBA?AV?$ObjectRef@VRciPixelUberShader@rci@xnet@@@3@AEAVRciRenderDevice@23@AEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBDAEBURciShaderOptions@23@_N@Z
+  0x01039a7a A ?CreateUberShader@RciVertexShaderVariantCollection@rci@xnet@@QEBA?AV?$ObjectRef@VRciVertexUberShader@rci@xnet@@@3@AEAVRciRenderDevice@23@AEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBDAEBURciShaderOptions@23@@Z
+  0x01039f13 A ?CustomOp@DnnOperator@dnn@xnet@@QEBAPEBVIDnnCustomOperator@23@XZ
+  0x0103a6ec A ?DeallocateZeros@StWorkspaceAllocator@xnet@@AEAAXPEBX_K1@Z
+  0x0103b6df A ?DoublePtr@?$TypedProperty@$07@xnet@@UEBAPEBNXZ
+  0x0103bccf A ?EndCpuProfiling@DnnExecution@dnn@xnet@@QEAAX_NPEBD@Z
+  0x0103c84e A ?FindVariantAndMakeShaderDesc@RciShaderVariantCollection@rci@xnet@@IEBA_NAEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBDAEAURciShaderDesc@23@@Z
+  0x0103c998 A ?FindVariantAndMakeUberShaderDesc@RciShaderVariantCollection@rci@xnet@@IEBA_NAEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBDAEAURciUberShaderDesc@23@@Z
+  0x0103cc0e A ?Float2Ptr@?$TypedProperty@$03@xnet@@UEBAPEBV?$Vector2@M@2@XZ
+  0x0103cd8f A ?Float3Ptr@?$TypedProperty@$04@xnet@@UEBAPEBV?$Vector3@M@2@XZ
+  0x0103cdcd A ?Float4Ptr@?$TypedProperty@$05@xnet@@UEBAPEBV?$Vector4@M@2@XZ
+  0x0103ce0b A ?Float4x4Ptr@?$TypedProperty@$06@xnet@@UEBAPEBV?$Matrix4x4@M@2@XZ
+  0x0103cef9 A ?FloatPtr@?$TypedProperty@$02@xnet@@UEBAPEBMXZ
+  0x0103d00e A ?Format@xnet@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBDZZ
+  0x0103d2f0 A ?FromUtf16@CodePoint@xnet@@QEAA_JPEB_S_J@Z
+  0x0103d31b A ?FromUtf8@CodePoint@xnet@@QEAA_JPEBD_J@Z
+  0x0103d411 A ?GatherRenderPipelineInfo@RciWithPipelineInfo@rci@xnet@@IEAA_NAEAVRciRenderDevice@23@QEAPEBVRciShaderBase@23@@Z
+  0x0103db26 A ?Get@DnnWorkspace@dnn@xnet@@AEAAAEAU?$Tensor@U?$Storage@$00$0A@@xnet@@@3@_KU?$TypeByInt2@$00$0A@@3@@Z
+  0x0103dd6a A ?GetArrayPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBU12@_K@Z
+  0x0103de30 A ?GetArrayPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBU?$TypedProperty@$0BE@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103e10b A ?GetBoolPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEB_N_K@Z
+  0x0103e1b6 A ?GetBoolPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEB_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103e2db A ?GetBufferPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$ObjectRef@VGfxBuffer@gfx@xnet@@@2@_K@Z
+  0x0103e3d0 A ?GetBufferPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$ObjectRef@VGfxBuffer@gfx@xnet@@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103e6c5 A ?GetCaptureFilePathTemplate@RenderDocModule@urdoc@xnet@@SAPEBDXZ
+  0x0103e8aa A ?GetCompilation@DnnExecution@dnn@xnet@@QEBAPEBVDnnCompilation@23@XZ
+  0x0103ee9f A ?GetDefaultDynamicOffset@RciShaderResourceSet@rci@xnet@@QEBAPEBVRciWithDynamicOffset@23@I@Z
+  0x0103f42d A ?GetDoublePtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBN_K@Z
+  0x0103f4da A ?GetDoublePtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBNAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103f9a7 A ?GetFloat2Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector2@M@2@_K@Z
+  0x0103fa70 A ?GetFloat2Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector2@M@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103fb39 A ?GetFloat3Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector3@M@2@_K@Z
+  0x0103fc02 A ?GetFloat3Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector3@M@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103fccb A ?GetFloat4Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector4@M@2@_K@Z
+  0x0103fd94 A ?GetFloat4Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector4@M@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103fe61 A ?GetFloat4x4Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Matrix4x4@M@2@_K@Z
+  0x0103ff32 A ?GetFloat4x4Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Matrix4x4@M@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0103fff0 A ?GetFloatPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBM_K@Z
+  0x0104009b A ?GetFloatPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBMAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010402ef A ?GetIdForSpecialToken@LlmTokenizer@llm@xnet@@IEBAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z
+  0x01040625 A ?GetInputName@Model@api@xnet@@QEBAPEBD_K@Z
+  0x01040650 A ?GetInt32Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAH_K@Z
+  0x01040686 A ?GetInt32Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBH_K@Z
+  0x010406bc A ?GetInt32Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040731 A ?GetInt32Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010407a6 A ?GetInt32x2Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAV?$Vector2@H@2@_K@Z
+  0x010407ec A ?GetInt32x2Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector2@H@2@_K@Z
+  0x01040832 A ?GetInt32x2Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAV?$Vector2@H@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010408b7 A ?GetInt32x2Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector2@H@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x0104093c A ?GetInt32x3Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAV?$Vector3@H@2@_K@Z
+  0x01040982 A ?GetInt32x3Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector3@H@2@_K@Z
+  0x010409c8 A ?GetInt32x3Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAV?$Vector3@H@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040a4d A ?GetInt32x3Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector3@H@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040ad2 A ?GetInt32x4Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAV?$Vector4@H@2@_K@Z
+  0x01040b18 A ?GetInt32x4Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector4@H@2@_K@Z
+  0x01040b5e A ?GetInt32x4Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAV?$Vector4@H@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040be3 A ?GetInt32x4Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector4@H@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040c9f A ?GetInt64Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEB_J_K@Z
+  0x01040d4c A ?GetInt64Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEB_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040ed4 A ?GetMemberDesc@RciDataBlockDesc@rci@xnet@@QEBAPEBURciDataBlockMemberDesc@23@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01040f64 A ?GetMemberDesc@RciDataBlockDesc@rci@xnet@@QEBAPEBURciDataBlockMemberDesc@23@I@Z
+  0x010418af A ?GetOutput@Session@api@xnet@@QEBA_NPEBDAEAVTensor@23@@Z
+  0x010418e7 A ?GetOutputName@Model@api@xnet@@QEBAPEBD_K@Z
+  0x01041eae A ?GetPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBVProperty@2@_K@Z
+  0x01041f65 A ?GetPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBVProperty@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01041fe0 A ?GetPushConstantBlockDesc@RciWithPipelineInfo@rci@xnet@@QEBAPEBURciDataBlockDesc@23@XZ
+  0x01042037 A ?GetPushConstantLayout@RciWithPipelineInfo@rci@xnet@@QEBAPEBURciPushConstantLayout@23@XZ
+  0x01042090 A ?GetQuantizeParams@DnnTensorParams@dnn@xnet@@QEBA_NAEAPEBMAEAPEBCAEAH22@Z
+  0x01042211 A ?GetRoleKindName@xllm@@YAPEBDW4ELLMRoleKind@1@@Z
+  0x010423c9 A ?GetSamplerPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$ObjectRef@VGfxSampler@gfx@xnet@@@2@_K@Z
+  0x010424c2 A ?GetSamplerPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$ObjectRef@VGfxSampler@gfx@xnet@@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010425cf A ?GetSheetPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBU?$TypedProperty@$0BF@@2@_K@Z
+  0x01042695 A ?GetSheetPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBU12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010428e7 A ?GetStorageBufferDesc@RciWithPipelineInfo@rci@xnet@@QEBAPEBUStorageBufferDesc@RciShaderReflection@23@II@Z
+  0x01042951 A ?GetStorageDataKindName@xnet@@YAPEBDH@Z
+  0x010429fe A ?GetStreamSourceDesc@SequentialStreamFactory@xnet@@QEBAPEBUStreamSourceDesc@12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01042b05 A ?GetStringPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_K@Z
+  0x01042bf2 A ?GetStringPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+  0x01042cb5 A ?GetSubresourceDesc@RciStagingTexture@rci@xnet@@QEBAPEBURciTextureSubresourceDesc@23@II@Z
+  0x01042d0f A ?GetSubresourceDesc@RciStagingTexture@rci@xnet@@QEBAPEBURciTextureSubresourceDesc@23@III@Z
+  0x0104305d A ?GetTensorPtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$ObjectRef@VTensor@tr2@xnet@@@2@_K@Z
+  0x0104314c A ?GetTensorPtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$ObjectRef@VTensor@tr2@xnet@@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043240 A ?GetTexturePtr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$ObjectRef@VGfxTexture@gfx@xnet@@@2@_K@Z
+  0x01043339 A ?GetTexturePtr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$ObjectRef@VGfxTexture@gfx@xnet@@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043760 A ?GetUInt32Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAI_K@Z
+  0x01043797 A ?GetUInt32Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBI_K@Z
+  0x010437ce A ?GetUInt32Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043844 A ?GetUInt32Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010438ba A ?GetUInt32x2Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAV?$Vector2@I@2@_K@Z
+  0x01043901 A ?GetUInt32x2Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector2@I@2@_K@Z
+  0x01043948 A ?GetUInt32x2Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAV?$Vector2@I@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x010439ce A ?GetUInt32x2Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector2@I@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043a54 A ?GetUInt32x3Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAV?$Vector3@I@2@_K@Z
+  0x01043a9b A ?GetUInt32x3Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector3@I@2@_K@Z
+  0x01043ae2 A ?GetUInt32x3Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAV?$Vector3@I@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043b68 A ?GetUInt32x3Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector3@I@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043bee A ?GetUInt32x4Ptr@?$TypedProperty@$0BE@@xnet@@QEAAPEAV?$Vector4@I@2@_K@Z
+  0x01043c35 A ?GetUInt32x4Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEBV?$Vector4@I@2@_K@Z
+  0x01043c7c A ?GetUInt32x4Ptr@?$TypedProperty@$0BF@@xnet@@QEAAPEAV?$Vector4@I@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043d02 A ?GetUInt32x4Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEBV?$Vector4@I@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043dc0 A ?GetUInt64Ptr@?$TypedProperty@$0BE@@xnet@@QEBAPEB_K_K@Z
+  0x01043e6f A ?GetUInt64Ptr@?$TypedProperty@$0BF@@xnet@@QEBAPEB_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+  0x01043ee6 A ?GetUniformBufferDesc@RciWithPipelineInfo@rci@xnet@@QEBAPEBUUniformBufferDesc@RciShaderReflection@23@II@Z
+  0x0104409b A ?GetWhitespaces@CodePoint@xnet@@SAPEB_UAEA_J@Z
+  0x01044121 A ?GetXNetRuntimeVersion_bf158559@xnet@@YAPEBDXZ
+  0x010441e6 A ?Handle@?$Storage@$00$00@xnet@@QEBAPEBXXZ
+  0x0104423b A ?Handle@?$Storage@$00$0A@@xnet@@QEBAPEBXXZ
+  0x010446ca A ?HashBuffer@CRC32Calculator@xnet@@SAIPEBX_K@Z
+  0x010446f8 A ?HashBuffer@SHA1Calculator@xnet@@SAXAEAUSHA1Hash@2@PEBX_K@Z
+  0x010449ce A ?HostPtr@RciHostDataBlock@rci@xnet@@QEBAPEBXXZ
+  0x01044a37 A ?HostPtrToMember@RciHostDataBlock@rci@xnet@@IEBAPEBXI_K@Z
+  0x0104591d A ?Initialize@RenderDocModule@urdoc@xnet@@SA_NPEBD@Z
+  0x01045efa A ?Int32Ptr@?$TypedProperty@$08@xnet@@UEBAPEBHXZ
+  0x01045f29 A ?Int32x2Ptr@?$TypedProperty@$09@xnet@@UEBAPEBV?$Vector2@H@2@XZ
+  0x01045f68 A ?Int32x3Ptr@?$TypedProperty@$0L@@xnet@@UEBAPEBV?$Vector3@H@2@XZ
+  0x01045fa8 A ?Int32x4Ptr@?$TypedProperty@$0M@@xnet@@UEBAPEBV?$Vector4@H@2@XZ
+  0x01045fe8 A ?Int64Ptr@?$TypedProperty@$0BB@@xnet@@UEBAPEB_JXZ
+  0x01047527 A ?Item@Status@xnet@@QEBAPEBVStatusItem@2@_K@Z
+  0x01047710 A ?LastItem@Status@xnet@@QEBAPEBVStatusItem@2@XZ
+  0x010479fa A ?Load@LlmHfTokenizerBpe@llm@xnet@@UEAA?AVStatus@3@PEBD@Z
+  0x01047ad7 A ?Load@LlmHfTokenizerWpm@llm@xnet@@UEAA?AVStatus@3@PEBD@Z
+  0x01047b10 A ?Load@LlmTokenizer@llm@xnet@@UEAA?AVStatus@3@PEBD@Z
+  0x01047c58 A ?Load@RciTextureLoader@rci@xnet@@QEAA_NPEBD_N@Z
+  0x01047ccb A ?LoadBin@DnnModel@dnn@xnet@@QEAA_NPEBD_N1@Z
+  0x01047e1b A ?LoadBin@RciShaderVariantCollection@rci@xnet@@QEAA_NPEBD@Z
+  0x0104803f A ?LoadGLSL@RciShaderVariantCollection@rci@xnet@@QEAA_NPEBDAEBV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBUGenerationOptions@123@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@5@@Z
+  0x01048286 A ?LoadJson@urjson@xnet@@YA_NAEAU?$TypedProperty@$0BE@@2@PEBDAEBVPropertyTypeConfigs@2@@Z
+  0x0104834e A ?LoadJson@urjson@xnet@@YA_NAEAU?$TypedProperty@$0BF@@2@PEBDAEBVPropertyTypeConfigs@2@@Z
+  0x01048808 A ?LoadTensor@unpy@xnet@@YA_NAEAUNumPyTensor@12@PEBDAEAU?$Device@$00@XDevice@2@@Z
+  0x01048980 A ?LogCpuOpTimeSummary@DnnExecution@dnn@xnet@@QEBAXPEBD@Z
+  0x010489b8 A ?LogMtlOpTimeSummary@DnnExecution@dnn@xnet@@QEBAXPEBD@Z
+  0x010489f0 A ?LogOclOpTimeSummary@DnnExecution@dnn@xnet@@QEBAXPEBD@Z
+  0x01048a28 A ?LogOpTimeSummary@DnnExecution@dnn@xnet@@AEBAXAEAV?$vector@UOpTimeSummaryItem@DnnExecution@dnn@xnet@@V?$allocator@UOpTimeSummaryItem@DnnExecution@dnn@xnet@@@std@@@std@@PEBD1@Z
+  0x01048cf2 A ?MapBufferFrom@RciComputeDevice@rci@xnet@@UEAA?AV?$ObjectRef@VRciBuffer@rci@xnet@@@3@PEBD_K1_N2I@Z
+  0x0104922d A ?NativeResourcePtr@RciStagingTexture@rci@xnet@@UEBAPEBXXZ
+  0x0104929a A ?NativeResourcePtr@RciTexture@rci@xnet@@UEBAPEBXXZ
+  0x010494e2 A ?NormalDesc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x0104a209 A ?Open@SequentialInputFile@xnet@@QEAA_NPEBD@Z
+  0x0104a270 A ?Open@SequentialInputMem@xnet@@QEAA_NPEBX_K@Z
+  0x0104a29e A ?Open@SequentialOutputFile@xnet@@QEAA_NPEBD@Z
+  0x0104a2cc A ?OpenMapped@SequentialInputMem@xnet@@QEAA_NPEBD_K1@Z
+  0x0104a44e A ?PBuffer@RciStagingTexture@rci@xnet@@QEBAPEBVRciBuffer@23@XZ
+  0x0104a48b A ?PNativeCode@?$Pcre2CompiledPattern@D@upcre@xnet@@QEBAPEBUpcre2_real_code_8@@XZ
+  0x0104a4db A ?PNativeCode@?$Pcre2CompiledPattern@_U@upcre@xnet@@QEBAPEBUpcre2_real_code_32@@XZ
+  0x0104a52d A ?PNativeCode@?$Pcre2CompiledPattern@_W@upcre@xnet@@QEBAPEBUpcre2_real_code_16@@XZ
+  0x0104a5d4 A ?PNativeMatchData@?$Pcre2MatchData@D@upcre@xnet@@QEBAPEBUpcre2_real_match_data_8@@XZ
+  0x0104a680 A ?PNativeMatchData@?$Pcre2MatchData@_U@upcre@xnet@@QEBAPEBUpcre2_real_match_data_32@@XZ
+  0x0104a72e A ?PNativeMatchData@?$Pcre2MatchData@_W@upcre@xnet@@QEBAPEBUpcre2_real_match_data_16@@XZ
+  0x0104ab87 A ?PositionDesc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x0104afa9 A ?Print@?$TypedProperty@$00@xnet@@MEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b00c A ?Print@?$TypedProperty@$01@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b06f A ?Print@?$TypedProperty@$02@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b0d2 A ?Print@?$TypedProperty@$03@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b135 A ?Print@?$TypedProperty@$04@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b198 A ?Print@?$TypedProperty@$05@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b1fb A ?Print@?$TypedProperty@$06@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b25e A ?Print@?$TypedProperty@$07@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b2c1 A ?Print@?$TypedProperty@$08@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b324 A ?Print@?$TypedProperty@$09@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b387 A ?Print@?$TypedProperty@$0BA@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b3ec A ?Print@?$TypedProperty@$0BB@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b451 A ?Print@?$TypedProperty@$0BC@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b4b6 A ?Print@?$TypedProperty@$0BD@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b51b A ?Print@?$TypedProperty@$0BE@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b580 A ?Print@?$TypedProperty@$0BF@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b5e5 A ?Print@?$TypedProperty@$0BI@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b64a A ?Print@?$TypedProperty@$0BJ@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b6af A ?Print@?$TypedProperty@$0BK@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b714 A ?Print@?$TypedProperty@$0BL@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b779 A ?Print@?$TypedProperty@$0L@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b7dd A ?Print@?$TypedProperty@$0M@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b841 A ?Print@?$TypedProperty@$0N@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b8a5 A ?Print@?$TypedProperty@$0O@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b909 A ?Print@?$TypedProperty@$0P@@xnet@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBD1_K_N@Z
+  0x0104b96d A ?PrintCallStackTrace@xnet@@YAX_K0P6AX0AEBUWin32SymbolInfo@uwin32@1@PEBDPEAX@Z3@Z
+  0x0104bbd0 A ?Ptr@?$Storage@$00$00@xnet@@QEBAPEBXXZ
+  0x0104bc1f A ?Ptr@?$Storage@$00$0A@@xnet@@QEBAPEBXXZ
+  0x0104bc69 A ?Ptr@MemoryBlock@xnet@@QEBAPEBXXZ
+  0x0104bcb2 A ?Ptr@MemoryHeapRegion@xnet@@QEBAPEBXXZ
+  0x0104bcfa A ?Ptr@Tensor@api@xnet@@QEBAPEBXXZ
+  0x0104ff76 A ?RegisterMemorySource@SequentialStreamFactory@xnet@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBX_K@Z
+  0x0104fff9 A ?RegisterStream@GfxMeshVertexLayout@gfx@xnet@@QEAAXPEBDAEBUGfxVertexAttribDescs@23@@Z
+  0x0105084b A ?ReportCompileError@DnnKernelBase@dnn@xnet@@QEBAXPEBD@Z
+  0x01050883 A ?ReportExecuteError@DnnKernelBase@dnn@xnet@@QEBAXPEBD@Z
+  0x01050e43 A ?Reshape@Tensor@api@xnet@@QEAA_N_KPEB_K@Z
+  0x010514cf A ?SamplerPtr@?$TypedProperty@$0BJ@@xnet@@UEBAPEBV?$ObjectRef@VGfxSampler@gfx@xnet@@@2@XZ
+  0x01051659 A ?SaveBin@DnnModel@dnn@xnet@@QEBA_NPEBD@Z
+  0x010517aa A ?SaveBin@RciShaderVariantCollection@rci@xnet@@QEBA_NPEBD@Z
+  0x0105183f A ?SaveTensor@DnnWorkspace@dnn@xnet@@QEBA_NHPEBD@Z
+  0x01051870 A ?SaveTensor@DnnWorkspace@dnn@xnet@@QEBA_N_KPEBD@Z
+  0x010518a2 A ?SaveTensor@unpy@xnet@@YA_NAEBUNumPyTensor@12@PEBD@Z
+  0x010518d7 A ?SaveTensor@unpy@xnet@@YA_NPEBXPEBD_JPEB_J3W4EStorageDataKind@2@@Z
+  0x01052a54 A ?SetBytes@RciPushConstants@rci@xnet@@QEAA_NI_KPEBX@Z
+  0x01052b4d A ?SetCaptureFilePathTemplate@RenderDocModule@urdoc@xnet@@SAXPEBD@Z
+  0x010534a3 A ?SetInput@Session@api@xnet@@QEAA_NPEBDAEBVTensor@23@@Z
+  0x010536b7 A ?SetLabel@RciResource@rci@xnet@@UEAAXPEBD@Z
+  0x010536e3 A ?SetLabel@RciStagingTexture@rci@xnet@@UEAAXPEBD@Z
+  0x010541c4 A ?SheetPtr@?$TypedProperty@$0BF@@xnet@@UEBAPEBU12@XZ
+  0x010545da A ?Softmax@LLMLogitsProcessor@xllm@@AEBAXPEBMPEAMH@Z
+  0x0105460d A ?SpecialCaseConvert@CodePoint@xnet@@SAPEB_UPEB_U_J1_KPEBD@Z
+  0x01054734 A ?SplitBySpace@xnet@@YAXAEAV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PEBD@Z
+  0x01054c74 A ?StringPtr@?$TypedProperty@$0BD@@xnet@@UEBAPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+  0x01055099 A ?Table@RciDataTypeInfo@rci@xnet@@SAPEBU123@XZ
+  0x010550c7 A ?Table@RciPixelFormatInfo@rci@xnet@@SAPEBU123@XZ
+  0x010550f8 A ?Table@RciVertexAttribFormatInfo@rci@xnet@@SAPEBU123@XZ
+  0x01055130 A ?TangentDesc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x010551de A ?TensorPtr@?$TypedProperty@$0BL@@xnet@@UEBAPEBV?$ObjectRef@VTensor@tr2@xnet@@@2@XZ
+  0x01055231 A ?TexCoord0Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x0105527d A ?TexCoord1Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x010552c9 A ?TexCoord2Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01055315 A ?TexCoord3Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01055361 A ?TexCoord4Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x010553ad A ?TexCoord5Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x010553f9 A ?TexCoord6Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01055445 A ?TexCoord7Desc@GfxVertexFactory@gfx@xnet@@QEBAPEBUGfxVertexAttribDesc@23@XZ
+  0x01055491 A ?TexturePtr@?$TypedProperty@$0BK@@xnet@@UEBAPEBV?$ObjectRef@VGfxTexture@gfx@xnet@@@2@XZ
+  0x01055962 A ?ToString@rci@xnet@@YAPEBDW4ERciShaderType@12@@Z
+  0x01055c3d A ?Transform@SHA1Calculator@xnet@@AEAAXPEBE_K@Z
+  0x01055c6b A ?Transpose2D@xnet@@YA_NPEAX_JPEBX1111_K@Z
+  0x01055c95 A ?TransposeTensor@xnet@@YA_NPEAXPEBX_JPEB_J33_K@Z
+  0x01055cc6 A ?TransposeTensor@xnet@@YA_NPEAXPEBX_JPEB_J3_K@Z
+  0x01055e28 A ?UInt32Ptr@?$TypedProperty@$0N@@xnet@@UEBAPEBIXZ
+  0x01055e59 A ?UInt32x2Ptr@?$TypedProperty@$0O@@xnet@@UEBAPEBV?$Vector2@I@2@XZ
+  0x01055e9a A ?UInt32x3Ptr@?$TypedProperty@$0P@@xnet@@UEBAPEBV?$Vector3@I@2@XZ
+  0x01055edb A ?UInt32x4Ptr@?$TypedProperty@$0BA@@xnet@@UEBAPEBV?$Vector4@I@2@XZ
+  0x01055f1d A ?UInt64Ptr@?$TypedProperty@$0BC@@xnet@@UEBAPEB_KXZ
+  0x01056398 A ?Update@CRC32Calculator@xnet@@QEAAXPEBX_K@Z
+  0x010563ed A ?Update@Murmur3Calculator@xnet@@QEAAXPEBII@Z
+  0x0105645d A ?Update@SHA1Calculator@xnet@@QEAAXPEBX_K@Z
+  0x010564da A ?UploadImpl@RciStructuredBufferBlock@rci@xnet@@IEAAXIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IPEBXW4ERciDataType@23@@Z
+  0x0105656a A ?UploadImpl@RciStructuredBufferBlock@rci@xnet@@IEAAXIIIPEBXW4ERciDataType@23@@Z
+  0x010565ba A ?UploadRegionFrom@RciStagingTexture@rci@xnet@@UEAA_NPEBX_K1AEBV?$Rect3D@I@3@I@Z
+  0x0105bce0 A ?Write@StdStreamLogger@xnet@@UEAAXPEBD_N@Z
+  0x0105d7a0 A QueryPerformanceCounter
+  0x0105dcaa A SetUnhandledExceptionFilter
+  0x0105dd14 A IsDebuggerPresent
+  0x01083d90 A .?AVRciComputeCommandTapeBasicBlock@rci@xnet@@
+
+===== [ANTI-VM] 7 =====
+  0x009f34a2 A o5XEN
+  0x00c01e80 A raw CPUID brand string: "%48s"
+  0x00f44300 A `virtual displacement map'
+  0x0105daee A VirtualAlloc
+  0x0105dafe A VirtualProtect
+  0x0105db10 A VirtualFree
+  0x0105dc7a A RtlVirtualUnwind
+
+===== [CRYPTO] 29 =====
+  0x0008b973 A tLSH
+  0x0014ab81 A tLs A
+  0x002923e3 A tlSH
+  0x00d2a710 A     Support SHA1  : 
+  0x00d34000 A 7])#######hV0qs'/###[),##/l:$#Q6>##5[n42>c-TH`->>#/e>11NNV=Bv(*:.F?uu#(gRU.o0XGH`$vhLG1hxt9?W`#,5LsCp#-i>.r$<$6pD>Lb';9Crc6tgXmKVeU2cD4Eo3R/2*>]b(MC;$jPfY.;h^`IWM9<Lh2TlS+f-s$o6Q<BWH`YiU.xfLq$N;$0iR/GX:U(jcW2p/W*q?-qmnUCI;jHSAiFWM.R*kU@C=GH?a9wp8f$e.-4^Qg1)Q-GL(lf(r/7GrRgwV%MS=C#`8ND>Qo#t'X#(v#Y9w0#1D$CIf;W'#pWUPXOuxXuU(H9M(1<q-UE31#^-V'8IRUo7Qf./L>=Ke$$'5F%)]0^#0X@U.a<r:QLtFsLcL6##lOj)#.Y5<-R&KgLwqJfLgN&;Q?gI^#DY2uLi@^rMl9t=cWq6##weg>$FBjVQTSDgEKnIS7EM9>ZY9w0#L;>>#Mx&4Mvt//L[MkA#W@lK.N'[0#7RL_&#w+F%HtG9M#XL`N&.,GM4Pg;-<nLENhvx>-VsM.M0rJfLH2eTM`*oJMHRC`NkfimM2J,W-jXS:)r0wK#@Fge$U>`w'N7G#$#fB#$E^$#:9:hk+eOe--6x)F7*E%?76%^GMHePW-Z5l'&GiF#$956:rS?dA#fiK:)Yr+`&#0j@'DbG&#^$PG.Ll+DNa<XCMKEV*N)LN/N*b=%Q6pia-Xg8I$<MR&,VdJe$<(7G;Ckl'&hF;;$<_=X(b.RS%%)###MPBuuE1V:v&cX&#2m#(&cV]`k9OhLMbn%s$G2,B$BfD3X*sp5#l,$R#]x_X1xKX%b5U*[r5iMfUo9U`N99hG)tm+/Us9pG)XPu`<0s-)WTt(gCRxIg(%6sfh=ktMKn3j)<6<b5Sk_/0(^]AaN#(p/L>&VZ>1i%h1S9u5o@YaaW$e+b<TWFn/Z:Oh(Cx2$lNEoN^e)#CFY@@I;BOQ*sRwZtZxRcU7uW6CXow0i(?$Q[cjOd[P4d)]>ROPOpxTO7Stwi1::iB1q)C_=dV26J;2,]7op$]uQr@_V7$q^%lQwtuHY]=DX,n3L#0PHDO4f9>dC@O>HBuKPpP*E,N+b3L#lpR/MrTEH.IAQk.a>D[.e;mc.x]Ip.PH^'/aqUO/$1WxLoW0[iLA<QT;5HKD+@qQ'NQ(3_PLhE48R.qAPSwQ0/WK?Z,[x?-J;jQTWA0X@KJ(_Y8N-:/M74:/-ZpKrUss?d#dZq]DAbkU*JqkL+nwX@@47`5>w=4h(9.`GCRUxHPeR`5Mjol(dUWxZa(>STrPkrJiWx`5U7F#.g*jrohGg`cg:lSTvEY/EV_7H4Q9[Z%cnv;JQYZ5q.l7Zeas:HOIZOB?G<Nald$qs]@]L<J7bR*>gv:[7MI2k).'2($5FNP&EQ(,)U]W]+fh18.vsai00);D3@4ku5P?DP8aJt+;qUM]=+b'8@;mViBKx0DE[-auGl8:PJ&Dj+M6OC]O^((##]`0i)drT;-7X`=-H3[igUnPG-NZlo.#k@h#=Ork$m>a>$-?Tm$UV(?#P6YY#'/###xe7q.73rI3*pP/$1>s9)W,JrM7SN]'/4C#v$U`0#V.[0>xQsH$fEmPMgY2u7Kh(G%siIfLSoS+MK2eTM$=5,M8p`A.;_R%#u[K#$x4AG8.kK/HSB==-'Ie/QTtG?-.*^N-4B/ZM_3YlQC7(p7q)&](`6_c)$/*JL(L-^(]$wIM`dPtOdGA,U3:w2M-0<q-]L_?^)1vw'.,MRsqVr.L;aN&#/EgJ)PBc[-f>+WomX2u7lqM2iEumMTcsF?-aT=Z-97UEnXglEn1K-bnEO`guFt(c%=;Am_Qs@jLooI&NX;]0#j4#F14;gl8-GQpgwhrq8'=l_f-b49'UOqkLu7-##oDY2L(te+Mch&gLYtJ,MEtJfLh'x'M=$CS-ZZ%P]8bZ>#S?YY#%Q&q'3^Fw&?D)UDNrocM3A76//oL?#h7gl85[qW/NDOk%16ij;+:1a'iNIdb-ou8.P*w,v5#EI$TWS>Pot-R*H'-SEpA:g)f+O$%%`kA#G=8RMmG1&O`>to8bC]T&$,n.LoO>29sp3dt-52U%VM#q7'DHpg+#Z9%H[K<L%a2E-grWVM3@2=-k22tL]4$##6We'8UJCKE[d_=%wI;'6X-GsLX4j^SgJ$##R*w,vP3wK#iiW&#*h^D&R?jp7+/u&#(AP##XU8c$fSYW-J95_-Dp[g9wcO&#M-h1OcJlc-*vpw0xUX&#OQFKNX@QI'IoPp7nb,QU//MQ&ZDkKP)X<WSVL(68uVl&#c'[0#(s1X&xm$Y%B7*K:eDA323j998GXbA#pwMs-jgD$9QISB-A_(aN4xoFM^@C58D0+Q+q3n0#3U1InDjF682-SjMXJK)(h$hxua_K]ul92%'BOU&#BRRh-slg8KDlr:%L71Ka:.A;%YULjDPmL<LYs8i#XwJOYaKPKc1h:'9Ke,g)b),78=I39B;xiY$bgGw-&.Zi9InXDuYa%G*f2Bq7mn9^#p1vv%#(Wi-;/Z5ho;#2:;%d&#x9v68C5g?ntX0X)pT`;%pB3q7mgGN)3%(P8nTd5L7GeA-GL@+%J3u2:(Yf>et`e;)f#Km8&+DC$I46>#Kr]]u-[=99tts1.qb#q72g1WJO81q+eN'03'eM>&1XxY-caEnOj%2n8)),?ILR5^.Ibn<-X-Mq7[a82Lq:F&#ce+S9wsCK*x`569E8ew'He]h:sI[2LM$[guka3ZRd6:t%IG:;$%YiJ:Nq=?eAw;/:nnDq0(CYcMpG)qLN4$##&J<j$UpK<Q4a1]MupW^-sj_$%[HK%'F####QRZJ::Y3EGl4'@%FkiAOg#p[##O`gukTfBHagL<LHw%q&OV0##F=6/:chIm0@eCP8X]:kFI%hl8hgO@RcBhS-@Qb$%+m=hPDLg*%K8ln(wcf3/'DW-$.lR?n[nCH-eXOONTJlh:.RYF%3'p6sq:UIMA945&^HFS87@$EP2iG<-lCO$%c`uKGD3rC$x0BL8aFn--`ke%#HMP'vh1/R&O_J9'um,.<tx[@%wsJk&bUT2`0uMv7gg#qp/ij.L56'hl;.s5CUrxjOM7-##.l+Au'A&O:-T72L]P`&=;ctp'XScX*rU.>-XTt,%OVU4)S1+R-#dg0/Nn?Ku1^0f$B*P:Rowwm-`0PKjYDDM'3]d39VZHEl4,.j']Pk-M.h^&:0FACm$maq-&sgw0t7/6(^xtk%LuH88Fj-ekm>GA#_>568x6(OFRl-IZp`&b,_P'$M<Jnq79VsJW/mWS*PUiq76;]/NM_>hLbxfc$mj`,O;&%W2m`Zh:/)Uetw:aJ%]K9h:TcF]u_-Sj9,VK3M.*'&0D[Ca]J9gp8,kAW]%(?A%R$f<->Zts'^kn=-^@c4%-pY6qI%J%1IGxfLU9CP8cbPlXv);C=b),<2mOvP8up,UVf3839acAWAW-W?#ao/^#%KYo8fRULNd2.>%m]UK:n%r$'sw]J;5pAoO_#2mO3n,'=H5(etHg*`+RLgv>=4U8guD$I%D:W>-r5V*%j*W:Kvej.Lp$<M-SGZ':+Q_k+uvOSLiEo(<aD/K<CCc`'Lx>'?;++O'>()jLR-^u68PHm8ZFWe+ej8h:9r6L*0//c&iH&R8pRbA#Kjm%upV1g:a_#Ur7FuA#(tRh#.Y5K+@?3<-8m0$PEn;J:rh6?I6uG<-`wMU'ircp0LaE_OtlMb&1#6T.#FDKu#1Lw%u%+GM+X'e?YLfjM[VO0MbuFp7;>Q&#WIo)0@F%q7c#4XAXN-U&VB<HFF*qL($/V,;(kXZejWO`<[5??ewY(*9=%wDc;,u<'9t3W-(H1th3+G]ucQ]kLs7df($/*JL]@*t7Bu_G3_7mp7<iaQjO@.kLg;x3B0lqp7Hf,^Ze7-##@/c58Mo(3;knp0%)A7?-W+eI'o8)b<nKnw'Ho8C=Y>pqB>0ie&jhZ[?iLR@@_AvA-iQC(=ksRZRVp7`.=+NpBC%rh&3]R:8XDmE5^V8O(x<<aG/1N$#FX$0V5Y6x'aErI3I$7x%E`v<-BY,)%-?Psf*l?%C3.mM(=/M0:JxG'?7WhH%o'a<-80g0NBxoO(GH<dM]n.+%q@jH?f.UsJ2Ggs&4<-e47&Kl+f//9@`b+?.TeN_&B8Ss?v;^Trk;f#YvJkl&w$]>-+k?'(<S:68tq*WoDfZu';mM?8X[ma8W%*`-=;D.(nc7/;)g:T1=^J$&BRV(-lTmNB6xqB[@0*o.erM*<SWF]u2=st-*(6v>^](H.aREZSi,#1:[IXaZFOm<-ui#qUq2$##Ri;u75OK#(RtaW-K-F`S+cF]uN`-KMQ%rP/Xri.LRcB##=YL3BgM/3MD?@f&1'BW-)Ju<L25gl8uhVm1hL$##*8###'A3/LkKW+(^rWX?5W_8g)a(m&K8P>#bmmWCMkk&#TR`C,5d>g)F;t,4:@_l8G/5h4vUd%&%950:VXD'QdWoY-F$BtUwmfe$YqL'8(PWX(P?^@Po3$##`MSs?DWBZ/S>+4%>fX,VWv/w'KD`LP5IbH;rTV>n3cEK8U#bX]l-/V+^lj3;vlMb&[5YQ8#pekX9JP3XUC72L,,?+Ni&co7ApnO*5NK,((W-i:$,kp'UDAO(G0Sq7MVjJsbIu)'Z,*[>br5fX^:FPAWr-m2KgL<LUN098kTF&#lvo58=/vjDo;.;)Ka*hLR#/k=rKbxuV`>Q_nN6'8uTG&#1T5g)uLv:873UpTLgH+#FgpH'_o1780Ph8KmxQJ8#H72L4@768@Tm&Qh4CB/5OvmA&,Q&QbUoi$a_%3M01H)4x7I^&KQVgtFnV+;[Pc>[m4k//,]1?#`VY[Jr*3&&slRfLiVZJ:]?=K3Sw=[$=uRB?3xk48@aeg<Z'<$#4H)6,>e0jT6'N#(q%.O=?2S]u*(m<-V8J'(1)G][68hW$5'q[GC&5j`TE?m'esFGNRM)j,ffZ?-qx8;->g4t*:CIP/[Qap7/9'#(1sao7w-.qNUdkJ)tCF&#B^;xGvn2r9FEPFFFcL@.iFNkTve$m%#QvQS8U@)2Z+3K:AKM5isZ88+dKQ)W6>J%CL<KE>`.d*(B`-n8D9oK<Up]c$X$(,)M8Zt7/[rdkqTgl-0cuGMv'?>-XV1q['-5k'cAZ69e;D_?$ZPP&s^+7])$*$#@QYi9,5P&#9r+$%CE=68>K8r0=dSC%%(@p7.m7jilQ02'0-VWAg<a/''3u.=4L$Y)6k/K:_[3=&jvL<L0C/2'v:^;-DIBW,B4E68:kZ;%?8(Q8BH=kO65BW?xSG&#@uU,DS*,?.+(o(#1vCS8#CHF>TlGW'b)Tq7VT9q^*^$$.:&N@@$&)WHtPm*5_rO0&e%K&#-30j(E4#'Zb.o/(Tpm$>K'f@[PvFl,hfINTNU6u'0pao7%XUp9]5.>%h`8_=VYbxuel.NTSsJfLacFu3B'lQSu/m6-Oqem8T+oE--$0a/k]uj9EwsG>%veR*hv^BFpQj:K'#SJ,sB-'#](j.Lg92rTw-*n%@/;39rrJF,l#qV%OrtBeC6/,;qB3ebNW[?,Hqj2L.1NP&GjUR=1D8QaS3Up&@*9wP?+lo7b?@%'k4`p0Z$22%K3+iCZj?XJN4Nm&+YF]u@-W$U%VEQ/,,>>#)D<h#`)h0:<Q6909ua+&VU%n2:cG3FJ-%@Bj-DgLr`Hw&HAKjKjseK</xKT*)B,N9X3]krc12t'pgTV(Lv-tL[xg_%=M_q7a^x?7Ubd>#%8cY#YZ?=,`Wdxu/ae&#w6)R89tI#6@s'(6Bf7a&?S=^ZI_kS&ai`&=tE72L_D,;^R)7[$s<Eh#c&)q.MXI%#v9ROa5FZO%sF7q7Nwb&#ptUJ:aqJe$Sl68%.D###EC><?-aF&#RNQv>o8lKN%5/$(vdfq7+ebA#u1p]ovUKW&Y%q]'>$1@-[xfn$7ZTp7mM,G,Ko7a&Gu%G[RMxJs[0MM%wci.LFDK)(<c`Q8N)jEIF*+?P2a8g%)$q]o2aH8C&<SibC/q,(e:v;-b#6[$NtDZ84Je2KNvB#$P5?tQ3nt(0d=j.LQf./Ll33+(;q3L-w=8dX$#WF&uIJ@-bfI>%:_i2B5CsR8&9Z&#=mPEnm0f`<&c)QL5uJ#%u%lJj+D-r;BoF&#4DoS97h5g)E#o:&S4weDF,9^Hoe`h*L+_a*NrLW-1pG_&2UdB86e%B/:=>)N4xeW.*wft-;$'58-ESqr<b?UI(_%@[P46>#U`'6AQ]m&6/`Z>#S?YY#Vc;r7U2&326d=w&H####?TZ`*4?&.MK?LP8Vxg>$[QXc%QJv92.(Db*B)gb*BM9dM*hJMAo*c&#b0v=Pjer]$gG&JXDf->'StvU7505l9$AFvgYRI^&<^b68?j#q9QX4SM'RO#&sL1IM.rJfLUAj221]d##DW=m83u5;'bYx,*Sl0hL(W;;$doB&O/TQ:(Z^xBdLjL<Lni;''X.`$#8+1GD:k$YUWsbn8ogh6rxZ2Z9]%nd+>V#*8U_72Lh+2Q8Cj0i:6hp&$C/:p(HK>T8Y[gHQ4`4)'$Ab(Nof%V'8hL&#<NEdtg(n'=S1A(Q1/I&4([%dM`,Iu'1:_hL>SfD07&6D<fp8dHM7/g+tlPN9J*rKaPct&?'uBCem^jn%9_K)<,C5K3s=5g&GmJb*[SYq7K;TRLGCsM-$$;S%:Y@r7AK0pprpL<Lrh,q7e/%KWK:50I^+m'vi`3?%Zp+<-d+$L-Sv:@.o19n$s0&39;kn;S%BSq*$3WoJSCLweV[aZ'MQIjO<7;X-X;&+dMLvu#^UsGEC9WEc[X(wI7#2.(F0jV*eZf<-Qv3J-c+J5AlrB#$p(H68LvEA'q3n0#m,[`*8Ft)FcYgEud]CWfm68,(aLA$@EFTgLXoBq/UPlp7:d[/;r_ix=:TF`S5H-b<LI&HY(K=h#)]Lk$K14lVfm:x$H<3^Ql<M`$OhapBnkup'D#L$Pb_`N*g]2e;X/Dtg,bsj&K#2[-:iYr'_wgH)NUIR8a1n#S?Yej'h8^58UbZd+^FKD*T@;6A7aQC[K8d-(v6GI$x:T<&'Gp5Uf>@M.*J:;$-rv29'M]8qMv-tLp,'886iaC=Hb*YJoKJ,(j%K=H`K.v9HggqBIiZu'QvBT.#=)0ukruV&.)3=(^1`o*Pj4<-<aN((^7('#Z0wK#5GX@7u][`*S^43933A4rl][`*O4CgLEl]v$1Q3AeF37dbXk,.)vj#x'd`;qgbQR%FW,2(?LO=s%Sc68%NP'##Aotl8x=BE#j1UD([3$M(]UI2LX3RpKN@;/#f'f/&_mt&F)XdF<9t4)Qa.*kTLwQ'(TTB9.xH'>#MJ+gLq9-##@HuZPN0]u:h7.T..G:;$/Usj(T7`Q8tT72LnYl<-qx8;-HV7Q-&Xdx%1a,hC=0u+HlsV>nuIQL-5<N?)NBS)QN*_I,?&)2'IM%L3I)X((e/dl2&8'<M:^#M*Q+[T.Xri.LYS3v%fF`68h;b-X[/En'CR.q7E)p'/kle2HM,u;^%OKC-N+Ll%F9CF<Nf'^#t2L,;27W:0O@6##U6W7:$rJfLWHj$#)woqBefIZ.PK<b*t7ed;p*_m;4ExK#h@&]>_>@kXQtMacfD.m-VAb8;IReM3$wf0''hra*so568'Ip&vRs849'MRYSp%:t:h5qSgwpEr$B>Q,;s(C#$)`svQuF$##-D,##,g68@2[T;.XSdN9Qe)rpt._K-#5wF)sP'##p#C0c%-Gb%hd+<-j'Ai*x&&HMkT]C'OSl##5RG[JXaHN;d'uA#x._U;.`PU@(Z3dt4r152@:v,'R.Sj'w#0<-;kPI)FfJ&#AYJ&#//)>-k=m=*XnK$>=)72L]0I%>.G690a:$##<,);?;72#?x9+d;^V'9;jY@;)br#q^YQpx:X#Te$Z^'=-=bGhLf:D6&bNwZ9-ZD#n^9HhLMr5G;']d&6'wYmTFmL<LD)F^%[tC'8;+9E#C$g%#5Y>q9wI>P(9mI[>kC-ekLC/R&CH+s'B;K-M6$EB%is00:+A4[7xks.LrNk0&E)wILYF@2L'0Nb$+pv<(2.768/FrY&h$^3i&@+G%JT'<-,v`3;_)I9M^AE]CN?Cl2AZg+%4iTpT3<n-&%H%b<FDj2M<hH=&Eh<2Len$b*aTX=-8QxN)k11IM1c^j%9s<L<NFSo)B?+<-(GxsF,^-Eh@$4dXhN$+#rxK8'je'D7k`e;)2pYwPA'_p9&@^18ml1^[@g4t*[JOa*[=Qp7(qJ_oOL^('7fB&Hq-:sf,sNj8xq^>$U4O]GKx'm9)b@p7YsvK3w^YR-CdQ*:Ir<($u&)#(&?L9Rg3H)4fiEp^iI9O8KnTj,]H?D*r7'M;PwZ9K0E^k&-cpI;.p/6_vwoFMV<->#%Xi.LxVnrU(4&8/P+:hLSKj$#U%]49t'I:rgMi'FL@a:0Y-uA[39',(vbma*hU%<-SRF`Tt:542R_VV$p@[p8DV[A,?1839FWdF<TddF<9Ah-6&9tWoDlh]&1SpGMq>Ti1O*H&#(AL8[_P%.M>v^-))qOT*F5Cq0`Ye%+$B6i:7@0IX<N+T+0MlMBPQ*Vj>SsD<U4JHY8kD2)2fU/M#$e.)T4,_=8hLim[&);?UkK'-x?'(:siIfL<$pFM`i<?%W(mGDHM%>iWP,##P`%/L<eXi:@Z9C.7o=@(pXdAO/NLQ8lPl+HPOQa8wD8=^GlPa8TKI1CjhsCTSLJM'/Wl>-S(qw%sf/@%#B6;/U7K]uZbi^Oc^2n<bhPmUkMw>%t<)'mEVE''n`WnJra$^TKvX5B>;_aSEK',(hwa0:i4G?.Bci.(X[?b*($,=-n<.Q%`(X=?+@Am*Js0&=3bh8K]mL<LoNs'6,'85`0?t/'_U59@]ddF<#LdF<eWdF<OuN/45rY<-L@&#+fm>69=Lb,OcZV/);TTm8VI;?%OtJ<(b4mq7M6:u?KRdF<gR@2L=FNU-<b[(9c/ML3m;Z[$oF3g)GAWqpARc=<ROu7cL5l;-[A]%/+fsd;l#SafT/f*W]0=O'$(Tb<[)*@e775R-:Yob%g*>l*:xP?Yb.5)%w_I?7uk5JC+FS(m#i'k.'a0i)9<7b'fs'59hq$*5Uhv##pi^8+hIEBF`nvo`;'l0.^S1<-wUK2/Coh58KKhLjM=SO*rfO`+qC`W-On.=AJ56>>i2@2LH6A:&5q`?9I3@@'04&p2/LVa*T-4<-i3;M9UvZd+N7>b*eIwg:CC)c<>nO&#<IGe;__.thjZl<%w(Wk2xmp4Q@I#I9,DF]u7-P=.-_:YJ]aS@V?6*C()dOp7:WL,b&3Rg/.cmM9&r^>$(>.Z-I&J(Q0Hd5Q%7Co-b`-c<N(6r@ip+AurK<m86QIth*#v;-OBqi+L7wDE-Ir8K['m+DDSLwK&/.?-V%U_%3:qKNu$_b*B-kp7NaD'QdWQPKYq[@>P)hI;*_F]u`Rb[.j8_Q/<&>uu+VsH$sM9TA%?)(vmJ80),P7E>)tjD%2L=-t#fK[%`v=Q8<FfNkgg^oIbah*#8/Qt$F&:K*-(N/'+1vMB,u()-a.VUU*#[e%gAAO(S>WlA2);Sa>gXm8YB`1d@K#n]76-a$U,mF<fX]idqd)<3,]J7JmW4`6]uks=4-72L(jEk+:bJ0M^q-8Dm_Z?0olP1C9Sa&H[d&c$ooQUj]Exd*3ZM@-WGW2%s',B-_M%>%Ul:#/'xoFM9QX-$.QN'>[%$Z$uF6pA6Ki2O5:8w*vP1<-1`[G,)-m#>0`P&#eb#.3i)rtB61(o'$?X3B</R90;eZ]%Ncq;-Tl]#F>2Qft^ae_5tKL9MUe9b*sLEQ95C&`=G?@Mj=wh*'3E>=-<)Gt*Iw)'QG:`@IwOf7&]1i'S01B+Ev/Nac#9S;=;YQpg_6U`*kVY39xK,[/6Aj7:'1Bm-_1EYfa1+o&o4hp7KN_Q(OlIo@S%;jVdn0'1<Vc52=u`3^o-n1'g4v58Hj&6_t7$##?M)c<$bgQ_'SY((-xkA#Y(,p'H9rIVY-b,'%bCPF7.J<Up^,(dU1VY*5#WkTU>h19w,WQhLI)3S#f$2(eb,jr*b;3Vw]*7NH%$c4Vs,eD9>XW8?N]o+(*pgC%/72LV-u<Hp,3@e^9UB1J+ak9-TN/mhKPg+AJYd$MlvAF_jCK*.O-^(63adMT->W%iewS8W6m2rtCpo'RS1R84=@paTKt)>=%&1[)*vp'u+x,VrwN;&]kuO9JDbg=pO$J*.jVe;u'm0dr9l,<*wMK*Oe=g8lV_KEBFkO'oU]^=[-792#ok,)i]lR8qQ2oA8wcRCZ^7w/Njh;?.stX?Q1>S1q4Bn$)K1<-rGdO'$Wr.Lc.CG)$/*JL4tNR/,SVO3,aUw'DJN:)Ss;wGn9A32ijw%FL+Z0Fn.U9;reSq)bmI32U==5ALuG&#Vf1398/pVo1*c-(aY168o<`JsSbk-,1N;$>0:OUas(3:8Z972LSfF8eb=c-;>SPw7.6hn3m`9^Xkn(r.qS[0;T%&Qc=+STRxX'q1BNk3&*eu2;&8q$&x>Q#Q7^Tf+6<(d%ZVmj2bDi%.3L2n+4W'$PiDDG)g,r%+?,$@?uou5tSe2aN_AQU*<h`e-GI7)?OK2A.d7_c)?wQ5AS@DL3r#7fSkgl6-++D:'A,uq7SvlB$pcpH'q3n0#_%dY#xCpr-l<F0NR@-##FEV6NTF6##$l84N1w?AO>'IAOURQ##V^Fv-XFbGM7Fl(N<3DhLGF%q.1rC$#:T__&Pi68%0xi_&[qFJ(77j_&JWoF.V735&T,[R*:xFR*K5>>#`bW-?4Ne_&6Ne_&6Ne_&n`kr-#GJcM6X;uM6X;uM(.a..^2TkL%oR(#;u.T%fAr%4tJ8&><1=GHZ_+m9/#H1F^R#SC#*N=BA9(D?v[UiFY>>^8p,KKF.W]L29uLkLlu/+4T<XoIB&hx=T1PcDaB&;HH+-AFr?(m9HZV)FKS8JCw;SD=6[^/DZUL`EUDf]GGlG&>w$)F./^n3+rlo+DB;5sIYGNk+i1t-69Jg--0pao7Sm#K)pdHW&;LuDNH@H>#/X-TI(;P>#,Gc>#0Su>#4`1?#8lC?#<xU?#@.i?#D:%@#HF7@#LRI@#P_[@#Tkn@#Xw*A#]-=A#a9OA#d<F&#*;G##.GY##2Sl##6`($#:l:$#>xL$#B.`$#F:r$#JF.%#NR@%#R_R%#Vke%#Zww%#_-4&#3^Rh%Sflr-k'MS.o?.5/sWel/wpEM0%3'/1)K^f1-d>G21&v(35>V`39V7A4=onx4A1OY5EI0;6Ibgr6M$HS7Q<)58C5w,;WoA*#[%T*#`1g*#d=#+#hI5+#lUG+#pbY+#tnl+#x$),#&1;,#*=M,#.I`,#2Ur,#6b.-#;w[H#iQtA#m^0B#qjBB#uvTB##-hB#'9$C#+E6C#/QHC#3^ZC#7jmC#;v)D#?,<D#C8ND#GDaD#KPsD#O]/E#g1A5#KA*1#gC17#MGd;#8(02#L-d3#rWM4#Hga1#,<w0#T.j<#O#'2#CYN1#qa^:#_4m3#o@/=#eG8=#t8J5#`+78#4uI-#m3B2#SB[8#Q0@8#i[*9#iOn8#1Nm;#^sN9#qh<9#:=x-#P;K2#$%X9#bC+.#Rg;<#mN=.#MTF.#RZO.#2?)4#Y#(/#[)1/#b;L/#dAU/#0Sv;#lY$0#n`-0#sf60#(F24#wrH0#%/e0#TmD<#%JSMFove:CTBEXI:<eh2g)B,3h2^G3i;#d3jD>)4kMYD4lVu`4m`:&5niUA5@(A5BA1]PBB:xlBCC=2CDLXMCEUtiCf&0g2'tN?PGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CP-qekC`.9kEg^+F$kwViFJTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5o,^<-28ZI'O?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xp;7q-#lLYI:xvD=#
+  0x00fb2244 A .tls
+  0x00fb2254 A .tls$
+  0x00fb2264 A .tls$ZZZ
+  0x01028023 A ??0SHA1Calculator@xnet@@QEAA@XZ
+  0x01029977 A ??1SHA1Calculator@xnet@@QEAA@XZ
+  0x0102e86f A ??4SHA1Calculator@xnet@@QEAAAEAV01@AEBV01@@Z
+  0x0103be05 A ?EndUpdate@SHA1Calculator@xnet@@QEAAXXZ
+  0x01042171 A ?GetResult@SHA1Calculator@xnet@@QEAAXPEAE@Z
+  0x010446f8 A ?HashBuffer@SHA1Calculator@xnet@@SAXAEAUSHA1Hash@2@PEBX_K@Z
+  0x01050bdc A ?Reset@SHA1Calculator@xnet@@QEAAXXZ
+  0x01055c3d A ?Transform@SHA1Calculator@xnet@@AEAAXPEBE_K@Z
+  0x0105645d A ?Update@SHA1Calculator@xnet@@QEAAXPEBX_K@Z
+  0x0105a689 A ?VisitLstmParams@?$DnnOperatorVisitor@$00@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x0105a6d9 A ?VisitLstmParams@DnnShapeCalculator@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x0105c79c A XLuaL_optlstring
+  0x0105df6c A TlsAlloc
+  0x0105df78 A TlsGetValue
+  0x0105df86 A TlsSetValue
+  0x0105df94 A TlsFree
+  0x010f2dce A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+  0x010f2e59 A 2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+  0x010f3176 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x010f31da A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x010f40e7 A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+
+===== [KEYS] 1 =====
+  0x00c28894 A psalterpahlavi
+
+===== [PROTO/PORT] 27 =====
+  0x0014d4df A 3333
+  0x00b23bac A 2222
+  0x00f2fa80 A google.protobuf.Any
+  0x00f2fad0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google\protobuf\arena.cc
+  0x00f2fbe0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google\protobuf\extension_set.cc
+  0x00f2fca0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google/protobuf/extension_set_inl.h
+  0x00f2fd20 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google\protobuf\io\coded_stream.cc
+  0x00f2fdf0 A  bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in third_party/protobuf/src/google/protobuf/io/coded_stream.h.
+  0x00f2ff90 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+  0x00f30280 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google\protobuf\message_lite.cc
+  0x00f30380 A  exceeded maximum protobuf size of 2GB: 
+  0x00f303b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google/protobuf/parse_context.h
+  0x00f315c0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\Protobuf\src\google\protobuf\wire_format_lite.cc
+  0x00f40ec0 A [libprotobuf %s %s:%d] %s
+  0x0107ce20 A .?AVFatalException@protobuf@XGoogle@@
+  0x0107ed08 A .?AVCopyingInputStream@io@protobuf@XGoogle@@
+  0x010866f8 A .?AVMessageLite@protobuf@XGoogle@@
+  0x01088a18 A .?AVZeroCopyInputStream@io@protobuf@XGoogle@@
+  0x010aa240 A .?AVExtensionFinder@internal@protobuf@XGoogle@@
+  0x010aa280 A .?AVGeneratedExtensionFinder@internal@protobuf@XGoogle@@
+  0x010aa2d0 A .?AVIstreamInputStream@io@protobuf@XGoogle@@
+  0x010aa310 A .?AVCopyingIstreamInputStream@IstreamInputStream@io@protobuf@XGoogle@@
+  0x010aa368 A .?AVArrayInputStream@io@protobuf@XGoogle@@
+  0x010aa3b0 A .?AVCopyingInputStreamAdaptor@io@protobuf@XGoogle@@
+  0x010aa400 A .?AVZeroCopyCodedInputStream@protobuf@XGoogle@@
+  0x010f25ba A 60402
+  0x00c1831c U 22222
+
+===== [IPC] 4 =====
+  0x00eaeb80 A Failed in CreateFileMapping
+  0x00ed1a16 A // TODO: TileT & use more shared memory
+  0x00f0e8d0 A Cooperative matrix types must not be used in shared memory
+  0x0105da76 A CreateFileMappingA
+
+===== [TSF/TIP] 61 =====
+  0x00bd3e62 A tSfD
+  0x00be6b82 A tSf91tNH
+  0x00c07b40 A multiple to-be-closed variables in local list
+  0x00d20288 A Reshape op shape has multiple -1 dims
+  0x00d29940 A [Gfx] Multiple definitions for semantic: 
+  0x00d2f650 A [RCI] Region origin MUST BE a multiple of block size
+  0x00d2f688 A [RCI] Region extent MUST BE a multiple of block size
+  0x00d306e8 A You cannot chain multiple tests with is
+  0x00d32580 A Software\Classes\CLSID\{5D6BF029-A6BA-417A-8523-120492B1DCE3}\InprocServer32
+  0x00d37bc0 A ktxTexture_TranscodeBasis: KTX_TF_PVRTC_DECODE_TO_NEXT_POW2 currently unsupported
+  0x00eaa228 A tf_crop_and_resize
+  0x00eaa240 A tf_half_pixel_for_nn
+  0x00eaafe8 A bitfieldExtract
+  0x00eaaff8 A bitfieldInsert
+  0x00eab008 A bitfieldReverse
+  0x00ed3f18 A RwkvTokenShiftImpl weight dim must be a multiple of 4, got: 
+  0x00ed4848 A RwkvUpdateKvImpl weight dim must be a multiple of 4, got: 
+  0x00ee3b00 A   int bitfieldExtract(  int, int, int);ivec2 bitfieldExtract(ivec2, int, int);ivec3 bitfieldExtract(ivec3, int, int);ivec4 bitfieldExtract(ivec4, int, int); uint bitfieldExtract( uint, int, int);uvec2 bitfieldExtract(uvec2, int, int);uvec3 bitfieldExtract(uvec3, int, int);uvec4 bitfieldExtract(uvec4, int, int);  int bitfieldInsert(  int base,   int, int, int);ivec2 bitfieldInsert(ivec2 base, ivec2, int, int);ivec3 bitfieldInsert(ivec3 base, ivec3, int, int);ivec4 bitfieldInsert(ivec4 base, ivec4, int, int); uint bitfieldInsert( uint base,  uint, int, int);uvec2 bitfieldInsert(uvec2 base, uvec2, int, int);uvec3 bitfieldInsert(uvec3 base, uvec3, int, int);uvec4 bitfieldInsert(uvec4 base, uvec4, int, int);
+  0x00ee40f0 A  uint uaddCarry(highp  uint, highp  uint, out lowp  uint carry);uvec2 uaddCarry(highp uvec2, highp uvec2, out lowp uvec2 carry);uvec3 uaddCarry(highp uvec3, highp uvec3, out lowp uvec3 carry);uvec4 uaddCarry(highp uvec4, highp uvec4, out lowp uvec4 carry); uint usubBorrow(highp  uint, highp  uint, out lowp  uint borrow);uvec2 usubBorrow(highp uvec2, highp uvec2, out lowp uvec2 borrow);uvec3 usubBorrow(highp uvec3, highp uvec3, out lowp uvec3 borrow);uvec4 usubBorrow(highp uvec4, highp uvec4, out lowp uvec4 borrow);void umulExtended(highp  uint, highp  uint, out highp  uint, out highp  uint lsb);void umulExtended(highp uvec2, highp uvec2, out highp uvec2, out highp uvec2 lsb);void umulExtended(highp uvec3, highp uvec3, out highp uvec3, out highp uvec3 lsb);void umulExtended(highp uvec4, highp uvec4, out highp uvec4, out highp uvec4 lsb);void imulExtended(highp   int, highp   int, out highp   int, out highp   int lsb);void imulExtended(highp ivec2, highp ivec2, out highp ivec2, out highp ivec2 lsb);void imulExtended(highp ivec3, highp ivec3, out highp ivec3, out highp ivec3 lsb);void imulExtended(highp ivec4, highp ivec4, out highp ivec4, out highp ivec4 lsb);  int bitfieldReverse(highp   int);ivec2 bitfieldReverse(highp ivec2);ivec3 bitfieldReverse(highp ivec3);ivec4 bitfieldReverse(highp ivec4); uint bitfieldReverse(highp  uint);uvec2 bitfieldReverse(highp uvec2);uvec3 bitfieldReverse(highp uvec3);uvec4 bitfieldReverse(highp uvec4);
+  0x00eed0c0 A uint countLeadingZeros(uint);uvec2 countLeadingZeros(uvec2);uvec3 countLeadingZeros(uvec3);uvec4 countLeadingZeros(uvec4);uint countTrailingZeros(uint);uvec2 countTrailingZeros(uvec2);uvec3 countTrailingZeros(uvec3);uvec4 countTrailingZeros(uvec4);uint absoluteDifference(int, int);uvec2 absoluteDifference(ivec2, ivec2);uvec3 absoluteDifference(ivec3, ivec3);uvec4 absoluteDifference(ivec4, ivec4);uint16_t absoluteDifference(int16_t, int16_t);u16vec2 absoluteDifference(i16vec2, i16vec2);u16vec3 absoluteDifference(i16vec3, i16vec3);u16vec4 absoluteDifference(i16vec4, i16vec4);uint64_t absoluteDifference(int64_t, int64_t);u64vec2 absoluteDifference(i64vec2, i64vec2);u64vec3 absoluteDifference(i64vec3, i64vec3);u64vec4 absoluteDifference(i64vec4, i64vec4);uint absoluteDifference(uint, uint);uvec2 absoluteDifference(uvec2, uvec2);uvec3 absoluteDifference(uvec3, uvec3);uvec4 absoluteDifference(uvec4, uvec4);uint16_t absoluteDifference(uint16_t, uint16_t);u16vec2 absoluteDifference(u16vec2, u16vec2);u16vec3 absoluteDifference(u16vec3, u16vec3);u16vec4 absoluteDifference(u16vec4, u16vec4);uint64_t absoluteDifference(uint64_t, uint64_t);u64vec2 absoluteDifference(u64vec2, u64vec2);u64vec3 absoluteDifference(u64vec3, u64vec3);u64vec4 absoluteDifference(u64vec4, u64vec4);int addSaturate(int, int);ivec2 addSaturate(ivec2, ivec2);ivec3 addSaturate(ivec3, ivec3);ivec4 addSaturate(ivec4, ivec4);int16_t addSaturate(int16_t, int16_t);i16vec2 addSaturate(i16vec2, i16vec2);i16vec3 addSaturate(i16vec3, i16vec3);i16vec4 addSaturate(i16vec4, i16vec4);int64_t addSaturate(int64_t, int64_t);i64vec2 addSaturate(i64vec2, i64vec2);i64vec3 addSaturate(i64vec3, i64vec3);i64vec4 addSaturate(i64vec4, i64vec4);uint addSaturate(uint, uint);uvec2 addSaturate(uvec2, uvec2);uvec3 addSaturate(uvec3, uvec3);uvec4 addSaturate(uvec4, uvec4);uint16_t addSaturate(uint16_t, uint16_t);u16vec2 addSaturate(u16vec2, u16vec2);u16vec3 addSaturate(u16vec3, u16vec3);u16vec4 addSaturate(u16vec4, u16vec4);uint64_t addSaturate(uint64_t, uint64_t);u64vec2 addSaturate(u64vec2, u64vec2);u64vec3 addSaturate(u64vec3, u64vec3);u64vec4 addSaturate(u64vec4, u64vec4);int subtractSaturate(int, int);ivec2 subtractSaturate(ivec2, ivec2);ivec3 subtractSaturate(ivec3, ivec3);ivec4 subtractSaturate(ivec4, ivec4);int16_t subtractSaturate(int16_t, int16_t);i16vec2 subtractSaturate(i16vec2, i16vec2);i16vec3 subtractSaturate(i16vec3, i16vec3);i16vec4 subtractSaturate(i16vec4, i16vec4);int64_t subtractSaturate(int64_t, int64_t);i64vec2 subtractSaturate(i64vec2, i64vec2);i64vec3 subtractSaturate(i64vec3, i64vec3);i64vec4 subtractSaturate(i64vec4, i64vec4);uint subtractSaturate(uint, uint);uvec2 subtractSaturate(uvec2, uvec2);uvec3 subtractSaturate(uvec3, uvec3);uvec4 subtractSaturate(uvec4, uvec4);uint16_t subtractSaturate(uint16_t, uint16_t);u16vec2 subtractSaturate(u16vec2, u16vec2);u16vec3 subtractSaturate(u16vec3, u16vec3);u16vec4 subtractSaturate(u16vec4, u16vec4);uint64_t subtractSaturate(uint64_t, uint64_t);u64vec2 subtractSaturate(u64vec2, u64vec2);u64vec3 subtractSaturate(u64vec3, u64vec3);u64vec4 subtractSaturate(u64vec4, u64vec4);int average(int, int);ivec2 average(ivec2, ivec2);ivec3 average(ivec3, ivec3);ivec4 average(ivec4, ivec4);int16_t average(int16_t, int16_t);i16vec2 average(i16vec2, i16vec2);i16vec3 average(i16vec3, i16vec3);i16vec4 average(i16vec4, i16vec4);int64_t average(int64_t, int64_t);i64vec2 average(i64vec2, i64vec2);i64vec3 average(i64vec3, i64vec3);i64vec4 average(i64vec4, i64vec4);uint average(uint, uint);uvec2 average(uvec2, uvec2);uvec3 average(uvec3, uvec3);uvec4 average(uvec4, uvec4);uint16_t average(uint16_t, uint16_t);u16vec2 average(u16vec2, u16vec2);u16vec3 average(u16vec3, u16vec3);u16vec4 average(u16vec4, u16vec4);uint64_t average(uint64_t, uint64_t);u64vec2 average(u64vec2, u64vec2);u64vec3 average(u64vec3, u64vec3);u64vec4 average(u64vec4, u64vec4);int averageRounded(int, int);ivec2 averageRounded(ivec2, ivec2);ivec3 averageRounded(ivec3, ivec3);ivec4 averageRounded(ivec4, ivec4);int16_t averageRounded(int16_t, int16_t);i16vec2 averageRounded(i16vec2, i16vec2);i16vec3 averageRounded(i16vec3, i16vec3);i16vec4 averageRounded(i16vec4, i16vec4);int64_t averageRounded(int64_t, int64_t);i64vec2 averageRounded(i64vec2, i64vec2);i64vec3 averageRounded(i64vec3, i64vec3);i64vec4 averageRounded(i64vec4, i64vec4);uint averageRounded(uint, uint);uvec2 averageRounded(uvec2, uvec2);uvec3 averageRounded(uvec3, uvec3);uvec4 averageRounded(uvec4, uvec4);uint16_t averageRounded(uint16_t, uint16_t);u16vec2 averageRounded(u16vec2, u16vec2);u16vec3 averageRounded(u16vec3, u16vec3);u16vec4 averageRounded(u16vec4, u16vec4);uint64_t averageRounded(uint64_t, uint64_t);u64vec2 averageRounded(u64vec2, u64vec2);u64vec3 averageRounded(u64vec3, u64vec3);u64vec4 averageRounded(u64vec4, u64vec4);int multiply32x16(int, int);ivec2 multiply32x16(ivec2, ivec2);ivec3 multiply32x16(ivec3, ivec3);ivec4 multiply32x16(ivec4, ivec4);uint multiply32x16(uint, uint);uvec2 multiply32x16(uvec2, uvec2);uvec3 multiply32x16(uvec3, uvec3);uvec4 multiply32x16(uvec4, uvec4);
+  0x00ef0ef0 A int8_t abs(int8_t);i8vec2 abs(i8vec2);i8vec3 abs(i8vec3);i8vec4 abs(i8vec4);int8_t sign(int8_t);i8vec2 sign(i8vec2);i8vec3 sign(i8vec3);i8vec4 sign(i8vec4);int8_t min(int8_t x, int8_t y);i8vec2 min(i8vec2 x, int8_t y);i8vec3 min(i8vec3 x, int8_t y);i8vec4 min(i8vec4 x, int8_t y);i8vec2 min(i8vec2 x, i8vec2 y);i8vec3 min(i8vec3 x, i8vec3 y);i8vec4 min(i8vec4 x, i8vec4 y);uint8_t min(uint8_t x, uint8_t y);u8vec2 min(u8vec2 x, uint8_t y);u8vec3 min(u8vec3 x, uint8_t y);u8vec4 min(u8vec4 x, uint8_t y);u8vec2 min(u8vec2 x, u8vec2 y);u8vec3 min(u8vec3 x, u8vec3 y);u8vec4 min(u8vec4 x, u8vec4 y);int8_t max(int8_t x, int8_t y);i8vec2 max(i8vec2 x, int8_t y);i8vec3 max(i8vec3 x, int8_t y);i8vec4 max(i8vec4 x, int8_t y);i8vec2 max(i8vec2 x, i8vec2 y);i8vec3 max(i8vec3 x, i8vec3 y);i8vec4 max(i8vec4 x, i8vec4 y);uint8_t max(uint8_t x, uint8_t y);u8vec2 max(u8vec2 x, uint8_t y);u8vec3 max(u8vec3 x, uint8_t y);u8vec4 max(u8vec4 x, uint8_t y);u8vec2 max(u8vec2 x, u8vec2 y);u8vec3 max(u8vec3 x, u8vec3 y);u8vec4 max(u8vec4 x, u8vec4 y);int8_t    clamp(int8_t x, int8_t minVal, int8_t maxVal);i8vec2  clamp(i8vec2  x, int8_t minVal, int8_t maxVal);i8vec3  clamp(i8vec3  x, int8_t minVal, int8_t maxVal);i8vec4  clamp(i8vec4  x, int8_t minVal, int8_t maxVal);i8vec2  clamp(i8vec2  x, i8vec2  minVal, i8vec2  maxVal);i8vec3  clamp(i8vec3  x, i8vec3  minVal, i8vec3  maxVal);i8vec4  clamp(i8vec4  x, i8vec4  minVal, i8vec4  maxVal);uint8_t   clamp(uint8_t x, uint8_t minVal, uint8_t maxVal);u8vec2  clamp(u8vec2  x, uint8_t minVal, uint8_t maxVal);u8vec3  clamp(u8vec3  x, uint8_t minVal, uint8_t maxVal);u8vec4  clamp(u8vec4  x, uint8_t minVal, uint8_t maxVal);u8vec2  clamp(u8vec2  x, u8vec2  minVal, u8vec2  maxVal);u8vec3  clamp(u8vec3  x, u8vec3  minVal, u8vec3  maxVal);u8vec4  clamp(u8vec4  x, u8vec4  minVal, u8vec4  maxVal);int8_t  mix(int8_t,  int8_t,  bool);i8vec2  mix(i8vec2,  i8vec2,  bvec2);i8vec3  mix(i8vec3,  i8vec3,  bvec3);i8vec4  mix(i8vec4,  i8vec4,  bvec4);uint8_t mix(uint8_t, uint8_t, bool);u8vec2  mix(u8vec2,  u8vec2,  bvec2);u8vec3  mix(u8vec3,  u8vec3,  bvec3);u8vec4  mix(u8vec4,  u8vec4,  bvec4);bvec2 lessThan(i8vec2, i8vec2);bvec3 lessThan(i8vec3, i8vec3);bvec4 lessThan(i8vec4, i8vec4);bvec2 lessThan(u8vec2, u8vec2);bvec3 lessThan(u8vec3, u8vec3);bvec4 lessThan(u8vec4, u8vec4);bvec2 lessThanEqual(i8vec2, i8vec2);bvec3 lessThanEqual(i8vec3, i8vec3);bvec4 lessThanEqual(i8vec4, i8vec4);bvec2 lessThanEqual(u8vec2, u8vec2);bvec3 lessThanEqual(u8vec3, u8vec3);bvec4 lessThanEqual(u8vec4, u8vec4);bvec2 greaterThan(i8vec2, i8vec2);bvec3 greaterThan(i8vec3, i8vec3);bvec4 greaterThan(i8vec4, i8vec4);bvec2 greaterThan(u8vec2, u8vec2);bvec3 greaterThan(u8vec3, u8vec3);bvec4 greaterThan(u8vec4, u8vec4);bvec2 greaterThanEqual(i8vec2, i8vec2);bvec3 greaterThanEqual(i8vec3, i8vec3);bvec4 greaterThanEqual(i8vec4, i8vec4);bvec2 greaterThanEqual(u8vec2, u8vec2);bvec3 greaterThanEqual(u8vec3, u8vec3);bvec4 greaterThanEqual(u8vec4, u8vec4);bvec2 equal(i8vec2, i8vec2);bvec3 equal(i8vec3, i8vec3);bvec4 equal(i8vec4, i8vec4);bvec2 equal(u8vec2, u8vec2);bvec3 equal(u8vec3, u8vec3);bvec4 equal(u8vec4, u8vec4);bvec2 notEqual(i8vec2, i8vec2);bvec3 notEqual(i8vec3, i8vec3);bvec4 notEqual(i8vec4, i8vec4);bvec2 notEqual(u8vec2, u8vec2);bvec3 notEqual(u8vec3, u8vec3);bvec4 notEqual(u8vec4, u8vec4);  int8_t bitfieldExtract(  int8_t, int8_t, int8_t);i8vec2 bitfieldExtract(i8vec2, int8_t, int8_t);i8vec3 bitfieldExtract(i8vec3, int8_t, int8_t);i8vec4 bitfieldExtract(i8vec4, int8_t, int8_t); uint8_t bitfieldExtract( uint8_t, int8_t, int8_t);u8vec2 bitfieldExtract(u8vec2, int8_t, int8_t);u8vec3 bitfieldExtract(u8vec3, int8_t, int8_t);u8vec4 bitfieldExtract(u8vec4, int8_t, int8_t);  int8_t bitfieldInsert(  int8_t base,   int8_t, int8_t, int8_t);i8vec2 bitfieldInsert(i8vec2 base, i8vec2, int8_t, int8_t);i8vec3 bitfieldInsert(i8vec3 base, i8vec3, int8_t, int8_t);i8vec4 bitfieldInsert(i8vec4 base, i8vec4, int8_t, int8_t); uint8_t bitfieldInsert( uint8_t base,  uint8_t, int8_t, int8_t);u8vec2 bitfieldInsert(u8vec2 base, u8vec2, int8_t, int8_t);u8vec3 bitfieldInsert(u8vec3 base, u8vec3, int8_t, int8_t);u8vec4 bitfieldInsert(u8vec4 base, u8vec4, int8_t, int8_t);  int8_t bitCount(  int8_t);i8vec2 bitCount(i8vec2);i8vec3 bitCount(i8vec3);i8vec4 bitCount(i8vec4);  int8_t bitCount( uint8_t);i8vec2 bitCount(u8vec2);i8vec3 bitCount(u8vec3);i8vec4 bitCount(u8vec4);  int8_t findLSB(  int8_t);i8vec2 findLSB(i8vec2);i8vec3 findLSB(i8vec3);i8vec4 findLSB(i8vec4);  int8_t findLSB( uint8_t);i8vec2 findLSB(u8vec2);i8vec3 findLSB(u8vec3);i8vec4 findLSB(u8vec4);  int8_t findMSB(  int8_t);i8vec2 findMSB(i8vec2);i8vec3 findMSB(i8vec3);i8vec4 findMSB(i8vec4);  int8_t findMSB( uint8_t);i8vec2 findMSB(u8vec2);i8vec3 findMSB(u8vec3);i8vec4 findMSB(u8vec4);int16_t abs(int16_t);i16vec2 abs(i16vec2);i16vec3 abs(i16vec3);i16vec4 abs(i16vec4);int16_t sign(int16_t);i16vec2 sign(i16vec2);i16vec3 sign(i16vec3);i16vec4 sign(i16vec4);int16_t min(int16_t x, int16_t y);i16vec2 min(i16vec2 x, int16_t y);i16vec3 min(i16vec3 x, int16_t y);i16vec4 min(i16vec4 x, int16_t y);i16vec2 min(i16vec2 x, i16vec2 y);i16vec3 min(i16vec3 x, i16vec3 y);i16vec4 min(i16vec4 x, i16vec4 y);uint16_t min(uint16_t x, uint16_t y);u16vec2 min(u16vec2 x, uint16_t y);u16vec3 min(u16vec3 x, uint16_t y);u16vec4 min(u16vec4 x, uint16_t y);u16vec2 min(u16vec2 x, u16vec2 y);u16vec3 min(u16vec3 x, u16vec3 y);u16vec4 min(u16vec4 x, u16vec4 y);int16_t max(int16_t x, int16_t y);i16vec2 max(i16vec2 x, int16_t y);i16vec3 max(i16vec3 x, int16_t y);i16vec4 max(i16vec4 x, int16_t y);i16vec2 max(i16vec2 x, i16vec2 y);i16vec3 max(i16vec3 x, i16vec3 y);i16vec4 max(i16vec4 x, i16vec4 y);uint16_t max(uint16_t x, uint16_t y);u16vec2 max(u16vec2 x, uint16_t y);u16vec3 max(u16vec3 x, uint16_t y);u16vec4 max(u16vec4 x, uint16_t y);u16vec2 max(u16vec2 x, u16vec2 y);u16vec3 max(u16vec3 x, u16vec3 y);u16vec4 max(u16vec4 x, u16vec4 y);int16_t    clamp(int16_t x, int16_t minVal, int16_t maxVal);i16vec2  clamp(i16vec2  x, int16_t minVal, int16_t maxVal);i16vec3  clamp(i16vec3  x, int16_t minVal, int16_t maxVal);i16vec4  clamp(i16vec4  x, int16_t minVal, int16_t maxVal);i16vec2  clamp(i16vec2  x, i16vec2  minVal, i16vec2  maxVal);i16vec3  clamp(i16vec3  x, i16vec3  minVal, i16vec3  maxVal);i16vec4  clamp(i16vec4  x, i16vec4  minVal, i16vec4  maxVal);uint16_t   clamp(uint16_t x, uint16_t minVal, uint16_t maxVal);u16vec2  clamp(u16vec2  x, uint16_t minVal, uint16_t maxVal);u16vec3  clamp(u16vec3  x, uint16_t minVal, uint16_t maxVal);u16vec4  clamp(u16vec4  x, uint16_t minVal, uint16_t maxVal);u16vec2  clamp(u16vec2  x, u16vec2  minVal, u16vec2  maxVal);u16vec3  clamp(u16vec3  x, u16vec3  minVal, u16vec3  maxVal);u16vec4  clamp(u16vec4  x, u16vec4  minVal, u16vec4  maxVal);int16_t  mix(int16_t,  int16_t,  bool);i16vec2  mix(i16vec2,  i16vec2,  bvec2);i16vec3  mix(i16vec3,  i16vec3,  bvec3);i16vec4  mix(i16vec4,  i16vec4,  bvec4);uint16_t mix(uint16_t, uint16_t, bool);u16vec2  mix(u16vec2,  u16vec2,  bvec2);u16vec3  mix(u16vec3,  u16vec3,  bvec3);u16vec4  mix(u16vec4,  u16vec4,  bvec4);float16_t frexp(float16_t, out int16_t);f16vec2   frexp(f16vec2,   out i16vec2);f16vec3   frexp(f16vec3,   out i16vec3);f16vec4   frexp(f16vec4,   out i16vec4);float16_t ldexp(float16_t, int16_t);f16vec2   ldexp(f16vec2,   i16vec2);f16vec3   ldexp(f16vec3,   i16vec3);f16vec4   ldexp(f16vec4,   i16vec4);int16_t halfBitsToInt16(float16_t);i16vec2 halfBitsToInt16(f16vec2);i16vec3 halhBitsToInt16(f16vec3);i16vec4 halfBitsToInt16(f16vec4);uint16_t halfBitsToUint16(float16_t);u16vec2  halfBitsToUint16(f16vec2);u16vec3  halfBitsToUint16(f16vec3);u16vec4  halfBitsToUint16(f16vec4);int16_t float16BitsToInt16(float16_t);i16vec2 float16BitsToInt16(f16vec2);i16vec3 float16BitsToInt16(f16vec3);i16vec4 float16BitsToInt16(f16vec4);uint16_t float16BitsToUint16(float16_t);u16vec2  float16BitsToUint16(f16vec2);u16vec3  float16BitsToUint16(f16vec3);u16vec4  float16BitsToUint16(f16vec4);float16_t int16BitsToFloat16(int16_t);f16vec2   int16BitsToFloat16(i16vec2);f16vec3   int16BitsToFloat16(i16vec3);f16vec4   int16BitsToFloat16(i16vec4);float16_t uint16BitsToFloat16(uint16_t);f16vec2   uint16BitsToFloat16(u16vec2);f16vec3   uint16BitsToFloat16(u16vec3);f16vec4   uint16BitsToFloat16(u16vec4);float16_t int16BitsToHalf(int16_t);f16vec2   int16BitsToHalf(i16vec2);f16vec3   int16BitsToHalf(i16vec3);f16vec4   int16BitsToHalf(i16vec4);float16_t uint16BitsToHalf(uint16_t);f16vec2   uint16BitsToHalf(u16vec2);f16vec3   uint16BitsToHalf(u16vec3);f16vec4   uint16BitsToHalf(u16vec4);int      packInt2x16(i16vec2);uint     packUint2x16(u16vec2);int64_t  packInt4x16(i16vec4);uint64_t packUint4x16(u16vec4);i16vec2  unpackInt2x16(int);u16vec2  unpackUint2x16(uint);i16vec4  unpackInt4x16(int64_t);u16vec4  unpackUint4x16(uint64_t);bvec2 lessThan(i16vec2, i16vec2);bvec3 lessThan(i16vec3, i16vec3);bvec4 lessThan(i16vec4, i16vec4);bvec2 lessThan(u16vec2, u16vec2);bvec3 lessThan(u16vec3, u16vec3);bvec4 lessThan(u16vec4, u16vec4);bvec2 lessThanEqual(i16vec2, i16vec2);bvec3 lessThanEqual(i16vec3, i16vec3);bvec4 lessThanEqual(i16vec4, i16vec4);bvec2 lessThanEqual(u16vec2, u16vec2);bvec3 lessThanEqual(u16vec3, u16vec3);bvec4 lessThanEqual(u16vec4, u16vec4);bvec2 greaterThan(i16vec2, i16vec2);bvec3 greaterThan(i16vec3, i16vec3);bvec4 greaterThan(i16vec4, i16vec4);bvec2 greaterThan(u16vec2, u16vec2);bvec3 greaterThan(u16vec3, u16vec3);bvec4 greaterThan(u16vec4, u16vec4);bvec2 greaterThanEqual(i16vec2, i16vec2);bvec3 greaterThanEqual(i16vec3, i16vec3);bvec4 greaterThanEqual(i16vec4, i16vec4);bvec2 greaterThanEqual(u16vec2, u16vec2);bvec3 greaterThanEqual(u16vec3, u16vec3);bvec4 greaterThanEqual(u16vec4, u16vec4);bvec2 equal(i16vec2, i16vec2);bvec3 equal(i16vec3, i16vec3);bvec4 equal(i16vec4, i16vec4);bvec2 equal(u16vec2, u16vec2);bvec3 equal(u16vec3, u16vec3);bvec4 equal(u16vec4, u16vec4);bvec2 notEqual(i16vec2, i16vec2);bvec3 notEqual(i16vec3, i16vec3);bvec4 notEqual(i16vec4, i16vec4);bvec2 notEqual(u16vec2, u16vec2);bvec3 notEqual(u16vec3, u16vec3);bvec4 notEqual(u16vec4, u16vec4);  int16_t bitfieldExtract(  int16_t, int16_t, int16_t);i16vec2 bitfieldExtract(i16vec2, int16_t, int16_t);i16vec3 bitfieldExtract(i16vec3, int16_t, int16_t);i16vec4 bitfieldExtract(i16vec4, int16_t, int16_t); uint16_t bitfieldExtract( uint16_t, int16_t, int16_t);u16vec2 bitfieldExtract(u16vec2, int16_t, int16_t);u16vec3 bitfieldExtract(u16vec3, int16_t, int16_t);u16vec4 bitfieldExtract(u16vec4, int16_t, int16_t);  int16_t bitfieldInsert(  int16_t base,   int16_t, int16_t, int16_t);i16vec2 bitfieldInsert(i16vec2 base, i16vec2, int16_t, int16_t);i16vec3 bitfieldInsert(i16vec3 base, i16vec3, int16_t, int16_t);i16vec4 bitfieldInsert(i16vec4 base, i16vec4, int16_t, int16_t); uint16_t bitfieldInsert( uint16_t base,  uint16_t, int16_t, int16_t);u16vec2 bitfieldInsert(u16vec2 base, u16vec2, int16_t, int16_t);u16vec3 bitfieldInsert(u16vec3 base, u16vec3, int16_t, int16_t);u16vec4 bitfieldInsert(u16vec4 base, u16vec4, int16_t, int16_t);  int16_t bitCount(  int16_t);i16vec2 bitCount(i16vec2);i16vec3 bitCount(i16vec3);i16vec4 bitCount(i16vec4);  int16_t bitCount( uint16_t);i16vec2 bitCount(u16vec2);i16vec3 bitCount(u16vec3);i16vec4 bitCount(u16vec4);  int16_t findLSB(  int16_t);i16vec2 findLSB(i16vec2);i16vec3 findLSB(i16vec3);i16vec4 findLSB(i16vec4);  int16_t findLSB( uint16_t);i16vec2 findLSB(u16vec2);i16vec3 findLSB(u16vec3);i16vec4 findLSB(u16vec4);  int16_t findMSB(  int16_t);i16vec2 findMSB(i16vec2);i16vec3 findMSB(i16vec3);i16vec4 findMSB(i16vec4);  int16_t findMSB( uint16_t);i16vec2 findMSB(u16vec2);i16vec3 findMSB(u16vec3);i16vec4 findMSB(u16vec4);int16_t  pack16(i8vec2);uint16_t pack16(u8vec2);int32_t  pack32(i8vec4);uint32_t pack32(u8vec4);int32_t  pack32(i16vec2);uint32_t pack32(u16vec2);int64_t  pack64(i16vec4);uint64_t pack64(u16vec4);int64_t  pack64(i32vec2);uint64_t pack64(u32vec2);i8vec2   unpack8(int16_t);u8vec2   unpack8(uint16_t);i8vec4   unpack8(int32_t);u8vec4   unpack8(uint32_t);i16vec2  unpack16(int32_t);u16vec2  unpack16(uint32_t);i16vec4  unpack16(int64_t);u16vec4  unpack16(uint64_t);i32vec2  unpack32(int64_t);u32vec2  unpack32(uint64_t);
+  0x00f01d28 A multiply32x16
+  0x00f06f10 A blend_support_multiply
+  0x00f08280 A multiple prototypes for same function
+  0x00f08fe0 A Semantics must not include multiple of gl_SemanticsRelease, gl_SemanticsAcquire, or gl_SemanticsAcquireRelease
+  0x00f09050 A semUnequal must not include multiple of gl_SemanticsRelease, gl_SemanticsAcquire, or gl_SemanticsAcquireRelease
+  0x00f0da00 A type contains double or 64-bit integer; xfb_offset must be a multiple of 8
+  0x00f0da50 A must be a multiple of size of first component
+  0x00f0da80 A type contains half float or 16-bit integer; xfb_offset must be a multiple of 2
+  0x00f0e440 A ambiguous function signature match: multiple signatures match under implicit type conversion
+  0x00f0f6c0 A must be a multiple of the member's alignment
+  0x00f0fb58 A requires local_size_x and local_size_y to be multiple of two
+  0x00f0fbb8 A requires total group size to be multiple of four
+  0x00f11a00 A Cannot attach multiple ES shaders of the same type to a single program
+  0x00f143c0 A iteration_multiple
+  0x00f26728 A multiplicative_expression
+  0x00f27f88 A multiply second child into first child
+  0x00f281e0 A component-wise multiply
+  0x00f28328 A matrix-multiply
+  0x00f29538 A bitFieldReverse
+  0x00f2bb98 A can't handle multiple entry points per stage
+  0x00f2bfa0 A Multiple function bodies in multiple compilation units for the same signature in the same stage:
+  0x00f2c0c0 A Implicit size of unsized array doesn't match same symbol among multiple shaders.
+  0x00f2cae0 A xfb_stride must be multiple of 8 for buffer holding a double or 64-bit integer:
+  0x00f2cb30 A xfb_stride must be multiple of 4:
+  0x00f2cb60 A xfb_stride must be multiple of 2 for buffer holding a half float or 16-bit integer:
+  0x010327c2 A ?AutoCalcTangentsForKeyPoint@?$AnimationCurve@M@xnet@@QEAAX_K_NM@Z
+  0x010368c4 A ?ConvertSubPassesToMultiPasses@RciRenderPassDesc@rci@xnet@@QEBA_NAEAV?$vector@URciRenderPassDesc@rci@xnet@@V?$allocator@URciRenderPassDesc@rci@xnet@@@std@@@std@@@Z
+  0x0103a9ab A ?DeducePhyscLayoutsForModelInputOutputs@DnnModel@dnn@xnet@@QEAA_NXZ
+  0x0103a9ef A ?DeducePhyscLayoutsForReadWriteOperands@DnnModel@dnn@xnet@@QEAA_NAEBV?$vector@HV?$allocator@H@std@@@std@@@Z
+  0x01059c55 A ?VisitFakeQuantizeParams@?$DnnOperatorVisitor@$00@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x01059cad A ?VisitFakeQuantizeParams@DnnShapeCalculator@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x01059cff A ?VisitFlattenParams@?$DnnOperatorVisitor@$00@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x01059d52 A ?VisitFlattenParams@DnnShapeCalculator@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x01059d9f A ?VisitFullyConnectedParams@?$DnnOperatorVisitor@$00@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x01059df9 A ?VisitFullyConnectedParams@DnnShapeCalculator@dnn@xnet@@UEAA_NAEBUDnnOperator@23@@Z
+  0x0105d8a2 A WaitForSingleObject
+  0x0105dd94 A WaitForSingleObjectEx
+  0x00eaec10 U HKEY_CURRENT_USER\
+  0x00eaec38 U HKEY_LOCAL_MACHINE\
+  0x00eaec60 U HKEY_CLASSES_ROOT\
+
+===== [HOOK/INJECT] 4 =====
+  0x0105d76a A GetProcAddress
+  0x0105d77c A LoadLibraryExA
+  0x0105d8cc A LoadLibraryA
+  0x0105df9e A LoadLibraryExW
+
+===== [TELEMETRY] 217 =====
+  0x00c02110 A unexpected topology type %u (offset %u, length %u) reported in leaf 0x0000000B is ignored
+  0x00c021c0 A unexpected L2 instruction cache reported in leaf 0x00000004 is ignored
+  0x00c02210 A unexpected L3 instruction cache reported in leaf 0x00000004 is ignored
+  0x00c02260 A unexpected L4 instruction cache reported in leaf 0x00000004 is ignored
+  0x00c022a8 A unexpected L%u cache reported in leaf 0x00000004 is ignored
+  0x00c022f0 A unexpected L2 instruction cache reported in leaf 0x8000001D is ignored
+  0x00c02340 A unexpected L3 instruction cache reported in leaf 0x8000001D is ignored
+  0x00c02388 A unexpected L%u cache reported in leaf 0x8000001D is ignored
+  0x00c05b84 A status
+  0x00c07af8 A (for state)
+  0x00c6f100 A mCurrFrameIdx >= 0 && mCurrFrameIdx < static_cast<int>(mVecFrames.size())
+  0x00c70a10 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XStatus.cpp
+  0x00d159f8 A static_cast<size_t>(idx) < mRWTensorBs.size()
+  0x00d1f750 A Static Pad op illegal shapeCalcMode
+  0x00d29120 A static_cast<size_t>(idx) < mRWTensorTs.size()
+  0x00ea1738 A _status.ok()
+  0x00ea3b40 A     useGlobalStats = 
+  0x00ea7788 A ATen.fake_quantize_per_tensor_affine_static
+  0x00ea8638 A ] statistics:
+  0x00ea8668 A Model statistics:
+  0x00ea9eb8 A fake_quantize_per_tensor_affine_static
+  0x00eabdf4 A static
+  0x00ead328 A reportIntersectionEXT
+  0x00ead340 A reportIntersectionNV
+  0x00ead5ee A constexpr static int NumElems = (Use == 2 ? 8 : 16);
+  0x00ead624 A constexpr static int Stride = (Use == 2 && sizeof(T) == 2 ? 2 : 1);
+  0x00eae4f0 A static inline __attribute__((always_inline))
+  0x00eaf8f0 A totalRegCount <= static_cast<xMInt>(callerSaveRegs.size() + calleeSaveRegs.size())
+  0x00eaf980 A static_cast<size_t>(off + count) <= regs.size()
+  0x00eb0728 A static_cast<xMInt>(simdReg_tmps.size()) >= nb
+  0x00eb07c0 A static_cast<xMInt>(simdReg_tmps.size()) >= nb * d + 2
+  0x00eb07f8 A static_cast<xMInt>(simdReg_tmps.size()) >= mb * nb + nb + 1
+  0x00eb0850 A static_cast<xMInt>(simdReg_tmps.size()) >= d * nb + 2
+  0x00eb0890 A static_cast<xMInt>(simdReg_tmps.size()) >= d * mb * nb + nb + 1
+  0x00eba9f8 A static_cast<xMInt>(reg_tmps.size()) >= 9 + ohb - 1
+  0x00ebad30 A simdReg_tmps.size() >= simdReg_outputs.size() + Max(static_cast<xMInt>(simdReg_weights.size() + simdReg_inputs.size()), ImplX64CNNActivationJIT<DType, isaKind>::kRequiredTempSimdRegCount)
+  0x00ebadf0 A static_cast<xMInt>(reg_tmps.size()) >= 3
+  0x00ebae20 A static_cast<xMInt>(reg_tmps.size()) >= 4
+  0x00ebc7e8 A static_cast<xMInt>(simdReg_tmps.size()) >= owb + 1
+  0x00ebe368 A static_cast<xMInt>(simdReg_tmps.size()) >= 2 * maxIsb + 6
+  0x00ebe3a8 A static_cast<xMInt>(simdReg_tmps.size()) >= 2 * rsb + 6
+  0x00ec5200 A hidden_states
+  0x00ec5210 A Failed to copy result: hidden states
+  0x00ec5278 A Invalid hidden states output: 
+  0x00ec5298 A Failed to get last hidden states
+  0x00ec70b8 A Failed to copy hidden_states
+  0x00ed137f A         state [n_heads, head_size, head_size]
+  0x00ed14ec A         state = state * w_.view(H,1,N) + state @ ab.float() + vk.float()
+  0x00ed1535 A         dst[t] = (state.to(dtype=x.dtype) @ r_.view(H,N,1)).view(H*N)
+  0x00ed1907 A     IODataType state[];
+  0x00ed1b92 A     float rstate[BLOCK_K * BLOCK_HEADSIZE];
+  0x00ed1c56 A     // Load to rstate
+  0x00ed1cda A             rstate[k0 * BLOCK_HEADSIZE + i] = float(state[h0 * HEADSIZE * HEADSIZE + (v0 + i) * HEADSIZE + tid + k0 * GROUPSIZE]);
+  0x00ed2255 A                     sumSKK[i] += rstate[k0 * BLOCK_HEADSIZE + i] * rkk[k0];
+  0x00ed2536 A                     rstate[k0 * BLOCK_HEADSIZE + i] = rstate[k0 * BLOCK_HEADSIZE + i] * rw[k0] - sumSKK[i] * rkk[k0] * ra[k0] + rv * rk[k0];
+  0x00ed25c3 A                     routput += rstate[k0 * BLOCK_HEADSIZE + i] * rr[k0];
+  0x00ed2e7e A                 sumSKK[i] += rstate[k0 * BLOCK_HEADSIZE + i] * rkk[k0];
+  0x00ed3113 A                 rstate[k0 * BLOCK_HEADSIZE + i] = rstate[k0 * BLOCK_HEADSIZE + i] * rw[k0] - sumSKK[i] * rkk[k0] * ra[k0] + rv * rk[k0];
+  0x00ed319c A                 routput += rstate[k0 * BLOCK_HEADSIZE + i] * rr[k0];
+  0x00ed35da A     // Store to state
+  0x00ed365e A             state[h0 * HEADSIZE * HEADSIZE + (v0 + i) * HEADSIZE + tid + k0 * GROUPSIZE] = IODataType(rstate[k0 * BLOCK_HEADSIZE + i]);
+  0x00ed6de8 A RwkvAttention XPrev or State tensor is null.
+  0x00efa490 A bool reportIntersectionNV(float, uint);bool reportIntersectionEXT(float, uint);
+  0x00efe510 A const uint gl_RayFlagsNoneNV = 0U;const uint gl_RayFlagsNoneEXT = 0U;const uint gl_RayFlagsOpaqueNV = 1U;const uint gl_RayFlagsOpaqueEXT = 1U;const uint gl_RayFlagsNoOpaqueNV = 2U;const uint gl_RayFlagsNoOpaqueEXT = 2U;const uint gl_RayFlagsTerminateOnFirstHitNV = 4U;const uint gl_RayFlagsTerminateOnFirstHitEXT = 4U;const uint gl_RayFlagsSkipClosestHitShaderNV = 8U;const uint gl_RayFlagsSkipClosestHitShaderEXT = 8U;const uint gl_RayFlagsCullBackFacingTrianglesNV = 16U;const uint gl_RayFlagsCullBackFacingTrianglesEXT = 16U;const uint gl_RayFlagsCullFrontFacingTrianglesNV = 32U;const uint gl_RayFlagsCullFrontFacingTrianglesEXT = 32U;const uint gl_RayFlagsCullOpaqueNV = 64U;const uint gl_RayFlagsCullOpaqueEXT = 64U;const uint gl_RayFlagsCullNoOpaqueNV = 128U;const uint gl_RayFlagsCullNoOpaqueEXT = 128U;const uint gl_RayFlagsSkipTrianglesEXT = 256U;const uint gl_RayFlagsSkipAABBEXT = 512U;const uint gl_RayFlagsForceOpacityMicromap2StateEXT = 1024U;const uint gl_HitKindFrontFacingTriangleEXT = 254U;const uint gl_HitKindBackFacingTriangleEXT = 255U;in    uint gl_HitKindFrontFacingMicroTriangleNV;in    uint gl_HitKindBackFacingMicroTriangleNV;
+  0x00f02610 A gl_RayFlagsForceOpacityMicromap2StateEXT
+  0x00f09a80 A all default precisions are highp; use precision statements to quiet warning, e.g.:
+  0x00f0b690 A cannot apply precision statement to this type; use 'float', 'int' or a sampler type
+  0x00f0fe98 A cannot have statements before first case/default label
+  0x00f0fef8 A switch statements
+  0x00f0ff40 A last case/default label not followed by statements
+  0x00f11730 A #version: statement must appear first in es-profile shader; before comments or newlines
+  0x00f26c10 A declaration_statement
+  0x00f26c28 A statement
+  0x00f26c38 A simple_statement
+  0x00f26c50 A demote_statement
+  0x00f26c68 A compound_statement
+  0x00f26c88 A statement_no_new_scope
+  0x00f26ca0 A statement_scoped
+  0x00f26cc0 A compound_statement_no_new_scope
+  0x00f26ce0 A statement_list
+  0x00f26cf0 A expression_statement
+  0x00f26d08 A selection_statement
+  0x00f26d20 A selection_statement_nonattributed
+  0x00f26d48 A selection_rest_statement
+  0x00f26d78 A switch_statement
+  0x00f26d90 A switch_statement_nonattributed
+  0x00f26db8 A switch_statement_list
+  0x00f26de0 A iteration_statement
+  0x00f26df8 A iteration_statement_nonattributed
+  0x00f26e38 A for_init_statement
+  0x00f26e60 A for_rest_statement
+  0x00f26e78 A jump_statement
+  0x00f27318 A Entering state %d
+  0x00f27620 A precision statement
+  0x00f27b80 A cannot appear outside switch statement
+  0x00f27c20 A continue statement only allowed in loops
+  0x00f27c50 A break statement only allowed in switch and loops
+  0x00f2db38 A mismatched statements
+  0x00f31cc8 A last_hidden_state
+  0x00f31ce0 A Failed to copy last_hidden_state
+  0x00f40d68 A Create Rwkv7 state failed.
+  0x00f41310 A regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+  0x00f42298 A state not recoverable
+  0x00f441f8 A `local static guard'
+  0x00f445e8 A `local static thread guard'
+  0x010269af A ??0DnnShapeCalculator@dnn@xnet@@QEAA@AEAVDnnWorkspace@12@AEAUOpStats@12@_N@Z
+  0x0102762e A ??0RciBlendStateDesc@rci@xnet@@QEAA@XZ
+  0x01027ad3 A ??0RciRasterizerStateDesc@rci@xnet@@QEAA@XZ
+  0x01028210 A ??0Status@xnet@@QEAA@$$QEAV01@@Z
+  0x01028231 A ??0Status@xnet@@QEAA@AEBUStatusCode@1@@Z
+  0x0102825a A ??0Status@xnet@@QEAA@AEBV01@@Z
+  0x01028279 A ??0Status@xnet@@QEAA@XZ
+  0x01029b1d A ??1Status@xnet@@QEAA@XZ
+  0x0102e294 A ??4OpStats@dnn@xnet@@QEAAAEAU012@$$QEAU012@@Z
+  0x0102e2c2 A ??4OpStats@dnn@xnet@@QEAAAEAU012@AEBU012@@Z
+  0x0102e354 A ??4RciBlendStateDesc@rci@xnet@@QEAAAEAU012@$$QEAU012@@Z
+  0x0102e38c A ??4RciBlendStateDesc@rci@xnet@@QEAAAEAU012@AEBU012@@Z
+  0x0102e539 A ??4RciRasterizerStateDesc@rci@xnet@@QEAAAEAU012@$$QEAU012@@Z
+  0x0102e576 A ??4RciRasterizerStateDesc@rci@xnet@@QEAAAEAU012@AEBU012@@Z
+  0x0102e900 A ??4Status@xnet@@QEAAAEAV01@$$QEAV01@@Z
+  0x0102e927 A ??4Status@xnet@@QEAAAEAV01@AEBV01@@Z
+  0x0102ea62 A ??7Status@xnet@@QEBA_NXZ
+  0x0102ec0f A ??8Status@xnet@@QEBA_NAEBV01@@Z
+  0x0102edb7 A ??9Status@xnet@@QEBA_NAEBV01@@Z
+  0x0102f01c A ??BStatus@xnet@@QEBA_NXZ
+  0x0102f0b4 A ??MStatus@xnet@@QEBA_NAEBV01@@Z
+  0x0102f284 A ??RStatus@xnet@@QEAAAEAV01@AEBUStatusCode@1@@Z
+  0x01030cad A ?Accum@OpStats@dnn@xnet@@QEAAX_JAEBU123@@Z
+  0x01030cd8 A ?AccumActivationStats@DnnShapeCalculator@dnn@xnet@@SAXAEAUOpStats@23@AEBUDnnOpActivationParams@23@AEBU?$DnnSizeLimitedArray@H$07@23@@Z
+  0x01030d5f A ?AccumElementWiseStats@DnnShapeCalculator@dnn@xnet@@SAXAEAUOpStats@23@AEBUDnnOpElementWiseParams@23@_J2@Z
+  0x01031f2c A ?AppendItem@Status@xnet@@IEAAPEAVStatusItem@2@AEBUStatusCode@2@@Z
+  0x010321d3 A ?ApplyRegexSplit@LlmTokenizer@llm@xnet@@IEBA?AVStatus@3@AEBV?$vector@ULlmStringSegment@llm@xnet@@V?$allocator@ULlmStringSegment@llm@xnet@@@std@@@std@@AEBV?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HU?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@@6@AEAV?$vector@HV?$allocator@H@std@@@6@V?$BasicStringView@D@3@_N4@Z
+  0x01032c7a A ?BeginTrackingResourceState@RciCommandBuffer@rci@xnet@@UEAAXAEBV?$ObjectRef@VRciShaderResource@rci@xnet@@@3@I@Z
+  0x01034ca2 A ?CalculateShape@DnnOperator@dnn@xnet@@QEBA_NAEAVDnnWorkspace@23@AEAUOpStats@23@_N@Z
+  0x01034cf6 A ?CalculateShape@OpDyConv2D@dnn@xnet@@UEBA_NAEBUDnnOperator@23@AEAVDnnWorkspace@23@AEAUOpStats@23@_N@Z
+  0x01034d5c A ?CalculateShape@OpModelExt@dnn@xnet@@UEBA_NAEBUDnnOperator@23@AEAVDnnWorkspace@23@AEAUOpStats@23@_N@Z
+  0x01034dc2 A ?CallStackTrace@Status@xnet@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+  0x010357aa A ?CheckAndProcessReshape@DnnCompilation@dnn@xnet@@AEBA_NHAEAVDnnWorkspace@23@AEAUOpStats@23@_N2@Z
+  0x0103638f A ?Code@Status@xnet@@QEBA?AUStatusCode@2@_K@Z
+  0x01036e1d A ?Create@DnnCompilation@dnn@xnet@@QEAA?AVStatus@3@AEBVDnnModel@23@AEBUDnnLayoutRequirements@23@AEBUDnnCompilationOptions@23@AEBVMtWorkspaceAllocator@3@@Z
+  0x01036eb6 A ?Create@DnnExecution@dnn@xnet@@QEAA?AVStatus@3@AEBVDnnCompilation@23@AEBUDnnExecutionOptions@23@AEBVMtWorkspaceAllocator@3@@Z
+  0x01036f34 A ?Create@DnnInferenceModel@dnn@xnet@@UEAA?AVStatus@3@AEBVDnnModel@23@AEBUDnnInferenceOptions@23@P6AXAEAV?$DnnDevice@$0A@@23@@ZP6A_N2AEAW4ETensorLayoutKind@3@4AEA_N@Z66@Z
+  0x01036fdd A ?Create@DnnInferenceSession@dnn@xnet@@QEAA?AVStatus@3@AEBVDnnInferenceModel@23@@Z
+  0x0103702f A ?Create@DnnInferenceWorkspace@dnn@xnet@@QEAA?AVStatus@3@_J@Z
+  0x0103800c A ?CreateFromFile@DnnInferenceModelBase@dnn@xnet@@QEAA?AVStatus@3@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUDnnInferenceOptions@23@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@@std@@@2@@6@P6AXAEAV?$DnnDevice@$0A@@23@@ZP6A_N3AEAW4ETensorLayoutKind@3@5AEA_N@Z77@Z
+  0x0103827e A ?CreateFromStream@DnnInferenceModelBase@dnn@xnet@@QEAA?AVStatus@3@AEAVSequentialInputStream@3@AEBUDnnInferenceOptions@23@P6AXAEAV?$DnnDevice@$0A@@23@@ZP6A_N2AEAW4ETensorLayoutKind@3@4AEA_N@Z66@Z
+  0x010385ce A ?CreatePipelineStateLibrary@RciComputeDevice@rci@xnet@@UEAA?AV?$ObjectRef@VRciPipelineStateLibrary@rci@xnet@@@3@XZ
+  0x0103948e A ?CreateStatisticQueryPool@RciComputeDevice@rci@xnet@@UEAA?AV?$ObjectRef@VRciStatisticQueryPool@rci@xnet@@@3@I@Z
+  0x0103a813 A ?Decode@LlmTokenizer@llm@xnet@@UEBA?AVStatus@3@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@HV?$allocator@H@std@@@6@_N@Z
+  0x0103aa5b A ?DefaultAccumBytes@DnnShapeCalculator@dnn@xnet@@SAXAEAUOpStats@23@AEBUDnnOperator@23@AEBV?$vector@UDnnReadWriteOperand@dnn@xnet@@V?$allocator@UDnnReadWriteOperand@dnn@xnet@@@std@@@std@@AEBV?$vector@UDnnReadOnlyOperand@dnn@xnet@@V?$allocator@UDnnReadOnlyOperand@dnn@xnet@@@std@@@7@@Z
+  0x0103ab76 A ?DefaultCreate@DnnCompilation@dnn@xnet@@AEAA?AVStatus@3@AEBVDnnModel@23@AEBUDnnLayoutRequirements@23@HAEAUIFnIsSupportOperator@23@@Z
+  0x0103af6c A ?Desc@Status@xnet@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_K@Z
+  0x0103b290 A ?DetectReshape@DnnWorkspace@dnn@xnet@@QEAA?AVStatus@3@_K@Z
+  0x0103b57c A ?DoEncode@LlmTokenizer@llm@xnet@@MEBA?AVStatus@3@AEAV?$vector@HV?$allocator@H@std@@@std@@V?$BasicStringView@D@3@@Z
+  0x0103b5ef A ?DoTokenize@LlmTokenizerBpe@llm@xnet@@UEBA?AVStatus@3@AEAV?$vector@HV?$allocator@H@std@@@std@@V?$BasicStringView@D@3@@Z
+  0x0103b667 A ?DoTokenize@LlmTokenizerWpm@llm@xnet@@UEBA?AVStatus@3@AEAV?$vector@HV?$allocator@H@std@@@std@@V?$BasicStringView@D@3@@Z
+  0x0103b8a9 A ?Encode@LlmTokenizer@llm@xnet@@UEBA?AVStatus@3@AEAV?$vector@HV?$allocator@H@std@@@std@@AEBV?$vector@ULlmMessage@llm@xnet@@V?$allocator@ULlmMessage@llm@xnet@@@std@@@6@V?$BasicStringView@D@3@_N@Z
+  0x0103b96b A ?Encode@LlmTokenizer@llm@xnet@@UEBA?AVStatus@3@AEAV?$vector@HV?$allocator@H@std@@@std@@V?$BasicStringView@D@3@@Z
+  0x0103ba6d A ?Encode@rci@xnet@@YA_KAEBURciStencilStateDesc@12@@Z
+  0x0103bd71 A ?EndTrackingResourceStates@RciCommandBuffer@rci@xnet@@UEAAX_N@Z
+  0x0103c11f A ?ExecuteAllKernels@DnnCompilation@dnn@xnet@@QEBA?AVStatus@3@AEAVDnnWorkspace@23@AEAVDnnExecuteHook@23@_N@Z
+  0x0103c18a A ?ExecuteKernel@DnnCompilation@dnn@xnet@@QEBA?AVStatus@3@HAEAVDnnWorkspace@23@_N@Z
+  0x0103c665 A ?Fail@Status@xnet@@SA?AV12@I@Z
+  0x0103d252 A ?FromShortHash@RciBlendStateDesc@rci@xnet@@QEAAXI@Z
+  0x0103d286 A ?FromShortHash@RciRasterizerStateDesc@rci@xnet@@QEAAXI@Z
+  0x0103d344 A ?FullDesc@Status@xnet@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+  0x0104106e A ?GetModelDesc@DnnInferenceModelBase@dnn@xnet@@QEBA?AVStatus@3@AEAUModelDesc@123@@Z
+  0x01044a71 A ?HostWait@RciFence@rci@xnet@@QEAA?AW4ERciFenceStatus@23@XZ
+  0x010450b1 A ?InitialState@RciShaderResource@rci@xnet@@QEBAIXZ
+  0x01045c50 A ?InitializeConstants@DnnExecution@dnn@xnet@@AEAA?AVStatus@3@AEBVDnnCompilation@23@@Z
+  0x010474fa A ?Item@Status@xnet@@QEAAPEAVStatusItem@2@_K@Z
+  0x01047527 A ?Item@Status@xnet@@QEBAPEBVStatusItem@2@_K@Z
+  0x010475ea A ?LastCode@Status@xnet@@QEBA?AUStatusCode@2@XZ
+  0x01047618 A ?LastDesc@Status@xnet@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+  0x01047676 A ?LastDescStream@Status@xnet@@IEAAPEAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+  0x010476e1 A ?LastItem@Status@xnet@@QEAAPEAVStatusItem@2@XZ
+  0x01047710 A ?LastItem@Status@xnet@@QEBAPEBVStatusItem@2@XZ
+  0x01047956 A ?Load@LlmHfTokenizerBpe@llm@xnet@@QEAA?AVStatus@3@$$QEAULlmHfTokenizerLoader@23@@Z
+  0x010479a9 A ?Load@LlmHfTokenizerBpe@llm@xnet@@UEAA?AVStatus@3@AEAVSequentialInputStream@3@@Z
+  0x010479fa A ?Load@LlmHfTokenizerBpe@llm@xnet@@UEAA?AVStatus@3@PEBD@Z
+  0x01047a33 A ?Load@LlmHfTokenizerWpm@llm@xnet@@QEAA?AVStatus@3@$$QEAULlmHfTokenizerLoader@23@@Z
+  0x01047a86 A ?Load@LlmHfTokenizerWpm@llm@xnet@@UEAA?AVStatus@3@AEAVSequentialInputStream@3@@Z
+  0x01047ad7 A ?Load@LlmHfTokenizerWpm@llm@xnet@@UEAA?AVStatus@3@PEBD@Z
+  0x01047b10 A ?Load@LlmTokenizer@llm@xnet@@UEAA?AVStatus@3@PEBD@Z
+  0x01047fe7 A ?LoadFromTxt@LlmHfTokenizerWpm@llm@xnet@@AEAA?AVStatus@3@AEAVSequentialInputStream@3@@Z
+  0x010497f7 A ?NumItems@Status@xnet@@QEBA_KXZ
+  0x010499b5 A ?Ok@Status@xnet@@SA?AV12@XZ
+  0x01049a52 A ?OnnxToXNet@@YA?AVStatus@xnet@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVDnnModel@dnn@2@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@HV?$allocator@H@std@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@HV?$allocator@H@std@@@2@@std@@@2@@4@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@4@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@2@@std@@@2@@4@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@@std@@@2@@4@AEBUOnnxToXNetOptions@@AEBV?$map@W4EOperatorKind@dnn@xnet@@UDnnPhyscLayout@23@U?$less@W4EOperatorKind@dnn@xnet@@@std@@V?$allocator@U?$pair@$$CBW4EOperatorKind@dnn@xnet@@UDnnPhyscLayout@23@@std@@@6@@4@@Z
+  0x0104ba3a A ?ProcessInputReshape@DnnExecution@dnn@xnet@@AEAA?AVStatus@3@_N@Z
+  0x0105084b A ?ReportCompileError@DnnKernelBase@dnn@xnet@@QEBAXPEBD@Z
+  0x01050883 A ?ReportExecuteError@DnnKernelBase@dnn@xnet@@QEBAXPEBD@Z
+  0x01050b94 A ?Reset@OpStats@dnn@xnet@@QEAAXXZ
+  0x01050c99 A ?ResetStatistics@RciComputeDevice@rci@xnet@@UEAAXXZ
+  0x01050ccd A ?ResetStatistics@RciRenderDevice@rci@xnet@@UEAAXXZ
+  0x01051160 A ?Run@DnnInferenceSession@dnn@xnet@@QEBA?AVStatus@3@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@@std@@@2@@std@@AEAV56@PEAVDnnInferenceWorkspace@23@_N3V?$function@$$A6A_NXZ@6@I@Z
+  0x0105346d A ?SetInitialState@RciShaderResource@rci@xnet@@QEAAXI@Z
+  0x01054837 A ?Start@DnnExecution@dnn@xnet@@QEAA?AVStatus@3@_NAEAVDnnExecuteHook@23@@Z
+  0x010548ba A ?Stats@DnnModel@dnn@xnet@@QEBAAEBUOpStats@23@XZ
+  0x010548ea A ?Stats@DnnOperator@dnn@xnet@@QEBAAEBUOpStats@23@XZ
+  0x010558cb A ?ToShortHash@RciBlendStateDesc@rci@xnet@@QEBAIXZ
+  0x010558fc A ?ToShortHash@RciRasterizerStateDesc@rci@xnet@@QEBAIXZ
+  0x01055d28 A ?Tune@DnnExecution@dnn@xnet@@QEAA?AVStatus@3@_N@Z
+  0x01055d95 A ?TuneAllKernels@DnnCompilation@dnn@xnet@@QEAA?AVStatus@3@AEAVDnnWorkspace@23@@Z
+  0x0105c538 A ?mMutex@DnnOperator@dnn@xnet@@0UStaticMutex@3@A
+  0x0105c76d A XLuaL_newstate
+  0x0105ca83 A XLua_newstate
+  0x0105cce5 A XLua_status
+  0x0107d7b0 A .?AV?$codecvt@DDU_Mbstatet@@@std@@
+  0x0107e388 A .?AVStatusItem@xnet@@
+  0x0107e3b0 A .?AVStatusData@xnet@@
+  0x010833a8 A .?AUStaticShapeCalculator@dnn_impl@dnn@xnet@@
+  0x01088858 A .?AVCvtOnnxFakeQuantizePerTensorStatic@@
+  0x010a6a00 A .?AV?$codecvt@_WDU_Mbstatet@@@std@@
+  0x010aa5d0 A .?AV?$codecvt@GDU_Mbstatet@@@std@@
+  0x00f4ccb0 U api-ms-win-core-xstate-l2-1-0
+  0x00f4cdf0 U ext-ms-win-ntuser-windowstation-l1-1-0
+  0x00f524c8 U united-states
+
+===== [SECURITY-SW] 1039 =====
+  0x000bbcab A <<tp<'
+  0x000c1c72 A *tPM;
+  0x00144844 A BertPreTI+
+  0x0016ab6d A tpIc
+  0x001c6c6d A tPHc
+  0x0027353a A tPH9t$(
+  0x00314f14 A tPwK;^
+  0x0037e246 A SoftplusH
+  0x0039dcb5 A SoftplusI
+  0x00400ac6 A tpI;
+  0x00433990 A tpH;
+  0x00ab3520 A tPxSL
+  0x00b4bf8e A tPH9
+  0x00b4cfd4 A \$8tP
+  0x00b94fcd A tpH91uk
+  0x00ba270c A witPL
+  0x00ba411d A wjtPH
+  0x00bb1ba6 A u<g~l<it[<ntP<ot,<pt
+  0x00bc60f7 A D$Tp
+  0x00c05160 A stack traceback:
+  0x00c057d8 A setpause
+  0x00c06098 A traceback
+  0x00c06530 A _IO_output
+  0x00c06818 A output
+  0x00c07f80 A invalid use of '%c' in replacement string
+  0x00c07fb0 A invalid replacement value (a %s)
+  0x00c08c00 A alnum:alpha:ascii:blank:cntrl:digit:graph:lower:print:punct:space:upper:word:xdigit:
+  0x00c0947c A internal error: overran compiling workspace
+  0x00c0951b A missing opening brace after \o
+  0x00c09562 A \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
+  0x00c096a9 A non-octal character in \o{} (closing brace missing?)
+  0x00c0973f A non-hex character in \x{} (closing brace missing?)
+  0x00c097a5 A \k is not followed by a braced, angle-bracketed, or quoted name
+  0x00c0a341 A invalid replacement string
+  0x00c0a38a A invalid data in workspace for DFA restart
+  0x00c0a48f A workspace size exceeded in DFA matching
+  0x00c0a636 A bad escape sequence in replacement string
+  0x00c0a660 A expected closing curly bracket in replacement string
+  0x00c0a695 A bad substitution in replacement string
+  0x00c0a702 A too many replacements (more than INT_MAX)
+  0x00c2825e A extpict
+  0x00c28803 A patternwhitespace
+  0x00c289c5 A space
+  0x00c28b53 A whitespace
+  0x00c28b5e A wspace
+  0x00c6b440 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XObjectRef.h
+  0x00c6b4c0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XLogging.h
+  0x00c6b920 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XAnimCurve.h
+  0x00c6b9d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XMath.h
+  0x00c6bef0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\RCI\XRciFenceRing.h
+  0x00c6c610 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XTensorShape.h
+  0x00c6ee80 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XParallel.cpp
+  0x00c6efc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XProfiling.cpp
+  0x00c70a10 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XStatus.cpp
+  0x00c71060 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XThreadPool.cpp
+  0x00c71110 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XSmartPointer.h
+  0x00c71418 A Stack trace:
+  0x00c714d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\XWorkspace.cpp
+  0x00c71600 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\BLAS\Device\CPU\BlasFuncsCpuGemm.inl
+  0x00cf2580 A Replace
+  0x00d146c0 A add_prefix_space
+  0x00d146f8 A BertPreTokenizer
+  0x00d14a00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\Utils\Darts\../../External/Darts/darts-clone/darts.h
+  0x00d15060 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnLayout.h
+  0x00d15170 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnWorkspace.h
+  0x00d15790 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnKernel.h
+  0x00d159a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnStorageMgr.h
+  0x00d15c20 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnOperand.h
+  0x00d15cc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnShapeMgr.h
+  0x00d15d40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\DnnKernelIntel.cpp
+  0x00d15ee0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/KerArgMaxMin.inl
+  0x00d16000 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/KerBinary.inl
+  0x00d16078 A (numInputs == 1 || numInputs == 2) && outputs.size() == 1
+  0x00d16180 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/KerPermute.inl
+  0x00d161f8 A op.inputs.size() == 1 && op.outputs.size() == 1
+  0x00d162a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/KerReduce.inl
+  0x00d16318 A inputs.size() == 1 && outputs.size() == 1
+  0x00d163c0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/KerUnary.inl
+  0x00d164b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/KerWhere.inl
+  0x00d16528 A inputs.size() == 3 && outputs.size() == 1
+  0x00d16600 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/General/NCScB/KerBinary.inl
+  0x00d166f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerActivation.inl
+  0x00d16810 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerElementWise.inl
+  0x00d16950 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerFakeQuant.inl
+  0x00d16a40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerFullCon.inl
+  0x00d16ba0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerLayerNorm.inl
+  0x00d16c20 A (inputs.size() == 1 || inputs.size() == 3) && outputs.size() == 1
+  0x00d16dc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerReLayout.inl
+  0x00d16eb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/KerSoftmax.inl
+  0x00d17040 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerActivation.inl
+  0x00d17100 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerConv1D.inl
+  0x00d17230 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerConv1DTrans.inl
+  0x00d17350 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerConv2DTrans.inl
+  0x00d17460 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerElementWise.inl
+  0x00d174e0 A output.IsFullyPacked()
+  0x00d17570 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerGlobalPooling.inl
+  0x00d17630 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerPooling1D.inl
+  0x00d176f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerPooling2D.inl
+  0x00d177b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerResize2D.inl
+  0x00d17830 A op.inputs.size() >= 1 && op.inputs.size() <= 2 && op.outputs.size() == 1
+  0x00d178e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Intel\X64/Kernels/FP32/NCScB/KerShuffleCh.inl
+  0x00d17990 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\UX64CNNPostOp.h
+  0x00d17b00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\../Intel/X64/Kernels/FP32/NCS/KerConv1D.inl
+  0x00d17bc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\../Intel/X64/Kernels/FP32/NCS/KerConv2D.inl
+  0x00d17c90 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerArgMaxMin.inl
+  0x00d17d10 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerBinary.inl
+  0x00d17d88 A (numInputs == 1 || numInputs == 2) && op.outputs.size() == 1
+  0x00d17e00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerCast.inl
+  0x00d17eb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerConcat.inl
+  0x00d17f28 A op.inputs.size() >= 1 && op.outputs.size() == 1
+  0x00d17f90 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerConst.inl
+  0x00d18008 A op.outputs.size() == 1
+  0x00d18060 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerConstOfShape.inl
+  0x00d180e0 A op.inputs.size() <= 1 && op.outputs.size() == 1
+  0x00d18150 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerCrop.inl
+  0x00d181c8 A op.inputs.size() == 2 && op.outputs.size() == 1
+  0x00d18230 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerCumSum.inl
+  0x00d182b0 A op.inputs.size() == expectedNumInputs && op.outputs.size() == 1
+  0x00d18330 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerExpand.inl
+  0x00d183b0 A (inputs.size() == 1 || inputs.size() == 2) && op.outputs.size() == 1
+  0x00d18430 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerFlatten.inl
+  0x00d184e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerGather.inl
+  0x00d185a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerGatherElements.inl
+  0x00d18660 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerIdentity.inl
+  0x00d18720 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerPad.inl
+  0x00d187a0 A (inputs.size() >= 1 && inputs.size() <= 3) && op.outputs.size() == 1
+  0x00d187f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerPermute.inl
+  0x00d188a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerRange.inl
+  0x00d18918 A op.inputs.size() == 3 && op.outputs.size() == 1
+  0x00d189b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerReLayout.inl
+  0x00d18a30 A inputs.size() == 1 && op.outputs.size() == 1
+  0x00d18a80 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerReduce.inl
+  0x00d18b30 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerReshape.inl
+  0x00d18be0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerScatterElements.inl
+  0x00d18d00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerScatterND.inl
+  0x00d18dc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerShape.inl
+  0x00d18e70 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerSlice.inl
+  0x00d18f20 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerSplit.inl
+  0x00d18ff0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerSqueeze.inl
+  0x00d190a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerTile.inl
+  0x00d19120 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerUnary.inl
+  0x00d191d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerUnsqueeze.inl
+  0x00d19250 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/KerWhere.inl
+  0x00d19300 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCS/KerCrop.inl
+  0x00d193c0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCS/KerDepthToSpace.inl
+  0x00d19480 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCS/KerShuffleCh.inl
+  0x00d19500 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCScB/KerBinary.inl
+  0x00d195c0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCScB/KerConcat.inl
+  0x00d19680 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCScB/KerCrop.inl
+  0x00d19740 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCScB/KerPad.inl
+  0x00d19800 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCScB/KerShuffleCh.inl
+  0x00d198c0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NCScB/KerSplit.inl
+  0x00d19980 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NSC/KerCrop.inl
+  0x00d19a40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NSC/KerDepthToSpace.inl
+  0x00d19b00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NSC/KerShuffleCh.inl
+  0x00d19bc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NSCcB/KerConcat.inl
+  0x00d19c80 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NSCcB/KerPad.inl
+  0x00d19d40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/General/NSCcB/KerSplit.inl
+  0x00d1a9e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerActivation.inl
+  0x00d1aa60 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerBias.inl
+  0x00d1aad0 A op.inputs.size() <= 2 && op.outputs.size() == 1
+  0x00d1ab20 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerDropout.inl
+  0x00d1aba0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerElementWise.inl
+  0x00d1ac18 A op.inputs.size() > 1 && op.outputs.size() == 1
+  0x00d1ac50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerFakeQuant.inl
+  0x00d1acd0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerFullCon.inl
+  0x00d1ad50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerGru.inl
+  0x00d1adc0 A op.inputs.size() >= 1 && op.outputs.size() >= 1
+  0x00d1adf0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerGemm.inl
+  0x00d1ae60 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerLayerNorm.inl
+  0x00d1aee0 A (inputs.size() == 1 || inputs.size() == 3) && op.outputs.size() == 1
+  0x00d1af30 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerLpNorm.inl
+  0x00d1afb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerLstm.inl
+  0x00d1b020 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerMatMul.inl
+  0x00d1b0a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerRnn.inl
+  0x00d1b110 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerScale.inl
+  0x00d1b190 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/KerSoftmax.inl
+  0x00d1b210 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerConv1D.inl
+  0x00d1b290 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerConv1DTrans.inl
+  0x00d1b310 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerConv2D.inl
+  0x00d1b390 A Compute part of channels with unmatched input and output shapes
+  0x00d1b3d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerConv2DTrans.inl
+  0x00d1b450 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerConv3D.inl
+  0x00d1b4d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerCropAndResize.inl
+  0x00d1b550 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerGlobalPooling.inl
+  0x00d1b5d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerGroupNorm.inl
+  0x00d1b650 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerInstNorm.inl
+  0x00d1b6d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerNormalize.inl
+  0x00d1b750 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerPooling1D.inl
+  0x00d1b7d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerPooling2D.inl
+  0x00d1b850 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCS/KerResize2D.inl
+  0x00d1b8d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerBias.inl
+  0x00d1b950 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerCropAndResize.inl
+  0x00d1b9d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerGroupNorm.inl
+  0x00d1ba50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerInstNorm.inl
+  0x00d1bad0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerLpNorm.inl
+  0x00d1bb50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerNormalize.inl
+  0x00d1bbd0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerPooling1D.inl
+  0x00d1bc50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NCScB/KerScale.inl
+  0x00d1bcd0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerConv1D.inl
+  0x00d1bd50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerConv1DTrans.inl
+  0x00d1bdd0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerConv2D.inl
+  0x00d1be90 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerConv2DTrans.inl
+  0x00d1bf10 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerConv3D.inl
+  0x00d1bf90 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerCropAndResize.inl
+  0x00d1c010 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerGlobalPooling.inl
+  0x00d1c090 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerGroupNorm.inl
+  0x00d1c110 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerInstNorm.inl
+  0x00d1c190 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerNormalize.inl
+  0x00d1c210 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerPooling1D.inl
+  0x00d1c290 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerPooling2D.inl
+  0x00d1c310 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Device\CPU\Reference\Kernels/FP/NSC/KerResize2D.inl
+  0x00d1c390 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\../XTensor.h
+  0x00d1c6f8 A  op #outputs != 1
+  0x00d1c720 A  op illegal input/output layout
+  0x00d1c760 A  op outputC % groups != 0
+  0x00d1c7e8 A  op illegal output layout
+  0x00d1c970 A SoftPlus
+  0x00d1c9b8 A Activation op #inputs != #outputs
+  0x00d1c9e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphOps\OpActivation.cpp
+  0x00d1cb58 A ArgMaxMin op #outputs != 1
+  0x00d1cc48 A BatchNorm op #outputs != 1
+  0x00d1cd48 A Bias op #outputs != 1
+  0x00d1cfd0 A Binary op #outputs != 1
+  0x00d1d0d0 A Cast op #outputs != 1
+  0x00d1d160 A Concat op #outputs != 1
+  0x00d1d240 A Const op #outputs != 1
+  0x00d1d308 A ConstOfShape op #outputs != 1
+  0x00d1d330 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphOps\OpConstOfShape.cpp
+  0x00d1d458 A Illegal parameter: Output channels should >= 1
+  0x00d1d548 A  op requires per-tensor quantization for input/output
+  0x00d1d680 A op outputC % groups != 0
+  0x00d1d738 A Crop op #outputs != 1
+  0x00d1d750 A Crop op illegal output layout
+  0x00d1d988 A Resize2D op #outputs != 1
+  0x00d1d9d8 A CropAndResize op illegal input/output layout
+  0x00d1daa8 A CropAndResize op illegal output layout
+  0x00d1db18 A CumSum op #outputs != 1
+  0x00d1dc30 A Illegal parameter: depthToSpaceKind MUST in [0, DepthToSpaceKindCount)
+  0x00d1dc80 A DepthToSpace
+  0x00d1dca0 A DepthToSpace op #inputs != 1
+  0x00d1dcc0 A DepthToSpace op #outputs != 1
+  0x00d1dce0 A DepthToSpace op illegal input/output layout
+  0x00d1dd10 A DepthToSpace op illegal depthToSpaceKind
+  0x00d1dd40 A DepthToSpace op illegal input layout
+  0x00d1dd68 A DepthToSpace op illegal depth
+  0x00d1dd88 A DepthToSpace op illegal output layout
+  0x00d1de40 A Dropout op #outputs != 1
+  0x00d1df90 A Eltwise op #outputs != 1
+  0x00d1e0b0 A Expand op #outputs != 1
+  0x00d1e0e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphOps\OpExpand.cpp
+  0x00d1e200 A FakeQuantize op #outputs != 1
+  0x00d1e340 A Flatten op #outputs != 1
+  0x00d1e380 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphOps\OpFlatten.cpp
+  0x00d1e3f8 A Flatten op empty output dim
+  0x00d1e478 A Illegal parameter: numOutputs should >= 1
+  0x00d1e4e0 A FullyConnected op #outputs != 1
+  0x00d1e550 A FullyConnected op requires per-tensor quantization for input/output
+  0x00d1e680 A Gather op #outputs != 1
+  0x00d1e698 A Gather op illegal output dimension
+  0x00d1e730 A GatherElements op #outputs != 1
+  0x00d1e7d8 A GatherND op #outputs != 1
+  0x00d1e850 A Gemm op #outputs != 1
+  0x00d1e940 A GlobalPooling op #outputs != 1
+  0x00d1e960 A GlobalPooling op illegal input/output layout
+  0x00d1ea30 A GlobalPooling op illegal output layout
+  0x00d1eb80 A GridSample op #outputs != 1
+  0x00d1eba0 A GridSample op illegal input/output layout
+  0x00d1ec48 A GridSample op illegal output layout
+  0x00d1ecc0 A GroupNorm op #outputs != 1
+  0x00d1edd0 A Gru op illegal #outputs
+  0x00d1ee30 A Identity op #inputs != 1 or #outputs != 1
+  0x00d1eec8 A InstanceNorm op #outputs != 1
+  0x00d1ef28 A InstanceNorm op illegal input/output layout
+  0x00d1efd0 A LayerNorm op #outputs != 1
+  0x00d1f0a8 A LpNorm op #outputs != 1
+  0x00d1f1c0 A Lrn op #outputs != 1
+  0x00d1f1d8 A Lrn op illegal input/output layout
+  0x00d1f2c0 A Lstm op illegal #outputs
+  0x00d1f3d8 A MatMul op #outputs != 1
+  0x00d1f470 A MoEMlp op #outputs != 
+  0x00d1f530 A Normalize op #outputs != 1
+  0x00d1f550 A Normalize op illegal input/output layout
+  0x00d1f6a8 A Pad op #outputs != 1
+  0x00d1f840 A Permute op #outputs != 1
+  0x00d1f860 A Permute op illegal output layout
+  0x00d1f958 A Pooling1D op #outputs != 1
+  0x00d1f978 A Pooling2D op illegal input/output layout
+  0x00d1f9d0 A Pooling1D op requires per-tensor quantization for input/output
+  0x00d1fa10 A Pooling1D op requires same scales/zeroPoints for input/output
+  0x00d1fae0 A Pooling1D op illegal output layout
+  0x00d1fb68 A Pooling2D op #outputs != 1
+  0x00d1fbb0 A Pooling2D op requires per-tensor quantization for input/output
+  0x00d1fbf0 A Pooling2D op requires same scales/zeroPoints for input/output
+  0x00d1fcc0 A Pooling2D op illegal output layout
+  0x00d1fd38 A Pooling3D op #outputs != 1
+  0x00d1fda0 A Range op #outputs != 1
+  0x00d1fe90 A ReLayout op #outputs != 1
+  0x00d1fef0 A ReLayout op illegal input/output layout
+  0x00d20020 A Reduce op #outputs != 1
+  0x00d20180 A Reshape op #outputs != 1
+  0x00d202f8 A Reshape op output count mismatch input
+  0x00d203b8 A Resize2D op illegal input/output layout
+  0x00d20490 A Resize2D op illegal output layout
+  0x00d20500 A RmsNorm op #outputs != 1
+  0x00d205c0 A Rnn op illegal #outputs
+  0x00d20650 A Scale op #outputs != 1
+  0x00d208e0 A ScatterElements op #outputs != 1
+  0x00d20978 A ScatterND op #outputs != 1
+  0x00d20a40 A Shape op #outputs != 1
+  0x00d20aa8 A ShuffleChannel op #outputs != 1
+  0x00d20cc0 A Slice op #outputs != 1
+  0x00d20dc0 A Softmax op #outputs != 1
+  0x00d20e28 A SpaceToDepth op #inputs != 1
+  0x00d20e48 A SpaceToDepth op #outputs != 1
+  0x00d20e68 A SpaceToDepth op illegal input/output layout
+  0x00d20e98 A SpaceToDepth op illegal input layout
+  0x00d20ec0 A SpaceToDepth op illegal height or width
+  0x00d20ee8 A SpaceToDepth op illegal output layout
+  0x00d20f60 A Split op #outputs < 1
+  0x00d21010 A Split op illegal #splitPoints
+  0x00d21030 A Split op illegal splitPoint
+  0x00d21070 A Split op illegal #outputs
+  0x00d210e0 A Squeeze op #outputs != 1
+  0x00d21100 A Squeeze op illegal output layout
+  0x00d211f8 A Tile op #outputs != 1
+  0x00d21230 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphOps\OpTile.cpp
+  0x00d21380 A Unary op #outputs != 1
+  0x00d21400 A Unsqueeze op #outputs != 1
+  0x00d21420 A Unsqueeze op illegal output layout
+  0x00d214b0 A Unsqueeze op illegal output dimension
+  0x00d21540 A Where op #outputs != 1
+  0x00d22ad0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphTrans\GtBinary2Eltwise.cpp
+  0x00d22d70 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphTrans\GtInsertReLayout.cpp
+  0x00d23380 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Reference\../../XParallel.h
+  0x00d23a80 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\GraphOps/OpActivation.h
+  0x00d24020 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\Reference\Impl/General/NCScB/ShuffleChannel.inl
+  0x00d24778 A Failed to replace any float data kinds in round #1
+  0x00d24a80 A No layout requirement for input/output
+  0x00d24eb0 A _Output_
+  0x00d24ec1 A     Dump: output[
+  0x00d251d0 A Illegal output operand index for operator: 
+  0x00d252c0 A is directly used as an output
+  0x00d25314 A Output
+  0x00d25440 A TopK op illegal #outputs
+  0x00d25740 A PriorBox op #outputs != 1
+  0x00d25790 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\CustomOps/GraphOps/SSD/OpPriorBox.inl
+  0x00d258e0 A Bucketize op #outputs != 1
+  0x00d25978 A OneHot op #outputs != 1
+  0x00d25a40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\CustomOps/Kernels/CPU/SSD/FP32/NCHW/KerPriorBox.inl
+  0x00d25af0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\CustomOps/Kernels/CPU/SSD/FP32/NCHWcB/KerPriorBox.inl
+  0x00d25ba0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\CustomOps/Kernels/CPU/SSD/FP32/NHWC/KerPriorBox.inl
+  0x00d25cd0 A Output tensor not found for no memory plan: 
+  0x00d26000 A XNetDump_Output_
+  0x00d26070 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnInference.cpp
+  0x00d266b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnDevice.h
+  0x00d26748 A idx < mOutputs.size()
+  0x00d26b10 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnKernel.cpp
+  0x00d26df0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnLayout.cpp
+  0x00d26fd0 A Illegal parameter: Number of model outputs should >= 1
+  0x00d27008 A Illegal parameter: Model has too many outputs
+  0x00d27090 A Illegal parameter: Number of model output PhyscLayouts MUST BE 0 or 1 or #outputs
+  0x00d27218 A Illegal parameter: Output index out of range
+  0x00d27250 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnModel.cpp
+  0x00d27470 A outputs
+  0x00d27758 A splitPoints
+  0x00d27c50 A  (Output[
+  0x00d27d70 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnOperator.h
+  0x00d28660 A Illegal parameter: Number of operator outputs should >= 1
+  0x00d286a0 A Illegal parameter: Operator has too many outputs
+  0x00d28928 A SpaceToDepth
+  0x00d28a90 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnOperator.cpp
+  0x00d28b78 A outputs.size() >= 1
+  0x00d28c20 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnPlanner.cpp
+  0x00d28c98 A dstPoolReqs.size() == numDstPools
+  0x00d28eb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnShapeMgr.cpp
+  0x00d28f30 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DNN\XDnnUtilities.cpp
+  0x00d29250 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\RCI\../XObjectRef.h
+  0x00d296f8 A texDisplacement
+  0x00d29860 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\RCI\XRciVertexLayout.h
+  0x00d2d600 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\RCI\TexLoader\../../XSmartPointer.h
+  0x00d2fe98 A namespace
+  0x00d30c20 A LBrace
+  0x00d30c58 A RBrace
+  0x00d310f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\Utils\Python\NumPy\UNumPyFileIO.cpp
+  0x00d32790 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\Reference\UDipRefWarp.cpp
+  0x00d32870 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet/XParallel.h
+  0x00d32c70 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\SSE4.1\UDipSseCvtRGB2YUV.cpp
+  0x00d32fe0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\SSE4.1\UDipSseCvtYUV2RGB.cpp
+  0x00d33740 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\UDipImage.cpp
+  0x00d33820 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\UDipWarp.cpp
+  0x00d338e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\X64\UDipImportX64PP.cpp
+  0x00d339a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\DIP\X64\UDipX64CvtYUV.cpp
+  0x00d34000 A 7])#######hV0qs'/###[),##/l:$#Q6>##5[n42>c-TH`->>#/e>11NNV=Bv(*:.F?uu#(gRU.o0XGH`$vhLG1hxt9?W`#,5LsCp#-i>.r$<$6pD>Lb';9Crc6tgXmKVeU2cD4Eo3R/2*>]b(MC;$jPfY.;h^`IWM9<Lh2TlS+f-s$o6Q<BWH`YiU.xfLq$N;$0iR/GX:U(jcW2p/W*q?-qmnUCI;jHSAiFWM.R*kU@C=GH?a9wp8f$e.-4^Qg1)Q-GL(lf(r/7GrRgwV%MS=C#`8ND>Qo#t'X#(v#Y9w0#1D$CIf;W'#pWUPXOuxXuU(H9M(1<q-UE31#^-V'8IRUo7Qf./L>=Ke$$'5F%)]0^#0X@U.a<r:QLtFsLcL6##lOj)#.Y5<-R&KgLwqJfLgN&;Q?gI^#DY2uLi@^rMl9t=cWq6##weg>$FBjVQTSDgEKnIS7EM9>ZY9w0#L;>>#Mx&4Mvt//L[MkA#W@lK.N'[0#7RL_&#w+F%HtG9M#XL`N&.,GM4Pg;-<nLENhvx>-VsM.M0rJfLH2eTM`*oJMHRC`NkfimM2J,W-jXS:)r0wK#@Fge$U>`w'N7G#$#fB#$E^$#:9:hk+eOe--6x)F7*E%?76%^GMHePW-Z5l'&GiF#$956:rS?dA#fiK:)Yr+`&#0j@'DbG&#^$PG.Ll+DNa<XCMKEV*N)LN/N*b=%Q6pia-Xg8I$<MR&,VdJe$<(7G;Ckl'&hF;;$<_=X(b.RS%%)###MPBuuE1V:v&cX&#2m#(&cV]`k9OhLMbn%s$G2,B$BfD3X*sp5#l,$R#]x_X1xKX%b5U*[r5iMfUo9U`N99hG)tm+/Us9pG)XPu`<0s-)WTt(gCRxIg(%6sfh=ktMKn3j)<6<b5Sk_/0(^]AaN#(p/L>&VZ>1i%h1S9u5o@YaaW$e+b<TWFn/Z:Oh(Cx2$lNEoN^e)#CFY@@I;BOQ*sRwZtZxRcU7uW6CXow0i(?$Q[cjOd[P4d)]>ROPOpxTO7Stwi1::iB1q)C_=dV26J;2,]7op$]uQr@_V7$q^%lQwtuHY]=DX,n3L#0PHDO4f9>dC@O>HBuKPpP*E,N+b3L#lpR/MrTEH.IAQk.a>D[.e;mc.x]Ip.PH^'/aqUO/$1WxLoW0[iLA<QT;5HKD+@qQ'NQ(3_PLhE48R.qAPSwQ0/WK?Z,[x?-J;jQTWA0X@KJ(_Y8N-:/M74:/-ZpKrUss?d#dZq]DAbkU*JqkL+nwX@@47`5>w=4h(9.`GCRUxHPeR`5Mjol(dUWxZa(>STrPkrJiWx`5U7F#.g*jrohGg`cg:lSTvEY/EV_7H4Q9[Z%cnv;JQYZ5q.l7Zeas:HOIZOB?G<Nald$qs]@]L<J7bR*>gv:[7MI2k).'2($5FNP&EQ(,)U]W]+fh18.vsai00);D3@4ku5P?DP8aJt+;qUM]=+b'8@;mViBKx0DE[-auGl8:PJ&Dj+M6OC]O^((##]`0i)drT;-7X`=-H3[igUnPG-NZlo.#k@h#=Ork$m>a>$-?Tm$UV(?#P6YY#'/###xe7q.73rI3*pP/$1>s9)W,JrM7SN]'/4C#v$U`0#V.[0>xQsH$fEmPMgY2u7Kh(G%siIfLSoS+MK2eTM$=5,M8p`A.;_R%#u[K#$x4AG8.kK/HSB==-'Ie/QTtG?-.*^N-4B/ZM_3YlQC7(p7q)&](`6_c)$/*JL(L-^(]$wIM`dPtOdGA,U3:w2M-0<q-]L_?^)1vw'.,MRsqVr.L;aN&#/EgJ)PBc[-f>+WomX2u7lqM2iEumMTcsF?-aT=Z-97UEnXglEn1K-bnEO`guFt(c%=;Am_Qs@jLooI&NX;]0#j4#F14;gl8-GQpgwhrq8'=l_f-b49'UOqkLu7-##oDY2L(te+Mch&gLYtJ,MEtJfLh'x'M=$CS-ZZ%P]8bZ>#S?YY#%Q&q'3^Fw&?D)UDNrocM3A76//oL?#h7gl85[qW/NDOk%16ij;+:1a'iNIdb-ou8.P*w,v5#EI$TWS>Pot-R*H'-SEpA:g)f+O$%%`kA#G=8RMmG1&O`>to8bC]T&$,n.LoO>29sp3dt-52U%VM#q7'DHpg+#Z9%H[K<L%a2E-grWVM3@2=-k22tL]4$##6We'8UJCKE[d_=%wI;'6X-GsLX4j^SgJ$##R*w,vP3wK#iiW&#*h^D&R?jp7+/u&#(AP##XU8c$fSYW-J95_-Dp[g9wcO&#M-h1OcJlc-*vpw0xUX&#OQFKNX@QI'IoPp7nb,QU//MQ&ZDkKP)X<WSVL(68uVl&#c'[0#(s1X&xm$Y%B7*K:eDA323j998GXbA#pwMs-jgD$9QISB-A_(aN4xoFM^@C58D0+Q+q3n0#3U1InDjF682-SjMXJK)(h$hxua_K]ul92%'BOU&#BRRh-slg8KDlr:%L71Ka:.A;%YULjDPmL<LYs8i#XwJOYaKPKc1h:'9Ke,g)b),78=I39B;xiY$bgGw-&.Zi9InXDuYa%G*f2Bq7mn9^#p1vv%#(Wi-;/Z5ho;#2:;%d&#x9v68C5g?ntX0X)pT`;%pB3q7mgGN)3%(P8nTd5L7GeA-GL@+%J3u2:(Yf>et`e;)f#Km8&+DC$I46>#Kr]]u-[=99tts1.qb#q72g1WJO81q+eN'03'eM>&1XxY-caEnOj%2n8)),?ILR5^.Ibn<-X-Mq7[a82Lq:F&#ce+S9wsCK*x`569E8ew'He]h:sI[2LM$[guka3ZRd6:t%IG:;$%YiJ:Nq=?eAw;/:nnDq0(CYcMpG)qLN4$##&J<j$UpK<Q4a1]MupW^-sj_$%[HK%'F####QRZJ::Y3EGl4'@%FkiAOg#p[##O`gukTfBHagL<LHw%q&OV0##F=6/:chIm0@eCP8X]:kFI%hl8hgO@RcBhS-@Qb$%+m=hPDLg*%K8ln(wcf3/'DW-$.lR?n[nCH-eXOONTJlh:.RYF%3'p6sq:UIMA945&^HFS87@$EP2iG<-lCO$%c`uKGD3rC$x0BL8aFn--`ke%#HMP'vh1/R&O_J9'um,.<tx[@%wsJk&bUT2`0uMv7gg#qp/ij.L56'hl;.s5CUrxjOM7-##.l+Au'A&O:-T72L]P`&=;ctp'XScX*rU.>-XTt,%OVU4)S1+R-#dg0/Nn?Ku1^0f$B*P:Rowwm-`0PKjYDDM'3]d39VZHEl4,.j']Pk-M.h^&:0FACm$maq-&sgw0t7/6(^xtk%LuH88Fj-ekm>GA#_>568x6(OFRl-IZp`&b,_P'$M<Jnq79VsJW/mWS*PUiq76;]/NM_>hLbxfc$mj`,O;&%W2m`Zh:/)Uetw:aJ%]K9h:TcF]u_-Sj9,VK3M.*'&0D[Ca]J9gp8,kAW]%(?A%R$f<->Zts'^kn=-^@c4%-pY6qI%J%1IGxfLU9CP8cbPlXv);C=b),<2mOvP8up,UVf3839acAWAW-W?#ao/^#%KYo8fRULNd2.>%m]UK:n%r$'sw]J;5pAoO_#2mO3n,'=H5(etHg*`+RLgv>=4U8guD$I%D:W>-r5V*%j*W:Kvej.Lp$<M-SGZ':+Q_k+uvOSLiEo(<aD/K<CCc`'Lx>'?;++O'>()jLR-^u68PHm8ZFWe+ej8h:9r6L*0//c&iH&R8pRbA#Kjm%upV1g:a_#Ur7FuA#(tRh#.Y5K+@?3<-8m0$PEn;J:rh6?I6uG<-`wMU'ircp0LaE_OtlMb&1#6T.#FDKu#1Lw%u%+GM+X'e?YLfjM[VO0MbuFp7;>Q&#WIo)0@F%q7c#4XAXN-U&VB<HFF*qL($/V,;(kXZejWO`<[5??ewY(*9=%wDc;,u<'9t3W-(H1th3+G]ucQ]kLs7df($/*JL]@*t7Bu_G3_7mp7<iaQjO@.kLg;x3B0lqp7Hf,^Ze7-##@/c58Mo(3;knp0%)A7?-W+eI'o8)b<nKnw'Ho8C=Y>pqB>0ie&jhZ[?iLR@@_AvA-iQC(=ksRZRVp7`.=+NpBC%rh&3]R:8XDmE5^V8O(x<<aG/1N$#FX$0V5Y6x'aErI3I$7x%E`v<-BY,)%-?Psf*l?%C3.mM(=/M0:JxG'?7WhH%o'a<-80g0NBxoO(GH<dM]n.+%q@jH?f.UsJ2Ggs&4<-e47&Kl+f//9@`b+?.TeN_&B8Ss?v;^Trk;f#YvJkl&w$]>-+k?'(<S:68tq*WoDfZu';mM?8X[ma8W%*`-=;D.(nc7/;)g:T1=^J$&BRV(-lTmNB6xqB[@0*o.erM*<SWF]u2=st-*(6v>^](H.aREZSi,#1:[IXaZFOm<-ui#qUq2$##Ri;u75OK#(RtaW-K-F`S+cF]uN`-KMQ%rP/Xri.LRcB##=YL3BgM/3MD?@f&1'BW-)Ju<L25gl8uhVm1hL$##*8###'A3/LkKW+(^rWX?5W_8g)a(m&K8P>#bmmWCMkk&#TR`C,5d>g)F;t,4:@_l8G/5h4vUd%&%950:VXD'QdWoY-F$BtUwmfe$YqL'8(PWX(P?^@Po3$##`MSs?DWBZ/S>+4%>fX,VWv/w'KD`LP5IbH;rTV>n3cEK8U#bX]l-/V+^lj3;vlMb&[5YQ8#pekX9JP3XUC72L,,?+Ni&co7ApnO*5NK,((W-i:$,kp'UDAO(G0Sq7MVjJsbIu)'Z,*[>br5fX^:FPAWr-m2KgL<LUN098kTF&#lvo58=/vjDo;.;)Ka*hLR#/k=rKbxuV`>Q_nN6'8uTG&#1T5g)uLv:873UpTLgH+#FgpH'_o1780Ph8KmxQJ8#H72L4@768@Tm&Qh4CB/5OvmA&,Q&QbUoi$a_%3M01H)4x7I^&KQVgtFnV+;[Pc>[m4k//,]1?#`VY[Jr*3&&slRfLiVZJ:]?=K3Sw=[$=uRB?3xk48@aeg<Z'<$#4H)6,>e0jT6'N#(q%.O=?2S]u*(m<-V8J'(1)G][68hW$5'q[GC&5j`TE?m'esFGNRM)j,ffZ?-qx8;->g4t*:CIP/[Qap7/9'#(1sao7w-.qNUdkJ)tCF&#B^;xGvn2r9FEPFFFcL@.iFNkTve$m%#QvQS8U@)2Z+3K:AKM5isZ88+dKQ)W6>J%CL<KE>`.d*(B`-n8D9oK<Up]c$X$(,)M8Zt7/[rdkqTgl-0cuGMv'?>-XV1q['-5k'cAZ69e;D_?$ZPP&s^+7])$*$#@QYi9,5P&#9r+$%CE=68>K8r0=dSC%%(@p7.m7jilQ02'0-VWAg<a/''3u.=4L$Y)6k/K:_[3=&jvL<L0C/2'v:^;-DIBW,B4E68:kZ;%?8(Q8BH=kO65BW?xSG&#@uU,DS*,?.+(o(#1vCS8#CHF>TlGW'b)Tq7VT9q^*^$$.:&N@@$&)WHtPm*5_rO0&e%K&#-30j(E4#'Zb.o/(Tpm$>K'f@[PvFl,hfINTNU6u'0pao7%XUp9]5.>%h`8_=VYbxuel.NTSsJfLacFu3B'lQSu/m6-Oqem8T+oE--$0a/k]uj9EwsG>%veR*hv^BFpQj:K'#SJ,sB-'#](j.Lg92rTw-*n%@/;39rrJF,l#qV%OrtBeC6/,;qB3ebNW[?,Hqj2L.1NP&GjUR=1D8QaS3Up&@*9wP?+lo7b?@%'k4`p0Z$22%K3+iCZj?XJN4Nm&+YF]u@-W$U%VEQ/,,>>#)D<h#`)h0:<Q6909ua+&VU%n2:cG3FJ-%@Bj-DgLr`Hw&HAKjKjseK</xKT*)B,N9X3]krc12t'pgTV(Lv-tL[xg_%=M_q7a^x?7Ubd>#%8cY#YZ?=,`Wdxu/ae&#w6)R89tI#6@s'(6Bf7a&?S=^ZI_kS&ai`&=tE72L_D,;^R)7[$s<Eh#c&)q.MXI%#v9ROa5FZO%sF7q7Nwb&#ptUJ:aqJe$Sl68%.D###EC><?-aF&#RNQv>o8lKN%5/$(vdfq7+ebA#u1p]ovUKW&Y%q]'>$1@-[xfn$7ZTp7mM,G,Ko7a&Gu%G[RMxJs[0MM%wci.LFDK)(<c`Q8N)jEIF*+?P2a8g%)$q]o2aH8C&<SibC/q,(e:v;-b#6[$NtDZ84Je2KNvB#$P5?tQ3nt(0d=j.LQf./Ll33+(;q3L-w=8dX$#WF&uIJ@-bfI>%:_i2B5CsR8&9Z&#=mPEnm0f`<&c)QL5uJ#%u%lJj+D-r;BoF&#4DoS97h5g)E#o:&S4weDF,9^Hoe`h*L+_a*NrLW-1pG_&2UdB86e%B/:=>)N4xeW.*wft-;$'58-ESqr<b?UI(_%@[P46>#U`'6AQ]m&6/`Z>#S?YY#Vc;r7U2&326d=w&H####?TZ`*4?&.MK?LP8Vxg>$[QXc%QJv92.(Db*B)gb*BM9dM*hJMAo*c&#b0v=Pjer]$gG&JXDf->'StvU7505l9$AFvgYRI^&<^b68?j#q9QX4SM'RO#&sL1IM.rJfLUAj221]d##DW=m83u5;'bYx,*Sl0hL(W;;$doB&O/TQ:(Z^xBdLjL<Lni;''X.`$#8+1GD:k$YUWsbn8ogh6rxZ2Z9]%nd+>V#*8U_72Lh+2Q8Cj0i:6hp&$C/:p(HK>T8Y[gHQ4`4)'$Ab(Nof%V'8hL&#<NEdtg(n'=S1A(Q1/I&4([%dM`,Iu'1:_hL>SfD07&6D<fp8dHM7/g+tlPN9J*rKaPct&?'uBCem^jn%9_K)<,C5K3s=5g&GmJb*[SYq7K;TRLGCsM-$$;S%:Y@r7AK0pprpL<Lrh,q7e/%KWK:50I^+m'vi`3?%Zp+<-d+$L-Sv:@.o19n$s0&39;kn;S%BSq*$3WoJSCLweV[aZ'MQIjO<7;X-X;&+dMLvu#^UsGEC9WEc[X(wI7#2.(F0jV*eZf<-Qv3J-c+J5AlrB#$p(H68LvEA'q3n0#m,[`*8Ft)FcYgEud]CWfm68,(aLA$@EFTgLXoBq/UPlp7:d[/;r_ix=:TF`S5H-b<LI&HY(K=h#)]Lk$K14lVfm:x$H<3^Ql<M`$OhapBnkup'D#L$Pb_`N*g]2e;X/Dtg,bsj&K#2[-:iYr'_wgH)NUIR8a1n#S?Yej'h8^58UbZd+^FKD*T@;6A7aQC[K8d-(v6GI$x:T<&'Gp5Uf>@M.*J:;$-rv29'M]8qMv-tLp,'886iaC=Hb*YJoKJ,(j%K=H`K.v9HggqBIiZu'QvBT.#=)0ukruV&.)3=(^1`o*Pj4<-<aN((^7('#Z0wK#5GX@7u][`*S^43933A4rl][`*O4CgLEl]v$1Q3AeF37dbXk,.)vj#x'd`;qgbQR%FW,2(?LO=s%Sc68%NP'##Aotl8x=BE#j1UD([3$M(]UI2LX3RpKN@;/#f'f/&_mt&F)XdF<9t4)Qa.*kTLwQ'(TTB9.xH'>#MJ+gLq9-##@HuZPN0]u:h7.T..G:;$/Usj(T7`Q8tT72LnYl<-qx8;-HV7Q-&Xdx%1a,hC=0u+HlsV>nuIQL-5<N?)NBS)QN*_I,?&)2'IM%L3I)X((e/dl2&8'<M:^#M*Q+[T.Xri.LYS3v%fF`68h;b-X[/En'CR.q7E)p'/kle2HM,u;^%OKC-N+Ll%F9CF<Nf'^#t2L,;27W:0O@6##U6W7:$rJfLWHj$#)woqBefIZ.PK<b*t7ed;p*_m;4ExK#h@&]>_>@kXQtMacfD.m-VAb8;IReM3$wf0''hra*so568'Ip&vRs849'MRYSp%:t:h5qSgwpEr$B>Q,;s(C#$)`svQuF$##-D,##,g68@2[T;.XSdN9Qe)rpt._K-#5wF)sP'##p#C0c%-Gb%hd+<-j'Ai*x&&HMkT]C'OSl##5RG[JXaHN;d'uA#x._U;.`PU@(Z3dt4r152@:v,'R.Sj'w#0<-;kPI)FfJ&#AYJ&#//)>-k=m=*XnK$>=)72L]0I%>.G690a:$##<,);?;72#?x9+d;^V'9;jY@;)br#q^YQpx:X#Te$Z^'=-=bGhLf:D6&bNwZ9-ZD#n^9HhLMr5G;']d&6'wYmTFmL<LD)F^%[tC'8;+9E#C$g%#5Y>q9wI>P(9mI[>kC-ekLC/R&CH+s'B;K-M6$EB%is00:+A4[7xks.LrNk0&E)wILYF@2L'0Nb$+pv<(2.768/FrY&h$^3i&@+G%JT'<-,v`3;_)I9M^AE]CN?Cl2AZg+%4iTpT3<n-&%H%b<FDj2M<hH=&Eh<2Len$b*aTX=-8QxN)k11IM1c^j%9s<L<NFSo)B?+<-(GxsF,^-Eh@$4dXhN$+#rxK8'je'D7k`e;)2pYwPA'_p9&@^18ml1^[@g4t*[JOa*[=Qp7(qJ_oOL^('7fB&Hq-:sf,sNj8xq^>$U4O]GKx'm9)b@p7YsvK3w^YR-CdQ*:Ir<($u&)#(&?L9Rg3H)4fiEp^iI9O8KnTj,]H?D*r7'M;PwZ9K0E^k&-cpI;.p/6_vwoFMV<->#%Xi.LxVnrU(4&8/P+:hLSKj$#U%]49t'I:rgMi'FL@a:0Y-uA[39',(vbma*hU%<-SRF`Tt:542R_VV$p@[p8DV[A,?1839FWdF<TddF<9Ah-6&9tWoDlh]&1SpGMq>Ti1O*H&#(AL8[_P%.M>v^-))qOT*F5Cq0`Ye%+$B6i:7@0IX<N+T+0MlMBPQ*Vj>SsD<U4JHY8kD2)2fU/M#$e.)T4,_=8hLim[&);?UkK'-x?'(:siIfL<$pFM`i<?%W(mGDHM%>iWP,##P`%/L<eXi:@Z9C.7o=@(pXdAO/NLQ8lPl+HPOQa8wD8=^GlPa8TKI1CjhsCTSLJM'/Wl>-S(qw%sf/@%#B6;/U7K]uZbi^Oc^2n<bhPmUkMw>%t<)'mEVE''n`WnJra$^TKvX5B>;_aSEK',(hwa0:i4G?.Bci.(X[?b*($,=-n<.Q%`(X=?+@Am*Js0&=3bh8K]mL<LoNs'6,'85`0?t/'_U59@]ddF<#LdF<eWdF<OuN/45rY<-L@&#+fm>69=Lb,OcZV/);TTm8VI;?%OtJ<(b4mq7M6:u?KRdF<gR@2L=FNU-<b[(9c/ML3m;Z[$oF3g)GAWqpARc=<ROu7cL5l;-[A]%/+fsd;l#SafT/f*W]0=O'$(Tb<[)*@e775R-:Yob%g*>l*:xP?Yb.5)%w_I?7uk5JC+FS(m#i'k.'a0i)9<7b'fs'59hq$*5Uhv##pi^8+hIEBF`nvo`;'l0.^S1<-wUK2/Coh58KKhLjM=SO*rfO`+qC`W-On.=AJ56>>i2@2LH6A:&5q`?9I3@@'04&p2/LVa*T-4<-i3;M9UvZd+N7>b*eIwg:CC)c<>nO&#<IGe;__.thjZl<%w(Wk2xmp4Q@I#I9,DF]u7-P=.-_:YJ]aS@V?6*C()dOp7:WL,b&3Rg/.cmM9&r^>$(>.Z-I&J(Q0Hd5Q%7Co-b`-c<N(6r@ip+AurK<m86QIth*#v;-OBqi+L7wDE-Ir8K['m+DDSLwK&/.?-V%U_%3:qKNu$_b*B-kp7NaD'QdWQPKYq[@>P)hI;*_F]u`Rb[.j8_Q/<&>uu+VsH$sM9TA%?)(vmJ80),P7E>)tjD%2L=-t#fK[%`v=Q8<FfNkgg^oIbah*#8/Qt$F&:K*-(N/'+1vMB,u()-a.VUU*#[e%gAAO(S>WlA2);Sa>gXm8YB`1d@K#n]76-a$U,mF<fX]idqd)<3,]J7JmW4`6]uks=4-72L(jEk+:bJ0M^q-8Dm_Z?0olP1C9Sa&H[d&c$ooQUj]Exd*3ZM@-WGW2%s',B-_M%>%Ul:#/'xoFM9QX-$.QN'>[%$Z$uF6pA6Ki2O5:8w*vP1<-1`[G,)-m#>0`P&#eb#.3i)rtB61(o'$?X3B</R90;eZ]%Ncq;-Tl]#F>2Qft^ae_5tKL9MUe9b*sLEQ95C&`=G?@Mj=wh*'3E>=-<)Gt*Iw)'QG:`@IwOf7&]1i'S01B+Ev/Nac#9S;=;YQpg_6U`*kVY39xK,[/6Aj7:'1Bm-_1EYfa1+o&o4hp7KN_Q(OlIo@S%;jVdn0'1<Vc52=u`3^o-n1'g4v58Hj&6_t7$##?M)c<$bgQ_'SY((-xkA#Y(,p'H9rIVY-b,'%bCPF7.J<Up^,(dU1VY*5#WkTU>h19w,WQhLI)3S#f$2(eb,jr*b;3Vw]*7NH%$c4Vs,eD9>XW8?N]o+(*pgC%/72LV-u<Hp,3@e^9UB1J+ak9-TN/mhKPg+AJYd$MlvAF_jCK*.O-^(63adMT->W%iewS8W6m2rtCpo'RS1R84=@paTKt)>=%&1[)*vp'u+x,VrwN;&]kuO9JDbg=pO$J*.jVe;u'm0dr9l,<*wMK*Oe=g8lV_KEBFkO'oU]^=[-792#ok,)i]lR8qQ2oA8wcRCZ^7w/Njh;?.stX?Q1>S1q4Bn$)K1<-rGdO'$Wr.Lc.CG)$/*JL4tNR/,SVO3,aUw'DJN:)Ss;wGn9A32ijw%FL+Z0Fn.U9;reSq)bmI32U==5ALuG&#Vf1398/pVo1*c-(aY168o<`JsSbk-,1N;$>0:OUas(3:8Z972LSfF8eb=c-;>SPw7.6hn3m`9^Xkn(r.qS[0;T%&Qc=+STRxX'q1BNk3&*eu2;&8q$&x>Q#Q7^Tf+6<(d%ZVmj2bDi%.3L2n+4W'$PiDDG)g,r%+?,$@?uou5tSe2aN_AQU*<h`e-GI7)?OK2A.d7_c)?wQ5AS@DL3r#7fSkgl6-++D:'A,uq7SvlB$pcpH'q3n0#_%dY#xCpr-l<F0NR@-##FEV6NTF6##$l84N1w?AO>'IAOURQ##V^Fv-XFbGM7Fl(N<3DhLGF%q.1rC$#:T__&Pi68%0xi_&[qFJ(77j_&JWoF.V735&T,[R*:xFR*K5>>#`bW-?4Ne_&6Ne_&6Ne_&n`kr-#GJcM6X;uM6X;uM(.a..^2TkL%oR(#;u.T%fAr%4tJ8&><1=GHZ_+m9/#H1F^R#SC#*N=BA9(D?v[UiFY>>^8p,KKF.W]L29uLkLlu/+4T<XoIB&hx=T1PcDaB&;HH+-AFr?(m9HZV)FKS8JCw;SD=6[^/DZUL`EUDf]GGlG&>w$)F./^n3+rlo+DB;5sIYGNk+i1t-69Jg--0pao7Sm#K)pdHW&;LuDNH@H>#/X-TI(;P>#,Gc>#0Su>#4`1?#8lC?#<xU?#@.i?#D:%@#HF7@#LRI@#P_[@#Tkn@#Xw*A#]-=A#a9OA#d<F&#*;G##.GY##2Sl##6`($#:l:$#>xL$#B.`$#F:r$#JF.%#NR@%#R_R%#Vke%#Zww%#_-4&#3^Rh%Sflr-k'MS.o?.5/sWel/wpEM0%3'/1)K^f1-d>G21&v(35>V`39V7A4=onx4A1OY5EI0;6Ibgr6M$HS7Q<)58C5w,;WoA*#[%T*#`1g*#d=#+#hI5+#lUG+#pbY+#tnl+#x$),#&1;,#*=M,#.I`,#2Ur,#6b.-#;w[H#iQtA#m^0B#qjBB#uvTB##-hB#'9$C#+E6C#/QHC#3^ZC#7jmC#;v)D#?,<D#C8ND#GDaD#KPsD#O]/E#g1A5#KA*1#gC17#MGd;#8(02#L-d3#rWM4#Hga1#,<w0#T.j<#O#'2#CYN1#qa^:#_4m3#o@/=#eG8=#t8J5#`+78#4uI-#m3B2#SB[8#Q0@8#i[*9#iOn8#1Nm;#^sN9#qh<9#:=x-#P;K2#$%X9#bC+.#Rg;<#mN=.#MTF.#RZO.#2?)4#Y#(/#[)1/#b;L/#dAU/#0Sv;#lY$0#n`-0#sf60#(F24#wrH0#%/e0#TmD<#%JSMFove:CTBEXI:<eh2g)B,3h2^G3i;#d3jD>)4kMYD4lVu`4m`:&5niUA5@(A5BA1]PBB:xlBCC=2CDLXMCEUtiCf&0g2'tN?PGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CPGT4CP-qekC`.9kEg^+F$kwViFJTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5KTB&5o,^<-28ZI'O?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xpO?;xp;7q-#lLYI:xvD=#
+  0x00db398f A P@PAPDPEPPPQPTPUP
+  0x00db39cf A T@TATDTETPTQTTTUT
+  0x00db54f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\sentencepiece\src\model_interface.h
+  0x00ea10d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\sentencepiece\src\filesystem.cc
+  0x00ea1180 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\sentencepiece\src\model_factory.cc
+  0x00ea1380 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\sentencepiece\src\normalizer.cc
+  0x00ea1750 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\sentencepiece\src\sentencepiece_processor.cc
+  0x00ea19a0 A output container is null
+  0x00ea1af8 A output proto is null
+  0x00ea2130 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\External\sentencepiece\src\unigram_model.cc
+  0x00ea33f0 A : Number of output tensors MUST == 1
+  0x00ea3e08 A output_padding
+  0x00ea3e18 A : Only support 1D output padding
+  0x00ea3e40 A : Output padding should be less than stride and dilation
+  0x00ea3e80 A     outputPaddingW = 
+  0x00ea3e98 A output_shape
+  0x00ea3ea8 A : Only support 1D output shape
+  0x00ea3ec8 A     outputShapeW = 
+  0x00ea3ee0 A : Output shape must be positive
+  0x00ea3fd0 A : Only support 2D output padding
+  0x00ea3ff8 A     outputPaddingH = 
+  0x00ea4010 A : Only support 2D output shape
+  0x00ea4030 A     outputShapeH = 
+  0x00ea40e0 A : Only support 3D output padding
+  0x00ea4108 A     outputPaddingD = 
+  0x00ea4120 A : Only support 3D output shape
+  0x00ea4140 A     outputShapeD = 
+  0x00ea49d8 A : Number of output tensors MUST <= 2
+  0x00ea4db8 A : Number of output tensors MUST <= 3
+  0x00ea5510 A : Unsupport outputHW, size MUST equal 4
+  0x00ea5638 A     outputH     = 
+  0x00ea5650 A     outputW     = 
+  0x00ea59a0 A _output
+  0x00ea59a8 A _splitPoint
+  0x00ea5c80 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\Tools\OnnxToXNet\OnnxAttribute.cpp
+  0x00ea7900 A : Number of output tensors MUST == 2
+  0x00ea7c18 A Output tensor: 
+  0x00ea7c98 A Original model output operands: 
+  0x00ea86b8 A Model output operands:
+  0x00ea86d0 A     output[
+  0x00ea87a0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet/DNN/XDnnDevice.h
+  0x00ea8990 A [ONNX] Illegal number of outputs for Constant operator
+  0x00ea89c8 A Constant output: 
+  0x00ea8e48 A [ONNX] Illegal input or output size with input size: 
+  0x00ea8e80 A  and output size: 
+  0x00ea8f28 A [ONNX] Illegal number of inputs/outputs for Identity
+  0x00ea8f60 A [ONNX] Illegal number of outputs for Identity
+  0x00ea8f90 A [ONNX] Illegal number of outputs for Dropout
+  0x00ea9f30 A FuseSpaceToDepth
+  0x00eaaaa8 A lines_adjacency
+  0x00eaaac8 A triangles_adjacency
+  0x00eab0f0 A faceforward
+  0x00eabaa8 A interface
+  0x00eac390 A cubeFaceIndexAMD
+  0x00eac3a8 A cubeFaceCoordAMD
+  0x00eae930 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\Platform\Intel\UIntelHwInfo.cpp
+  0x00eae9d0 A Failed to call GetProcessAffinityMask
+  0x00eaf300 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\Platform\Intel\../../XParallel.h
+  0x00eaf370 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64JIT\UX64JITCallingConvention.inc
+  0x00eaf450 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\../X64JIT/UX64JITCodeGenerator.inc
+  0x00eaf4e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\../X64JIT/UX64JITTranspose.inc
+  0x00eaf6b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/GEMMPackingAJITKernel.inl
+  0x00eaf9e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/PrepackABGEMMMt.inl
+  0x00eafb50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/GEMMMt.inl
+  0x00eafc50 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/GEMMPackingBJITKernel.inl
+  0x00eafdb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/GEMMJITKernel.inl
+  0x00eafef0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/GEMMNpaJITKernel.inl
+  0x00eaffd0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/GEMVJITKernel.inl
+  0x00eb00b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/SumMatrixJITKernel.inl
+  0x00eb05b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\../X64CNN/Impl/ActivationJIT.inl
+  0x00eb08d0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\../X64JIT/UX64JITMath.inc
+  0x00eb0da0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\UX64BLASPrepackBGEMM.cpp
+  0x00eb0e40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/PrepackBGEMMQbi8.inl
+  0x00eb0f30 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/PrepackBGEMMQbi4.inl
+  0x00eb12f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/Transpose.inl
+  0x00eb1388 A ldc % alignment == 0 || !outputAlign
+  0x00eb1430 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64BLAS\Impl/TransposeJITKernel.inl
+  0x00eb1630 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\../X64JIT/UX64JITCodeGenerator.inc
+  0x00eb16b0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\UX64CNNActivation.cpp
+  0x00eb1760 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Activation.inl
+  0x00eb1880 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/Activation.inl
+  0x00eb1910 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/ActivationKernel.inl
+  0x00eb1a00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/ActivationJITKernel.inl
+  0x00eb1b60 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\../X64JIT/UX64JITMath.inc
+  0x00eb1d20 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/ArgMaxMinJITKernel.inl
+  0x00eb1f70 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64JIT\UX64JITISAFeature.inc
+  0x00eb2480 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/BinaryJITKernel.inl
+  0x00eb2e00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\ImplRef/BinaryKernel.inl
+  0x00eb9940 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\UX64CNNConv.cpp
+  0x00eb99f0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DWinograd_Conv1x1.inl
+  0x00eb9ab0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DWinograd_GEMM.inl
+  0x00eb9b60 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/ConvDirect.inl
+  0x00eb9c00 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/ConvDw.inl
+  0x00eb9db0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/PostOp.inl
+  0x00eb9e10 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/PostOpJITKernel.inl
+  0x00eb9f40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/ConvDwJITKernel.inl
+  0x00eb9fb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/ConvDirectJITKernel.inl
+  0x00eba0e0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DWinogradTransJITKernel_GEMM.inl
+  0x00eba210 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DWinogradTransJITKernel_Conv1x1.inl
+  0x00eba990 A weightSIMDRegCount + biasSIMDRegCount + outputSIMDRegCount + actSIMDRegCount <= totalSIMDRegCount
+  0x00ebad30 A simdReg_tmps.size() >= simdReg_outputs.size() + Max(static_cast<xMInt>(simdReg_weights.size() + simdReg_inputs.size()), ImplX64CNNActivationJIT<DType, isaKind>::kRequiredTempSimdRegCount)
+  0x00ebbc30 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\UX64CNNConv2DTrans.cpp
+  0x00ebbcc0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DTransDirect_IsDriven.inl
+  0x00ebbdb0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DTransDirect_OsDriven.inl
+  0x00ebbea0 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DTransDepthWise_IsDriven.inl
+  0x00ebbf40 A E:\data\landun\workspace\win_md-273\CompileXNetScript\XNet\XNet\PP\X64PP\X64CNN\Impl/NCScB/Conv2DTransDepthWise_OsDriven.inl

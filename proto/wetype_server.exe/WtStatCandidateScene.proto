@@ -1,0 +1,11 @@
+// file: WtStatCandidateScene.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatCandidateScene {
+  candidate_scene_invalid = 0;
+  candidate_scene_search = 1;
+  candidate_scene_send = 2;
+  candidate_scene_finish = 3;
+  candidate_scene_goto = 4;
+  candidate_scene_previous = 5;
+  candidate_scene_next = 6;
+}

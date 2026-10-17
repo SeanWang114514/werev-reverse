@@ -1,0 +1,18 @@
+// file: WtStatCloudCandidateActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtKeyboardType.proto']
+package com.tencent.wrbus.pb;
+message WtStatCloudCandidateActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string engine_version = 2;
+  optional string dict_infos = 3;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 4;
+  optional string action = 5;
+  optional string candidate_type = 6;
+  optional int64 candidate_length = 7;
+  optional int64 candidate_index = 8;
+  optional int64 duration = 9;
+  optional int64 syllable_length = 10;
+  optional string request_id = 11;
+  optional int64 gap_duration = 12;
+  optional int64 cloud_service_version = 13;
+  optional int64 cloud_source = 14;
+}

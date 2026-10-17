@@ -1,0 +1,46 @@
+
+===== [ANTI-DEBUG] 0 =====
+
+===== [ANTI-VM] 1 =====
+  0x0000d75e A WP.vBSrI7
+
+===== [CRYPTO] 5 =====
+  0x000275ce A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10
+  0x00027659 A 2DigiCert SHA256 RSA4096 Timestamp Responder 2026 10
+  0x00027976 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x000279da A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x000288e7 A 8DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+
+===== [KEYS] 0 =====
+
+===== [PROTO/PORT] 1 =====
+  0x00026dba A 60402
+
+===== [IPC] 0 =====
+
+===== [TSF/TIP] 0 =====
+
+===== [HOOK/INJECT] 0 =====
+
+===== [TELEMETRY] 0 =====
+
+===== [SECURITY-SW] 19 =====
+  0x000020a3 A gH5R>?/utP
+  0x000041ee A E|,TP
+  0x000205fb A 3OtpiM@
+  0x000228ca A tp{BHG
+  0x00026677 A http://ocsp.digicert.com0A
+  0x0002669c A 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  0x000266e4 A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  0x00026dd6 A http://www.digicert.com/CPS0
+  0x00026e2b A Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+  0x00026e80 A Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+  0x00026eef A http://ocsp.digicert.com0\
+  0x00026f14 A Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  0x00027951 A http://ocsp.digicert.com0]
+  0x00027976 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x000279da A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x000280ae A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  0x000286dd A http://ocsp.digicert.com0C
+  0x00028702 A 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  0x0002874c A 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0

@@ -1,0 +1,227 @@
+### google::protobuf  (48)
+    ?$RepeatedPtrFieldWrapper@VMessage
+    Any
+    DescriptorDatabase
+    DescriptorProto
+    DescriptorProto_ExtensionRange
+    DescriptorProto_ReservedRange
+    DynamicMessage
+    DynamicMessageFactory
+    EncodedDescriptorDatabase
+    Enum
+    EnumDescriptorProto
+    EnumDescriptorProto_EnumReservedRange
+    EnumOptions
+    EnumValue
+    EnumValueDescriptorProto
+    EnumValueOptions
+    ExtensionRangeOptions
+    ExtensionRangeOptions_Declaration
+    FeatureSet
+    FeatureSetDefaults
+    FeatureSetDefaults_FeatureSetEditionDefault
+    Field
+    FieldDescriptorProto
+    FieldOptions
+    FieldOptions_EditionDefault
+    FileDescriptorProto
+    FileDescriptorSet
+    FileOptions
+    GeneratedCodeInfo
+    GeneratedCodeInfo_Annotation
+    Message
+    MessageFactory
+    MessageLite
+    MessageOptions
+    MethodDescriptorProto
+    MethodOptions
+    OneofDescriptorProto
+    OneofOptions
+    Option
+    ServiceDescriptorProto
+    ServiceOptions
+    SourceCodeInfo
+    SourceCodeInfo_Location
+    SourceContext
+    Type
+    UninterpretedOption
+    UninterpretedOption_NamePart
+    ZeroCopyCodedInputStream
+### std  (46)
+    ?$RepeatedPtrFieldWrapper@V?$basic_string@DU?$char_traits@D
+    ?$TypedBadConversion@V?$basic_string@DU?$char_traits@D
+    ?$_Func_base@V?$basic_string@DU?$char_traits@D
+    ?$_Func_base@XPEA_W
+    ?$_Func_base@_NV?$basic_string_view@DU?$char_traits@D
+    ?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D
+    ?$_Func_impl_no_alloc@P6A_NV?$basic_string_view@DU?$char_traits@D
+    ?$_Iosb@H
+    ?$bad_expected_access@K
+    ?$bad_expected_access@X
+    ?$basic_filebuf@DU?$char_traits@D
+    ?$basic_ifstream@DU?$char_traits@D
+    ?$basic_ios@DU?$char_traits@D
+    ?$basic_iostream@DU?$char_traits@D
+    ?$basic_istream@DU?$char_traits@D
+    ?$basic_ostream@DU?$char_traits@D
+    ?$basic_ostringstream@DU?$char_traits@D
+    ?$basic_streambuf@DU?$char_traits@D
+    ?$basic_stringbuf@DU?$char_traits@D
+    ?$basic_stringstream@DU?$char_traits@D
+    ?$ctype@D
+    ?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$numpunct@D
+    _Crt_new_delete
+    _Facet_base
+    _Generic_error_category
+    _Iostream_error_category2
+    _Ref_count_base
+    _System_error
+    _System_error_category
+    bad_alloc
+    bad_array_new_length
+    bad_cast
+    bad_exception
+    bad_function_call
+    codecvt_base
+    ctype_base
+    error_category
+    exception
+    ios_base
+    length_error
+    logic_error
+    out_of_range
+    runtime_error
+    system_error
+### google::protobuf::internal  (19)
+    ?$RepeatedFieldPrimitiveAccessor@H
+    ?$RepeatedFieldPrimitiveAccessor@I
+    ?$RepeatedFieldPrimitiveAccessor@M
+    ?$RepeatedFieldPrimitiveAccessor@N
+    ?$RepeatedFieldPrimitiveAccessor@_J
+    ?$RepeatedFieldPrimitiveAccessor@_K
+    ?$RepeatedFieldPrimitiveAccessor@_N
+    ?$RepeatedFieldWrapper@H
+    ?$RepeatedFieldWrapper@I
+    ?$RepeatedFieldWrapper@M
+    ?$RepeatedFieldWrapper@N
+    ?$RepeatedFieldWrapper@_J
+    ?$RepeatedFieldWrapper@_K
+    ?$RepeatedFieldWrapper@_N
+    MapFieldAccessor
+    RandomAccessRepeatedFieldAccessor
+    RepeatedFieldAccessor
+    RepeatedPtrFieldMessageAccessor
+    RepeatedPtrFieldStringAccessor
+### YAML  (11)
+    BadConversion
+    BadFile
+    BadPushback
+    BadSubscript
+    DeepRecursion
+    EventHandler
+    Exception
+    InvalidNode
+    NodeBuilder
+    ParserException
+    RepresentationException
+### absl::lts_20240116::time_internal::cctz  (5)
+    ?$_Func_base@V?$unique_ptr@VZoneInfoSource
+    TimeZoneIf
+    TimeZoneInfo
+    TimeZoneLibC
+    ZoneInfoSource
+### YAML::detail  (5)
+    ?$_Ref_count@Vmemory
+    ?$_Ref_count@Vmemory_holder
+    ?$_Ref_count@Vnode
+    ?$_Ref_count@Vnode_data
+    ?$_Ref_count@Vnode_ref
+### google::protobuf::io  (5)
+    ArrayInputStream
+    ErrorCollector
+    StringOutputStream
+    ZeroCopyInputStream
+    ZeroCopyOutputStream
+### absl::lts_20240116::time_internal::cctz::?A0x61d84241  (3)
+    AndroidZoneInfoSource
+    FileZoneInfoSource
+    FuchsiaZoneInfoSource
+### google::protobuf::TextFormat  (3)
+    BaseTextGenerator
+    FastFieldValuePrinter
+    Finder
+### absl::lts_20240116::flags_internal  (3)
+    FlagImpl
+    FlagState
+    FlagStateInterface
+### wetype::service  (3)
+    PatcherLauncher
+    ProcessLauncher
+    TaskBase
+### (global)  (2)
+    ?$codecvt@DDU_Mbstatet
+    type_info
+### absl::lts_20240116  (2)
+    CommandLineFlag
+    LogSink
+### absl::lts_20240116::cord_internal  (2)
+    CordzHandle
+    CordzInfo
+### google::protobuf::TextFormat::Printer  (2)
+    DebugStringFieldValuePrinter
+    TextGenerator
+### absl::lts_20240116::log_internal::?A0xe4e47d81  (2)
+    StderrLogSink
+    WindowsDebuggerLogSink
+### std::locale  (2)
+    _Locimp
+    facet
+### mars_boost::system::?A0xce3c0836  (2)
+    generic_error_category
+    system_error_category
+### wetype::?1???0ProgramDataDirectoryCache  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?A0x59448990::?1???0SystemDirectoryCache  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### absl::lts_20240116::time_internal::cctz::TimeZoneInfo::?1??Load  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### std::filesystem  (1)
+    ?$_Ref_count_obj2@U_Dir_enum_impl
+### wil::details::_E$1?CloseHandle  (1)
+    ?$_Ref_count_obj2@V?$unique_any_t@V?$event_t@V?$unique_storage@U?$resource_policy@PEAXP6AXPEAX
+### Z$1?CloseHandle  (1)
+    ?$_Ref_count_obj2@V?$unique_any_t@V?$unique_storage@U?$handle_null_resource_policy@P6AHPEAX
+### wistd::__function::Z  (1)
+    ?$__base@$$A6AJPEA_W_KPEA_K
+### std::?1???$K32GetModuleFileNameExW@V?$basic_string@_WU?$char_traits@_W  (1)
+    ?$__func@V<lambda_1>
+### google::protobuf::?A0x9d51359c  (1)
+    AggregateErrorCollector
+### google::protobuf::DescriptorBuilder::OptionInterpreter  (1)
+    AggregateOptionFinder
+### wetype::?A0x12fb5183  (1)
+    ClockImpl
+### wetype  (1)
+    ClockInterface
+### pb  (1)
+    CppFeatures
+### google::protobuf::?A0x33412b2f  (1)
+    GeneratedMessageFactory
+### google::protobuf::internal::TailCallTableInfo  (1)
+    OptionProvider
+### absl::lts_20240116::log_internal::LogMessage  (1)
+    OstreamView
+### google::protobuf::TextFormat::Parser::ParserImpl  (1)
+    ParserErrorCollector
+### google::protobuf::Reflection::?1??CreateTcParseTable  (1)
+    ReflectionOptionProvider
+### wil  (1)
+    ResultException
+### mars_boost::system  (1)
+    error_category
+### std::ios_base  (1)
+    failure
+### mars_boost::noncopyable_  (1)
+    noncopyable

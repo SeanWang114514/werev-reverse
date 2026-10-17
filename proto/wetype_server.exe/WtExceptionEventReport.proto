@@ -1,0 +1,15 @@
+// file: WtExceptionEventReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtExceptionSubtype.proto', 'WtExceptionType.proto']
+package com.tencent.wrbus.pb;
+message WtExceptionEventReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtExceptionType> type = 2;
+  optional int64 intExtra = 3;
+  optional int64 memory = 4;
+  optional int64 process_duration = 5;
+  optional string machine = 6;
+  optional string stringExtra = 7;
+  optional enum<.com.tencent.wrbus.pb.WtExceptionSubtype> subtype = 8;
+  optional string extraInfo = 9;
+  optional string osVersion = 10;
+  optional int64 intExtra2 = 11;
+}

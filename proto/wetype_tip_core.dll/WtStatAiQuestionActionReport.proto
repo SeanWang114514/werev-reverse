@@ -1,0 +1,30 @@
+// file: WtStatAiQuestionActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtKeyboardType.proto', 'WtAiQuestionAction.proto', 'WtStatCandidateScene.proto']
+package com.tencent.wrbus.pb;
+message WtStatAiQuestionActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 2;
+  optional enum<.com.tencent.wrbus.pb.WtAiQuestionAction> action = 3;
+  optional string request_id = 4;
+  optional string send_id = 5;
+  optional string bundle_id = 6;
+  optional enum<.com.tencent.wrbus.pb.WtStatCandidateScene> app_scene = 7;
+  optional int64 is_chat = 8;
+  optional int64 panel_status = 9;
+  optional int64 question_type = 10;
+  optional int64 content_type = 11;
+  optional int64 page_stay_duration = 12;
+  optional int64 panel_stay_duration = 13;
+  optional int64 page_content_load = 14;
+  optional string question_content = 15;
+  optional string answer_content = 16;
+  optional string item_name = 17;
+  optional int64 item_index = 18;
+  optional int64 length = 19;
+  optional int64 screen_status = 20;
+  optional string answer_type = 21;
+  optional string a_b_params = 22;
+  optional string action_source = 23;
+  optional string sent_type = 24;
+  optional string bubble_type = 25;
+  optional int64 answer_load_duration = 26;
+}

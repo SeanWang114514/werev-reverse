@@ -1,0 +1,21 @@
+// file: WtVmodeAction.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtVmodeAction {
+  vmode_action_panel_exposure = 0;
+  vmode_action_click_result = 1;
+  vmode_action_exposure_open_clipboard = 2;
+  vmode_action_click_open_clipboard = 3;
+  vmode_action_click_add_to_common_terms = 4;
+  vmode_action_click_delete = 5;
+  vmode_action_click_trash = 6;
+  vmode_action_click_clear_clipboard = 7;
+  vmode_action_exposure_add_to_common_terms = 8;
+  vmode_action_click_setting = 9;
+  vmode_action_change_mode = 10;
+  vmode_action_exit_v_mode = 11;
+  vmode_action_click_add_common_terms = 12;
+  vmode_action_symbol_entrance_click = 13;
+  vmode_action_symbol_tab_click = 14;
+  vmode_action_exit_symbol_panel = 15;
+  vmode_action_symbol_result_click = 16;
+}

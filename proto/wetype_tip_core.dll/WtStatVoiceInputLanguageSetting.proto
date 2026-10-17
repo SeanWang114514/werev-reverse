@@ -1,0 +1,31 @@
+// file: WtStatVoiceInputLanguageSetting.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatVoiceInputLanguageSetting {
+  voice_language_invalid = 0;
+  voice_language_mandarin = 1;
+  voice_language_cantonese = 2;
+  voice_language_english = 3;
+  voice_language_sichuan_dialect = 4;
+  voice_language_shanghainese = 5;
+  voice_language_henan = 6;
+  voice_language_hebei = 7;
+  voice_language_guizhou = 8;
+  voice_language_anhui = 9;
+  voice_language_shan3xi = 10;
+  voice_language_shandong = 11;
+  voice_language_zhejiang = 12;
+  voice_language_hubei = 13;
+  voice_language_hunan = 14;
+  voice_language_yunan = 15;
+  voice_language_shan1xi = 16;
+  voice_language_nanjing = 17;
+  voice_language_jiangxi = 18;
+  voice_language_minnan = 19;
+  voice_language_suzhou = 20;
+  voice_language_guangxi = 21;
+  voice_language_qinghai = 22;
+  voice_language_gansu = 23;
+  voice_language_ningxia = 24;
+  voice_language_kejia = 25;
+  voice_language_mandarin_dialects = 26;
+}

@@ -1,0 +1,28 @@
+// file: WtAppPcInstallSource.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtAppPcInstallSource {
+  wt_pc_install_source_invalid = 0;
+  wt_pc_install_source_macwx = 1;
+  wt_pc_install_source_winwx = 2;
+  wt_pc_install_source_website = 3;
+  wt_pc_install_source_macwxauto = 4;
+  wt_pc_install_source_macwx_install_guide = 5;
+  wt_pc_install_source_winwx_install_guide = 6;
+  wt_pc_install_source_ios_wx_install_guide = 7;
+  wt_pc_install_source_and_wx_install_guide = 8;
+  wt_pc_install_source_mobile_wt_install_guide = 9;
+  wt_pc_install_source_ios_wt_install_guide = 10;
+  wt_pc_install_source_and_wt_install_guide = 11;
+  wt_pc_install_source_win_wx_work_longtext = 12;
+  wt_pc_install_source_mac_wx_work_longtext = 13;
+  wt_pc_install_source_winwx_install_guide_new = 14;
+  wt_pc_install_source_ios_wt_install_guide_greenpoint = 15;
+  wt_pc_install_source_and_wt_install_guide_greenpoint = 16;
+  wt_pc_install_source_win_tx_pc_manager = 17;
+  wt_pc_install_source_huawei_appstore = 18;
+  wt_pc_install_source_microsoft_appstore = 19;
+  wt_pc_install_source_lenovo_appstore = 20;
+  wt_pc_install_source_tx_app_downloader = 21;
+  wt_pc_install_source_winwx_work_install_guide = 22;
+  wt_pc_install_source_macwx_work_install_guide = 23;
+}

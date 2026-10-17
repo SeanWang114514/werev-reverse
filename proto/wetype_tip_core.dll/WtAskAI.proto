@@ -1,0 +1,52 @@
+// file: WtAskAI.proto  package: wetype.pb.askai  syntax: proto3  deps: -
+package wetype.pb.askai;
+message BaseReq {
+  optional uint64 id = 1;
+  optional uint64 uin = 2;
+  optional int32 cmd = 3;
+  optional message<.wetype.pb.askai.Header> header = 4;
+  optional bytes body = 5;
+}
+message HeaderItem {
+  optional string key = 1;
+  optional string val = 2;
+}
+message Header {
+  repeated message<.wetype.pb.askai.HeaderItem> header = 1;
+}
+message BaseRsp {
+  optional uint64 id = 1;
+  optional uint64 uin = 2;
+  optional int32 cmd = 3;
+  optional int32 code = 4;
+  optional message<.wetype.pb.askai.Header> header = 5;
+  optional bytes body = 6;
+}
+message CmdReq {
+  optional enum<.wetype.pb.askai.CmdId> cmd_id = 1;
+  optional bytes data = 2;
+}
+message CmdResp {
+  optional uint32 err_code = 1;
+  optional string err_msg = 2;
+  optional bytes data = 3;
+}
+message CmdStartPageReq {
+  optional string res_key = 1;
+  optional bool is_used = 2;
+}
+message CmdStartPageResp {
+  optional string res_key = 1;
+  optional bool is_changed = 2;
+  optional string html = 3;
+}
+message CmdMultiTurnReq {
+}
+message CmdMultiTurnResp {
+  optional string html = 1;
+}
+enum CmdId {
+  CmdTypeUnknown = 0;
+  CmdTypeStartPage = 1;
+  CmdTypeMultiTurn = 2;
+}

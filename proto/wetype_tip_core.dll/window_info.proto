@@ -1,0 +1,5 @@
+// file: window_info.proto  package: mozc.ipc  syntax: proto2  deps: -
+package mozc.ipc;
+message WindowInfo {
+  optional uint32 process_id = 1;
+}

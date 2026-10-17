@@ -1,0 +1,84 @@
+// file: renderer_command.proto  package: wetype.commands  syntax: proto2  deps: ['commands.proto']
+package wetype.commands;
+message RendererCommand {
+  optional enum<.wetype.commands.RendererCommand.CommandType> type = 1;
+  optional message<.wetype.commands.KeyEvent> key = 2;
+  optional message<.wetype.commands.RespBodyV1.Detail> output = 3;
+  optional message<.wetype.commands.RendererCommand.ApplicationInfo> application_info = 4;
+  optional bool visible = 6;
+  optional message<.wetype.commands.RendererCommand.Point> menu_bar_pos = 7;
+  optional bool need_update = 8;
+  optional message<.wetype.commands.RendererCommand.LogData> log_data = 9;
+  optional message<.wetype.commands.RendererCommand.InputStatus> input_status = 10;
+  optional int32 index = 11;
+  optional int64 font_size = 12;
+  optional message<.wetype.commands.RendererCommand.Point> status_pos = 13;
+  optional bool uiless_visible = 14;
+  optional int32 select_candidate_index = 15;
+  optional bool is_show_more_candidate = 16;
+  optional message<.wetype.commands.ReportInfo> report = 17;
+  optional enum<.wetype.commands.EngineCandidateMode> engine_candidate_mode = 18;
+  optional enum<.wetype.commands.CandidateQuitEventType> quit_event_type = 19;
+  optional bool config_hide_status_bar = 20;
+  optional bool move_pending_valid = 21;
+  optional enum<.wetype.commands.UpdateQuitEventType> update_quit_event_type = 22;
+  message Rectangle {
+    optional int32 left = 1;
+    optional int32 top = 2;
+    optional int32 right = 3;
+    optional int32 bottom = 4;
+  }
+  message Point {
+    optional int32 x = 1;
+    optional int32 y = 2;
+  }
+  message LogData {
+    optional string data = 1;
+  }
+  message InputStatus {
+    optional int32 status_info = 1;
+    optional int32 operate_type = 2;
+  }
+  message ApplicationInfo {
+    optional uint32 process_id = 1;
+    optional uint32 thread_id = 2;
+    optional uint32 receiver_handle = 3;
+    optional uint32 target_window_handle = 4;
+    optional message<.wetype.commands.RendererCommand.Point> current_position = 5;
+    optional message<.wetype.commands.RendererCommand.Rectangle> target_rect = 6;
+    optional bool handle_valid = 7;
+  }
+  enum CommandType {
+    NOOP = 0;
+    UPDATE = 1;
+    SENDKEY = 2;
+    SHUTDOWN = 3;
+    CHANGEPOS = 4;
+    SELECT_CUR_CANDIDATE = 5;
+    SELECT_NEXT_LINE = 6;
+    SELECT_PREV_LINE = 7;
+    SHOW_FAST_MENU = 8;
+    SET_UPDATE_STATUS = 9;
+    Log = 10;
+    HIDE_FAST_MENU = 11;
+    DTOR_INPUT_STATUS = 12;
+    SELECT_FOCUSED_CANDIDATE = 13;
+    MOVE_CURSOR = 14;
+    DISCARD_PENDING = 15;
+    SUBMIT_PENDING = 16;
+  }
+  enum RenerderCommandType {
+    SELECT_CANDIDATE = 1;
+    SHOW_MORE_CANDIDATE = 2;
+    SEND_KEY = 3;
+    CHANGE_SHOW_MORE_STATUS = 4;
+    NOTIFY_UPDATE_STATUS = 5;
+    STOP_SPAWN_PROCESS = 6;
+    SHOW_CONFIG_MENU_WND = 7;
+    RTOD_INPUT_STATUS = 8;
+    NOTIFY_SWITCH_STATUS = 9;
+    NOTIFY_SHORTCUT_KEY = 10;
+    SHOW_SETTINGS_WINDOWS = 11;
+    SET_STATUS_POS = 12;
+  }
+}

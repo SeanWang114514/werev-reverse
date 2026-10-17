@@ -1,0 +1,10 @@
+// file: WtVmodeScene.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtVmodeScene {
+  vmode_scene_invalid = 0;
+  vmode_scene_v_function = 1;
+  vmode_scene_clipboard = 2;
+  vmode_scene_common_terms = 3;
+  vmode_scene_v_mode = 4;
+  vmode_scene_symbol = 5;
+}

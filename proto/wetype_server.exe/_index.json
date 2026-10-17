@@ -1,0 +1,202 @@
+[
+ {
+  "proto": "App.proto",
+  "offset": "0x58de50",
+  "bytes": 137
+ },
+ {
+  "proto": "BaseMsg.proto",
+  "offset": "0x586b50",
+  "bytes": 172
+ },
+ {
+  "proto": "WeTypeSharedData.proto",
+  "offset": "0x58ce20",
+  "bytes": 371
+ },
+ {
+  "proto": "WtAbTest.proto",
+  "offset": "0x58d2e0",
+  "bytes": 747
+ },
+ {
+  "proto": "WtAbTestCommon.proto",
+  "offset": "0x58bfd0",
+  "bytes": 1656
+ },
+ {
+  "proto": "WtAndroidMemeryAbout.proto",
+  "offset": "0x588870",
+  "bytes": 488
+ },
+ {
+  "proto": "WtClipboardAction.proto",
+  "offset": "0x58f500",
+  "bytes": 1350
+ },
+ {
+  "proto": "WtClipboardScene.proto",
+  "offset": "0x58f240",
+  "bytes": 637
+ },
+ {
+  "proto": "WtDictUpdateStatusReport.proto",
+  "offset": "0x584db0",
+  "bytes": 598
+ },
+ {
+  "proto": "WtExceptionEventReport.proto",
+  "offset": "0x588d20",
+  "bytes": 467
+ },
+ {
+  "proto": "WtExceptionSubtype.proto",
+  "offset": "0x58e920",
+  "bytes": 210
+ },
+ {
+  "proto": "WtExceptionType.proto",
+  "offset": "0x58ea40",
+  "bytes": 1729
+ },
+ {
+  "proto": "WtKeyboardLandscapePortraitMode.proto",
+  "offset": "0x58e4d0",
+  "bytes": 185
+ },
+ {
+  "proto": "WtKeyboardShowMode.proto",
+  "offset": "0x58e3a0",
+  "bytes": 239
+ },
+ {
+  "proto": "WtKeyboardType.proto",
+  "offset": "0x58e070",
+  "bytes": 395
+ },
+ {
+  "proto": "WtPerformanceProcess.proto",
+  "offset": "0x5890f0",
+  "bytes": 289
+ },
+ {
+  "proto": "WtPerformanceProcessType.proto",
+  "offset": "0x58f140",
+  "bytes": 189
+ },
+ {
+  "proto": "WtStatCandidateClickReport.proto",
+  "offset": "0x587690",
+  "bytes": 1348
+ },
+ {
+  "proto": "WtStatCandidateScene.proto",
+  "offset": "0x58e240",
+  "bytes": 276
+ },
+ {
+  "proto": "WtStatCandidateUserClickReport.proto",
+  "offset": "0x5893e0",
+  "bytes": 1005
+ },
+ {
+  "proto": "WtStatClipboardActionReport.proto",
+  "offset": "0x589c10",
+  "bytes": 413
+ },
+ {
+  "proto": "WtStatCloudCandidateActionReport.proto",
+  "offset": "0x589fa0",
+  "bytes": 527
+ },
+ {
+  "proto": "WtStatCommonTermsAction.proto",
+  "offset": "0x58fa80",
+  "bytes": 928
+ },
+ {
+  "proto": "WtStatCommonTermsUserActionReport.proto",
+  "offset": "0x58a480",
+  "bytes": 511
+ },
+ {
+  "proto": "WtStatGroupClipboardUserActionReport.proto",
+  "offset": "0x58aa10",
+  "bytes": 475
+ },
+ {
+  "proto": "WtStatKeyboardActiveAction.proto",
+  "offset": "0x58e5e0",
+  "bytes": 246
+ },
+ {
+  "proto": "WtStatKeyboardActiveActionSecond.proto",
+  "offset": "0x58df10",
+  "bytes": 279
+ },
+ {
+  "proto": "WtStatKeyboardActiveReport.proto",
+  "offset": "0x586cf0",
+  "bytes": 1340
+ },
+ {
+  "proto": "WtStatPcAppButtonStatusReport.proto",
+  "offset": "0x58b250",
+  "bytes": 1684
+ },
+ {
+  "proto": "WtStatRefetchContextReport.proto",
+  "offset": "0x58ae50",
+  "bytes": 553
+ },
+ {
+  "proto": "commands.proto",
+  "offset": "0x56f390",
+  "bytes": 31485
+ },
+ {
+  "proto": "google/protobuf/any.proto",
+  "offset": "0x62cbf0",
+  "bytes": 212
+ },
+ {
+  "proto": "google/protobuf/cpp_features.proto",
+  "offset": "0x62b330",
+  "bytes": 213
+ },
+ {
+  "proto": "google/protobuf/descriptor.proto",
+  "offset": "0x627bc0",
+  "bytes": 9574
+ },
+ {
+  "proto": "google/protobuf/source_context.proto",
+  "offset": "0x62cdd0",
+  "bytes": 240
+ },
+ {
+  "proto": "google/protobuf/type.proto",
+  "offset": "0x62bfa0",
+  "bytes": 1647
+ },
+ {
+  "proto": "ipc.proto",
+  "offset": "0x596430",
+  "bytes": 160
+ },
+ {
+  "proto": "multi_platform_sync.proto",
+  "offset": "0x57e780",
+  "bytes": 5030
+ },
+ {
+  "proto": "update.proto",
+  "offset": "0x581ab0",
+  "bytes": 7497
+ },
+ {
+  "proto": "wetype_wechat.proto",
+  "offset": "0x57b170",
+  "bytes": 2036
+ }
+]

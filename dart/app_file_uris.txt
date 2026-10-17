@@ -1,0 +1,2 @@
+file:///
+file:///E:/workspace/WeChatPinYin/wxkb/01_mozc/flutter/WeTypeFlutter/.dart_tool/flutter_build/dart_plugin_registrant.dart

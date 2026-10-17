@@ -1,0 +1,18 @@
+// file: WtStatVmodeUserActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtVmodeSource.proto', 'WtVmodeScene.proto', 'WtVmodeAction.proto']
+package com.tencent.wrbus.pb;
+message WtStatVmodeUserActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtVmodeScene> scene = 2;
+  optional enum<.com.tencent.wrbus.pb.WtVmodeAction> action = 3;
+  optional enum<.com.tencent.wrbus.pb.WtVmodeSource> source = 4;
+  optional int64 panel_result = 5;
+  optional int64 content_type = 6;
+  optional int64 index = 7;
+  optional string click_candidate_infos = 8;
+  optional int64 click_type = 9;
+  optional int64 symbol_type = 10;
+  optional string symbol_sub_type = 11;
+  optional int64 symbol_panel_duration = 12;
+  optional string symbol_index = 13;
+  optional string symbol_name = 14;
+}

@@ -1,0 +1,11 @@
+// file: App.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum App {
+  app_invalid = 0;
+  native_app = 1;
+  html = 2;
+  rn = 3;
+  miniprogram = 4;
+  backend = 5;
+  h5 = 6;
+}

@@ -1,0 +1,5 @@
+// file: google/protobuf/source_context.proto  package: google.protobuf  syntax: proto3  deps: -
+package google.protobuf;
+message SourceContext {
+  optional string file_name = 1;
+}

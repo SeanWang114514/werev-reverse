@@ -1,0 +1,813 @@
+{
+ "file": "flutter_windows.dll",
+ "size": 17994288,
+ "sha256": "c8ab39eadf74cb3ae70f45b605307bbc3516522c58daf01066a3fc1251cf6d58",
+ "machine": "0x8664",
+ "timestamp": 1726141607,
+ "timestamp_iso": "2024-09-12T11:46:47Z",
+ "characteristics": "0x2022",
+ "subsystem": 3,
+ "dll": true,
+ "entrypoint": "0xced9e4",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 14036628,
+   "raw": "0x400",
+   "rawsize": 14036992,
+   "entropy": 6.438,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0xd64000",
+   "vsize": 2970286,
+   "raw": "0xd63400",
+   "rawsize": 2970624,
+   "entropy": 6.136,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x103a000",
+   "vsize": 446952,
+   "raw": "0x1038800",
+   "rawsize": 369664,
+   "entropy": 3.891,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x10a8000",
+   "vsize": 467028,
+   "raw": "0x1092c00",
+   "rawsize": 467456,
+   "entropy": 6.521,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".fptable",
+   "va": "0x111b000",
+   "vsize": 256,
+   "raw": "0x1104e00",
+   "rawsize": 512,
+   "entropy": 0.0,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x111c000",
+   "vsize": 136732,
+   "raw": "0x1105000",
+   "rawsize": 137216,
+   "entropy": 5.468,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 11,
+   "funcs": [
+    "RegOpenKeyExW",
+    "RegCloseKey",
+    "RegGetValueW",
+    "RegNotifyChangeKeyValue",
+    "RegQueryInfoKeyW",
+    "RegEnumKeyExW",
+    "SystemFunction036",
+    "RegDeleteValueW",
+    "RegSetValueExW",
+    "RegCreateKeyExW",
+    "RegDeleteKeyW"
+   ]
+  },
+  {
+   "dll": "IPHLPAPI.DLL",
+   "count": 1,
+   "funcs": [
+    "GetAdaptersAddresses"
+   ]
+  },
+  {
+   "dll": "ole32.dll",
+   "count": 4,
+   "funcs": [
+    "CoCreateInstance",
+    "CoTaskMemFree",
+    "CoTaskMemAlloc",
+    "CoTaskMemRealloc"
+   ]
+  },
+  {
+   "dll": "OLEAUT32.dll",
+   "count": 20,
+   "funcs": [
+    "SysFreeString",
+    "SysStringLen",
+    "SafeArrayCreateVector",
+    "SafeArrayPutElement",
+    "LoadTypeLib",
+    "VariantClear",
+    "SafeArrayGetVartype",
+    "VariantCopy",
+    "VarBstrCmp",
+    "VarUI4FromStr",
+    "SafeArrayGetDim",
+    "LoadRegTypeLib",
+    "SafeArrayDestroy",
+    "SafeArrayAccessData",
+    "SafeArrayUnaccessData",
+    "SysAllocString",
+    "SafeArrayGetLBound",
+    "SafeArrayGetUBound",
+    "SysAllocStringLen",
+    "VariantInit"
+   ]
+  },
+  {
+   "dll": "PSAPI.DLL",
+   "count": 2,
+   "funcs": [
+    "GetProcessMemoryInfo",
+    "EnumProcessModules"
+   ]
+  },
+  {
+   "dll": "SHLWAPI.dll",
+   "count": 1,
+   "funcs": [
+    "PathIsRelativeW"
+   ]
+  },
+  {
+   "dll": "RPCRT4.dll",
+   "count": 3,
+   "funcs": [
+    "UuidCreateSequential",
+    "UuidToStringW",
+    "RpcStringFreeW"
+   ]
+  },
+  {
+   "dll": "WINMM.dll",
+   "count": 2,
+   "funcs": [
+    "timeEndPeriod",
+    "timeBeginPeriod"
+   ]
+  },
+  {
+   "dll": "WS2_32.dll",
+   "count": 31,
+   "funcs": [
+    "connect",
+    "getaddrinfo",
+    "recv",
+    "send",
+    "shutdown",
+    "closesocket",
+    "socket",
+    "setsockopt",
+    "ioctlsocket",
+    "getsockopt",
+    "WSAGetLastError",
+    "WSASetLastError",
+    "WSAIoctl",
+    "WSARecv",
+    "WSASend",
+    "WSASendTo",
+    "WSARecvFrom",
+    "gethostname",
+    "htons",
+    "ntohs",
+    "WSAAddressToStringW",
+    "WSAStartup",
+    "getsockname",
+    "freeaddrinfo",
+    "WSASocketW",
+    "listen",
+    "getpeername",
+    "getnameinfo",
+    "InetPtonW",
+    "InetNtopW",
+    "bind"
+   ]
+  },
+  {
+   "dll": "IMM32.dll",
+   "count": 7,
+   "funcs": [
+    "ImmSetCompositionStringW",
+    "ImmReleaseContext",
+    "ImmSetCompositionWindow",
+    "ImmNotifyIME",
+    "ImmGetCompositionStringW",
+    "ImmSetCandidateWindow",
+    "ImmGetContext"
+   ]
+  },
+  {
+   "dll": "USER32.dll",
+   "count": 60,
+   "funcs": [
+    "OpenClipboard",
+    "CloseClipboard",
+    "MessageBeep",
+    "GetKeyState",
+    "CloseTouchInputHandle",
+    "EnumThreadWindows",
+    "DestroyCaret",
+    "ReleaseCapture",
+    "CreateCaret",
+    "SetCapture",
+    "GetMessageExtraInfo",
+    "DefWindowProcW",
+    "RegisterTouchWindow",
+    "SetWindowLongPtrW",
+    "SendMessageW",
+    "MapVirtualKeyW",
+    "PeekMessageW",
+    "RegisterClassW",
+    "GetWindowLongPtrW",
+    "TrackMouseEvent",
+    "ScreenToClient",
+    "GetCursorPos",
+    "SetCursor",
+    "IsWindowVisible",
+    "IsClipboardFormatAvailable",
+    "SetTimer",
+    "SetUserObjectInformationA",
+    "CreateWindowExW",
+    "LoadCursorW",
+    "SystemParametersInfoW",
+    "ClientToScreen",
+    "MonitorFromPoint",
+    "MonitorFromWindow",
+    "UnregisterClassW",
+    "CreateIconIndirect",
+    "ReleaseDC",
+    "GetDC",
+    "GetParent",
+    "CharNextW",
+    "NotifyWinEvent",
+    "UnregisterClassA",
+    "IsWindow",
+    "GetClassInfoW",
+    "GetClientRect",
+    "WindowFromDC",
+    "GetWindowThreadProcessId",
+    "IsIconic",
+    "InvalidateRect",
+    "CreateWindowExA",
+    "GetClipboardData",
+    "EmptyClipboard",
+    "SetClipboardData",
+    "GetSysColor",
+    "PostMessageW",
+    "KillTimer",
+    "GetFocus",
+    "SetCaretPos",
+    "DestroyWindow",
+    "PostQuitMessage",
+    "GetTouchInputInfo"
+   ]
+  },
+  {
+   "dll": "OPENGL32.dll",
+   "count": 2,
+   "funcs": [
+    "wglGetCurrentContext",
+    "wglGetProcAddress"
+   ]
+  },
+  {
+   "dll": "bcrypt.dll",
+   "count": 1,
+   "funcs": [
+    "BCryptGenRandom"
+   ]
+  },
+  {
+   "dll": "ntdll.dll",
+   "count": 3,
+   "funcs": [
+    "RtlUnwind",
+    "RtlUnwindEx",
+    "VerSetConditionMask"
+   ]
+  },
+  {
+   "dll": "OLEACC.dll",
+   "count": 1,
+   "funcs": [
+    "LresultFromObject"
+   ]
+  },
+  {
+   "dll": "UIAutomationCore.DLL",
+   "count": 5,
+   "funcs": [
+    "UiaRaiseAutomationEvent",
+    "UiaRaiseAutomationPropertyChangedEvent",
+    "UiaGetReservedNotSupportedValue",
+    "UiaGetReservedMixedAttributeValue",
+    "UiaHostProviderFromHwnd"
+   ]
+  },
+  {
+   "dll": "PROPSYS.dll",
+   "count": 1,
+   "funcs": [
+    "VariantCompare"
+   ]
+  },
+  {
+   "dll": "dxgi.dll",
+   "count": 2,
+   "funcs": [
+    "CreateDXGIFactory1",
+    "CreateDXGIFactory"
+   ]
+  },
+  {
+   "dll": "GDI32.dll",
+   "count": 16,
+   "funcs": [
+    "DeleteDC",
+    "SetPixel",
+    "GetPixel",
+    "SelectObject",
+    "GetDeviceCaps",
+    "GetObjectW",
+    "CreateCompatibleDC",
+    "CreateDIBSection",
+    "DeleteObject",
+    "CreateCompatibleBitmap",
+    "SetDIBitsToDevice",
+    "GetPixelFormat",
+    "SetPixelFormat",
+    "DescribePixelFormat",
+    "SwapBuffers",
+    "ChoosePixelFormat"
+   ]
+  },
+  {
+   "dll": "d3d9.dll",
+   "count": 5,
+   "funcs": [
+    "D3DPERF_BeginEvent",
+    "Direct3DCreate9",
+    "D3DPERF_GetStatus",
+    "D3DPERF_SetMarker",
+    "D3DPERF_EndEvent"
+   ]
+  },
+  {
+   "dll": "KERNEL32.dll",
+   "count": 215,
+   "funcs": [
+    "FlsAlloc",
+    "GetCPInfo",
+    "CompareStringEx",
+    "LCMapStringEx",
+    "EncodePointer",
+    "InitializeCriticalSectionEx",
+    "RtlPcToFileHeader",
+    "GetStringTypeW",
+    "InitOnceComplete",
+    "InitOnceBeginInitialize",
+    "GetExitCodeThread",
+    "SwitchToThread",
+    "GetFileInformationByHandleEx",
+    "FindFirstFileExW",
+    "GetStartupInfoW",
+    "IsProcessorFeaturePresent",
+    "UnhandledExceptionFilter",
+    "RtlVirtualUnwind",
+    "RtlLookupFunctionEntry",
+    "RtlCaptureContext",
+    "InitializeSListHead",
+    "GetEnvironmentVariableW",
+    "SetEnvironmentVariableW",
+    "GetTempFileNameA",
+    "ReadConsoleW",
+    "PeekNamedPipe",
+    "GetDriveTypeW",
+    "InterlockedPushEntrySList",
+    "InterlockedFlushSList",
+    "CreateThread",
+    "FlsGetValue",
+    "ExitThread",
+    "FlsSetValue",
+    "FlsFree",
+    "GetModuleHandleExW",
+    "LoadLibraryExA",
+    "GetModuleHandleExA",
+    "GetModuleHandleA",
+    "LocaleNameToLCID",
+    "lstrcmpiW",
+    "SizeofResource",
+    "LoadResource",
+    "FindResourceW",
+    "GetTimeZoneInformationForYear",
+    "SleepConditionVariableSRW",
+    "VirtualQuery",
+    "TlsFree",
+    "CreatePipe",
+    "LoadLibraryExW",
+    "QueryPerformanceFrequency",
+    "WakeAllConditionVariable",
+    "WakeConditionVariable",
+    "SleepConditionVariableCS",
+    "InitializeConditionVariable",
+    "TryAcquireSRWLockExclusive",
+    "SetFileTime",
+    "DeviceIoControl",
+    "MoveFileW",
+    "CopyFileExW",
+    "CreateSymbolicLinkW",
+    "VirtualFree",
+    "VirtualProtect",
+    "SetFilePointerEx",
+    "VirtualAlloc",
+    "SetFileAttributesW",
+    "MoveFileExW",
+    "GetConsoleScreenBufferInfo",
+    "GetExitCodeProcess",
+    "CreateNamedPipeW",
+    "TerminateProcess",
+    "OpenProcess",
+    "WaitForMultipleObjects",
+    "CreateProcessW",
+    "FreeEnvironmentStringsW",
+    "GetEnvironmentStringsW",
+    "GetUserDefaultLocaleName",
+    "SetUnhandledExceptionFilter",
+    "SetCurrentDirectoryW",
+    "GetCurrentDirectoryW",
+    "GetQueuedCompletionStatus",
+    "ReadDirectoryChangesW",
+    "PostQueuedCompletionStatus",
+    "GetFileType",
+    "OpenThread",
+    "CancelIoEx",
+    "CreateIoCompletionPort",
+    "SetStdHandle",
+    "SetConsoleMode",
+    "GetConsoleMode",
+    "GetStdHandle",
+    "SetConsoleCP",
+    "SetConsoleOutputCP",
+    "GetConsoleOutputCP",
+    "SetConsoleCtrlHandler",
+    "GetFinalPathNameByHandleA",
+    "GetProcessHeap",
+    "WaitForSingleObjectEx",
+    "WriteFile",
+    "UnlockFileEx",
+    "SystemTimeToFileTime",
+    "Sleep",
+    "GetDateFormatW",
+    "GetTimeFormatW",
+    "CompareStringW",
+    "LCMapStringW",
+    "GetLocaleInfoW",
+    "IsValidLocale",
+    "GetUserDefaultLCID",
+    "EnumSystemLocalesW",
+    "IsValidCodePage",
+    "GetACP",
+    "GetOEMCP",
+    "HeapQueryInformation",
+    "GetCommandLineA",
+    "TzSpecificLocalTimeToSystemTime",
+    "FreeLibraryAndExitThread",
+    "QueryPerformanceCounter",
+    "LockFileEx",
+    "HeapSize",
+    "InitializeCriticalSectionAndSpinCount",
+    "GetLastError",
+    "FormatMessageW",
+    "DecodePointer",
+    "DeleteCriticalSection",
+    "LoadLibraryA",
+    "GetProcAddress",
+    "CreateEventW",
+    "RegisterWaitForSingleObject",
+    "ResetEvent",
+    "UnregisterWait",
+    "CloseHandle",
+    "OutputDebugStringW",
+    "LocalFree",
+    "GetCurrentProcess",
+    "GetModuleHandleW",
+    "GetCurrentThread",
+    "SetThreadPriority",
+    "GlobalAlloc",
+    "GlobalFree",
+    "GlobalLock",
+    "GlobalUnlock",
+    "GetLocaleInfoEx",
+    "GetCurrentThreadId",
+    "GetCurrentProcessId",
+    "CreateToolhelp32Snapshot",
+    "Thread32Next",
+    "Thread32First",
+    "FormatMessageA",
+    "GetThreadPreferredUILanguages",
+    "CreateSemaphoreW",
+    "WaitForSingleObject",
+    "ReleaseSemaphore",
+    "RaiseException",
+    "GetCommandLineW",
+    "WideCharToMultiByte",
+    "GetTempPathW",
+    "CreateDirectoryW",
+    "CreateFileW",
+    "DuplicateHandle",
+    "GetFileInformationByHandle",
+    "GetFileAttributesW",
+    "RemoveDirectoryW",
+    "DeleteFileW",
+    "SetFilePointer",
+    "SetEndOfFile",
+    "FlushViewOfFile",
+    "FlushFileBuffers",
+    "FindFirstFileW",
+    "FindNextFileW",
+    "FindClose",
+    "GetFinalPathNameByHandleW",
+    "GetFileSize",
+    "CreateFileMappingW",
+    "MapViewOfFile",
+    "UnmapViewOfFile",
+    "CreateWaitableTimerW",
+    "VerifyVersionInfoW",
+    "SetWaitableTimer",
+    "LoadLibraryW",
+    "FreeLibrary",
+    "GetModuleFileNameW",
+    "FileTimeToSystemTime",
+    "SystemTimeToTzSpecificLocalTime",
+    "GetTimeZoneInformation",
+    "GetSystemTimeAsFileTime",
+    "CreateFileA",
+    "IsDebuggerPresent",
+    "GetNativeSystemInfo",
+    "MultiByteToWideChar",
+    "OutputDebugStringA",
+    "GetFileSizeEx",
+    "ReadFile",
+    "ExitProcess",
+    "InitOnceExecuteOnce",
+    "InitializeSRWLock",
+    "AcquireSRWLockShared",
+    "AcquireSRWLockExclusive",
+    "ReleaseSRWLockShared",
+    "ReleaseSRWLockExclusive",
+    "TlsGetValue",
+    "TlsAlloc",
+    "SetLastError",
+    "TlsSetValue",
+    "InitializeCriticalSection",
+    "EnterCriticalSection",
+    "LeaveCriticalSection",
+    "AreFileApisANSI",
+    "GetFileAttributesExW",
+    "GetFullPathNameW",
+    "GetSystemInfo",
+    "GetTempPathA",
+    "HeapAlloc",
+    "HeapFree",
+    "HeapReAlloc",
+    "WriteConsoleW"
+   ]
+  },
+  {
+   "dll": "CRYPT32.dll",
+   "count": 4,
+   "funcs": [
+    "CertFreeCertificateContext",
+    "CertEnumCertificatesInStore",
+    "CertOpenStore",
+    "CertCloseStore"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "FlutterDesktopEngineCreate",
+   "addr": "0x13102"
+  },
+  {
+   "ord": 2,
+   "name": "FlutterDesktopEngineDestroy",
+   "addr": "0x13176"
+  },
+  {
+   "ord": 3,
+   "name": "FlutterDesktopEngineGetMessenger",
+   "addr": "0x13238"
+  },
+  {
+   "ord": 4,
+   "name": "FlutterDesktopEngineGetPluginRegistrar",
+   "addr": "0x13232"
+  },
+  {
+   "ord": 5,
+   "name": "FlutterDesktopEngineGetTextureRegistrar",
+   "addr": "0x13240"
+  },
+  {
+   "ord": 6,
+   "name": "FlutterDesktopEngineProcessExternalWindowMessage",
+   "addr": "0x13393"
+  },
+  {
+   "ord": 7,
+   "name": "FlutterDesktopEngineProcessMessages",
+   "addr": "0x13222"
+  },
+  {
+   "ord": 8,
+   "name": "FlutterDesktopEngineReloadSystemFonts",
+   "addr": "0x1322d"
+  },
+  {
+   "ord": 9,
+   "name": "FlutterDesktopEngineRun",
+   "addr": "0x131c1"
+  },
+  {
+   "ord": 10,
+   "name": "FlutterDesktopEngineSetNextFrameCallback",
+   "addr": "0x13248"
+  },
+  {
+   "ord": 11,
+   "name": "FlutterDesktopGetDpiForHWND",
+   "addr": "0x13432"
+  },
+  {
+   "ord": 12,
+   "name": "FlutterDesktopGetDpiForMonitor",
+   "addr": "0x13437"
+  },
+  {
+   "ord": 13,
+   "name": "FlutterDesktopMessengerAddRef",
+   "addr": "0x1369f"
+  },
+  {
+   "ord": 14,
+   "name": "FlutterDesktopMessengerIsAvailable",
+   "addr": "0x136b4"
+  },
+  {
+   "ord": 15,
+   "name": "FlutterDesktopMessengerLock",
+   "addr": "0x136bc"
+  },
+  {
+   "ord": 16,
+   "name": "FlutterDesktopMessengerRelease",
+   "addr": "0x136a7"
+  },
+  {
+   "ord": 17,
+   "name": "FlutterDesktopMessengerSend",
+   "addr": "0x13531"
+  },
+  {
+   "ord": 18,
+   "name": "FlutterDesktopMessengerSendResponse",
+   "addr": "0x1354b"
+  },
+  {
+   "ord": 19,
+   "name": "FlutterDesktopMessengerSendWithReply",
+   "addr": "0x13529"
+  },
+  {
+   "ord": 20,
+   "name": "FlutterDesktopMessengerSetCallback",
+   "addr": "0x13553"
+  },
+  {
+   "ord": 21,
+   "name": "FlutterDesktopMessengerUnlock",
+   "addr": "0x13712"
+  },
+  {
+   "ord": 22,
+   "name": "FlutterDesktopPluginRegistrarGetMessenger",
+   "addr": "0x13513"
+  },
+  {
+   "ord": 23,
+   "name": "FlutterDesktopPluginRegistrarGetView",
+   "addr": "0x13409"
+  },
+  {
+   "ord": 24,
+   "name": "FlutterDesktopPluginRegistrarRegisterTopLevelWindowProcDelegate",
+   "addr": "0x13414"
+  },
+  {
+   "ord": 25,
+   "name": "FlutterDesktopPluginRegistrarSetDestructionHandler",
+   "addr": "0x1351e"
+  },
+  {
+   "ord": 26,
+   "name": "FlutterDesktopPluginRegistrarUnregisterTopLevelWindowProcDelegate",
+   "addr": "0x13423"
+  },
+  {
+   "ord": 27,
+   "name": "FlutterDesktopRegistrarGetTextureRegistrar",
+   "addr": "0x1371b"
+  },
+  {
+   "ord": 28,
+   "name": "FlutterDesktopResyncOutputStreams",
+   "addr": "0x1343c"
+  },
+  {
+   "ord": 29,
+   "name": "FlutterDesktopTextureRegistrarMarkExternalTextureFrameAvailable",
+   "addr": "0x13794"
+  },
+  {
+   "ord": 30,
+   "name": "FlutterDesktopTextureRegistrarRegisterExternalTexture",
+   "addr": "0x13726"
+  },
+  {
+   "ord": 31,
+   "name": "FlutterDesktopTextureRegistrarUnregisterExternalTexture",
+   "addr": "0x1372b"
+  },
+  {
+   "ord": 32,
+   "name": "FlutterDesktopViewControllerCreate",
+   "addr": "0x12e98"
+  },
+  {
+   "ord": 33,
+   "name": "FlutterDesktopViewControllerDestroy",
+   "addr": "0x13010"
+  },
+  {
+   "ord": 34,
+   "name": "FlutterDesktopViewControllerForceRedraw",
+   "addr": "0x13085"
+  },
+  {
+   "ord": 35,
+   "name": "FlutterDesktopViewControllerGetEngine",
+   "addr": "0x13070"
+  },
+  {
+   "ord": 36,
+   "name": "FlutterDesktopViewControllerGetView",
+   "addr": "0x13080"
+  },
+  {
+   "ord": 37,
+   "name": "FlutterDesktopViewControllerHandleTopLevelWindowProc",
+   "addr": "0x1308e"
+  },
+  {
+   "ord": 38,
+   "name": "FlutterDesktopViewGetGraphicsAdapter",
+   "addr": "0x132a5"
+  },
+  {
+   "ord": 39,
+   "name": "FlutterDesktopViewGetHWND",
+   "addr": "0x13291"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\workspace\\repo\\FlutterEngine\\engine\\src\\out\\host_release\\flutter_windows.dll.pdb\u0000",
+   "guid": "413265658",
+   "age": 6
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": []
+}

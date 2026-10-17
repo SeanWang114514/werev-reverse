@@ -1,0 +1,25 @@
+// file: WtStatEmojiAction.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatEmojiAction {
+  wt_emoji_action_invalid = 0;
+  wt_emoji_panel_exposure = 1;
+  wt_emoji_panel_click = 2;
+  wt_emoji_panel_close = 3;
+  wt_emoji_panel_send = 4;
+  wt_emoji_bubble_exposure = 5;
+  wt_emoji_bubble_click = 6;
+  wt_emoji_bubble_close = 7;
+  wt_emoji_pending_exposure = 8;
+  wt_emoji_pending_click = 9;
+  wt_emoji_association_exposure = 10;
+  wt_emoji_association_click = 11;
+  wt_emoji_association_bubble_exposure = 12;
+  wt_emoji_association_bubble_click = 13;
+  wt_emoji_pending_bubble_exposure = 14;
+  wt_emoji_pending_bubble_click = 15;
+  wt_emoji_pending_emoji_exposure = 16;
+  wt_emoji_pending_emoji_click = 17;
+  wt_emoji_association_emoji_exposure = 18;
+  wt_emoji_association_emoji_click = 19;
+  wt_emoji_exit_symbol_association = 20;
+}

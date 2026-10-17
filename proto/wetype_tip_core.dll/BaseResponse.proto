@@ -1,0 +1,6 @@
+// file: BaseResponse.proto  package: com.tencent.wetype.pb  syntax: proto3  deps: ['SKBuiltinString_t.proto']
+package com.tencent.wetype.pb;
+message BaseResponse {
+  optional int32 Ret = 1;
+  optional message<.com.tencent.wetype.pb.SKBuiltinString_t> ErrMsg = 2;
+}

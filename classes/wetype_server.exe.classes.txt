@@ -1,0 +1,1045 @@
+### std  (115)
+    ?$RepeatedPtrFieldWrapper@V?$basic_string@DU?$char_traits@D
+    ?$StringSinkTemplate@V?$basic_string@DU?$char_traits@D
+    ?$_ExceptionPtr_static@Vbad_alloc
+    ?$_ExceptionPtr_static@Vbad_exception
+    ?$_Func_base@V?$basic_string@DU?$char_traits@D
+    ?$_Func_base@V?$optional@H
+    ?$_Func_base@X$$V
+    ?$_Func_base@XHAEBV?$basic_string_view@DU?$char_traits@D
+    ?$_Func_base@XI
+    ?$_Func_base@XIIV?$basic_string_view@DU?$char_traits@D
+    ?$_Func_base@XPEA_W
+    ?$_Func_base@XV?$basic_string@DU?$char_traits@D
+    ?$_Func_base@X_K
+    ?$_Func_base@X_N
+    ?$_Func_base@_NI
+    ?$_Func_base@_NV?$basic_string_view@DU?$char_traits@D
+    ?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D
+    ?$_Func_impl_no_alloc@P6A_NV?$basic_string_view@DU?$char_traits@D
+    ?$_Iosb@H
+    ?$_Mpunct@D
+    ?$_Mpunct@G
+    ?$_Mpunct@_W
+    ?$_Node_class@DV?$regex_traits@D
+    ?$_Node_str@D
+    ?$basic_executor_type@V?$allocator@X
+    ?$basic_filebuf@DU?$char_traits@D
+    ?$basic_ifstream@DU?$char_traits@D
+    ?$basic_ios@DU?$char_traits@D
+    ?$basic_iostream@DU?$char_traits@D
+    ?$basic_istream@DU?$char_traits@D
+    ?$basic_istringstream@DU?$char_traits@D
+    ?$basic_ofstream@DU?$char_traits@D
+    ?$basic_ostream@DU?$char_traits@D
+    ?$basic_ostringstream@DU?$char_traits@D
+    ?$basic_streambuf@DU?$char_traits@D
+    ?$basic_string@DU?$char_traits@D
+    ?$basic_stringbuf@DU?$char_traits@D
+    ?$basic_stringstream@DU?$char_traits@D
+    ?$collate@D
+    ?$collate@G
+    ?$collate@_W
+    ?$ctype@D
+    ?$ctype@G
+    ?$ctype@_W
+    ?$format_facet@Vlocale
+    ?$messages@D
+    ?$messages@G
+    ?$messages@_W
+    ?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G
+    ?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W
+    ?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G
+    ?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W
+    ?$moneypunct@D$00
+    ?$moneypunct@G$00
+    ?$moneypunct@_W$00
+    ?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G
+    ?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W
+    ?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G
+    ?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W
+    ?$numpunct@D
+    ?$numpunct@G
+    ?$numpunct@_W
+    ?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G
+    ?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W
+    ?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G
+    ?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W
+    _Crt_new_delete
+    _Facet_base
+    _Generic_error_category
+    _Iostream_error_category2
+    _Node_assert
+    _Node_back
+    _Node_base
+    _Node_capture
+    _Node_end_group
+    _Node_end_rep
+    _Node_endif
+    _Node_if
+    _Node_rep
+    _Ref_count_base
+    _Root_node
+    _System_error
+    _System_error_category
+    __non_rtti_object
+    bad_alloc
+    bad_any_cast
+    bad_array_new_length
+    bad_cast
+    bad_exception
+    bad_function_call
+    bad_optional_access
+    bad_typeid
+    bad_variant_access
+    codecvt_base
+    ctype_base
+    error_category
+    exception
+    invalid_argument
+    ios_base
+    length_error
+    logic_error
+    messages_base
+    money_base
+    out_of_range
+    range_error
+    regex_error
+    runtime_error
+    system_error
+    time_base
+### CryptoPP  (83)
+    ?$AbstractPolicyHolder@UAdditiveCipherAbstractPolicy
+    ?$AdditiveCipherTemplate@V?$AbstractPolicyHolder@UAdditiveCipherAbstractPolicy
+    ?$AlgorithmImpl@V?$ConcretePolicyHolder@VEmpty
+    ?$AlgorithmImpl@V?$IteratedHash@IU?$EnumToType@W4ByteOrder
+    ?$AlgorithmImpl@V?$SimpleKeyingInterfaceImpl@V?$TwoBases@VBlockCipher
+    ?$AlgorithmParametersTemplate@VConstByteArrayParameter
+    ?$AutoSignaling@V?$InputRejecting@VBufferedTransformation
+    ?$AutoSignaling@VBufferedTransformation
+    ?$BlockCipherImpl@URijndael_Info
+    ?$Bufferless@VBufferedTransformation
+    ?$Bufferless@VSink
+    ?$ClonableImpl@VSHA256
+    ?$ConcretePolicyHolder@VEmpty
+    ?$InputRejecting@VBufferedTransformation
+    ?$InputRejecting@VFilter
+    ?$IteratedHash@IU?$EnumToType@W4ByteOrder
+    ?$IteratedHashBase@IVHashTransformation
+    ?$IteratedHashWithStaticTransform@IU?$EnumToType@W4ByteOrder
+    ?$ModePolicyCommonTemplate@UAdditiveCipherAbstractPolicy
+    ?$SimpleKeyingInterfaceImpl@V?$TwoBases@VBlockCipher
+    ?$SourceTemplate@VStringStore
+    ?$TwoBases@VBlockCipher
+    ASN1Object
+    AdditiveCipherAbstractPolicy
+    Algorithm
+    AlgorithmParameters
+    AlgorithmParametersBase
+    ArraySink
+    AuthenticatedSymmetricCipher
+    AutoSeededRandomPool
+    BERDecodeErr
+    BERGeneralDecoder
+    BitBucket
+    BlockCipher
+    BlockPaddingSchemeDef
+    BlockTransformation
+    BufferedTransformation
+    ByteArrayParameter
+    ByteQueue
+    CTR_ModePolicy
+    CipherModeBase
+    Clonable
+    ConstByteArrayParameter
+    DERGeneralEncoder
+    EC2NPoint
+    ECPPoint
+    Empty
+    Exception
+    Filter
+    FilterPutSpaceHelper
+    FilterWithBufferedInput
+    HashInputTooLong
+    HashTransformation
+    InitializeInteger
+    Integer
+    InvalidArgument
+    InvalidCiphertext
+    InvalidDataFormat
+    InvalidKeyLength
+    MessageQueue
+    NameValuePairs
+    NonblockingRng
+    NotCopyable
+    NotImplemented
+    NullNameValuePairs
+    OS_RNG_Err
+    RandomNumberGenerator
+    RandomPool
+    Rijndael_Info
+    SHA256
+    SelfTestFailure
+    SimpleKeyingInterface
+    Sink
+    Source
+    Store
+    StreamTransformation
+    StreamTransformationFilter
+    StringSource
+    StringStore
+    SymmetricCipher
+    Timer
+    TimerBase
+    Waitable
+### wetype::commands  (67)
+    ?$_Func_base@XAEAVClipBoardGuideConfig
+    ?$_Func_base@XAEBVGlobalTypeConfig
+    AiSearchResult
+    ApplicationInfo
+    CandidateList
+    CandidateWord
+    CandidateWordSyllable
+    ClipBoardGuideConfig
+    ClipBoardItem
+    ClipBoardList
+    CloudSearchCandidate
+    CloudSearchResult
+    Command
+    CommandBase
+    CommandV1
+    CommandV1_AiPanelConfigInfo
+    CommandV1_Detail
+    CommandV1_FileTransferConnectBoundDeviceReq
+    CommandV1_FileTransferConnectReq
+    CommandV1_FileTransferCredentials
+    CommandV1_FileTransferSetDownloadDirReq
+    CommandV1_FileTransferStartServerReq
+    CommandV1_FileTransferUploadFilesReq
+    CommandV1_GetTaskQueueStatusOpt
+    CommandV1_RefetchContextReportPayload
+    CommandV1_RendererDetail
+    CommandV1_StatusBarInfo
+    CommandV1_UpdateUtilDetail
+    CrashInfo
+    DictItem
+    FileTransferEvent
+    FileTransferEvent_TaskInfoItem
+    FileTransferEvent_TaskStateItem
+    FixedCandidateExtraInfo
+    FixedUserInfo
+    FuzzyPYInfo
+    GlobalTypeConfig
+    HotWord
+    HotWordList
+    Input
+    InputStatus
+    KeyEvent
+    KeyboardTypeInfo
+    Output
+    PendingList
+    PendingWord
+    Point
+    PunctuationList
+    RendererWindowStatus
+    ReportBase
+    ReportInfo
+    RespBase
+    RespBodyV1
+    RespBodyV1_Detail
+    RespBodyV1_Feature
+    RespBodyV1_RendererResp
+    RespBodyV1_TaskQueueStatus
+    RespBodyV1_UpdateUtilResp
+    SessionTypeConfig
+    SessionTypeConfig_CloudEngineOption
+    SessionTypeConfig_EmojiOption
+    SessionTypeConfig_InputAugmentOption
+    SessionTypeConfig_WubiConfig
+    TipDebugLogBatch
+    TipDebugLogEntry
+    TranslateResult
+    UpdateWindowStatus
+### google::protobuf  (48)
+    ?$RepeatedPtrFieldWrapper@VMessage
+    Any
+    DescriptorDatabase
+    DescriptorProto
+    DescriptorProto_ExtensionRange
+    DescriptorProto_ReservedRange
+    DynamicMessage
+    DynamicMessageFactory
+    EncodedDescriptorDatabase
+    Enum
+    EnumDescriptorProto
+    EnumDescriptorProto_EnumReservedRange
+    EnumOptions
+    EnumValue
+    EnumValueDescriptorProto
+    EnumValueOptions
+    ExtensionRangeOptions
+    ExtensionRangeOptions_Declaration
+    FeatureSet
+    FeatureSetDefaults
+    FeatureSetDefaults_FeatureSetEditionDefault
+    Field
+    FieldDescriptorProto
+    FieldOptions
+    FieldOptions_EditionDefault
+    FileDescriptorProto
+    FileDescriptorSet
+    FileOptions
+    GeneratedCodeInfo
+    GeneratedCodeInfo_Annotation
+    Message
+    MessageFactory
+    MessageLite
+    MessageOptions
+    MethodDescriptorProto
+    MethodOptions
+    OneofDescriptorProto
+    OneofOptions
+    Option
+    ServiceDescriptorProto
+    ServiceOptions
+    SourceCodeInfo
+    SourceCodeInfo_Location
+    SourceContext
+    Type
+    UninterpretedOption
+    UninterpretedOption_NamePart
+    ZeroCopyCodedInputStream
+### wetype::multiplatform  (39)
+    BindMatchCodeReq
+    BindMatchCodeRsp
+    BoundInfo
+    ClipboardMsg
+    DeviceInfo
+    FetchBindStatusReq
+    FetchBindStatusRsp
+    GetGroupInfoReq
+    GetGroupInfoRsp
+    GetMatchCodeReq
+    GetMatchCodeRsp
+    GetMatchCodeStatusReq
+    GetMatchCodeStatusRsp
+    GroupInfo
+    PushBindCancel
+    PushBindReconfirm
+    PushBindSuccess
+    PushClipboardMsg
+    PushGroupFuncSwitch
+    PushInfo
+    PushOnBoundListChange
+    PushUnBind
+    PushUserHotWords
+    RealBindMatchCodeReq
+    RealBindMatchCodeRsp
+    ReleaseMatchCodeOrBindReq
+    ReleaseMatchCodeOrBindRsp
+    SendClipboardMsgReq
+    SendClipboardMsgRsp
+    SendUserHotWordsReq
+    SendUserHotWordsRsp
+    SetGroupFuncSwitchReq
+    SetGroupFuncSwitchRsp
+    UnbindReq
+    UnbindRsp
+    UpdateDeviceInfoReq
+    UpdateDeviceInfoReq_DeviceRemarkName
+    UpdateDeviceInfoRsp
+    UserHotWords
+### wetype::update  (38)
+    ?$MapEntry@VABTestHitDetailInfo_Item_ParamsEntry_DoNotUse
+    ABTestClientVersion
+    ABTestHitDetailInfo
+    ABTestHitDetailInfo_Item
+    ABTestHitDetailInfo_Item_ParamsEntry_DoNotUse
+    ABTestHitedInfo
+    ABTestStatus
+    ApplicableVersion
+    ApplyCosTokenReq
+    ApplyCosTokenReqV2
+    ApplyCosTokenRsp
+    ApplyCosTokenRspV2
+    BusLogSampleInfoGroup
+    BusLogSampleInfoItem
+    BusLogSampleInfoReq
+    BusLogSampleInfoRsp
+    ClientDictInfo
+    Command
+    DeviceInfo
+    DictTypeFilter
+    GetImeDictListConfigReq
+    GetImeDictListConfigResp
+    GetImeNewHotDictConfigReq
+    GetImeNewHotDictConfigResp
+    GetKBChatStatusRsp
+    GetKBCommandsReq
+    GetKBCommandsRsp
+    GetKBFeaturesReq
+    GetKBFeaturesRsp
+    GetKbFeaturePair
+    ImeDictCondition
+    ImeDictDownloadItem
+    ImeDictItem
+    ShowMenuWndReq
+    ShowSettingWndReq
+    UpdateKBCommandsReq
+    UpdateKBCommandsRsp
+    UserUsageStatus
+### wetype::server  (37)
+    ?$_Func_base@XAEBUCandidateReportInfo
+    ?$_Func_base@XAEBUClipboardSyncReportInfo
+    ?$_Func_base@XAEBUCommand
+    ?$_Func_base@XAEBUEmitReportInfo
+    ?$_Func_base@XAEBUGroupSyncInfo
+    ?$_Func_base@XAEBULocalClipboardInfo
+    ?$_Func_base@XAEBUProcessInputReport
+    ?$_Func_base@XAEBUSessionConfig
+    ?$_Func_base@XAEBV?$vector@UAbTestDetailInfo
+    ?$_Func_base@XVGetWxTokenRsp
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ?$_Func_impl_no_alloc@V<lambda_6>
+    ?$_Func_impl_no_alloc@V<lambda_7>
+    ?$_Func_impl_no_alloc@V<lambda_8>
+    ?$_Func_impl_no_alloc@V<lambda_9>
+    GetWxTokenReq
+    GetWxTokenRsp
+    ImeIpcServer
+    WTCursorContextRequest
+    WTCursorContextResponse
+    WTEmitEmojiRequest
+    WTEmitEmojiResponse
+    WTEmitSmallEmojiRequest
+    WTEmitSmallEmojiResponse
+    WTGetWechatUidRequest
+    WTGetWechatUidResponse
+    WTRefreshStateRequest
+    WTRefreshStateResponse
+    WTSayHelloRequest
+    WTSayHelloResponse
+    WTSupportEmojiRequest
+    WTSupportEmojiResponse
+    WTVerifyTokenRequest
+    WTVerifyTokenResponse
+    WeChatServer
+    WeTypeCommunication
+### com::tencent::wrbus::pb  (29)
+    ?$MapEntry@VABTestHitDetailInfo_Item_ParamsEntry_DoNotUse
+    ?$_Func_base@XAEBVWeTypeSharedData
+    ?$_Func_base@XAEBVWtDictUpdateStatusReport
+    ?$_Func_base@XW4WtExceptionType
+    ABTestClientVersion
+    ABTestDeviceInfo
+    ABTestHitDetailInfo
+    ABTestHitDetailInfo_Item
+    ABTestHitDetailInfo_Item_ParamsEntry_DoNotUse
+    ABTestHitedInfo
+    ABTestStatus
+    ABTestUserUsageStatus
+    AbExptQueryReq
+    AbExptQueryRsp
+    BaseMsg
+    WeTypeSharedData
+    WtAndroidMemeryAbout
+    WtDictUpdateStatusReport
+    WtExceptionEventReport
+    WtPerformanceProcess
+    WtStatCandidateClickReport
+    WtStatCandidateUserClickReport
+    WtStatClipboardActionReport
+    WtStatCloudCandidateActionReport
+    WtStatCommonTermsUserActionReport
+    WtStatGroupClipboardUserActionReport
+    WtStatKeyboardActiveReport
+    WtStatPcAppButtonStatusReport
+    WtStatRefetchContextReport
+### google::protobuf::internal  (21)
+    ?$RepeatedFieldPrimitiveAccessor@H
+    ?$RepeatedFieldPrimitiveAccessor@I
+    ?$RepeatedFieldPrimitiveAccessor@M
+    ?$RepeatedFieldPrimitiveAccessor@N
+    ?$RepeatedFieldPrimitiveAccessor@_J
+    ?$RepeatedFieldPrimitiveAccessor@_K
+    ?$RepeatedFieldPrimitiveAccessor@_N
+    ?$RepeatedFieldWrapper@H
+    ?$RepeatedFieldWrapper@I
+    ?$RepeatedFieldWrapper@M
+    ?$RepeatedFieldWrapper@N
+    ?$RepeatedFieldWrapper@_J
+    ?$RepeatedFieldWrapper@_K
+    ?$RepeatedFieldWrapper@_N
+    MapEntryBase
+    MapFieldAccessor
+    RandomAccessRepeatedFieldAccessor
+    RepeatedFieldAccessor
+    RepeatedPtrFieldMessageAccessor
+    RepeatedPtrFieldStringAccessor
+    ZeroFieldsBase
+### (global)  (18)
+    ?$FixedBlockSize@$0BA
+    ?$codecvt@DDU_Mbstatet
+    ?$codecvt@GDU_Mbstatet
+    ?$codecvt@_WDU_Mbstatet
+    ?$mmRunnableMemberFunction0@VThreadPool
+    ?$moneypunct@D$0A
+    ?$moneypunct@G$0A
+    ?$moneypunct@_W$0A
+    DNameNode
+    DNameStatusNode
+    Runnable
+    charNode
+    mmRunnable
+    pDNameNode
+    pairNode
+    pcharNode
+    type_info
+    windows_file_codecvt
+### wetype::server::data  (16)
+    ?$BaseVariableAccessor@VConfig
+    ?$BaseVariableAccessor@VKvHolder
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ?$_Ref_count_obj2@VLevelDBKV
+    ?$_Ref_count_obj2@VPrefixDB
+    Config
+    IKV
+    IKVIterator
+    KvHolder
+    LevelDBIterator
+    LevelDBKV
+    PrefixDB
+    PrefixIterator
+### wetype::server::handler  (12)
+    ?$BaseVariableAccessor@VCmdTransfer
+    ?$BaseVariableAccessor@VDictManager
+    ?$BaseVariableAccessor@VDictUpdater
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    DictManager
+    DictUpdater
+    EngineEventListener
+    GroupInfoTransfer
+    InputProcessor
+### wetype  (12)
+    ?$_Func_base@XAEBUPerformanceReportInfo
+    ?$_Func_base@XW4IpcClientType
+    ?$_Ref_count_obj2@VJsonObject
+    ClockInterface
+    FileUtilInterface
+    IPCPathManager
+    InputFileStream
+    JsonObject
+    JsonValue
+    NamedEventNotifier
+    OutputFileStream
+    Thread
+### wetype::server::cross_platform  (9)
+    ?$BaseVariableAccessor@VCrossPlatformManager
+    ?$BaseVariableAccessor@VMsgWindowManager
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ClipboardHelper
+    CrossPlatformManager
+    MsgWindowManager
+### wetype::server::report::ImeReport::?1???0Impl  (9)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ?$_Func_impl_no_alloc@V<lambda_6>
+    ?$_Func_impl_no_alloc@V<lambda_7>
+    ?$_Func_impl_no_alloc@V<lambda_8>
+    ?$_Func_impl_no_alloc@V<lambda_9>
+### wetype::server::enginev2  (8)
+    ?$BaseVariableAccessor@UImeEngine
+    ?$_Func_base@XPEAUSessionInfo
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Ref_count_obj2@USessionInfo
+    ?$_Ref_count_obj2@UWximeImpl
+    ImeEngine
+    WximeImpl
+### wetype::server::enginev2::ImeEngine  (8)
+    ?$_Func_base@XAEBUAiSearchEvent
+    ?$_Func_base@XAEBUCandidateUpdateEvent
+    ?$_Func_base@XAEBUCloudSearchUpdateEvent
+    ?$_Func_base@XAEBUEmitEvent
+    ?$_Func_base@XAEBUPendingInputUpdateEvent
+    ?$_Func_base@XAEBUSuggestUpdateEvent
+    ?$_Func_base@XAEBUTranslationEvent
+    ?$_Func_base@XAEBV?$vector@V?$variant@UPendingInputUpdateEvent
+### wetype::server::handler::?1???0EngineEventListener  (8)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ?$_Func_impl_no_alloc@V<lambda_6>
+    ?$_Func_impl_no_alloc@V<lambda_7>
+    ?$_Func_impl_no_alloc@V<lambda_8>
+### mars::xlog  (7)
+    ?$RunnableFunctor@V?$bind_t@XV?$mf0@XVXloggerAppender
+    ?$RunnableFunctor@V?$bind_t@XV?$mf1@XVXloggerAppender
+    ?$RunnableFunctor@V?$bind_t@XV?$mf3@XVXloggerAppender
+    LogBaseBuffer
+    LogCrypt
+    LogZlibBuffer
+    LogZstdBuffer
+### asio::detail  (7)
+    ?$execution_context_service_base@Vwin_iocp_io_context
+    ?$typeid_wrapper@Vwin_iocp_io_context
+    noncopyable
+    system_category
+    thread_context
+    timer_queue_base
+    win_iocp_io_context
+### Json  (6)
+    ?$_Func_base@_NAEAVValue
+    BuiltStyledStreamWriter
+    FastWriter
+    StreamWriter
+    StreamWriterBuilder
+    Writer
+### wetype::server::performance_monitor  (5)
+    ?$BaseVariableAccessor@VPerformanceMonitor
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    PerformanceMonitor
+    PerformanceMonitorThread
+### absl::lts_20240116::time_internal::cctz  (5)
+    ?$_Func_base@V?$unique_ptr@VZoneInfoSource
+    TimeZoneIf
+    TimeZoneInfo
+    TimeZoneLibC
+    ZoneInfoSource
+### std::chrono  (5)
+    ?$_Ref_count_obj2@V?$basic_waitable_timer@Usystem_clock
+    ?$deadline_timer_service@U?$chrono_time_traits@Usystem_clock
+    ?$execution_context_service_base@V?$deadline_timer_service@U?$chrono_time_traits@Usystem_clock
+    ?$timer_queue@U?$chrono_time_traits@Usystem_clock
+    ?$typeid_wrapper@V?$deadline_timer_service@U?$chrono_time_traits@Usystem_clock
+### google::protobuf::io  (5)
+    ArrayInputStream
+    ErrorCollector
+    StringOutputStream
+    ZeroCopyInputStream
+    ZeroCopyOutputStream
+### wetype::server::clipboard  (4)
+    ?$BaseVariableAccessor@VClipboardDataManager
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ClipboardDataManager
+### wetype::server::utils  (4)
+    ?$BaseVariableAccessor@VIOServices
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    IOServices
+### wetype::server::network  (4)
+    ?$BaseVariableAccessor@VNetwork
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    Network
+### wetype::server::wechat_message  (4)
+    ?$BaseVariableAccessor@VWeChatMessageManager
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    WeChatMessageManager
+### CryptoPP::Rijndael::VEnc  (4)
+    ?$BlockCipherFinal@$0A
+    ?$CipherModeFinalTemplate_CipherHolder@V?$BlockCipherFinal@$0A
+    ?$ClonableImpl@V?$BlockCipherFinal@$0A
+    ?$ObjectHolder@V?$BlockCipherFinal@$0A
+### lsignal  (4)
+    ?$_Func_base@XV?$shared_ptr@Uconnection_data
+    ?$_Ref_count_obj2@Uconnection_data
+    connection
+    slot
+### wetype::server::cross_platform::CrossPlatformManager::Impl::?1??Init  (4)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+### wetype::server::enginev2::WximeImpl::?1???0Impl  (4)
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ?$_Func_impl_no_alloc@V<lambda_6>
+### mars_boost::gregorian  (3)
+    bad_day_of_month
+    bad_month
+    bad_year
+### wetype::server::handler::DictManager::?1???0Impl  (3)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+### wetype::server::clipboard::ClipboardDataManager::Impl::?1??Init  (3)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+### wetype::server::file_transfer  (3)
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    FileTransferPushRelay
+### wetype::server::vmode  (3)
+    ?$_Func_impl_no_alloc@V<lambda_2>
+    ?$_Func_impl_no_alloc@V<lambda_3>
+    VmodeDataManager
+### wetype::server::report  (3)
+    ?$_Func_impl_no_alloc@V<lambda_4>
+    ?$_Func_impl_no_alloc@V<lambda_5>
+    ImeReport
+### wetype::base  (3)
+    ?$_Ref_count_obj2@VUniqueNamedPipe
+    IPCServer
+    IPCServerThread
+### fmt::v10::detail  (3)
+    ?$buffer@D
+    ?$buffer@H
+    ?$buffer@I
+### absl::lts_20240116::time_internal::cctz::?A0x61d84241  (3)
+    AndroidZoneInfoSource
+    FileZoneInfoSource
+    FuchsiaZoneInfoSource
+### google::protobuf::TextFormat  (3)
+    BaseTextGenerator
+    FastFieldValuePrinter
+    Finder
+### Gdiplus  (3)
+    Bitmap
+    GdiplusBase
+    Image
+### absl::lts_20240116::flags_internal  (3)
+    FlagImpl
+    FlagState
+    FlagStateInterface
+### asio  (3)
+    invalid_service_owner
+    multiple_exceptions
+    service_already_exists
+### CryptoPP::BufferedTransformation  (2)
+    BlockingInputOnly
+    NoChannelSupport
+### mars_boost::filesystem::detail  (2)
+    ?$sp_counted_impl_p@Udir_itr_imp
+    utf8_codecvt_facet
+### wetype::server::ImeIpcServer::?1???0Impl  (2)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+### wetype::server::network::Network::Impl::?1??Init  (2)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+### wetype::server::vmode::VmodeDataManager::Impl::?1??Init  (2)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+### wetype::server::wechat_message::WeChatMessageManager::Impl::?1??Init  (2)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+    ?$_Func_impl_no_alloc@V<lambda_2>
+### $0A  (2)
+    ?$codecvt_utf8_utf16@_W$0BAPPPP
+    ?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP
+### asio::detail::win_iocp_io_context  (2)
+    ?$func@Uthread_function
+    ?$func@Utimer_thread_function
+### CryptoPP::Rijndael  (2)
+    Base
+    Enc
+### absl::lts_20240116  (2)
+    CommandLineFlag
+    LogSink
+### absl::lts_20240116::cord_internal  (2)
+    CordzHandle
+    CordzInfo
+### google::protobuf::TextFormat::Printer  (2)
+    DebugStringFieldValuePrinter
+    TextGenerator
+### absl::lts_20240116::log_internal::?A0xe4e47d81  (2)
+    StderrLogSink
+    WindowsDebuggerLogSink
+### std::locale  (2)
+    _Locimp
+    facet
+### mars_boost::system  (2)
+    error_category
+    system_error
+### mars_boost::system::?A0xce3c0836  (2)
+    generic_error_category
+    system_error_category
+### mars_boost  (2)
+    thread_exception
+    thread_resource_error
+### wetype::server::clipboard::ClipboardDataManager  (1)
+    Impl
+### wetype::server::data::Config  (1)
+    Impl
+### wetype::server::cross_platform::CrossPlatformManager  (1)
+    Impl
+### wetype::server::handler::DictManager  (1)
+    Impl
+### wetype::server::handler::DictUpdater  (1)
+    Impl
+### wetype::server::handler::GroupInfoTransfer  (1)
+    Impl
+### wetype::server::ImeIpcServer  (1)
+    Impl
+### wetype::server::report::ImeReport  (1)
+    Impl
+### wetype::server::handler::InputProcessor  (1)
+    Impl
+### wetype::server::cross_platform::MsgWindowManager  (1)
+    Impl
+### wetype::server::network::Network  (1)
+    Impl
+### wetype::server::performance_monitor::PerformanceMonitor  (1)
+    Impl
+### wetype::server::vmode::VmodeDataManager  (1)
+    Impl
+### wetype::server::wechat_message::WeChatMessageManager  (1)
+    Impl
+### wetype::server::enginev2::WximeImpl  (1)
+    Impl
+### CryptoPP::?$InputRejecting@VBufferedTransformation  (1)
+    InputRejected
+### CryptoPP::?$InputRejecting@VFilter  (1)
+    InputRejected
+### CryptoPP::BlockPaddingSchemeDef  (1)
+    ?$AlgorithmParametersTemplate@W4BlockPaddingScheme
+### $07$03$0A::$0CA::$0BA  (1)
+    ?$VariableKeyLength@$0BA
+### wetype::server::?1???$CheckUpdateNormal@W4DictType  (1)
+    ?$_Func_impl_no_alloc@V<lambda_10>
+### wetype::server::file_transfer::?1???0FileTransferPushRelay  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::data::Config::?1???0Impl  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::handler::GroupInfoTransfer::?1???0Impl  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::handler::InputProcessor::?1???0Impl  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?1???0ProgramDataDirectoryCache  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?A0x59448990::?1???0SystemDirectoryCache  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??AddFixedUserWord  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??AiSearch  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??CheckCandidateExtraInfo  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??DeleteUserHistoryInSession  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::network::Network::Impl::?1??DoFetchAbParams  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??DropLast  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??EnableVmodeOption  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??FetchCandidates  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??ForceEmitToScreen  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::cross_platform::CrossPlatformManager::Impl::?1??GetGroupInfo  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??GetSuggestion  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??GetTaskQueueStatus  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::network::Network::Impl::?1??GetWeChatToken  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::clipboard::ClipboardDataManager::Impl::?1??IncreaseGuideClosedTimes  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::clipboard::ClipboardDataManager::Impl::?1??IncreaseGuideShowTimes  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### absl::lts_20240116::time_internal::cctz::TimeZoneInfo::?1??Load  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::data::Config::Impl::?1??LoadUin  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::clipboard::ClipboardDataManager::Impl::?1??MarkGuideDisable  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??PendingInput  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??ProcessInput  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??ReportPuncEmitStr  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??ReportSwitchInputBoxTextContext  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??ResetInternalCursor  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??ResetSession  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??SafeVisitSetMoreMode  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??SearchDynamicEmoji  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??SelectCandidate  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??SelectDefaultCandidate  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??SelectLargeEmoji  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::cross_platform::CrossPlatformManager::Impl::?1??SendToCloud  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::WximeImpl::Impl::?1??SetTextAroundCursor  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?A0x59448990::?$AppDataDirectoryCache@$00::?1??TryGetAppData  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?A0x59448990::?$AppDataDirectoryCache@$01::?1??TryGetAppData  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::data::Config::Impl::?1??UpdateSessionConfig  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::cross_platform::CrossPlatformManager::Impl::?1??UploadToCos  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::wechat_message::WeChatMessageManager::?4???0Impl  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUAiSearchEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUCandidateReportInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUCandidateUpdateEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUClipboardSyncReportInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUCloudSearchUpdateEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUCommand::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUEmitEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUEmitReportInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUGroupSyncInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBULocalClipboardInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUPendingInputUpdateEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?$signal@$$A6AXAEBUPerformanceReportInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUProcessInputReport::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBUSessionConfig::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUSuggestUpdateEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBUTranslationEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXAEBV?$vector@UAbTestDetailInfo::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::enginev2::ImeEngine::?$signal@$$A6AXAEBV?$vector@V?$variant@UPendingInputUpdateEvent::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::commands::?$signal@$$A6AXAEBVGlobalTypeConfig::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### com::tencent::wrbus::pb::?$signal@$$A6AXAEBVWtDictUpdateStatusReport::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### std::?$signal@$$A6AXHAEBV?$basic_string_view@DU?$char_traits@D::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### lsignal::Z::?$signal@$$A6AXI::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### std::?$signal@$$A6AXV?$basic_string@DU?$char_traits@D::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?$signal@$$A6AXVGetWxTokenRsp::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?$signal@$$A6AXW4IpcClientType::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### com::tencent::wrbus::pb::?$signal@$$A6AXW4WtExceptionType::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### lsignal::Z::?$signal@$$A6AX_K::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### lsignal::Z::?$signal@$$A6AX_N::?4??create_connection  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::server::?1???$CheckUpdateHot@W4DictType  (1)
+    ?$_Func_impl_no_alloc@V<lambda_2>
+### wetype::server::handler::DictUpdater::?1???0Impl  (1)
+    ?$_Func_impl_no_alloc@V<lambda_2>
+### wetype::CancellationToken  (1)
+    ?$_Ref_count@UControl
+### rapidjson  (1)
+    ?$_Ref_count_obj2@V?$GenericDocument@U?$UTF8@D
+### wistd::__function::Z  (1)
+    ?$__base@$$A6AJPEA_W_KPEA_K
+### std::?1???$K32GetModuleFileNameExW@V?$basic_string@_WU?$char_traits@_W  (1)
+    ?$__func@V<lambda_1>
+### std::V?$allocator@D  (1)
+    ?$basic_memory_buffer@D$0BPE
+### std::V?$allocator@H  (1)
+    ?$basic_memory_buffer@H$0BPE
+### std::V?$allocator@I  (1)
+    ?$basic_memory_buffer@I$0CA
+### mars_boost::filesystem::filesystem_error  (1)
+    ?$sp_counted_impl_p@Um_imp
+### mars_boost::iostreams::detail  (1)
+    ?$sp_counted_impl_p@Vmapped_file_impl
+### google::protobuf::?A0x9d51359c  (1)
+    AggregateErrorCollector
+### google::protobuf::DescriptorBuilder::OptionInterpreter  (1)
+    AggregateOptionFinder
+### wetype::?A0x12fb5183  (1)
+    ClockImpl
+### pb  (1)
+    CppFeatures
+### Json::StreamWriter  (1)
+    Factory
+### wetype::?A0xe70e361d  (1)
+    FileUtilImpl
+### google::protobuf::?A0x33412b2f  (1)
+    GeneratedMessageFactory
+### wetype::ipc  (1)
+    IPCPathInfo
+### google::protobuf::internal::TailCallTableInfo  (1)
+    OptionProvider
+### absl::lts_20240116::log_internal::LogMessage  (1)
+    OstreamView
+### CryptoPP::AlgorithmParametersBase  (1)
+    ParameterNotUsed
+### google::protobuf::TextFormat::Parser::ParserImpl  (1)
+    ParserErrorCollector
+### google::protobuf::Reflection::?1??CreateTcParseTable  (1)
+    ReflectionOptionProvider
+### wil  (1)
+    ResultException
+### mars::comm  (1)
+    Thread
+### CryptoPP::NameValuePairs  (1)
+    ValueTypeMismatch
+### CryptoPP::ByteQueue  (1)
+    Walker
+### ?A0x6e02efe5  (1)
+    _ExceptionPtr_normal
+### asio::execution  (1)
+    bad_executor
+### ?A0xb79a64d0  (1)
+    codecvt_error_cat
+### std::ios_base  (1)
+    failure
+### mars_boost::filesystem  (1)
+    filesystem_error
+### std::filesystem  (1)
+    filesystem_error
+### fmt::v10  (1)
+    format_error
+### asio::detail::win_thread  (1)
+    func_base
+### asio::error::detail  (1)
+    misc_category
+### mars_boost::noncopyable_  (1)
+    noncopyable
+### asio::execution_context  (1)
+    service
+### mars_boost::detail  (1)
+    sp_counted_base

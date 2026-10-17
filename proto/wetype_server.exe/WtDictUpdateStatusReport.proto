@@ -1,0 +1,25 @@
+// file: WtDictUpdateStatusReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto']
+package com.tencent.wrbus.pb;
+message WtDictUpdateStatusReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string engine_version = 2;
+  optional string dict_infos = 3;
+  optional int64 api_level = 4;
+  optional string dict_name = 5;
+  optional int64 version = 6;
+  optional int64 type_id = 7;
+  optional int64 dict_type = 8;
+  optional string dict_mdfive = 9;
+  optional int64 experiment_group_id = 10;
+  optional string cdn_url = 11;
+  optional string cdn_mdfive = 12;
+  optional string decrypt_mdfive = 13;
+  optional int64 decrypt_algorithm = 14;
+  optional int64 compression_algorithm = 15;
+  optional int64 patch_version = 16;
+  optional string patch_cdn_url = 17;
+  optional int64 patch_error_code = 18;
+  optional int64 download_time = 19;
+  optional int64 handle_time = 20;
+  optional string update_status = 21;
+}

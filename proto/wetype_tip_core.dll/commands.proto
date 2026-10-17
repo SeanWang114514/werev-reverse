@@ -1,0 +1,1271 @@
+// file: commands.proto  package: wetype.commands  syntax: proto2  deps: ['WtStatKeyboardActiveReport.proto', 'WtStatCandidateClickReport.proto']
+package wetype.commands;
+message UpdateWindowStatus {
+  required uint64 seq_id = 1;
+  optional enum<.wetype.commands.UpdateWindowStatusType> type = 2;
+  optional bool util_window_visible = 3;
+  optional bool voice_window_visible = 4;
+}
+message RendererWindowStatus {
+  required uint64 seq_id = 1;
+  optional enum<.wetype.commands.RenderWindowStatusType> type = 2;
+}
+message KeyEvent {
+  optional uint32 key_code = 1;
+  optional enum<.wetype.commands.KeyEvent.SpecialKey> special_key = 2;
+  repeated enum<.wetype.commands.KeyEvent.ModifierKey> modifier_keys = 3;
+  enum SpecialKey {
+    NO_SPECIALKEY = 0;
+    DIGIT = 1;
+    ON = 2;
+    OFF = 3;
+    SPACE = 4;
+    ENTER = 5;
+    LEFT = 6;
+    RIGHT = 7;
+    UP = 8;
+    DOWN = 9;
+    ESCAPE = 10;
+    DEL = 11;
+    BACKSPACE = 12;
+    HOME = 16;
+    END = 17;
+    TAB = 18;
+    F1 = 19;
+    F2 = 20;
+    F3 = 21;
+    F4 = 22;
+    F5 = 23;
+    F6 = 24;
+    F7 = 25;
+    F8 = 26;
+    F9 = 27;
+    F10 = 28;
+    F11 = 29;
+    F12 = 30;
+    PAGE_UP = 31;
+    PAGE_DOWN = 32;
+    INSERT = 33;
+    NUMPAD0 = 47;
+    NUMPAD1 = 48;
+    NUMPAD2 = 49;
+    NUMPAD3 = 50;
+    NUMPAD4 = 51;
+    NUMPAD5 = 52;
+    NUMPAD6 = 53;
+    NUMPAD7 = 54;
+    NUMPAD8 = 55;
+    NUMPAD9 = 56;
+    MULTIPLY = 57;
+    ADD = 58;
+    SEPARATOR = 59;
+    SUBTRACT = 60;
+    DECIMAL = 61;
+    DIVIDE = 62;
+    EQUALS = 63;
+    TEXT_INPUT = 64;
+    CAPS_LOCK = 68;
+    UNDEFINED_KEY = 69;
+    COMMA = 70;
+    CLEAR = 71;
+    VIRTUAL_LEFT = 72;
+    VIRTUAL_RIGHT = 73;
+    VIRTUAL_ENTER = 74;
+    VIRTUAL_UP = 75;
+    VIRTUAL_DOWN = 76;
+    NUM_SPECIALKEYS = 77;
+  }
+  enum ModifierKey {
+    NO_ModifierKey = 0;
+    CTRL = 1;
+    ALT = 2;
+    SHIFT = 4;
+    KEY_DOWN = 8;
+    KEY_UP = 16;
+    LEFT_CTRL = 32;
+    LEFT_ALT = 64;
+    LEFT_SHIFT = 128;
+    RIGHT_CTRL = 256;
+    RIGHT_ALT = 512;
+    RIGHT_SHIFT = 1024;
+    CAPS = 2048;
+  }
+}
+message CandidateWordSyllable {
+  optional uint32 start = 1;
+  optional uint32 end = 2;
+  optional string syllable = 3;
+}
+message AiSearchResult {
+  optional int32 error_code = 1;
+  optional string result_text = 2;
+  optional bool is_end = 3;
+  optional uint32 chat_id = 4;
+  optional string extend_info_text = 5;
+  optional bool is_searching = 6;
+  optional int32 text_format_type = 7;
+}
+message TranslateResult {
+  optional string search_text = 1;
+  optional string result_text = 2;
+  optional uint32 source_language = 3;
+  optional uint32 target_language = 4;
+}
+message CandidateWord {
+  optional string value = 1;
+  optional string id = 2;
+  optional uint32 flag = 3;
+  optional uint32 kind = 4;
+  repeated message<.wetype.commands.CandidateWordSyllable> candidate_syllables = 5;
+  optional uint64 cloud_service_version = 6;
+  optional string request_id = 7;
+  optional uint32 index = 8;
+  optional string comment = 9;
+  optional bool contains_emotion_id = 10;
+  optional int32 emotion_id = 11;
+  optional bool is_vmode_choice = 12;
+  optional uint32 v_mode_format = 13;
+  repeated string time_format_list = 14;
+  repeated string emoji_list = 15;
+  optional uint64 flag_v2 = 16;
+  optional bool is_first_screen = 17;
+}
+message CandidateList {
+  repeated message<.wetype.commands.CandidateWord> candidates = 1;
+  optional uint32 focused_index = 2;
+}
+message Point {
+  optional int32 x = 1;
+  optional int32 y = 2;
+}
+message PendingWord {
+  optional enum<.wetype.commands.PendingWord.PendingInputType> type = 1;
+  optional string exact_match_text = 2;
+  optional string exchange_a = 3;
+  optional string deleted = 4;
+  optional string from = 5;
+  optional string selected_text = 6;
+  optional string value = 7;
+  enum PendingInputType {
+    WXIME_PENDING_INPUT_SELECTED_TEXT = 0;
+    WXIME_PENDING_INPUT_EXACTLY_MATCH = 1;
+    WXIME_PENDING_INPUT_DELETION = 2;
+    WXIME_PENDING_INPUT_INSERTION = 3;
+    WXIME_PENDING_INPUT_REPLACEMENT = 4;
+    WXIME_PENDING_INPUT_EXCHANGE = 5;
+    WXIME_PENDING_INPUT_SEPARATOR = 6;
+    WXIME_PENDING_INPUT_INTERNAL_CURSOR = 7;
+  }
+}
+message PendingList {
+  repeated message<.wetype.commands.PendingWord> pengdings = 1;
+}
+message ApplicationInfo {
+  optional uint32 process_id = 1;
+  optional uint32 thread_id = 2;
+  optional int32 timezone_offset = 3;
+  optional string process_name = 4;
+  optional enum<.wetype.commands.ClientType> client_type = 5;
+}
+message FuzzyPYInfo {
+  optional bool enable_fuzzy_py = 1;
+  optional bool enable_nl = 2;
+  optional bool enable_rl = 3;
+  optional bool enable_hf = 4;
+  optional bool enable_gk = 5;
+  optional bool enable_ang = 6;
+  optional bool enable_iang = 7;
+  optional bool enable_uang = 8;
+  optional bool enable_c_ch = 9;
+  optional bool enable_s_sh = 10;
+  optional bool enable_z_zh = 11;
+  optional bool enable_hui_fei = 12;
+  optional bool enable_eng = 13;
+  optional bool enable_ing = 14;
+  optional bool enable_ong = 15;
+  optional bool enable_huang_wang = 16;
+  optional bool enable_un_ong = 17;
+  optional bool enable_un_iong = 18;
+  optional bool enable_an_ai = 19;
+  optional bool enable_eng_ong = 20;
+}
+message KeyboardTypeInfo {
+  optional enum<.wetype.commands.KeyboardType> type = 1;
+  optional enum<.wetype.commands.DoublePinSolution> double_pin_type = 2;
+  optional enum<.wetype.commands.WubiSolution> wubi_type = 3;
+  optional int32 wubi_config = 4;
+}
+message DictItem {
+  optional string name = 1;
+  optional int32 version = 2;
+  optional int32 id = 3;
+  optional bool build_in = 4;
+  optional bool del = 5;
+  optional enum<.wetype.commands.DictType> dict_type = 6;
+  optional string md5 = 7;
+  optional int64 update_time = 8;
+}
+message Input {
+  required enum<.wetype.commands.Input.CommandType> type = 1;
+  optional uint64 id = 2;
+  optional message<.wetype.commands.KeyEvent> key = 3;
+  optional message<.wetype.commands.ApplicationInfo> application_info = 4;
+  optional message<.wetype.commands.CandidateWord> commit = 5;
+  optional int32 candidate_count = 6;
+  optional string suffix = 7;
+  optional bool status_switch = 8;
+  optional bool is_symbol_transfer = 9;
+  optional bool is_symbol_pair = 10;
+  optional message<.wetype.commands.FuzzyPYInfo> fuzzy_pinyin = 11;
+  optional bool ch_en_switch = 12;
+  optional bool half_full_switch = 13;
+  optional bool use_en_punctuation_switch = 14;
+  optional bool minus_equal_switch = 15;
+  optional bool left_right_square_switch = 16;
+  optional bool comma_period_switch = 17;
+  optional bool shift_tab_switch = 18;
+  optional string text_before_cursor = 19;
+  optional enum<.wetype.commands.UpdateType> update_type = 20;
+  repeated message<.wetype.commands.DictItem> dict_list = 21;
+  optional bool spell_plus_switch = 22;
+  optional string log_data = 23;
+  optional message<.wetype.commands.KeyboardTypeInfo> keyboard_type = 24;
+  optional bool need_semi_colon = 25;
+  optional int32 font_size_percentage = 26;
+  enum CommandType {
+    NONE = 0;
+    CREATE_SESSION = 1;
+    DELETE_SESSION = 2;
+    RESET_SESSION = 3;
+    SEND_KEY = 4;
+    SEND_COMMIT = 5;
+    SHUTDOWN = 6;
+    MORE_CANDIDATE = 7;
+    FORCE_EMIT = 8;
+    NO_OPERATION = 9;
+    GET_ALL_CONFIG = 10;
+    STATUS_SWITCH = 11;
+    IS_SYMBOL_TRANSFER = 12;
+    IS_SYMBOL_PAIR = 13;
+    SET_FUZZY_PINYIN = 14;
+    CH_EN_SWITCH = 15;
+    HALF_FULL_SWITCH = 16;
+    USE_EN_PUNCTUATION_SWITCH = 17;
+    MINUS_EQUAL_SWITCH = 18;
+    LEFT_RIGHT_SQUARE_SWITCH = 19;
+    COMMA_PERIOD_SWITCH = 20;
+    SHIFT_TAB_SWITCH = 21;
+    SEND_TEXT_BEFORE_CURSOR = 22;
+    DICT_UPDATE = 23;
+    GET_DICT_INFO = 24;
+    DICT_DEL = 25;
+    CLOUD_DICT_DEL = 26;
+    SPELL_PLUS_SWITCH = 27;
+    RENDERER_HIDE = 28;
+    LOG = 29;
+    SET_KEYBOARD_INFO = 30;
+    NEED_SEMI_COLON = 31;
+    FONT_SIZE_ADJUST = 32;
+  }
+}
+message CrashInfo {
+  optional string dump_dir = 1;
+  optional string image_name = 2;
+  optional int32 type = 3;
+}
+message Output {
+  optional uint64 id = 1;
+  optional message<.wetype.commands.KeyEvent> key = 2;
+  optional message<.wetype.commands.CandidateList> candidateData = 3;
+  optional message<.wetype.commands.PendingList> pendingData = 4;
+  optional string emit_str = 5;
+  optional enum<.wetype.commands.Output.ErrorCode> error_code = 6;
+  optional bool status_switch = 7;
+  optional bool symbol_transfer = 8;
+  optional bool symbol_pair = 9;
+  optional message<.wetype.commands.FuzzyPYInfo> fuzzy_pinyin = 10;
+  optional bool ch_en_switch = 11;
+  optional bool half_full_switch = 12;
+  optional bool use_en_punctuation_switch = 13;
+  optional bool minus_equal_switch = 14;
+  optional bool left_right_square_switch = 15;
+  optional bool comma_period_switch = 16;
+  optional bool shift_tab_switch = 17;
+  optional string engine_version = 18;
+  optional int32 cell_dict_version = 19;
+  repeated message<.wetype.commands.DictItem> dict_list = 20;
+  optional message<.com.tencent.wrbus.pb.WtStatKeyboardActiveReport> active_report = 21;
+  optional message<.com.tencent.wrbus.pb.WtStatCandidateClickReport> candidate_click_report = 22;
+  optional bool spell_plus_switch = 23;
+  optional message<.wetype.commands.KeyboardTypeInfo> keyboard_type = 24;
+  optional bool need_semi_colon = 25;
+  optional int32 font_size_percentage = 26;
+  enum ErrorCode {
+    SESSION_SUCCESS = 0;
+    SESSION_FAILURE = 1;
+  }
+}
+message Command {
+  required message<.wetype.commands.Input> input = 1;
+  required message<.wetype.commands.Output> output = 2;
+}
+message CommandBase {
+  optional int32 version = 1;
+  optional bytes cmd = 2;
+}
+message RespBase {
+  optional int32 version = 1;
+  optional bytes resp = 2;
+}
+message HotWord {
+  optional string hw_id = 1;
+  optional string text = 2;
+  optional string key = 3;
+}
+message HotWordList {
+  repeated message<.wetype.commands.HotWord> hotwords = 1;
+}
+message InputStatus {
+  optional string process_name = 1;
+  optional bool is_chinese = 2;
+  optional bool is_chinese_punctuation = 3;
+  optional bool is_half_ascii = 4;
+}
+message ClipBoardItem {
+  optional string text = 1;
+  optional int64 timestamp = 2;
+  optional enum<.wetype.commands.ClipBoardSourceType> source_type = 3;
+  optional enum<.wetype.commands.ClipBoardContentType> content_type = 4;
+}
+message ClipBoardGuideConfig {
+  optional bool guide_disabled = 1;
+  optional int32 show_times = 2;
+  optional int32 closed_times = 3;
+  optional uint64 last_closed_timestamp = 4;
+}
+message ClipBoardList {
+  repeated message<.wetype.commands.ClipBoardItem> clipboard_items = 1;
+}
+message PunctuationList {
+  repeated string symbol_items = 1;
+}
+message CloudSearchCandidate {
+  optional string id = 1;
+  optional uint32 type = 2;
+  optional string resource = 3;
+  optional string text = 4;
+  optional uint32 flag = 5;
+  optional string aes_key = 6;
+  optional string md5 = 7;
+  optional string thumb_url = 8;
+  optional string tmpl_md5 = 9;
+  optional uint64 tmpl_docid = 10;
+  optional string search_keyword = 11;
+  optional float score = 12;
+  optional bool to_recommend = 13;
+  optional string sentiment = 14;
+  optional bool is_placeholder = 15;
+  optional int32 global_source = 16;
+  optional string intellectual_property = 17;
+  optional string data_to_report = 18;
+  optional string album_product_id = 19;
+  optional string file_name = 20;
+}
+message CloudSearchResult {
+  repeated message<.wetype.commands.CloudSearchCandidate> candidates = 1;
+  optional string tmp_dir = 2;
+}
+message ReportInfo {
+  optional uint64 session_id = 1;
+  optional bool is_backspace = 2;
+  optional int64 press_timestamp = 3;
+  optional int64 press_arrive_timestamp = 4;
+  optional int64 candidate_prepare_timestamp = 5;
+  optional int64 candidate_arrive_timestamp = 6;
+  optional int64 load_more_arrive_timestamp = 7;
+  optional int64 more_prepare_timestamp = 8;
+  optional int64 more_arrive_timestamp = 9;
+  optional int64 ui_update_timestamp = 10;
+  optional int64 send_key_interval = 11;
+  optional int32 pending_length = 12;
+  optional enum<.wetype.commands.KeyboardType> kb_type = 13;
+  optional int64 session_lifetime = 14;
+}
+message ReportBase {
+  required enum<.wetype.commands.ReportType> type = 1;
+  required bytes data = 2;
+}
+message FixedUserInfo {
+  optional string id = 1;
+  optional string text = 2;
+  optional bool to_add = 3;
+}
+message FixedCandidateExtraInfo {
+  optional bool can_fix_position_by_user = 1;
+  optional bool position_fixed_by_user = 2;
+  optional bool can_add_to_block_list_by_user = 3;
+  required string candidate_id = 4;
+}
+message TipDebugLogEntry {
+  optional uint64 sequence = 1;
+  optional uint64 timestamp_ms = 2;
+  optional uint32 thread_id = 3;
+  optional int32 level = 4;
+  optional string tag = 5;
+  optional string message = 6;
+  optional string file = 7;
+  optional uint32 line = 8;
+  optional string function = 9;
+  optional uint64 original_size = 10;
+  optional bool oversized = 11;
+}
+message TipDebugLogBatch {
+  required uint32 version = 1;
+  repeated message<.wetype.commands.TipDebugLogEntry> entries = 2;
+  optional uint64 dropped_count = 3;
+}
+message CommandV1 {
+  repeated message<.wetype.commands.CommandV1.Detail> cmd = 1;
+  optional message<.wetype.commands.ApplicationInfo> application_info = 2;
+  repeated message<.wetype.commands.CommandV1.RendererDetail> renderer_cmd = 3;
+  repeated message<.wetype.commands.CommandV1.UpdateUtilDetail> update_util_cmd = 4;
+  message RefetchContextReportPayload {
+    optional int64 refetch_count = 1;
+    optional string cycle_mode = 2;
+    optional string cycle_end_reason = 3;
+    optional int64 key_count = 4;
+    optional int64 content_mismatch_count = 5;
+    optional int64 punct_after_refetch_count = 6;
+    optional int64 english_boundary_count = 7;
+    optional int64 diff_rate_permille = 8;
+    optional int64 failed_refetch_count = 9;
+    optional int64 before_diff_rate_permille = 10;
+    optional int64 rollback_failed_count = 11;
+    optional int64 cursor_weighted_diff_rate_permille = 12;
+  }
+  message FileTransferCredentials {
+    optional string local_cert = 1;
+    optional string local_key = 2;
+    optional string remote_ca_cert = 3;
+    optional string server_name = 4;
+  }
+  message FileTransferStartServerReq {
+    optional uint32 port = 1;
+    optional message<.wetype.commands.CommandV1.FileTransferCredentials> credentials = 2;
+  }
+  message FileTransferConnectReq {
+    optional string server_addr = 1;
+    optional message<.wetype.commands.CommandV1.FileTransferCredentials> credentials = 2;
+  }
+  message FileTransferUploadFilesReq {
+    repeated string local_paths = 1;
+  }
+  message FileTransferConnectBoundDeviceReq {
+    optional string uin = 1;
+    optional string device_name = 2;
+    optional uint32 platform = 3;
+  }
+  message FileTransferSetDownloadDirReq {
+    optional string download_dir = 1;
+  }
+  message GetTaskQueueStatusOpt {
+    required uint64 seq_id = 1;
+    required bool wait_search_result = 2;
+  }
+  message Detail {
+    optional int32 command_type = 1;
+    optional message<.wetype.commands.KeyEvent> key = 2;
+    optional int32 int_value = 3;
+    optional string str_value = 4;
+    optional message<.wetype.commands.CandidateWord> commit = 5;
+    optional string log_value = 6;
+    optional string uin = 7;
+    optional int32 reverse_cursor_pos = 8;
+    optional bool is_chinese = 9;
+    optional message<.wetype.commands.InputStatus> input_status = 10;
+    optional bool chinese_use_english_punctuation = 11;
+    optional message<.wetype.commands.CommandV1.GetTaskQueueStatusOpt> get_task_queue_status_opt = 12;
+    optional message<.wetype.commands.SessionTypeConfig> session_type_config = 101;
+    optional message<.wetype.commands.SessionTypeConfig> check_config = 102;
+    optional message<.wetype.commands.ReportInfo> report = 103;
+    optional enum<.wetype.commands.EngineCandidateMode> engine_candidate_mode = 104;
+    optional int64 clip_item_fetch_count = 105;
+    optional bool clip_load_more = 106;
+    optional message<.wetype.commands.ClipBoardItem> additional_clip_item = 107;
+    optional bool bool_value = 108;
+    optional enum<.wetype.commands.EngineCandidateListType> candidate_list_type = 109;
+    optional bool emit_only_selection = 110;
+    optional bool is_more_candidate_mode = 111;
+    optional string context_prev_text = 112;
+    optional string context_after_text = 113;
+    optional uint32 context_change_reason = 114;
+    optional uint32 ai_search_accept_text_type = 115;
+    repeated message<.wetype.commands.CandidateWord> display_candidates = 116;
+    optional message<.wetype.commands.FixedUserInfo> fixed_user_info = 117;
+    optional int32 int_value2 = 118;
+    optional message<.wetype.commands.CloudSearchCandidate> cloud_search_candidate = 119;
+    optional message<.wetype.commands.CommandV1.RefetchContextReportPayload> refetch_context_report = 120;
+  }
+  message StatusBarInfo {
+    optional int32 status_info = 1;
+    optional enum<.wetype.commands.CommandV1.StatusBarOperateType> operate_type = 2;
+    optional message<.wetype.commands.Point> position = 3;
+    optional bool config_hide_status_bar = 4;
+  }
+  message AiPanelConfigInfo {
+    optional bool ai_panel_need_focus = 1;
+    optional bool ai_panel_need_center = 2;
+    optional int32 ai_panel_question_type = 3;
+    optional string ai_extra_log_info = 4;
+  }
+  message RendererDetail {
+    optional int32 renderer_command_type = 1;
+    optional message<.wetype.commands.CandidateList> candidate_data = 2;
+    optional message<.wetype.commands.Point> current_position = 3;
+    optional enum<.wetype.commands.CandidateMode> candidate_mode = 4;
+    optional bool candidate_has_more = 5;
+    optional uint32 parent_hwnd_dpi = 6;
+    optional uint32 candidate_font_size = 7;
+    optional bool has_pending_data = 8;
+    optional uint32 first_pending_type = 9;
+    optional uint32 last_pending_type = 10;
+    optional message<.wetype.commands.KeyEvent> key = 11;
+    optional message<.wetype.commands.CommandV1.StatusBarInfo> statusbar_info = 12;
+    optional message<.wetype.commands.ReportInfo> report = 13;
+    optional message<.wetype.commands.HotWordList> hotword_list = 14;
+    optional message<.wetype.commands.ClipBoardList> clipboard_list = 15;
+    optional enum<.wetype.commands.CandidateVmodeTabId> vmode_tab_id = 16;
+    optional int64 clip_max_count = 17;
+    optional bool clip_board_valid = 18;
+    optional enum<.wetype.commands.CandidateVmodeExtraType> vmode_extra_type = 19;
+    optional enum<.wetype.commands.CandidateQuitEventType> quit_event_type = 20;
+    optional enum<.wetype.commands.FlutterUtilMode> util_mode = 21;
+    optional message<.wetype.commands.AiSearchResult> ai_search_result = 22;
+    repeated message<.wetype.commands.ReportBase> report_base = 23;
+    optional string ai_search_text = 24;
+    optional message<.wetype.commands.UpdateWindowStatus> update_window_status_opt = 25;
+    optional string bundle_id = 26;
+    optional enum<.wetype.commands.UtilQuitEventType> util_quit_event_type = 27;
+    optional bool is_vmode_choice = 28;
+    optional bool move_pending_valid = 29;
+    optional bool ai_search_immediately = 30;
+    optional enum<.wetype.commands.UpdateQuitEventType> update_window_quit_type = 31;
+    optional bool ai_panel_need_focus = 32;
+    optional bool ai_panel_need_center = 33;
+    optional int32 ai_panel_question_type = 34;
+    optional string ai_extra_log_info = 35;
+    optional enum<.wetype.commands.IndepePanelType> indep_panel_type = 36;
+    optional message<.wetype.commands.RendererWindowStatus> renderer_window_status_opt = 37;
+    optional string pending_text = 38;
+  }
+  message UpdateUtilDetail {
+    optional int32 update_util_type = 1;
+    optional message<.wetype.commands.CommandV1.StatusBarInfo> statusbar_info = 2;
+    optional message<.wetype.commands.Point> current_position = 3;
+    optional string str_value = 4;
+    optional bool bool_value = 5;
+    optional int32 int_value = 6;
+    optional uint32 parent_hwnd_dpi = 7;
+    optional string bundle_id = 8;
+    optional string ai_search_text = 9;
+    optional message<.wetype.commands.CommandV1.AiPanelConfigInfo> ai_panel_config_info = 10;
+    optional enum<.wetype.commands.CommandV1.UtilMTCommandType> util_mt_task_type = 11;
+    optional message<.wetype.commands.UpdateWindowStatus> update_window_status_opt = 12;
+    optional enum<.wetype.commands.UpdateQuitEventType> update_window_quit_type = 13;
+    optional uint32 candidate_font_size = 14;
+    optional enum<.wetype.commands.FlutterUtilMode> util_mode = 15;
+    optional int32 ai_intent = 16;
+    optional string capture_signal = 17;
+    optional int32 voice_committed_utf16_len = 18;
+  }
+  enum RenderCommandType {
+    RENDER_NONE = 0;
+    RENDER_UPDATE = 1;
+    RENDER_CHANGEPOS = 2;
+    RENDER_SELECT_CUR_CANDIDATE = 3;
+    RENDER_SELECT_NEXT_LINE = 4;
+    RENDER_SELECT_PREV_LINE = 5;
+    RENDER_SENDKEY = 6;
+    RENDER_HIDE = 7;
+    RENDER_CHECK_FEATURE = 8;
+    RENDER_DTOR_INPUT_STATUS = 9;
+    RENDER_VMODE_EXTRA_DATA_UPDATE = 10;
+    RENDER_REPORT = 11;
+    RENDER_UTIL_WINDOW_UPDATE = 12;
+    RENDER_AI_SEARCH_RESULT_UPDATE = 13;
+    RENDER_HIDE_FLUTTER_UTIL = 14;
+    RENDER_GET_UPDATE_WINDOW_STATUS = 15;
+    RENDER_PENDING_UPDATE = 16;
+  }
+  enum UpdateUtilCommandType {
+    UTIL_NONE = 0;
+    UTIL_GET_UPDATE_WINDOW_STATUS = 1;
+    UTIL_RENDER_DTOR_INPUT_STATUS = 2;
+    UTIL_MAIN_THREAD_TASK = 3;
+    UTIL_UTIL_FLUTTER_WINDOW_UPDATE = 4;
+    UTIL_UTIL_HIDE_FLUTTER_WINDOW = 5;
+    UTIL_CHECK_FEATURE = 6;
+    UTIL_IME_FOCUS_CHANGED = 14;
+    UTIL_DIRECT_EMIT_RESULT = 15;
+    UTIL_VOICE_SMART_PUNCT_SAMPLE = 16;
+    UTIL_INPUT_FIELD_CONTEXT_CHANGED = 17;
+    UTIL_HOST_INPUT_EVENT = 18;
+    UTIL_VOICE_PRE_TEXT = 19;
+    UTIL_VOICE_COMPOSITION_STATE_CHANGED = 20;
+    UTIL_VOICE_MANUAL_INPUT_STOP = 21;
+  }
+  enum UtilMTCommandType {
+    MT_NONE = 0;
+    MT_SHOW_SETTING_WINDOW = 1;
+    MT_DESTROY_FLUTTER_WINDOWS = 2;
+    SHOW_UTIL_WINDOW = 3;
+    SHOW_HOTWORD_WINDOW = 4;
+    SHOW_CLIPBORAD_WINDOW = 5;
+    SHOW_TRANSLATE_WINDOW = 6;
+    SHOW_VOICE_INPUT_WINDOW = 7;
+    UPDATE_VOICE_DATA = 8;
+    SHOW_FILE_TRANSFER_WINDOW = 9;
+  }
+  enum CommandType {
+    NONE = 0;
+    SEND_KEY = 1;
+    SELECT_CANDIDATE = 2;
+    CREATE_SESSION = 3;
+    NULL_DESTROY_SESSION = 4;
+    NULL_FORCE_EMIT_PENDING = 5;
+    NULL_SELECT_DEFAULT_CANDIDATE = 6;
+    SELECT_LARGE_EMOJI = 7;
+    BOOL_LOST_FOCUS = 100;
+    BOOL_GAINT_FOCUS = 101;
+    INT_MORE_CANDIDATE = 102;
+    NULL_GET_ALL_CONFIG = 103;
+    STR_SEND_TEXT_AROUND_CURSOR = 104;
+    MOVE_CURSOR = 105;
+    SET_CH_EN_STATUS = 106;
+    GET_CH_EN_STATUS = 107;
+    SET_INPUT_STATUS = 108;
+    GET_INPUT_STATUS = 109;
+    SET_CHINESE_USE_ENGLISH_PUNCTUATION = 110;
+    GET_CHINESE_USE_ENGLISH_PUNCTUATION = 111;
+    GET_TASK_QUEUE_STATUS = 112;
+    REQUEST_VMODE_EXTRA_DATA = 113;
+    CLEAR_CLIPBOARD = 114;
+    REMOVE_CLIPBOARD_ITEM = 115;
+    SWITCH_CLIP_VALID = 116;
+    SWITCH_VMODE_OPTION = 117;
+    AI_SEARCH = 118;
+    GET_SUGGESTION = 119;
+    SET_MORE_MODE = 120;
+    REPORT_PUNCT_STR = 121;
+    CLEAR_CANDIDATE_CLOUD_CACHE = 122;
+    FOCUSED_STATUS_CHANGE = 123;
+    UPDATE_CLIPBOARD_GUIDE_STATUS = 124;
+    CLEAR_DOWNLOAD_DICTS = 125;
+    CHECK_CANDIDATE_EXTRA_INFO = 126;
+    ADD_FIXED_USER_HOTWORD = 127;
+    DELETE_USER_HISTORY_IN_SESSION = 128;
+    TRANSLATE = 129;
+    FETCH_CONFIG = 200;
+    SET_SESSION_CONFIG = 201;
+    SET_GLOBAL_CONFIG = 202;
+    GET_HOT_WORD = 203;
+    ADD_HOT_WORD = 204;
+    UPDATE_HOT_WORD = 205;
+    REMOVE_HOT_WORD = 206;
+    NULL_GET_GROUP_INFO = 207;
+    SIMULATE_CRASH = 208;
+    SET_ENABLE_ASK_AI = 209;
+    SET_ENABLE_LARGE_EMOJI = 210;
+    NULL_FORCE_UPDATE_DICT = 300;
+    NULL_FETCH_UPDATE_DICT_CONFIG = 302;
+    CMS_CMD_ENGINE = 303;
+    FETCH_UIN = 400;
+    NULL_UPDATE_GROUP = 401;
+    NULL_FETCH_GROUP_INFO_CONFIG = 402;
+    NULL_SET_USER_DICT_SYNC = 403;
+    SET_NEW_UIN = 404;
+    SET_DEBUG_NET = 405;
+    GET_HOT_WORD_KEY_RECOMMENDATION = 406;
+    SEARCH_DYNAMIC_EMOJI = 407;
+    FILE_TRANSFER_START_SERVER = 408;
+    FILE_TRANSFER_CONNECT = 409;
+    FILE_TRANSFER_UPLOAD_FILES = 410;
+    FILE_TRANSFER_CANCEL_UPLOAD = 411;
+    FILE_TRANSFER_CANCEL_DOWNLOAD = 412;
+    FILE_TRANSFER_FETCH_CODE = 413;
+    FILE_TRANSFER_DISCONNECT = 414;
+    FILE_TRANSFER_GET_STATE = 415;
+    FILE_TRANSFER_CONNECT_BOUND_DEVICE = 416;
+    REPORT_REFETCH_CONTEXT = 417;
+    NULL_PULL_CROSS_PLATFORM_CLIPBOARD = 418;
+    LOG = 1000;
+  }
+  enum DictUpdateType {
+    NoUpdate = 0;
+    DictUpdateNormal = 1;
+    DictUpdateHot = 2;
+  }
+  enum StatusBarOperateType {
+    DeactivateHide = 1;
+    KillfocusHide = 2;
+    ActivateShow = 3;
+    GetfocusShow = 4;
+    Update = 5;
+  }
+}
+message GlobalTypeConfig {
+  optional int32 config_ver = 1;
+  optional uint64 config_v1 = 2;
+  optional message<.wetype.commands.Point> status_bar_pos = 10;
+  optional int32 font_size = 11;
+  optional message<.wetype.commands.ClipBoardList> clipboard_list = 12;
+  optional bool clip_board_valid = 13;
+  optional bool enable_auto_update = 14;
+  optional bool enable_ai_search = 15;
+  optional bool enable_standalone = 16;
+  optional bool enable_v_mode_valid = 17;
+  optional bool enable_network_debug_mode = 18;
+  optional bool enable_easter_egg = 19;
+  optional bool show_candidate_kind_flag = 20;
+  optional enum<.wetype.commands.GlobalTypeConfig.ThemeMode> theme_mode = 21;
+  optional bool floating_ball_valid = 22;
+  optional int32 toolbar_settings = 23;
+  optional int32 file_transfer_channel_mode = 24;
+  optional bool had_hide_status_bar = 25;
+  optional bool enable_weinspector_log = 26;
+  enum ThemeMode {
+    system = 0;
+    light = 1;
+    dark = 2;
+  }
+  enum GlobalTypeConfigV1 {
+    hide_status_windows = 1;
+    enable_shift_switch_cn_en = 2;
+    enable_half_full_switch = 4;
+    enable_en_symbol_in_cn = 8;
+    auto_switch_symbol = 16;
+    auto_symbol_pair = 32;
+    enable_page_switch_EQUAL_SUBTRACT = 64;
+    enable_page_switch_MID_BRACKET = 128;
+    enable_page_switch_COMMA_PERIOD = 256;
+    enable_page_switch_SHIFT_TAB = 512;
+    enable_slash_switch = 1024;
+    enable_second_third_emit_semicolon_quote = 2048;
+    enable_second_third_emit_ctrl = 4096;
+    enable_cn_en_ctrl_switch = 8192;
+    enable_cn_en_ctrl_space_switch = 16384;
+    enable_traditional_chinese_switch = 32768;
+    enable_ai_search_immediately = 65536;
+    enable_voice_click_key = 131072;
+    enable_voice_long_press_key = 262144;
+    disable_auto_refinement = 524288;
+    show_status_bar_without_focus = 1048576;
+  }
+  enum ToolbarSettingIndex {
+    cn_eng_switch = 1;
+    punctuation = 2;
+    full_half_width = 4;
+    voice_input = 8;
+    file_transfer = 16;
+    voice_recorder = 32;
+    translate = 64;
+    clipboard = 128;
+    symbol = 256;
+    hotword = 512;
+    ask_ai = 1024;
+  }
+}
+message SessionTypeConfig {
+  optional bool enable_spelling_plus = 1;
+  optional bool with_async_session_wrapper = 2;
+  optional bool with_search_candidate_instantly_session_wrapper = 3;
+  optional enum<.wetype.commands.SessionTypeConfig.KeyboardType> keyboard_type = 4;
+  optional message<.wetype.commands.SessionTypeConfig.InputAugmentOption> input_augment_option = 5;
+  optional bool enable_double_pin_global = 6;
+  optional enum<.wetype.commands.SessionTypeConfig.WubiSolution> wubi_solution = 7;
+  optional bool enable_fuzzy_global = 8;
+  optional bool use_wechat_internal_emoji = 9;
+  optional bool enable_candidate_expression = 10;
+  optional bool enable_candidate_recommend = 11;
+  optional message<.wetype.commands.SessionTypeConfig.CloudEngineOption> cloud_engine_opt = 12;
+  optional bool enable_user_hot_word_recommend = 13;
+  optional enum<.wetype.commands.SessionTypeConfig.SimplifiedToTraditional> simplified_to_traditional = 14;
+  optional bool need_semi_colon = 15;
+  optional bool keep_last_status = 16;
+  optional bool is_default_chinese = 17;
+  optional bool chinese_use_english_punctuation = 18;
+  optional message<.wetype.commands.SessionTypeConfig.EmojiOption> emoji_option = 19;
+  message WubiConfig {
+    optional bool enable_pinyin = 1;
+    optional bool emit_unique_candidate = 2;
+    optional bool emit_when_input_next_rune = 3;
+    optional bool wildcard_comment = 4;
+    optional bool enable_comment = 5;
+  }
+  message InputAugmentOption {
+    optional bool enable_shift_key_correction = 1;
+    optional bool enable_exchange = 2;
+    optional bool enable_keyboard_neighbour = 3;
+    optional bool enable_insert_at_middle = 4;
+    optional bool enable_skip = 5;
+    optional bool enable_nl = 6;
+    optional bool enable_rl = 7;
+    optional bool enable_hf = 8;
+    optional bool enable_gk = 9;
+    optional bool enable_ang = 10;
+    optional bool enable_iang = 11;
+    optional bool enable_uang = 12;
+    optional bool enable_c_ch = 13;
+    optional bool enable_s_sh = 14;
+    optional bool enable_z_zh = 15;
+    optional bool enable_hui_fei = 16;
+    optional bool enable_eng = 17;
+    optional bool enable_ing = 18;
+    optional bool enable_ong = 19;
+    optional bool enable_huang_wang = 20;
+    optional bool enable_un_ong = 21;
+    optional bool enable_un_iong = 22;
+    optional bool enable_an_ai = 23;
+    optional bool enable_eng_ong = 24;
+    optional enum<.wetype.commands.SessionTypeConfig.DoublePinSolution> double_pin_solution = 25;
+    optional message<.wetype.commands.SessionTypeConfig.WubiConfig> wubi_config = 26;
+  }
+  message CloudEngineOption {
+    optional bool enable_cloud_correction = 1;
+    optional bool enable_cloud_search_by_input = 2;
+    optional bool enable_cloud_most_likely = 3;
+    optional int32 cloud_search_by_input_return_cnt = 4;
+    optional int32 cloud_search_by_input_predict_next_n = 5;
+    optional uint32 cloud_search_min_interval = 6;
+  }
+  message EmojiOption {
+    optional bool enable_normal_emoji = 1;
+    optional bool enable_kao_emoji = 2;
+    optional bool enable_big_emoji = 3;
+  }
+  enum KeyboardType {
+    FULL_PINYIN = 0;
+    T9_PINYIN = 1;
+    FULL_ENGLISH = 2;
+    HAND_WRITING = 3;
+    T9_STROKE = 4;
+    FULL_WUBI = 5;
+  }
+  enum DoublePinSolution {
+    DISABLED = 0;
+    SOGOU = 1;
+    MICROSOFT = 2;
+    XIAOHE = 3;
+    PINYINPLUSPLUS = 4;
+    NATURECODE = 5;
+    ZIGUANG = 6;
+    SMARTABC = 7;
+  }
+  enum WubiSolution {
+    WUBI_86 = 0;
+    WUBI_98 = 1;
+    WUBI_NEW_CENTURY = 2;
+  }
+  enum SimplifiedToTraditional {
+    DISABLE = 0;
+    TAIWAN = 1;
+  }
+}
+message FileTransferEvent {
+  optional enum<.wetype.commands.FileTransferEvent.EventType> event_type = 1;
+  optional string file_path = 2;
+  optional int32 status_code = 3;
+  optional string error_msg = 4;
+  optional uint64 did_send_bytes = 5;
+  optional uint64 total_sent_bytes = 6;
+  optional uint64 did_write_bytes = 7;
+  optional uint64 total_written_bytes = 8;
+  optional uint64 num_tasks = 9;
+  optional string task_id = 10;
+  optional uint64 file_size = 11;
+  optional string transfer_code = 12;
+  optional bytes p2p_get_peer_rsp = 13;
+  repeated message<.wetype.commands.FileTransferEvent.TaskInfoItem> task_infos = 14;
+  optional string device_name = 15;
+  optional int32 device_type = 16;
+  optional int32 connection_phase = 17;
+  optional int32 transfer_phase = 18;
+  repeated message<.wetype.commands.FileTransferEvent.TaskStateItem> task_states = 19;
+  optional string download_dir = 20;
+  optional int32 grpc_channel_state = 21;
+  optional int32 wxp2p_channel_state = 22;
+  optional int32 channel_hint = 23;
+  optional string qr_code_img = 24;
+  optional int32 disconnect_reason = 25;
+  optional uint32 pending_upload_count = 26;
+  optional bool peer_supports_folder = 27;
+  optional bool peer_capabilities_known = 28;
+  message TaskInfoItem {
+    optional string task_id = 1;
+    optional string file_path = 2;
+    optional uint64 file_size = 3;
+    optional bool is_directory = 4;
+    optional string relative_path = 5;
+  }
+  message TaskStateItem {
+    optional string task_id = 1;
+    optional string file_path = 2;
+    optional uint64 file_size = 3;
+    optional uint64 transferred_bytes = 4;
+    optional int32 status = 5;
+    optional bool is_directory = 6;
+  }
+  enum EventType {
+    EVENT_NONE = 0;
+    START_SERVER_DONE = 1;
+    CONNECT_DONE = 2;
+    READ_FILE_ERROR = 3;
+    WILL_START_UPLOAD_TASKS = 4;
+    UPLOAD_TASK_DONE = 5;
+    UPLOAD_TASK_PROGRESS = 6;
+    WILL_START_DOWNLOAD_TASKS = 7;
+    DOWNLOAD_TASK_DONE = 8;
+    DOWNLOAD_TASK_PROGRESS = 9;
+    CLIENT_CONNECTED = 10;
+    FETCH_CLIENT_CODE_DONE = 11;
+    CONNECTING = 12;
+    TRANSFER_PEER_POLL_TIMEOUT = 13;
+    PEER_DISCONNECTED = 14;
+    STATE_SNAPSHOT = 15;
+  }
+}
+message RespBodyV1 {
+  optional uint32 pid = 1;
+  repeated message<.wetype.commands.RespBodyV1.Detail> detail = 2;
+  repeated message<.wetype.commands.RespBodyV1.RendererResp> render_detail = 3;
+  repeated message<.wetype.commands.RespBodyV1.UpdateUtilResp> update_util_detail = 4;
+  message TaskQueueStatus {
+    required uint64 seq_id = 1;
+    required enum<.wetype.commands.RespBodyV1.TaskQueueStatusType> type = 2;
+  }
+  message Feature {
+    optional uint32 ai_delay_duration_ms = 1;
+    optional bool allow_recent_copy_suggestion = 2;
+    optional string upgrade_version = 3;
+    optional bool setting_device_sync_tip = 4;
+    optional int32 collect_sys_perf_interval = 5;
+    optional bool use_win7_ui = 6;
+    optional uint32 wechat_refetch_problem_cooldown_seconds = 7;
+  }
+  message Detail {
+    optional int32 type = 1;
+    optional message<.wetype.commands.CandidateList> candidate_data = 2;
+    optional message<.wetype.commands.PendingList> pending_data = 3;
+    optional string emit_str = 4;
+    optional bool candidate_has_more = 5;
+    optional message<.wetype.commands.GlobalTypeConfig> global_type_config = 100;
+    optional message<.wetype.commands.SessionTypeConfig> session_type_config = 101;
+    optional string dict_config = 102;
+    optional message<.wetype.commands.HotWordList> hotword_list = 103;
+    optional bool is_chinese = 104;
+    optional message<.wetype.commands.InputStatus> input_status = 105;
+    optional bool chinese_use_english_punctuation = 106;
+    optional message<.wetype.commands.RespBodyV1.TaskQueueStatus> task_queue_status = 107;
+    optional message<.wetype.commands.ReportInfo> report = 108;
+    optional enum<.wetype.commands.EngineCandidateMode> engine_candidate_mode = 109;
+    optional message<.wetype.commands.ClipBoardList> clipboard_list = 110;
+    optional int64 clip_max_count = 111;
+    optional bool clip_board_valid = 112;
+    optional enum<.wetype.commands.CandidateVmodeExtraType> vmode_extra_type = 113;
+    optional message<.wetype.commands.AiSearchResult> ai_search_result = 114;
+    optional enum<.wetype.commands.EngineCandidateListType> candidate_list_type = 115;
+    optional message<.wetype.commands.PunctuationList> punctuation_list = 116;
+    optional message<.wetype.commands.FixedCandidateExtraInfo> fixed_candidate_extra_info = 117;
+    optional message<.wetype.commands.TranslateResult> translate_result = 118;
+    optional message<.wetype.commands.CloudSearchResult> cloud_search_result = 119;
+    optional bool file_transfer_ok = 120;
+    optional string file_transfer_error = 121;
+    optional bytes file_transfer_event = 122;
+    optional bool enable_refetch_context = 123;
+    optional bool enable_wechat_refetch_context = 124;
+  }
+  message RendererResp {
+    optional int32 render_resp_type = 1;
+    optional uint32 candidate_index = 2;
+    optional uint32 number_to_server = 3;
+    optional enum<.wetype.commands.CandidateMode> candidate_mode = 4;
+    optional uint32 candidate_count = 5;
+    optional uint32 move_pending_direct = 6;
+    optional bool use_new_candidate_mode = 7;
+    optional message<.wetype.commands.CandidateList> candidate_data = 8;
+    optional bool candidate_has_more = 9;
+    optional int64 clip_item_fetch_count = 10;
+    optional string update_emit_str = 11;
+    optional bool clip_load_more = 12;
+    optional message<.wetype.commands.ClipBoardItem> additional_clip_item = 13;
+    optional string str_value = 14;
+    optional bool bool_value = 15;
+    optional int32 int_value = 16;
+    optional bool select_v_choice = 17;
+    optional bool emit_by_paste = 18;
+    optional string special_select_text = 19;
+    optional message<.wetype.commands.UpdateWindowStatus> update_window_status = 20;
+    optional uint32 ai_delay_duration_ms = 21;
+    optional string left_symbol = 22;
+    optional string right_symbol = 23;
+    optional uint32 display_candidate_start_index = 24;
+    optional uint32 display_candidate_end_index = 25;
+    optional string ai_extra_log_info = 26;
+    optional bool allow_recent_copy_suggestion = 27;
+    optional message<.wetype.commands.RendererWindowStatus> renderer_window_status = 28;
+    optional message<.wetype.commands.FixedUserInfo> fixed_user_info = 29;
+    optional int32 ai_intent = 30;
+    optional bool select_is_first_screen = 31;
+    optional message<.wetype.commands.CloudSearchCandidate> cloud_search_candidate = 32;
+    optional int32 voice_generation = 33;
+  }
+  message UpdateUtilResp {
+    optional int32 util_resp_type = 1;
+    optional message<.wetype.commands.UpdateWindowStatus> update_window_status = 2;
+    optional message<.wetype.commands.RespBodyV1.Feature> feature = 3;
+    optional string str_value = 4;
+    optional bool bool_value = 5;
+    optional int32 int_value = 6;
+    optional message<.wetype.commands.Point> current_position = 7;
+    optional string voice_raw_text = 9;
+  }
+  enum RespType {
+    emit = 1;
+    candidateUpdate = 2;
+    pendiUpdate = 3;
+    configUpdate = 4;
+    dictConfigUpdate = 5;
+    hotwordUpdate = 6;
+    groupConfigUpdate = 7;
+    ch_en_status = 8;
+    paste = 9;
+    input_status_sync = 10;
+    chinese_use_english_punctuation = 11;
+    get_task_queue_status = 12;
+    vmode_extra_data_update = 13;
+    ai_search_result_update = 14;
+    suggestion_update = 15;
+    show_clipboard_alert = 16;
+    resp_fixed_candidate_extra_info = 17;
+    hot_word_key_recommendation = 18;
+    translate_result = 19;
+    cloud_search_update = 20;
+    file_transfer_result = 21;
+    file_transfer_event = 22;
+  }
+  enum UpdateUtilRespType {
+    UPDATE_UTIL_None = 0;
+    UPDATE_UTIL_NEW_VERSION = 1;
+    UPDATE_SIMULATE_CRASH = 2;
+    UPDATE_WINDOW_STATUS = 3;
+    UPDATE_FEATURE = 4;
+    UPDATE_CONSUME_NEW_VERSION_KEY = 5;
+    LAUNCH_INDEPENDENT_PANEL = 6;
+    RECORD_VOICE_STATUS = 7;
+    VOICE_TEXT_EMIT = 8;
+    TOOLBAR_CLICK_VOICE_INPUT = 9;
+    SHOW_REFETCH_DEBUG_WINDOW = 10;
+    SET_WECHAT_REFETCH_EXPERIMENT = 11;
+  }
+  enum RenderRespType {
+    none = 0;
+    select_candidate_index = 1;
+    send_number_to_server = 2;
+    change_candidate_mode = 3;
+    move_pending_cursor = 4;
+    feature_update = 5;
+    discard_pending = 6;
+    request_vmode_extra_data = 7;
+    emit_str_direct = 8;
+    clear_clipboard = 9;
+    remove_clipboard_item = 10;
+    add_hot_word = 11;
+    switch_clip_valid = 12;
+    force_emit_pending = 13;
+    ai_search_to_tip = 14;
+    update_window_status = 15;
+    emit_punctuation = 16;
+    launch_active_vmode = 17;
+    launch_active_ai = 18;
+    simulate_crash = 19;
+    launch_active_indep_panel = 20;
+    add_fixed_user_hotword = 21;
+    delete_user_history_in_session = 22;
+    select_large_emoji = 23;
+    launch_voice_input = 24;
+    launch_active_file_transfer = 25;
+    request_voice_smart_punct_sample = 26;
+    request_voice_pre_text = 27;
+    request_host_input_idle_query = 28;
+  }
+  enum TaskQueueStatusType {
+    kIdle = 1;
+    kSearching = 2;
+    kCandidateReady = 3;
+  }
+}
+enum CompositionMode {
+  DIRECT = 0;
+  WECHATINPUT = 1;
+  HALF_ASCII = 2;
+  FULL_ASCII = 3;
+  NUM_OF_COMPOSITIONS = 4;
+}
+enum UtilQuitEventType {
+  Util_QUIT_Invalid = 0;
+  Util_QUIT_Escape = 1;
+  Util_QUIT_Delete = 2;
+  Util_QUIT_LossFocus = 3;
+  Util_QUIT_Else = 4;
+}
+enum CandidateQuitEventType {
+  Quit_ELSE = 0;
+  Quit_ESCAPE = 1;
+  Quit_DELETE = 2;
+  Quit_LOSS_FOCUS = 3;
+}
+enum UpdateQuitEventType {
+  Update_Quit_ELSE = 0;
+  Update_Quit_Escape = 1;
+  Update_Quit_Backspace = 2;
+  Update_Quit_LossFocus = 3;
+}
+enum EngineCandidateListType {
+  LIST_TYPE_PROCESS_INPUT = 0;
+  LIST_TYPE_MOST_LIKELY = 1;
+  CLOUD_LIST_TYPE_PROCESS_INPUT = 2;
+  CLOUD_LIST_TYPE_MOST_LIKELY = 3;
+}
+enum UpdateWindowStatusType {
+  kUpdateDefault = 0;
+  kUtilWindowVisible = 1;
+}
+enum RenderWindowStatusType {
+  kRenderDefault = 0;
+  kCandidateVisible = 1;
+}
+enum WmCopyDataType {
+  SHOW_MENU_WINDOW = 0;
+  RECEIVE_HANDLE = 1;
+  SEND_CRASH_DUMP = 5;
+  GET_STATUSBAR_STATE = 6;
+  SHOW_SETTING_WINDOW = 7;
+  REPORT_KEYBOARD_ACTIVE = 2;
+  REPORT_CANDIDATE_CLICK = 3;
+  REPORT_CLOUD_CANDIDATE_ACTION = 4;
+  REPORT_CANDIDATE_USER_CLICK = 10;
+  REPORT_COMMON_ACTION = 11;
+  FETCH_UIN_MSG = 12;
+  REPORT_COMMON_TERMS = 13;
+  REPORT_KEYBOARD_LOST = 14;
+  REPORT_BUTTON_STATUS = 15;
+  SHOW_SETTING_MULTI_DEVICE = 16;
+  REPORT_CLIPBOARD_SYNC_INFO = 17;
+  REPORT_WIN_PERFORMANCE = 18;
+  REPORT_PERF_PROCESS = 19;
+  REPORT_DICT_UPDATE_STATUS = 20;
+  UPLOAD_LOG = 21;
+  SHOW_FILE_TRANSFER_WINDOW = 22;
+}
+enum EngineCandidateMode {
+  default_mode = 0;
+  v_mode = 1;
+  v_mode_choice = 2;
+}
+enum ClientType {
+  CLIENT_UNKNOWN = 0;
+  CLIENT_TIP = 1;
+  CLIENT_UPDATE = 2;
+  CLIENT_RENDERER = 3;
+}
+enum KeyboardType {
+  KEYBOARD_FULL_PINYIN = 0;
+  KEYBOARD_DOUBLE_PINYIN = 1;
+  KEYBOARD_FULL_WUBI = 2;
+}
+enum DoublePinSolution {
+  DOUBLEPIN_NATURECODE = 0;
+  DOUBLEPIN_SOGOU = 1;
+  DOUBLEPIN_MICROSOFT = 2;
+  DOUBLEPIN_XIAOHE = 3;
+  DOUBLEPIN_PINYINPLUSPLUS = 4;
+  DOUBLEPIN_ZIGUANG = 5;
+  DOUBLEPIN_SMARTABC = 6;
+}
+enum WubiSolution {
+  WUBI_86 = 0;
+  WUBI_98 = 1;
+  WUBI_NEW_CENTURY = 2;
+}
+enum WubiConfig {
+  ENABLE_COMMENT = 1;
+  ENABLE_PINYIN = 2;
+  EMIT_UNIQUE_CANDIDATE = 4;
+  EMIT_WHEN_INPUT_NEXT_TIME = 8;
+}
+enum DictType {
+  DictTypeGeneral = 0;
+  DictTypeCellDict = 1;
+}
+enum UpdateType {
+  UpdateTypeGeneral = 0;
+  UpdateTypeHot = 1;
+  UpdateTypeBuildIn = 2;
+}
+enum CandidateMode {
+  NewMode = 0;
+  MoreMode = 1;
+  EmojiMode = 2;
+  Vmode = 3;
+  TimeCalender = 4;
+  UtilityMode = 5;
+  TipMode = 6;
+  SerialNumPanel = 7;
+  NewModeWithEmoji = 8;
+  IndependentPanel = 9;
+  RecentCopyType = 10;
+  Suggestion = 11;
+  EqualPattern = 12;
+  CandidateNone = 13;
+  NewModeWithBubble = 14;
+  VoiceInput = 15;
+}
+enum IndepePanelType {
+  indep_vfunc = 0;
+  indep_clipboard = 1;
+  indep_hotword = 2;
+  indep_notation = 3;
+}
+enum FlutterUtilMode {
+  kUtilModeNone = 0;
+  kAiSearch = 1;
+}
+enum CandidateVmodeTabId {
+  None = 0;
+  VFunc = 1;
+  ClipBoard = 2;
+  HotWords = 3;
+}
+enum CandidateVmodeExtraType {
+  ExtraTypeAll = 0;
+  ExtraTypeClipBoard = 1;
+  ExtraTypeHotWord = 2;
+  ExtraTypeSymbol = 3;
+}
+enum ClipBoardSourceType {
+  NoneType = 0;
+  Cloud = 1;
+  Local = 2;
+  Temp = 3;
+}
+enum ClipBoardContentType {
+  Text = 0;
+  Image = 1;
+}
+enum ReportType {
+  kReportInvalid = 0;
+  kReportCommonAction = 1;
+  kReportKeyboardLost = 2;
+  kReportPatch = 3;
+  kReportVoiceRollReason = 4;
+}

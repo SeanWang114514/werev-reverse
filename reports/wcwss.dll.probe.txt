@@ -1,0 +1,1233 @@
+
+===== [ANTI-DEBUG] 11 =====
+  0x00294610 A uint32_c2i
+  0x00294620 A uint32_new
+  0x002ab398 A INT32
+  0x002ab3a0 A UINT32
+  0x002ab3b8 A ZINT32
+  0x002ab3c0 A ZUINT32
+  0x002e2f60 A GetTickCount64
+  0x00328d4b A ?send_socket_message@wcwss@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IPEBD_K_N@Z
+  0x00329a44 A QueryPerformanceCounter
+  0x0032a100 A SetUnhandledExceptionFilter
+  0x0032a162 A IsDebuggerPresent
+
+===== [ANTI-VM] 2 =====
+  0x002e3d60 A `virtual displacement map'
+  0x0032a0d0 A RtlVirtualUnwind
+
+===== [CRYPTO] 1545 =====
+  0x0025e9a0 A TLS Short Read
+  0x0025e9f0 A Generic TLS related error
+  0x00260f48 A Invalid or empty TLS context supplied
+  0x00260f70 A TLS handshake timed out
+  0x00260fa8 A Required tls_init handler not present.
+  0x00260fd0 A TLS handshake failed
+  0x00260fe8 A Failed to set TLS SNI hostname
+  0x002625d0 A E:\data\landun\workspace\wsss\wcwss\wcwss_tls_handler.cpp
+  0x00264e68 A openssl_conf
+  0x00264ec8 A OPENSSL_init
+  0x00264ed8 A OPENSSL_finish
+  0x00264ef0 A OPENSSL_CONF
+  0x00264f00 A openssl.cnf
+  0x00265040 A common libcrypto routines
+  0x00265078 A ECDSA routines
+  0x00265088 A ECDH routines
+  0x00265188 A HMAC routines
+  0x002651d8 A SM2 routines
+  0x00265210 A ioctlsocket
+  0x002653b0 A ECDSA lib
+  0x00265ea8 A SSL_CERT_DIR
+  0x00265eb8 A SSL_CERT_FILE
+  0x00276fd8 A rsaEncryption
+  0x00276ff0 A md2WithRSAEncryption
+  0x00277008 A RSA-MD5
+  0x00277010 A md5WithRSAEncryption
+  0x00277050 A PBE-MD5-DES
+  0x00277060 A pbeWithMD5AndDES-CBC
+  0x002771a8 A pkcs7-encryptedData
+  0x002772e8 A shaWithRSAEncryption
+  0x00277540 A SHA1
+  0x00277548 A sha1
+  0x00277550 A RSA-SHA1
+  0x00277560 A sha1WithRSAEncryption
+  0x00277598 A dsaEncryption-old
+  0x002775b0 A PBE-SHA1-RC2-64
+  0x002775c0 A pbeWithSHA1AndRC2-CBC
+  0x002775d8 A PBKDF2
+  0x002775e0 A DSA-SHA1-old
+  0x002775f0 A dsaWithSHA1-old
+  0x00277a90 A RSA-NP-MD5
+  0x00277aa0 A md5WithRSA
+  0x00277b48 A pbeWithMD5AndCast5CBC
+  0x00277b60 A DSA-SHA1
+  0x00277b70 A dsaWithSHA1
+  0x00277b80 A MD5-SHA1
+  0x00277b90 A md5-sha1
+  0x00277ba0 A RSA-SHA1-2
+  0x00277bb0 A sha1WithRSA
+  0x00277bc0 A dsaEncryption
+  0x00277cd0 A TLS Web Server Authentication
+  0x00277d00 A TLS Web Client Authentication
+  0x00277df8 A msCTLSign
+  0x00277e58 A Microsoft Encrypted File System
+  0x00277f38 A PBE-SHA1-RC4-128
+  0x00277f50 A pbeWithSHA1And128BitRC4
+  0x00277f68 A PBE-SHA1-RC4-40
+  0x00277f78 A pbeWithSHA1And40BitRC4
+  0x00277f90 A PBE-SHA1-3DES
+  0x00277fa0 A pbeWithSHA1And3-KeyTripleDES-CBC
+  0x00277fc8 A PBE-SHA1-2DES
+  0x00277fd8 A pbeWithSHA1And2-KeyTripleDES-CBC
+  0x00278000 A PBE-SHA1-RC2-128
+  0x00278018 A pbeWithSHA1And128BitRC2-CBC
+  0x00278038 A PBE-SHA1-RC2-40
+  0x00278048 A pbeWithSHA1And40BitRC2-CBC
+  0x00278110 A hmacWithSHA1
+  0x002781e8 A PBE-MD5-RC2-64
+  0x002781f8 A pbeWithMD5AndRC2-CBC
+  0x00278210 A PBE-SHA1-DES
+  0x00278220 A pbeWithSHA1AndDES-CBC
+  0x00278750 A id-smime-aa-smimeEncryptCerts
+  0x00279118 A id-alg-dh-sig-hmac-sha1
+  0x00279200 A id-cmc-encryptedPOP
+  0x00279218 A id-cmc-decryptedPOP
+  0x002797c0 A md4WithRSAEncryption
+  0x002799a0 A ecdsa-with-SHA1
+  0x002799d0 A AES-128-ECB
+  0x002799e0 A aes-128-ecb
+  0x002799f0 A AES-128-CBC
+  0x00279a00 A aes-128-cbc
+  0x00279a10 A AES-128-OFB
+  0x00279a20 A aes-128-ofb
+  0x00279a30 A AES-128-CFB
+  0x00279a40 A aes-128-cfb
+  0x00279a50 A AES-192-ECB
+  0x00279a60 A aes-192-ecb
+  0x00279a70 A AES-192-CBC
+  0x00279a80 A aes-192-cbc
+  0x00279a90 A AES-192-OFB
+  0x00279aa0 A aes-192-ofb
+  0x00279ab0 A AES-192-CFB
+  0x00279ac0 A aes-192-cfb
+  0x00279ad0 A AES-256-ECB
+  0x00279ae0 A aes-256-ecb
+  0x00279af0 A AES-256-CBC
+  0x00279b00 A aes-256-cbc
+  0x00279b10 A AES-256-OFB
+  0x00279b20 A aes-256-ofb
+  0x00279b30 A AES-256-CFB
+  0x00279b40 A aes-256-cfb
+  0x0027a9c8 A setext-genCrypt
+  0x0027acd0 A setAttr-GenCryptgrm
+  0x0027ad10 A encrypted track 2
+  0x0027ae70 A rsaOAEPEncryptionSET
+  0x0027af58 A AES-128-CFB1
+  0x0027af68 A aes-128-cfb1
+  0x0027af78 A AES-192-CFB1
+  0x0027af88 A aes-192-cfb1
+  0x0027af98 A AES-256-CFB1
+  0x0027afa8 A aes-256-cfb1
+  0x0027afb8 A AES-128-CFB8
+  0x0027afc8 A aes-128-cfb8
+  0x0027afd8 A AES-192-CFB8
+  0x0027afe8 A aes-192-cfb8
+  0x0027aff8 A AES-256-CFB8
+  0x0027b008 A aes-256-cfb8
+  0x0027b198 A RSA-SHA256
+  0x0027b1a8 A sha256WithRSAEncryption
+  0x0027b1d0 A sha384WithRSAEncryption
+  0x0027b1e8 A RSA-SHA512
+  0x0027b1f8 A sha512WithRSAEncryption
+  0x0027b220 A sha224WithRSAEncryption
+  0x0027b238 A SHA256
+  0x0027b240 A sha256
+  0x0027b258 A SHA512
+  0x0027b260 A sha512
+  0x0027b618 A wap-wsg-idm-ecid-wtls1
+  0x0027b630 A wap-wsg-idm-ecid-wtls3
+  0x0027b648 A wap-wsg-idm-ecid-wtls4
+  0x0027b660 A wap-wsg-idm-ecid-wtls5
+  0x0027b678 A wap-wsg-idm-ecid-wtls6
+  0x0027b690 A wap-wsg-idm-ecid-wtls7
+  0x0027b6a8 A wap-wsg-idm-ecid-wtls8
+  0x0027b6c0 A wap-wsg-idm-ecid-wtls9
+  0x0027b6d8 A wap-wsg-idm-ecid-wtls10
+  0x0027b6f0 A wap-wsg-idm-ecid-wtls11
+  0x0027b708 A wap-wsg-idm-ecid-wtls12
+  0x0027bc90 A HMAC-MD5
+  0x0027bca0 A hmac-md5
+  0x0027bcb0 A HMAC-SHA1
+  0x0027bcc0 A hmac-sha1
+  0x0027bda0 A id-aes128-wrap
+  0x0027bdb0 A id-aes192-wrap
+  0x0027bdc0 A id-aes256-wrap
+  0x0027bdd0 A ecdsa-with-Recommended
+  0x0027bde8 A ecdsa-with-Specified
+  0x0027be00 A ecdsa-with-SHA224
+  0x0027be18 A ecdsa-with-SHA256
+  0x0027be30 A ecdsa-with-SHA384
+  0x0027be48 A ecdsa-with-SHA512
+  0x0027be60 A hmacWithMD5
+  0x0027be70 A hmacWithSHA224
+  0x0027be80 A hmacWithSHA256
+  0x0027be90 A hmacWithSHA384
+  0x0027bea0 A hmacWithSHA512
+  0x0027bec0 A dsa_with_SHA256
+  0x0027bfc0 A id-HMACGostR3411-94
+  0x0027bfd8 A HMAC GOST 34.11-94
+  0x0027c71c A HMAC
+  0x0027c724 A hmac
+  0x0027ca90 A id-aes128-GCM
+  0x0027caa0 A aes-128-gcm
+  0x0027cab0 A id-aes128-CCM
+  0x0027cac0 A aes-128-ccm
+  0x0027cad0 A id-aes128-wrap-pad
+  0x0027cae8 A id-aes192-GCM
+  0x0027caf8 A aes-192-gcm
+  0x0027cb08 A id-aes192-CCM
+  0x0027cb18 A aes-192-ccm
+  0x0027cb28 A id-aes192-wrap-pad
+  0x0027cb40 A id-aes256-GCM
+  0x0027cb50 A aes-256-gcm
+  0x0027cb60 A id-aes256-CCM
+  0x0027cb70 A aes-256-ccm
+  0x0027cb80 A id-aes256-wrap-pad
+  0x0027cb98 A AES-128-CTR
+  0x0027cba8 A aes-128-ctr
+  0x0027cbb8 A AES-192-CTR
+  0x0027cbc8 A aes-192-ctr
+  0x0027cbd8 A AES-256-CTR
+  0x0027cbe8 A aes-256-ctr
+  0x0027cca0 A AES-128-XTS
+  0x0027ccb0 A aes-128-xts
+  0x0027ccc0 A AES-256-XTS
+  0x0027ccd0 A aes-256-xts
+  0x0027cce0 A RC4-HMAC-MD5
+  0x0027ccf0 A rc4-hmac-md5
+  0x0027cd00 A AES-128-CBC-HMAC-SHA1
+  0x0027cd18 A aes-128-cbc-hmac-sha1
+  0x0027cd30 A AES-192-CBC-HMAC-SHA1
+  0x0027cd48 A aes-192-cbc-hmac-sha1
+  0x0027cd60 A AES-256-CBC-HMAC-SHA1
+  0x0027cd78 A aes-256-cbc-hmac-sha1
+  0x0027cd90 A RSAES-OAEP
+  0x0027cda0 A rsaesOaep
+  0x0027ced0 A dhSinglePass-stdDH-sha1kdf-scheme
+  0x0027cf20 A dhSinglePass-stdDH-sha256kdf-scheme
+  0x0027cf70 A dhSinglePass-stdDH-sha512kdf-scheme
+  0x0027cf98 A dhSinglePass-cofactorDH-sha1kdf-scheme
+  0x0027cff0 A dhSinglePass-cofactorDH-sha256kdf-scheme
+  0x0027d050 A dhSinglePass-cofactorDH-sha512kdf-scheme
+  0x0027d0a0 A AES-128-CBC-HMAC-SHA256
+  0x0027d0b8 A aes-128-cbc-hmac-sha256
+  0x0027d0d0 A AES-192-CBC-HMAC-SHA256
+  0x0027d0e8 A aes-192-cbc-hmac-sha256
+  0x0027d100 A AES-256-CBC-HMAC-SHA256
+  0x0027d118 A aes-256-cbc-hmac-sha256
+  0x0027d278 A AES-128-OCB
+  0x0027d288 A aes-128-ocb
+  0x0027d298 A AES-192-OCB
+  0x0027d2a8 A aes-192-ocb
+  0x0027d2b8 A AES-256-OCB
+  0x0027d2c8 A aes-256-ocb
+  0x0027d518 A id-scrypt
+  0x0027d524 A scrypt
+  0x0027d768 A id-tc26-hmac-gost-3411-2012-256
+  0x0027d788 A HMAC GOST 34.11-2012 256 bit
+  0x0027d7a8 A id-tc26-hmac-gost-3411-2012-512
+  0x0027d7c8 A HMAC GOST 34.11-2012 512 bit
+  0x0027db50 A ChaCha20-Poly1305
+  0x0027db68 A chacha20-poly1305
+  0x0027db80 A ChaCha20
+  0x0027db90 A chacha20
+  0x0027dba0 A tlsfeature
+  0x0027dbb0 A TLS Feature
+  0x0027dbc0 A TLS1-PRF
+  0x0027dbd0 A tls1-prf
+  0x0027ddc8 A X25519
+  0x0027ddf8 A KxECDHE
+  0x0027de00 A kx-ecdhe
+  0x0027de20 A KxECDHE-PSK
+  0x0027de30 A kx-ecdhe-psk
+  0x0027de60 A KxRSA_PSK
+  0x0027dec8 A AuthECDSA
+  0x0027ded8 A auth-ecdsa
+  0x0027e3e8 A SHA512-224
+  0x0027e3f8 A sha512-224
+  0x0027e408 A SHA512-256
+  0x0027e418 A sha512-256
+  0x0027e4e8 A id-hmacWithSHA3-224
+  0x0027e500 A hmac-sha3-224
+  0x0027e510 A id-hmacWithSHA3-256
+  0x0027e528 A hmac-sha3-256
+  0x0027e538 A id-hmacWithSHA3-384
+  0x0027e550 A hmac-sha3-384
+  0x0027e560 A id-hmacWithSHA3-512
+  0x0027e578 A hmac-sha3-512
+  0x0027e5b0 A id-dsa-with-sha512
+  0x0027e5c8 A dsa_with_SHA512
+  0x0027e698 A id-ecdsa-with-sha3-224
+  0x0027e6b0 A ecdsa_with_SHA3-224
+  0x0027e6c8 A id-ecdsa-with-sha3-256
+  0x0027e6e0 A ecdsa_with_SHA3-256
+  0x0027e6f8 A id-ecdsa-with-sha3-384
+  0x0027e710 A ecdsa_with_SHA3-384
+  0x0027e728 A id-ecdsa-with-sha3-512
+  0x0027e740 A ecdsa_with_SHA3-512
+  0x0027e998 A SM4-ECB
+  0x0027e9a0 A sm4-ecb
+  0x0027e9a8 A SM4-CBC
+  0x0027e9b0 A sm4-cbc
+  0x0027e9b8 A SM4-OFB
+  0x0027e9c0 A sm4-ofb
+  0x0027e9c8 A SM4-CFB1
+  0x0027e9d8 A sm4-cfb1
+  0x0027e9e8 A SM4-CFB
+  0x0027e9f0 A sm4-cfb
+  0x0027e9f8 A SM4-CFB8
+  0x0027ea08 A sm4-cfb8
+  0x0027ea18 A SM4-CTR
+  0x0027ea20 A sm4-ctr
+  0x0027ea68 A RSA-SM3
+  0x0027ea70 A sm3WithRSAEncryption
+  0x0027ea88 A RSA-SHA512/224
+  0x0027ea98 A sha512-224WithRSAEncryption
+  0x0027eab8 A RSA-SHA512/256
+  0x0027eac8 A sha512-256WithRSAEncryption
+  0x0027ec78 A hmacWithDstu34311
+  0x0027ec90 A HMAC DSTU Gost 34311-95
+  0x0027f1f8 A hmacWithSHA512-224
+  0x0027f210 A hmacWithSHA512-256
+  0x0027f450 A assertion failed: ctx->digest->md_size <= EVP_MAX_MD_SIZE
+  0x0027f728 A ssl_client
+  0x0027f738 A ssl_server
+  0x002800e0 A S/MIME encryption
+  0x002800f8 A smimeencrypt
+  0x00281f30 A crypto\evp\evp_lib.c
+  0x002825e8 A OpenSSL default
+  0x00282878 A OpenSSL 'win32' shared library method
+  0x00282948 A _OPENSSL_isservice
+  0x002829c0 A %s:%d: OpenSSL internal error: %s
+  0x00282a00 A OpenSSL NIST SP 800-90A DRBG
+  0x00282b58 A aes128-wrap
+  0x00282b64 A AES128
+  0x00282b6c A aes128
+  0x00282b78 A aes192-wrap
+  0x00282b84 A AES192
+  0x00282b8c A aes192
+  0x00282b98 A aes256-wrap
+  0x00282ba4 A AES256
+  0x00282bac A aes256
+  0x00282c48 A ssl3-md5
+  0x00282c58 A ssl3-sha1
+  0x00282d00 A openssl
+  0x00282d20 A (TEST_ENG_OPENSSL_RC4) test_init_key() called
+  0x00282d50 A (TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+  0x00283170 A decrypt error
+  0x00283858 A Set CSP type, (default RSA_PROV_FULL)
+  0x00283b08 A capi_rsa_priv_dec
+  0x00283b20 A capi_rsa_priv_enc
+  0x00283b38 A capi_rsa_sign
+  0x00283c80 A Called CAPI_rsa_sign()
+  0x00283ca8 A Called capi_rsa_priv_dec()
+  0x002841e8 A crypto\rsa\rsa_lib.c
+  0x00288cb0 A SECG/WTLS curve over a 112 bit prime field
+  0x00288d58 A SECG/WTLS curve over a 160 bit prime field
+  0x00288f70 A SECG/WTLS curve over a 131 bit binary field
+  0x00288fc8 A NIST/SECG/WTLS curve over a 163 bit binary field
+  0x00289080 A NIST/SECG/WTLS curve over a 233 bit binary field
+  0x00289300 A WTLS curve over a 113 bit binary field
+  0x00289328 A WTLS curve over a 112 bit prime field
+  0x00289350 A WTLS curve over a 160 bit prime field
+  0x00289378 A WTLS curve over a 224 bit prime field
+  0x002893da A Not suitable for ECDSA.
+  0x002895e8 A SM2 curve over a 256 bit prime field
+  0x00289738 A OpenSSL EC_KEY method
+  0x00289fc8 A ECDSA_SIG
+  0x0028a448 A RSA_PRIME_INFO
+  0x0028a4f8 A RSA_PSS_PARAMS
+  0x0028a538 A RSA_OAEP_PARAMS
+  0x0028b240 A d.encrypted
+  0x0028b3d0 A PKCS7_ENCRYPT
+  0x0028b928 A crypto\evp\evp_pkey.c
+  0x0028cde8 A crypto\asn1\evp_asn1.c
+  0x0028ce00 A crypto\evp\evp_enc.c
+  0x0028ce90 A assertion failed: EVP_CIPHER_CTX_iv_length(ctx) <= (int)sizeof(ctx->iv)
+  0x0028e9b8 A TLS_FEATURE
+  0x0028e9f0 A crypto\x509v3\v3_tlsf.c
+  0x00290ce8 A crypto\evp\e_aes.c
+  0x00292000 A crypto\evp\e_chacha20_poly1305.c
+  0x00292aa8 A crypto\evp\evp_pbe.c
+  0x00292b00 A OPENSSL_ENGINES
+  0x00292b10 A C:\opensslbuild\x64\lib\engines-1_1
+  0x00292b90 A OpenSSL PKCS#1 RSA
+  0x00292ba8 A crypto\rsa\rsa_ossl.c
+  0x00292bc0 A OpenSSL DH Method
+  0x00292bf0 A OpenSSL DSA method
+  0x00292c58 A ENCRYPTED PRIVATE KEY
+  0x00292ce0 A crypto\rsa\rsa_crpt.c
+  0x00292cf8 A crypto\rsa\rsa_meth.c
+  0x002944e0 A i2d_RSA_PUBKEY
+  0x00294558 A PKCS5_pbe2_set_scrypt
+  0x00294598 A PKCS5_pbkdf2_set
+  0x002945b0 A pkcs5_scrypt_set
+  0x00294bb0 A invalid scrypt parameters
+  0x00296a38 A ecdh_cms_decrypt
+  0x00296a50 A ecdh_cms_set_shared_info
+  0x00296a70 A ECDH_compute_key
+  0x00296a88 A ecdh_simple_compute_key
+  0x00296aa0 A ECDSA_do_sign_ex
+  0x00296ab8 A ECDSA_do_verify
+  0x00296ac8 A ECDSA_sign_ex
+  0x00296ad8 A ECDSA_sign_setup
+  0x00296af0 A ECDSA_SIG_new
+  0x00296b00 A ECDSA_verify
+  0x00297a90 A ossl_ecdh_compute_key
+  0x00297aa8 A ossl_ecdsa_sign_sig
+  0x00297ac0 A ossl_ecdsa_verify_sig
+  0x00297c60 A curve does not support ecdh
+  0x00298bd8 A SSL_new
+  0x00299938 A int_rsa_verify
+  0x00299948 A old_rsa_priv_decode
+  0x00299970 A pkey_rsa_ctrl
+  0x00299980 A pkey_rsa_ctrl_str
+  0x00299998 A pkey_rsa_sign
+  0x002999a8 A pkey_rsa_verify
+  0x002999b8 A pkey_rsa_verifyrecover
+  0x002999d0 A rsa_algor_to_md
+  0x002999e0 A rsa_builtin_keygen
+  0x002999f8 A RSA_check_key
+  0x00299a08 A RSA_check_key_ex
+  0x00299a20 A rsa_cms_decrypt
+  0x00299a30 A rsa_cms_verify
+  0x00299a40 A rsa_item_verify
+  0x00299a50 A RSA_meth_dup
+  0x00299a60 A RSA_meth_new
+  0x00299a70 A RSA_meth_set1_name
+  0x00299a88 A rsa_multip_info_new
+  0x00299aa0 A RSA_new_method
+  0x00299ab0 A rsa_ossl_private_decrypt
+  0x00299ad0 A rsa_ossl_private_encrypt
+  0x00299af0 A rsa_ossl_public_decrypt
+  0x00299b08 A rsa_ossl_public_encrypt
+  0x00299b20 A RSA_padding_add_none
+  0x00299b38 A RSA_padding_add_PKCS1_OAEP
+  0x00299b58 A RSA_padding_add_PKCS1_OAEP_mgf1
+  0x00299b78 A RSA_padding_add_PKCS1_PSS
+  0x00299b98 A RSA_padding_add_PKCS1_PSS_mgf1
+  0x00299bb8 A RSA_padding_add_PKCS1_type_1
+  0x00299bd8 A RSA_padding_add_PKCS1_type_2
+  0x00299bf8 A RSA_padding_add_SSLv23
+  0x00299c10 A RSA_padding_add_X931
+  0x00299c28 A RSA_padding_check_none
+  0x00299c40 A RSA_padding_check_PKCS1_OAEP
+  0x00299c60 A RSA_padding_check_PKCS1_OAEP_mgf1
+  0x00299c88 A RSA_padding_check_PKCS1_type_1
+  0x00299ca8 A RSA_padding_check_PKCS1_type_2
+  0x00299cc8 A RSA_padding_check_SSLv23
+  0x00299ce8 A RSA_padding_check_X931
+  0x00299d00 A rsa_param_decode
+  0x00299d18 A RSA_print
+  0x00299d28 A RSA_print_fp
+  0x00299d38 A rsa_priv_decode
+  0x00299d48 A rsa_priv_encode
+  0x00299d58 A rsa_pss_get_param
+  0x00299d70 A rsa_pss_to_ctx
+  0x00299d80 A rsa_pub_decode
+  0x00299d90 A RSA_setup_blinding
+  0x00299da8 A RSA_sign
+  0x00299db8 A RSA_sign_ASN1_OCTET_STRING
+  0x00299dd8 A RSA_verify
+  0x00299de8 A RSA_verify_ASN1_OCTET_STRING
+  0x00299e08 A RSA_verify_PKCS1_PSS_mgf1
+  0x00299e60 A bad fixed header decrypt
+  0x0029a428 A unsupported encryption type
+  0x0029a8d0 A dh_cms_decrypt
+  0x0029bb50 A aesni_init_key
+  0x0029bb60 A aesni_xts_init_key
+  0x0029bb78 A aes_gcm_ctrl
+  0x0029bb88 A aes_init_key
+  0x0029bb98 A aes_ocb_cipher
+  0x0029bba8 A aes_t4_init_key
+  0x0029bbb8 A aes_t4_xts_init_key
+  0x0029bbd0 A aes_wrap_cipher
+  0x0029bbe0 A aes_xts_init_key
+  0x0029bc78 A chacha20_poly1305_ctrl
+  0x0029bcd8 A EVP_CipherInit_ex
+  0x0029bcf0 A EVP_CIPHER_asn1_to_param
+  0x0029bd10 A EVP_CIPHER_CTX_copy
+  0x0029bd28 A EVP_CIPHER_CTX_ctrl
+  0x0029bd40 A EVP_CIPHER_CTX_set_key_length
+  0x0029bd60 A EVP_CIPHER_param_to_asn1
+  0x0029bd80 A EVP_DecryptFinal_ex
+  0x0029bd98 A EVP_DecryptUpdate
+  0x0029bdb0 A EVP_DigestFinalXOF
+  0x0029bdc8 A EVP_DigestInit_ex
+  0x0029bde0 A evp_EncryptDecryptUpdate
+  0x0029be00 A EVP_EncryptFinal_ex
+  0x0029be18 A EVP_EncryptUpdate
+  0x0029be30 A EVP_MD_CTX_copy_ex
+  0x0029be48 A EVP_MD_size
+  0x0029be58 A EVP_OpenInit
+  0x0029be68 A EVP_PBE_alg_add
+  0x0029be78 A EVP_PBE_alg_add_type
+  0x0029be90 A EVP_PBE_CipherInit
+  0x0029bea8 A EVP_PBE_scrypt
+  0x0029beb8 A EVP_PKCS82PKEY
+  0x0029bec8 A EVP_PKEY2PKCS8
+  0x0029bed8 A EVP_PKEY_asn1_add0
+  0x0029bef0 A EVP_PKEY_check
+  0x0029bf00 A EVP_PKEY_copy_parameters
+  0x0029bf20 A EVP_PKEY_CTX_ctrl
+  0x0029bf38 A EVP_PKEY_CTX_ctrl_str
+  0x0029bf50 A EVP_PKEY_CTX_dup
+  0x0029bf68 A EVP_PKEY_CTX_md
+  0x0029bf78 A EVP_PKEY_decrypt
+  0x0029bf90 A EVP_PKEY_decrypt_init
+  0x0029bfa8 A EVP_PKEY_decrypt_old
+  0x0029bfc0 A EVP_PKEY_derive
+  0x0029bfd0 A EVP_PKEY_derive_init
+  0x0029bfe8 A EVP_PKEY_derive_set_peer
+  0x0029c008 A EVP_PKEY_encrypt
+  0x0029c020 A EVP_PKEY_encrypt_init
+  0x0029c038 A EVP_PKEY_encrypt_old
+  0x0029c050 A EVP_PKEY_get0_DH
+  0x0029c068 A EVP_PKEY_get0_DSA
+  0x0029c080 A EVP_PKEY_get0_EC_KEY
+  0x0029c098 A EVP_PKEY_get0_hmac
+  0x0029c0b0 A EVP_PKEY_get0_poly1305
+  0x0029c0c8 A EVP_PKEY_get0_RSA
+  0x0029c0e0 A EVP_PKEY_get0_siphash
+  0x0029c0f8 A EVP_PKEY_get_raw_private_key
+  0x0029c118 A EVP_PKEY_get_raw_public_key
+  0x0029c138 A EVP_PKEY_keygen
+  0x0029c148 A EVP_PKEY_keygen_init
+  0x0029c160 A EVP_PKEY_meth_add0
+  0x0029c178 A EVP_PKEY_meth_new
+  0x0029c190 A EVP_PKEY_new
+  0x0029c1a0 A EVP_PKEY_new_CMAC_key
+  0x0029c1b8 A EVP_PKEY_new_raw_private_key
+  0x0029c1d8 A EVP_PKEY_new_raw_public_key
+  0x0029c1f8 A EVP_PKEY_paramgen
+  0x0029c210 A EVP_PKEY_paramgen_init
+  0x0029c228 A EVP_PKEY_param_check
+  0x0029c240 A EVP_PKEY_public_check
+  0x0029c258 A EVP_PKEY_set1_engine
+  0x0029c270 A EVP_PKEY_set_alias_type
+  0x0029c288 A EVP_PKEY_sign
+  0x0029c298 A EVP_PKEY_sign_init
+
+===== [KEYS] 237 =====
+  0x00264fe8 A x509 certificate routines
+  0x00277418 A extendedCertificateAttributes
+  0x00277478 A Netscape Certificate Extension
+  0x00277768 A Netscape Certificate Sequence
+  0x00277828 A X509v3 Private Key Usage Period
+  0x00277908 A certificatePolicies
+  0x00277920 A X509v3 Certificate Policies
+  0x002780d8 A x509Certificate
+  0x002780e8 A sdsiCertificate
+  0x00278730 A id-smime-aa-signingCertificate
+  0x00278858 A id-smime-aa-ets-CertificateRefs
+  0x002791b8 A id-cmc-senderNonce
+  0x002791d0 A id-cmc-recipientNonce
+  0x002794cc A Nonce
+  0x002794d8 A OCSP Nonce
+  0x0027a240 A certificate extensions
+  0x0027b0d8 A Proxy Certificate Information
+  0x0027bbc8 A certificateIssuer
+  0x0027bbe0 A X509v3 Certificate Issuer
+  0x0027c960 A userCertificate
+  0x0027c970 A cACertificate
+  0x0027c998 A certificateRevocationList
+  0x0027c9b8 A crossCertificatePair
+  0x0027d140 A CT Precertificate SCTs
+  0x0027d170 A CT Precertificate Poison
+  0x0027d1a8 A CT Precertificate Signer
+  0x0027d1d8 A CT Certificate SCTs
+  0x0027e318 A id-smime-aa-signingCertificateV2
+  0x0027e950 A CMC Certificate Authority
+  0x0027f4c8 A Public Key
+  0x00281c60 A Certificate Hold
+  0x00281c78 A certificateHold
+  0x00281e58 A %*sOnly User Certificates
+  0x00281e78 A %*sOnly CA Certificates
+  0x00281ec8 A %*sOnly Attribute Certificates
+  0x00282d50 A (TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+  0x002832a8 A invalid dsa public key blob magic number
+  0x002832f0 A invalid public key blob
+  0x00283308 A invalid rsa public key blob magic number
+  0x002833b8 A unsupported public key algorithm
+  0x002836d0 A List all certificates in store
+  0x00283700 A Lookup and output certificates
+  0x002838c0 A Set list options (1=summary,2=friendly name, 4=full printout, 8=PEM output, 16=XXX, 32=private key info)
+  0x00283998 A certificate store name, default "MY"
+  0x002839d0 A Certificate store flags: 1 = system store
+  0x00283e50 A   No Private Key
+  0x00283e68 A   Private Key Info:
+  0x00283f20 A   <Can't parse certificate>
+  0x00283f60 A Opening certificate store %s
+  0x00283fa0 A Certificate %d
+  0x00284038 A Can't Parse Certificate %d
+  0x0028a4d8 A saltLength
+  0x0028c9c0 A CERTIFICATEPOLICIES
+  0x0028ce90 A assertion failed: EVP_CIPHER_CTX_iv_length(ctx) <= (int)sizeof(ctx->iv)
+  0x0028d610 A Certificate Sign
+  0x00292c38 A ANY PRIVATE KEY
+  0x00292c48 A PRIVATE KEY
+  0x00292c58 A ENCRYPTED PRIVATE KEY
+  0x00292d40 A Certificate:
+  0x00292e78 A         Subject Public Key Info:
+  0x00292ea0 A %12sPublic Key Algorithm: 
+  0x00292ec0 A %12sUnable to load Public Key
+  0x00292fd8 A CERTIFICATE
+  0x00295038 A unknown public key type
+  0x002950b8 A unsupported public key type
+  0x00295108 A wrong public key type
+  0x002956d8 A BN_generate_dsa_nonce
+  0x00295a48 A private key too large
+  0x00297eb0 A invalid private key
+  0x00297f78 A missing private key
+  0x0029a0f8 A invalid pss saltlen
+  0x0029a110 A invalid salt length
+  0x0029a320 A pss saltlen too small
+  0x0029a378 A salt length check failed
+  0x0029a398 A salt length recovery failed
+  0x0029ab58 A invalid public key
+  0x0029bd40 A EVP_CIPHER_CTX_set_key_length
+  0x0029c8b0 A private key decode error
+  0x0029c8d0 A private key encode error
+  0x0029c8f0 A public key not rsa
+  0x0029c9e0 A unsupported private key algorithm
+  0x0029ca08 A unsupported salt type
+  0x0029d480 A error converting private key
+  0x0029d4a0 A expecting private key blob
+  0x0029d4c0 A expecting public key blob
+  0x0029db38 A PKCS7_add_certificate
+  0x0029dde0 A certificate verify error
+  0x0029df38 A no recipient matches certificate
+  0x0029dff8 A private key does not match certificate
+  0x0029e038 A signer certificate not found
+  0x0029e0b0 A unable to find certificate
+  0x0029ef60 A no certificate found
+  0x0029ef78 A no certificate or crl found
+  0x0029efd8 A public key decode error
+  0x0029eff0 A public key encode error
+  0x0029f040 A unable to get certs public key
+  0x002a02c8 A no issuer certificate
+  0x002a0338 A no public key
+  0x002a17f0 A rand_drbg_get_nonce
+  0x002a1af8 A error retrieving nonce
+  0x002a1ce0 A too little nonce requested
+  0x002a1d00 A too much nonce requested
+  0x002a31e8 A failed loading private key
+  0x002a3208 A failed loading public key
+  0x002a3380 A unimplemented public key method
+  0x002a3bb0 A d2i_ocsp_nonce
+  0x002a3dd8 A no certificates in chain
+  0x002a46a8 A ts_check_nonces
+  0x002a47e8 A TS_REQ_set_nonce
+  0x002a4a20 A TS_TST_INFO_set_nonce
+  0x002a4ae8 A cannot load certificate
+  0x002a4b00 A cannot load private key
+  0x002a4ba0 A ess signing certificate error
+  0x002a4bc0 A invalid signer certificate purpose
+  0x002a4c08 A nonce mismatch
+  0x002a4c18 A nonce not returned
+  0x002a5be0 A cms_get0_certificate_choices
+  0x002a6130 A certificate already present
+  0x002a6150 A certificate has no keyid
+  0x002a62b8 A error getting public key
+  0x002a6578 A no private key
+  0x002a72b8 A missing salt
+  0x002a7ba8 A not a certificate
+  0x002a7d28 A X509Certificate
+  0x002a7da8 A PUBLIC KEY
+  0x002a7db8 A TRUSTED CERTIFICATE
+  0x002a7dd0 A X509 CERTIFICATE
+  0x002a7e08 A -----BEGIN 
+  0x002a8f18 A %*s<INVALID PRIVATE KEY>
+  0x002a8f60 A %*s<INVALID PUBLIC KEY>
+  0x002a9328 A rsa_pss_saltlen
+  0x002a93c0 A rsa_pss_keygen_saltlen
+  0x002a9528 A salt
+  0x002a9530 A hexsalt
+  0x002aae70 A %s Salt Length: 0x
+  0x002aca20 A %*sSigned Certificate Timestamp:
+  0x002b5f88 A NEW CERTIFICATE REQUEST
+  0x002b5fa0 A CERTIFICATE REQUEST
+  0x002c03f0 A CMS_OtherCertificateFormat
+  0x002c0410 A d.certificate
+  0x002c0420 A d.extendedCertificate
+  0x002c0458 A CMS_CertificateChoices
+  0x002c05d8 A certificates
+  0x002c4b00 A assertion failed: nkey <= EVP_MAX_KEY_LENGTH
+  0x002c4b30 A assertion failed: niv <= EVP_MAX_IV_LENGTH
+  0x002cf270 A TLS 1.3, server CertificateVerify
+  0x002cf298 A TLS 1.3, client CertificateVerify
+  0x002d3740 A master_key
+  0x002d3dc8 A certificate verify failed
+  0x002d4000 A dane tlsa bad certificate
+  0x002d4020 A dane tlsa bad certificate usage
+  0x002d40a0 A dane tlsa bad public key
+  0x002d44c8 A invalid certificate or alg
+  0x002d4718 A missing rsa certificate
+  0x002d4860 A not replacing certificate
+  0x002d48a8 A no certificates returned
+  0x002d48c8 A no certificate assigned
+  0x002d48e0 A no certificate set
+  0x002d49a0 A Peer haven't sent GOST certificate, required for selected ciphersuite
+  0x002d4a18 A no private key assigned
+  0x002d4c20 A peer did not return a certificate
+  0x002d4cb8 A private key mismatch
+  0x002d4f00 A signature for non signing certificate
+  0x002d5048 A sslv3 alert bad certificate
+  0x002d5088 A sslv3 alert certificate expired
+  0x002d50a8 A sslv3 alert certificate revoked
+  0x002d50c8 A sslv3 alert certificate unknown
+  0x002d5150 A sslv3 alert no certificate
+  0x002d5190 A sslv3 alert unsupported certificate
+  0x002d52f0 A tlsv13 alert certificate required
+  0x002d54e0 A tlsv1 bad certificate hash value
+  0x002d5508 A tlsv1 bad certificate status response
+  0x002d5530 A tlsv1 certificate unobtainable
+  0x002d5678 A unable to find public key parameters
+  0x002d5770 A unknown certificate type
+  0x002d5938 A wrong certificate type
+  0x002d8a40 A derive_secret_key_and_iv
+  0x002d95e8 A SSL_CTX_use_certificate
+  0x002d9600 A SSL_CTX_use_certificate_ASN1
+  0x002d9620 A SSL_CTX_use_certificate_file
+  0x002d9ba8 A SSL_use_certificate
+  0x002d9bc0 A SSL_use_certificate_ASN1
+  0x002d9be0 A SSL_use_certificate_file
+  0x002d9fe8 A tls_construct_certificate_authorities
+  0x002da010 A tls_construct_certificate_request
+  0x002da138 A tls_construct_client_certificate
+  0x002da5a0 A tls_construct_server_certificate
+  0x002da910 A tls_parse_certificate_authorities
+  0x002dad68 A tls_prepare_client_certificate
+  0x002dadb0 A tls_process_certificate_request
+  0x002daec0 A tls_process_client_certificate
+  0x002db050 A tls_process_server_certificate
+  0x002db140 A use_certificate_chain_file
+  0x002dc018 A Certificate
+  0x002f0910 A unspecified certificate verification error
+  0x002f0940 A unable to get issuer certificate
+  0x002f0968 A unable to get certificate CRL
+  0x002f0988 A unable to decrypt certificate's signature
+  0x002f09e0 A unable to decode issuer public key
+  0x002f0a08 A certificate signature failure
+  0x002f0a40 A certificate is not yet valid
+  0x002f0a60 A certificate has expired
+  0x002f0aa0 A format error in certificate's notBefore field
+  0x002f0ad0 A format error in certificate's notAfter field
+  0x002f0b60 A self signed certificate
+  0x002f0b78 A self signed certificate in certificate chain
+  0x002f0ba8 A unable to get local issuer certificate
+  0x002f0bd0 A unable to verify the first certificate
+  0x002f0bf8 A certificate chain too long
+  0x002f0c18 A certificate revoked
+  0x002f0c30 A invalid CA certificate
+  0x002f0c68 A unsupported certificate purpose
+  0x002f0c88 A certificate not trusted
+  0x002f0ca0 A certificate rejected
+  0x002f0d30 A key usage does not include certificate signing
+  0x002f0d60 A unable to get CRL issuer certificate
+  0x002f0df8 A invalid non-CA certificate (has CA markings)
+  0x002f0e80 A proxy certificates not allowed, please set the appropriate flag
+  0x002f0ec0 A invalid or inconsistent certificate extension
+  0x002f0ef0 A invalid or inconsistent certificate policy extension
+  0x002f1100 A Suite B: certificate version invalid
+  0x002f1128 A Suite B: invalid public key algorithm
+  0x002f1250 A EE certificate key too weak
+  0x002f1270 A CA certificate key too weak
+  0x002f12b8 A Invalid certificate verification context
+  0x002f12e8 A Issuer certificate lookup error
+  0x002f1308 A Certificate Transparency required, but no valid SCTs found
+  0x002f13c0 A Certificate public key has explicit ECC parameters
+  0x002f13f8 A unknown certificate verification error
+  0x002f21f0 A RSA PRIVATE KEY
+  0x002f2200 A DSA PRIVATE KEY
+  0x002f2210 A EC PRIVATE KEY
+  0x00329dc2 A CertEnumCertificatesInStore
+  0x00329de0 A CertFindCertificateInStore
+  0x00329dfe A CertDuplicateCertificateContext
+  0x00329e20 A CertFreeCertificateContext
+  0x00329e3e A CertGetCertificateContextProperty
+
+===== [PROTO/PORT] 10 =====
+  0x0025eb38 A wss://
+  0x0025eb40 A ws://
+  0x002f1420 A 8192
+  0x002f1428 A 6144
+  0x002f1430 A 4096
+  0x002f1438 A 3072
+  0x002f1440 A 2048
+  0x002f1448 A 1536
+  0x002f1450 A 1024
+  0x003663ba A 60402
+
+===== [IPC] 1 =====
+  0x0032a270 A PeekNamedPipe
+
+===== [TSF/TIP] 17 =====
+  0x00249d4a A tSf91tNH
+  0x00260990 A Multiple Choices
+  0x0027a158 A id-hex-multipart-message
+  0x0027c7b8 A searchGuide
+  0x0027c9d0 A enhancedSearchGuide
+  0x00294da0 A no multipart body failure
+  0x00294dc0 A no multipart boundary
+  0x00296d38 A ec_GF2m_montgomery_point_multiply
+  0x00299a88 A rsa_multip_info_new
+  0x0029c510 A data not multiple of block length
+  0x002a0148 A invalid multiple rdns
+  0x002c0ae8 A CMS_ReceiptsFrom
+  0x002c0b18 A receiptsFrom
+  0x002e2e50 A WaitForThreadpoolTimerCallbacks
+  0x0032974a A WaitForSingleObject
+  0x00329760 A WaitForMultipleObjects
+  0x00329f5e A WaitForSingleObjectEx
+
+===== [HOOK/INJECT] 5 =====
+  0x0032977a A QueueUserAPC
+  0x003298f2 A GetProcAddress
+  0x0032998c A LoadLibraryA
+  0x0032999c A LoadLibraryW
+  0x0032a1c4 A LoadLibraryExW
+
+===== [TELEMETRY] 101 =====
+  0x0025e058 A invalid state
+  0x0025f0b0 A no state
+  0x00260f38 A Invalid state
+  0x002612f8 A Invalid HTTP status.
+  0x00261588 A connections status: pc_hdl_ready=
+  0x00262548 A connection::pong called from invalid state 
+  0x002652d0 A stat
+  0x002652e0 A fstat
+  0x002770d8 A stateOrProvinceName
+  0x00278d68 A qcStatements
+  0x00279140 A id-cmc-statusInfo
+  0x002795a0 A extendedStatus
+  0x002795b0 A Extended OCSP Status
+  0x00279ff0 A organizationalStatus
+  0x0027aa40 A setext-track2
+  0x0027ab60 A setCext-Track2Data
+  0x0027ad10 A encrypted track 2
+  0x0027ad40 A cleartext track 2
+  0x0027d230 A jurisdictionStateOrProvinceName
+  0x0028e9c8 A status_request
+  0x0028e9d8 A status_request_v2
+  0x0028eec0 A %*sEntry %0d:
+  0x002959a0 A expand on static bignum data
+  0x00298840 A acpt_state
+  0x00298b10 A conn_state
+  0x002a1b70 A in error state
+  0x002a3bc0 A OCSP_basic_add1_status
+  0x002a3ec0 A status expired
+  0x002a3ed0 A status not yet valid
+  0x002a3ee8 A status too old
+  0x002a46e0 A ts_check_status_info
+  0x002a47a0 A ts_get_status_text
+  0x002a4920 A TS_RESP_CTX_set_status_info
+  0x002a4980 A TS_RESP_set_status_info
+  0x002abf70 A responseStatus
+  0x002ac040 A OCSP_CERTSTATUS
+  0x002ac058 A certStatus
+  0x002cd520 A ssl\statem\extensions_cust.c
+  0x002cd540 A ssl\statem\statem.c
+  0x002cf520 A ssl\statem\statem_lib.c
+  0x002d01f8 A ssl\statem\statem_srvr.c
+  0x002d3380 A ssl\statem\extensions.c
+  0x002d3398 A ssl\statem\statem_dtls.c
+  0x002d33c8 A ssl\statem\statem_clnt.c
+  0x002d3b48 A bad handshake state
+  0x002d4620 A invalid status response
+  0x002d5508 A tlsv1 bad certificate status response
+  0x002d5840 A unknown state
+  0x002d58e0 A unsupported status type
+  0x002d8940 A construct_stateful_ticket
+  0x002d8960 A construct_stateless_ticket
+  0x002d8d90 A ossl_statem_client13_write_transition
+  0x002d8db8 A ossl_statem_client_post_process_message
+  0x002d8de0 A ossl_statem_client_process_message
+  0x002d8e08 A ossl_statem_client_read_transition
+  0x002d8e30 A ossl_statem_client_write_transition
+  0x002d8e58 A ossl_statem_server13_write_transition
+  0x002d8e80 A ossl_statem_server_post_process_message
+  0x002d8ea8 A ossl_statem_server_post_work
+  0x002d8ec8 A ossl_statem_server_process_message
+  0x002d8ef0 A ossl_statem_server_read_transition
+  0x002d8f18 A ossl_statem_server_write_transition
+  0x002d8f70 A read_state_machine
+  0x002d9008 A ssl3_change_cipher_state
+  0x002d9d60 A state_machine
+  0x002d9da0 A tls13_change_cipher_state
+  0x002d9e80 A tls1_change_cipher_state
+  0x002da038 A tls_construct_cert_status_body
+  0x002da3f8 A tls_construct_ctos_status_request
+  0x002da7d8 A tls_construct_stoc_status_request
+  0x002da8f0 A tls_handle_status_request
+  0x002dab10 A tls_parse_ctos_status_request
+  0x002dacc0 A tls_parse_stoc_status_request
+  0x002dadd0 A tls_process_cert_status_body
+  0x002db198 A write_state_machine
+  0x002dc1a8 A ssl\statem\extensions_srvr.c
+  0x002dc1c8 A ssl\statem\extensions_clnt.c
+  0x002e2b18 A state not recoverable
+  0x002e3c58 A `local static guard'
+  0x002e4048 A `local static thread guard'
+  0x003296d8 A PostQueuedCompletionStatus
+  0x00329838 A GetQueuedCompletionStatus
+  0x00329b46 A GetProcessWindowStation
+  0x00329bc6 A ReportEventW
+  0x00333130 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333240 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333340 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333450 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00334250 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x003395d0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339710 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339850 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339980 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033b3d0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x003414d8 A .?AV?$_Associated_state@H@std@@
+  0x003417d0 A .?AV?$codecvt@DDU_Mbstatet@@@std@@
+  0x00341930 A .?AV?$_ExceptionPtr_static@Vbad_alloc@std@@@?A0xad5a25bc@@
+  0x00341980 A .?AV?$_ExceptionPtr_static@Vbad_exception@std@@@?A0xad5a25bc@@
+  0x002e8c70 U api-ms-win-core-xstate-l2-1-0
+  0x002e8db0 U ext-ms-win-ntuser-windowstation-l1-1-0
+  0x002ec238 U united-states
+
+===== [SECURITY-SW] 329 =====
+  0x0005eb7f A HTTP/1.1H
+  0x000607af A tPM;
+  0x0007cf5e A HTTP/1.1H9
+  0x00080789 A httpu
+  0x000807b4 A http
+  0x000807cd A https://H9
+  0x000e0f6c A H97tPH
+  0x0012145e A tjH9}0tPH
+  0x001d7cae A 9;tpL
+  0x0022d222 A D$Tp
+  0x002343af A tPI;
+  0x0025df90 A websocketpp
+  0x0025e1f0 A HTTP connection ended
+  0x0025e308 A HTTP parse error
+  0x0025e890 A websocketpp.transport
+  0x0025f150 A websocketpp.transport.asio
+  0x00260900 A https
+  0x00260c50 A HTTP Version Not Supported
+  0x00260ce0 A HTTP message body too large
+  0x00260ee0 A websocketpp.transport.asio.socket
+  0x00261040 A websocketpp.processor
+  0x002612c8 A Invalid HTTP method.
+  0x002612e0 A Invalid HTTP version.
+  0x002612f8 A Invalid HTTP status.
+  0x00261310 A A required HTTP header is missing
+  0x002615ac A /http
+  0x002616d8 A http resp text invalid
+  0x00261a98 A HTTP/1.1
+  0x00262090 A handle_write_http_response
+  0x002620b0 A Handshake ended with HTTP error: 
+  0x002620d8 A handle_send_http_request
+  0x002621d8 A handle_read_http_response
+  0x00262330 A HTTP
+  0x002625d0 A E:\data\landun\workspace\wsss\wcwss\wcwss_tls_handler.cpp
+  0x00262b00 A websocketpp.extension.permessage-deflate
+  0x00279340 A id-pda-placeOfBirth
+  0x00279cd0 A pilotPerson
+  0x0027a0c8 A documentPublisher
+  0x0027b2d8 A tpBasis
+  0x0027c158 A id-GostR3411-94-TestParamSet
+  0x0027c1a0 A id-Gost28147-89-TestParamSet
+  0x0027c2f0 A id-GostR3410-94-TestParamSet
+  0x0027c428 A id-GostR3410-2001-TestParamSet
+  0x0027c970 A cACertificate
+  0x0027dc40 A capwapWTP
+  0x00281d28 A distpoint
+  0x00283700 A Lookup and output certificates
+  0x00283730 A debug level (1=errors, 2=trace)
+  0x002838c0 A Set list options (1=summary,2=friendly name, 4=full printout, 8=PEM output, 16=XXX, 32=private key info)
+  0x00283b48 A capi_vtrace
+  0x0028700c A )TpH
+  0x00289e60 A p.tpBasis
+  0x0028b988 A %s %s HTTP/1.0
+  0x0028ccc0 A requireExplicitPolicy
+  0x0028ccd8 A inhibitPolicyMapping
+  0x00294158 A asn1_output_data
+  0x00296fc0 A ec_GFp_nistp224_group_set_curve
+  0x00296fe0 A ec_GFp_nistp224_points_mul
+  0x00297000 A ec_GFp_nistp224_point_get_affine_coordinates
+  0x00297030 A ec_GFp_nistp256_group_set_curve
+  0x00297050 A ec_GFp_nistp256_points_mul
+  0x00297070 A ec_GFp_nistp256_point_get_affine_coordinates
+  0x002970a0 A ec_GFp_nistp521_group_set_curve
+  0x002970c0 A ec_GFp_nistp521_points_mul
+  0x002970e0 A ec_GFp_nistp521_point_get_affine_coordinates
+  0x00297a20 A nistp224_pre_comp_new
+  0x00297a38 A nistp256_pre_comp_new
+  0x00297a50 A nistp521_pre_comp_new
+  0x00297e60 A invalid output length
+  0x002989a8 A BIO_new_dgram_sctp
+  0x00298b20 A dgram_sctp_new
+  0x00298b30 A dgram_sctp_read
+  0x00298b40 A dgram_sctp_write
+  0x0029c838 A output would overflow
+  0x0029fb50 A r2i_certpol
+  0x0029ff68 A distpoint already set
+  0x002a0a08 A no close brace
+  0x002a3d00 A parse_http_line1
+  0x002b40eb A 6tpD4
+  0x002b478f A \sG7tPD
+  0x002b48ec A D4tp
+  0x002b4efc A 4tpD
+  0x002b4f95 A TPD2
+  0x002b59d0 A costParameter
+  0x002c4d70 A OpenSSL default user interface
+  0x002d3c88 A bad srtp mki value
+  0x002d3ca0 A bad srtp protection profile list
+  0x002d4248 A empty srtp protection profile list
+  0x002d4398 A https proxy request
+  0x002d43b0 A http request
+  0x002d4ac8 A no srtp profiles
+  0x002d4f48 A srtp could not allocate profiles
+  0x002d4f70 A srtp protection profile list too long
+  0x002d4f98 A srtp unknown protection profile
+  0x002d58f8 A use srtp not negotiated
+  0x002d9140 A ssl3_output_cert_chain
+  0x002da470 A tls_construct_ctos_use_srtp
+  0x002da850 A tls_construct_stoc_use_srtp
+  0x002dab50 A tls_parse_ctos_use_srtp
+  0x002dad08 A tls_parse_stoc_use_srtp
+  0x002dbd60 A RequestPostHandshake
+  0x002dc220 A SRTP_AES128_CM_SHA1_80
+  0x002dc238 A SRTP_AES128_CM_SHA1_32
+  0x002dc250 A SRTP_AEAD_AES_128_GCM
+  0x002dc268 A SRTP_AEAD_AES_256_GCM
+  0x002e28f8 A no buffer space
+  0x002e2980 A no space on device
+  0x002e2f10 A GetCurrentProcessorNumber
+  0x002e2f48 A GetCurrentPackageId
+  0x002e3d60 A `virtual displacement map'
+  0x002e3e90 A `placement delete closure'
+  0x002e3eb0 A `placement delete[] closure'
+  0x002e4130 A `anonymous namespace'
+  0x002e6f80 A CorExitProcess
+  0x002e8628 A Input/output error
+  0x002e86e8 A Not enough space
+  0x002e8810 A No space left on device
+  0x002e8fe8 A AppPolicyGetProcessTerminationMethod
+  0x00302b18 A E:\data\landun\workspace\wsss\cmake_build\Release\wcwss.pdb
+  0x003298f2 A GetProcAddress
+  0x00329a5e A GetCurrentProcessId
+  0x00329b46 A GetProcessWindowStation
+  0x00329c2a A CryptGetProvParam
+  0x00329e3e A CertGetCertificateContextProperty
+  0x0032a11e A GetCurrentProcess
+  0x0032a2ba A ExitProcess
+  0x0032a398 A GetConsoleOutputCP
+  0x0032a4c6 A GetProcessHeap
+  0x00331510 A .?AVexception@websocketpp@@
+  0x003321c0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@
+  0x003322b0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@@std@@
+  0x00332380 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@
+  0x00332460 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@@std@@
+  0x00332520 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@
+  0x00332610 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@@std@@
+  0x003326e0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@
+  0x003327d0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@@std@@
+  0x00332920 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@system@boost@@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00332b20 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00332d20 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@system@boost@@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00332f30 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00333130 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333240 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333340 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333450 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x00333848 A .?AVexception@http@websocketpp@@
+  0x003339c0 A .?AV?$_Binder@U_Unforced@std@@P8?$server@Uasio@config@websocketpp@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@
+  0x00333ab0 A .?AV?$_Binder@U_Unforced@std@@P8PcMbWsProxyServer@wcwss@@EAAXV?$weak_ptr@X@2@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00333c30 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEBU?$_Ph@$00@2@@std@@
+  0x00333d80 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@system@boost@@@ZV?$shared_ptr@V?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00333f80 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00334170 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@
+  0x00334250 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@
+  0x003343b0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003344a0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@
+  0x00334540 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003345f0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@@std@@
+  0x003347d0 A .?AV?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@V?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEAV92@AEBU?$_Ph@$00@2@@std@@
+  0x003349e0 A .?AV?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@V?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEAV92@AEBU?$_Ph@$00@2@@std@@
+  0x00334bf0 A .?AV?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00334d80 A .?AV?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@
+  0x00334f20 A .?AV?$_Binder@U_Unforced@std@@P8?$client@Uasio_client@config@websocketpp@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@
+  0x00335020 A .?AV?$_Binder@U_Unforced@std@@P8?$client@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@
+  0x00335120 A .?AV?$_Binder@U_Unforced@std@@P8?$client@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@
+  0x00335210 A .?AV?$_Binder@U_Unforced@std@@P8?$client@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@
+  0x00335340 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEBU?$_Ph@$00@2@@std@@
+  0x003354a0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEBU?$_Ph@$00@2@@std@@
+  0x00335610 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00335760 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@
+  0x00335850 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_no_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00335990 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_no_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@
+  0x00335a80 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_tls_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$stream@V?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ssl@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00335bf0 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_tls_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@
+  0x00335d90 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$stream@V?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ssl@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003361a0 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXV?$weak_ptr@X@2@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003362d0 A .?AV?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@
+  0x00336400 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00336500 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003365f0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00336700 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003368a0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@
+  0x00336950 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00336a10 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@
+  0x00336ac0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00336b80 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@
+  0x00336c20 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x00336cd0 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@
+  0x00336d70 A .?AV?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@
+  0x003376e0 A .?AVcategory@error@websocketpp@@
+  0x00337ca0 A .?AVcategory@error@transport@websocketpp@@
+  0x00337ce0 A .?AV_Facet_base@std@@
+  0x00337d08 A .?AVfacet@locale@std@@
+  0x00338100 A .?AVcategory@error@asio@transport@websocketpp@@
+  0x00338660 A .?AV?$_Ref_count@V?$basic@V0concurrency@websocketpp@@Ualevel@log@2@@log@websocketpp@@@std@@
+  0x003386d0 A .?AV?$_Ref_count@V?$basic@V0concurrency@websocketpp@@Uelevel@log@2@@log@websocketpp@@@std@@
+  0x00338980 A .?AV?$_Ref_count_obj2@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@std@@
+  0x00338db0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@@std@@X$$V@std@@
+  0x00338ea0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00338fc0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@@std@@X$$V@std@@
+  0x003390b0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x003391d0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@@std@@X$$V@std@@
+  0x003392b0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x003393c0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@@std@@X$$V@std@@
+  0x003394b0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x003395d0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339710 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339850 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339980 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339ab0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00339ce0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@system@boost@@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@system@boost@@@std@@
+  0x00339f30 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033a160 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@system@boost@@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@system@boost@@@std@@
+  0x0033abd0 A .?AVsocket_category@socket@asio@transport@websocketpp@@
+  0x0033ac20 A .?AVprocessor_category@error@processor@websocketpp@@
+  0x0033ac70 A .?AV?$processor@Uasio@config@websocketpp@@@processor@websocketpp@@
+  0x0033acd0 A .?AV?$_Func_base@XV?$weak_ptr@X@std@@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@std@@
+  0x0033ae60 A .?AV?$_Ref_count_obj2@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@std@@
+  0x0033af80 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8PcMbWsProxyServer@wcwss@@EAAXV?$weak_ptr@X@2@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XV?$weak_ptr@X@2@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@std@@
+  0x0033b120 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$server@Uasio@config@websocketpp@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033b290 A .?AV?$hybi00@Uasio@config@websocketpp@@@processor@websocketpp@@
+  0x0033b2e0 A .?AV?$hybi07@Uasio@config@websocketpp@@@processor@websocketpp@@
+  0x0033b330 A .?AV?$hybi08@Uasio@config@websocketpp@@@processor@websocketpp@@
+  0x0033b380 A .?AV?$hybi13@Uasio@config@websocketpp@@@processor@websocketpp@@
+  0x0033b3d0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXW4terminate_status@34@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEAW4534@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033b500 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033b610 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033b830 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@system@boost@@@ZV?$shared_ptr@V?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@system@boost@@@std@@
+  0x0033ba60 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033bbe0 A .?AV?$_Ref_count_obj2@V?$hybi00@Uasio@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033bc50 A .?AV?$_Ref_count_obj2@V?$hybi07@Uasio@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033bcc0 A .?AV?$_Ref_count_obj2@V?$hybi08@Uasio@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033bd30 A .?AV?$_Ref_count_obj2@V?$hybi13@Uasio@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033bda0 A .?AV?$_Ref_count_obj2@Vuri@websocketpp@@@std@@
+  0x0033bde0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x0033bf00 A .?AV?$_Ref_count@V?$con_msg_manager@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@alloc@message_buffer@websocketpp@@@std@@
+  0x0033bfc0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXXZV?$shared_ptr@V?$connection@Uasio@config@websocketpp@@@websocketpp@@@2@@std@@X$$V@std@@
+  0x0033c0a0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x0033c180 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033c8a0 A .?AVcategory@error@permessage_deflate@extensions@websocketpp@@
+  0x0033c8f0 A .?AV?$processor@Uasio_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033c950 A .?AV?$processor@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033c9b0 A .?AV?$processor@Udeflate_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033ca10 A .?AV?$processor@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033cb10 A .?AV?$_Ref_count_obj2@Uproxy_data@?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@std@@
+  0x0033cbb0 A .?AV?$_Ref_count_obj2@Uproxy_data@?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@std@@
+  0x0033cce0 A .?AV?$_Ref_count_obj2@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@std@@
+  0x0033cd50 A .?AV?$_Ref_count_obj2@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@std@@
+  0x0033cdc0 A .?AV?$_Ref_count_obj2@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@std@@
+  0x0033ce30 A .?AV?$_Ref_count_obj2@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@std@@
+  0x0033cf70 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$client@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033d090 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$client@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033d1b0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$client@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033d2e0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$client@Uasio_client@config@websocketpp@@@websocketpp@@EAAXV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEBVerror_code@2@@ZPEAV34@AEAV52@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033d480 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033d640 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033d800 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@V?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEAV92@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033da40 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$endpoint@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@V?$shared_ptr@V?$basic_waitable_timer@Usteady_clock@chrono@std@@U?$wait_traits@Usteady_clock@chrono@std@@@asio@boost@@Vexecutor@56@@asio@boost@@@2@V?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZPEAV3456@AEAV72@AEAV82@AEAV92@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033dc80 A .?AV?$hybi00@Uasio_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033dce0 A .?AV?$hybi07@Uasio_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033dd40 A .?AV?$hybi08@Uasio_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033dda0 A .?AV?$hybi13@Uasio_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033de00 A .?AV?$hybi00@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033de60 A .?AV?$hybi07@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033dec0 A .?AV?$hybi08@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033df20 A .?AV?$hybi13@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@
+  0x0033df80 A .?AV?$hybi00@Udeflate_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033dfe0 A .?AV?$hybi07@Udeflate_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e040 A .?AV?$hybi08@Udeflate_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e0a0 A .?AV?$hybi13@Udeflate_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e100 A .?AV?$hybi00@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e160 A .?AV?$hybi07@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e1c0 A .?AV?$hybi08@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e220 A .?AV?$hybi13@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@
+  0x0033e280 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@XV?$weak_ptr@X@2@@std@@
+  0x0033e3a0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXV?$weak_ptr@X@2@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XV?$weak_ptr@X@2@V?$shared_ptr@V?$message@Vcon_msg_manager@alloc@message_buffer@websocketpp@@@message_buffer@websocketpp@@@2@@std@@
+  0x0033e900 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$stream@V?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ssl@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XV?$weak_ptr@X@2@AEAV?$stream@V?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ssl@asio@boost@@@std@@
+  0x0033ebc0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_tls_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@XV?$weak_ptr@X@2@@std@@
+  0x0033ece0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_tls_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$stream@V?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ssl@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XV?$weak_ptr@X@2@AEAV?$stream@V?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ssl@asio@boost@@@std@@
+  0x0033eee0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_no_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@XV?$weak_ptr@X@2@@std@@
+  0x0033f000 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Udeflate_no_tls_config@wcwss@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XV?$weak_ptr@X@2@AEAV?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@std@@
+  0x0033f1c0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@@std@@XV?$weak_ptr@X@2@@std@@
+  0x0033f2e0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8connection_metadata@wcwss@@EAAXPEAV?$client@Uasio_client@config@websocketpp@@@websocketpp@@V?$weak_ptr@X@2@AEAV?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@ZAEAV?$shared_ptr@Vconnection_metadata@wcwss@@@2@PEAV56@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XV?$weak_ptr@X@2@AEAV?$basic_stream_socket@Vtcp@ip@asio@boost@@Vexecutor@34@@asio@boost@@@std@@
+  0x0033f4a0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_tls_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033f640 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@EAAXV?$function@$$A6AXAEBVerror_code@std@@@Z@2@AEBVerror_code@2@@ZV?$shared_ptr@V?$connection@Utransport_config@asio_client@config@websocketpp@@@asio@transport@websocketpp@@@2@AEAV72@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x0033f7d0 A .?AV?$_Ref_count_obj2@V?$hybi00@Uasio_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033f840 A .?AV?$_Ref_count_obj2@V?$hybi07@Uasio_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033f8b0 A .?AV?$_Ref_count_obj2@V?$hybi08@Uasio_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033f920 A .?AV?$_Ref_count_obj2@V?$hybi13@Uasio_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033f990 A .?AV?$_Ref_count_obj2@V?$hybi00@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033fa10 A .?AV?$_Ref_count_obj2@V?$hybi07@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033fa90 A .?AV?$_Ref_count_obj2@V?$hybi08@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033fb10 A .?AV?$_Ref_count_obj2@V?$hybi13@Uasio_tls_client@config@websocketpp@@@processor@websocketpp@@@std@@
+  0x0033fb90 A .?AV?$_Ref_count_obj2@V?$hybi00@Udeflate_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fc00 A .?AV?$_Ref_count_obj2@V?$hybi07@Udeflate_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fc70 A .?AV?$_Ref_count_obj2@V?$hybi08@Udeflate_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fce0 A .?AV?$_Ref_count_obj2@V?$hybi13@Udeflate_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fd50 A .?AV?$_Ref_count_obj2@V?$hybi00@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fdc0 A .?AV?$_Ref_count_obj2@V?$hybi07@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fe30 A .?AV?$_Ref_count_obj2@V?$hybi08@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033fea0 A .?AV?$_Ref_count_obj2@V?$hybi13@Udeflate_no_tls_config@wcwss@@@processor@websocketpp@@@std@@
+  0x0033ff80 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Uasio_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x003400b0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x003401f0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x00340310 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZV?$shared_ptr@V?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@@2@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x00340d00 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x00340df0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_no_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00340ec0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x00340fa0 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Udeflate_tls_config@wcwss@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00341070 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x00341160 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_tls_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00341240 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@_K@ZPEAV34@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@XAEBVerror_code@2@_K@std@@
+  0x00341330 A .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8?$connection@Uasio_client@config@websocketpp@@@websocketpp@@EAAXAEBVerror_code@2@@ZPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVerror_code@2@@std@@
+  0x00341810 A .?AVstl_critical_section_interface@details@Concurrency@@
+  0x00341a00 A .?AVstl_condition_variable_interface@details@Concurrency@@
+  0x00365c77 A http://ocsp.digicert.com0A
+  0x00365c9c A 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  0x00365ce4 A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  0x003663d6 A http://www.digicert.com/CPS0
+  0x0036642b A Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+  0x00366480 A Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+  0x003664ef A http://ocsp.digicert.com0\
+  0x00366514 A Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  0x00366f52 A http://ocsp.digicert.com0]
+  0x00366f77 A Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  0x00366fdb A Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 
+  0x003676af A 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+  0x00367cde A http://ocsp.digicert.com0C
+  0x00367d03 A 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  0x00367d4d A 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0

@@ -1,0 +1,9 @@
+// file: BaseMsg.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['App.proto']
+package com.tencent.wrbus.pb;
+message BaseMsg {
+  optional string id = 1;
+  optional int64 clienttime = 2;
+  optional string appversion = 3;
+  optional uint64 vid = 4;
+  optional enum<.com.tencent.wrbus.pb.App> app = 5;
+}

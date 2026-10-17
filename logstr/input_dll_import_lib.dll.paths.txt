@@ -1,0 +1,8 @@
+E:\workspace\WeChatPinYin\wxkb\01_mozc\base\logging.cc
+E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\base\internal\low_level_alloc.cc
+E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\flags\internal\flag.cc
+E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\internal\win32_waiter.cc
+E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\mutex.cc
+E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\boost-src\libs\exception\include\boost/exception/detail/exception_ptr.hpp
+E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\win32\base\input_dll_import_lib.pdb
+E:\workspace\WeChatPinYin\wxkb\01_mozc\win32\base\input_dll.cc

@@ -1,0 +1,24 @@
+// file: WtStatPcAppCommonActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtStatPcAppCommonAction.proto', 'WtVmodeSource.proto', 'WtStatPcAppCommonScene.proto']
+package com.tencent.wrbus.pb;
+message WtStatPcAppCommonActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtStatPcAppCommonScene> scene = 2;
+  optional enum<.com.tencent.wrbus.pb.WtStatPcAppCommonAction> action = 3;
+  optional string action_context = 4;
+  optional string device_type = 5;
+  optional int64 plus_status = 6;
+  optional string bundle_id = 7;
+  optional int64 window_status = 8;
+  optional string action_context_extra = 9;
+  optional string autoupdate_failed_version = 10;
+  optional double enter_source = 11;
+  optional enum<.com.tencent.wrbus.pb.WtVmodeSource> source = 12;
+  optional int64 content_type = 13;
+  optional int64 paste_time = 14;
+  optional int64 index = 15;
+  optional int64 symbol_type = 16;
+  optional int64 symbol_panel_duration = 17;
+  optional string symbol_index = 18;
+  optional string symbol_sub_type = 19;
+  optional string symbol_name = 20;
+}

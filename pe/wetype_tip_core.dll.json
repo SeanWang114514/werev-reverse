@@ -1,0 +1,612 @@
+{
+ "file": "wetype_tip_core.dll",
+ "size": 5294120,
+ "sha256": "ba8a4b582f9ca1cf4b783d9d1e2f79f7bae196a27f7d653ef3d5c15001ccfa77",
+ "machine": "0x8664",
+ "timestamp": 1789481411,
+ "timestamp_iso": "2026-09-15T14:10:11Z",
+ "characteristics": "0x2022",
+ "subsystem": 2,
+ "dll": true,
+ "entrypoint": "0x2dd068",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 3298908,
+   "raw": "0x400",
+   "rawsize": 3299328,
+   "entropy": 6.442,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0x327000",
+   "vsize": 897658,
+   "raw": "0x325c00",
+   "rawsize": 898048,
+   "entropy": 5.626,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x403000",
+   "vsize": 236532,
+   "raw": "0x401000",
+   "rawsize": 193536,
+   "entropy": 4.331,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x43d000",
+   "vsize": 137352,
+   "raw": "0x430400",
+   "rawsize": 137728,
+   "entropy": 6.292,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "va": "0x45f000",
+   "vsize": 721280,
+   "raw": "0x451e00",
+   "rawsize": 721408,
+   "entropy": 3.318,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x510000",
+   "vsize": 31808,
+   "raw": "0x502000",
+   "rawsize": 32256,
+   "entropy": 5.448,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "CrashRpt1500.dll",
+   "count": 5,
+   "funcs": [
+    "ord#9",
+    "ord#18",
+    "ord#23",
+    "ord#7",
+    "ord#29"
+   ]
+  },
+  {
+   "dll": "IMM32.dll",
+   "count": 10,
+   "funcs": [
+    "ImmGetContext",
+    "ImmGenerateMessage",
+    "ImmLockIMC",
+    "ImmUnlockIMC",
+    "ImmCreateIMCC",
+    "ImmLockIMCC",
+    "ImmUnlockIMCC",
+    "ImmReSizeIMCC",
+    "ImmGetIMCCSize",
+    "ImmReleaseContext"
+   ]
+  },
+  {
+   "dll": "d2d1.dll",
+   "count": 1,
+   "funcs": [
+    "ord#1"
+   ]
+  },
+  {
+   "dll": "DWrite.dll",
+   "count": 1,
+   "funcs": [
+    "DWriteCreateFactory"
+   ]
+  },
+  {
+   "dll": "input.dll",
+   "count": 3,
+   "funcs": [
+    "SetDefaultLayoutOrTip",
+    "InstallLayoutOrTip",
+    "EnumEnabledLayoutOrTip"
+   ]
+  },
+  {
+   "dll": "GDI32.dll",
+   "count": 20,
+   "funcs": [
+    "CreateDIBSection",
+    "CreateFontIndirectW",
+    "ExtTextOutW",
+    "GetObjectW",
+    "CreateBitmap",
+    "CreateCompatibleDC",
+    "GetDeviceCaps",
+    "GdiFlush",
+    "SetDCBrushColor",
+    "CreateFontW",
+    "CreatePen",
+    "CreateSolidBrush",
+    "DeleteObject",
+    "GetStockObject",
+    "RoundRect",
+    "SelectObject",
+    "SetBkColor",
+    "SetBkMode",
+    "SetTextColor",
+    "DeleteDC"
+   ]
+  },
+  {
+   "dll": "ktmw32.dll",
+   "count": 2,
+   "funcs": [
+    "CreateTransaction",
+    "CommitTransaction"
+   ]
+  },
+  {
+   "dll": "ole32.dll",
+   "count": 2,
+   "funcs": [
+    "StringFromGUID2",
+    "CoTaskMemFree"
+   ]
+  },
+  {
+   "dll": "SHELL32.dll",
+   "count": 3,
+   "funcs": [
+    "SHGetKnownFolderPath",
+    "SHCreateDirectoryExW",
+    "ShellExecuteW"
+   ]
+  },
+  {
+   "dll": "SHLWAPI.dll",
+   "count": 1,
+   "funcs": [
+    "PathFileExistsW"
+   ]
+  },
+  {
+   "dll": "WS2_32.dll",
+   "count": 2,
+   "funcs": [
+    "WSACleanup",
+    "WSAStartup"
+   ]
+  },
+  {
+   "dll": "KERNEL32.dll",
+   "count": 209,
+   "funcs": [
+    "GetModuleHandleW",
+    "LoadLibraryW",
+    "DebugBreak",
+    "HeapAlloc",
+    "HeapFree",
+    "GetProcessHeap",
+    "GetModuleFileNameA",
+    "GetModuleHandleExW",
+    "GetProcAddress",
+    "FormatMessageW",
+    "WideCharToMultiByte",
+    "IsDebuggerPresent",
+    "OutputDebugStringW",
+    "CloseHandle",
+    "SetLastError",
+    "HeapDestroy",
+    "HeapReAlloc",
+    "HeapSize",
+    "ReleaseSRWLockExclusive",
+    "AcquireSRWLockExclusive",
+    "SetThreadpoolWait",
+    "WaitForThreadpoolWaitCallbacks",
+    "CloseThreadpoolWait",
+    "FreeLibrary",
+    "LoadLibraryExW",
+    "VerSetConditionMask",
+    "ResetEvent",
+    "ReleaseSemaphore",
+    "WaitForSingleObjectEx",
+    "OpenEventW",
+    "OpenSemaphoreW",
+    "CreateMutexExW",
+    "CreateSemaphoreExW",
+    "TlsAlloc",
+    "TlsGetValue",
+    "TlsSetValue",
+    "TlsFree",
+    "VerifyVersionInfoW",
+    "FindResourceExW",
+    "LoadResource",
+    "LockResource",
+    "SizeofResource",
+    "FindResourceW",
+    "CreateEventExW",
+    "CreateThreadpoolWait",
+    "CreateFileW",
+    "GetFileSize",
+    "ReadFile",
+    "GetCurrentProcess",
+    "TerminateProcess",
+    "MultiByteToWideChar",
+    "SetEvent",
+    "WaitForMultipleObjects",
+    "CreateThread",
+    "WriteFile",
+    "WaitNamedPipeW",
+    "GetOverlappedResult",
+    "CancelIo",
+    "EnterCriticalSection",
+    "LeaveCriticalSection",
+    "CreateEventW",
+    "LocalFree",
+    "SetFileCompletionNotificationModes",
+    "FormatMessageA",
+    "GetNamedPipeServerProcessId",
+    "DeleteFileW",
+    "FindClose",
+    "FindFirstFileW",
+    "FindNextFileW",
+    "GetFileAttributesW",
+    "GetFileSizeEx",
+    "GetFileTime",
+    "RemoveDirectoryW",
+    "SetEndOfFile",
+    "SetFileAttributesW",
+    "SetFilePointerEx",
+    "GetProcessTimes",
+    "GetUserDefaultLCID",
+    "GetSystemTime",
+    "GetSystemTimeAsFileTime",
+    "GetModuleFileNameW",
+    "LocalAlloc",
+    "SystemTimeToFileTime",
+    "K32GetModuleFileNameExW",
+    "K32GetProcessImageFileNameW",
+    "Sleep",
+    "CreateDirectoryW",
+    "GetFileAttributesExW",
+    "SetFileAttributesTransactedW",
+    "GetFileAttributesTransactedW",
+    "MoveFileExW",
+    "MoveFileTransactedW",
+    "GetFileInformationByHandleEx",
+    "SetFileInformationByHandle",
+    "ProcessIdToSessionId",
+    "GetNativeSystemInfo",
+    "GetPrivateProfileStringW",
+    "GetFileInformationByHandle",
+    "EnumSystemLocalesW",
+    "OpenMutexW",
+    "GetCurrentThread",
+    "CompareStringOrdinal",
+    "CreateProcessW",
+    "GetSystemTimes",
+    "GetSystemInfo",
+    "QueryPerformanceFrequency",
+    "CreateFileMappingW",
+    "UnmapViewOfFile",
+    "GetUserDefaultLocaleName",
+    "LCMapStringA",
+    "FlushFileBuffers",
+    "SetFilePointer",
+    "InitializeCriticalSectionAndSpinCount",
+    "SetWaitableTimer",
+    "OutputDebugStringA",
+    "InitializeSRWLock",
+    "InitializeConditionVariable",
+    "WakeConditionVariable",
+    "SleepConditionVariableSRW",
+    "GetModuleHandleA",
+    "VirtualAlloc",
+    "GetLogicalProcessorInformation",
+    "WriteConsoleW",
+    "SwitchToThread",
+    "GetThreadId",
+    "CreateSemaphoreA",
+    "CreateEventA",
+    "GetTickCount",
+    "DuplicateHandle",
+    "CreateFileA",
+    "MapViewOfFileEx",
+    "CreateFileMappingA",
+    "GetDiskFreeSpaceExW",
+    "DeviceIoControl",
+    "CreateWaitableTimerW",
+    "ResumeThread",
+    "OpenEventA",
+    "WaitForMultipleObjectsEx",
+    "AreFileApisANSI",
+    "LCMapStringW",
+    "CompareStringW",
+    "GetTimeFormatW",
+    "GetDateFormatW",
+    "FlsFree",
+    "FlsSetValue",
+    "FlsGetValue",
+    "FlsAlloc",
+    "GetStdHandle",
+    "GetTimeZoneInformation",
+    "SetStdHandle",
+    "ExitProcess",
+    "GetConsoleOutputCP",
+    "ReadConsoleW",
+    "GetConsoleMode",
+    "SetEnvironmentVariableW",
+    "GetFileType",
+    "InterlockedFlushSList",
+    "RtlUnwindEx",
+    "InitializeSListHead",
+    "GetStartupInfoW",
+    "IsProcessorFeaturePresent",
+    "SetUnhandledExceptionFilter",
+    "UnhandledExceptionFilter",
+    "RtlVirtualUnwind",
+    "RtlLookupFunctionEntry",
+    "RtlCaptureContext",
+    "GetCPInfo",
+    "CompareStringEx",
+    "LCMapStringEx",
+    "EncodePointer",
+    "RtlPcToFileHeader",
+    "CreateHardLinkW",
+    "FindFirstFileExW",
+    "GetLocaleInfoEx",
+    "WakeAllConditionVariable",
+    "InitOnceComplete",
+    "InitOnceBeginInitialize",
+    "GetStringTypeW",
+    "TryAcquireSRWLockExclusive",
+    "IsValidCodePage",
+    "GetACP",
+    "GetOEMCP",
+    "GetCommandLineA",
+    "GetCommandLineW",
+    "GetEnvironmentStringsW",
+    "FreeEnvironmentStringsW",
+    "QueryInformationJobObject",
+    "CreateJobObjectW",
+    "AssignProcessToJobObject",
+    "SetInformationJobObject",
+    "MapViewOfFile",
+    "CreateMutexW",
+    "WaitForSingleObject",
+    "ReleaseMutex",
+    "GetLocalTime",
+    "QueryPerformanceCounter",
+    "GetTickCount64",
+    "GetCurrentProcessId",
+    "GetCurrentThreadId",
+    "DeleteCriticalSection",
+    "InitializeCriticalSectionEx",
+    "GetLastError",
+    "DecodePointer",
+    "GetLocaleInfoW",
+    "RaiseException",
+    "IsValidLocale",
+    "GetFinalPathNameByHandleW",
+    "OpenProcess",
+    "RtlUnwind"
+   ]
+  },
+  {
+   "dll": "USER32.dll",
+   "count": 65,
+   "funcs": [
+    "SystemParametersInfoW",
+    "SendInput",
+    "GetShellWindow",
+    "ChangeWindowMessageFilter",
+    "FrameRect",
+    "MonitorFromWindow",
+    "MonitorFromPoint",
+    "IsIconic",
+    "NotifyWinEvent",
+    "EqualRect",
+    "CopyRect",
+    "SetCursor",
+    "UpdateLayeredWindow",
+    "GetAncestor",
+    "GetClassNameW",
+    "FindWindowW",
+    "GetParent",
+    "SetKeyboardState",
+    "GetKeyState",
+    "RegisterWindowMessageW",
+    "GetIconInfo",
+    "LoadImageW",
+    "DestroyIcon",
+    "GetSysColor",
+    "ReleaseDC",
+    "GetDC",
+    "LoadStringW",
+    "LoadCursorW",
+    "FillRect",
+    "GetClientRect",
+    "GetWindowTextLengthW",
+    "CreateIconIndirect",
+    "SetWindowTextW",
+    "InvalidateRect",
+    "EndPaint",
+    "BeginPaint",
+    "DrawTextW",
+    "GetDlgItem",
+    "MoveWindow",
+    "ShowWindow",
+    "DestroyWindow",
+    "CreateWindowExW",
+    "RegisterClassExW",
+    "DefWindowProcW",
+    "SendMessageW",
+    "GetGUIThreadInfo",
+    "CallNextHookEx",
+    "UnhookWindowsHookEx",
+    "SetWindowsHookExW",
+    "KillTimer",
+    "SetTimer",
+    "GetAsyncKeyState",
+    "IsChild",
+    "SendMessageTimeoutW",
+    "MapVirtualKeyW",
+    "ToUnicode",
+    "GetKeyboardState",
+    "IsWindow",
+    "GetWindowThreadProcessId",
+    "GetForegroundWindow",
+    "GetFocus",
+    "PostMessageW",
+    "GetSystemMetrics",
+    "UnregisterClassW",
+    "GetWindowTextW"
+   ]
+  },
+  {
+   "dll": "OLEAUT32.dll",
+   "count": 11,
+   "funcs": [
+    "SysStringByteLen",
+    "SysAllocString",
+    "VarCmp",
+    "VariantCopy",
+    "SysStringLen",
+    "VariantInit",
+    "SysFreeString",
+    "SysAllocStringLen",
+    "VariantChangeType",
+    "SysAllocStringByteLen",
+    "VariantClear"
+   ]
+  },
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 33,
+   "funcs": [
+    "RegCloseKey",
+    "GetLengthSid",
+    "RegCreateKeyExW",
+    "RegNotifyChangeKeyValue",
+    "RegGetValueW",
+    "OpenProcessToken",
+    "GetSidSubAuthority",
+    "GetSidSubAuthorityCount",
+    "GetTokenInformation",
+    "RegQueryValueExW",
+    "CryptAcquireContextW",
+    "CryptReleaseContext",
+    "CryptGenRandom",
+    "GetUserNameW",
+    "RegOpenKeyExW",
+    "ConvertSidToStringSidW",
+    "OpenThreadToken",
+    "IsTokenRestricted",
+    "ConvertStringSecurityDescriptorToSecurityDescriptorW",
+    "ConvertStringSidToSidW",
+    "SetEntriesInAclW",
+    "RegEnumKeyExW",
+    "SetKernelObjectSecurity",
+    "SetTokenInformation",
+    "CreateProcessAsUserW",
+    "SetThreadToken",
+    "CopySid",
+    "CreateRestrictedToken",
+    "CreateWellKnownSid",
+    "DuplicateToken",
+    "DuplicateTokenEx",
+    "EqualSid",
+    "LookupPrivilegeValueW"
+   ]
+  },
+  {
+   "dll": "OLEACC.dll",
+   "count": 1,
+   "funcs": [
+    "AccessibleObjectFromWindow"
+   ]
+  },
+  {
+   "dll": "dbghelp.dll",
+   "count": 1,
+   "funcs": [
+    "SymFromAddr"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "CanUnloadTipCore",
+   "addr": "0x85be0"
+  },
+  {
+   "ord": 2,
+   "name": "CreateTipTextService",
+   "addr": "0x1060d0"
+  },
+  {
+   "ord": 3,
+   "name": "DestroyTipTextService",
+   "addr": "0x106120"
+  },
+  {
+   "ord": 4,
+   "name": "DoDllProcessAttach",
+   "addr": "0x85c40"
+  },
+  {
+   "ord": 5,
+   "name": "DoDllProcessDetach",
+   "addr": "0x85d90"
+  },
+  {
+   "ord": 6,
+   "name": "__ASSERT",
+   "addr": "0x26d3d0"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\cmake-build-x64-release\\win32\\tip\\wetype_tip_core.pdb\u0000",
+   "guid": "363791966",
+   "age": 1
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": [
+  {
+   "type": "RT_ICON",
+   "id": 3
+  },
+  {
+   "type": "RT_STRING",
+   "id": 6
+  },
+  {
+   "type": "RT_GROUP_ICON",
+   "id": 14
+  },
+  {
+   "type": "RT_VERSION",
+   "id": 16
+  },
+  {
+   "type": "RT_MANIFEST",
+   "id": 24
+  }
+ ]
+}

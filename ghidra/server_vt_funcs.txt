@@ -1,0 +1,1614 @@
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s0  FUNC FUN_14019f8b0 @14019f8b0
+////////////////////////////////////////////////////////////////
+
+undefined8 FUN_14019f8b0(undefined8 param_1,ulonglong param_2)
+
+{
+  FUN_14019cee0();
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x5d0);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s1  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s2  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s3  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s4  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s5  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s6  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s7  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s8  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_ImeEngine#s9  FUNC FUN_1404ffe2c @1404ffe2c
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: _guard_dispatch_icall replaced with injection: guard_dispatch_icall */
+
+void FUN_1404ffe2c(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)FUN_1404ffe20();
+  if (pcVar1 != (code *)0x0) {
+    (*pcVar1)();
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14051e298();
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s0  FUNC FUN_14019f930 @14019f930
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_14019f930(undefined8 *param_1,uint param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::enginev2::WximeImpl::vftable;
+  param_1[2] = wetype::server::enginev2::WximeImpl::vftable;
+  param_1[4] = wetype::server::enginev2::WximeImpl::vftable;
+  param_1[6] = wetype::server::enginev2::WximeImpl::vftable;
+  param_1[8] = wetype::server::enginev2::WximeImpl::vftable;
+  puVar1 = (undefined8 *)param_1[0xba];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  FUN_14019cee0(param_1);
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x5d8);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s1  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s2  FUNC FUN_14019fd90 @14019fd90
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_14019fd90(undefined8 param_1,longlong *param_2,longlong *param_3)
+
+{
+  undefined4 *puVar1;
+  longlong lVar2;
+  longlong *plVar3;
+  longlong lVar4;
+  ulonglong uVar5;
+  undefined4 *puVar6;
+  undefined8 *puVar7;
+  undefined4 uVar8;
+  undefined1 auStack_b8 [32];
+  longlong local_98;
+  undefined8 *puStack_90;
+  undefined8 *local_88;
+  ulonglong local_80;
+  undefined8 local_78;
+  longlong local_70;
+  undefined4 local_68;
+  undefined4 local_64;
+  longlong local_60;
+  undefined4 local_58;
+  undefined4 local_54;
+  undefined4 uStack_50;
+  undefined4 uStack_4c;
+  undefined4 uStack_48;
+  undefined4 local_44;
+  longlong *local_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_1406f5e40 ^ (ulonglong)auStack_b8;
+  local_54 = 0;
+  uStack_50 = 0;
+  uStack_4c = 0;
+  uStack_48 = 0;
+  local_44 = 0;
+  local_98 = 0;
+  puStack_90 = (undefined8 *)0x0;
+  local_88 = (undefined8 *)0x0;
+  local_80 = (param_2[1] - *param_2) / 0xc0;
+  local_40 = param_3;
+  if (local_80 != 0) {
+    if (0xaaaaaaaaaaaaaaa < local_80) {
+                    /* WARNING: Subroutine does not return */
+      FUN_140087010();
+    }
+    FUN_140199310(&local_98,&local_80);
+  }
+  puVar1 = (undefined4 *)param_2[1];
+  lVar2 = local_98;
+  puVar7 = local_88;
+  for (puVar6 = (undefined4 *)*param_2; local_98 = lVar2, puVar6 != puVar1; puVar6 = puVar6 + 0x30)
+  {
+    local_78 = 0;
+    local_70 = (longlong)(puVar6 + 2);
+    if (0xf < *(ulonglong *)(puVar6 + 8)) {
+      local_70 = *(longlong *)local_70;
+    }
+    local_68 = *puVar6;
+    local_64 = 0;
+    if (puStack_90 == puVar7) {
+      FUN_140198b40(&local_98,puStack_90,&local_78);
+      puVar7 = local_88;
+    }
+    else {
+      *puStack_90 = 0;
+      puStack_90[1] = local_70;
+      *(undefined4 *)(puStack_90 + 2) = local_68;
+      *(undefined4 *)((longlong)puStack_90 + 0x14) = 0;
+      puStack_90 = puStack_90 + 3;
+    }
+    lVar2 = local_98;
+  }
+  if (param_3[2] != 0) {
+    plVar3 = param_3;
+    if (0xf < (ulonglong)param_3[3]) {
+      plVar3 = (longlong *)*param_3;
+    }
+    uStack_50 = SUB84(plVar3,0);
+    uStack_4c = (undefined4)((ulonglong)plVar3 >> 0x20);
+  }
+  local_58 = (undefined4)(((longlong)puStack_90 - lVar2) / 0x18);
+  local_60 = lVar2;
+  uVar8 = wxime_config_dict(&local_60);
+  if (lVar2 != 0) {
+    uVar5 = (((longlong)puVar7 - lVar2) / 0x18) * 0x18;
+    lVar4 = lVar2;
+    if (0xfff < uVar5) {
+      lVar4 = *(longlong *)(lVar2 + -8);
+      if (0x1f < (lVar2 - lVar4) - 8U) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(uVar8,uVar5 + 0x27);
+      }
+    }
+    thunk_FUN_1401ca000(lVar4);
+  }
+  uVar5 = param_3[3];
+  if (0xf < uVar5) {
+    lVar2 = *param_3;
+    lVar4 = lVar2;
+    if (0xfff < uVar5 + 1) {
+      lVar4 = *(longlong *)(lVar2 + -8);
+      if (0x1f < (lVar2 - lVar4) - 8U) {
+                    /* WARNING: Subroutine does not return */
+        FUN_14050cb84(lVar2 - lVar4,uVar5 + 0x28);
+      }
+    }
+    thunk_FUN_1401ca000(lVar4);
+  }
+  param_3[2] = 0;
+  param_3[3] = 0xf;
+  *(undefined1 *)param_3 = 0;
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s3  FUNC FUN_14019f9c0 @14019f9c0
+////////////////////////////////////////////////////////////////
+
+void FUN_14019f9c0(undefined8 param_1,undefined4 *param_2)
+
+{
+  longlong *plVar1;
+  
+  plVar1 = (longlong *)(param_2 + 2);
+  if (0xf < *(ulonglong *)(param_2 + 8)) {
+    plVar1 = (longlong *)*plVar1;
+  }
+  wxime_add_cell_dict(plVar1,*param_2,0);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s4  FUNC wxime_clear_cell_dicts @14019fd70
+////////////////////////////////////////////////////////////////
+
+void wxime_clear_cell_dicts(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00014036ca9a. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  wxime_clear_cell_dicts();
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s5  FUNC FUN_1401a1010 @1401a1010
+////////////////////////////////////////////////////////////////
+
+void FUN_1401a1010(longlong param_1)
+
+{
+  FUN_1401a0640(*(undefined8 *)(param_1 + 0x5d0));
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s6  FUNC FUN_1401a16c0 @1401a16c0
+////////////////////////////////////////////////////////////////
+
+void FUN_1401a16c0(longlong param_1)
+
+{
+  FUN_1401a1490(*(undefined8 *)(param_1 + 0x5d0));
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s7  FUNC FUN_1401a51c0 @1401a51c0
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_1401a51c0(longlong param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined1 auStack_78 [32];
+  undefined **local_58 [7];
+  undefined ***local_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_1406f5e40 ^ (ulonglong)auStack_78;
+  local_58[0] = std::
+                _Func_impl_no_alloc<`public:_void___cdecl_wetype::server::enginev2::WximeImpl::Impl::ResetSession(wetype::IpcClientType,unsigned_int)___ptr64'::`2'::<lambda_1>,void,wetype::server::enginev2::SessionInfo*___ptr64>
+                ::vftable;
+  local_20 = local_58;
+  FUN_1401a5230(*(undefined8 *)(param_1 + 0x5d0),param_2,param_3,local_58);
+  if (local_20 != (undefined ***)0x0) {
+    (*(code *)(*local_20)[4])
+              (local_20,CONCAT71((int7)((ulonglong)local_58 >> 8),local_20 != local_58));
+  }
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s8  FUNC FUN_1401a4fa0 @1401a4fa0
+////////////////////////////////////////////////////////////////
+
+void FUN_1401a4fa0(longlong param_1)
+
+{
+  FUN_1401a43b0(*(undefined8 *)(param_1 + 0x5d0));
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_enginev2_WximeImpl#s9  FUNC FUN_1401a4310 @1401a4310
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_1401a4310(longlong param_1,undefined8 param_2,undefined4 param_3,undefined4 *param_4)
+
+{
+  undefined8 uVar1;
+  undefined1 auStack_98 [32];
+  undefined8 local_78;
+  undefined4 uStack_70;
+  undefined **local_58;
+  undefined4 local_50;
+  undefined4 uStack_4c;
+  undefined4 uStack_48;
+  undefined4 local_40;
+  undefined4 uStack_3c;
+  undefined4 uStack_38;
+  undefined4 uStack_34;
+  undefined ***local_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_1406f5e40 ^ (ulonglong)auStack_98;
+  uVar1 = *(undefined8 *)(param_1 + 0x5d0);
+  local_40 = *param_4;
+  uStack_3c = param_4[1];
+  uStack_38 = param_4[2];
+  uStack_34 = param_4[3];
+  local_58 = std::
+             _Func_impl_no_alloc<`public:_void___cdecl_wetype::server::enginev2::WximeImpl::Impl::ProcessInput(wetype::IpcClientType,unsigned_int,std::basic_string_view<char,std::char_traits<char>_>)___ptr64'::`2'::<lambda_1>,void,wetype::server::enginev2::SessionInfo*___ptr64>
+             ::vftable;
+  local_78._0_4_ = (undefined4)uVar1;
+  local_78._4_4_ = (undefined4)((ulonglong)uVar1 >> 0x20);
+  local_50 = (undefined4)local_78;
+  uStack_4c = local_78._4_4_;
+  local_20 = &local_58;
+  local_78 = uVar1;
+  uStack_70 = param_3;
+  uStack_48 = param_3;
+  FUN_1401a5230(uVar1,local_40,param_3,&local_58);
+  if (local_20 != (undefined ***)0x0) {
+    (*(code *)(*local_20)[4])
+              (local_20,CONCAT71((int7)((ulonglong)&local_58 >> 8),local_20 != &local_58));
+  }
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s0  FUNC FUN_140155440 @140155440
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_140155440(undefined8 *param_1,ulonglong param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::network::Network::vftable;
+  param_1[2] = wetype::server::network::Network::vftable;
+  param_1[4] = wetype::server::network::Network::vftable;
+  FUN_1400c69a0(param_1 + 0x37);
+  FUN_1400c69a0(param_1 + 0x27);
+  FUN_1400c69a0(param_1 + 0x17);
+  FUN_1400c69a0(param_1 + 7);
+  puVar1 = (undefined8 *)param_1[6];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x238);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s1  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s2  FUNC (none) @140670e18
+////////////////////////////////////////////////////////////////
+// no function at 140670e18
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s3  FUNC FUN_1401552cc @1401552cc
+////////////////////////////////////////////////////////////////
+
+void FUN_1401552cc(longlong param_1)
+
+{
+  FUN_140155440(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s4  FUNC thunk_FUN_1401bba30 @1400c0270
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_1401bba30(void)
+
+{
+  return DAT_140715ee8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s5  FUNC (none) @140670e40
+////////////////////////////////////////////////////////////////
+// no function at 140670e40
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s6  FUNC FUN_1401552d8 @1401552d8
+////////////////////////////////////////////////////////////////
+
+void FUN_1401552d8(longlong param_1)
+
+{
+  FUN_140155440(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_network_Network#s7  FUNC thunk_FUN_14014be30 @1400c0260
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14014be30(void)
+
+{
+  return DAT_140714f18;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s0  FUNC FUN_14017d6b0 @14017d6b0
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_14017d6b0(undefined8 *param_1,ulonglong param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::clipboard::ClipboardDataManager::vftable;
+  param_1[2] = wetype::server::clipboard::ClipboardDataManager::vftable;
+  param_1[4] = wetype::server::clipboard::ClipboardDataManager::vftable;
+  param_1[6] = wetype::server::clipboard::ClipboardDataManager::vftable;
+  param_1[8] = wetype::server::clipboard::ClipboardDataManager::vftable;
+  FUN_1400c69a0(param_1 + 0xb);
+  puVar1 = (undefined8 *)param_1[10];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0xd8);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s1  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s2  FUNC (none) @140674680
+////////////////////////////////////////////////////////////////
+// no function at 140674680
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s3  FUNC FUN_14017d67c @14017d67c
+////////////////////////////////////////////////////////////////
+
+void FUN_14017d67c(longlong param_1)
+
+{
+  FUN_14017d6b0(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s4  FUNC thunk_FUN_140176a10 @1400e4d90
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_140176a10(void)
+
+{
+  return DAT_140715770;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s5  FUNC (none) @1406746a8
+////////////////////////////////////////////////////////////////
+// no function at 1406746a8
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s6  FUNC FUN_14017d688 @14017d688
+////////////////////////////////////////////////////////////////
+
+void FUN_14017d688(longlong param_1)
+
+{
+  FUN_14017d6b0(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s7  FUNC thunk_FUN_140176e10 @1400e4d70
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_140176e10(void)
+
+{
+  return *DAT_1407157b0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s8  FUNC (none) @1406746d0
+////////////////////////////////////////////////////////////////
+// no function at 1406746d0
+
+////////////////////////////////////////////////////////////////
+// wetype_server_clipboard_ClipboardDataManager#s9  FUNC FUN_14017d694 @14017d694
+////////////////////////////////////////////////////////////////
+
+void FUN_14017d694(longlong param_1)
+
+{
+  FUN_14017d6b0(param_1 + -0x30);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s0  FUNC FUN_140106550 @140106550
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_140106550(undefined8 *param_1,uint param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::ImeIpcServer::vftable;
+  param_1[2] = wetype::server::ImeIpcServer::vftable;
+  puVar1 = (undefined8 *)param_1[4];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x28);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s1  FUNC thunk_FUN_14014be30 @1400c0260
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14014be30(void)
+
+{
+  return DAT_140714f18;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s2  FUNC (none) @14066bb60
+////////////////////////////////////////////////////////////////
+// no function at 14066bb60
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s3  FUNC FUN_1401064ec @1401064ec
+////////////////////////////////////////////////////////////////
+
+void FUN_1401064ec(longlong param_1)
+
+{
+  FUN_140106550(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s4  FUNC thunk_FUN_140176e10 @1400e4d70
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_140176e10(void)
+
+{
+  return *DAT_1407157b0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s5  FUNC (none) @14066bb88
+////////////////////////////////////////////////////////////////
+// no function at 14066bb88
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s6  FUNC FUN_1401065b0 @1401065b0
+////////////////////////////////////////////////////////////////
+
+longlong FUN_1401065b0(longlong param_1,ulonglong param_2)
+
+{
+  *(undefined ***)(param_1 + 0xb0) = lsignal::slot::vftable;
+  FUN_1400c2100(param_1 + 0xb0);
+  FUN_1400beff0(param_1 + 0xb0);
+  FUN_1401797a0(param_1);
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0xf0);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s7  FUNC FUN_1401069b0 @1401069b0
+////////////////////////////////////////////////////////////////
+
+undefined8 FUN_1401069b0(longlong param_1,undefined8 *param_2)
+
+{
+  longlong lVar1;
+  char cVar2;
+  longlong lVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  undefined8 uVar6;
+  char *local_128;
+  undefined8 local_120;
+  undefined **local_108 [5];
+  undefined **local_e0;
+  ulonglong local_d8;
+  undefined1 local_78 [8];
+  ulonglong local_70;
+  char local_10;
+  
+  FUN_14013e9a0(local_108,0);
+  local_108[0] = wetype::commands::CommandBase::vftable;
+  cVar2 = FUN_14037d470(local_108,*param_2,*(undefined4 *)(param_2 + 1));
+  if (cVar2 == '\0') {
+    local_128 = "Invalid request";
+    local_120 = 0xf;
+    FUN_14007d630(2,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\ipc\\ipc_server.cpp",0x5a,
+                  "wetype::server::ImeIpcServer::Impl::Process","IpcServerV2",&local_128);
+  }
+  else {
+    FUN_140106660(local_78,local_108);
+    if (local_10 != '\0') {
+      lVar1 = *(longlong *)(param_1 + 0xe0);
+      lVar3 = *(longlong *)(lVar1 + 8);
+      if (lVar3 == 0) {
+        lVar3 = FUN_14014be30();
+        *(longlong *)(lVar1 + 8) = lVar3;
+        if (lVar3 == 0) {
+          FUN_140092850(&local_128,"cannot get instance for type");
+                    /* WARNING: Subroutine does not return */
+          FUN_1404fef54(&local_128,&DAT_1406d2180);
+        }
+      }
+      FUN_14013e9d0(&local_e0,0);
+      local_e0 = wetype::commands::CommandV1::vftable;
+      puVar5 = (undefined8 *)(local_d8 & 0xfffffffffffffffe);
+      if ((local_d8 & 1) != 0) {
+        puVar5 = (undefined8 *)*puVar5;
+      }
+      if ((local_70 & 1) == 0) {
+        puVar4 = (undefined8 *)(local_70 & 0xfffffffffffffffe);
+      }
+      else {
+        puVar4 = *(undefined8 **)(local_70 & 0xfffffffffffffffe);
+      }
+      if (puVar5 == puVar4) {
+        FUN_140140d50();
+      }
+      else {
+        FUN_1401409d0(&local_e0,local_78);
+      }
+      local_e0 = wetype::commands::CommandV1::vftable;
+      FUN_14014be40(lVar3,&local_e0);
+      if (local_10 != '\0') {
+        FUN_140140060(local_78);
+      }
+      uVar6 = 1;
+      goto LAB_140106b08;
+    }
+  }
+  uVar6 = 0;
+LAB_140106b08:
+  FUN_140140020(local_108);
+  return uVar6;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s8  FUNC FUN_140107b80 @140107b80
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_140107b80(undefined8 param_1,undefined4 param_2)
+
+{
+  int iVar1;
+  undefined1 auStack_98 [32];
+  char *local_78;
+  undefined8 ***local_70;
+  undefined8 ***local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  char **ppcStack_50;
+  undefined8 ***local_48 [3];
+  ulonglong local_30;
+  undefined8 **local_28;
+  undefined8 uStack_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_1406f5e40 ^ (ulonglong)auStack_98;
+  iVar1 = FUN_14048d4a0(3);
+  if (iVar1 != 0) {
+    local_68 = (undefined8 ***)CONCAT44(local_68._4_4_,param_2);
+    local_28 = local_68;
+    uStack_20 = uStack_60;
+    ppcStack_50 = (char **)&local_28;
+    local_58 = 2;
+    local_68 = (undefined8 ***)0x14056d308;
+    uStack_60 = 0x16;
+    FUN_14047caf0(local_48,&local_68,&local_58);
+    local_68 = local_48;
+    if (0xf < local_30) {
+      local_68 = local_48[0];
+    }
+    local_70 = &local_68;
+    local_78 = "IpcServerV2";
+    FUN_14007f6c0(3,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\ipc\\ipc_server.cpp",0x89,
+                  "wetype::server::ImeIpcServer::Impl::onClientConnect");
+    if (0xf < local_30) {
+      if (0xfff < local_30 + 1) {
+        if (0x1f < (ulonglong)((longlong)local_48[0] + (-8 - (longlong)local_48[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(local_48[0][-1],local_30 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+  }
+  FUN_140106b50(param_1,param_2);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_ImeIpcServer#s9  FUNC FUN_140107cf0 @140107cf0
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_140107cf0(longlong param_1,undefined4 param_2)
+
+{
+  longlong lVar1;
+  int iVar2;
+  longlong *plVar3;
+  undefined1 auStack_a8 [32];
+  char *local_88;
+  undefined8 ***local_80;
+  undefined8 ***local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  char **ppcStack_60;
+  undefined8 ***local_58 [3];
+  ulonglong local_40;
+  undefined8 **local_38;
+  undefined8 uStack_30;
+  ulonglong local_18;
+  
+  local_18 = DAT_1406f5e40 ^ (ulonglong)auStack_a8;
+  iVar2 = FUN_14048d4a0(3);
+  if (iVar2 != 0) {
+    local_78 = (undefined8 ***)CONCAT44(local_78._4_4_,param_2);
+    local_38 = local_78;
+    uStack_30 = uStack_70;
+    ppcStack_60 = (char **)&local_38;
+    local_68 = 2;
+    local_78 = (undefined8 ***)0x14056d358;
+    uStack_70 = 0x19;
+    FUN_14047caf0(local_58,&local_78,&local_68);
+    local_78 = local_58;
+    if (0xf < local_40) {
+      local_78 = local_58[0];
+    }
+    local_80 = &local_78;
+    local_88 = "IpcServerV2";
+    FUN_14007f6c0(3,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\server\\ipc\\ipc_server.cpp",0x9e,
+                  "wetype::server::ImeIpcServer::Impl::onClientDisConnect");
+    if (0xf < local_40) {
+      if (0xfff < local_40 + 1) {
+        if (0x1f < (ulonglong)((longlong)local_58[0] + (-8 - (longlong)local_58[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+          FUN_14050cb84(local_58[0][-1],local_40 + 0x28);
+        }
+      }
+      thunk_FUN_1401ca000();
+    }
+  }
+  lVar1 = *(longlong *)(param_1 + 0xe0);
+  plVar3 = *(longlong **)(lVar1 + 0x18);
+  if (plVar3 == (longlong *)0x0) {
+    plVar3 = (longlong *)FUN_140176e10();
+    *(longlong **)(lVar1 + 0x18) = plVar3;
+    if (plVar3 == (longlong *)0x0) {
+      FUN_140092850(&local_38,"cannot get instance for type");
+                    /* WARNING: Subroutine does not return */
+      FUN_1404fef54(&local_38,&DAT_1406d2180);
+    }
+  }
+  (**(code **)(*plVar3 + 0x30))(plVar3,*(undefined4 *)(param_1 + 0xe8),param_2);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s0  FUNC FUN_1400d5670 @1400d5670
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_1400d5670(undefined8 *param_1,ulonglong param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::cross_platform::CrossPlatformManager::vftable;
+  param_1[2] = wetype::server::cross_platform::CrossPlatformManager::vftable;
+  param_1[4] = wetype::server::cross_platform::CrossPlatformManager::vftable;
+  param_1[6] = wetype::server::cross_platform::CrossPlatformManager::vftable;
+  FUN_1400c69a0(param_1 + 0x19);
+  FUN_1400c69a0(param_1 + 9);
+  puVar1 = (undefined8 *)param_1[8];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x148);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s1  FUNC thunk_FUN_140159d80 @1400c7f20
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_140159d80(void)
+
+{
+  return DAT_140715108;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s2  FUNC (none) @140666d88
+////////////////////////////////////////////////////////////////
+// no function at 140666d88
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s3  FUNC FUN_1400d52f4 @1400d52f4
+////////////////////////////////////////////////////////////////
+
+void FUN_1400d52f4(longlong param_1)
+
+{
+  FUN_1400d5670(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s4  FUNC thunk_FUN_1400c0410 @1400c7f10
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_1400c0410(void)
+
+{
+  return DAT_140714148;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s5  FUNC (none) @140666db0
+////////////////////////////////////////////////////////////////
+// no function at 140666db0
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s6  FUNC FUN_1400d5300 @1400d5300
+////////////////////////////////////////////////////////////////
+
+void FUN_1400d5300(longlong param_1)
+
+{
+  FUN_1400d5670(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s7  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s8  FUNC (none) @140666dd8
+////////////////////////////////////////////////////////////////
+// no function at 140666dd8
+
+////////////////////////////////////////////////////////////////
+// wetype_server_cross_platform_CrossPlatformManager#s9  FUNC FUN_1400d530c @1400d530c
+////////////////////////////////////////////////////////////////
+
+void FUN_1400d530c(longlong param_1)
+
+{
+  FUN_1400d5670(param_1 + -0x30);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s0  FUNC FUN_140105820 @140105820
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_140105820(undefined8 *param_1,uint param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::handler::InputProcessor::vftable;
+  param_1[2] = wetype::server::handler::InputProcessor::vftable;
+  param_1[4] = wetype::server::handler::InputProcessor::vftable;
+  param_1[6] = wetype::server::handler::InputProcessor::vftable;
+  param_1[8] = wetype::server::handler::InputProcessor::vftable;
+  puVar1 = (undefined8 *)param_1[10];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x58);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s1  FUNC thunk_FUN_140176e10 @1400e4d70
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_140176e10(void)
+
+{
+  return *DAT_1407157b0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s2  FUNC (none) @14066b808
+////////////////////////////////////////////////////////////////
+// no function at 14066b808
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s3  FUNC FUN_140105720 @140105720
+////////////////////////////////////////////////////////////////
+
+void FUN_140105720(longlong param_1)
+
+{
+  FUN_140105820(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s4  FUNC thunk_FUN_14014be30 @1400c0260
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14014be30(void)
+
+{
+  return DAT_140714f18;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s5  FUNC (none) @14066b830
+////////////////////////////////////////////////////////////////
+// no function at 14066b830
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s6  FUNC FUN_14010572c @14010572c
+////////////////////////////////////////////////////////////////
+
+void FUN_14010572c(longlong param_1)
+
+{
+  FUN_140105820(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s7  FUNC thunk_FUN_1401bba30 @1400c0270
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_1401bba30(void)
+
+{
+  return DAT_140715ee8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s8  FUNC (none) @14066b858
+////////////////////////////////////////////////////////////////
+// no function at 14066b858
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_InputProcessor#s9  FUNC FUN_140105738 @140105738
+////////////////////////////////////////////////////////////////
+
+void FUN_140105738(longlong param_1)
+
+{
+  FUN_140105820(param_1 + -0x30);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s0  FUNC FUN_140109290 @140109290
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_140109290(undefined8 *param_1,uint param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::vmode::VmodeDataManager::vftable;
+  param_1[2] = wetype::server::vmode::VmodeDataManager::vftable;
+  param_1[4] = wetype::server::vmode::VmodeDataManager::vftable;
+  param_1[6] = wetype::server::vmode::VmodeDataManager::vftable;
+  puVar1 = (undefined8 *)param_1[8];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x48);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s1  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s2  FUNC (none) @14066c640
+////////////////////////////////////////////////////////////////
+// no function at 14066c640
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s3  FUNC FUN_140109208 @140109208
+////////////////////////////////////////////////////////////////
+
+void FUN_140109208(longlong param_1)
+
+{
+  FUN_140109290(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s4  FUNC thunk_FUN_14017fa40 @140109300
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14017fa40(void)
+
+{
+  return DAT_140715938;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s5  FUNC (none) @14066c668
+////////////////////////////////////////////////////////////////
+// no function at 14066c668
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s6  FUNC FUN_140109214 @140109214
+////////////////////////////////////////////////////////////////
+
+void FUN_140109214(longlong param_1)
+
+{
+  FUN_140109290(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s7  FUNC thunk_FUN_14014be30 @1400c0260
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14014be30(void)
+
+{
+  return DAT_140714f18;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s8  FUNC (none) @14066c690
+////////////////////////////////////////////////////////////////
+// no function at 14066c690
+
+////////////////////////////////////////////////////////////////
+// wetype_server_vmode_VmodeDataManager#s9  FUNC FUN_140109220 @140109220
+////////////////////////////////////////////////////////////////
+
+void FUN_140109220(longlong param_1)
+
+{
+  FUN_140109290(param_1 + -0x30);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s0  FUNC FUN_14010cdb0 @14010cdb0
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_14010cdb0(undefined8 *param_1,uint param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::report::ImeReport::vftable;
+  param_1[2] = wetype::server::report::ImeReport::vftable;
+  param_1[4] = wetype::server::report::ImeReport::vftable;
+  param_1[6] = wetype::server::report::ImeReport::vftable;
+  param_1[8] = wetype::server::report::ImeReport::vftable;
+  param_1[10] = wetype::server::report::ImeReport::vftable;
+  param_1[0xc] = wetype::server::report::ImeReport::vftable;
+  param_1[0xe] = wetype::server::report::ImeReport::vftable;
+  param_1[0x10] = wetype::server::report::ImeReport::vftable;
+  puVar1 = (undefined8 *)param_1[0x12];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0x98);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s1  FUNC thunk_FUN_140176e10 @1400e4d70
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_140176e10(void)
+
+{
+  return *DAT_1407157b0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s2  FUNC (none) @14066cc88
+////////////////////////////////////////////////////////////////
+// no function at 14066cc88
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s3  FUNC FUN_14010cd4c @14010cd4c
+////////////////////////////////////////////////////////////////
+
+void FUN_14010cd4c(longlong param_1)
+
+{
+  FUN_14010cdb0(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s4  FUNC thunk_FUN_14011e300 @1400c7f00
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14011e300(void)
+
+{
+  return DAT_1407148f8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s5  FUNC (none) @14066ccb0
+////////////////////////////////////////////////////////////////
+// no function at 14066ccb0
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s6  FUNC FUN_14010cd58 @14010cd58
+////////////////////////////////////////////////////////////////
+
+void FUN_14010cd58(longlong param_1)
+
+{
+  FUN_14010cdb0(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s7  FUNC thunk_FUN_1400e5320 @1400f4ba0
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_1400e5320(void)
+
+{
+  return DAT_140714408;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s8  FUNC (none) @14066ccd8
+////////////////////////////////////////////////////////////////
+// no function at 14066ccd8
+
+////////////////////////////////////////////////////////////////
+// wetype_server_report_ImeReport#s9  FUNC FUN_14010cd64 @14010cd64
+////////////////////////////////////////////////////////////////
+
+void FUN_14010cd64(longlong param_1)
+
+{
+  FUN_14010cdb0(param_1 + -0x30);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s0  FUNC FUN_1400efe30 @1400efe30
+////////////////////////////////////////////////////////////////
+
+undefined8 * FUN_1400efe30(undefined8 *param_1,ulonglong param_2)
+
+{
+  undefined8 *puVar1;
+  
+  *param_1 = wetype::server::handler::DictUpdater::vftable;
+  param_1[2] = wetype::server::handler::DictUpdater::vftable;
+  param_1[4] = wetype::server::handler::DictUpdater::vftable;
+  param_1[6] = wetype::server::handler::DictUpdater::vftable;
+  param_1[8] = wetype::server::handler::DictUpdater::vftable;
+  param_1[10] = wetype::server::handler::DictUpdater::vftable;
+  FUN_1400c69a0(param_1 + 0xd);
+  puVar1 = (undefined8 *)param_1[0xc];
+  if (puVar1 != (undefined8 *)0x0) {
+    (**(code **)*puVar1)(puVar1,1);
+  }
+  if ((param_2 & 1) != 0) {
+    thunk_FUN_1401ca000(param_1,0xe8);
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s1  FUNC thunk_FUN_1400e5320 @1400f4ba0
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_1400e5320(void)
+
+{
+  return DAT_140714408;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s2  FUNC (none) @14066a300
+////////////////////////////////////////////////////////////////
+// no function at 14066a300
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s3  FUNC FUN_1400efde8 @1400efde8
+////////////////////////////////////////////////////////////////
+
+void FUN_1400efde8(longlong param_1)
+
+{
+  FUN_1400efe30(param_1 + -0x10);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s4  FUNC thunk_FUN_1401bba30 @1400c0270
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_1401bba30(void)
+
+{
+  return DAT_140715ee8;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s5  FUNC (none) @14066a328
+////////////////////////////////////////////////////////////////
+// no function at 14066a328
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s6  FUNC FUN_1400efdf4 @1400efdf4
+////////////////////////////////////////////////////////////////
+
+void FUN_1400efdf4(longlong param_1)
+
+{
+  FUN_1400efe30(param_1 + -0x20);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s7  FUNC thunk_FUN_14014be30 @1400c0260
+////////////////////////////////////////////////////////////////
+
+undefined8 thunk_FUN_14014be30(void)
+
+{
+  return DAT_140714f18;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s8  FUNC (none) @14066a350
+////////////////////////////////////////////////////////////////
+// no function at 14066a350
+
+////////////////////////////////////////////////////////////////
+// wetype_server_handler_DictUpdater#s9  FUNC FUN_1400efe00 @1400efe00
+////////////////////////////////////////////////////////////////
+
+void FUN_1400efe00(longlong param_1)
+
+{
+  FUN_1400efe30(param_1 + -0x30);
+  return;
+}
+
+
+
+// decompiled 98

@@ -1,0 +1,420 @@
+{
+ "file": "wcwss.dll",
+ "size": 3572272,
+ "sha256": "27d51c7504a97ba90f3bf025d1f17c7818e25b8422b6fa19178b0f6e97d44daf",
+ "machine": "0x8664",
+ "timestamp": 1784703258,
+ "timestamp_iso": "2026-07-22T06:54:18Z",
+ "characteristics": "0x2022",
+ "subsystem": 3,
+ "dll": true,
+ "entrypoint": "0x21d514",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 2477432,
+   "raw": "0x400",
+   "rawsize": 2477568,
+   "entropy": 6.405,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0x25e000",
+   "vsize": 840462,
+   "raw": "0x25d200",
+   "rawsize": 840704,
+   "entropy": 5.679,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x32c000",
+   "vsize": 117516,
+   "raw": "0x32a600",
+   "rawsize": 95744,
+   "entropy": 4.787,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x349000",
+   "vsize": 111816,
+   "raw": "0x341c00",
+   "rawsize": 112128,
+   "entropy": 6.26,
+   "chars": "0x40000040"
+  },
+  {
+   "name": "_RDATA",
+   "va": "0x365000",
+   "vsize": 244,
+   "raw": "0x35d200",
+   "rawsize": 512,
+   "entropy": 2.45,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "va": "0x366000",
+   "vsize": 480,
+   "raw": "0x35d400",
+   "rawsize": 512,
+   "entropy": 4.721,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x367000",
+   "vsize": 32912,
+   "raw": "0x35d600",
+   "rawsize": 33280,
+   "entropy": 5.446,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "KERNEL32.dll",
+   "count": 146,
+   "funcs": [
+    "TlsGetValue",
+    "TlsSetValue",
+    "GetModuleHandleA",
+    "GetProcAddress",
+    "VerifyVersionInfoW",
+    "Sleep",
+    "MultiByteToWideChar",
+    "GetSystemTimeAsFileTime",
+    "GetCurrentThreadId",
+    "GetModuleHandleExW",
+    "FreeLibrary",
+    "LoadLibraryA",
+    "LoadLibraryW",
+    "GetStdHandle",
+    "GetFileType",
+    "WriteFile",
+    "GetModuleHandleW",
+    "SwitchToFiber",
+    "DeleteFiber",
+    "CreateFiber",
+    "FindClose",
+    "FindFirstFileW",
+    "FindNextFileW",
+    "QueryPerformanceCounter",
+    "GetCurrentProcessId",
+    "ConvertFiberToThread",
+    "ConvertThreadToFiber",
+    "GetEnvironmentVariableW",
+    "GetConsoleMode",
+    "SetConsoleMode",
+    "ReadConsoleA",
+    "ReadConsoleW",
+    "GetSystemTime",
+    "SystemTimeToFileTime",
+    "GetThreadId",
+    "SetEndOfFile",
+    "WriteConsoleW",
+    "CreateWaitableTimerW",
+    "GetProcessHeap",
+    "SetWaitableTimer",
+    "CreateEventW",
+    "SleepEx",
+    "InitializeCriticalSectionAndSpinCount",
+    "GetQueuedCompletionStatus",
+    "CreateIoCompletionPort",
+    "SetLastError",
+    "VerSetConditionMask",
+    "WideCharToMultiByte",
+    "FormatMessageW",
+    "FormatMessageA",
+    "LocalFree",
+    "TlsFree",
+    "TlsAlloc",
+    "TerminateThread",
+    "QueueUserAPC",
+    "WaitForMultipleObjects",
+    "WaitForSingleObject",
+    "SetEnvironmentVariableW",
+    "FreeEnvironmentStringsW",
+    "GetEnvironmentStringsW",
+    "GetCommandLineW",
+    "GetCommandLineA",
+    "GetOEMCP",
+    "GetACP",
+    "IsValidCodePage",
+    "FindFirstFileExW",
+    "GetTimeZoneInformation",
+    "GetFullPathNameW",
+    "GetCurrentDirectoryW",
+    "GetFileSizeEx",
+    "SetFilePointerEx",
+    "GetConsoleOutputCP",
+    "FlushFileBuffers",
+    "HeapReAlloc",
+    "EnumSystemLocalesW",
+    "GetUserDefaultLCID",
+    "IsValidLocale",
+    "GetLocaleInfoW",
+    "LCMapStringW",
+    "CompareStringW",
+    "HeapAlloc",
+    "HeapFree",
+    "GetModuleFileNameW",
+    "SetStdHandle",
+    "ExitProcess",
+    "FileTimeToSystemTime",
+    "SystemTimeToTzSpecificLocalTime",
+    "PeekNamedPipe",
+    "GetFileInformationByHandle",
+    "GetDriveTypeW",
+    "RtlUnwind",
+    "CreateFileW",
+    "ReadFile",
+    "FreeLibraryAndExitThread",
+    "ExitThread",
+    "SetEvent",
+    "DeleteCriticalSection",
+    "LeaveCriticalSection",
+    "EnterCriticalSection",
+    "PostQueuedCompletionStatus",
+    "GetLastError",
+    "HeapSize",
+    "CloseHandle",
+    "InitializeSRWLock",
+    "ReleaseSRWLockExclusive",
+    "AcquireSRWLockExclusive",
+    "InitializeCriticalSectionEx",
+    "TryEnterCriticalSection",
+    "InitOnceBeginInitialize",
+    "InitOnceComplete",
+    "RtlPcToFileHeader",
+    "RaiseException",
+    "QueryPerformanceFrequency",
+    "WaitForSingleObjectEx",
+    "GetExitCodeThread",
+    "InitializeConditionVariable",
+    "WakeConditionVariable",
+    "WakeAllConditionVariable",
+    "SleepConditionVariableCS",
+    "SleepConditionVariableSRW",
+    "FlsAlloc",
+    "FlsGetValue",
+    "FlsSetValue",
+    "FlsFree",
+    "EncodePointer",
+    "DecodePointer",
+    "LCMapStringEx",
+    "GetStringTypeW",
+    "GetCPInfo",
+    "ResetEvent",
+    "RtlCaptureContext",
+    "RtlLookupFunctionEntry",
+    "RtlVirtualUnwind",
+    "UnhandledExceptionFilter",
+    "SetUnhandledExceptionFilter",
+    "GetCurrentProcess",
+    "TerminateProcess",
+    "IsProcessorFeaturePresent",
+    "IsDebuggerPresent",
+    "GetStartupInfoW",
+    "InitializeSListHead",
+    "RtlUnwindEx",
+    "InterlockedFlushSList",
+    "LoadLibraryExW",
+    "SetConsoleCtrlHandler",
+    "CreateThread"
+   ]
+  },
+  {
+   "dll": "USER32.dll",
+   "count": 3,
+   "funcs": [
+    "GetProcessWindowStation",
+    "GetUserObjectInformationW",
+    "MessageBoxW"
+   ]
+  },
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 15,
+   "funcs": [
+    "CryptDestroyHash",
+    "RegisterEventSourceW",
+    "ReportEventW",
+    "CryptAcquireContextW",
+    "CryptReleaseContext",
+    "CryptDestroyKey",
+    "CryptSetHashParam",
+    "CryptGetProvParam",
+    "CryptEnumProvidersW",
+    "CryptSignHashW",
+    "DeregisterEventSource",
+    "CryptCreateHash",
+    "CryptDecrypt",
+    "CryptExportKey",
+    "CryptGetUserKey"
+   ]
+  },
+  {
+   "dll": "WS2_32.dll",
+   "count": 31,
+   "funcs": [
+    "send",
+    "recv",
+    "freeaddrinfo",
+    "getaddrinfo",
+    "WSAStringToAddressW",
+    "WSASocketW",
+    "WSAIoctl",
+    "select",
+    "listen",
+    "getsockname",
+    "bind",
+    "__WSAFDIsSet",
+    "WSAAddressToStringW",
+    "WSASend",
+    "WSARecv",
+    "WSAGetLastError",
+    "WSASetLastError",
+    "shutdown",
+    "setsockopt",
+    "ntohs",
+    "ntohl",
+    "htons",
+    "htonl",
+    "getsockopt",
+    "getpeername",
+    "ioctlsocket",
+    "closesocket",
+    "WSACleanup",
+    "WSAStartup",
+    "connect",
+    "accept"
+   ]
+  },
+  {
+   "dll": "MSWSOCK.dll",
+   "count": 2,
+   "funcs": [
+    "GetAcceptExSockaddrs",
+    "AcceptEx"
+   ]
+  },
+  {
+   "dll": "bcrypt.dll",
+   "count": 1,
+   "funcs": [
+    "BCryptGenRandom"
+   ]
+  },
+  {
+   "dll": "CRYPT32.dll",
+   "count": 7,
+   "funcs": [
+    "CertCloseStore",
+    "CertEnumCertificatesInStore",
+    "CertFindCertificateInStore",
+    "CertDuplicateCertificateContext",
+    "CertFreeCertificateContext",
+    "CertGetCertificateContextProperty",
+    "CertOpenStore"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "?close_socket@wcwss@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IH0@Z",
+   "addr": "0x42a0"
+  },
+  {
+   "ord": 2,
+   "name": "?connect_socket@wcwss@@YAHV?$shared_ptr@VCallback@wcwss@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@AEAI1AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$",
+   "addr": "0x42f0"
+  },
+  {
+   "ord": 3,
+   "name": "?send_socket_message@wcwss@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IPEBD_K_N@Z",
+   "addr": "0x5190"
+  },
+  {
+   "ord": 4,
+   "name": "?set_debug_ip@wcwss@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+   "addr": "0x51f0"
+  },
+  {
+   "ord": 5,
+   "name": "?set_proxy@wcwss@@YAXAEBVProxyInfo@1@@Z",
+   "addr": "0x5220"
+  },
+  {
+   "ord": 6,
+   "name": "?start_pc_mb_ws_proxy_server@wcwss@@YAXH@Z",
+   "addr": "0x5240"
+  },
+  {
+   "ord": 7,
+   "name": "?stop_pc_mb_ws_proxy_server@wcwss@@YAXXZ",
+   "addr": "0x5250"
+  },
+  {
+   "ord": 8,
+   "name": "?uninit@wcwss@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+   "addr": "0x5c40"
+  },
+  {
+   "ord": 9,
+   "name": "wcwss_close_socket",
+   "addr": "0x3f070"
+  },
+  {
+   "ord": 10,
+   "name": "wcwss_connect_socket",
+   "addr": "0x3f080"
+  },
+  {
+   "ord": 11,
+   "name": "wcwss_send_socket_message",
+   "addr": "0x3f140"
+  },
+  {
+   "ord": 12,
+   "name": "wcwss_start_pc_mb_ws_proxy_server",
+   "addr": "0x3f150"
+  },
+  {
+   "ord": 13,
+   "name": "wcwss_stop_pc_mb_ws_proxy_server",
+   "addr": "0x3f160"
+  },
+  {
+   "ord": 14,
+   "name": "wcwss_uninit",
+   "addr": "0x3f170"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\data\\landun\\workspace\\wsss\\cmake_build\\Release\\wcwss.pdb\u0000",
+   "guid": "709039638",
+   "age": 1
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": [
+  {
+   "type": "RT_MANIFEST",
+   "id": 24
+  }
+ ]
+}

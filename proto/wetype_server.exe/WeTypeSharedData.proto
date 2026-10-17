@@ -1,0 +1,10 @@
+// file: WeTypeSharedData.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+message WeTypeSharedData {
+  optional uint64 uin = 1;
+  optional bool need_transfer = 2;
+  optional string device_code_update = 3;
+  optional string device_code_server = 4;
+  optional string device_code_engine = 5;
+  optional string device_code_render = 6;
+}

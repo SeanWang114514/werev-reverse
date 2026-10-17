@@ -1,0 +1,13 @@
+  https://api.flutter.dev/flutter/dart-ui/ChannelBuffers-class.html
+  https://api.flutter.dev/flutter/material/Scaffold/of.html
+" is not supported by the platform. Refer to https://flutter.dev/docs/release/breaking-changes/network-policy-ios-android.
+If troubleshooting doesn't solve the problem, please file an issue at https://github.com/material-foundation/flutter-packages/issues/new/choose.
+None of the patterns in the exhaustive switch statement the matched input value. See https://github.com/dart-lang/language/issues/3488 for details.
+None of the patterns in the switch expression the matched input value. See https://github.com/dart-lang/language/issues/3488 for details.
+There is likely something wrong with your test. Please see https://github.com/material-foundation/flutter-packages/blob/main/packages/google_fonts/example/test for examples of how to test with google_fonts.
+Unknown ColorFilter type. This is an error. If you're seeing this, please file an issue at https://github.com/flutter/flutter/issues/new.
+http://dashboard.oss.weread.woa.com/api/get/enum/proto?id=wt_stat_pc_app_common_scene
+http://localhost:8969/stream
+https://download.z.weixin.qq.com/page/article/index/18.html
+https://fonts.gstatic.com/s/a/
+https://wxkeyboardcms-1258476243.file.myqcloud.com/page/article/index/11.html

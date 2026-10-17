@@ -1,0 +1,18 @@
+# Ghidra projects / JDK
+*.rep/
+*.gpr
+
+# Scratch
+_tmp*
+__pycache__/
+*.pyc
+
+# Large local artifacts
+*.zip
+*.7z
+samples/
+ghidra_runtime/
+
+# OS
+Thumbs.db
+.DS_Store

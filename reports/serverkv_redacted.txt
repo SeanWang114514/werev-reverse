@@ -1,0 +1,6866 @@
+
+## 001890.ldb :: vmodeclipboard_guide_config  (5 B)
+  1: varint 1
+  2: varint 0
+  3: varint None
+
+## 001910.ldb :: configab_params  (1015 B)
+  1: message[61]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9391548
+    2: message[46]
+      1: str[41] 'mmkb_cli_engine_searcher_reduce_typo_expt'
+      2: str[1] '2'
+  1: message[66]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9457072
+    2: message[51]
+      1: str[46] 'mmkb_cli_engine_association_symbol_opt_expt_v2'
+      2: str[1] '5'
+  1: message[56]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9457130
+    2: message[41]
+      1: str[36] 'mmkb_cli_engine_edit_pinyin_strategy'
+      2: str[1] '1'
+  1: message[64]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9522457
+    2: message[49]
+      1: str[43] 'mmkb_cli_engine_association_offline_expt_v2'
+      2: str[2] '14'
+  1: message[56]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9981210
+    2: message[41]
+      1: str[36] 'mmkb_cli_engine_searcher_rotate_typo'
+      2: str[1] '1'
+  1: message[64]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 10374558
+    2: message[49]
+      1: str[33] 'mmkb_cli_engine_memory_dict_types'
+      2: message[12]
+        6: wt6 UNSUPPORTED
+  1: message[59]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 11226505
+    2: message[44]
+      1: str[39] 'mmkb_cli_engine_super_high_pc_nnlm_expt'
+      2: str[1] '1'
+  1: message[51]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 11554280
+    2: message[36]
+      1: str[31] 'mmkb_cli_engine_pc_graph_v3_new'
+      2: str[1] '1'
+  1: message[92]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 11750789
+    2: message[77]
+      1: str[52] 'mmkb_cli_engine_cloud_local_merger_protect_user_expt'
+      2: str[21] '0.1,604800,2,1.0,1000'
+  1: message[95]
+    1: message[14]
+      1: varint 11357471
+      2: varint 11423201
+      3: varint 3
+      4: varint 0
+    2: message[77]
+      1: str[40] 'mmkb_cli_engine_user_dict_clean_strategy'
+      2: str[33] '128,2,100000,10,5,2592000,30000,1'
+  1: message[58]
+    1: message[14]
+      1: varint 12864997
+      2: varint 12865003
+      3: varint 3
+      4: varint 0
+    2: message[40]
+      1: str[33] 'mmkb_cli_engine_cloud_time_out_ms'
+      2: str[3] '550'
+  1: message[69]
+    1: message[14]
+      1: varint 12930348
+      2: varint 12930358
+      3: varint 3
+      4: varint 0
+    2: message[51]
+      1: str[46] 'mmkb_cli_engine_pc_allow_cloud_force_top1_expt'
+      2: str[1] '1'
+  2: message[97]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 8932675
+    2: message[38]
+      1: str[33] 'mmkb_cli_toolbar_intelligentvoice'
+      2: message[1]
+        6: varint None
+    2: message[42]
+      1: str[37] 'mmkb_cli_toolbar_intelligentfindwords'
+      2: message[1]
+        6: wt3 UNSUPPORTED
+  2: message[46]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 8932771
+    2: message[31]
+      1: str[23] 'mmkb_cli_language_model'
+      2: message[4]
+        14: wt4 UNSUPPORTED
+  2: message[52]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 8998245
+    2: message[37]
+      1: str[29] 'mmkb_cli_toolbar_auto_display'
+      2: message[4]
+        14: wt4 UNSUPPORTED
+
+## 001910.ldb :: configcur_version  (6 B)
+  TEXT: 2.1.1.
+
+## 001910.ldb :: configdict_ab_params  (4 B)
+  TEXT: null
+
+## 001910.ldb :: configdict_config_exp_cnt  (0 B)
+  TEXT: 
+
+## 001910.ldb :: configenable_large_emoji  (0 B)
+  TEXT: 
+
+## 001910.ldb :: configglobalConfig  (50 B)
+  1: varint 2
+  2: varint 279771
+  10: message[22]
+    1: varint 18446744071562067968
+    2: varint 18446744071562067968
+  11: varint 120
+  13: varint 1
+  14: varint 1
+  15: varint 1
+  17: varint 1
+  21: varint 0
+  23: varint 1112
+  25: varint None
+
+## 001910.ldb :: configsessionConfig  (1394 B)
+  TEXT: {"cloud_engine_opt":{"cloud_search_by_input_predict_next_n":1,"cloud_search_by_input_return_cnt":3,"cloud_search_min_interval":0,"enable_cloud_correction":false,"enable_cloud_most_likely":false,"enable_cloud_search_by_input":true},"enable_candidate_expression":false,"enable_candidate_recommend":false,"enable_double_pin_global":false,"enable_fuzzy_global":null,"enable_spelling_plus":true,"enable_user_hot_word_recommend":false,"input_augment_option":{"double_pin_solution":0,"enable_an_ai":false,"enable_ang":false,"enable_c_ch":false,"enable_eng":false,"enable_eng_ong":false,"enable_exchange":true,"enable_gk":false,"enable_hf":false,"enable_huang_wang":false,"enable_hui_fei":false,"enable_iang":false,"enable_ing":false,"enable_insert_at_middle":true,"enable_keyboard_neighbour":true,"enable_nl":false,"enable_ong":false,"enable_rl":false,"enable_s_sh":false,"enable_shift_key_correction":false,"enable_skip":true,"enable_uang":false,"enable_un_iong":false,"enable_un_ong":false,"enable_z_zh":false,"wubi_config":{"emit_unique_candidate":true,"emit_when_input_next_rune":false,"enable_comment":true,"enable_pinyin":false,"select_when_input_next_rune":true,"wildcard_comment":false}},"is_default_chinese":true,"keyboard_type":0,"need_semi_colon":false,"simplified_to_traditional":0,"with_async_session_wrapper":true,"with_search_candidate_instantly_session_wrapper":true,"wubi_solution":0}
+
+## 001910.ldb :: vmodeclipboard  (21610929 B)
+  1: message[32]
+    1: str[19] '<剪贴板原文 已脱敏>'
+    2: varint 1785586927660
+    3: varint 2
+    4: varint 0
+  1: message[62]
+    1: str[49] '<剪贴板原文 已脱敏>'
+    2: varint 1785586754041
+    3: varint 2
+    4: varint 0
+  1: message[68]
+    1: str[55] '<剪贴板原文 已脱敏>'
+    2: varint 1785586746672
+    3: varint 2
+    4: varint 0
+  1: message[69]
+    1: message[56]
+      13: varint 116
+      14: wt4 UNSUPPORTED
+    2: varint 1785586746471
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1785586587093
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '<剪贴板原文 已脱敏>'
+    2: varint 1785586489357
+    3: varint 2
+    4: varint 0
+  1: message[21021625]
+    1: str[<21021609 bytes — 内容已移除>]
+    2: varint 1785586306891
+    3: varint 2
+    4: varint 0
+  1: message[107]
+    1: message[94]
+      10: message[101]
+        12: fixed64 4211833721993044068
+        5: wt7 UNSUPPORTED
+    2: varint 1785585451219
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '<剪贴板原文 已脱敏>'
+    2: varint 1785584990917
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '<剪贴板原文 已脱敏>'
+    2: varint 1785584754683
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      14: fixed64 4044290937926346103
+    2: varint 1785584681607
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      10: fixed64 4770473309251724663
+    2: varint 1785584501002
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://paofen.cocoloop.cn/skill.md'
+    2: varint 1785584453847
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] 'Qwen 3'
+    2: varint 1785584317765
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] '<剪贴板原文 已脱敏>'
+    2: varint 1785583898756
+    3: varint 2
+    4: varint 0
+  1: message[153]
+    1: str[<139 bytes — 内容已移除>]
+    2: varint 1785583484152
+    3: varint 2
+    4: varint 0
+  1: message[207]
+    1: message[193]
+      6477274109738862584954509009426112198757252909115955869145206304456416647647256220913166777684348527816811635398876860383809821306514205868124195574253563357738607396827431982286651775255579258550565520113327945068283548397354698442892: wt6 UNSUPPORTED
+    2: varint 1785583246592
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '轻闪翻译'
+    2: varint 1785583037016
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      10: message[101]
+        12: wt3 UNSUPPORTED
+    2: varint 1785582605858
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      10: wt7 UNSUPPORTED
+    2: varint 1785582438274
+    3: varint 2
+    4: varint 0
+  1: message[122]
+    1: str[109] '帮我写一个html网页文件 要求可以每天打开后读取github上的增加的高星（stars）项目'
+    2: varint 1785580913090
+    3: varint 2
+    4: varint 0
+  1: message[143]
+    1: str[<129 bytes — 内容已移除>]
+    2: varint 1785575502275
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] 'https://www.bilibili.com/video/BV1Lr421M7u2/?spm_id_from=333.337.search-card.all.click'
+    2: varint 1785575468191
+    3: varint 2
+    4: varint 0
+  1: message[1014]
+    1: message[1000]
+      13: fixed32 1953656688
+      12: fixed64 8391171791073735790
+      12: fixed64 5701668627550334060
+      14: varint 101
+      13: wt6 UNSUPPORTED
+    2: varint 1785558157472
+    3: varint 2
+    4: varint 0
+  1: message[78]
+    1: str[65] 'https://github.com/relunctance/summarize-skill/blob/main/SKILL.md'
+    2: varint 1785557889489
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'summarize-skill'
+    2: varint 1785557885603
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      10: wt3 UNSUPPORTED
+    2: varint 1785557859992
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'https://skills.pub'
+    2: varint 1785557758820
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'Design Skill 调用规则'
+    2: varint 1785557637416
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] '<剪贴板原文 已脱敏>'
+    2: varint 1785555349560
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'Qwen3.7-Flash'
+    2: varint 1785554413426
+    3: varint 2
+    4: varint 0
+  1: message[319]
+    1: message[305]
+      11: wt3 UNSUPPORTED
+    2: varint 1785553757358
+    3: varint 2
+    4: varint 0
+  1: message[185]
+    1: str[<171 bytes — 内容已移除>]
+    2: varint 1785553726742
+    3: varint 2
+    4: varint 0
+  1: message[129]
+    1: str[116] 'sk-ws-H.ELDHLHE.AGvn.MEUCIQCZr0z3X44PufOKzebVd3-IdJeI6ELqritqTgido4zV0gIgEjXwh3TzvSDJFELMJYG2qmHLeBdV9oUrTQLZtGKSeSQ'
+    2: varint 1785553328698
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: message[12]
+      10: wt6 UNSUPPORTED
+    2: varint 1785553314851
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'qwen-flash-2025-07-28'
+    2: varint 1785553247385
+    3: varint 2
+    4: varint 0
+  1: message[59]
+    1: str[46] 'https://github.com/asuojun/claude-vision-skill'
+    2: varint 1785553151755
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'qwen3.5-omni-plus'
+    2: varint 1785553106129
+    3: varint 2
+    4: varint 0
+  1: message[106]
+    1: str[93] 'https://bailian.console.aliyun.com/cn-beijing?tab=costing-balance#/costing-balance/free-quota'
+    2: varint 1785552745639
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: message[15]
+      1: fixed32 1869563658
+      12: wt7 UNSUPPORTED
+    2: varint 1785552247073
+    3: varint 2
+    4: varint 0
+  1: message[68]
+    1: str[55] 'C:\\Users\\Administrator\\Documents\\Codex\\2026-08-01\\ni-sh'
+    2: varint 1785552118444
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'sk-7518ccf3c36b4122970600a1e5adeb15'
+    2: varint 1785551942315
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1785551678926
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] ' C:\\Users\\Administrator\\.local\\bin\\clau.'
+    2: varint 1785551554666
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: bytes[20] 0d0a4765742d436f6d6d616e6420636c61756465
+    2: varint 1785551526560
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] 'npm uninstall -g @anthropic-ai/claude-code'
+    2: varint 1785551509090
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'deepseek-v4-flash'
+    2: varint 1785551441146
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt3 UNSUPPORTED
+    2: varint 1785550771723
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      11: wt3 UNSUPPORTED
+    2: varint 1785514722898
+    3: varint 2
+    4: varint 0
+  1: message[40]
+    1: str[27] '<剪贴板原文 已脱敏>'
+    2: varint 1785508025788
+    3: varint 2
+    4: varint 0
+  1: message[39]
+    1: str[26] '<剪贴板原文 已脱敏>'
+    2: varint 1785508022653
+    3: varint 2
+    4: varint 0
+  1: message[69]
+    1: str[56] 'https://pan.baidu.com/s/1H8pR2NxmZ_yqDxgqUEoHDQ?pwd=0720'
+    2: varint 1785507863876
+    3: varint 2
+    4: varint 0
+  1: message[68]
+    1: str[55] 'https://www.nexusmods.com/games/monsterhunterworld/mods'
+    2: varint 1785507858799
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'ttps://www.nexusmods.com/games/monsterhunterworld/mods'
+    2: varint 1785507849395
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'How to win back your ex'
+    2: varint 1785428405532
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: str[20] 'How to win back your'
+    2: varint 1785428318124
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'https://store.steampowered.com/'
+    2: varint 1785427636633
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] 'https://www.bilibili.com/video/BV1GG41147Jz/?spm_id_from=333.337.search-card.all.click'
+    2: varint 1785426513758
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: str[44] 'https://www.bilibili.com/video/BV1mGXhBFEF5?'
+    2: varint 1785426483547
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] 'https://www.bilibili.com/video/BV1JkXjBVEee/?spm_id_from=333.337.search-card.all.click'
+    2: varint 1785426392561
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] 'https://www.bilibili.com/video/BV1Jf4y1G7Wf/?spm_id_from=333.337.search-card.all.click'
+    2: varint 1785426376426
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'DaVinci Resolve'
+    2: varint 1785426285017
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] 'steam的blender能加插件吗'
+    2: varint 1785426124853
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      6: wt3 UNSUPPORTED
+    2: varint 1785425927685
+    3: varint 2
+    4: varint 0
+  1: message[14]
+    1: str[1] '2'
+    2: varint 1785425899049
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'sudo make install'
+    2: varint 1785411529725
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: message[18]
+      5: wt6 UNSUPPORTED
+    2: varint 1785411521750
+    3: varint 2
+    4: varint 0
+  1: message[341]
+    1: message[327]
+      12: wt7 UNSUPPORTED
+    2: varint 1785411511920
+    3: varint 2
+    4: varint 0
+  1: message[86]
+    1: str[73] 'sudo apt install build-essential git autoconf automake libtool pkg-config'
+    2: varint 1785411493102
+    3: varint 2
+    4: varint 0
+  1: message[62]
+    1: message[49]
+      14: wt3 UNSUPPORTED
+    2: varint 1785411479182
+    3: varint 2
+    4: varint 0
+  1: message[558]
+    1: message[544]
+      12: wt3 UNSUPPORTED
+    2: varint 1785411471200
+    3: varint 2
+    4: varint 0
+  1: message[186]
+    1: message[172]
+      4: wt3 UNSUPPORTED
+    2: varint 1785411395899
+    3: varint 2
+    4: varint 0
+  1: message[1362]
+    1: message[1348]
+      12: wt3 UNSUPPORTED
+    2: varint 1785411360974
+    3: varint 2
+    4: varint 0
+  1: message[353]
+    1: message[339]
+      4: wt3 UNSUPPORTED
+    2: varint 1785411338895
+    3: varint 2
+    4: varint 0
+  1: message[75]
+    1: str[62] 'ls /usr/local/include/libirecovery.h   # 应该存在该文件'
+    2: varint 1785411328693
+    3: varint 2
+    4: varint 0
+  1: message[123]
+    1: message[110]
+      12: wt3 UNSUPPORTED
+    2: varint 1785411314197
+    3: varint 2
+    4: varint 0
+  1: message[70]
+    1: str[57] 'sudo apt install -y libimobiledevice-dev libusb-1.0-0-dev'
+    2: varint 1785411297676
+    3: varint 2
+    4: varint 0
+  1: message[63]
+    1: message[50]
+      14: wt3 UNSUPPORTED
+    2: varint 1785411279786
+    3: varint 2
+    4: varint 0
+  1: message[2627]
+    1: message[2613]
+      6: fixed64 7724292601274183728
+      4: varint 32
+      6: fixed64 7724292601274183728
+      4: varint 32
+      4: varint 32
+      6: varint 32
+      4: varint 32
+      4: varint 32
+      6: varint 32
+      4: varint 32
+      6: message[48]
+        6: wt4 UNSUPPORTED
+      11: wt3 UNSUPPORTED
+    2: varint 1785411269764
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'sudo ./palera1n'
+    2: varint 1785411263602
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'make clean && make'
+    2: varint 1785411239217
+    3: varint 2
+    4: varint 0
+  1: message[76]
+    1: message[63]
+      12: wt7 UNSUPPORTED
+    2: varint 1785411225857
+    3: varint 2
+    4: varint 0
+  1: message[15]
+    1: message[2]
+      5: wt4 UNSUPPORTED
+    2: varint 1785411207507
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'sudo palera1n'
+    2: varint 1785411177087
+    3: varint 2
+    4: varint 0
+  1: message[60]
+    1: message[47]
+      14: wt3 UNSUPPORTED
+    2: varint 1785411168227
+    3: varint 2
+    4: varint 0
+  1: message[106]
+    1: message[93]
+      12: wt3 UNSUPPORTED
+    2: varint 1785411148142
+    3: varint 2
+    4: varint 0
+  1: message[126]
+    1: message[113]
+      14: wt3 UNSUPPORTED
+    2: varint 1785411138975
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] 'make'
+    2: varint 1785411082494
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt3 UNSUPPORTED
+    2: varint 1785411071528
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: message[40]
+      14: wt3 UNSUPPORTED
+    2: varint 1785411012471
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: message[61]
+      1: fixed32 1953064714
+      4: varint 99
+      13: wt4 UNSUPPORTED
+    2: varint 1785410987864
+    3: varint 2
+    4: varint 0
+  1: message[27]
+    1: str[14] 'palera1n下载'
+    2: varint 1785410904250
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      14: varint 97
+      13: wt4 UNSUPPORTED
+    2: varint 1785410795038
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1785410749295
+    3: varint 2
+    4: varint 0
+  1: message[83]
+    1: str[70] '/bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"'
+    2: varint 1785410704225
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'https://palera.in/'
+    2: varint 1785410612172
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'ttps://palera.in/'
+    2: varint 1785410611673
+    3: varint 2
+    4: varint 0
+  1: message[364]
+    1: str[<350 bytes — 内容已移除>]
+    2: varint 1785410607699
+    3: varint 2
+    4: varint 0
+  1: message[126]
+    1: str[113] 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.0.1/linux-x86_64/en-US/firefox-153.0.1.tar.xz'
+    2: varint 1785410404879
+    3: varint 2
+    4: varint 0
+  1: message[71]
+    1: str[58] 'https://www.crxsoso.com/firefox/detail/immersive-translate'
+    2: varint 1785410336528
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'https://www.crxsoso.com/firefox/detail/video-downloadhelper'
+    2: varint 1785410321735
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'Firefox can’t update your languages right now. Check that you are connected to the internet or try again.'
+    2: varint 1785410091123
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: message[12]
+      8: fixed32 1768712046
+      14: wt3 UNSUPPORTED
+    2: varint 1785409896881
+    3: varint 2
+    4: varint 0
+  1: message[66]
+    1: message[53]
+      14: wt3 UNSUPPORTED
+    2: varint 1785409564684
+    3: varint 2
+    4: varint 0
+  1: message[118]
+    1: message[105]
+      9: varint 109
+      13: fixed32 1700208686
+      29935628: message[101]
+        4: varint 104
+        12: fixed64 8030608768078080374
+        14: fixed32 543517794
+        12: wt6 UNSUPPORTED
+    2: varint 1785409513181
+    3: varint 2
+    4: varint 0
+  1: message[14]
+    1: message[1]
+      13: varint None
+    2: varint 1785409349778
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'sudo apt install curl -y'
+    2: varint 1785409324852
+    3: varint 2
+    4: varint 0
+  1: message[102]
+    1: message[89]
+      14: wt3 UNSUPPORTED
+    2: varint 1785409137753
+    3: varint 2
+    4: varint 0
+  1: message[76]
+    1: message[63]
+      14: wt7 UNSUPPORTED
+    2: varint 1785409134718
+    3: varint 2
+    4: varint 0
+  1: message[90]
+    1: message[77]
+      8: wt3 UNSUPPORTED
+    2: varint 1785409067422
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] ' 但是它提示'
+    2: varint 1785409051047
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'https://url96.ctfile.com/f/24026696-1315847509-0e6e65?p=356655#alpi'
+    2: varint 1785408468238
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'https://umpsa.top'
+    2: varint 1785407725130
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'python3 --version'
+    2: varint 1785406861671
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] 'https://www.python.org/downloads/macos/'
+    2: varint 1785406772965
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      10: wt3 UNSUPPORTED
+    2: varint 1785406727963
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] 'https://pan.baidu.com/s/1JoJnihCTLm-3UPHiTjf86g?pwd=alpi#alpi'
+    2: varint 1785406692306
+    3: varint 2
+    4: varint 0
+  1: message[39]
+    1: str[26] 'Windows Installer Clean Up'
+    2: varint 1785403987668
+    3: varint 2
+    4: varint 0
+  1: message[68]
+    1: message[55]
+      1: fixed64 3400000511170344040
+      6: fixed64 3761693402756034872
+      6: str[46] 'share.123pan.cn/123pan/5fEbVv-CGkfH'
+    2: varint 1785403016004
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://www.123pan.com/s/VTqA-Am9rv'
+    2: varint 1785402860737
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] '123pan.com/s/aDE9-toryh'
+    2: varint 1785402136849
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      10: wt6 UNSUPPORTED
+    2: varint 1785402024756
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] 'VMware-workstation-full-17.6.4-24832109'
+    2: varint 1785401865653
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] 'https://yun.123pan.cn/?pageType=1'
+    2: varint 1785400551108
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] 'https://www.linux.org/pages/download/'
+    2: varint 1785399480441
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'https://www.virtualbox.org/wiki/Downloads'
+    2: varint 1785399467109
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      14: fixed32 1953396066
+    2: varint 1785399403615
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] 'Ubuntu'
+    2: varint 1785399209418
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      12: message[117]
+        13: wt6 UNSUPPORTED
+    2: varint 1785399209087
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      8: wt3 UNSUPPORTED
+    2: varint 1785399052841
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] '苹果服务器查询SHSH失败'
+    2: varint 1785398925299
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] '苹果服务器查询SHSH失'
+    2: varint 1785398924977
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '正在从苹果服务器查询SHSH'
+    2: varint 1785398723984
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'vmware虚拟机'
+    2: varint 1785398114863
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '17.6.4和25H2u1'
+    2: varint 1785397945091
+    3: varint 2
+    4: varint 0
+  1: message[60]
+    1: str[47] 'https://www.123865.com/s/i11ajv-JTidd?pwd=lZra#'
+    2: varint 1785397928085
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '6wenhao.github.io/saber/index.html'
+    2: varint 1785397800226
+    3: varint 2
+    4: varint 0
+  1: message[27]
+    1: str[14] 'ipadair2降级'
+    2: varint 1785397467147
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: str[20] 'ipadair2刷机教程'
+    2: varint 1785397322359
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: str[20] 'wslzhenshuai@163.com'
+    2: varint 1785391599310
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'http://apt.cdalei.com/（'
+    2: varint 1785390007208
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'https://mega.nz/folder/4XoQ3ZgI#Q5wuJCn0F6oqb_Tdkz7e0Q'
+    2: varint 1785389942816
+    3: varint 2
+    4: varint 0
+  1: message[68]
+    1: str[55] ' https://mega.nz/folder/4XoQ3ZgI#Q5wuJCn0F6oqb_Tdkz7e0Q'
+    2: varint 1785389919851
+    3: varint 2
+    4: varint 0
+  1: message[62]
+    1: str[49] 'Please install iTunes or AppleMobileDeviceSupport'
+    2: varint 1785389917408
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://www.123865.com/s/3mYpTd-ydBe'
+    2: varint 1785389782173
+    3: varint 2
+    4: varint 0
+  1: message[78]
+    1: str[65] 'https://s28e4.no-mad-sub.one/link/yGCfHAAuthhMCRQh?sub=3&extend=1'
+    2: varint 1785388512297
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      11: wt3 UNSUPPORTED
+    2: varint 1785341048594
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] 'home'
+    2: varint 1785255616295
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] 'https://www.ok1666.com/1968.html'
+    2: varint 1785241047154
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] 'https://netflixgc.net/gbook.html'
+    2: varint 1785238233806
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://netflixgc.net/'
+    2: varint 1785237978565
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '怎么限制cpu频率'
+    2: varint 1785231791957
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] '无锡市/惠山区/玉祁街道/曙光'
+    2: varint 1785228533385
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] 'https://8c0r1g.juduohui.top/a/PvNJO42tf'
+    2: varint 1785228274961
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: str[7] 'EAD109 '
+    2: varint 1785227952434
+    3: varint 2
+    4: varint 0
+  1: message[63]
+    1: str[50] 'https://ai.yueke-ai.cc/register.html?invite=EAD109'
+    2: varint 1785227945188
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '上门按摩'
+    2: varint 1785227791236
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '上门'
+    2: varint 1785227686216
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: message[42]
+      1: fixed32 1745489162
+      14: wt4 UNSUPPORTED
+    2: varint 1785227636665
+    3: varint 2
+    4: varint 0
+  1: message[135]
+    1: str[<122 bytes — 内容已移除>]
+    2: varint 1785226854529
+    3: varint 2
+    4: varint 0
+  1: message[9521]
+    1: message[9507]
+      1: message[318785698525820453958843782998495809209076326968853725068939985436442363873874286442678761]
+        5765383076364: wt6 UNSUPPORTED
+    2: varint 1785226853203
+    3: varint 2
+    4: varint 0
+  1: message[40]
+    1: str[27] '-allow_third_party_software'
+    2: varint 1785224374619
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'cs2启动项设置'
+    2: varint 1785224364406
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] '[吃瓜][吃瓜][吃瓜]'
+    2: varint 1785222539685
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      11: fixed32 2207311195
+      24437052: wt7 UNSUPPORTED
+    2: varint 1785222535177
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] ' 懂了 1000元ps5哪里买[吃瓜][吃瓜][吃瓜][吃瓜]'
+    2: varint 1785222529037
+    3: varint 2
+    4: varint 0
+  1: message[70]
+    1: str[57] '懂了1000元ps5哪里买[吃瓜][吃瓜][吃瓜][吃瓜]'
+    2: varint 1785222521457
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: bytes[25] 0d0a4950e5b19ee59cb0efbc9ae4b88ae6b5b70d0a0d0a0d0a
+    2: varint 1785222502058
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] '懂了1000元ps5哪里买[吃瓜][吃瓜]'
+    2: varint 1785222493866
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      11: wt3 UNSUPPORTED
+    2: varint 1785222490149
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '懂了1000元ps5哪里买[吃瓜]'
+    2: varint 1785222485905
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: str[44] 'https://www.bilibili.com/video/BV1ojPSzbE8Q?'
+    2: varint 1785222343518
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: str[9] '蛮颚龙'
+    2: varint 1785202765678
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '<剪贴板原文 已脱敏>'
+    2: varint 1785162485441
+    3: varint 2
+    4: varint 0
+  1: message[1461]
+    1: message[1447]
+      8: wt3 UNSUPPORTED
+    2: varint 1785162426020
+    3: varint 2
+    4: varint 0
+  1: message[91]
+    1: str[78] 'Microsoft.Windows.Photos_2023.10030.27002.0_neutral_~_8wekyb3d8bbwe.AppxBundle'
+    2: varint 1785061519791
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'Microsoft.Windows.Photos_8wekyb3d8bbwe'
+    2: varint 1785061501501
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '118707'
+    2: varint 1785057268744
+    3: varint 2
+    4: varint 0
+  1: message[9707]
+    1: message[9693]
+      4: wt3 UNSUPPORTED
+    2: varint 1785056668558
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      4: varint 91
+      4: varint 93
+      4: varint None
+    2: varint 1785051580388
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.tbtool.cn/'
+    2: varint 1785051433224
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://github.com/Chunyu33/light-c'
+    2: varint 1785051050924
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '<剪贴板原文 已脱敏>'
+    2: varint 1785042459627
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] '○ '
+    2: varint 1785038319513
+    3: varint 2
+    4: varint 0
+  1: message[6835]
+    1: message[6821]
+      8: wt3 UNSUPPORTED
+    2: varint 1785037933612
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] '🏑'
+    2: varint 1785036764154
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '☘️'
+    2: varint 1785036556142
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'JD4FN-8BP9P-XCBF2'
+    2: varint 1785035763958
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] '/qb delete "2026-07-25-030000"'
+    2: varint 1785035067743
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://space.bilibili.com/8372353?'
+    2: varint 1785031944940
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      14: wt7 UNSUPPORTED
+    2: varint 1785031326983
+    3: varint 2
+    4: varint 0
+  1: message[289]
+    1: str[<275 bytes — 内容已移除>]
+    2: varint 1785031284946
+    3: varint 2
+    4: varint 0
+  1: message[239819]
+    1: message[239804]
+      4: wt3 UNSUPPORTED
+    2: varint 1784998150796
+    3: varint 2
+    4: varint 0
+  1: message[582]
+    1: message[568]
+      15: wt4 UNSUPPORTED
+    2: varint 1784997839834
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] '.黎曼猜想'
+    2: varint 1784996972279
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] '黑洞信息丢失问题'
+    2: varint 1784996967442
+    3: varint 2
+    4: varint 0
+  1: message[15]
+    1: message[2]
+      13: wt3 UNSUPPORTED
+    2: varint 1784996640118
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] '看到 GPT 5.6 Sol 雷达图'
+    2: varint 1784996397443
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: message[105]
+        13: wt4 UNSUPPORTED
+    2: varint 1784995640018
+    3: varint 2
+    4: varint 0
+  1: message[42]
+    1: str[29] 'Bilibili-Web-Show-IP-Location'
+    2: varint 1784995587622
+    3: varint 2
+    4: varint 0
+  1: message[224]
+    1: str[<210 bytes — 内容已移除>]
+    2: varint 1784994516385
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '○'
+    2: varint 1784992431108
+    3: varint 2
+    4: varint 0
+  1: message[60]
+    1: str[47] '不要显示tasks里 我之前要你在todolist'
+    2: varint 1784990921305
+    3: varint 2
+    4: varint 0
+  1: message[56511]
+    1: message[56496]
+      4: wt3 UNSUPPORTED
+    2: varint 1784987283054
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'sk-2a37fc0788834b53aad79dc476150b51'
+    2: varint 1784987209113
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-X3qPFxlaANN71IyPhxOh8RIHZv6Rh67MH5Nagr4JwDpUA7Px'
+    2: varint 1784987059444
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: bytes[12] 0d0a6d696e696d61782d6d33
+    2: varint 1784986804506
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-fEn00v5U6bwzlByqsOjlmGinlmgBwfmOLyRxppqEC522nzZ3'
+    2: varint 1784986802844
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'https://api.fengl.cc/v1'
+    2: varint 1784986794389
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://api.fengl.cc/v1/chat/completions'
+    2: varint 1784986701102
+    3: varint 2
+    4: varint 0
+  1: message[282]
+    1: message[268]
+      12: wt3 UNSUPPORTED
+    2: varint 1784986695286
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: message[22]
+      1: fixed32 1953785866
+      14: varint 115
+      7: str[47] '/api.fengl.cc'
+    2: varint 1784986602228
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: str[10] 'minimax-m3'
+    2: varint 1784986564065
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: str[20] 'https://api.fengl.cc'
+    2: varint 1784986544284
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'minimax免费'
+    2: varint 1784986521402
+    3: varint 2
+    4: varint 0
+  1: message[71517]
+    1: message[71502]
+      4: wt3 UNSUPPORTED
+    2: varint 1784986498665
+    3: varint 2
+    4: varint 0
+  1: message[71984]
+    1: message[71969]
+      4: wt3 UNSUPPORTED
+    2: varint 1784986376669
+    3: varint 2
+    4: varint 0
+  1: message[1220]
+    1: message[1206]
+      6: fixed64 3605729774367023150
+      5: wt6 UNSUPPORTED
+    2: varint 1784984487204
+    3: varint 2
+    4: varint 0
+  1: message[3302]
+    1: message[3288]
+      4: wt3 UNSUPPORTED
+    2: varint 1784984477702
+    3: varint 2
+    4: varint 0
+  1: message[1892]
+    1: message[1878]
+      1: fixed32 757935370
+      1: fixed32 587861258
+      4: wt3 UNSUPPORTED
+    2: varint 1784984466858
+    3: varint 2
+    4: varint 0
+  1: message[1303]
+    1: message[1289]
+      4345523987034130975469221470770966005326522577966078710677550449823996: fixed32 2159600650
+      44386559014194540659647921542825031175174582309454893568325461352062599038988: wt3 UNSUPPORTED
+    2: varint 1784984447571
+    3: varint 2
+    4: varint 0
+  1: message[331]
+    1: message[317]
+      7: varint 49
+      5: wt6 UNSUPPORTED
+    2: varint 1784984416427
+    3: varint 2
+    4: varint 0
+  1: message[1703]
+    1: message[1689]
+      21596519873545102524334065148908367393089962394665514148034911648113580: wt4 UNSUPPORTED
+    2: varint 1784984349428
+    3: varint 2
+    4: varint 0
+  1: message[969]
+    1: message[955]
+      4: wt3 UNSUPPORTED
+    2: varint 1784984235575
+    3: varint 2
+    4: varint 0
+  1: message[1801]
+    1: message[1787]
+      4: wt3 UNSUPPORTED
+    2: varint 1784984219538
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '<剪贴板原文 已脱敏>'
+    2: varint 1784982677993
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] 'cmd个别字母消失显示问题'
+    2: varint 1784982526618
+    3: varint 2
+    4: varint 0
+  1: message[118]
+    1: str[105] '自带的tasks里多了一个刷新 但是自定义的那个没有显示 你是不是把tasks里刷新了'
+    2: varint 1784981035837
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      11: wt3 UNSUPPORTED
+    2: varint 1784980815877
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: str[8] '1G_57278'
+    2: varint 1784974194368
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      14: varint 112
+      12: wt4 UNSUPPORTED
+    2: varint 1784972785738
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] '249, 249, 249'
+    2: varint 1784968021025
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'claude有/con'
+    2: varint 1784967114475
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      4: varint 51
+      6: wt7 UNSUPPORTED
+    2: varint 1784964990299
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'hollow_knight_Data'
+    2: varint 1784964914044
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      6: wt7 UNSUPPORTED
+    2: varint 1784962956610
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      6: message[49]
+        6: message[56]
+          7: varint 51
+          6: wt3 UNSUPPORTED
+    2: varint 1784962952034
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: message[12]
+      13161421: wt7 UNSUPPORTED
+    2: varint 1784962951614
+    3: varint 2
+    4: varint 0
+  1: message[220]
+    1: message[206]
+      17764682955740: wt4 UNSUPPORTED
+    2: varint 1784962839095
+    3: varint 2
+    4: varint 0
+  1: message[94]
+    1: str[81] '测试一下 编写一个todolist的html文件 要求有存储功能 便于交互'
+    2: varint 1784961139326
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      13: varint 105
+      12: wt7 UNSUPPORTED
+    2: varint 1784950083961
+    3: varint 2
+    4: varint 0
+  1: message[82548]
+    1: message[82533]
+      4: wt3 UNSUPPORTED
+    2: varint 1784949602877
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: message[37]
+      14: wt3 UNSUPPORTED
+    2: varint 1784949565246
+    3: varint 2
+    4: varint 0
+  1: message[192]
+    1: str[<178 bytes — 内容已移除>]
+    2: varint 1784949346953
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      8: fixed64 7163380306272613486
+    2: varint 1784948972183
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      12: wt3 UNSUPPORTED
+    2: varint 1784948968869
+    3: varint 2
+    4: varint 0
+  1: message[541]
+    1: message[527]
+      5687502977388: wt6 UNSUPPORTED
+    2: varint 1784947801823
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'mimo-v2.5-tts是干什么的'
+    2: varint 1784947749804
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'mimo-v2.5-tts'
+    2: varint 1784947575467
+    3: varint 2
+    4: varint 0
+  1: message[63]
+    1: str[50] 'https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go'
+    2: varint 1784947463470
+    3: varint 2
+    4: varint 0
+  1: message[85]
+    1: str[72] '邀请码：FYTNFV。注册：https://platform.xiaomimimo.com?ref=FYTNFV'
+    2: varint 1784945998493
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] '✓ '
+    2: varint 1784909234794
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      13: fixed32 1668246889
+      13: wt7 UNSUPPORTED
+    2: varint 1784909025549
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] '<剪贴板原文 已脱敏>'
+    2: varint 1784908871543
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] '<剪贴板原文 已脱敏>'
+    2: varint 1784908851189
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      13: wt4 UNSUPPORTED
+    2: varint 1784908654401
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'https://mimo.xiaomi.com/zh/mimocode/start'
+    2: varint 1784907731787
+    3: varint 2
+    4: varint 0
+  1: message[85]
+    1: str[72] 'https://mimo.xiaomi.com/zh/mimocode/keybinds#%E5%89%8D%E5%AF%BC%E9%94%AE'
+    2: varint 1784907334844
+    3: varint 2
+    4: varint 0
+  1: message[6018]
+    1: message[6004]
+      15403776061537344508: fixed32 1298746634
+      13: wt7 UNSUPPORTED
+    2: varint 1784907285766
+    3: varint 2
+    4: varint None
+
+## 009689.ldb :: vmodeclipboard_guide_config  (5 B)
+  1: varint 1
+  2: varint 0
+  3: varint None
+
+## 009770.ldb :: configab_params  (1540 B)
+  1: message[61]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9391548
+    2: message[46]
+      1: str[41] 'mmkb_cli_engine_searcher_reduce_typo_expt'
+      2: str[1] '2'
+  1: message[66]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9457072
+    2: message[51]
+      1: str[46] 'mmkb_cli_engine_association_symbol_opt_expt_v2'
+      2: str[1] '5'
+  1: message[56]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9457130
+    2: message[41]
+      1: str[36] 'mmkb_cli_engine_edit_pinyin_strategy'
+      2: str[1] '1'
+  1: message[64]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9522457
+    2: message[49]
+      1: str[43] 'mmkb_cli_engine_association_offline_expt_v2'
+      2: str[2] '14'
+  1: message[63]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9981208
+    2: message[48]
+      1: str[43] 'mmkb_cli_engine_en_keyboard_use_ch_mix_dict'
+      2: str[1] '1'
+  1: message[56]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 9981210
+    2: message[41]
+      1: str[36] 'mmkb_cli_engine_searcher_rotate_typo'
+      2: str[1] '1'
+  1: message[64]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 10374558
+    2: message[49]
+      1: str[33] 'mmkb_cli_engine_memory_dict_types'
+      2: message[12]
+        6: wt6 UNSUPPORTED
+  1: message[59]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 11226505
+    2: message[44]
+      1: str[39] 'mmkb_cli_engine_super_high_pc_nnlm_expt'
+      2: str[1] '1'
+  1: message[51]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 11554280
+    2: message[36]
+      1: str[31] 'mmkb_cli_engine_pc_graph_v3_new'
+      2: str[1] '1'
+  1: message[92]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 11750789
+    2: message[77]
+      1: str[52] 'mmkb_cli_engine_cloud_local_merger_protect_user_expt'
+      2: str[21] '0.1,604800,2,1.0,1000'
+  1: message[62]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 13389210
+    2: message[47]
+      1: str[42] 'mmkb_cli_engine_wubi_temp_candidate_recall'
+      2: str[1] '1'
+  1: message[95]
+    1: message[14]
+      1: varint 11357471
+      2: varint 11423201
+      3: varint 3
+      4: varint 0
+    2: message[77]
+      1: str[40] 'mmkb_cli_engine_user_dict_clean_strategy'
+      2: str[33] '128,2,100000,10,5,2592000,30000,1'
+  1: message[58]
+    1: message[14]
+      1: varint 12864997
+      2: varint 12865003
+      3: varint 3
+      4: varint 0
+    2: message[40]
+      1: str[33] 'mmkb_cli_engine_cloud_time_out_ms'
+      2: str[3] '550'
+  1: message[69]
+    1: message[14]
+      1: varint 12930348
+      2: varint 12930358
+      3: varint 3
+      4: varint 0
+    2: message[51]
+      1: str[46] 'mmkb_cli_engine_pc_allow_cloud_force_top1_expt'
+      2: str[1] '1'
+  1: message[236]
+    1: message[14]
+      1: varint 13258168
+      2: varint 13258172
+      3: varint 3
+      4: varint 0
+    2: message[217]
+      1: str[46] 'mmkb_cli_engine_cloud_time_out_by_input_length'
+      2: str[<166 bytes — 内容已移除>]
+  2: message[97]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 8932675
+    2: message[42]
+      1: str[37] 'mmkb_cli_toolbar_intelligentfindwords'
+      2: message[1]
+        6: wt3 UNSUPPORTED
+    2: message[38]
+      1: str[33] 'mmkb_cli_toolbar_intelligentvoice'
+      2: message[1]
+        6: varint None
+  2: message[46]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 8932771
+    2: message[31]
+      1: str[23] 'mmkb_cli_language_model'
+      2: message[4]
+        14: wt4 UNSUPPORTED
+  2: message[52]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 8998245
+    2: message[37]
+      1: str[29] 'mmkb_cli_toolbar_auto_display'
+      2: message[4]
+        14: wt4 UNSUPPORTED
+  2: message[54]
+    1: message[11]
+      1: varint 0
+      2: varint 0
+      3: varint 2
+      4: varint 13323608
+    2: message[39]
+      1: str[34] 'mmkb_cli_voice_raw_capture_enabled'
+      2: str[1] '1'
+  2: message[99]
+    1: message[14]
+      1: varint 13389244
+      2: varint 13454702
+      3: varint 3
+      4: varint 0
+    2: message[36]
+      1: str[31] 'mmkb_cli_enable_refetch_context'
+      2: str[1] '1'
+    2: message[43]
+      1: str[38] 'mmkb_cli_enable_wechat_refetch_context'
+      2: str[1] ''
+
+## 009770.ldb :: configcur_version  (6 B)
+  TEXT: 2.1.4.
+
+## 009770.ldb :: configdict_ab_params  (2 B)
+  TEXT: []
+
+## 009770.ldb :: configdict_config_exp_cnt  (0 B)
+  TEXT: 
+
+## 009770.ldb :: configenable_large_emoji  (0 B)
+  TEXT: 
+
+## 009770.ldb :: configglobalConfig  (50 B)
+  1: varint 2
+  2: varint 279771
+  10: message[22]
+    1: varint 18446744071562067968
+    2: varint 18446744071562067968
+  11: varint 120
+  13: varint 1
+  14: varint 1
+  15: varint 1
+  17: varint 1
+  21: varint 0
+  23: varint 1112
+  25: varint None
+
+## 009770.ldb :: configwechat_token  (356 B)
+  1: str[<344 bytes — 内容已移除>]
+  2: varint 1790251680
+  3: varint None
+
+## 009770.ldb :: vmodeclipboard  (264467 B)
+  1: message[33]
+    1: str[20] '<剪贴板原文 已脱敏>'
+    2: varint 1792174429392
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] '<剪贴板原文 已脱敏>'
+    2: varint 1792174288519
+    3: varint 2
+    4: varint 0
+  1: message[103]
+    1: str[90] 'dsh-whale-widget  设置这个插件不要显示 “老大你的ds余额不足”的内容'
+    2: varint 1792173853719
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-whale-widget '
+    2: varint 1792173557980
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://rea.tools/zh-CN/get-started/'
+    2: varint 1792173284572
+    3: varint 2
+    4: varint 0
+  1: message[468]
+    1: message[454]
+      14: varint 110
+      14: varint 109
+      4: varint 115
+      14: wt4 UNSUPPORTED
+    2: varint 1792172970640
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'https://rea.tools/zh-CN/get-started/#node-windows-help'
+    2: varint 1792172582138
+    3: varint 2
+    4: varint 0
+  1: message[173]
+    1: str[<159 bytes — 内容已移除>]
+    2: varint 1792172459356
+    3: varint 2
+    4: varint 0
+  1: message[100]
+    1: str[87] '<剪贴板原文 已脱敏>'
+    2: varint 1792172453388
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] '在安全的情况下尽可能清理c盘'
+    2: varint 1792172317009
+    3: varint 2
+    4: varint 0
+  1: message[248]
+    1: str[<234 bytes — 内容已移除>]
+    2: varint 1792172205712
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      6: varint 46
+      6: varint 49
+    2: varint 1792171687519
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt7 UNSUPPORTED
+    2: varint 1792171604772
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] 'Kxt3+eSXGfie49CzLQIOXIPvlQZ1YQ=='
+    2: varint 1792170947114
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] '确认永久删除全部 ChatGPT 对话'
+    2: varint 1792170582416
+    3: varint 2
+    4: varint 0
+  1: message[155]
+    1: str[<141 bytes — 内容已移除>]
+    2: varint 1792169691102
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-Vf5N0BBMiIGXN3D25dbMmV0T8MfHt0kV6LMf1jcx5y928XmV'
+    2: varint 1792169545220
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'dsh-whale-widget'
+    2: varint 1792169505751
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] 'https://a6api.com/#/console/tokens'
+    2: varint 1792169461763
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] 'dsh plugin --profile web add dsh-whale-widget'
+    2: varint 1792168969267
+    3: varint 2
+    4: varint 0
+  1: message[71]
+    1: str[58] 'dsh plugin --profile web add @michengai/dsh-skills-manager'
+    2: varint 1792168940183
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-skills-manager'
+    2: varint 1792168922759
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: str[44] 'dsh plugin --profile web add billion-context'
+    2: varint 1792168895472
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'billion-context'
+    2: varint 1792168887683
+    3: varint 2
+    4: varint 0
+  1: message[556]
+    1: message[542]
+      7: fixed32 1428176189
+      10: wt3 UNSUPPORTED
+    2: varint 1792168620509
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] '05 0C 09 01 A1 01 85 03 C0 06 05 FF 09 02 A1 01 85 0A C0 06 06 FF 09 02 A1 01 85 0B C0'
+    2: varint 1792168614273
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://yszyszysz.lanzn.com/irJwe4c8302f'
+    2: varint 1792168556029
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'npx rea-agents@latest setup --client claude_desktop'
+    2: varint 1792168095015
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791712821180
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791712798320
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '输入法词库'
+    2: varint 1791711268248
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'sk-2a0fff6a710f4addbc9aa9ec3d859a82'
+    2: varint 1791707437087
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://api.a6api.com/v1'
+    2: varint 1791707144923
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'https://api.a6api.com'
+    2: varint 1791707143777
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'https://growth-bracelets-queensland-two.trycloudflare.com/pair-accept?pair=9402c042a0e9ae63b8eaa9e85e155d88'
+    2: varint 1791705747224
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'https://growth-bracelets-queensland-two.trycloudflare.com/pair-accept?pair=fb7d86bd535e04e0cee2f5589d25c9e7'
+    2: varint 1791705244293
+    3: varint 2
+    4: varint 0
+  1: message[355]
+    1: message[341]
+      13: wt4 UNSUPPORTED
+    2: varint 1791705227572
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1791705196583
+    3: varint 2
+    4: varint 0
+  1: message[121]
+    1: str[108] 'https://northwest-gibraltar-reforms-fill.trycloudflare.com/pair-accept?pair=abed1e1d09b1353490a21bc1a88d846c'
+    2: varint 1791704673684
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: message[24]
+      13: varint 101
+      13: wt4 UNSUPPORTED
+    2: varint 1791704521863
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=80bb1602288314bb1de6ea097c82a116'
+    2: varint 1791704420863
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=1625872b2f49234d717a2a1274a2f6c3'
+    2: varint 1791704402741
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'https://firefly.cuteleaf.cn/'
+    2: varint 1791704315522
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] '<剪贴板原文 已脱敏>'
+    2: varint 1791704007492
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=0579f9ecb889edd9ebf2f5473239c28d'
+    2: varint 1791703939829
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=15350bbc419935de57167e0579508a54'
+    2: varint 1791703926116
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] 'C:\\Users\\Administrator\\.gitcloud\\workspace'
+    2: varint 1791703708702
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://notes.iamcrl.cn/'
+    2: varint 1791703661372
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=0a1b6ca6633b2b00ddd2ab6ef9618a92'
+    2: varint 1791703456358
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '没有完全修好'
+    2: varint 1791703269259
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: message[12]
+      5: wt7 UNSUPPORTED
+    2: varint 1791702799428
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: message[40]
+      13: varint 116
+      14: wt4 UNSUPPORTED
+    2: varint 1791702727936
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'dsh-webworker-preview'
+    2: varint 1791702165201
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'https://notes.iamcrl.cn/rss.xml'
+    2: varint 1791702078534
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      11: wt4 UNSUPPORTED
+    2: varint 1791701998814
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] '<剪贴板原文 已脱敏>'
+    2: varint 1791701992758
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] '<剪贴板原文 已脱敏>'
+    2: varint 1791701784660
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'curly-mode-1e26'
+    2: varint 1791700080593
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'restless-surf-e057'
+    2: varint 1791700075508
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://github.com/xmanrui/dsh-im#readme'
+    2: varint 1791699591048
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-MzmTzVltQJmhljKcx6I92rsakz9GTR5f3dXWmSIlqfpUck51'
+    2: varint 1791699389554
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'www.jzbk.net/3559.html'
+    2: varint 1791699257323
+    3: varint 2
+    4: varint 0
+  1: message[73]
+    1: str[60] '@. 这是hdd磁盘版本的 便宜些 www.jzbk.net/3559.html'
+    2: varint 1791699242554
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://github.com/CuteLeaf/Firefly'
+    2: varint 1791698411775
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] '不要更改原来的ui页面 先把原来的文章内容移上去 然后更改相关的个人等页面'
+    2: varint 1791698382308
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      8: fixed32 1735355501
+    2: varint 1791696218162
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://app.rainyun.com/apps/rgs/buy'
+    2: varint 1791695869268
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.emlog.net/'
+    2: varint 1791693735121
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '<剪贴板原文 已脱敏>'
+    2: varint 1791692863112
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://sleep.iamcrl.cn/'
+    2: varint 1791691727742
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: str[8] '11111111'
+    2: varint 1791691401017
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'https://iamcrl.cn/'
+    2: varint 1791691258495
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] 'https://nexusvai.github.io/NexusV/'
+    2: varint 1791691223234
+    3: varint 2
+    4: varint 0
+  1: message[130]
+    1: str[117] 'https://gitjs.yunluo.de5.net/https://raw.githubusercontent.com/jiayuxuan123/app-/main/images/1791691186741_y3qbcg.png'
+    2: varint 1791691195309
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'https://jiayuxuan123.rth1.xyz/yunluo.html'
+    2: varint 1791691154587
+    3: varint 2
+    4: varint 0
+  1: message[180]
+    1: str[<166 bytes — 内容已移除>]
+    2: varint 1791691001512
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://onepagelove.com/'
+    2: varint 1791690806144
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://www.awwwards.com/directory/'
+    2: varint 1791690715917
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'avwwards.com/directory/'
+    2: varint 1791690635120
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'ocr识别结果的弹窗'
+    2: varint 1791690611861
+    3: varint 2
+    4: varint 0
+  1: message[1060]
+    1: message[1046]
+      36731184005748688833141009997002258146248187070087611748419696077342860: wt6 UNSUPPORTED
+    2: varint 1791690487290
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'gaodingpm.com'
+    2: varint 1791690462339
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] '学习一下苹果为首的大厂的动画设计 并加入数据库'
+    2: varint 1791690382777
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] '还是没有 而且我要关闭的是ocr识别结果的弹窗'
+    2: varint 1791690058529
+    3: varint 2
+    4: varint 0
+  1: message[414]
+    1: message[400]
+      230663967169609544852292458808029182698054064514129560811322994836829417329951342482453009669570722172: bytes[10] e2978fe782b9e587bbe7
+      92841780209765099787409554705426303683669990036945506771375369720059085159: wt4 UNSUPPORTED
+    2: varint 1791690052614
+    3: varint 2
+    4: varint 0
+  1: message[81]
+    1: str[68] '<剪贴板原文 已脱敏>'
+    2: varint 1791689979985
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'https://github.com/emilkowalski/skills'
+    2: varint 1791689945583
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'https://github.com/houxin0010/distinctive-ai-design'
+    2: varint 1791689842803
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] '<剪贴板原文 已脱敏>'
+    2: varint 1791689592626
+    3: varint 2
+    4: varint 0
+  1: message[181]
+    1: str[<167 bytes — 内容已移除>]
+    2: varint 1791689515259
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: str[5] 'a6api'
+    2: varint 1791689484339
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      5: wt6 UNSUPPORTED
+    2: varint 1791689480911
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      12: wt4 UNSUPPORTED
+    2: varint 1791686003200
+    3: varint 2
+    4: varint 0
+  1: message[151]
+    1: str[<137 bytes — 内容已移除>]
+    2: varint 1791685652699
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'browser-skill-dsh-plugin'
+    2: varint 1791685592477
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685542645
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'dsh-visualize'
+    2: varint 1791685532410
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-infinite-gen-3'
+    2: varint 1791685479224
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'dsh-workbuddy-connect'
+    2: varint 1791685462641
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685456975
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: str[9] 'modsearch'
+    2: varint 1791685436543
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] 'dsh plugin --profile web add /绝对路径/dsh-our-free-model'
+    2: varint 1791685395456
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'dsh-client-ui-skill-explorer'
+    2: varint 1791685363401
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-our-free-model'
+    2: varint 1791685354468
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685301883
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685281213
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-better-sidebar'
+    2: varint 1791685229410
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-univer-office'
+    2: varint 1791685211572
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'dsh-find-plugin'
+    2: varint 1791685202826
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685183619
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-remote-web-ui'
+    2: varint 1791685154743
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'dsh plugin --profile web add dsh-better-sidebar@latest'
+    2: varint 1791684854826
+    3: varint 2
+    4: varint 0
+  1: message[349]
+    1: message[335]
+      77470984861528132043764620: fixed32 761820004
+      12: message[101]
+        14: wt4 UNSUPPORTED
+      14: wt3 UNSUPPORTED
+    2: varint 1791684851567
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'dsh plugin --profile web add dshmarket'
+    2: varint 1791684794256
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] 'a6ap'
+    2: varint 1791684548151
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '939085'
+    2: varint 1791684400546
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      7: varint 52
+      6: wt3 UNSUPPORTED
+    2: varint 1791684386128
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '1ac003f720d38018cdb25fdc645a42c1'
+    2: varint 1791684297668
+    3: varint 2
+    4: varint 0
+  1: message[612]
+    1: str[<598 bytes — 内容已移除>]
+    2: varint 1791684247470
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      42357867448956: wt7 UNSUPPORTED
+    2: varint 1791684117995
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: str[7] 'YEELOGO'
+    2: varint 1791683761320
+    3: varint 2
+    4: varint 0
+  1: message[106]
+    1: str[93] '将这张图变得真实一点 美化一下 不要太ai化 同时要保证画面的主体性 '
+    2: varint 1791683736850
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] '<剪贴板原文 已脱敏>'
+    2: varint 1791682990694
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt7 UNSUPPORTED
+    2: varint 1791659984455
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      12: wt7 UNSUPPORTED
+    2: varint 1791659960528
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'deepseek-v4.1-flash'
+    2: varint 1791659944025
+    3: varint 2
+    4: varint 0
+  1: message[61]
+    1: str[48] 'rmdir /s /q "C:\\Users\\Administrator\\.dsh-backup"'
+    2: varint 1791659847261
+    3: varint 2
+    4: varint 0
+  1: message[2778]
+    1: message[2764]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791659840156
+    3: varint 2
+    4: varint 0
+  1: message[95]
+    1: message[82]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659834276
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] '<剪贴板原文 已脱敏>'
+    2: varint 1791659759461
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: message[21]
+      14: varint 110
+      14: varint 109
+      4: varint 105
+      13: wt6 UNSUPPORTED
+    2: varint 1791659659656
+    3: varint 2
+    4: varint 0
+  1: message[262]
+    1: message[248]
+      15: wt3 UNSUPPORTED
+    2: varint 1791659653332
+    3: varint 2
+    4: varint 0
+  1: message[66]
+    1: str[53] '<剪贴板原文 已脱敏>'
+    2: varint 1791659648170
+    3: varint 2
+    4: varint 0
+  1: message[14]
+    1: str[1] 'e'
+    2: varint 1791659626547
+    3: varint 2
+    4: varint 0
+  1: message[105]
+    1: message[92]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659593654
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'taskkill /F /IM node.exe'
+    2: varint 1791659586383
+    3: varint 2
+    4: varint 0
+  1: message[97]
+    1: str[84] 'xcopy /E /I /H /Y "C:\\Users\\Administrator\\.dsh" "C:\\Users\\Administrator\\.dsh-backup"'
+    2: varint 1791659573887
+    3: varint 2
+    4: varint 0
+  1: message[3535]
+    1: message[3521]
+      10: wt7 UNSUPPORTED
+    2: varint 1791659566873
+    3: varint 2
+    4: varint 0
+  1: message[428]
+    1: message[414]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659562183
+    3: varint 2
+    4: varint 0
+  1: message[9713]
+    1: message[9699]
+      10: wt7 UNSUPPORTED
+    2: varint 1791659552431
+    3: varint 2
+    4: varint 0
+  1: message[1216]
+    1: message[1202]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659537011
+    3: varint 2
+    4: varint 0
+  1: message[3040]
+    1: message[3026]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659515189
+    3: varint 2
+    4: varint 0
+  1: message[3040]
+    1: message[3026]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659508157
+    3: varint 2
+    4: varint 0
+  1: message[60]
+    1: message[47]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659395541
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: message[44]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659359896
+    3: varint 2
+    4: varint 0
+  1: message[59]
+    1: str[46] 'cd /d C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791659354274
+    3: varint 2
+    4: varint 0
+  1: message[93]
+    1: message[80]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659332609
+    3: varint 2
+    4: varint 0
+  1: message[421]
+    1: message[407]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659260129
+    3: varint 2
+    4: varint 0
+  1: message[3005]
+    1: message[2991]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659221537
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659177091
+    3: varint 2
+    4: varint 0
+  1: message[93]
+    1: message[80]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659167482
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659166659
+    3: varint 2
+    4: varint 0
+  1: message[179]
+    1: message[165]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791659137016
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'pnpm why dsh-pet'
+    2: varint 1791659130979
+    3: varint 2
+    4: varint 0
+  1: message[107]
+    1: str[94] "Select-String -Path node_modules\\dsh-pet\\lib\\client.js -Pattern 'id:' | Select-Object -First 3"
+    2: varint 1791659108657
+    3: varint 2
+    4: varint 0
+  1: message[183]
+    1: message[169]
+      9: fixed32 1095586633
+      10: wt4 UNSUPPORTED
+    2: varint 1791659097138
+    3: varint 2
+    4: varint 0
+  1: message[1143]
+    1: message[1129]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659087093
+    3: varint 2
+    4: varint 0
+  1: message[16508]
+    1: message[16493]
+      14: wt3 UNSUPPORTED
+    2: varint 1791659077505
+    3: varint 2
+    4: varint 0
+  1: message[997]
+    1: message[983]
+      4: wt3 UNSUPPORTED
+    2: varint 1791659071985
+    3: varint 2
+    4: varint 0
+  1: message[82]
+    1: message[69]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658973570
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'netstat -ano | findstr :3080'
+    2: varint 1791658961148
+    3: varint 2
+    4: varint 0
+  1: message[6535]
+    1: message[6521]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658945123
+    3: varint 2
+    4: varint 0
+  1: message[795]
+    1: message[781]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658880304
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] '"@dsh-external/dsh-visualize",'
+    2: varint 1791658851199
+    3: varint 2
+    4: varint 0
+  1: message[117]
+    1: str[104] '"@dsh-external/dsh-visualize": "github:Nagi-ovo/dsh-visualize#9667c0e9cf0ea463b9b45b2845de62da34fd918a",'
+    2: varint 1791658826741
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '"dsh-infinite-gen-3",'
+    2: varint 1791658787906
+    3: varint 2
+    4: varint 0
+  1: message[3601]
+    1: message[3587]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658772305
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'Test-Path node_modules\\dsh-infinite-gen-3'
+    2: varint 1791658765538
+    3: varint 2
+    4: varint 0
+  1: message[250]
+    1: message[236]
+      10: wt3 UNSUPPORTED
+    2: varint 1791658761307
+    3: varint 2
+    4: varint 0
+  1: message[118]
+    1: str[105] "Select-String -Path node_modules\\dsh-approval-mode\\lib\\client.js -Pattern '__ModuleLoader__' -Context 0,2"
+    2: varint 1791658758009
+    3: varint 2
+    4: varint 0
+  1: message[1984]
+    1: message[1970]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658753174
+    3: varint 2
+    4: varint 0
+  1: message[162]
+    1: message[148]
+      8: wt7 UNSUPPORTED
+    2: varint 1791658745214
+    3: varint 2
+    4: varint 0
+  1: message[56]
+    1: str[43] 'cd C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791658743396
+    3: varint 2
+    4: varint 0
+  1: message[1490]
+    1: message[1476]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658736151
+    3: varint 2
+    4: varint 0
+  1: message[2743]
+    1: message[2729]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658722244
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791658711609
+    3: varint 2
+    4: varint 0
+  1: message[372]
+    1: message[358]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658673060
+    3: varint 2
+    4: varint 0
+  1: message[358]
+    1: message[344]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658660996
+    3: varint 2
+    4: varint 0
+  1: message[75]
+    1: message[62]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658657109
+    3: varint 2
+    4: varint 0
+  1: message[3007]
+    1: message[2993]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791658636094
+    3: varint 2
+    4: varint 0
+  1: message[40]
+    1: str[27] '@dsh-external/dsh-visualize'
+    2: varint 1791658547354
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: message[117]
+        13: wt6 UNSUPPORTED
+    2: varint 1791658525058
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'dsh plugin --profile web remove @dsh-external/dsh-visualize'
+    2: varint 1791658481605
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'dsh plugin --profile web add dsh-infinite-gen-3@latest'
+    2: varint 1791658471595
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: message[107]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658464761
+    3: varint 2
+    4: varint 0
+  1: message[2741]
+    1: message[2727]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658456182
+    3: varint 2
+    4: varint 0
+  1: message[78]
+    1: message[65]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658440485
+    3: varint 2
+    4: varint 0
+  1: message[554]
+    1: message[540]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658433173
+    3: varint 2
+    4: varint 0
+  1: message[98]
+    1: str[85] 'dsh plugin --profile web add git+https://github.com/NEVSTOP-LAB/dsh-approval-mode.git'
+    2: varint 1791658418026
+    3: varint 2
+    4: varint 0
+  1: message[677]
+    1: message[663]
+      14: varint 97
+      12: wt3 UNSUPPORTED
+    2: varint 1791658390606
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: fixed64 7811903956982918252
+      12: wt4 UNSUPPORTED
+    2: varint 1791658378628
+    3: varint 2
+    4: varint 0
+  1: message[73]
+    1: str[60] 'C:\\Users\\Administrator\\.dsh\\profiles\\web\\pnpm-workspace.yaml'
+    2: varint 1791658368202
+    3: varint 2
+    4: varint 0
+  1: message[12234]
+    1: message[12220]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658356465
+    3: varint 2
+    4: varint 0
+  1: message[283]
+    1: message[269]
+      12: wt4 UNSUPPORTED
+    2: varint 1791656809327
+    3: varint 2
+    4: varint 0
+  1: message[9936]
+    1: message[9922]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791656793990
+    3: varint 2
+    4: varint 0
+  1: message[535]
+    1: message[521]
+      12: wt4 UNSUPPORTED
+    2: varint 1791655824096
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'dsh plugin --profile web update'
+    2: varint 1791655820527
+    3: varint 2
+    4: varint 0
+  1: message[7179]
+    1: message[7165]
+      14: wt3 UNSUPPORTED
+    2: varint 1791655699561
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'npx @deepseek-ai/dsh@latest web'
+    2: varint 1791655606200
+    3: varint 2
+    4: varint 0
+  1: message[77]
+    1: str[64] 'dsh plugin --profile web add @linxin666/dsh-remote-web-ui@latest'
+    2: varint 1791655568280
+    3: varint 2
+    4: varint 0
+  1: message[146]
+    1: message[132]
+      8: wt6 UNSUPPORTED
+    2: varint 1791655534704
+    3: varint 2
+    4: varint 0
+  1: message[27]
+    1: str[14] 'seanwang114514'
+    2: varint 1791655521381
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'http://198.18.0.1:3080'
+    2: varint 1791655478142
+    3: varint 2
+    4: varint 0
+  1: message[95]
+    1: message[82]
+      14: varint 110
+      14: varint 109
+      4: varint 115
+      14: wt4 UNSUPPORTED
+    2: varint 1791655074102
+    3: varint 2
+    4: varint 0
+  1: message[103]
+    1: str[90] '#  dsh-purge@https://github.com/YuJunZhiXue/dsh-purge/archive/refs/heads/master.tar.gz: {}'
+    2: varint 1791655056402
+    3: varint 2
+    4: varint 0
+  1: message[102]
+    1: str[89] '  dsh-purge@https://github.com/YuJunZhiXue/dsh-purge/archive/refs/heads/master.tar.gz: {}'
+    2: varint 1791655047426
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      14: wt3 UNSUPPORTED
+    2: varint 1791655041863
+    3: varint 2
+    4: varint 0
+  1: message[445]
+    1: message[431]
+      4: wt3 UNSUPPORTED
+    2: varint 1791655034456
+    3: varint 2
+    4: varint 0
+  1: message[438]
+    1: message[424]
+      4: varint 32
+      12: wt4 UNSUPPORTED
+    2: varint 1791655025076
+    3: varint 2
+    4: varint 0
+  1: message[115637]
+    1: message[115622]
+      13: wt4 UNSUPPORTED
+    2: varint 1791654960317
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'C:\\Users\\Administrator\\.dsh\\profiles\\web '
+    2: varint 1791654890476
+    3: varint 2
+    4: varint 0
+  1: message[4701]
+    1: message[4687]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654859813
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'pnpm install --update-checksums'
+    2: varint 1791654761711
+    3: varint 2
+    4: varint 0
+  1: message[2732]
+    1: message[2718]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654744284
+    3: varint 2
+    4: varint 0
+  1: message[199]
+    1: message[185]
+      14: wt3 UNSUPPORTED
+    2: varint 1791654630270
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'pnpm store prune'
+    2: varint 1791654627665
+    3: varint 2
+    4: varint 0
+  1: message[96]
+    1: str[83] 'dsh plugin --profile web add @linxin666/dsh-remote-web-ui@latest --update-checksums'
+    2: varint 1791654598334
+    3: varint 2
+    4: varint 0
+  1: message[3621]
+    1: message[3607]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654566397
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '必须使用 OpenAI 兼容接口'
+    2: varint 1791654179937
+    3: varint 2
+    4: varint 0
+  1: message[104]
+    1: str[91] 'web-preview: @earendil-works/pi-ai.openAICompletionsApi is not available in the worker host'
+    2: varint 1791654031094
+    3: varint 2
+    4: varint 0
+  1: message[108]
+    1: message[95]
+      14: wt7 UNSUPPORTED
+    2: varint 1791654015418
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-e95f89a9fe3666a5dcbcd731ae30e5531373711543f58c08b9ac3497ad70d7c6'
+    2: varint 1791653943540
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'https://api.f-api.site/v1'
+    2: varint 1791653933902
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-ECLJaGxYtL8hDWT06HZ0N0pcfL722F6MoSqhMmBadvZ34xvb'
+    2: varint 1791653887040
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.f-api.site'
+    2: varint 1791653867632
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://api.f-api.site'
+    2: varint 1791653853289
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      12: wt6 UNSUPPORTED
+    2: varint 1791653260296
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '好了'
+    2: varint 1791652161781
+    3: varint 2
+    4: varint 0
+  1: message[149]
+    1: str[<135 bytes — 内容已移除>]
+    2: varint 1791652134239
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '重新登录'
+    2: varint 1791652036903
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'pnpm exec wrangler whoami'
+    2: varint 1791651316856
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'pnpm exec wrangler login'
+    2: varint 1791651291427
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '这是一个测试'
+    2: varint 1791651050429
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '测试测试测试'
+    2: varint 1791651045092
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '熠烛'
+    2: varint 1791644206039
+    3: varint 2
+    4: varint 0
+  1: message[94]
+    1: str[81] '这是一段较长的语音识别内容，用于验证剪贴板保存完整文本'
+    2: varint 1791643757224
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '继续'
+    2: varint 1791643244447
+    3: varint 2
+    4: varint 0
+  1: message[1031]
+    1: message[1017]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791643092417
+    3: varint 2
+    4: varint 0
+  1: message[69]
+    1: str[56] 'dsh plugin --profile web add dsh-plugin-wallpaper-engine'
+    2: varint 1791643084166
+    3: varint 2
+    4: varint 0
+  1: message[2935]
+    1: message[2921]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791642590981
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      8: fixed32 842220371
+    2: varint 1791641090596
+    3: varint 2
+    4: varint 0
+  1: message[449]
+    1: str[<435 bytes — 内容已移除>]
+    2: varint 1791640949687
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      53529647287212: wt4 UNSUPPORTED
+    2: varint 1791640813605
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: bytes[17] e9a38ee5b29a617069e59bbde4baa70d0a
+    2: varint 1791640333158
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-600aed2fb951f5b78810654ad5f9ac165a5f9139cda884cb11a00ce1f1dff173'
+    2: varint 1791640165855
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-2f4c79d1a592a0412e98a116652571112953f08ba3ae4aed2e5e264a780d96b9'
+    2: varint 1791640145330
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-2f4b61bb3ed4a41595dc35177f0d9a1f97ade372d38dcce0085fb7f7e3cf0552'
+    2: varint 1791640014336
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '风岚api国产破甲'
+    2: varint 1791639953296
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'https://www.f-api.site/v1'
+    2: varint 1791639939073
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://github.com/cloudflare/skills'
+    2: varint 1791639862385
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      17070860: fixed32 3836517606
+    2: varint 1791639418173
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'https://github.com/DD-2026-05-28/wasm/'
+    2: varint 1791635943671
+    3: varint 2
+    4: varint 0
+  1: message[206]
+    1: str[<192 bytes — 内容已移除>]
+    2: varint 1791366951637
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '上海市高考英语词汇手册'
+    2: varint 1791366676395
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '上海市高考英语词汇手册2026'
+    2: varint 1791366666672
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      7: varint 56
+      7: varint 56
+    2: varint 1791366652318
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] '上海市高考英语词汇手册电子版'
+    2: varint 1791366037369
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1791364896329
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      11: wt3 UNSUPPORTED
+    2: varint 1791361623948
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '语音输入复制通路 E2E 验证'
+    2: varint 1791354346740
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'SENTINEL-BEFORE-E2E'
+    2: varint 1791354333977
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] '还有exe文件会疯狂弹出git的cmd弹窗'
+    2: varint 1791351643609
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] '还有exe文件会疯狂弹出git的cmd暗疮'
+    2: varint 1791351637885
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      12: wt6 UNSUPPORTED
+    2: varint 1791351418732
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'https://www.f-api.site/'
+    2: varint 1791350417960
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'SENTINEL-不应被改动'
+    2: varint 1791350391635
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '嗯'
+    2: varint 1791349779613
+    3: varint 2
+    4: varint 0
+  1: message[227]
+    1: str[<213 bytes — 内容已移除>]
+    2: varint 1791349392332
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '测试'
+    2: varint 1791349347531
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '还有现在预览和'
+    2: varint 1791349325881
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '没有启用'
+    2: varint 1791348529297
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] 'a6api.'
+    2: varint 1791348413784
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '增加对于窗口缩放的支持'
+    2: varint 1791348285548
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '全部提交并不熟'
+    2: varint 1791346943470
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '提交'
+    2: varint 1791345445655
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791345284601
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '就'
+    2: varint 1791344971995
+    3: varint 2
+    4: varint 0
+  1: message[222]
+    1: str[<208 bytes — 内容已移除>]
+    2: varint 1791344967486
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'SenseVoiceSmall (INT8)'
+    2: varint 1791344156195
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      10: wt3 UNSUPPORTED
+    2: varint 1791343575957
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'ormat v4 message requires a producer-owned source kind'
+    2: varint 1791343426447
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] '配置一下modlens插件的api'
+    2: varint 1791343323687
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '继续 顺带优化输入法性能'
+    2: varint 1791343059504
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '害死没有'
+    2: varint 1791343054339
+    3: varint 2
+    4: varint 0
+  1: message[582]
+    1: message[568]
+      1513561368924261704292173732418726728800261966772989: varint 68
+      12: fixed32 1699967077
+      12: fixed32 1632116843
+      14: message[110]
+        12: fixed32 3860886387
+        118956641578066209: wt7 UNSUPPORTED
+      7051429501066823: fixed32 1881172083
+      13: wt4 UNSUPPORTED
+    2: varint 1791342325089
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'dsh plugin --profile web add "github:dsh-market/dsh-market"'
+    2: varint 1791342311631
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] 'https://a6api.com/#/console/dashboard'
+    2: varint 1791342098840
+    3: varint 2
+    4: varint 0
+  1: message[670]
+    1: str[<656 bytes — 内容已移除>]
+    2: varint 1791341754210
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'dsh --version'
+    2: varint 1791339830066
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] 'npm update -g @deepseek-ai/dsh'
+    2: varint 1791339822526
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'npm install -g @deepseek-ai/dsh@latest'
+    2: varint 1791339420247
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      9: wt3 UNSUPPORTED
+    2: varint 1791309082917
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '最终验收ABC'
+    2: varint 1791308153794
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'shutdown -s -t 3600'
+    2: varint 1791308091828
+    3: varint 2
+    4: varint 0
+  1: message[1884]
+    1: str[<1870 bytes — 内容已移除>]
+    2: varint 1791307085062
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'SENTINEL-BEFORE'
+    2: varint 1791306252401
+    3: varint 2
+    4: varint 0
+  1: message[2441]
+    1: message[2427]
+      14: wt6 UNSUPPORTED
+    2: varint 1791305967844
+    3: varint 2
+    4: varint 0
+  1: message[2456]
+    1: message[2442]
+      15060334730171846312303463741371290714144557554604: wt4 UNSUPPORTED
+    2: varint 1791305635927
+    3: varint 2
+    4: varint 0
+  1: message[2447]
+    1: message[2433]
+      14: wt6 UNSUPPORTED
+    2: varint 1791305398167
+    3: varint 2
+    4: varint 0
+  1: message[2027]
+    1: message[2013]
+      10: wt6 UNSUPPORTED
+    2: varint 1791305062520
+    3: varint 2
+    4: varint None
+
+## 009772.ldb :: vmodeclipboard  (262465 B)
+  1: message[26]
+    1: str[13] 'MCHOSE G3 A -'
+    2: varint 1792174484163
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: str[20] '<剪贴板原文 已脱敏>'
+    2: varint 1792174429392
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] '<剪贴板原文 已脱敏>'
+    2: varint 1792174288519
+    3: varint 2
+    4: varint 0
+  1: message[103]
+    1: str[90] 'dsh-whale-widget  设置这个插件不要显示 “老大你的ds余额不足”的内容'
+    2: varint 1792173853719
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-whale-widget '
+    2: varint 1792173557980
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://rea.tools/zh-CN/get-started/'
+    2: varint 1792173284572
+    3: varint 2
+    4: varint 0
+  1: message[468]
+    1: message[454]
+      14: varint 110
+      14: varint 109
+      4: varint 115
+      14: wt4 UNSUPPORTED
+    2: varint 1792172970640
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'https://rea.tools/zh-CN/get-started/#node-windows-help'
+    2: varint 1792172582138
+    3: varint 2
+    4: varint 0
+  1: message[173]
+    1: str[<159 bytes — 内容已移除>]
+    2: varint 1792172459356
+    3: varint 2
+    4: varint 0
+  1: message[100]
+    1: str[87] '<剪贴板原文 已脱敏>'
+    2: varint 1792172453388
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] '在安全的情况下尽可能清理c盘'
+    2: varint 1792172317009
+    3: varint 2
+    4: varint 0
+  1: message[248]
+    1: str[<234 bytes — 内容已移除>]
+    2: varint 1792172205712
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      6: varint 46
+      6: varint 49
+    2: varint 1792171687519
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt7 UNSUPPORTED
+    2: varint 1792171604772
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] 'Kxt3+eSXGfie49CzLQIOXIPvlQZ1YQ=='
+    2: varint 1792170947114
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] '确认永久删除全部 ChatGPT 对话'
+    2: varint 1792170582416
+    3: varint 2
+    4: varint 0
+  1: message[155]
+    1: str[<141 bytes — 内容已移除>]
+    2: varint 1792169691102
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-Vf5N0BBMiIGXN3D25dbMmV0T8MfHt0kV6LMf1jcx5y928XmV'
+    2: varint 1792169545220
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'dsh-whale-widget'
+    2: varint 1792169505751
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] 'https://a6api.com/#/console/tokens'
+    2: varint 1792169461763
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] 'dsh plugin --profile web add dsh-whale-widget'
+    2: varint 1792168969267
+    3: varint 2
+    4: varint 0
+  1: message[71]
+    1: str[58] 'dsh plugin --profile web add @michengai/dsh-skills-manager'
+    2: varint 1792168940183
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-skills-manager'
+    2: varint 1792168922759
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: str[44] 'dsh plugin --profile web add billion-context'
+    2: varint 1792168895472
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'billion-context'
+    2: varint 1792168887683
+    3: varint 2
+    4: varint 0
+  1: message[556]
+    1: message[542]
+      7: fixed32 1428176189
+      10: wt3 UNSUPPORTED
+    2: varint 1792168620509
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] '05 0C 09 01 A1 01 85 03 C0 06 05 FF 09 02 A1 01 85 0A C0 06 06 FF 09 02 A1 01 85 0B C0'
+    2: varint 1792168614273
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://yszyszysz.lanzn.com/irJwe4c8302f'
+    2: varint 1792168556029
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'npx rea-agents@latest setup --client claude_desktop'
+    2: varint 1792168095015
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791712821180
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791712798320
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '输入法词库'
+    2: varint 1791711268248
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'sk-2a0fff6a710f4addbc9aa9ec3d859a82'
+    2: varint 1791707437087
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://api.a6api.com/v1'
+    2: varint 1791707144923
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'https://api.a6api.com'
+    2: varint 1791707143777
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'https://growth-bracelets-queensland-two.trycloudflare.com/pair-accept?pair=9402c042a0e9ae63b8eaa9e85e155d88'
+    2: varint 1791705747224
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'https://growth-bracelets-queensland-two.trycloudflare.com/pair-accept?pair=fb7d86bd535e04e0cee2f5589d25c9e7'
+    2: varint 1791705244293
+    3: varint 2
+    4: varint 0
+  1: message[355]
+    1: message[341]
+      13: wt4 UNSUPPORTED
+    2: varint 1791705227572
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1791705196583
+    3: varint 2
+    4: varint 0
+  1: message[121]
+    1: str[108] 'https://northwest-gibraltar-reforms-fill.trycloudflare.com/pair-accept?pair=abed1e1d09b1353490a21bc1a88d846c'
+    2: varint 1791704673684
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: message[24]
+      13: varint 101
+      13: wt4 UNSUPPORTED
+    2: varint 1791704521863
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=80bb1602288314bb1de6ea097c82a116'
+    2: varint 1791704420863
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=1625872b2f49234d717a2a1274a2f6c3'
+    2: varint 1791704402741
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'https://firefly.cuteleaf.cn/'
+    2: varint 1791704315522
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] '<剪贴板原文 已脱敏>'
+    2: varint 1791704007492
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=0579f9ecb889edd9ebf2f5473239c28d'
+    2: varint 1791703939829
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=15350bbc419935de57167e0579508a54'
+    2: varint 1791703926116
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] 'C:\\Users\\Administrator\\.gitcloud\\workspace'
+    2: varint 1791703708702
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://notes.iamcrl.cn/'
+    2: varint 1791703661372
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=0a1b6ca6633b2b00ddd2ab6ef9618a92'
+    2: varint 1791703456358
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '没有完全修好'
+    2: varint 1791703269259
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: message[12]
+      5: wt7 UNSUPPORTED
+    2: varint 1791702799428
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: message[40]
+      13: varint 116
+      14: wt4 UNSUPPORTED
+    2: varint 1791702727936
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'dsh-webworker-preview'
+    2: varint 1791702165201
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'https://notes.iamcrl.cn/rss.xml'
+    2: varint 1791702078534
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      11: wt4 UNSUPPORTED
+    2: varint 1791701998814
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] '<剪贴板原文 已脱敏>'
+    2: varint 1791701992758
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] '<剪贴板原文 已脱敏>'
+    2: varint 1791701784660
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'curly-mode-1e26'
+    2: varint 1791700080593
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'restless-surf-e057'
+    2: varint 1791700075508
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://github.com/xmanrui/dsh-im#readme'
+    2: varint 1791699591048
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-MzmTzVltQJmhljKcx6I92rsakz9GTR5f3dXWmSIlqfpUck51'
+    2: varint 1791699389554
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'www.jzbk.net/3559.html'
+    2: varint 1791699257323
+    3: varint 2
+    4: varint 0
+  1: message[73]
+    1: str[60] '@. 这是hdd磁盘版本的 便宜些 www.jzbk.net/3559.html'
+    2: varint 1791699242554
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://github.com/CuteLeaf/Firefly'
+    2: varint 1791698411775
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] '不要更改原来的ui页面 先把原来的文章内容移上去 然后更改相关的个人等页面'
+    2: varint 1791698382308
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      8: fixed32 1735355501
+    2: varint 1791696218162
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://app.rainyun.com/apps/rgs/buy'
+    2: varint 1791695869268
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.emlog.net/'
+    2: varint 1791693735121
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '<剪贴板原文 已脱敏>'
+    2: varint 1791692863112
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://sleep.iamcrl.cn/'
+    2: varint 1791691727742
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: str[8] '11111111'
+    2: varint 1791691401017
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'https://iamcrl.cn/'
+    2: varint 1791691258495
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] 'https://nexusvai.github.io/NexusV/'
+    2: varint 1791691223234
+    3: varint 2
+    4: varint 0
+  1: message[130]
+    1: str[117] 'https://gitjs.yunluo.de5.net/https://raw.githubusercontent.com/jiayuxuan123/app-/main/images/1791691186741_y3qbcg.png'
+    2: varint 1791691195309
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'https://jiayuxuan123.rth1.xyz/yunluo.html'
+    2: varint 1791691154587
+    3: varint 2
+    4: varint 0
+  1: message[180]
+    1: str[<166 bytes — 内容已移除>]
+    2: varint 1791691001512
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://onepagelove.com/'
+    2: varint 1791690806144
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://www.awwwards.com/directory/'
+    2: varint 1791690715917
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'avwwards.com/directory/'
+    2: varint 1791690635120
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'ocr识别结果的弹窗'
+    2: varint 1791690611861
+    3: varint 2
+    4: varint 0
+  1: message[1060]
+    1: message[1046]
+      36731184005748688833141009997002258146248187070087611748419696077342860: wt6 UNSUPPORTED
+    2: varint 1791690487290
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'gaodingpm.com'
+    2: varint 1791690462339
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] '学习一下苹果为首的大厂的动画设计 并加入数据库'
+    2: varint 1791690382777
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] '还是没有 而且我要关闭的是ocr识别结果的弹窗'
+    2: varint 1791690058529
+    3: varint 2
+    4: varint 0
+  1: message[414]
+    1: message[400]
+      230663967169609544852292458808029182698054064514129560811322994836829417329951342482453009669570722172: bytes[10] e2978fe782b9e587bbe7
+      92841780209765099787409554705426303683669990036945506771375369720059085159: wt4 UNSUPPORTED
+    2: varint 1791690052614
+    3: varint 2
+    4: varint 0
+  1: message[81]
+    1: str[68] '<剪贴板原文 已脱敏>'
+    2: varint 1791689979985
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'https://github.com/emilkowalski/skills'
+    2: varint 1791689945583
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'https://github.com/houxin0010/distinctive-ai-design'
+    2: varint 1791689842803
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] '<剪贴板原文 已脱敏>'
+    2: varint 1791689592626
+    3: varint 2
+    4: varint 0
+  1: message[181]
+    1: str[<167 bytes — 内容已移除>]
+    2: varint 1791689515259
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: str[5] 'a6api'
+    2: varint 1791689484339
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      5: wt6 UNSUPPORTED
+    2: varint 1791689480911
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      12: wt4 UNSUPPORTED
+    2: varint 1791686003200
+    3: varint 2
+    4: varint 0
+  1: message[151]
+    1: str[<137 bytes — 内容已移除>]
+    2: varint 1791685652699
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'browser-skill-dsh-plugin'
+    2: varint 1791685592477
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685542645
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'dsh-visualize'
+    2: varint 1791685532410
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-infinite-gen-3'
+    2: varint 1791685479224
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'dsh-workbuddy-connect'
+    2: varint 1791685462641
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685456975
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: str[9] 'modsearch'
+    2: varint 1791685436543
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] 'dsh plugin --profile web add /绝对路径/dsh-our-free-model'
+    2: varint 1791685395456
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'dsh-client-ui-skill-explorer'
+    2: varint 1791685363401
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-our-free-model'
+    2: varint 1791685354468
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685301883
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685281213
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-better-sidebar'
+    2: varint 1791685229410
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-univer-office'
+    2: varint 1791685211572
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'dsh-find-plugin'
+    2: varint 1791685202826
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685183619
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-remote-web-ui'
+    2: varint 1791685154743
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'dsh plugin --profile web add dsh-better-sidebar@latest'
+    2: varint 1791684854826
+    3: varint 2
+    4: varint 0
+  1: message[349]
+    1: message[335]
+      77470984861528132043764620: fixed32 761820004
+      12: message[101]
+        14: wt4 UNSUPPORTED
+      14: wt3 UNSUPPORTED
+    2: varint 1791684851567
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'dsh plugin --profile web add dshmarket'
+    2: varint 1791684794256
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] 'a6ap'
+    2: varint 1791684548151
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '939085'
+    2: varint 1791684400546
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      7: varint 52
+      6: wt3 UNSUPPORTED
+    2: varint 1791684386128
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '1ac003f720d38018cdb25fdc645a42c1'
+    2: varint 1791684297668
+    3: varint 2
+    4: varint 0
+  1: message[612]
+    1: str[<598 bytes — 内容已移除>]
+    2: varint 1791684247470
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      42357867448956: wt7 UNSUPPORTED
+    2: varint 1791684117995
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: str[7] 'YEELOGO'
+    2: varint 1791683761320
+    3: varint 2
+    4: varint 0
+  1: message[106]
+    1: str[93] '将这张图变得真实一点 美化一下 不要太ai化 同时要保证画面的主体性 '
+    2: varint 1791683736850
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] '<剪贴板原文 已脱敏>'
+    2: varint 1791682990694
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt7 UNSUPPORTED
+    2: varint 1791659984455
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      12: wt7 UNSUPPORTED
+    2: varint 1791659960528
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'deepseek-v4.1-flash'
+    2: varint 1791659944025
+    3: varint 2
+    4: varint 0
+  1: message[61]
+    1: str[48] 'rmdir /s /q "C:\\Users\\Administrator\\.dsh-backup"'
+    2: varint 1791659847261
+    3: varint 2
+    4: varint 0
+  1: message[2778]
+    1: message[2764]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791659840156
+    3: varint 2
+    4: varint 0
+  1: message[95]
+    1: message[82]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659834276
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] '<剪贴板原文 已脱敏>'
+    2: varint 1791659759461
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: message[21]
+      14: varint 110
+      14: varint 109
+      4: varint 105
+      13: wt6 UNSUPPORTED
+    2: varint 1791659659656
+    3: varint 2
+    4: varint 0
+  1: message[262]
+    1: message[248]
+      15: wt3 UNSUPPORTED
+    2: varint 1791659653332
+    3: varint 2
+    4: varint 0
+  1: message[66]
+    1: str[53] '<剪贴板原文 已脱敏>'
+    2: varint 1791659648170
+    3: varint 2
+    4: varint 0
+  1: message[14]
+    1: str[1] 'e'
+    2: varint 1791659626547
+    3: varint 2
+    4: varint 0
+  1: message[105]
+    1: message[92]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659593654
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'taskkill /F /IM node.exe'
+    2: varint 1791659586383
+    3: varint 2
+    4: varint 0
+  1: message[97]
+    1: str[84] 'xcopy /E /I /H /Y "C:\\Users\\Administrator\\.dsh" "C:\\Users\\Administrator\\.dsh-backup"'
+    2: varint 1791659573887
+    3: varint 2
+    4: varint 0
+  1: message[3535]
+    1: message[3521]
+      10: wt7 UNSUPPORTED
+    2: varint 1791659566873
+    3: varint 2
+    4: varint 0
+  1: message[428]
+    1: message[414]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659562183
+    3: varint 2
+    4: varint 0
+  1: message[9713]
+    1: message[9699]
+      10: wt7 UNSUPPORTED
+    2: varint 1791659552431
+    3: varint 2
+    4: varint 0
+  1: message[1216]
+    1: message[1202]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659537011
+    3: varint 2
+    4: varint 0
+  1: message[3040]
+    1: message[3026]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659515189
+    3: varint 2
+    4: varint 0
+  1: message[3040]
+    1: message[3026]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659508157
+    3: varint 2
+    4: varint 0
+  1: message[60]
+    1: message[47]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659395541
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: message[44]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659359896
+    3: varint 2
+    4: varint 0
+  1: message[59]
+    1: str[46] 'cd /d C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791659354274
+    3: varint 2
+    4: varint 0
+  1: message[93]
+    1: message[80]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659332609
+    3: varint 2
+    4: varint 0
+  1: message[421]
+    1: message[407]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659260129
+    3: varint 2
+    4: varint 0
+  1: message[3005]
+    1: message[2991]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659221537
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659177091
+    3: varint 2
+    4: varint 0
+  1: message[93]
+    1: message[80]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659167482
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659166659
+    3: varint 2
+    4: varint 0
+  1: message[179]
+    1: message[165]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791659137016
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'pnpm why dsh-pet'
+    2: varint 1791659130979
+    3: varint 2
+    4: varint 0
+  1: message[107]
+    1: str[94] "Select-String -Path node_modules\\dsh-pet\\lib\\client.js -Pattern 'id:' | Select-Object -First 3"
+    2: varint 1791659108657
+    3: varint 2
+    4: varint 0
+  1: message[183]
+    1: message[169]
+      9: fixed32 1095586633
+      10: wt4 UNSUPPORTED
+    2: varint 1791659097138
+    3: varint 2
+    4: varint 0
+  1: message[1143]
+    1: message[1129]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659087093
+    3: varint 2
+    4: varint 0
+  1: message[16508]
+    1: message[16493]
+      14: wt3 UNSUPPORTED
+    2: varint 1791659077505
+    3: varint 2
+    4: varint 0
+  1: message[997]
+    1: message[983]
+      4: wt3 UNSUPPORTED
+    2: varint 1791659071985
+    3: varint 2
+    4: varint 0
+  1: message[82]
+    1: message[69]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658973570
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'netstat -ano | findstr :3080'
+    2: varint 1791658961148
+    3: varint 2
+    4: varint 0
+  1: message[6535]
+    1: message[6521]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658945123
+    3: varint 2
+    4: varint 0
+  1: message[795]
+    1: message[781]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658880304
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] '"@dsh-external/dsh-visualize",'
+    2: varint 1791658851199
+    3: varint 2
+    4: varint 0
+  1: message[117]
+    1: str[104] '"@dsh-external/dsh-visualize": "github:Nagi-ovo/dsh-visualize#9667c0e9cf0ea463b9b45b2845de62da34fd918a",'
+    2: varint 1791658826741
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '"dsh-infinite-gen-3",'
+    2: varint 1791658787906
+    3: varint 2
+    4: varint 0
+  1: message[3601]
+    1: message[3587]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658772305
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'Test-Path node_modules\\dsh-infinite-gen-3'
+    2: varint 1791658765538
+    3: varint 2
+    4: varint 0
+  1: message[250]
+    1: message[236]
+      10: wt3 UNSUPPORTED
+    2: varint 1791658761307
+    3: varint 2
+    4: varint 0
+  1: message[118]
+    1: str[105] "Select-String -Path node_modules\\dsh-approval-mode\\lib\\client.js -Pattern '__ModuleLoader__' -Context 0,2"
+    2: varint 1791658758009
+    3: varint 2
+    4: varint 0
+  1: message[1984]
+    1: message[1970]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658753174
+    3: varint 2
+    4: varint 0
+  1: message[162]
+    1: message[148]
+      8: wt7 UNSUPPORTED
+    2: varint 1791658745214
+    3: varint 2
+    4: varint 0
+  1: message[56]
+    1: str[43] 'cd C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791658743396
+    3: varint 2
+    4: varint 0
+  1: message[1490]
+    1: message[1476]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658736151
+    3: varint 2
+    4: varint 0
+  1: message[2743]
+    1: message[2729]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658722244
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791658711609
+    3: varint 2
+    4: varint 0
+  1: message[372]
+    1: message[358]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658673060
+    3: varint 2
+    4: varint 0
+  1: message[358]
+    1: message[344]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658660996
+    3: varint 2
+    4: varint 0
+  1: message[75]
+    1: message[62]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658657109
+    3: varint 2
+    4: varint 0
+  1: message[3007]
+    1: message[2993]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791658636094
+    3: varint 2
+    4: varint 0
+  1: message[40]
+    1: str[27] '@dsh-external/dsh-visualize'
+    2: varint 1791658547354
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: message[117]
+        13: wt6 UNSUPPORTED
+    2: varint 1791658525058
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'dsh plugin --profile web remove @dsh-external/dsh-visualize'
+    2: varint 1791658481605
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'dsh plugin --profile web add dsh-infinite-gen-3@latest'
+    2: varint 1791658471595
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: message[107]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658464761
+    3: varint 2
+    4: varint 0
+  1: message[2741]
+    1: message[2727]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658456182
+    3: varint 2
+    4: varint 0
+  1: message[78]
+    1: message[65]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658440485
+    3: varint 2
+    4: varint 0
+  1: message[554]
+    1: message[540]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658433173
+    3: varint 2
+    4: varint 0
+  1: message[98]
+    1: str[85] 'dsh plugin --profile web add git+https://github.com/NEVSTOP-LAB/dsh-approval-mode.git'
+    2: varint 1791658418026
+    3: varint 2
+    4: varint 0
+  1: message[677]
+    1: message[663]
+      14: varint 97
+      12: wt3 UNSUPPORTED
+    2: varint 1791658390606
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: fixed64 7811903956982918252
+      12: wt4 UNSUPPORTED
+    2: varint 1791658378628
+    3: varint 2
+    4: varint 0
+  1: message[73]
+    1: str[60] 'C:\\Users\\Administrator\\.dsh\\profiles\\web\\pnpm-workspace.yaml'
+    2: varint 1791658368202
+    3: varint 2
+    4: varint 0
+  1: message[12234]
+    1: message[12220]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658356465
+    3: varint 2
+    4: varint 0
+  1: message[283]
+    1: message[269]
+      12: wt4 UNSUPPORTED
+    2: varint 1791656809327
+    3: varint 2
+    4: varint 0
+  1: message[9936]
+    1: message[9922]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791656793990
+    3: varint 2
+    4: varint 0
+  1: message[535]
+    1: message[521]
+      12: wt4 UNSUPPORTED
+    2: varint 1791655824096
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'dsh plugin --profile web update'
+    2: varint 1791655820527
+    3: varint 2
+    4: varint 0
+  1: message[7179]
+    1: message[7165]
+      14: wt3 UNSUPPORTED
+    2: varint 1791655699561
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'npx @deepseek-ai/dsh@latest web'
+    2: varint 1791655606200
+    3: varint 2
+    4: varint 0
+  1: message[77]
+    1: str[64] 'dsh plugin --profile web add @linxin666/dsh-remote-web-ui@latest'
+    2: varint 1791655568280
+    3: varint 2
+    4: varint 0
+  1: message[146]
+    1: message[132]
+      8: wt6 UNSUPPORTED
+    2: varint 1791655534704
+    3: varint 2
+    4: varint 0
+  1: message[27]
+    1: str[14] 'seanwang114514'
+    2: varint 1791655521381
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'http://198.18.0.1:3080'
+    2: varint 1791655478142
+    3: varint 2
+    4: varint 0
+  1: message[95]
+    1: message[82]
+      14: varint 110
+      14: varint 109
+      4: varint 115
+      14: wt4 UNSUPPORTED
+    2: varint 1791655074102
+    3: varint 2
+    4: varint 0
+  1: message[103]
+    1: str[90] '#  dsh-purge@https://github.com/YuJunZhiXue/dsh-purge/archive/refs/heads/master.tar.gz: {}'
+    2: varint 1791655056402
+    3: varint 2
+    4: varint 0
+  1: message[102]
+    1: str[89] '  dsh-purge@https://github.com/YuJunZhiXue/dsh-purge/archive/refs/heads/master.tar.gz: {}'
+    2: varint 1791655047426
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      14: wt3 UNSUPPORTED
+    2: varint 1791655041863
+    3: varint 2
+    4: varint 0
+  1: message[445]
+    1: message[431]
+      4: wt3 UNSUPPORTED
+    2: varint 1791655034456
+    3: varint 2
+    4: varint 0
+  1: message[438]
+    1: message[424]
+      4: varint 32
+      12: wt4 UNSUPPORTED
+    2: varint 1791655025076
+    3: varint 2
+    4: varint 0
+  1: message[115637]
+    1: message[115622]
+      13: wt4 UNSUPPORTED
+    2: varint 1791654960317
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'C:\\Users\\Administrator\\.dsh\\profiles\\web '
+    2: varint 1791654890476
+    3: varint 2
+    4: varint 0
+  1: message[4701]
+    1: message[4687]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654859813
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'pnpm install --update-checksums'
+    2: varint 1791654761711
+    3: varint 2
+    4: varint 0
+  1: message[2732]
+    1: message[2718]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654744284
+    3: varint 2
+    4: varint 0
+  1: message[199]
+    1: message[185]
+      14: wt3 UNSUPPORTED
+    2: varint 1791654630270
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'pnpm store prune'
+    2: varint 1791654627665
+    3: varint 2
+    4: varint 0
+  1: message[96]
+    1: str[83] 'dsh plugin --profile web add @linxin666/dsh-remote-web-ui@latest --update-checksums'
+    2: varint 1791654598334
+    3: varint 2
+    4: varint 0
+  1: message[3621]
+    1: message[3607]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654566397
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '必须使用 OpenAI 兼容接口'
+    2: varint 1791654179937
+    3: varint 2
+    4: varint 0
+  1: message[104]
+    1: str[91] 'web-preview: @earendil-works/pi-ai.openAICompletionsApi is not available in the worker host'
+    2: varint 1791654031094
+    3: varint 2
+    4: varint 0
+  1: message[108]
+    1: message[95]
+      14: wt7 UNSUPPORTED
+    2: varint 1791654015418
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-e95f89a9fe3666a5dcbcd731ae30e5531373711543f58c08b9ac3497ad70d7c6'
+    2: varint 1791653943540
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'https://api.f-api.site/v1'
+    2: varint 1791653933902
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-ECLJaGxYtL8hDWT06HZ0N0pcfL722F6MoSqhMmBadvZ34xvb'
+    2: varint 1791653887040
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.f-api.site'
+    2: varint 1791653867632
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://api.f-api.site'
+    2: varint 1791653853289
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      12: wt6 UNSUPPORTED
+    2: varint 1791653260296
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '好了'
+    2: varint 1791652161781
+    3: varint 2
+    4: varint 0
+  1: message[149]
+    1: str[<135 bytes — 内容已移除>]
+    2: varint 1791652134239
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '重新登录'
+    2: varint 1791652036903
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'pnpm exec wrangler whoami'
+    2: varint 1791651316856
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'pnpm exec wrangler login'
+    2: varint 1791651291427
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '这是一个测试'
+    2: varint 1791651050429
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '测试测试测试'
+    2: varint 1791651045092
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '熠烛'
+    2: varint 1791644206039
+    3: varint 2
+    4: varint 0
+  1: message[94]
+    1: str[81] '这是一段较长的语音识别内容，用于验证剪贴板保存完整文本'
+    2: varint 1791643757224
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '继续'
+    2: varint 1791643244447
+    3: varint 2
+    4: varint 0
+  1: message[1031]
+    1: message[1017]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791643092417
+    3: varint 2
+    4: varint 0
+  1: message[69]
+    1: str[56] 'dsh plugin --profile web add dsh-plugin-wallpaper-engine'
+    2: varint 1791643084166
+    3: varint 2
+    4: varint 0
+  1: message[2935]
+    1: message[2921]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791642590981
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      8: fixed32 842220371
+    2: varint 1791641090596
+    3: varint 2
+    4: varint 0
+  1: message[449]
+    1: str[<435 bytes — 内容已移除>]
+    2: varint 1791640949687
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      53529647287212: wt4 UNSUPPORTED
+    2: varint 1791640813605
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: bytes[17] e9a38ee5b29a617069e59bbde4baa70d0a
+    2: varint 1791640333158
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-600aed2fb951f5b78810654ad5f9ac165a5f9139cda884cb11a00ce1f1dff173'
+    2: varint 1791640165855
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-2f4c79d1a592a0412e98a116652571112953f08ba3ae4aed2e5e264a780d96b9'
+    2: varint 1791640145330
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-2f4b61bb3ed4a41595dc35177f0d9a1f97ade372d38dcce0085fb7f7e3cf0552'
+    2: varint 1791640014336
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '风岚api国产破甲'
+    2: varint 1791639953296
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'https://www.f-api.site/v1'
+    2: varint 1791639939073
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://github.com/cloudflare/skills'
+    2: varint 1791639862385
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      17070860: fixed32 3836517606
+    2: varint 1791639418173
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'https://github.com/DD-2026-05-28/wasm/'
+    2: varint 1791635943671
+    3: varint 2
+    4: varint 0
+  1: message[206]
+    1: str[<192 bytes — 内容已移除>]
+    2: varint 1791366951637
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '上海市高考英语词汇手册'
+    2: varint 1791366676395
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '上海市高考英语词汇手册2026'
+    2: varint 1791366666672
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      7: varint 56
+      7: varint 56
+    2: varint 1791366652318
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] '上海市高考英语词汇手册电子版'
+    2: varint 1791366037369
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1791364896329
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      11: wt3 UNSUPPORTED
+    2: varint 1791361623948
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '语音输入复制通路 E2E 验证'
+    2: varint 1791354346740
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'SENTINEL-BEFORE-E2E'
+    2: varint 1791354333977
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] '还有exe文件会疯狂弹出git的cmd弹窗'
+    2: varint 1791351643609
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] '还有exe文件会疯狂弹出git的cmd暗疮'
+    2: varint 1791351637885
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      12: wt6 UNSUPPORTED
+    2: varint 1791351418732
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'https://www.f-api.site/'
+    2: varint 1791350417960
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'SENTINEL-不应被改动'
+    2: varint 1791350391635
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '嗯'
+    2: varint 1791349779613
+    3: varint 2
+    4: varint 0
+  1: message[227]
+    1: str[<213 bytes — 内容已移除>]
+    2: varint 1791349392332
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '测试'
+    2: varint 1791349347531
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '还有现在预览和'
+    2: varint 1791349325881
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '没有启用'
+    2: varint 1791348529297
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] 'a6api.'
+    2: varint 1791348413784
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '增加对于窗口缩放的支持'
+    2: varint 1791348285548
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '全部提交并不熟'
+    2: varint 1791346943470
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '提交'
+    2: varint 1791345445655
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791345284601
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '就'
+    2: varint 1791344971995
+    3: varint 2
+    4: varint 0
+  1: message[222]
+    1: str[<208 bytes — 内容已移除>]
+    2: varint 1791344967486
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'SenseVoiceSmall (INT8)'
+    2: varint 1791344156195
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      10: wt3 UNSUPPORTED
+    2: varint 1791343575957
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'ormat v4 message requires a producer-owned source kind'
+    2: varint 1791343426447
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] '配置一下modlens插件的api'
+    2: varint 1791343323687
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '继续 顺带优化输入法性能'
+    2: varint 1791343059504
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '害死没有'
+    2: varint 1791343054339
+    3: varint 2
+    4: varint 0
+  1: message[582]
+    1: message[568]
+      1513561368924261704292173732418726728800261966772989: varint 68
+      12: fixed32 1699967077
+      12: fixed32 1632116843
+      14: message[110]
+        12: fixed32 3860886387
+        118956641578066209: wt7 UNSUPPORTED
+      7051429501066823: fixed32 1881172083
+      13: wt4 UNSUPPORTED
+    2: varint 1791342325089
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'dsh plugin --profile web add "github:dsh-market/dsh-market"'
+    2: varint 1791342311631
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] 'https://a6api.com/#/console/dashboard'
+    2: varint 1791342098840
+    3: varint 2
+    4: varint 0
+  1: message[670]
+    1: str[<656 bytes — 内容已移除>]
+    2: varint 1791341754210
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'dsh --version'
+    2: varint 1791339830066
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] 'npm update -g @deepseek-ai/dsh'
+    2: varint 1791339822526
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'npm install -g @deepseek-ai/dsh@latest'
+    2: varint 1791339420247
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      9: wt3 UNSUPPORTED
+    2: varint 1791309082917
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '最终验收ABC'
+    2: varint 1791308153794
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'shutdown -s -t 3600'
+    2: varint 1791308091828
+    3: varint 2
+    4: varint 0
+  1: message[1884]
+    1: str[<1870 bytes — 内容已移除>]
+    2: varint 1791307085062
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'SENTINEL-BEFORE'
+    2: varint 1791306252401
+    3: varint 2
+    4: varint 0
+  1: message[2441]
+    1: message[2427]
+      14: wt6 UNSUPPORTED
+    2: varint 1791305967844
+    3: varint 2
+    4: varint 0
+  1: message[2456]
+    1: message[2442]
+      15060334730171846312303463741371290714144557554604: wt4 UNSUPPORTED
+    2: varint 1791305635927
+    3: varint 2
+    4: varint 0
+  1: message[2447]
+    1: message[2433]
+      14: wt6 UNSUPPORTED
+    2: varint 1791305398167
+    3: varint 2
+    4: varint None
+
+## 009774.ldb :: configenable_large_emoji  (0 B)
+  TEXT: 
+
+## 009774.ldb :: vmodeclipboard  (260071 B)
+  1: message[54]
+    1: str[41] 'https://www.mchose.com.cn/#/connectDevice'
+    2: varint 1792174799123
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'MCHOSE G3 A -'
+    2: varint 1792174484163
+    3: varint 2
+    4: varint 0
+  1: message[33]
+    1: str[20] '<剪贴板原文 已脱敏>'
+    2: varint 1792174429392
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] '<剪贴板原文 已脱敏>'
+    2: varint 1792174288519
+    3: varint 2
+    4: varint 0
+  1: message[103]
+    1: str[90] 'dsh-whale-widget  设置这个插件不要显示 “老大你的ds余额不足”的内容'
+    2: varint 1792173853719
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-whale-widget '
+    2: varint 1792173557980
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://rea.tools/zh-CN/get-started/'
+    2: varint 1792173284572
+    3: varint 2
+    4: varint 0
+  1: message[468]
+    1: message[454]
+      14: varint 110
+      14: varint 109
+      4: varint 115
+      14: wt4 UNSUPPORTED
+    2: varint 1792172970640
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'https://rea.tools/zh-CN/get-started/#node-windows-help'
+    2: varint 1792172582138
+    3: varint 2
+    4: varint 0
+  1: message[173]
+    1: str[<159 bytes — 内容已移除>]
+    2: varint 1792172459356
+    3: varint 2
+    4: varint 0
+  1: message[100]
+    1: str[87] '<剪贴板原文 已脱敏>'
+    2: varint 1792172453388
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] '在安全的情况下尽可能清理c盘'
+    2: varint 1792172317009
+    3: varint 2
+    4: varint 0
+  1: message[248]
+    1: str[<234 bytes — 内容已移除>]
+    2: varint 1792172205712
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      6: varint 46
+      6: varint 49
+    2: varint 1792171687519
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt7 UNSUPPORTED
+    2: varint 1792171604772
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] 'Kxt3+eSXGfie49CzLQIOXIPvlQZ1YQ=='
+    2: varint 1792170947114
+    3: varint 2
+    4: varint 0
+  1: message[52]
+    1: str[39] '确认永久删除全部 ChatGPT 对话'
+    2: varint 1792170582416
+    3: varint 2
+    4: varint 0
+  1: message[155]
+    1: str[<141 bytes — 内容已移除>]
+    2: varint 1792169691102
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-Vf5N0BBMiIGXN3D25dbMmV0T8MfHt0kV6LMf1jcx5y928XmV'
+    2: varint 1792169545220
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'dsh-whale-widget'
+    2: varint 1792169505751
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] 'https://a6api.com/#/console/tokens'
+    2: varint 1792169461763
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] 'dsh plugin --profile web add dsh-whale-widget'
+    2: varint 1792168969267
+    3: varint 2
+    4: varint 0
+  1: message[71]
+    1: str[58] 'dsh plugin --profile web add @michengai/dsh-skills-manager'
+    2: varint 1792168940183
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-skills-manager'
+    2: varint 1792168922759
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: str[44] 'dsh plugin --profile web add billion-context'
+    2: varint 1792168895472
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'billion-context'
+    2: varint 1792168887683
+    3: varint 2
+    4: varint 0
+  1: message[556]
+    1: message[542]
+      7: fixed32 1428176189
+      10: wt3 UNSUPPORTED
+    2: varint 1792168620509
+    3: varint 2
+    4: varint 0
+  1: message[99]
+    1: str[86] '05 0C 09 01 A1 01 85 03 C0 06 05 FF 09 02 A1 01 85 0A C0 06 06 FF 09 02 A1 01 85 0B C0'
+    2: varint 1792168614273
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://yszyszysz.lanzn.com/irJwe4c8302f'
+    2: varint 1792168556029
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'npx rea-agents@latest setup --client claude_desktop'
+    2: varint 1792168095015
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791712821180
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791712798320
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '输入法词库'
+    2: varint 1791711268248
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'sk-2a0fff6a710f4addbc9aa9ec3d859a82'
+    2: varint 1791707437087
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://api.a6api.com/v1'
+    2: varint 1791707144923
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'https://api.a6api.com'
+    2: varint 1791707143777
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'https://growth-bracelets-queensland-two.trycloudflare.com/pair-accept?pair=9402c042a0e9ae63b8eaa9e85e155d88'
+    2: varint 1791705747224
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: str[107] 'https://growth-bracelets-queensland-two.trycloudflare.com/pair-accept?pair=fb7d86bd535e04e0cee2f5589d25c9e7'
+    2: varint 1791705244293
+    3: varint 2
+    4: varint 0
+  1: message[355]
+    1: message[341]
+      13: wt4 UNSUPPORTED
+    2: varint 1791705227572
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1791705196583
+    3: varint 2
+    4: varint 0
+  1: message[121]
+    1: str[108] 'https://northwest-gibraltar-reforms-fill.trycloudflare.com/pair-accept?pair=abed1e1d09b1353490a21bc1a88d846c'
+    2: varint 1791704673684
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: message[24]
+      13: varint 101
+      13: wt4 UNSUPPORTED
+    2: varint 1791704521863
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=80bb1602288314bb1de6ea097c82a116'
+    2: varint 1791704420863
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=1625872b2f49234d717a2a1274a2f6c3'
+    2: varint 1791704402741
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'https://firefly.cuteleaf.cn/'
+    2: varint 1791704315522
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] '<剪贴板原文 已脱敏>'
+    2: varint 1791704007492
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=0579f9ecb889edd9ebf2f5473239c28d'
+    2: varint 1791703939829
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=15350bbc419935de57167e0579508a54'
+    2: varint 1791703926116
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] 'C:\\Users\\Administrator\\.gitcloud\\workspace'
+    2: varint 1791703708702
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://notes.iamcrl.cn/'
+    2: varint 1791703661372
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] 'https://fabric-ryan-elderly-brokers.trycloudflare.com/pair-accept?pair=0a1b6ca6633b2b00ddd2ab6ef9618a92'
+    2: varint 1791703456358
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '没有完全修好'
+    2: varint 1791703269259
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: message[12]
+      5: wt7 UNSUPPORTED
+    2: varint 1791702799428
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: message[40]
+      13: varint 116
+      14: wt4 UNSUPPORTED
+    2: varint 1791702727936
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'dsh-webworker-preview'
+    2: varint 1791702165201
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'https://notes.iamcrl.cn/rss.xml'
+    2: varint 1791702078534
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      11: wt4 UNSUPPORTED
+    2: varint 1791701998814
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] '<剪贴板原文 已脱敏>'
+    2: varint 1791701992758
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] '<剪贴板原文 已脱敏>'
+    2: varint 1791701784660
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'curly-mode-1e26'
+    2: varint 1791700080593
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'restless-surf-e057'
+    2: varint 1791700075508
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'https://github.com/xmanrui/dsh-im#readme'
+    2: varint 1791699591048
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-MzmTzVltQJmhljKcx6I92rsakz9GTR5f3dXWmSIlqfpUck51'
+    2: varint 1791699389554
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'www.jzbk.net/3559.html'
+    2: varint 1791699257323
+    3: varint 2
+    4: varint 0
+  1: message[73]
+    1: str[60] '@. 这是hdd磁盘版本的 便宜些 www.jzbk.net/3559.html'
+    2: varint 1791699242554
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://github.com/CuteLeaf/Firefly'
+    2: varint 1791698411775
+    3: varint 2
+    4: varint 0
+  1: message[116]
+    1: str[103] '不要更改原来的ui页面 先把原来的文章内容移上去 然后更改相关的个人等页面'
+    2: varint 1791698382308
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      8: fixed32 1735355501
+    2: varint 1791696218162
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://app.rainyun.com/apps/rgs/buy'
+    2: varint 1791695869268
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.emlog.net/'
+    2: varint 1791693735121
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '<剪贴板原文 已脱敏>'
+    2: varint 1791692863112
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://sleep.iamcrl.cn/'
+    2: varint 1791691727742
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: str[8] '11111111'
+    2: varint 1791691401017
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'https://iamcrl.cn/'
+    2: varint 1791691258495
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] 'https://nexusvai.github.io/NexusV/'
+    2: varint 1791691223234
+    3: varint 2
+    4: varint 0
+  1: message[130]
+    1: str[117] 'https://gitjs.yunluo.de5.net/https://raw.githubusercontent.com/jiayuxuan123/app-/main/images/1791691186741_y3qbcg.png'
+    2: varint 1791691195309
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'https://jiayuxuan123.rth1.xyz/yunluo.html'
+    2: varint 1791691154587
+    3: varint 2
+    4: varint 0
+  1: message[180]
+    1: str[<166 bytes — 内容已移除>]
+    2: varint 1791691001512
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'https://onepagelove.com/'
+    2: varint 1791690806144
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] 'https://www.awwwards.com/directory/'
+    2: varint 1791690715917
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'avwwards.com/directory/'
+    2: varint 1791690635120
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'ocr识别结果的弹窗'
+    2: varint 1791690611861
+    3: varint 2
+    4: varint 0
+  1: message[1060]
+    1: message[1046]
+      36731184005748688833141009997002258146248187070087611748419696077342860: wt6 UNSUPPORTED
+    2: varint 1791690487290
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'gaodingpm.com'
+    2: varint 1791690462339
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] '学习一下苹果为首的大厂的动画设计 并加入数据库'
+    2: varint 1791690382777
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] '还是没有 而且我要关闭的是ocr识别结果的弹窗'
+    2: varint 1791690058529
+    3: varint 2
+    4: varint 0
+  1: message[414]
+    1: message[400]
+      230663967169609544852292458808029182698054064514129560811322994836829417329951342482453009669570722172: bytes[10] e2978fe782b9e587bbe7
+      92841780209765099787409554705426303683669990036945506771375369720059085159: wt4 UNSUPPORTED
+    2: varint 1791690052614
+    3: varint 2
+    4: varint 0
+  1: message[81]
+    1: str[68] '<剪贴板原文 已脱敏>'
+    2: varint 1791689979985
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'https://github.com/emilkowalski/skills'
+    2: varint 1791689945583
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'https://github.com/houxin0010/distinctive-ai-design'
+    2: varint 1791689842803
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] '<剪贴板原文 已脱敏>'
+    2: varint 1791689592626
+    3: varint 2
+    4: varint 0
+  1: message[181]
+    1: str[<167 bytes — 内容已移除>]
+    2: varint 1791689515259
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: str[5] 'a6api'
+    2: varint 1791689484339
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      5: wt6 UNSUPPORTED
+    2: varint 1791689480911
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      12: wt4 UNSUPPORTED
+    2: varint 1791686003200
+    3: varint 2
+    4: varint 0
+  1: message[151]
+    1: str[<137 bytes — 内容已移除>]
+    2: varint 1791685652699
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'browser-skill-dsh-plugin'
+    2: varint 1791685592477
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685542645
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'dsh-visualize'
+    2: varint 1791685532410
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-infinite-gen-3'
+    2: varint 1791685479224
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] 'dsh-workbuddy-connect'
+    2: varint 1791685462641
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685456975
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: str[9] 'modsearch'
+    2: varint 1791685436543
+    3: varint 2
+    4: varint 0
+  1: message[74]
+    1: str[61] 'dsh plugin --profile web add /绝对路径/dsh-our-free-model'
+    2: varint 1791685395456
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'dsh-client-ui-skill-explorer'
+    2: varint 1791685363401
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-our-free-model'
+    2: varint 1791685354468
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685301883
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685281213
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] 'dsh-better-sidebar'
+    2: varint 1791685229410
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-univer-office'
+    2: varint 1791685211572
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'dsh-find-plugin'
+    2: varint 1791685202826
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt4 UNSUPPORTED
+    2: varint 1791685183619
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: str[17] 'dsh-remote-web-ui'
+    2: varint 1791685154743
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'dsh plugin --profile web add dsh-better-sidebar@latest'
+    2: varint 1791684854826
+    3: varint 2
+    4: varint 0
+  1: message[349]
+    1: message[335]
+      77470984861528132043764620: fixed32 761820004
+      12: message[101]
+        14: wt4 UNSUPPORTED
+      14: wt3 UNSUPPORTED
+    2: varint 1791684851567
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'dsh plugin --profile web add dshmarket'
+    2: varint 1791684794256
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: str[4] 'a6ap'
+    2: varint 1791684548151
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '939085'
+    2: varint 1791684400546
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      7: varint 52
+      6: wt3 UNSUPPORTED
+    2: varint 1791684386128
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '1ac003f720d38018cdb25fdc645a42c1'
+    2: varint 1791684297668
+    3: varint 2
+    4: varint 0
+  1: message[612]
+    1: str[<598 bytes — 内容已移除>]
+    2: varint 1791684247470
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      42357867448956: wt7 UNSUPPORTED
+    2: varint 1791684117995
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: str[7] 'YEELOGO'
+    2: varint 1791683761320
+    3: varint 2
+    4: varint 0
+  1: message[106]
+    1: str[93] '将这张图变得真实一点 美化一下 不要太ai化 同时要保证画面的主体性 '
+    2: varint 1791683736850
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] '<剪贴板原文 已脱敏>'
+    2: varint 1791682990694
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: wt7 UNSUPPORTED
+    2: varint 1791659984455
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      12: wt7 UNSUPPORTED
+    2: varint 1791659960528
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'deepseek-v4.1-flash'
+    2: varint 1791659944025
+    3: varint 2
+    4: varint 0
+  1: message[61]
+    1: str[48] 'rmdir /s /q "C:\\Users\\Administrator\\.dsh-backup"'
+    2: varint 1791659847261
+    3: varint 2
+    4: varint 0
+  1: message[2778]
+    1: message[2764]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791659840156
+    3: varint 2
+    4: varint 0
+  1: message[95]
+    1: message[82]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659834276
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] '<剪贴板原文 已脱敏>'
+    2: varint 1791659759461
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: message[21]
+      14: varint 110
+      14: varint 109
+      4: varint 105
+      13: wt6 UNSUPPORTED
+    2: varint 1791659659656
+    3: varint 2
+    4: varint 0
+  1: message[262]
+    1: message[248]
+      15: wt3 UNSUPPORTED
+    2: varint 1791659653332
+    3: varint 2
+    4: varint 0
+  1: message[66]
+    1: str[53] '<剪贴板原文 已脱敏>'
+    2: varint 1791659648170
+    3: varint 2
+    4: varint 0
+  1: message[14]
+    1: str[1] 'e'
+    2: varint 1791659626547
+    3: varint 2
+    4: varint 0
+  1: message[105]
+    1: message[92]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659593654
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'taskkill /F /IM node.exe'
+    2: varint 1791659586383
+    3: varint 2
+    4: varint 0
+  1: message[97]
+    1: str[84] 'xcopy /E /I /H /Y "C:\\Users\\Administrator\\.dsh" "C:\\Users\\Administrator\\.dsh-backup"'
+    2: varint 1791659573887
+    3: varint 2
+    4: varint 0
+  1: message[3535]
+    1: message[3521]
+      10: wt7 UNSUPPORTED
+    2: varint 1791659566873
+    3: varint 2
+    4: varint 0
+  1: message[428]
+    1: message[414]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659562183
+    3: varint 2
+    4: varint 0
+  1: message[9713]
+    1: message[9699]
+      10: wt7 UNSUPPORTED
+    2: varint 1791659552431
+    3: varint 2
+    4: varint 0
+  1: message[1216]
+    1: message[1202]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659537011
+    3: varint 2
+    4: varint 0
+  1: message[3040]
+    1: message[3026]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659515189
+    3: varint 2
+    4: varint 0
+  1: message[3040]
+    1: message[3026]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659508157
+    3: varint 2
+    4: varint 0
+  1: message[60]
+    1: message[47]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659395541
+    3: varint 2
+    4: varint 0
+  1: message[57]
+    1: message[44]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659359896
+    3: varint 2
+    4: varint 0
+  1: message[59]
+    1: str[46] 'cd /d C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791659354274
+    3: varint 2
+    4: varint 0
+  1: message[93]
+    1: message[80]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659332609
+    3: varint 2
+    4: varint 0
+  1: message[421]
+    1: message[407]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659260129
+    3: varint 2
+    4: varint 0
+  1: message[3005]
+    1: message[2991]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791659221537
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659177091
+    3: varint 2
+    4: varint 0
+  1: message[93]
+    1: message[80]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659167482
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: wt4 UNSUPPORTED
+    2: varint 1791659166659
+    3: varint 2
+    4: varint 0
+  1: message[179]
+    1: message[165]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791659137016
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'pnpm why dsh-pet'
+    2: varint 1791659130979
+    3: varint 2
+    4: varint 0
+  1: message[107]
+    1: str[94] "Select-String -Path node_modules\\dsh-pet\\lib\\client.js -Pattern 'id:' | Select-Object -First 3"
+    2: varint 1791659108657
+    3: varint 2
+    4: varint 0
+  1: message[183]
+    1: message[169]
+      9: fixed32 1095586633
+      10: wt4 UNSUPPORTED
+    2: varint 1791659097138
+    3: varint 2
+    4: varint 0
+  1: message[1143]
+    1: message[1129]
+      12: wt3 UNSUPPORTED
+    2: varint 1791659087093
+    3: varint 2
+    4: varint 0
+  1: message[16508]
+    1: message[16493]
+      14: wt3 UNSUPPORTED
+    2: varint 1791659077505
+    3: varint 2
+    4: varint 0
+  1: message[997]
+    1: message[983]
+      4: wt3 UNSUPPORTED
+    2: varint 1791659071985
+    3: varint 2
+    4: varint 0
+  1: message[82]
+    1: message[69]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658973570
+    3: varint 2
+    4: varint 0
+  1: message[41]
+    1: str[28] 'netstat -ano | findstr :3080'
+    2: varint 1791658961148
+    3: varint 2
+    4: varint 0
+  1: message[6535]
+    1: message[6521]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658945123
+    3: varint 2
+    4: varint 0
+  1: message[795]
+    1: message[781]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658880304
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] '"@dsh-external/dsh-visualize",'
+    2: varint 1791658851199
+    3: varint 2
+    4: varint 0
+  1: message[117]
+    1: str[104] '"@dsh-external/dsh-visualize": "github:Nagi-ovo/dsh-visualize#9667c0e9cf0ea463b9b45b2845de62da34fd918a",'
+    2: varint 1791658826741
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '"dsh-infinite-gen-3",'
+    2: varint 1791658787906
+    3: varint 2
+    4: varint 0
+  1: message[3601]
+    1: message[3587]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658772305
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'Test-Path node_modules\\dsh-infinite-gen-3'
+    2: varint 1791658765538
+    3: varint 2
+    4: varint 0
+  1: message[250]
+    1: message[236]
+      10: wt3 UNSUPPORTED
+    2: varint 1791658761307
+    3: varint 2
+    4: varint 0
+  1: message[118]
+    1: str[105] "Select-String -Path node_modules\\dsh-approval-mode\\lib\\client.js -Pattern '__ModuleLoader__' -Context 0,2"
+    2: varint 1791658758009
+    3: varint 2
+    4: varint 0
+  1: message[1984]
+    1: message[1970]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658753174
+    3: varint 2
+    4: varint 0
+  1: message[162]
+    1: message[148]
+      8: wt7 UNSUPPORTED
+    2: varint 1791658745214
+    3: varint 2
+    4: varint 0
+  1: message[56]
+    1: str[43] 'cd C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791658743396
+    3: varint 2
+    4: varint 0
+  1: message[1490]
+    1: message[1476]
+      10: wt7 UNSUPPORTED
+    2: varint 1791658736151
+    3: varint 2
+    4: varint 0
+  1: message[2743]
+    1: message[2729]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658722244
+    3: varint 2
+    4: varint 0
+  1: message[53]
+    1: str[40] 'C:\\Users\\Administrator\\.dsh\\profiles\\web'
+    2: varint 1791658711609
+    3: varint 2
+    4: varint 0
+  1: message[372]
+    1: message[358]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658673060
+    3: varint 2
+    4: varint 0
+  1: message[358]
+    1: message[344]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658660996
+    3: varint 2
+    4: varint 0
+  1: message[75]
+    1: message[62]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658657109
+    3: varint 2
+    4: varint 0
+  1: message[3007]
+    1: message[2993]
+      9: varint 65
+      10: message[78]
+        8: fixed32 168645459
+        8: wt6 UNSUPPORTED
+      5: fixed32 1680828769
+      14: wt3 UNSUPPORTED
+    2: varint 1791658636094
+    3: varint 2
+    4: varint 0
+  1: message[40]
+    1: str[27] '@dsh-external/dsh-visualize'
+    2: varint 1791658547354
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      12: message[117]
+        13: wt6 UNSUPPORTED
+    2: varint 1791658525058
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'dsh plugin --profile web remove @dsh-external/dsh-visualize'
+    2: varint 1791658481605
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'dsh plugin --profile web add dsh-infinite-gen-3@latest'
+    2: varint 1791658471595
+    3: varint 2
+    4: varint 0
+  1: message[120]
+    1: message[107]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658464761
+    3: varint 2
+    4: varint 0
+  1: message[2741]
+    1: message[2727]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658456182
+    3: varint 2
+    4: varint 0
+  1: message[78]
+    1: message[65]
+      12: wt3 UNSUPPORTED
+    2: varint 1791658440485
+    3: varint 2
+    4: varint 0
+  1: message[554]
+    1: message[540]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658433173
+    3: varint 2
+    4: varint 0
+  1: message[98]
+    1: str[85] 'dsh plugin --profile web add git+https://github.com/NEVSTOP-LAB/dsh-approval-mode.git'
+    2: varint 1791658418026
+    3: varint 2
+    4: varint 0
+  1: message[677]
+    1: message[663]
+      14: varint 97
+      12: wt3 UNSUPPORTED
+    2: varint 1791658390606
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      12: fixed64 7811903956982918252
+      12: wt4 UNSUPPORTED
+    2: varint 1791658378628
+    3: varint 2
+    4: varint 0
+  1: message[73]
+    1: str[60] 'C:\\Users\\Administrator\\.dsh\\profiles\\web\\pnpm-workspace.yaml'
+    2: varint 1791658368202
+    3: varint 2
+    4: varint 0
+  1: message[12234]
+    1: message[12220]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791658356465
+    3: varint 2
+    4: varint 0
+  1: message[283]
+    1: message[269]
+      12: wt4 UNSUPPORTED
+    2: varint 1791656809327
+    3: varint 2
+    4: varint 0
+  1: message[9936]
+    1: message[9922]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791656793990
+    3: varint 2
+    4: varint 0
+  1: message[535]
+    1: message[521]
+      12: wt4 UNSUPPORTED
+    2: varint 1791655824096
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'dsh plugin --profile web update'
+    2: varint 1791655820527
+    3: varint 2
+    4: varint 0
+  1: message[7179]
+    1: message[7165]
+      14: wt3 UNSUPPORTED
+    2: varint 1791655699561
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'npx @deepseek-ai/dsh@latest web'
+    2: varint 1791655606200
+    3: varint 2
+    4: varint 0
+  1: message[77]
+    1: str[64] 'dsh plugin --profile web add @linxin666/dsh-remote-web-ui@latest'
+    2: varint 1791655568280
+    3: varint 2
+    4: varint 0
+  1: message[146]
+    1: message[132]
+      8: wt6 UNSUPPORTED
+    2: varint 1791655534704
+    3: varint 2
+    4: varint 0
+  1: message[27]
+    1: str[14] 'seanwang114514'
+    2: varint 1791655521381
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'http://198.18.0.1:3080'
+    2: varint 1791655478142
+    3: varint 2
+    4: varint 0
+  1: message[95]
+    1: message[82]
+      14: varint 110
+      14: varint 109
+      4: varint 115
+      14: wt4 UNSUPPORTED
+    2: varint 1791655074102
+    3: varint 2
+    4: varint 0
+  1: message[103]
+    1: str[90] '#  dsh-purge@https://github.com/YuJunZhiXue/dsh-purge/archive/refs/heads/master.tar.gz: {}'
+    2: varint 1791655056402
+    3: varint 2
+    4: varint 0
+  1: message[102]
+    1: str[89] '  dsh-purge@https://github.com/YuJunZhiXue/dsh-purge/archive/refs/heads/master.tar.gz: {}'
+    2: varint 1791655047426
+    3: varint 2
+    4: varint 0
+  1: message[22]
+    1: message[9]
+      14: wt3 UNSUPPORTED
+    2: varint 1791655041863
+    3: varint 2
+    4: varint 0
+  1: message[445]
+    1: message[431]
+      4: wt3 UNSUPPORTED
+    2: varint 1791655034456
+    3: varint 2
+    4: varint 0
+  1: message[438]
+    1: message[424]
+      4: varint 32
+      12: wt4 UNSUPPORTED
+    2: varint 1791655025076
+    3: varint 2
+    4: varint 0
+  1: message[115637]
+    1: message[115622]
+      13: wt4 UNSUPPORTED
+    2: varint 1791654960317
+    3: varint 2
+    4: varint 0
+  1: message[54]
+    1: str[41] 'C:\\Users\\Administrator\\.dsh\\profiles\\web '
+    2: varint 1791654890476
+    3: varint 2
+    4: varint 0
+  1: message[4701]
+    1: message[4687]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654859813
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] 'pnpm install --update-checksums'
+    2: varint 1791654761711
+    3: varint 2
+    4: varint 0
+  1: message[2732]
+    1: message[2718]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654744284
+    3: varint 2
+    4: varint 0
+  1: message[199]
+    1: message[185]
+      14: wt3 UNSUPPORTED
+    2: varint 1791654630270
+    3: varint 2
+    4: varint 0
+  1: message[29]
+    1: str[16] 'pnpm store prune'
+    2: varint 1791654627665
+    3: varint 2
+    4: varint 0
+  1: message[96]
+    1: str[83] 'dsh plugin --profile web add @linxin666/dsh-remote-web-ui@latest --update-checksums'
+    2: varint 1791654598334
+    3: varint 2
+    4: varint 0
+  1: message[3621]
+    1: message[3607]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791654566397
+    3: varint 2
+    4: varint 0
+  1: message[45]
+    1: str[32] '必须使用 OpenAI 兼容接口'
+    2: varint 1791654179937
+    3: varint 2
+    4: varint 0
+  1: message[104]
+    1: str[91] 'web-preview: @earendil-works/pi-ai.openAICompletionsApi is not available in the worker host'
+    2: varint 1791654031094
+    3: varint 2
+    4: varint 0
+  1: message[108]
+    1: message[95]
+      14: wt7 UNSUPPORTED
+    2: varint 1791654015418
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-e95f89a9fe3666a5dcbcd731ae30e5531373711543f58c08b9ac3497ad70d7c6'
+    2: varint 1791653943540
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'https://api.f-api.site/v1'
+    2: varint 1791653933902
+    3: varint 2
+    4: varint 0
+  1: message[64]
+    1: str[51] 'sk-ECLJaGxYtL8hDWT06HZ0N0pcfL722F6MoSqhMmBadvZ34xvb'
+    2: varint 1791653887040
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://www.f-api.site'
+    2: varint 1791653867632
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'https://api.f-api.site'
+    2: varint 1791653853289
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: message[6]
+      12: wt6 UNSUPPORTED
+    2: varint 1791653260296
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '好了'
+    2: varint 1791652161781
+    3: varint 2
+    4: varint 0
+  1: message[149]
+    1: str[<135 bytes — 内容已移除>]
+    2: varint 1791652134239
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '重新登录'
+    2: varint 1791652036903
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'pnpm exec wrangler whoami'
+    2: varint 1791651316856
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'pnpm exec wrangler login'
+    2: varint 1791651291427
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '这是一个测试'
+    2: varint 1791651050429
+    3: varint 2
+    4: varint 0
+  1: message[31]
+    1: str[18] '测试测试测试'
+    2: varint 1791651045092
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '熠烛'
+    2: varint 1791644206039
+    3: varint 2
+    4: varint 0
+  1: message[94]
+    1: str[81] '这是一段较长的语音识别内容，用于验证剪贴板保存完整文本'
+    2: varint 1791643757224
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '继续'
+    2: varint 1791643244447
+    3: varint 2
+    4: varint 0
+  1: message[1031]
+    1: message[1017]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791643092417
+    3: varint 2
+    4: varint 0
+  1: message[69]
+    1: str[56] 'dsh plugin --profile web add dsh-plugin-wallpaper-engine'
+    2: varint 1791643084166
+    3: varint 2
+    4: varint 0
+  1: message[2935]
+    1: message[2921]
+      9: fixed32 1869767529
+      14: wt3 UNSUPPORTED
+    2: varint 1791642590981
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      8: fixed32 842220371
+    2: varint 1791641090596
+    3: varint 2
+    4: varint 0
+  1: message[449]
+    1: str[<435 bytes — 内容已移除>]
+    2: varint 1791640949687
+    3: varint 2
+    4: varint 0
+  1: message[24]
+    1: message[11]
+      53529647287212: wt4 UNSUPPORTED
+    2: varint 1791640813605
+    3: varint 2
+    4: varint 0
+  1: message[30]
+    1: bytes[17] e9a38ee5b29a617069e59bbde4baa70d0a
+    2: varint 1791640333158
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-600aed2fb951f5b78810654ad5f9ac165a5f9139cda884cb11a00ce1f1dff173'
+    2: varint 1791640165855
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-2f4c79d1a592a0412e98a116652571112953f08ba3ae4aed2e5e264a780d96b9'
+    2: varint 1791640145330
+    3: varint 2
+    4: varint 0
+  1: message[80]
+    1: str[67] 'sk-2f4b61bb3ed4a41595dc35177f0d9a1f97ade372d38dcce0085fb7f7e3cf0552'
+    2: varint 1791640014336
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '风岚api国产破甲'
+    2: varint 1791639953296
+    3: varint 2
+    4: varint 0
+  1: message[38]
+    1: str[25] 'https://www.f-api.site/v1'
+    2: varint 1791639939073
+    3: varint 2
+    4: varint 0
+  1: message[49]
+    1: str[36] 'https://github.com/cloudflare/skills'
+    2: varint 1791639862385
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      17070860: fixed32 3836517606
+    2: varint 1791639418173
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'https://github.com/DD-2026-05-28/wasm/'
+    2: varint 1791635943671
+    3: varint 2
+    4: varint 0
+  1: message[206]
+    1: str[<192 bytes — 内容已移除>]
+    2: varint 1791366951637
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '上海市高考英语词汇手册'
+    2: varint 1791366676395
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] '上海市高考英语词汇手册2026'
+    2: varint 1791366666672
+    3: varint 2
+    4: varint 0
+  1: message[17]
+    1: message[4]
+      7: varint 56
+      7: varint 56
+    2: varint 1791366652318
+    3: varint 2
+    4: varint 0
+  1: message[55]
+    1: str[42] '上海市高考英语词汇手册电子版'
+    2: varint 1791366037369
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '<剪贴板原文 已脱敏>'
+    2: varint 1791364896329
+    3: varint 2
+    4: varint 0
+  1: message[21]
+    1: message[8]
+      11: wt3 UNSUPPORTED
+    2: varint 1791361623948
+    3: varint 2
+    4: varint 0
+  1: message[48]
+    1: str[35] '语音输入复制通路 E2E 验证'
+    2: varint 1791354346740
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'SENTINEL-BEFORE-E2E'
+    2: varint 1791354333977
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] '还有exe文件会疯狂弹出git的cmd弹窗'
+    2: varint 1791351643609
+    3: varint 2
+    4: varint 0
+  1: message[58]
+    1: str[45] '还有exe文件会疯狂弹出git的cmd暗疮'
+    2: varint 1791351637885
+    3: varint 2
+    4: varint 0
+  1: message[18]
+    1: message[5]
+      12: wt6 UNSUPPORTED
+    2: varint 1791351418732
+    3: varint 2
+    4: varint 0
+  1: message[36]
+    1: str[23] 'https://www.f-api.site/'
+    2: varint 1791350417960
+    3: varint 2
+    4: varint 0
+  1: message[37]
+    1: str[24] 'SENTINEL-不应被改动'
+    2: varint 1791350391635
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '嗯'
+    2: varint 1791349779613
+    3: varint 2
+    4: varint 0
+  1: message[227]
+    1: str[<213 bytes — 内容已移除>]
+    2: varint 1791349392332
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '测试'
+    2: varint 1791349347531
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '还有现在预览和'
+    2: varint 1791349325881
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '没有启用'
+    2: varint 1791348529297
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] 'a6api.'
+    2: varint 1791348413784
+    3: varint 2
+    4: varint 0
+  1: message[46]
+    1: str[33] '增加对于窗口缩放的支持'
+    2: varint 1791348285548
+    3: varint 2
+    4: varint 0
+  1: message[34]
+    1: str[21] '全部提交并不熟'
+    2: varint 1791346943470
+    3: varint 2
+    4: varint 0
+  1: message[19]
+    1: str[6] '提交'
+    2: varint 1791345445655
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      4: wt3 UNSUPPORTED
+    2: varint 1791345284601
+    3: varint 2
+    4: varint 0
+  1: message[16]
+    1: str[3] '就'
+    2: varint 1791344971995
+    3: varint 2
+    4: varint 0
+  1: message[222]
+    1: str[<208 bytes — 内容已移除>]
+    2: varint 1791344967486
+    3: varint 2
+    4: varint 0
+  1: message[35]
+    1: str[22] 'SenseVoiceSmall (INT8)'
+    2: varint 1791344156195
+    3: varint 2
+    4: varint 0
+  1: message[23]
+    1: message[10]
+      10: wt3 UNSUPPORTED
+    2: varint 1791343575957
+    3: varint 2
+    4: varint 0
+  1: message[67]
+    1: str[54] 'ormat v4 message requires a producer-owned source kind'
+    2: varint 1791343426447
+    3: varint 2
+    4: varint 0
+  1: message[44]
+    1: str[31] '配置一下modlens插件的api'
+    2: varint 1791343323687
+    3: varint 2
+    4: varint 0
+  1: message[47]
+    1: str[34] '继续 顺带优化输入法性能'
+    2: varint 1791343059504
+    3: varint 2
+    4: varint 0
+  1: message[25]
+    1: str[12] '害死没有'
+    2: varint 1791343054339
+    3: varint 2
+    4: varint 0
+  1: message[582]
+    1: message[568]
+      1513561368924261704292173732418726728800261966772989: varint 68
+      12: fixed32 1699967077
+      12: fixed32 1632116843
+      14: message[110]
+        12: fixed32 3860886387
+        118956641578066209: wt7 UNSUPPORTED
+      7051429501066823: fixed32 1881172083
+      13: wt4 UNSUPPORTED
+    2: varint 1791342325089
+    3: varint 2
+    4: varint 0
+  1: message[72]
+    1: str[59] 'dsh plugin --profile web add "github:dsh-market/dsh-market"'
+    2: varint 1791342311631
+    3: varint 2
+    4: varint 0
+  1: message[50]
+    1: str[37] 'https://a6api.com/#/console/dashboard'
+    2: varint 1791342098840
+    3: varint 2
+    4: varint 0
+  1: message[670]
+    1: str[<656 bytes — 内容已移除>]
+    2: varint 1791341754210
+    3: varint 2
+    4: varint 0
+  1: message[26]
+    1: str[13] 'dsh --version'
+    2: varint 1791339830066
+    3: varint 2
+    4: varint 0
+  1: message[43]
+    1: str[30] 'npm update -g @deepseek-ai/dsh'
+    2: varint 1791339822526
+    3: varint 2
+    4: varint 0
+  1: message[51]
+    1: str[38] 'npm install -g @deepseek-ai/dsh@latest'
+    2: varint 1791339420247
+    3: varint 2
+    4: varint 0
+  1: message[20]
+    1: message[7]
+      9: wt3 UNSUPPORTED
+    2: varint 1791309082917
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] '最终验收ABC'
+    2: varint 1791308153794
+    3: varint 2
+    4: varint 0
+  1: message[32]
+    1: str[19] 'shutdown -s -t 3600'
+    2: varint 1791308091828
+    3: varint 2
+    4: varint 0
+  1: message[1884]
+    1: str[<1870 bytes — 内容已移除>]
+    2: varint 1791307085062
+    3: varint 2
+    4: varint 0
+  1: message[28]
+    1: str[15] 'SENTINEL-BEFORE'
+    2: varint 1791306252401
+    3: varint 2
+    4: varint 0
+  1: message[2441]
+    1: message[2427]
+      14: wt6 UNSUPPORTED
+    2: varint 1791305967844
+    3: varint 2
+    4: varint 0
+  1: message[2456]
+    1: message[2442]
+      15060334730171846312303463741371290714144557554604: wt4 UNSUPPORTED
+    2: varint 1791305635927
+    3: varint 2
+    4: varint None

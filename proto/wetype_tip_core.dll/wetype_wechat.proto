@@ -1,0 +1,117 @@
+// file: wetype_wechat.proto  package: wetype.server  syntax: proto2  deps: -
+package wetype.server;
+message GetWxTokenReq {
+  required string wt_uid = 1;
+  required string wx_uid = 2;
+}
+message GetWxTokenRsp {
+  optional string token = 1;
+  optional uint64 ts = 2;
+  optional uint64 expire = 3;
+}
+message WeTypeCommunication {
+  required enum<.wetype.server.WeTypeCommandType> Type = 1;
+  required bytes Body = 2;
+  required uint64 RequestID = 3;
+  optional uint64 ErrorCode = 4;
+}
+message WTGetWechatUidRequest {
+}
+message WTGetWechatUidResponse {
+  required string wx_uid = 2;
+}
+message WTVerifyTokenRequest {
+  required uint64 wt_uid = 1;
+  required string wx_uid = 2;
+  required string Token = 3;
+}
+message WTVerifyTokenResponse {
+  required string Token = 1;
+  required string EmoticonDirectory = 2;
+  optional bool SupportSendInput = 3;
+  optional string sessionId = 4;
+}
+message WTSayHelloRequest {
+  required uint32 Version = 1;
+  required string Token = 2;
+}
+message WTSayHelloResponse {
+  required uint32 Version = 1;
+  required string EmoticonDirectory = 2;
+  optional bool SupportSendInput = 3;
+}
+message WTSupportEmojiRequest {
+}
+message WTSupportEmojiResponse {
+  required bool Support = 1;
+  optional string sessionId = 2;
+}
+message WTEmitEmojiRequest {
+  required string Md5 = 1;
+  required string FileName = 2;
+  required bytes AesKey = 3;
+  required enum<.wetype.server.WeTypeEmojiFileType> FileType = 4;
+  required string ProductID = 5;
+  optional string PendingText = 6;
+  optional string sessionId = 7;
+}
+message WTEmitEmojiResponse {
+  required string Result = 1;
+}
+message WTEmitSmallEmojiRequest {
+  required string Text = 1;
+  required string Tag = 2;
+  optional string sessionId = 7;
+}
+message WTEmitSmallEmojiResponse {
+  required string Result = 1;
+}
+message WTRefreshStateRequest {
+  optional bool IsSupportEmoji = 1;
+}
+message WTRefreshStateResponse {
+  optional bool Refreshed = 1;
+}
+message WTCursorContextRequest {
+  required uint64 ContextSize = 1;
+  required bool IsNeedCursorPost = 2;
+}
+message WTCursorContextResponse {
+  required uint64 CursorPos = 1;
+  required string BytesBeforeCursor = 2;
+}
+enum WTRespCode {
+  Success = 0;
+  ErrorWeTypeDeactive = 1;
+  ErrorTokenEmpty = 2;
+  ErrorDecryptFail = 3;
+  ErrorEmoijFileNotFound = 4;
+  ErrorInputBoxNotFirstResponder = 5;
+  ErrorTokenExpired = 6;
+  ErrorErrorSession = 7;
+  ErrorVerifyToken = 8;
+}
+enum WeTypeCommandType {
+  SayHelloRequest = 1;
+  SayHelloResponse = 2;
+  SupportEmojiRequest = 3;
+  SupportEmojiResponse = 4;
+  EmitEmojiRequest = 5;
+  EmitEmojiResponse = 6;
+  EmitSmallEmojiRequest = 7;
+  EmitSmallEmojiResponse = 8;
+  RefreshStateRequest = 9;
+  RefreshStateResponse = 10;
+  CursorContextRequest = 11;
+  CursorContextResponse = 12;
+  GetWeChatUidRequest = 13;
+  GetWeChatUidResponse = 14;
+  VerifyTokenRequest = 15;
+  VerifyTokenResponse = 16;
+}
+enum WeTypeEmojiFileType {
+  GIF = 1;
+  PNG = 2;
+  JPG = 3;
+  BMP = 4;
+}

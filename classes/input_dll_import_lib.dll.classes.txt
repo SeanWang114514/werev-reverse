@@ -1,0 +1,79 @@
+### std  (36)
+    ?$_Func_base@V?$basic_string@DU?$char_traits@D
+    ?$_Func_base@_NV?$basic_string_view@DU?$char_traits@D
+    ?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D
+    ?$_Func_impl_no_alloc@P6A_NV?$basic_string_view@DU?$char_traits@D
+    ?$_Iosb@H
+    ?$basic_filebuf@DU?$char_traits@D
+    ?$basic_ifstream@DU?$char_traits@D
+    ?$basic_ios@DU?$char_traits@D
+    ?$basic_istream@DU?$char_traits@D
+    ?$basic_ostream@DU?$char_traits@D
+    ?$basic_ostringstream@DU?$char_traits@D
+    ?$basic_streambuf@DU?$char_traits@D
+    ?$basic_stringbuf@DU?$char_traits@D
+    ?$ctype@D
+    ?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$numpunct@D
+    _Crt_new_delete
+    _Facet_base
+    _Generic_error_category
+    _Iostream_error_category2
+    _System_error
+    bad_alloc
+    bad_array_new_length
+    bad_cast
+    bad_exception
+    bad_function_call
+    codecvt_base
+    ctype_base
+    error_category
+    exception
+    ios_base
+    length_error
+    logic_error
+    out_of_range
+    runtime_error
+    system_error
+### boost::exception_detail  (7)
+    ?$clone_impl@Ubad_alloc_
+    ?$clone_impl@Ubad_exception_
+    ?$sp_counted_impl_p@V?$clone_impl@Ubad_alloc_
+    ?$sp_counted_impl_p@V?$clone_impl@Ubad_exception_
+    bad_alloc_
+    bad_exception_
+    clone_base
+### absl::lts_20240116::time_internal::cctz  (5)
+    ?$_Func_base@V?$unique_ptr@VZoneInfoSource
+    TimeZoneIf
+    TimeZoneInfo
+    TimeZoneLibC
+    ZoneInfoSource
+### absl::lts_20240116::time_internal::cctz::?A0x61d84241  (3)
+    AndroidZoneInfoSource
+    FileZoneInfoSource
+    FuchsiaZoneInfoSource
+### absl::lts_20240116::flags_internal  (3)
+    FlagImpl
+    FlagState
+    FlagStateInterface
+### (global)  (2)
+    ?$codecvt@DDU_Mbstatet
+    type_info
+### std::locale  (2)
+    _Locimp
+    facet
+### absl::lts_20240116::time_internal::cctz::TimeZoneInfo::?1??Load  (1)
+    ?$_Func_impl_no_alloc@V<lambda_1>
+### wetype::?A0x12fb5183  (1)
+    ClockImpl
+### wetype  (1)
+    ClockInterface
+### absl::lts_20240116  (1)
+    CommandLineFlag
+### boost  (1)
+    exception
+### std::ios_base  (1)
+    failure
+### boost::detail  (1)
+    sp_counted_base

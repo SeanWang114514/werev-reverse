@@ -1,0 +1,2350 @@
+PATTERN: DllRegisterServer|ITfTextInputProcessor|PreservedKey|LanguageProfile|SetLanguageProfile|ITfInputProcessorProfileMgr|Category
+
+=== MATCHING STRINGS: 15 ===
+180360a40	string	wetype::win32::tsf::PreservedKeySwitchHalfFullHandler::operator ()
+180360ae0	string	wetype::win32::tsf::PreservedKeySwitchCnEnPunctuationHandler::operator ()
+180364c48	string	TF_CreateCategoryMgr
+180365400	string	GetCategoryMgr failed
+180365498	string	wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey
+180365500	string	PreservedKey registered: vk={:#x} mod={:#x} action={}
+180365560	string	PreservedKey unregistered: vk={:#x} mod={:#x} action={}
+1803696a0	string	wetype::win32::tsf::TipTextServiceImpl::UninitPreservedKey
+18042bda0	char[56]	.?AVPreservedKeyActionHandler@tsf@win32@wetype@@
+18042bdf0	char[64]	.?AVPreservedKeySwitchHalfFullHandler@tsf@win32@wetype@@
+18042be40	char[64]	.?AVPreservedKeySwitchCnEnPunctuationHandler@tsf@win32@wetype@@
+18042be90	char[64]	.?AVPreservedKeyAiSearchImmediatelyHandler@tsf@win32@wetype@@
+18042bee0	char[56]	.?AVPreservedKeySwitchSCTCHandler@tsf@win32@wetype@@
+18042c768	char[32]	.?AUITfTextInputProcessor@@
+18042c798	char[32]	.?AUITfTextInputProcessorEx@@
+
+=== STRING XREFS ===
+--- 180360a40 wetype::win32::tsf::PreservedKeySwitchHalfFullHandler::operator ()  refs=1
+    from 1800b82ec  DATA  FUN_1800b81d0@1800b81d0
+--- 180360ae0 wetype::win32::tsf::PreservedKeySwitchCnEnPunctuationHandler::operator ()  refs=1
+    from 1800b8125  DATA  FUN_1800b8050@1800b8050
+--- 180364c48 TF_CreateCategoryMgr  refs=1
+    from 1800e9f6d  DATA  FUN_1800e9eb0@1800e9eb0
+--- 180365400 GetCategoryMgr failed  refs=2
+    from 1800e5505  DATA  FUN_1800e4f90@1800e4f90
+    from 1800e550c  DATA  FUN_1800e4f90@1800e4f90
+--- 180365498 wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey  refs=6
+    from 1800febc2  DATA  FUN_1800feb50@1800feb50
+    from 1800fec53  DATA  FUN_1800feb50@1800feb50
+    from 1800fee77  DATA  FUN_1800feb50@1800feb50
+    from 1800ff1b9  DATA  FUN_1800feb50@1800feb50
+    from 1800ff2e6  DATA  FUN_1800feb50@1800feb50
+    from 1800fef9a  DATA  FUN_1800feb50@1800feb50
+--- 180365500 PreservedKey registered: vk={:#x} mod={:#x} action={}  refs=2
+    from 1800fedfb  DATA  FUN_1800feb50@1800feb50
+    from 1800fee02  DATA  FUN_1800feb50@1800feb50
+--- 180365560 PreservedKey unregistered: vk={:#x} mod={:#x} action={}  refs=3
+    from 1800fecc1  DATA  FUN_1800feb50@1800feb50
+    from 1800ff342  DATA  FUN_1800feb50@1800feb50
+    from 1800ff145  DATA  FUN_1800feb50@1800feb50
+--- 1803696a0 wetype::win32::tsf::TipTextServiceImpl::UninitPreservedKey  refs=3
+    from 1800fe50c  DATA  FUN_1800fe4a0@1800fe4a0
+    from 1800fe604  DATA  FUN_1800fe4a0@1800fe4a0
+    from 1800fe7a8  DATA  FUN_1800fe4a0@1800fe4a0
+--- 18042bda0 .?AVPreservedKeyActionHandler@tsf@win32@wetype@@  refs=0
+--- 18042bdf0 .?AVPreservedKeySwitchHalfFullHandler@tsf@win32@wetype@@  refs=0
+--- 18042be40 .?AVPreservedKeySwitchCnEnPunctuationHandler@tsf@win32@wetype@@  refs=0
+--- 18042be90 .?AVPreservedKeyAiSearchImmediatelyHandler@tsf@win32@wetype@@  refs=0
+--- 18042bee0 .?AVPreservedKeySwitchSCTCHandler@tsf@win32@wetype@@  refs=0
+--- 18042c768 .?AUITfTextInputProcessor@@  refs=0
+--- 18042c798 .?AUITfTextInputProcessorEx@@  refs=0
+
+### CALLERS depth 1: 3
+    FUN_1800b8b50@1800b8b50
+    FUN_1801041e0@1801041e0
+    FUN_1800e7bb0@1800e7bb0
+
+=== DECOMPILED ===
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800b81d0 @1800b81d0  size=472
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8
+FUN_1800b81d0(undefined8 param_1,longlong *param_2,undefined8 param_3,undefined4 *param_4)
+
+{
+  undefined8 ***pppuVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  int iVar4;
+  int iVar5;
+  longlong lVar6;
+  undefined1 auStack_a8 [32];
+  char *local_88;
+  undefined8 ***local_80;
+  undefined8 ***local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 **local_58;
+  undefined8 uStack_50;
+  undefined8 ***local_48 [3];
+  ulonglong local_30;
+  ulonglong local_28;
+  
+  local_28 = DAT_1804245c0 ^ (ulonglong)auStack_a8;
+  *param_4 = 0;
+  lVar6 = (**(code **)(*param_2 + 0x70))(param_2);
+  if (lVar6 != 0) {
+    lVar6 = FUN_1801061e0(lVar6);
+    if (lVar6 != 0) {
+      *param_4 = 1;
+      iVar4 = FUN_1800adfc0(lVar6);
+      iVar5 = FUN_18026ce70(2);
+      if (iVar5 != 0) {
+        local_78 = (undefined8 ***)CONCAT71(local_78._1_7_,iVar4 == 2);
+        local_58 = local_78;
+        uStack_50 = uStack_70;
+        uStack_60 = &local_58;
+        local_68 = 7;
+        local_78 = (undefined8 ***)0x180360a08;
+        uStack_70 = 0x2c;
+        FUN_18025c4d0(local_48,&local_78,&local_68);
+        local_78 = local_48;
+        if (0xf < local_30) {
+          local_78 = local_48[0];
+        }
+        local_80 = &local_78;
+        local_88 = "TipKeyeventHandler";
+        FUN_180118f10(2,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_keyevent_handler.cc"
+                      ,0x101,"wetype::win32::tsf::PreservedKeySwitchHalfFullHandler::operator ()");
+        if (0xf < local_30) {
+          if (0xfff < local_30 + 1) {
+            if (0x1f < (ulonglong)((longlong)local_48[0] + (-8 - (longlong)local_48[0][-1]))) {
+                    /* WARNING: Subroutine does not return */
+              FUN_1802e2aa4(local_48[0][-1],local_30 + 0x28);
+            }
+          }
+          thunk_FUN_1802e2b1c();
+        }
+      }
+      pppuVar1 = uStack_60;
+      local_68._0_2_ = (ushort)(byte)local_68;
+      iVar4 = (iVar4 != 2) + 1;
+      local_68 = CONCAT44(iVar4,(undefined4)local_68);
+      uStack_60 = (undefined8 ***)CONCAT71(uStack_60._1_7_,1);
+      uVar2 = uStack_60;
+      uStack_60._6_2_ = SUB82(pppuVar1,6);
+      uStack_60._0_6_ = (uint6)(uint5)uVar2;
+      uVar3 = uStack_60;
+      uStack_60._0_4_ = (undefined4)uVar2;
+      uStack_60._4_4_ = SUB84(uVar3,4);
+      local_58 = (undefined8 **)CONCAT44(iVar4,(undefined4)local_68);
+      uStack_50 = CONCAT44(uStack_60._4_4_,(undefined4)uStack_60);
+      uStack_60 = (undefined8 ***)uVar3;
+      (**(code **)(*param_2 + 0x128))(param_2,&local_58,1);
+    }
+  }
+  return 0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800b8050 @1800b8050  size=384
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8
+FUN_1800b8050(undefined8 param_1,longlong *param_2,undefined8 param_3,undefined4 *param_4)
+
+{
+  ulonglong uVar1;
+  char *pcVar2;
+  undefined8 uVar3;
+  char cVar4;
+  undefined1 uVar5;
+  BOOL BVar6;
+  longlong lVar7;
+  undefined1 auStack_278 [32];
+  char *local_258;
+  undefined8 *local_250;
+  undefined1 *local_248;
+  undefined1 local_238 [16];
+  undefined8 local_228;
+  undefined8 uStack_220;
+  undefined1 local_218 [256];
+  BYTE local_118 [256];
+  ulonglong local_18;
+  
+  local_18 = DAT_1804245c0 ^ (ulonglong)auStack_278;
+  *param_4 = 0;
+  lVar7 = (**(code **)(*param_2 + 0x70))(param_2);
+  if (lVar7 != 0) {
+    lVar7 = FUN_1801061e0(lVar7);
+    if (lVar7 != 0) {
+      FUN_180314af0(local_118,0,0x100);
+      BVar6 = GetKeyboardState(local_118);
+      if (BVar6 != 0) {
+        FUN_180146190(local_218,local_118);
+        cVar4 = FUN_1801465e0(local_218,0x14);
+        if (cVar4 == '\0') {
+          *param_4 = 1;
+          uVar5 = FUN_1800adfe0(lVar7);
+          uStack_220 = 0x32;
+          local_228 = "On action switch cn/en punctuation, prev is_cn: {}";
+          local_248 = local_238;
+          local_250 = &local_228;
+          local_258 = "TipKeyeventHandler";
+          local_238[0] = uVar5;
+          FUN_1800b6d90(2,
+                        "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_keyevent_handler.cc"
+                        ,0x124,
+                        "wetype::win32::tsf::PreservedKeySwitchCnEnPunctuationHandler::operator ()")
+          ;
+          pcVar2 = local_228;
+          local_228._0_2_ = (ushort)(byte)local_228;
+          uVar3 = local_228;
+          uVar1 = uStack_220 >> 0x30;
+          uStack_220._0_5_ = (uint5)uStack_220 & 0xffffffff00;
+          uStack_220._0_6_ = CONCAT15(1,(uint5)uStack_220);
+          uStack_220._5_3_ = (undefined3)(CONCAT26((short)uVar1,(undefined6)uStack_220) >> 0x28);
+          local_228._4_4_ = SUB84(pcVar2,4);
+          local_228 = (char *)CONCAT44(local_228._4_4_,(int)uVar3);
+          uStack_220 = CONCAT44((int)(CONCAT35(uStack_220._5_3_,
+                                               CONCAT14(uVar5,(undefined4)uStack_220)) >> 0x20),
+                                (undefined4)uStack_220) ^ 0x100000000;
+          (**(code **)(*param_2 + 0x128))(param_2,&local_228,1);
+          (**(code **)(*param_2 + 0x130))(param_2,uVar5);
+        }
+      }
+    }
+  }
+  return 0;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800e9eb0 @1800e9eb0  size=301
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+longlong * FUN_1800e9eb0(longlong *param_1)
+
+{
+  HMODULE hModule;
+  FARPROC pFVar1;
+  INT_PTR IVar2;
+  undefined1 auStack_68 [32];
+  longlong *local_48 [2];
+  ulonglong local_38 [6];
+  
+  local_38[4] = DAT_1804245c0 ^ (ulonglong)auStack_68;
+  local_38[0] = 0;
+  local_38[1] = 0;
+  local_38[2] = 0;
+  local_38[3] = 0;
+  local_48[0] = param_1;
+  FUN_180084740(local_38,L"msctf.dll",9);
+  hModule = (HMODULE)FUN_180139cd0(local_38);
+  if (7 < local_38[3]) {
+    if (0xfff < local_38[3] * 2 + 2) {
+      if (0x1f < (local_38[0] - *(longlong *)(local_38[0] - 8)) - 8) {
+                    /* WARNING: Subroutine does not return */
+        FUN_1802e2aa4(*(longlong *)(local_38[0] - 8),local_38[3] * 2 + 0x29);
+      }
+    }
+    thunk_FUN_1802e2b1c();
+  }
+  local_38[2] = 0;
+  local_38[3] = 7;
+  local_38[0] = local_38[0] & 0xffffffffffff0000;
+  if (hModule == (HMODULE)0x0) {
+    *param_1 = 0;
+  }
+  else {
+    pFVar1 = GetProcAddress(hModule,"TF_CreateCategoryMgr");
+    if (pFVar1 == (FARPROC)0x0) {
+      *param_1 = 0;
+    }
+    else {
+      local_48[0] = (longlong *)0x0;
+      IVar2 = (*pFVar1)(local_48);
+      if ((int)IVar2 < 0) {
+        *param_1 = 0;
+        if (local_48[0] != (longlong *)0x0) {
+          (**(code **)(*local_48[0] + 0x10))();
+        }
+      }
+      else {
+        *param_1 = (longlong)local_48[0];
+      }
+    }
+  }
+  return param_1;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800e4f90 @1800e4f90  size=2588
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+longlong * FUN_1800e4f90(longlong *param_1,longlong *param_2,undefined4 param_3,ulonglong param_4)
+
+{
+  longlong lVar1;
+  code *pcVar2;
+  char cVar3;
+  int iVar4;
+  uint uVar5;
+  BOOL BVar6;
+  undefined8 uVar7;
+  undefined *****pppppuVar8;
+  longlong *plVar9;
+  HWND hWnd;
+  undefined8 uVar10;
+  longlong *plVar11;
+  longlong *plVar12;
+  undefined4 uVar13;
+  undefined1 auStack_2b8 [32];
+  char *local_298;
+  undefined8 *local_290;
+  longlong **local_288;
+  undefined8 local_278;
+  undefined8 uStack_270;
+  longlong *local_268 [2];
+  longlong *local_258;
+  undefined8 ***pppuStack_250;
+  undefined8 local_248;
+  undefined8 uStack_240;
+  undefined4 local_238;
+  undefined4 uStack_234;
+  undefined4 uStack_230;
+  undefined4 uStack_22c;
+  undefined4 local_228;
+  undefined4 uStack_224;
+  undefined8 uStack_220;
+  undefined ****local_218;
+  longlong *local_210;
+  undefined8 local_208;
+  ulonglong local_200;
+  undefined ****local_1e0;
+  undefined8 ***local_1d8;
+  undefined8 uStack_1d0;
+  undefined8 local_1c8;
+  ulonglong local_1c0;
+  ulonglong local_1b8;
+  undefined8 uStack_1b0;
+  undefined8 ***local_1a8;
+  undefined8 uStack_1a0;
+  undefined8 ***local_198;
+  undefined8 uStack_190;
+  undefined8 local_188;
+  undefined8 uStack_180;
+  undefined8 local_178;
+  undefined8 uStack_170;
+  ulonglong local_168;
+  undefined8 uStack_160;
+  ulonglong local_158;
+  ulonglong local_148;
+  BYTE local_138 [21];
+  undefined1 local_123;
+  ulonglong local_38;
+  
+  local_38 = DAT_1804245c0 ^ (ulonglong)auStack_2b8;
+  local_268[0] = (longlong *)CONCAT44(local_268[0]._4_4_,param_3);
+  plVar12 = (longlong *)0x0;
+  uStack_1d0 = 0;
+  local_1c8 = 0;
+  local_1c0 = 0xf;
+  local_1d8 = (undefined8 ****)0x0;
+  uVar7 = FUN_180122ff0();
+  FUN_18012bf00(uVar7,&local_1d8);
+  uVar13 = (undefined4)param_4;
+  iVar4 = FUN_18026ce70(4);
+  if (iVar4 != 0) {
+    local_198 = &local_1d8;
+    if (0xf < local_1c0) {
+      local_198 = local_1d8;
+    }
+    local_278 = (char *)CONCAT44(local_278._4_4_,local_268[0]._0_4_);
+    local_1b8 = CONCAT71(local_1b8._1_7_,(char)((param_4 & 0xffffffff) >> 2)) & 0xffffffffffffff01;
+    uStack_190 = local_1c8;
+    local_188 = local_278;
+    uStack_180 = uStack_270;
+    local_178 = CONCAT44(uStack_224,uVar13);
+    uStack_170 = uStack_220;
+    local_168 = local_1b8;
+    uStack_160 = uStack_1b0;
+    local_158 = CONCAT44(uStack_234,CONCAT31(local_238._1_3_,(char)(param_4 >> 0x1e))) &
+                0xffffffffffffff01;
+    local_148 = CONCAT44(local_248._4_4_,
+                         CONCAT31(local_248._1_3_,(char)((param_4 & 0xffffffff) >> 1))) &
+                0xffffffffffffff01;
+    local_258 = (longlong *)0x77722d;
+    pppuStack_250 = &local_198;
+    local_278 = 
+    "ActivateEx processName: {}, client_id: {}, flags={:#x} (uiless={} immersive={} secure={})";
+    uStack_270 = (ulonglong *)0x59;
+    local_248._0_4_ = 0x77722d;
+    local_248._4_4_ = 0;
+    local_238 = 0x80365260;
+    uStack_234 = 1;
+    uStack_230 = 0x59;
+    uStack_22c = 0;
+    local_228 = uVar13;
+    uStack_240 = (undefined8 ****)pppuStack_250;
+    FUN_18025c4d0(&local_218,&local_238,&local_248);
+    pppppuVar8 = &local_218;
+    if (0xf < local_200) {
+      pppppuVar8 = (undefined *****)local_218;
+    }
+    uStack_270 = (ulonglong *)local_208;
+    uVar7 = uStack_270;
+    local_278._0_4_ = SUB84(pppppuVar8,0);
+    local_278._4_4_ = (undefined4)((ulonglong)pppppuVar8 >> 0x20);
+    uStack_270._0_4_ = (undefined4)local_208;
+    uStack_270._4_4_ = (undefined4)((ulonglong)local_208 >> 0x20);
+    local_248._0_4_ = (undefined4)local_278;
+    local_248._4_4_ = local_278._4_4_;
+    uStack_240._0_4_ = (undefined4)uStack_270;
+    uStack_240._4_4_ = uStack_270._4_4_;
+    local_290 = &local_248;
+    local_298 = "WeTypeDll";
+    local_278 = (char *)pppppuVar8;
+    uStack_270 = (ulonglong *)uVar7;
+    FUN_180118f10(4,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                  0x3d7,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+    if (0xf < local_200) {
+      if (0xfff < local_200 + 1) {
+        if ((char *)0x1f < (char *)((longlong)local_218 + (-8 - (longlong)local_218[-1]))) {
+                    /* WARNING: Subroutine does not return */
+          FUN_1802e2aa4(local_218[-1],local_200 + 0x28);
+        }
+      }
+      thunk_FUN_1802e2b1c();
+    }
+  }
+  cVar3 = FUN_1800856f0();
+  if (cVar3 == '\0') {
+    if ((param_4 & 2) == 0) {
+      local_258 = (longlong *)FUN_1802dc170(8);
+      plVar9 = plVar12;
+      if (local_258 != (longlong *)0x0) {
+        plVar9 = (longlong *)FUN_180106130(local_258);
+      }
+      lVar1 = param_1[0x82];
+      param_1[0x82] = (longlong)plVar9;
+      if (lVar1 != 0) {
+        FUN_180106190(lVar1);
+        thunk_FUN_1802e2b1c(lVar1,8);
+      }
+      if ((DAT_180434558 == '\0') && (DAT_18041fa80 != 0xffffffff)) {
+        TlsSetValue(DAT_18041fa80,param_1);
+      }
+      GetKeyboardState(local_138);
+      local_123 = 0;
+      SetKeyboardState(local_138);
+      if (param_1[0x4f] == 0) {
+        if (param_2 != (longlong *)0x0) {
+          (**(code **)(*param_2 + 8))(param_2);
+          plVar9 = (longlong *)param_1[0x4f];
+          param_1[0x4f] = (longlong)param_2;
+          if (plVar9 != (longlong *)0x0) {
+            (**(code **)(*plVar9 + 0x10))();
+            param_2 = (longlong *)param_1[0x4f];
+          }
+          if (param_2 != (longlong *)0x0) {
+            *(undefined4 *)(param_1 + 0x50) = local_268[0]._0_4_;
+            *(undefined4 *)(param_1 + 0x54) = uVar13;
+            *(undefined1 *)((longlong)param_1 + 0x2a4) = 0;
+            iVar4 = FUN_1800eebb0(param_1);
+            local_268[0] = (longlong *)CONCAT44(local_268[0]._4_4_,iVar4);
+            if (iVar4 < 0) {
+              local_278 = "InitTaskWindow failed: {}";
+              uStack_270 = (ulonglong *)0x19;
+              local_288 = local_268;
+              local_290 = &local_278;
+              local_298 = "WeTypeDll";
+              FUN_180084f60(4,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                            ,0x41e,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+              uVar5 = (**(code **)(*param_1 + 0x20))(param_1);
+              plVar12 = (longlong *)(ulonglong)uVar5;
+            }
+            else {
+              FUN_1800ee8b0(param_1);
+              hWnd = FindWindowW(L"wetype.update.util.window",(LPCWSTR)0x0);
+              BVar6 = IsWindow(hWnd);
+              if (BVar6 == 0) {
+                FUN_180123840();
+              }
+              plVar9 = (longlong *)FUN_1800e9eb0(&local_258);
+              lVar1 = *plVar9;
+              if (param_1[0x56] != lVar1) {
+                *plVar9 = 0;
+                plVar9 = (longlong *)param_1[0x56];
+                param_1[0x56] = lVar1;
+                if (plVar9 != (longlong *)0x0) {
+                  (**(code **)(*plVar9 + 0x10))();
+                }
+              }
+              if (local_258 != (longlong *)0x0) {
+                (**(code **)(*local_258 + 0x10))();
+              }
+              if (param_1[0x56] == 0) {
+                local_278 = "GetCategoryMgr failed";
+                uStack_270 = (ulonglong *)0x15;
+                local_290 = &local_278;
+                local_298 = "WeTypeDll";
+                FUN_180084e30(4,
+                              "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                              ,0x42e,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+                uVar5 = (**(code **)(*param_1 + 0x20))(param_1);
+                plVar12 = (longlong *)(ulonglong)uVar5;
+              }
+              else {
+                uVar7 = FUN_1800db640();
+                plVar9 = param_1 + 0xb;
+                uVar10 = (**(code **)(*plVar9 + 0x88))(plVar9);
+                cVar3 = FUN_180112850(uVar7,uVar10);
+                if (cVar3 == '\0') {
+                  local_278 = "startWatchThemeChange failed";
+                  uStack_270 = (ulonglong *)0x1c;
+                  local_290 = &local_278;
+                  local_298 = "WeTypeDll";
+                  FUN_180084e30(3,
+                                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                ,0x435,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+                }
+                plVar11 = param_1 + 10;
+                if (param_1 == (longlong *)0x0) {
+                  plVar11 = plVar12;
+                }
+                uVar5 = FUN_1800d7390(param_1 + 0x58,plVar11);
+                local_268[0] = (longlong *)CONCAT44(local_268[0]._4_4_,uVar5);
+                if ((int)uVar5 < 0) {
+                  local_278 = "InitLanguageBar failed: {}";
+                  uStack_270 = (ulonglong *)0x1a;
+                  local_288 = local_268;
+                  local_290 = &local_278;
+                  local_298 = "WeTypeDll";
+                  FUN_180084f60(4,
+                                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                ,0x43a,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+                  plVar12 = (longlong *)(ulonglong)uVar5;
+                }
+                else {
+                  plVar11 = (longlong *)param_1[0x56];
+                  if (plVar11 == (longlong *)0x0) {
+                    local_278 = "InitDisplayAttributes category_ is nullptr.";
+                    uStack_270 = (ulonglong *)0x2b;
+                    local_290 = &local_278;
+                    local_298 = "WeTypeDll";
+                    FUN_180084e30(4,
+                                  "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                  ,0x16f1,
+                                  "wetype::win32::tsf::TipTextServiceImpl::InitDisplayAttributes");
+                    local_268[0] = (longlong *)CONCAT44(local_268[0]._4_4_,0x8000ffff);
+                  }
+                  else {
+                    pcVar2 = *(code **)(*plVar11 + 0x70);
+                    uVar7 = FUN_180084de0();
+                    iVar4 = (*pcVar2)(plVar11,uVar7,param_1 + 0x57);
+                    if (iVar4 < 0) {
+                      local_278 = 
+                      "InitDisplayAttributes RegisterGUID TipDisplayAttributeInput Failed.";
+                      uStack_270 = (ulonglong *)0x43;
+                      local_290 = &local_278;
+                      local_298 = "WeTypeDll";
+                      FUN_180084e30(4,
+                                    "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                    ,0x16fa,
+                                    "wetype::win32::tsf::TipTextServiceImpl::InitDisplayAttributes")
+                      ;
+                      local_268[0] = (longlong *)CONCAT44(local_268[0]._4_4_,iVar4);
+                    }
+                    else {
+                      plVar11 = (longlong *)param_1[0x56];
+                      pcVar2 = *(code **)(*plVar11 + 0x70);
+                      uVar7 = FUN_180084dd0();
+                      iVar4 = (*pcVar2)(plVar11,uVar7,(longlong)param_1 + 700);
+                      local_268[0] = (longlong *)CONCAT44(local_268[0]._4_4_,iVar4);
+                      if (-1 < iVar4) {
+                        FUN_180106210(param_1[0x82]);
+                        local_258 = (longlong *)0x0;
+                        iVar4 = (**(code **)(*(longlong *)param_1[0x4f] + 0x38))
+                                          ((longlong *)param_1[0x4f],&local_258);
+                        if (-1 < iVar4) {
+                          if (local_258 != (longlong *)0x0) {
+                            local_268[0] = (longlong *)0x0;
+                            iVar4 = (**(code **)(*local_258 + 0x38))(local_258,local_268);
+                            if (-1 < iVar4) {
+                              FUN_1800e9440(param_1,local_268[0]);
+                            }
+                            FUN_1800fa6b0(param_1);
+                            if (local_268[0] != (longlong *)0x0) {
+                              (**(code **)(*local_268[0] + 0x10))();
+                            }
+                          }
+                          if (param_1 == (longlong *)0x0) {
+                            plVar9 = plVar12;
+                          }
+                          FUN_18010c680(plVar9);
+                          local_218 = (undefined ****)
+                                      std::
+                                      _Func_impl_no_alloc<`private:_virtual_long___cdecl_wetype::win32::tsf::TipTextServiceImpl::ActivateEx(ITfThreadMgr*___ptr64,unsigned_long,unsigned_long)___ptr64'::`33'::<lambda_1>,void,wetype::commands::RespBodyV1>
+                                      ::vftable;
+                          local_1e0 = (undefined ****)&local_218;
+                          local_210 = param_1;
+                          FUN_18011ecf0(param_1 + 0x51,&local_218);
+                          local_218 = (undefined ****)
+                                      std::
+                                      _Func_impl_no_alloc<`private:_virtual_long___cdecl_wetype::win32::tsf::TipTextServiceImpl::ActivateEx(ITfThreadMgr*___ptr64,unsigned_long,unsigned_long)___ptr64'::`33'::<lambda_2>,void,wetype::commands::RespBodyV1>
+                                      ::vftable;
+                          local_1e0 = (undefined ****)&local_218;
+                          local_210 = param_1;
+                          FUN_18011ecf0(param_1 + 0x52,&local_218);
+                          local_218 = (undefined ****)
+                                      std::
+                                      _Func_impl_no_alloc<`private:_virtual_long___cdecl_wetype::win32::tsf::TipTextServiceImpl::ActivateEx(ITfThreadMgr*___ptr64,unsigned_long,unsigned_long)___ptr64'::`33'::<lambda_3>,void,wetype::commands::RespBodyV1>
+                                      ::vftable;
+                          local_1e0 = (undefined ****)&local_218;
+                          local_210 = param_1;
+                          FUN_18011ecf0(param_1 + 0x53,&local_218);
+                          uVar5 = FUN_1800f3320(param_1,local_258,1);
+                          plVar12 = (longlong *)(ulonglong)uVar5;
+                          if (-1 < (int)uVar5) {
+                            if (local_258 != (longlong *)0x0) {
+                              (**(code **)(*local_258 + 0x10))();
+                            }
+                            FUN_180106280(param_1[0x82],1);
+                            FUN_180106290(param_1[0x82],1);
+                            FUN_1800fdeb0(param_1);
+                            FUN_1800fb580(param_1,1);
+                            goto LAB_1800e5934;
+                          }
+                        }
+                        uVar5 = (**(code **)(*param_1 + 0x20))(param_1);
+                        plVar12 = (longlong *)(ulonglong)uVar5;
+                        if (local_258 != (longlong *)0x0) {
+                          (**(code **)(*local_258 + 0x10))();
+                        }
+                        goto LAB_1800e5934;
+                      }
+                    }
+                  }
+                  local_278 = "InitDisplayAttributes failed: {}";
+                  uStack_270 = (ulonglong *)0x20;
+                  local_288 = local_268;
+                  local_290 = &local_278;
+                  local_298 = "WeTypeDll";
+                  FUN_180084f60(4,
+                                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                ,0x441,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+                  uVar5 = (**(code **)(*param_1 + 0x20))(param_1);
+                  plVar12 = (longlong *)(ulonglong)uVar5;
+                }
+              }
+            }
+            goto LAB_1800e5934;
+          }
+        }
+        local_278 = "Failed to retrieve ITfThreadMgr interface.";
+        uStack_270 = (ulonglong *)0x2a;
+        uVar7 = 0x410;
+      }
+      else {
+        local_278 = "Recursive Activation found.";
+        uStack_270 = (ulonglong *)0x1b;
+        uVar7 = 0x409;
+      }
+      local_290 = &local_278;
+      local_298 = "WeTypeDll";
+      FUN_180084e30(4,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                    uVar7,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+      plVar12 = (longlong *)0x8000ffff;
+    }
+    else {
+      iVar4 = FUN_18026ce70(4);
+      if (iVar4 != 0) {
+        local_1a8 = &local_1d8;
+        if (0xf < local_1c0) {
+          local_1a8 = local_1d8;
+        }
+        local_1b8 = CONCAT44(local_248._4_4_,uVar13);
+        uStack_1b0 = CONCAT44(uStack_240._4_4_,(undefined4)uStack_240);
+        uStack_1a0 = local_1c8;
+        local_278 = (char *)0xd2;
+        local_258 = (longlong *)&DAT_180365310;
+        pppuStack_250 = (undefined8 ****)0x78;
+        local_248._0_4_ = 0xd2;
+        local_248._4_4_ = 0;
+        local_238 = 0x80365310;
+        uStack_234 = 1;
+        uStack_230 = 0x78;
+        uStack_22c = 0;
+        uStack_270 = &local_1b8;
+        uStack_240 = (undefined8 ****)&local_1b8;
+        FUN_18025c4d0(&local_218,&local_238,&local_248);
+        pppppuVar8 = &local_218;
+        if (0xf < local_200) {
+          pppppuVar8 = (undefined *****)local_218;
+        }
+        uStack_270 = (ulonglong *)local_208;
+        uVar7 = uStack_270;
+        local_278._0_4_ = SUB84(pppppuVar8,0);
+        local_278._4_4_ = (undefined4)((ulonglong)pppppuVar8 >> 0x20);
+        uStack_270._0_4_ = (undefined4)local_208;
+        uStack_270._4_4_ = (undefined4)((ulonglong)local_208 >> 0x20);
+        local_248._0_4_ = (undefined4)local_278;
+        local_248._4_4_ = local_278._4_4_;
+        uStack_240._0_4_ = (undefined4)uStack_270;
+        uStack_240._4_4_ = uStack_270._4_4_;
+        local_290 = &local_248;
+        local_298 = "WeTypeDll";
+        local_278 = (char *)pppppuVar8;
+        uStack_270 = (ulonglong *)uVar7;
+        FUN_180118f10(4,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                      0x3f5,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+        if (0xf < local_200) {
+          if (0xfff < local_200 + 1) {
+            if ((char *)0x1f < (char *)((longlong)local_218 + (-8 - (longlong)local_218[-1]))) {
+                    /* WARNING: Subroutine does not return */
+              FUN_1802e2aa4(local_218[-1],local_200 + 0x28);
+            }
+          }
+          thunk_FUN_1802e2b1c();
+        }
+      }
+      *(undefined1 *)((longlong)param_1 + 0x2a4) = 1;
+      plVar12 = (longlong *)0x80004005;
+    }
+  }
+  else {
+    local_278 = "ActivateEx Dll Unloaded";
+    uStack_270 = (ulonglong *)0x17;
+    local_290 = &local_278;
+    local_298 = "WeTypeDll";
+    FUN_180084e30(4,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                  0x3dc,"wetype::win32::tsf::TipTextServiceImpl::ActivateEx");
+  }
+LAB_1800e5934:
+  if (0xf < local_1c0) {
+    if (0xfff < local_1c0 + 1) {
+      if (0x1f < (ulonglong)((longlong)local_1d8 + (-8 - (longlong)local_1d8[-1]))) {
+                    /* WARNING: Subroutine does not return */
+        FUN_1802e2aa4(local_1d8[-1],local_1c0 + 0x28);
+      }
+    }
+    thunk_FUN_1802e2b1c();
+  }
+  return plVar12;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800feb50 @1800feb50  size=2083
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_1800feb50(longlong param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined8 *puVar3;
+  uint *puVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  int iVar7;
+  int iVar8;
+  longlong *plVar9;
+  undefined8 ****ppppuVar10;
+  longlong lVar11;
+  ulonglong uVar12;
+  undefined4 *puVar13;
+  longlong *plVar14;
+  bool bVar15;
+  undefined1 auStack_278 [32];
+  char *local_258;
+  char **local_250;
+  int *local_248;
+  undefined8 local_238;
+  undefined8 uStack_230;
+  longlong *local_228 [2];
+  char *local_218;
+  undefined8 *puStack_210;
+  int local_208 [4];
+  undefined4 local_1f8;
+  undefined4 uStack_1f4;
+  undefined8 uStack_1f0;
+  char *local_1e8;
+  undefined8 uStack_1e0;
+  undefined8 local_1d8;
+  undefined8 uStack_1d0;
+  undefined8 local_1c8;
+  undefined8 *puStack_1c0;
+  char *local_1b8;
+  undefined8 uStack_1b0;
+  undefined8 local_1a8;
+  undefined8 uStack_1a0;
+  undefined8 local_198;
+  undefined8 *puStack_190;
+  char *local_188;
+  undefined8 uStack_180;
+  undefined8 local_178;
+  undefined8 uStack_170;
+  undefined8 local_168;
+  undefined8 *puStack_160;
+  char *local_158;
+  undefined8 uStack_150;
+  undefined8 local_148;
+  undefined8 uStack_140;
+  undefined4 local_138;
+  undefined4 uStack_134;
+  undefined8 uStack_130;
+  undefined4 local_128;
+  undefined4 uStack_124;
+  undefined8 uStack_120;
+  undefined4 local_118;
+  undefined4 uStack_114;
+  undefined8 uStack_110;
+  undefined4 local_108;
+  undefined4 uStack_104;
+  undefined8 uStack_100;
+  int local_f8;
+  undefined4 uStack_f4;
+  undefined8 uStack_f0;
+  undefined4 local_e8;
+  undefined4 uStack_e4;
+  undefined8 uStack_e0;
+  undefined4 local_d8;
+  undefined4 uStack_d4;
+  undefined8 uStack_d0;
+  undefined4 local_c8;
+  undefined4 uStack_c4;
+  undefined8 uStack_c0;
+  undefined4 local_b8;
+  undefined4 uStack_b4;
+  undefined8 uStack_b0;
+  int local_a8;
+  undefined4 uStack_a4;
+  undefined8 uStack_a0;
+  undefined1 local_98 [16];
+  undefined8 ***local_88 [2];
+  undefined8 local_78;
+  ulonglong local_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_1804245c0 ^ (ulonglong)auStack_278;
+  puVar3 = *(undefined8 **)(param_1 + 0x278);
+  if (puVar3 == (undefined8 *)0x0) {
+    local_218 = "thread_mgr_ is nullptr.";
+    puStack_210 = (undefined8 *)0x17;
+    local_250 = &local_218;
+    local_258 = "WeTypeDll";
+    FUN_180084e30(4,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                  0x488,"wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey");
+  }
+  else if ((*(uint *)(param_1 + 0x340) >> 2 & 1) != 0) {
+    local_228[0] = (longlong *)0x0;
+    local_208[0] = (**(code **)*puVar3)(puVar3,&DAT_180369b60,local_228);
+    if (local_208[0] < 0) {
+      local_218 = "Query ITfKeystrokeMgr failed: {}.";
+      puStack_210 = (undefined8 *)&DAT_00000021;
+      local_248 = local_208;
+      local_250 = &local_218;
+      local_258 = "WeTypeDll";
+      FUN_180084f60(4,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                    0x492,"wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey");
+    }
+    else {
+      puVar13 = &DAT_180363f58;
+      do {
+        puVar4 = *(uint **)(puVar13 + -2);
+        uVar12 = (ulonglong)*puVar4 & *(ulonglong *)(param_1 + 0x400);
+        lVar11 = *(longlong *)(*(longlong *)(param_1 + 1000) + 8 + uVar12 * 0x10);
+        if (lVar11 == *(longlong *)(param_1 + 0x3d8)) {
+LAB_1800fed36:
+          lVar11 = 0;
+        }
+        else if ((*(longlong *)puVar4 != *(longlong *)(lVar11 + 0x10)) ||
+                (*(longlong *)(puVar4 + 2) != *(longlong *)(lVar11 + 0x18))) {
+          do {
+            if (lVar11 == *(longlong *)(*(longlong *)(param_1 + 1000) + uVar12 * 0x10))
+            goto LAB_1800fed36;
+            lVar11 = *(longlong *)(lVar11 + 8);
+          } while ((*(longlong *)puVar4 != *(longlong *)(lVar11 + 0x10)) ||
+                  (*(longlong *)(puVar4 + 2) != *(longlong *)(lVar11 + 0x18)));
+        }
+        if ((*(ulonglong *)(puVar13 + 8) & *(ulonglong *)(param_1 + 0x358)) == 0) {
+          if (lVar11 != 0) {
+            iVar7 = (**(code **)(*local_228[0] + 0x68))
+                              (local_228[0],*(undefined8 *)(puVar13 + -2),puVar13);
+            if (iVar7 < 0) {
+              uVar1 = puVar13[6];
+              iVar8 = FUN_18026ce70(4);
+              if (iVar8 != 0) {
+                local_68 = CONCAT44(uStack_b4,uVar1);
+                uStack_60 = uStack_b0;
+                local_58 = CONCAT44(uStack_a4,iVar7);
+                uStack_50 = uStack_a0;
+                local_168 = 0x11;
+                puStack_160 = &local_68;
+                local_158 = "PreserveKey action: {}, failed: {}.";
+                uStack_150 = 0x23;
+                local_238._0_4_ = 0x11;
+                local_238._4_4_ = 0;
+                local_1f8 = 0x80365538;
+                uStack_1f4 = 1;
+                uStack_1f0._0_4_ = 0x23;
+                uStack_1f0._4_4_ = 0;
+                local_b8 = uVar1;
+                local_a8 = iVar7;
+                uStack_230 = puStack_160;
+                FUN_18025c4d0(local_88,&local_1f8,&local_238);
+                ppppuVar10 = local_88;
+                if (0xf < local_70) {
+                  ppppuVar10 = (undefined8 ****)local_88[0];
+                }
+                uStack_140 = local_78;
+                uVar6 = uStack_140;
+                local_148._0_4_ = SUB84(ppppuVar10,0);
+                local_148._4_4_ = (undefined4)((ulonglong)ppppuVar10 >> 0x20);
+                uStack_140._0_4_ = (undefined4)local_78;
+                uStack_140._4_4_ = (undefined4)((ulonglong)local_78 >> 0x20);
+                local_238._0_4_ = (undefined4)local_148;
+                local_238._4_4_ = local_148._4_4_;
+                uStack_230._0_4_ = (undefined4)uStack_140;
+                uStack_230._4_4_ = uStack_140._4_4_;
+                local_250 = (char **)&local_238;
+                local_258 = "WeTypeDll";
+                local_148 = ppppuVar10;
+                uStack_140 = uVar6;
+                FUN_180118f10(4,
+                              "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                              ,0x4b1,"wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey");
+                if (0xf < local_70) {
+                  if (0xfff < local_70 + 1) {
+                    if (0x1f < (ulonglong)((longlong)local_88[0] + (-8 - (longlong)local_88[0][-1]))
+                       ) {
+                    /* WARNING: Subroutine does not return */
+                      FUN_1802e2aa4(local_88[0][-1],local_70 + 0x28);
+                    }
+                  }
+                  goto LAB_1800ff33d;
+                }
+              }
+            }
+            else {
+              puVar4 = *(uint **)(puVar13 + -2);
+              plVar14 = (longlong *)
+                        ((*(ulonglong *)(param_1 + 0x400) & (ulonglong)*puVar4) * 0x10 +
+                        *(longlong *)(param_1 + 1000));
+              plVar9 = (longlong *)plVar14[1];
+              plVar5 = *(longlong **)(param_1 + 0x3d8);
+              if (plVar9 == plVar5) {
+LAB_1800ff086:
+                plVar9 = (longlong *)0x0;
+              }
+              else if ((*(longlong *)puVar4 != plVar9[2]) ||
+                      (*(longlong *)(puVar4 + 2) != plVar9[3])) {
+                do {
+                  if (plVar9 == (longlong *)*plVar14) goto LAB_1800ff086;
+                  plVar9 = (longlong *)plVar9[1];
+                } while ((*(longlong *)puVar4 != plVar9[2]) ||
+                        (*(longlong *)(puVar4 + 2) != plVar9[3]));
+              }
+              if (plVar9 != (longlong *)0x0) {
+                if ((longlong *)plVar14[1] == plVar9) {
+                  if ((longlong *)*plVar14 == plVar9) {
+                    *plVar14 = (longlong)plVar5;
+                    plVar14[1] = (longlong)plVar5;
+                  }
+                  else {
+                    plVar14[1] = plVar9[1];
+                  }
+                }
+                else if ((longlong *)*plVar14 == plVar9) {
+                  *plVar14 = *plVar9;
+                }
+                lVar11 = *plVar9;
+                *(longlong *)(param_1 + 0x3e0) = *(longlong *)(param_1 + 0x3e0) + -1;
+                *(longlong *)plVar9[1] = lVar11;
+                *(longlong *)(lVar11 + 8) = plVar9[1];
+                thunk_FUN_1802e2b1c(plVar9,0x28);
+              }
+              uVar1 = puVar13[6];
+              iVar7 = FUN_18026ce70(2);
+              if (iVar7 != 0) {
+                local_e8 = *puVar13;
+                local_d8 = puVar13[1];
+                local_68 = CONCAT44(uStack_e4,local_e8);
+                uStack_60 = uStack_e0;
+                local_58 = CONCAT44(uStack_d4,local_d8);
+                uStack_50 = uStack_d0;
+                local_48 = CONCAT44(uStack_c4,uVar1);
+                uStack_40 = uStack_c0;
+                local_198 = 0x122;
+                puStack_190 = &local_68;
+                local_188 = "PreservedKey unregistered: vk={:#x} mod={:#x} action={}";
+                uStack_180 = 0x37;
+                local_238._0_4_ = 0x122;
+                local_238._4_4_ = 0;
+                local_1f8 = 0x80365560;
+                uStack_1f4 = 1;
+                uStack_1f0._0_4_ = 0x37;
+                uStack_1f0._4_4_ = 0;
+                local_c8 = uVar1;
+                uStack_230 = puStack_190;
+                FUN_18025c4d0(local_88,&local_1f8,&local_238);
+                ppppuVar10 = local_88;
+                if (0xf < local_70) {
+                  ppppuVar10 = (undefined8 ****)local_88[0];
+                }
+                uStack_170 = local_78;
+                uVar6 = uStack_170;
+                local_178._0_4_ = SUB84(ppppuVar10,0);
+                local_178._4_4_ = (undefined4)((ulonglong)ppppuVar10 >> 0x20);
+                uStack_170._0_4_ = (undefined4)local_78;
+                uStack_170._4_4_ = (undefined4)((ulonglong)local_78 >> 0x20);
+                local_238._0_4_ = (undefined4)local_178;
+                local_238._4_4_ = local_178._4_4_;
+                uStack_230._0_4_ = (undefined4)uStack_170;
+                uStack_230._4_4_ = uStack_170._4_4_;
+                local_250 = (char **)&local_238;
+                local_258 = "WeTypeDll";
+                local_178 = ppppuVar10;
+                uStack_170 = uVar6;
+                FUN_180118f10(2,
+                              "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                              ,0x4ae,"wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey");
+                if (0xf < local_70) {
+                  if (0xfff < local_70 + 1) {
+                    if (0x1f < (ulonglong)((longlong)local_88[0] + (-8 - (longlong)local_88[0][-1]))
+                       ) {
+                    /* WARNING: Subroutine does not return */
+                      FUN_1802e2aa4(local_88[0][-1],local_70 + 0x28);
+                    }
+                  }
+                  thunk_FUN_1802e2b1c();
+                }
+              }
+            }
+          }
+        }
+        else if (lVar11 == 0) {
+          local_258 = *(char **)(puVar13 + 2);
+          local_250 = (char **)CONCAT44(local_250._4_4_,puVar13[4]);
+          iVar7 = (**(code **)(*local_228[0] + 0x60))
+                            (local_228[0],*(undefined4 *)(param_1 + 0x280),puVar4,puVar13);
+          uVar1 = puVar13[6];
+          if (iVar7 < 0) {
+            iVar8 = FUN_18026ce70(4);
+            if (iVar8 != 0) {
+              local_68 = CONCAT44(uStack_104,uVar1);
+              uStack_60 = uStack_100;
+              local_58 = CONCAT44(uStack_f4,iVar7);
+              uStack_50 = uStack_f0;
+              local_1c8 = 0x11;
+              puStack_1c0 = &local_68;
+              local_1b8 = "PreserveKey action: {}, failed: {}.";
+              uStack_1b0 = 0x23;
+              local_238._0_4_ = 0x11;
+              local_238._4_4_ = 0;
+              local_1f8 = 0x80365538;
+              uStack_1f4 = 1;
+              uStack_1f0._0_4_ = 0x23;
+              uStack_1f0._4_4_ = 0;
+              local_108 = uVar1;
+              local_f8 = iVar7;
+              uStack_230 = puStack_1c0;
+              FUN_18025c4d0(local_88,&local_1f8,&local_238);
+              ppppuVar10 = local_88;
+              if (0xf < local_70) {
+                ppppuVar10 = (undefined8 ****)local_88[0];
+              }
+              uStack_1a0 = local_78;
+              uVar6 = uStack_1a0;
+              local_1a8._0_4_ = SUB84(ppppuVar10,0);
+              local_1a8._4_4_ = (undefined4)((ulonglong)ppppuVar10 >> 0x20);
+              uStack_1a0._0_4_ = (undefined4)local_78;
+              uStack_1a0._4_4_ = (undefined4)((ulonglong)local_78 >> 0x20);
+              local_238._0_4_ = (undefined4)local_1a8;
+              local_238._4_4_ = local_1a8._4_4_;
+              uStack_230._0_4_ = (undefined4)uStack_1a0;
+              uStack_230._4_4_ = uStack_1a0._4_4_;
+              local_250 = (char **)&local_238;
+              local_258 = "WeTypeDll";
+              local_1a8 = ppppuVar10;
+              uStack_1a0 = uVar6;
+              FUN_180118f10(4,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                            ,0x4a4,"wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey");
+              if (0xf < local_70) {
+                if (0xfff < local_70 + 1) {
+                  if (0x1f < (ulonglong)((longlong)local_88[0] + (-8 - (longlong)local_88[0][-1])))
+                  {
+                    /* WARNING: Subroutine does not return */
+                    FUN_1802e2aa4(local_88[0][-1],local_70 + 0x28);
+                  }
+                }
+                goto LAB_1800ff33d;
+              }
+            }
+          }
+          else {
+            uVar2 = *puVar13;
+            plVar9 = (longlong *)
+                     FUN_1800e1220(param_1 + 0x3d0,local_98,*(undefined8 *)(puVar13 + -2));
+            lVar11 = *plVar9;
+            *(undefined4 *)(lVar11 + 0x20) = uVar1;
+            *(undefined4 *)(lVar11 + 0x24) = uVar2;
+            uVar1 = puVar13[6];
+            iVar7 = FUN_18026ce70(2);
+            if (iVar7 != 0) {
+              local_138 = *puVar13;
+              local_128 = puVar13[1];
+              local_68 = CONCAT44(uStack_134,local_138);
+              uStack_60 = uStack_130;
+              local_58 = CONCAT44(uStack_124,local_128);
+              uStack_50 = uStack_120;
+              local_48 = CONCAT44(uStack_114,uVar1);
+              uStack_40 = uStack_110;
+              local_218 = (char *)0x122;
+              puStack_210 = &local_68;
+              local_1e8 = "PreservedKey registered: vk={:#x} mod={:#x} action={}";
+              uStack_1e0 = 0x35;
+              local_1f8 = 0x122;
+              uStack_1f4 = 0;
+              local_238._0_4_ = 0x80365500;
+              local_238._4_4_ = 1;
+              uStack_230._0_4_ = 0x35;
+              uStack_230._4_4_ = 0;
+              local_118 = uVar1;
+              uStack_1f0 = puStack_210;
+              FUN_18025c4d0(local_88,&local_238,&local_1f8);
+              ppppuVar10 = local_88;
+              if (0xf < local_70) {
+                ppppuVar10 = (undefined8 ****)local_88[0];
+              }
+              uStack_1d0 = local_78;
+              uVar6 = uStack_1d0;
+              local_1d8._0_4_ = SUB84(ppppuVar10,0);
+              local_1d8._4_4_ = (undefined4)((ulonglong)ppppuVar10 >> 0x20);
+              uStack_1d0._0_4_ = (undefined4)local_78;
+              uStack_1d0._4_4_ = (undefined4)((ulonglong)local_78 >> 0x20);
+              local_238._0_4_ = (undefined4)local_1d8;
+              local_238._4_4_ = local_1d8._4_4_;
+              uStack_230._0_4_ = (undefined4)uStack_1d0;
+              uStack_230._4_4_ = uStack_1d0._4_4_;
+              local_250 = (char **)&local_238;
+              local_258 = "WeTypeDll";
+              local_1d8 = ppppuVar10;
+              uStack_1d0 = uVar6;
+              FUN_180118f10(2,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                            ,0x4a1,"wetype::win32::tsf::TipTextServiceImpl::UpdatePreservedKey");
+              if (0xf < local_70) {
+                if (0xfff < local_70 + 1) {
+                  if (0x1f < (ulonglong)((longlong)local_88[0] + (-8 - (longlong)local_88[0][-1])))
+                  {
+                    /* WARNING: Subroutine does not return */
+                    FUN_1802e2aa4(local_88[0][-1],local_70 + 0x28);
+                  }
+                }
+LAB_1800ff33d:
+                thunk_FUN_1802e2b1c();
+              }
+            }
+          }
+        }
+        bVar15 = puVar13 != (undefined4 *)&UNK_180363fe8;
+        puVar13 = puVar13 + 0xc;
+      } while (bVar15);
+    }
+    if (local_228[0] != (longlong *)0x0) {
+      (**(code **)(*local_228[0] + 0x10))();
+    }
+  }
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800fe4a0 @1800fe4a0  size=963
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+int FUN_1800fe4a0(longlong param_1)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  uint *puVar3;
+  undefined8 uVar4;
+  int iVar5;
+  int iVar6;
+  longlong lVar7;
+  undefined8 ****ppppuVar8;
+  undefined **ppuVar9;
+  longlong *plVar10;
+  undefined1 auStack_138 [32];
+  char *local_118;
+  char **local_110;
+  char *local_108;
+  undefined8 *puStack_100;
+  char *local_f8;
+  undefined8 *puStack_f0;
+  longlong *local_e8;
+  undefined4 local_e0;
+  undefined4 uStack_dc;
+  undefined8 uStack_d8;
+  int local_d0;
+  undefined4 uStack_cc;
+  undefined8 uStack_c8;
+  undefined4 local_b8;
+  undefined4 uStack_b4;
+  undefined8 uStack_b0;
+  undefined8 local_a8;
+  undefined8 uStack_a0;
+  undefined8 local_98;
+  undefined4 uStack_90;
+  undefined4 uStack_8c;
+  undefined8 *local_88;
+  ulonglong local_80;
+  undefined8 ***local_78 [2];
+  undefined8 local_68;
+  ulonglong local_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 uStack_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_1804245c0 ^ (ulonglong)auStack_138;
+  puVar2 = *(undefined8 **)(param_1 + 0x278);
+  if (puVar2 == (undefined8 *)0x0) {
+    local_f8 = "thread_mgr_ is nullptr.";
+    puStack_f0 = (undefined8 *)0x17;
+    local_110 = &local_f8;
+    local_118 = "WeTypeDll";
+    FUN_180084e30(4,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                  0x16d5,"wetype::win32::tsf::TipTextServiceImpl::UninitPreservedKey");
+    iVar5 = -0x7fffbffb;
+  }
+  else {
+    local_e8 = (longlong *)0x0;
+    iVar5 = (**(code **)*puVar2)(puVar2,&DAT_180369b60,&local_e8);
+    if (iVar5 < 0) {
+      iVar6 = FUN_18026ce70(4);
+      if (iVar6 != 0) {
+        local_a8 = (undefined8 ****)CONCAT44(local_a8._4_4_,iVar5);
+        puStack_f0 = &local_a8;
+        local_f8 = (char *)0x1;
+        local_108 = "Query ITfKeystrokeMgr failed: {}.";
+        puStack_100 = (undefined8 *)0x21;
+        FUN_18025c4d0(&local_98,&local_108,&local_f8);
+        local_108 = (char *)&local_98;
+        if (0xf < local_80) {
+          local_108 = (char *)CONCAT44(local_98._4_4_,(undefined4)local_98);
+        }
+        puStack_100 = local_88;
+        local_110 = &local_108;
+        local_118 = "WeTypeDll";
+        FUN_180118f10(4,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                      0x16db,"wetype::win32::tsf::TipTextServiceImpl::UninitPreservedKey");
+        if (0xf < local_80) {
+          if (0xfff < local_80 + 1) {
+            lVar7 = *(longlong *)(CONCAT44(local_98._4_4_,(undefined4)local_98) + -8);
+            if (0x1f < (CONCAT44(local_98._4_4_,(undefined4)local_98) - lVar7) - 8U) {
+                    /* WARNING: Subroutine does not return */
+              FUN_1802e2aa4(lVar7,local_80 + 0x28);
+            }
+          }
+          thunk_FUN_1802e2b1c();
+        }
+      }
+    }
+    else {
+      ppuVar9 = &PTR_DAT_180363f50;
+      do {
+        puVar3 = (uint *)*ppuVar9;
+        plVar10 = (longlong *)
+                  (((ulonglong)*puVar3 & *(ulonglong *)(param_1 + 0x400)) * 0x10 +
+                  *(longlong *)(param_1 + 1000));
+        lVar7 = plVar10[1];
+        if (lVar7 == *(longlong *)(param_1 + 0x3d8)) {
+LAB_1800fe6de:
+          lVar7 = 0;
+        }
+        else if ((*(longlong *)puVar3 != *(longlong *)(lVar7 + 0x10)) ||
+                (*(longlong *)(puVar3 + 2) != *(longlong *)(lVar7 + 0x18))) {
+          do {
+            if (lVar7 == *plVar10) goto LAB_1800fe6de;
+            lVar7 = *(longlong *)(lVar7 + 8);
+          } while ((*(longlong *)puVar3 != *(longlong *)(lVar7 + 0x10)) ||
+                  (*(longlong *)(puVar3 + 2) != *(longlong *)(lVar7 + 0x18)));
+        }
+        if (lVar7 != 0) {
+          iVar5 = (**(code **)(*local_e8 + 0x68))(local_e8,puVar3,ppuVar9 + 1);
+          if (iVar5 < 0) {
+            uVar1 = *(undefined4 *)(ppuVar9 + 4);
+            iVar6 = FUN_18026ce70(4);
+            if (iVar6 != 0) {
+              local_58 = CONCAT44(uStack_dc,uVar1);
+              uStack_50 = uStack_d8;
+              local_48 = CONCAT44(uStack_cc,iVar5);
+              uStack_40 = uStack_c8;
+              local_108 = (char *)0x11;
+              puStack_100 = &local_58;
+              local_f8 = "UnpreserveKey action: {}, failed: {}.";
+              puStack_f0 = (undefined8 *)0x25;
+              local_b8 = 0x11;
+              uStack_b4 = 0;
+              local_98._0_4_ = 0x803696e0;
+              local_98._4_4_ = 1;
+              uStack_90 = 0x25;
+              uStack_8c = 0;
+              local_e0 = uVar1;
+              local_d0 = iVar5;
+              uStack_b0 = puStack_100;
+              FUN_18025c4d0(local_78,&local_98,&local_b8);
+              ppppuVar8 = local_78;
+              if (0xf < local_60) {
+                ppppuVar8 = (undefined8 ****)local_78[0];
+              }
+              uStack_a0 = local_68;
+              uVar4 = uStack_a0;
+              local_a8._0_4_ = SUB84(ppppuVar8,0);
+              local_a8._4_4_ = (undefined4)((ulonglong)ppppuVar8 >> 0x20);
+              uStack_a0._0_4_ = (undefined4)local_68;
+              uStack_a0._4_4_ = (undefined4)((ulonglong)local_68 >> 0x20);
+              local_98._0_4_ = (undefined4)local_a8;
+              local_98._4_4_ = local_a8._4_4_;
+              uStack_90 = (undefined4)uStack_a0;
+              uStack_8c = uStack_a0._4_4_;
+              local_110 = (char **)&local_98;
+              local_118 = "WeTypeDll";
+              local_a8 = ppppuVar8;
+              uStack_a0 = uVar4;
+              FUN_180118f10(4,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                            ,0x16e4,"wetype::win32::tsf::TipTextServiceImpl::UninitPreservedKey");
+              if (0xf < local_60) {
+                if (0xfff < local_60 + 1) {
+                  if (0x1f < (ulonglong)((longlong)local_78[0] + (-8 - (longlong)local_78[0][-1])))
+                  {
+                    /* WARNING: Subroutine does not return */
+                    FUN_1802e2aa4(local_78[0][-1],local_60 + 0x28);
+                  }
+                }
+                thunk_FUN_1802e2b1c();
+              }
+            }
+          }
+        }
+        ppuVar9 = ppuVar9 + 6;
+      } while (ppuVar9 != (undefined **)"wetype_tool.exe");
+      FUN_180103220(param_1 + 0x3d0);
+      iVar5 = 0;
+    }
+    if (local_e8 != (longlong *)0x0) {
+      (**(code **)(*local_e8 + 0x10))();
+    }
+  }
+  return iVar5;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800b8b50 @1800b8b50  size=302
+////////////////////////////////////////////////////////////////
+
+longlong *
+FUN_1800b8b50(longlong *param_1,undefined8 param_2,int param_3,undefined1 param_4,
+             undefined4 *param_5)
+
+{
+  undefined8 uVar1;
+  char cVar2;
+  uint uVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  undefined8 *puVar6;
+  longlong *plVar7;
+  longlong *local_28 [2];
+  
+  plVar7 = (longlong *)0x0;
+  cVar2 = FUN_1800de630(param_2);
+  if (cVar2 == '\0') {
+    if (param_3 == 0) {
+      plVar4 = (longlong *)FUN_1802dc170(8);
+      if (plVar4 != (longlong *)0x0) {
+        *plVar4 = (longlong)wetype::win32::tsf::PreservedKeySwitchHalfFullHandler::vftable;
+        plVar7 = plVar4;
+      }
+    }
+    else if (param_3 == 1) {
+      plVar4 = (longlong *)FUN_1802dc170(8);
+      if (plVar4 != (longlong *)0x0) {
+        *plVar4 = (longlong)wetype::win32::tsf::PreservedKeySwitchCnEnPunctuationHandler::vftable;
+        plVar7 = plVar4;
+      }
+    }
+    else {
+      plVar4 = (longlong *)FUN_1802dc170(8);
+      if (param_3 == 2) {
+        if (plVar4 != (longlong *)0x0) {
+          *plVar4 = (longlong)wetype::win32::tsf::PreservedKeySwitchSCTCHandler::vftable;
+          plVar7 = plVar4;
+        }
+      }
+      else if (plVar4 != (longlong *)0x0) {
+        *plVar4 = (longlong)wetype::win32::tsf::PreservedKeyAiSearchImmediatelyHandler::vftable;
+        plVar7 = plVar4;
+      }
+    }
+    local_28[0] = plVar7;
+    uVar3 = (**(code **)(*plVar7 + 8))(plVar7,param_1,param_2,param_5);
+    if (plVar7 != (longlong *)0x0) {
+      (**(code **)*plVar7)(plVar7,1);
+    }
+    plVar7 = (longlong *)(ulonglong)uVar3;
+  }
+  else {
+    *param_5 = 0;
+  }
+  lVar5 = (**(code **)(*param_1 + 0x38))(param_1,param_2);
+  if (lVar5 != 0) {
+    puVar6 = (undefined8 *)FUN_180146370(local_28,param_4);
+    uVar1 = *puVar6;
+    puVar6 = (undefined8 *)FUN_1800dc880(lVar5);
+    *puVar6 = uVar1;
+  }
+  return plVar7;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1801041e0 @1801041e0  size=3890
+////////////////////////////////////////////////////////////////
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_1801041e0(longlong param_1,longlong *param_2)
+
+{
+  longlong *plVar1;
+  undefined4 uVar2;
+  undefined1 *puVar3;
+  longlong lVar4;
+  char cVar5;
+  int iVar6;
+  undefined4 *puVar7;
+  longlong lVar8;
+  longlong lVar9;
+  longlong *plVar10;
+  undefined8 uVar11;
+  undefined ***pppuVar12;
+  undefined8 *puVar13;
+  ulonglong uVar14;
+  undefined **ppuVar15;
+  undefined8 *puVar16;
+  ulonglong uVar17;
+  ushort uVar18;
+  ushort uVar19;
+  longlong *plVar20;
+  undefined1 uVar21;
+  uint unaff_R15D;
+  uint uVar22;
+  undefined1 auStack_5a8 [32];
+  char *local_588;
+  char **local_580;
+  char *local_578;
+  char local_568;
+  uint local_564;
+  ushort local_560;
+  ushort local_55e;
+  longlong *local_558;
+  undefined8 local_548;
+  uint uStack_540;
+  undefined4 uStack_53c;
+  longlong local_538;
+  undefined4 local_528;
+  undefined4 uStack_524;
+  uint uStack_520;
+  undefined4 uStack_51c;
+  longlong local_518;
+  undefined4 local_508;
+  undefined4 uStack_504;
+  uint uStack_500;
+  undefined4 uStack_4fc;
+  undefined **local_4f8;
+  ulonglong local_4f0;
+  undefined8 local_4c8;
+  undefined ****ppppuStack_4c0;
+  char *local_4b8;
+  undefined8 uStack_4b0;
+  undefined8 local_4a8;
+  undefined8 uStack_4a0;
+  char *local_498;
+  undefined8 local_490;
+  char *local_488;
+  undefined8 local_480;
+  char *local_478;
+  undefined8 local_470;
+  char *local_468;
+  undefined8 local_460;
+  undefined8 local_458;
+  undefined8 uStack_450;
+  char *local_448;
+  undefined8 local_440;
+  char *local_438;
+  undefined8 local_430;
+  char *local_428;
+  undefined8 local_420;
+  char *local_418;
+  undefined8 local_410;
+  undefined **local_408;
+  ulonglong local_400;
+  undefined4 local_3b8;
+  undefined4 uStack_3b4;
+  undefined8 uStack_3b0;
+  undefined4 local_3a8;
+  undefined4 uStack_3a4;
+  undefined8 uStack_3a0;
+  longlong *local_398;
+  undefined1 local_388 [8];
+  byte local_380;
+  undefined7 uStack_37f;
+  char local_2c0;
+  undefined1 local_2b8 [8];
+  byte local_2b0;
+  undefined7 uStack_2af;
+  char local_1f0;
+  undefined **local_1e8 [25];
+  char *local_120 [7];
+  undefined8 local_e8;
+  undefined ***local_d8;
+  undefined8 uStack_d0;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  undefined8 local_b8;
+  undefined8 uStack_b0;
+  undefined4 local_a8;
+  undefined4 uStack_a4;
+  uint uStack_a0;
+  undefined4 uStack_9c;
+  uint local_98;
+  undefined4 uStack_94;
+  undefined4 uStack_90;
+  undefined4 uStack_8c;
+  undefined8 local_88;
+  undefined1 local_80;
+  undefined8 local_78;
+  uint uStack_70;
+  undefined4 uStack_6c;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined1 local_50;
+  ulonglong local_48;
+  
+  local_48 = DAT_1804245c0 ^ (ulonglong)auStack_5a8;
+  local_558 = param_2;
+  local_398 = param_2;
+  cVar5 = FUN_180106260(*(undefined8 *)(param_1 + 0x410));
+  if (cVar5 != '\0') {
+    local_564 = unaff_R15D & 0xffffff00;
+    cVar5 = '\0';
+    local_568 = '\0';
+    local_2c0 = '\0';
+    local_1f0 = '\0';
+    local_538 = *param_2;
+    local_518 = param_2[1];
+    uVar22 = local_564;
+    if (local_538 != local_518) {
+      do {
+        plVar20 = (longlong *)(local_538 + 0x18);
+        if ((~(byte)*plVar20 & 1) == 0) {
+          plVar20 = (longlong *)(*plVar20 + 7);
+        }
+        plVar1 = plVar20 + *(int *)(local_538 + 0x20);
+        for (; plVar20 != plVar1; plVar20 = plVar20 + 1) {
+          puVar3 = (undefined1 *)*plVar20;
+          uVar2 = *(undefined4 *)(puVar3 + 0xa8);
+          iVar6 = FUN_18026ce70(2);
+          if (iVar6 != 0) {
+            local_d8 = (undefined ***)CONCAT44(uStack_3b4,uVar2);
+            uStack_d0 = uStack_3b0;
+            local_4c8 = 1;
+            ppppuStack_4c0 = &local_d8;
+            local_4b8 = "receive type:{}";
+            uStack_4b0 = 0xf;
+            local_3a8 = 1;
+            uStack_3a4 = 0;
+            local_548._0_4_ = 0x80365828;
+            local_548._4_4_ = 1;
+            uStack_540 = 0xf;
+            uStack_53c = 0;
+            local_3b8 = uVar2;
+            uStack_3a0 = ppppuStack_4c0;
+            FUN_18025c4d0(&local_a8,&local_548,&local_3a8);
+            puVar7 = &local_a8;
+            if (0xf < CONCAT44(uStack_8c,uStack_90)) {
+              puVar7 = (undefined4 *)CONCAT44(uStack_a4,local_a8);
+            }
+            uStack_4a0 = CONCAT44(uStack_94,local_98);
+            local_4a8._0_4_ = SUB84(puVar7,0);
+            local_4a8._4_4_ = (undefined4)((ulonglong)puVar7 >> 0x20);
+            local_548._0_4_ = (undefined4)local_4a8;
+            local_548._4_4_ = local_4a8._4_4_;
+            uStack_540 = local_98;
+            uStack_53c = uStack_94;
+            local_580 = (char **)&local_548;
+            local_588 = "WeTypeDll";
+            local_4a8 = puVar7;
+            FUN_180118f10(2,
+                          "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                         );
+            uVar17 = CONCAT44(uStack_8c,uStack_90);
+            if (0xf < uVar17) {
+              if (0xfff < uVar17 + 1) {
+                lVar4 = *(longlong *)(CONCAT44(uStack_a4,local_a8) + -8);
+                if (0x1f < (CONCAT44(uStack_a4,local_a8) - lVar4) - 8U) {
+                    /* WARNING: Subroutine does not return */
+                  FUN_1802e2aa4(lVar4,uVar17 + 0x28);
+                }
+              }
+              thunk_FUN_1802e2b1c();
+            }
+          }
+          switch(*(undefined4 *)(puVar3 + 0xa8)) {
+          case 1:
+          case 9:
+            lVar4 = *(longlong *)(param_1 + 0x5b0);
+            if (lVar4 == 0) {
+              local_498 = "null edit session context.";
+              local_490 = 0x1a;
+              local_580 = &local_498;
+              local_588 = "WeTypeDll";
+              FUN_180084e30(4,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                            ,0x5d0,"wetype::win32::tsf::TipTextServiceImpl::onServerResp");
+            }
+            else {
+              lVar8 = (**(code **)(*(longlong *)(param_1 + 0x58) + 0x38))
+                                ((longlong *)(param_1 + 0x58),lVar4);
+              if (lVar8 == 0) {
+                local_488 = "onServerResp null private ctx";
+                local_480 = 0x1d;
+                local_580 = &local_488;
+                local_588 = "WeTypeDll";
+                FUN_180084e30(4,
+                              "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                              ,0x5d5,"wetype::win32::tsf::TipTextServiceImpl::onServerResp");
+                uVar22 = local_564;
+              }
+              else {
+                local_564 = local_564 & 0xffffff00;
+                FUN_1800dce90(lVar8,0);
+                if (local_1f0 != '\0') {
+                  local_478 = "Pending detail is filtered out: emit.";
+                  local_470 = 0x25;
+                  local_580 = &local_478;
+                  local_588 = "WeTypeDll";
+                  FUN_180084e30(2,
+                                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                ,0x5db,"wetype::win32::tsf::TipTextServiceImpl::onServerResp");
+                  if (local_1f0 != '\0') {
+                    FUN_180054b10(local_2b8);
+                    local_1f0 = '\0';
+                  }
+                }
+                lVar9 = FUN_1800dc890(lVar8);
+                if (*(longlong *)(lVar9 + 0x40) != 0) {
+                  FUN_1800157a0();
+                }
+                *(uint *)(lVar9 + 0x10) = *(uint *)(lVar9 + 0x10) & 0xffffffdf;
+                if (local_2c0 != '\0') {
+                  local_468 = "Candidate detail is filtered out: emit.";
+                  local_460 = 0x27;
+                  local_580 = &local_468;
+                  local_588 = "WeTypeDll";
+                  FUN_180084e30(2,
+                                "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                                ,0x5e0,"wetype::win32::tsf::TipTextServiceImpl::onServerResp");
+                  if (local_2c0 != '\0') {
+                    FUN_180054b10(local_388);
+                    local_2c0 = '\0';
+                  }
+                }
+                lVar8 = FUN_1800dc890(lVar8);
+                if (*(longlong *)(lVar8 + 0x38) != 0) {
+                  FUN_18003d4d0();
+                }
+                *(uint *)(lVar8 + 0x10) = *(uint *)(lVar8 + 0x10) & 0xffffffef;
+                FUN_18010dfc0(param_1 + 0x58,lVar4);
+                if (*(int *)(puVar3 + 0xa8) == 1) {
+                  *(uint *)(puVar3 + 0x10) = *(uint *)(puVar3 + 0x10) | 1;
+                  puVar13 = (undefined8 *)(*(ulonglong *)(puVar3 + 8) & 0xfffffffffffffffe);
+                  if ((puVar3[8] & 1) != 0) {
+                    puVar13 = (undefined8 *)*puVar13;
+                  }
+                  plVar10 = (longlong *)FUN_18018fca0(puVar3 + 0x18,puVar13);
+                  local_c8 = (undefined8 *)*plVar10;
+                  uStack_c0 = plVar10[1];
+                  local_b8 = plVar10[2];
+                  uStack_b0 = plVar10[3];
+                  plVar10[2] = 0;
+                  plVar10[3] = 0xf;
+                  *(undefined1 *)plVar10 = 0;
+                  lVar8 = FUN_1801061e0(*(undefined8 *)(param_1 + 0x410));
+                  if (lVar8 != 0) {
+                    iVar6 = FUN_1800adfc0(lVar8);
+                    if (iVar6 == 2) {
+                      puVar13 = &local_c8;
+                      if (0xf < uStack_b0) {
+                        puVar13 = local_c8;
+                      }
+                      uStack_450 = local_b8;
+                      lVar8 = uStack_450;
+                      local_458._0_4_ = SUB84(puVar13,0);
+                      local_458._4_4_ = (undefined4)((ulonglong)puVar13 >> 0x20);
+                      uStack_450._0_4_ = (uint)local_b8;
+                      uStack_450._4_4_ = (undefined4)((ulonglong)local_b8 >> 0x20);
+                      local_548._0_4_ = (undefined4)local_458;
+                      local_548._4_4_ = local_458._4_4_;
+                      uStack_540 = (uint)uStack_450;
+                      uStack_53c = uStack_450._4_4_;
+                      local_458 = puVar13;
+                      uStack_450 = lVar8;
+                      puVar13 = (undefined8 *)FUN_180127fe0(&local_a8,&local_548,0,0);
+                      if (&local_c8 != puVar13) {
+                        if (0xf < uStack_b0) {
+                          uVar17 = uStack_b0 + 1;
+                          puVar16 = local_c8;
+                          if (0xfff < uVar17) {
+                            uVar17 = uStack_b0 + 0x28;
+                            puVar16 = (undefined8 *)local_c8[-1];
+                            if (0x1f < (ulonglong)((longlong)local_c8 + (-8 - (longlong)puVar16)))
+                            goto LAB_18010510f;
+                          }
+                          thunk_FUN_1802e2b1c(puVar16,uVar17);
+                        }
+                        local_c8 = (undefined8 *)*puVar13;
+                        uStack_c0 = puVar13[1];
+                        local_b8 = puVar13[2];
+                        uStack_b0 = puVar13[3];
+                        puVar13[2] = 0;
+                        puVar13[3] = 0xf;
+                        *(undefined1 *)puVar13 = 0;
+                      }
+                      uVar17 = CONCAT44(uStack_8c,uStack_90);
+                      if (0xf < uVar17) {
+                        if (0xfff < uVar17 + 1) {
+                          uVar17 = uVar17 + 0x28;
+                          puVar16 = *(undefined8 **)(CONCAT44(uStack_a4,local_a8) + -8);
+                          if (0x1f < (CONCAT44(uStack_a4,local_a8) - (longlong)puVar16) - 8U) {
+LAB_18010510f:
+                    /* WARNING: Subroutine does not return */
+                            FUN_1802e2aa4(puVar16,uVar17);
+                          }
+                        }
+                        thunk_FUN_1802e2b1c();
+                      }
+                    }
+                  }
+                  local_a8 = (undefined4)local_c8;
+                  uStack_a4 = local_c8._4_4_;
+                  uStack_a0 = (undefined4)uStack_c0;
+                  uStack_9c = uStack_c0._4_4_;
+                  local_98 = (undefined4)local_b8;
+                  uStack_94 = local_b8._4_4_;
+                  uStack_90 = (undefined4)uStack_b0;
+                  uStack_8c = uStack_b0._4_4_;
+                  local_b8 = 0;
+                  uStack_b0 = 0xf;
+                  local_c8 = (undefined8 *)((ulonglong)local_c8 & 0xffffffffffffff00);
+                  FUN_18008b6b0(&local_78,&local_a8);
+                  local_50 = 1;
+                  local_e8 = 0;
+                  local_a8 = (undefined4)local_78;
+                  uStack_a4 = local_78._4_4_;
+                  uStack_a0 = uStack_70;
+                  uStack_9c = uStack_6c;
+                  local_98 = (uint)local_68;
+                  uStack_94 = local_68._4_4_;
+                  uStack_90 = (undefined4)uStack_60;
+                  uStack_8c = uStack_60._4_4_;
+                  local_68 = 0;
+                  uStack_60 = 0xf;
+                  local_78 = (undefined **)((ulonglong)local_78 & 0xffffffffffffff00);
+                  local_88 = local_58;
+                  local_80 = 1;
+                  local_580 = local_120;
+                  local_588 = (char *)CONCAT71(local_588._1_7_,1);
+                  FUN_180095510(param_1 + 0x58,lVar4,&local_a8,0);
+                  uVar22 = local_564;
+                  if (0xf < uStack_b0) {
+                    if ((0xfff < uStack_b0 + 1) &&
+                       (0x1f < ((longlong)local_c8 - *(longlong *)((longlong)local_c8 - 8)) - 8U)) {
+                    /* WARNING: Subroutine does not return */
+                      FUN_1802e2aa4();
+                    }
+                    thunk_FUN_1802e2b1c();
+                    uVar22 = local_564;
+                  }
+                }
+                else {
+                  FUN_1800104b0(&local_a8,*(ulonglong *)(puVar3 + 0x18) & 0xfffffffffffffffc);
+                  FUN_1800f7620(param_1);
+                  uVar22 = local_564;
+                }
+              }
+            }
+            break;
+          case 2:
+            ppuVar15 = &PTR_vftable_1804149f8;
+            if (*(undefined ***)(puVar3 + 0x38) != (undefined **)0x0) {
+              ppuVar15 = *(undefined ***)(puVar3 + 0x38);
+            }
+            if ((*(int *)(ppuVar15 + 4) == 0) &&
+               (local_564 = uVar22 & 0xff, uVar22 = local_564, puVar3[0xac] != '\0')) {
+              local_564 = 1;
+              uVar22 = local_564;
+            }
+            if (local_2c0 != '\0') {
+              local_448 = "Candidate detail is filtered out: successor.";
+              local_440 = 0x2c;
+              local_580 = &local_448;
+              local_588 = "WeTypeDll";
+              FUN_180084e30(2,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                            ,0x5ff,"wetype::win32::tsf::TipTextServiceImpl::onServerResp");
+              if (local_2c0 != '\0') {
+                if (local_388 != puVar3) {
+                  if ((local_380 & 1) == 0) {
+                    puVar13 = (undefined8 *)(CONCAT71(uStack_37f,local_380) & 0xfffffffffffffffe);
+                  }
+                  else {
+                    puVar13 = *(undefined8 **)(CONCAT71(uStack_37f,local_380) & 0xfffffffffffffffe);
+                  }
+                  puVar16 = (undefined8 *)(*(ulonglong *)(puVar3 + 8) & 0xfffffffffffffffe);
+                  if ((puVar3[8] & 1) != 0) {
+                    puVar16 = (undefined8 *)*puVar16;
+                  }
+                  if (puVar13 == puVar16) {
+                    FUN_180055390();
+                  }
+                  else {
+                    FUN_180054f90(local_388);
+                  }
+                }
+                local_568 = '\x01';
+                goto LAB_1801048bb;
+              }
+            }
+            FUN_1800e2650(local_388);
+            local_2c0 = '\x01';
+            local_568 = '\x01';
+            goto LAB_1801048bb;
+          case 3:
+            ppuVar15 = &PTR_vftable_180415658;
+            if (*(undefined ***)(puVar3 + 0x40) != (undefined **)0x0) {
+              ppuVar15 = *(undefined ***)(puVar3 + 0x40);
+            }
+            if ((*(int *)(ppuVar15 + 3) == 0) && (local_2c0 != '\0')) {
+              local_438 = "Candidate detail is filtered out: empty pending.";
+              local_430 = 0x30;
+              local_580 = &local_438;
+              local_588 = "WeTypeDll";
+              FUN_180084e30(2,
+                            "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                           );
+              if (local_2c0 != '\0') {
+                FUN_180054b10(local_388);
+                local_2c0 = '\0';
+              }
+            }
+            if (local_1f0 != '\0') {
+              local_428 = "Pending detail is filtered out: successor.";
+              local_420 = 0x2a;
+              local_580 = &local_428;
+              local_588 = "WeTypeDll";
+              FUN_180084e30(2);
+              if (local_1f0 != '\0') {
+                if (local_2b8 != puVar3) {
+                  if ((local_2b0 & 1) == 0) {
+                    puVar13 = (undefined8 *)(CONCAT71(uStack_2af,local_2b0) & 0xfffffffffffffffe);
+                  }
+                  else {
+                    puVar13 = *(undefined8 **)(CONCAT71(uStack_2af,local_2b0) & 0xfffffffffffffffe);
+                  }
+                  puVar16 = (undefined8 *)(*(ulonglong *)(puVar3 + 8) & 0xfffffffffffffffe);
+                  if ((puVar3[8] & 1) != 0) {
+                    puVar16 = (undefined8 *)*puVar16;
+                  }
+                  if (puVar13 == puVar16) {
+                    FUN_180055390();
+                  }
+                  else {
+                    FUN_180054f90(local_2b8);
+                  }
+                }
+                local_568 = '\0';
+                goto LAB_1801048bb;
+              }
+            }
+            FUN_1800e2650(local_2b8);
+            local_1f0 = '\x01';
+            local_568 = '\0';
+            goto LAB_1801048bb;
+          case 4:
+            FUN_180054ff0(param_1 + 0x380);
+            if ((*(uint *)(puVar3 + 0x10) >> 0x1c & 1) != 0) {
+              FUN_1800c86f0(puVar3[0xc5]);
+            }
+            if ((*(uint *)(puVar3 + 0x10) >> 0x1d & 1) != 0) {
+              FUN_1800c89d0(puVar3[0xc6]);
+            }
+            *(uint *)(puVar3 + 0x10) = *(uint *)(puVar3 + 0x10) | 0x40;
+            pppuVar12 = *(undefined ****)(puVar3 + 0x48);
+            if (pppuVar12 == (undefined ***)0x0) {
+              puVar13 = (undefined8 *)(*(ulonglong *)(puVar3 + 8) & 0xfffffffffffffffe);
+              if ((puVar3[8] & 1) != 0) {
+                puVar13 = (undefined8 *)*puVar13;
+              }
+              pppuVar12 = (undefined ***)FUN_180050ec0(puVar13);
+              *(undefined ****)(puVar3 + 0x48) = pppuVar12;
+            }
+            FUN_180053650(&local_408);
+            local_408 = wetype::commands::GlobalTypeConfig::vftable;
+            if (&local_408 != pppuVar12) {
+              if ((local_400 & 1) == 0) {
+                puVar13 = (undefined8 *)(local_400 & 0xfffffffffffffffe);
+              }
+              else {
+                puVar13 = *(undefined8 **)(local_400 & 0xfffffffffffffffe);
+              }
+              puVar16 = (undefined8 *)((ulonglong)pppuVar12[1] & 0xfffffffffffffffe);
+              if (((ulonglong)pppuVar12[1] & 1) != 0) {
+                puVar16 = (undefined8 *)*puVar16;
+              }
+              if (puVar13 == puVar16) {
+                FUN_1800552f0();
+              }
+              else {
+                FUN_180054ea0(&local_408);
+              }
+            }
+            local_408 = wetype::commands::GlobalTypeConfig::vftable;
+            local_d8 = &local_408;
+            if ((undefined ***)(param_1 + 0x330) != &local_408) {
+              puVar13 = (undefined8 *)(*(ulonglong *)(param_1 + 0x338) & 0xfffffffffffffffe);
+              if ((*(byte *)(param_1 + 0x338) & 1) != 0) {
+                puVar13 = (undefined8 *)*puVar13;
+              }
+              if ((local_400 & 1) == 0) {
+                puVar16 = (undefined8 *)(local_400 & 0xfffffffffffffffe);
+              }
+              else {
+                puVar16 = *(undefined8 **)(local_400 & 0xfffffffffffffffe);
+              }
+              if (puVar13 == puVar16) {
+                FUN_1800552f0();
+              }
+              else {
+                FUN_180054ea0((undefined ***)(param_1 + 0x330));
+              }
+            }
+            FUN_1800feb50(param_1);
+            FUN_1800548c0(&local_408);
+            break;
+          case 8:
+            if (*(char *)(param_1 + 0x3c6) == '\0') {
+              if (*(char *)(param_1 + 0x433) == '\0') {
+                uVar21 = puVar3[0xad];
+              }
+              else {
+                uVar21 = *(undefined1 *)(param_1 + 0x3c7);
+              }
+              if ((*(char *)(param_1 + 0x432) == '\0') || (*(char *)(param_1 + 0x433) != '\0')) {
+                cVar5 = *(char *)(param_1 + 0x3c8);
+              }
+              else {
+                cVar5 = puVar3[0xae];
+              }
+              local_528._0_2_ = CONCAT11(1,uVar21);
+              uStack_520 = uStack_520 & 0xffffff00;
+              uStack_51c._0_2_ = CONCAT11(1,cVar5 == '\0');
+              local_548._0_4_ = local_528;
+              local_548._4_4_ = uStack_524;
+              uStack_540 = uStack_520;
+              uStack_53c = uStack_51c;
+              (**(code **)(*(longlong *)(param_1 + 0x58) + 0x128))(param_1 + 0x58,&local_548);
+              FUN_1800f1420(param_1,uVar21);
+              (**(code **)(*(longlong *)(param_1 + 0x58) + 0x130))(param_1 + 0x58);
+              *(undefined2 *)(param_1 + 0x432) = 1;
+              uVar22 = local_564;
+            }
+            else {
+              if ((*(char *)(param_1 + 0x432) == '\0') || (*(char *)(param_1 + 0x433) != '\0')) {
+                uVar18 = *(byte *)(param_1 + 0x3c7) | 0x100;
+                if (*(char *)(param_1 + 0x432) != '\0') goto LAB_180104dc9;
+LAB_180104de0:
+                uVar19 = 0x101 - (*(char *)(param_1 + 0x3c8) != '\0');
+              }
+              else {
+                local_560 = local_560 & 0xff;
+                uVar18 = local_560;
+LAB_180104dc9:
+                if (*(char *)(param_1 + 0x433) != '\0') goto LAB_180104de0;
+                local_55e = local_55e & 0xff;
+                uVar19 = local_55e;
+              }
+              local_508 = CONCAT22(local_508._2_2_,uVar18);
+              uStack_500 = uStack_500 & 0xffffff00;
+              uStack_4fc = CONCAT22(uStack_4fc._2_2_,uVar19);
+              local_548._0_4_ = local_508;
+              local_548._4_4_ = uStack_504;
+              uStack_540 = uStack_500;
+              uStack_53c = uStack_4fc;
+              (**(code **)(*(longlong *)(param_1 + 0x58) + 0x128))();
+              *(undefined2 *)(param_1 + 0x432) = 1;
+            }
+            break;
+          case 0xf:
+            FUN_180053c00(local_1e8,0);
+            local_1e8[0] = wetype::commands::RespBodyV1_Detail::vftable;
+            FUN_1800ec580(param_1);
+            break;
+          case 0x10:
+            local_418 = "show_clipboard_alert: {}";
+            local_410 = 0x18;
+            local_580 = &local_418;
+            local_588 = "WeTypeDll";
+            local_578 = (char *)(param_1 + 0x6a4);
+            FUN_1800b6d90(2,
+                          "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc"
+                          ,0x644,"wetype::win32::tsf::TipTextServiceImpl::onServerResp");
+            if (*(char *)(param_1 + 0x6a4) != '\0') {
+              *(uint *)(puVar3 + 0x10) = *(uint *)(puVar3 + 0x10) | 0x1000;
+              pppuVar12 = *(undefined ****)(puVar3 + 0x78);
+              if (pppuVar12 == (undefined ***)0x0) {
+                if ((puVar3[8] & 1) == 0) {
+                  uVar17 = *(ulonglong *)(puVar3 + 8) & 0xfffffffffffffffe;
+                }
+                else {
+                  uVar17 = *(ulonglong *)(*(ulonglong *)(puVar3 + 8) & 0xfffffffffffffffe);
+                }
+                pppuVar12 = (undefined ***)FUN_180050380(uVar17);
+                *(undefined ****)(puVar3 + 0x78) = pppuVar12;
+              }
+              FUN_180052ba0(&local_4f8,0);
+              local_4f8 = wetype::commands::ClipBoardList::vftable;
+              if (&local_4f8 != pppuVar12) {
+                if ((local_4f0 & 1) == 0) {
+                  puVar13 = (undefined8 *)(local_4f0 & 0xfffffffffffffffe);
+                }
+                else {
+                  puVar13 = *(undefined8 **)(local_4f0 & 0xfffffffffffffffe);
+                }
+                puVar16 = (undefined8 *)((ulonglong)pppuVar12[1] & 0xfffffffffffffffe);
+                if (((ulonglong)pppuVar12[1] & 1) != 0) {
+                  puVar16 = (undefined8 *)*puVar16;
+                }
+                if (puVar13 == puVar16) {
+                  FUN_1800551a0();
+                }
+                else {
+                  FUN_180054e40(&local_4f8,pppuVar12);
+                }
+              }
+              local_4f8 = wetype::commands::ClipBoardList::vftable;
+              FUN_180052ba0(&local_78,0);
+              local_78 = wetype::commands::ClipBoardList::vftable;
+              if ((uStack_70 & 1) == 0) {
+                uVar17 = CONCAT44(uStack_6c,uStack_70) & 0xfffffffffffffffe;
+              }
+              else {
+                uVar17 = *(ulonglong *)(CONCAT44(uStack_6c,uStack_70) & 0xfffffffffffffffe);
+              }
+              if ((local_4f0 & 1) == 0) {
+                uVar14 = local_4f0 & 0xfffffffffffffffe;
+              }
+              else {
+                uVar14 = *(ulonglong *)(local_4f0 & 0xfffffffffffffffe);
+              }
+              if (uVar17 == uVar14) {
+                FUN_1800551a0();
+              }
+              else {
+                FUN_180054e40(&local_78,&local_4f8);
+              }
+              local_78 = wetype::commands::ClipBoardList::vftable;
+              FUN_1800faa10(param_1,&local_78);
+              FUN_1800543f0(&local_4f8);
+            }
+          }
+LAB_1801048bb:
+          cVar5 = local_568;
+        }
+        local_538 = local_538 + 0x68;
+      } while (local_538 != local_518);
+      if (cVar5 == '\0') {
+        if (local_2c0 != '\0') {
+          uVar11 = FUN_1800e2650(local_1e8,local_388);
+          FUN_1800eaf00(param_1,uVar11,uVar22 & 0xff);
+        }
+        param_2 = local_558;
+        if (local_1f0 != '\0') {
+          uVar11 = FUN_1800e2650(local_1e8,local_2b8);
+          FUN_1800ebf40(param_1,uVar11);
+          param_2 = local_558;
+        }
+      }
+      else {
+        if (local_1f0 != '\0') {
+          uVar11 = FUN_1800e2650(local_1e8,local_2b8);
+          FUN_1800ebf40(param_1,uVar11);
+        }
+        param_2 = local_558;
+        if (local_2c0 != '\0') {
+          uVar11 = FUN_1800e2650(local_1e8,local_388);
+          FUN_1800eaf00(param_1,uVar11,uVar22 & 0xff);
+          param_2 = local_558;
+        }
+      }
+    }
+    if (local_1f0 != '\0') {
+      FUN_180054b10(local_2b8);
+    }
+    if (local_2c0 != '\0') {
+      FUN_180054b10(local_388);
+    }
+  }
+  FUN_1800e3520(param_2);
+  return;
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// FUNC FUN_1800e7bb0 @1800e7bb0  size=1320
+////////////////////////////////////////////////////////////////
+
+undefined8 FUN_1800e7bb0(longlong param_1)
+
+{
+  longlong *plVar1;
+  undefined8 *puVar2;
+  longlong lVar3;
+  char cVar4;
+  BOOL BVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  char *pcVar8;
+  char *pcVar9;
+  char *pcVar10;
+  undefined8 *puVar11;
+  longlong lVar12;
+  char *local_28;
+  char *pcStack_20;
+  
+  local_28 = "Deactivate";
+  pcStack_20 = &DAT_0000000a;
+  FUN_180084e30(2,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                0x360,"wetype::win32::tsf::TipTextServiceImpl::Deactivate","WeTypeDll",&local_28);
+  cVar4 = FUN_1800856f0();
+  if (cVar4 == '\0') {
+    if (*(char *)(param_1 + 0x2a4) == '\0') {
+      if (*(longlong *)(param_1 + 0x410) == 0) {
+        local_28 = "Deactivate: already deactivated";
+        pcStack_20 = (char *)0x1f;
+        FUN_180084e30(2,
+                      "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                      0x376,"wetype::win32::tsf::TipTextServiceImpl::Deactivate","WeTypeDll",
+                      &local_28);
+        return 0;
+      }
+      FUN_180115da0(param_1 + 0x608);
+      FUN_180106280(*(undefined8 *)(param_1 + 0x410),0);
+      FUN_180106290(*(undefined8 *)(param_1 + 0x410),0);
+      FUN_1800fb580(param_1,0);
+      lVar12 = *(longlong *)(param_1 + 0x4a0);
+      *(undefined8 *)(param_1 + 0x4a0) = 0;
+      if (lVar12 != 0) {
+        thunk_FUN_1802e2b1c(lVar12,0x10);
+      }
+      FUN_1800fb1e0(param_1,0);
+      (**(code **)(*(longlong *)(param_1 + 0x58) + 0xf8))(param_1 + 0x58);
+      FUN_1800c8c80("shutdown");
+      FUN_1800d4dc0();
+      lVar12 = param_1 + 0x58;
+      if (param_1 == 0) {
+        lVar12 = 0;
+      }
+      FUN_180110890(lVar12,1);
+      FUN_18010c770(lVar12,0);
+      puVar11 = *(undefined8 **)(param_1 + 0x2f8);
+      for (puVar2 = (undefined8 *)*puVar11; puVar2 != puVar11; puVar2 = (undefined8 *)*puVar2) {
+        FUN_1800dce90(puVar2[3] + 0x40,0);
+      }
+      FUN_1800fe4a0(param_1);
+      *(undefined1 *)(param_1 + 0x2e8) = 0;
+      FUN_1800d8210(param_1 + 0x2c0);
+      uVar6 = FUN_1800db640();
+      uVar7 = (**(code **)(*(longlong *)(param_1 + 0x58) + 0x88))(param_1 + 0x58);
+      FUN_180112ac0(uVar6,uVar7);
+      *(undefined8 *)(param_1 + 0x474) = 0;
+      *(undefined8 *)(param_1 + 0x480) = 0;
+      plVar1 = *(longlong **)(param_1 + 0x488);
+      if (plVar1 != (longlong *)0x0) {
+        *(undefined8 *)(param_1 + 0x488) = 0;
+        (**(code **)(*plVar1 + 0x10))();
+      }
+      plVar1 = *(longlong **)(param_1 + 0x490);
+      if (plVar1 != (longlong *)0x0) {
+        *(undefined8 *)(param_1 + 0x490) = 0;
+        (**(code **)(*plVar1 + 0x10))();
+      }
+      plVar1 = *(longlong **)(param_1 + 0x448);
+      if (plVar1 != (longlong *)0x0) {
+        *(undefined8 *)(param_1 + 0x448) = 0;
+        (**(code **)(*plVar1 + 0x10))();
+      }
+      *(undefined8 *)(param_1 + 0x450) = 0;
+      *(undefined8 *)(param_1 + 0x458) = 0;
+      *(undefined1 *)(param_1 + 0x460) = 0;
+      *(undefined8 *)(param_1 + 0x468) = 0;
+      FUN_1801032b0(param_1 + 0x2f0);
+      cVar4 = (**(code **)(*(longlong *)(param_1 + 0x58) + 0x28))(param_1 + 0x58);
+      if ((cVar4 == '\0') && (BVar5 = IsWindow(*(HWND *)(param_1 + 0x420)), BVar5 != 0)) {
+        DestroyWindow(*(HWND *)(param_1 + 0x420));
+        *(undefined8 *)(param_1 + 0x420) = 0;
+      }
+      BVar5 = IsWindow(*(HWND *)(param_1 + 0x418));
+      if (BVar5 != 0) {
+        FUN_1800e6950(param_1,"UninitTaskWindow");
+        FUN_1800e80e0(param_1,"UninitTaskWindow");
+        FUN_1800e6700(param_1,"UninitTaskWindow");
+        FUN_1800fe870(*(undefined8 *)(param_1 + 0x418));
+        lVar3 = *(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8);
+        if (*(char *)(lVar3 + 0xd4) == '\0') {
+          __dyn_tls_on_demand_init();
+        }
+        puVar11 = (undefined8 *)(lVar3 + 0x20);
+        pcStack_20 = (char *)*puVar11;
+        pcVar8 = *(char **)(pcStack_20 + 8);
+        local_28 = pcStack_20;
+        if (pcVar8[0x19] == '\0') {
+          pcVar9 = pcVar8;
+          do {
+            if (*(ulonglong *)(pcVar9 + 0x20) < *(ulonglong *)(param_1 + 0x418)) {
+              pcVar10 = *(char **)(pcVar9 + 0x10);
+            }
+            else {
+              if ((pcStack_20[0x19] != '\0') &&
+                 (*(ulonglong *)(param_1 + 0x418) < *(ulonglong *)(pcVar9 + 0x20))) {
+                pcStack_20 = pcVar9;
+              }
+              pcVar10 = *(char **)pcVar9;
+              local_28 = pcVar9;
+            }
+            pcVar9 = pcVar10;
+          } while (pcVar10[0x19] == '\0');
+        }
+        if (pcStack_20[0x19] == '\0') {
+          pcVar8 = *(char **)pcStack_20;
+        }
+        if (pcVar8[0x19] == '\0') {
+          do {
+            if (*(ulonglong *)(param_1 + 0x418) < *(ulonglong *)(pcVar8 + 0x20)) {
+              pcVar9 = *(char **)pcVar8;
+              pcStack_20 = pcVar8;
+            }
+            else {
+              pcVar9 = *(char **)(pcVar8 + 0x10);
+            }
+            pcVar8 = pcVar9;
+          } while (pcVar9[0x19] == '\0');
+        }
+        FUN_180101af0(puVar11,&local_28);
+        DestroyWindow(*(HWND *)(param_1 + 0x418));
+        *(undefined8 *)(param_1 + 0x418) = 0;
+      }
+      plVar1 = *(longlong **)(param_1 + 0x2b0);
+      if (plVar1 != (longlong *)0x0) {
+        *(undefined8 *)(param_1 + 0x2b0) = 0;
+        (**(code **)(*plVar1 + 0x10))();
+      }
+      *(undefined4 *)(param_1 + 0x280) = 0;
+      plVar1 = *(longlong **)(param_1 + 0x278);
+      if (plVar1 != (longlong *)0x0) {
+        *(undefined8 *)(param_1 + 0x278) = 0;
+        (**(code **)(*plVar1 + 0x10))();
+      }
+      FUN_18010c6b0(lVar12);
+      FUN_18011d440(param_1 + 0x288);
+      FUN_18011d440(param_1 + 0x290);
+      FUN_18011d440(param_1 + 0x298);
+      lVar12 = *(longlong *)(param_1 + 0x410);
+      *(undefined8 *)(param_1 + 0x410) = 0;
+      if (lVar12 != 0) {
+        FUN_180106190(lVar12);
+        thunk_FUN_1802e2b1c(lVar12,8);
+      }
+      *(undefined1 *)(param_1 + 0x433) = 1;
+    }
+    else {
+      local_28 = "Deactivate: secure-mode activation was refused, skipping";
+      pcStack_20 = (char *)0x38;
+      FUN_180084e30(2,"E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\win32\\tip\\tip_text_service.cc",
+                    0x36a,"wetype::win32::tsf::TipTextServiceImpl::Deactivate","WeTypeDll",&local_28
+                   );
+      *(undefined1 *)(param_1 + 0x2a4) = 0;
+      lVar12 = *(longlong *)(param_1 + 0x410);
+      *(undefined8 *)(param_1 + 0x410) = 0;
+      if (lVar12 != 0) {
+        FUN_180106190(lVar12);
+        thunk_FUN_1802e2b1c(lVar12,8);
+      }
+      plVar1 = *(longlong **)(param_1 + 0x278);
+      if (plVar1 != (longlong *)0x0) {
+        *(undefined8 *)(param_1 + 0x278) = 0;
+        (**(code **)(*plVar1 + 0x10))();
+      }
+      *(undefined4 *)(param_1 + 0x280) = 0;
+      *(undefined4 *)(param_1 + 0x2a0) = 0;
+    }
+    if ((DAT_180434558 == '\0') && (DAT_18041fa80 != 0xffffffff)) {
+      TlsSetValue(DAT_18041fa80,(LPVOID)0x0);
+    }
+  }
+  return 0;
+}
+
+
+
+// decompiled 9 functions

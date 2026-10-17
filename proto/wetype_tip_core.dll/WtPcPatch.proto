@@ -1,0 +1,19 @@
+// file: WtPcPatch.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtPcPatchErrorType.proto']
+package com.tencent.wrbus.pb;
+message WtPcPatch {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string local_version = 2;
+  optional string patch_version = 3;
+  optional int64 unexpected_user_input = 4;
+  optional enum<.com.tencent.wrbus.pb.WtPcPatchErrorType> result = 5;
+  optional string context = 6;
+  optional int64 launch_time = 7;
+  optional int64 prepare_duration_ms = 8;
+  optional int64 copy_file_duration_ms = 9;
+  optional int64 update_ver_duration_ms = 10;
+  optional int64 clear_file_duration_ms = 11;
+  optional int64 total_duration_ms = 12;
+  optional string cpu_name = 13;
+  optional string cpu_detail = 14;
+  optional int64 firewall_duration_ms = 15;
+}

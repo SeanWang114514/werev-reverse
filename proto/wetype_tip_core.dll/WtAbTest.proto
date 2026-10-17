@@ -1,0 +1,15 @@
+// file: WtAbTest.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['WtAbTestCommon.proto']
+package com.tencent.wrbus.pb;
+message AbExptQueryReq {
+  optional uint32 version = 1;
+  optional string vid = 2;
+  optional enum<.com.tencent.wrbus.pb.ABTestOsType> os_type = 3;
+  optional message<.com.tencent.wrbus.pb.ABTestDeviceInfo> device_info = 4;
+  optional message<.com.tencent.wrbus.pb.ABTestUserUsageStatus> user_usage_status = 5;
+  optional message<.com.tencent.wrbus.pb.ABTestClientVersion> client_version = 6;
+  optional enum<.com.tencent.wrbus.pb.ABTestKeyboardType> keyboard_type = 7;
+}
+message AbExptQueryRsp {
+  optional message<.com.tencent.wrbus.pb.ABTestStatus> status = 1;
+  optional message<.com.tencent.wrbus.pb.ABTestHitDetailInfo> expt_infos = 2;
+}

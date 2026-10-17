@@ -1,0 +1,11 @@
+// file: WtAiQuestionSource.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtAiQuestionSource {
+  wt_ai_question_source_invalid = 0;
+  wt_ai_question_source_esc = 1;
+  wt_ai_question_source_delete = 2;
+  wt_ai_question_source_else_panel = 3;
+  wt_ai_question_source_else = 4;
+  wt_ai_question_source_return = 5;
+  wt_ai_question_source_input = 6;
+}

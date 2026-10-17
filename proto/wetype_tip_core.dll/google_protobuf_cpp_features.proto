@@ -1,0 +1,5 @@
+// file: google/protobuf/cpp_features.proto  package: pb  syntax: proto2  deps: ['google/protobuf/descriptor.proto']
+package pb;
+message CppFeatures {
+  optional bool legacy_closed_enum = 1;
+}

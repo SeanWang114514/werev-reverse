@@ -1,0 +1,9 @@
+// file: WtPerformanceProcessType.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtPerformanceProcessType {
+  process_app = 0;
+  process_keyboard = 1;
+  process_server = 2;
+  process_update = 3;
+  process_render = 4;
+}

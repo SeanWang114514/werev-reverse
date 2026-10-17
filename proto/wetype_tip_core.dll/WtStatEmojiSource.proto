@@ -1,0 +1,12 @@
+// file: WtStatEmojiSource.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatEmojiSource {
+  wt_emoji_source_invalid = 0;
+  wt_emoji_source_bubble = 1;
+  wt_emoji_source_logo = 2;
+  wt_emoji_source_keyboard = 3;
+  wt_emoji_source_pending = 4;
+  wt_emoji_source_association = 5;
+  wt_emoji_source_number = 6;
+  wt_emoji_source_toolbar = 7;
+}

@@ -1,0 +1,31 @@
+// file: WtStatEmojiUserActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtStatEmojiQueryStatus.proto', 'WtStatEmojiSource.proto', 'WtKeyboardType.proto', 'WtStatEmojiExitSource.proto', 'WtStatEmojiAction.proto']
+package com.tencent.wrbus.pb;
+message WtStatEmojiUserActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiAction> action = 2;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiQueryStatus> query_status = 3;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiSource> enter_source = 4;
+  optional string tab_name = 5;
+  optional int64 tab_index = 6;
+  optional string dict_infos = 7;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 8;
+  optional string engine_version = 9;
+  optional int64 tab_id = 10;
+  optional string send_id = 11;
+  optional string request_id = 12;
+  optional string item_id = 13;
+  optional string bundle_id = 14;
+  optional int64 recent_item_cnt = 15;
+  optional int64 frequent_item_cnt = 16;
+  optional int64 is_default = 17;
+  optional int64 item_cnt = 18;
+  optional string action_context = 19;
+  optional string item_name = 20;
+  optional int64 item_index = 21;
+  optional string pannel_result = 22;
+  optional string a_b_params = 23;
+  optional string item_text = 24;
+  optional string item_type = 25;
+  optional int64 synthetic_item_cnt = 26;
+  optional enum<.com.tencent.wrbus.pb.WtStatEmojiExitSource> exit_source = 27;
+}

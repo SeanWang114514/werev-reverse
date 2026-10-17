@@ -1,0 +1,19 @@
+// file: WtStatVoiceInputScene.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatVoiceInputScene {
+  voice_input_scene_other = 0;
+  voice_input_scene_space = 1;
+  voice_input_scene_right_corner_logo = 2;
+  voice_input_scene_panel = 3;
+  voice_input_scene_delete = 4;
+  voice_input_scene_send = 5;
+  voice_input_scene_defined = 6;
+  voice_input_scene_input_box = 7;
+  voice_input_scene_keyboard_number = 8;
+  voice_input_scene_space_press = 9;
+  voice_input_scene_withdraw_panel = 10;
+  voice_input_scene_ai_question_panel = 11;
+  voice_input_scene_pending = 12;
+  voice_input_scene_wechat_microphone = 13;
+  voice_input_scene_withdraw_panel_finish = 14;
+}

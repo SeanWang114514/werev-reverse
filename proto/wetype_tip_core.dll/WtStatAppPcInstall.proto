@@ -1,0 +1,15 @@
+// file: WtStatAppPcInstall.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtAppPcInstallSource.proto']
+package com.tencent.wrbus.pb;
+message WtStatAppPcInstall {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtAppPcInstallSource> source = 2;
+  optional string bundle_id = 3;
+  optional string cpu_type = 4;
+  optional int64 cpu_core_num = 5;
+  optional int64 disk_space_total = 6;
+  optional int64 disk_space_remain = 7;
+  optional int64 memory_total = 8;
+  optional int64 memory__remain = 9;
+  optional string cpu_name = 10;
+  optional string cpu_detail = 11;
+}

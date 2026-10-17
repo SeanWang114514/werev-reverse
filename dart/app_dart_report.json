@@ -1,0 +1,27 @@
+{
+ "headers": {
+  "vm_data": {
+   "magic": "0xdcdcf5f5",
+   "length": 3674,
+   "kind": 0,
+   "magic_ok": true
+  },
+  "iso_data": {
+   "magic": "0xdcdcf5f5",
+   "length": 1796363,
+   "kind": 0,
+   "magic_ok": true
+  }
+ },
+ "iso_string_count": 32312,
+ "iso_string_bytes": 1277330,
+ "pattern_counts": {
+  "package_uris": 1742,
+  "snake_case_ids": 1205,
+  "dart_uris": 216,
+  "urls": 13,
+  "dotted_paths": 107,
+  "file_uris": 2
+ },
+ "camel_count": 3590
+}

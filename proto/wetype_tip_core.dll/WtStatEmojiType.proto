@@ -1,0 +1,7 @@
+// file: WtStatEmojiType.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatEmojiType {
+  wt_emoji_type_invalid = 0;
+  wt_emoji_type_wechat = 1;
+  wt_emoji_type_emoji = 2;
+}

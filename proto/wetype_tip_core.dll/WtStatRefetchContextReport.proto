@@ -1,0 +1,19 @@
+// file: WtStatRefetchContextReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto']
+package com.tencent.wrbus.pb;
+message WtStatRefetchContextReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string bundle_id = 2;
+  optional int64 refetch_count = 3;
+  optional string a_b_params = 4;
+  optional string cycle_mode = 5;
+  optional string cycle_end_reason = 6;
+  optional int64 key_count = 7;
+  optional int64 content_mismatch_count = 8;
+  optional int64 punct_after_refetch_count = 9;
+  optional int64 english_boundary_count = 10;
+  optional int64 diff_rate_permille = 11;
+  optional int64 failed_refetch_count = 12;
+  optional int64 before_diff_rate_permille = 13;
+  optional int64 rollback_failed_count = 14;
+  optional int64 cursor_weighted_diff_rate_permille = 15;
+}

@@ -1,0 +1,355 @@
+{
+ "file": "wetype_tip.dll",
+ "size": 2484272,
+ "sha256": "b2410b40ab8ecc83907f40b54c224f50e76549ec61c9c176fd3d1fe65f356540",
+ "machine": "0x8664",
+ "timestamp": 1782291076,
+ "timestamp_iso": "2026-06-24T08:51:16Z",
+ "characteristics": "0x2022",
+ "subsystem": 2,
+ "dll": true,
+ "entrypoint": "0x1884e0",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 1962940,
+   "raw": "0x400",
+   "rawsize": 1963008,
+   "entropy": 6.46,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0x1e1000",
+   "vsize": 357646,
+   "raw": "0x1df800",
+   "rawsize": 357888,
+   "entropy": 5.794,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x239000",
+   "vsize": 61924,
+   "raw": "0x236e00",
+   "rawsize": 37376,
+   "entropy": 4.428,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x249000",
+   "vsize": 79872,
+   "raw": "0x240000",
+   "rawsize": 79872,
+   "entropy": 6.227,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "va": "0x25d000",
+   "vsize": 24904,
+   "raw": "0x253800",
+   "rawsize": 25088,
+   "entropy": 7.801,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x264000",
+   "vsize": 9072,
+   "raw": "0x259a00",
+   "rawsize": 9216,
+   "entropy": 5.438,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "ole32.dll",
+   "count": 5,
+   "funcs": [
+    "CoCreateInstance",
+    "CoInitializeEx",
+    "CoUninitialize",
+    "CoTaskMemFree",
+    "StringFromGUID2"
+   ]
+  },
+  {
+   "dll": "SHELL32.dll",
+   "count": 2,
+   "funcs": [
+    "SHCreateDirectoryExW",
+    "SHGetKnownFolderPath"
+   ]
+  },
+  {
+   "dll": "SHLWAPI.dll",
+   "count": 1,
+   "funcs": [
+    "PathFileExistsW"
+   ]
+  },
+  {
+   "dll": "KERNEL32.dll",
+   "count": 158,
+   "funcs": [
+    "GetTimeZoneInformation",
+    "SetStdHandle",
+    "ExitProcess",
+    "GetConsoleOutputCP",
+    "ReadConsoleW",
+    "GetConsoleMode",
+    "SetEnvironmentVariableW",
+    "DecodePointer",
+    "GetLastError",
+    "InitializeCriticalSectionEx",
+    "DeleteCriticalSection",
+    "IsDebuggerPresent",
+    "DebugBreak",
+    "OutputDebugStringW",
+    "CloseHandle",
+    "SetLastError",
+    "HeapAlloc",
+    "HeapFree",
+    "GetProcessHeap",
+    "ReleaseSemaphore",
+    "ReleaseMutex",
+    "WaitForSingleObject",
+    "WaitForSingleObjectEx",
+    "OpenSemaphoreW",
+    "CreateMutexExW",
+    "CreateSemaphoreExW",
+    "GetCurrentProcessId",
+    "GetCurrentThreadId",
+    "GetModuleFileNameA",
+    "GetModuleFileNameW",
+    "GetModuleHandleW",
+    "GetModuleHandleExW",
+    "GetProcAddress",
+    "FormatMessageW",
+    "WideCharToMultiByte",
+    "FreeLibrary",
+    "LoadLibraryExW",
+    "GetLocalTime",
+    "MultiByteToWideChar",
+    "SetEvent",
+    "ResetEvent",
+    "CreateEventExW",
+    "WaitForMultipleObjects",
+    "CreateThread",
+    "Sleep",
+    "GetSystemTime",
+    "SystemTimeToFileTime",
+    "GetEnvironmentVariableW",
+    "CreateFileW",
+    "GetCurrentProcess",
+    "GetPrivateProfileStringW",
+    "DeleteFileW",
+    "FindClose",
+    "FindFirstFileW",
+    "FindNextFileW",
+    "GetFileAttributesW",
+    "GetFileSize",
+    "GetFileSizeEx",
+    "GetFileTime",
+    "ReadFile",
+    "RemoveDirectoryW",
+    "SetEndOfFile",
+    "FlsAlloc",
+    "WriteFile",
+    "GetSystemTimeAsFileTime",
+    "LocalFree",
+    "CreateDirectoryW",
+    "SetFileInformationByHandle",
+    "GetFileInformationByHandleEx",
+    "RaiseException",
+    "GetFileAttributesExW",
+    "QueryPerformanceCounter",
+    "QueryPerformanceFrequency",
+    "UnmapViewOfFile",
+    "OutputDebugStringA",
+    "InitializeSRWLock",
+    "ReleaseSRWLockExclusive",
+    "AcquireSRWLockExclusive",
+    "InitializeConditionVariable",
+    "WakeConditionVariable",
+    "SleepConditionVariableSRW",
+    "GetModuleHandleA",
+    "GetSystemInfo",
+    "VirtualAlloc",
+    "GetLogicalProcessorInformation",
+    "WriteConsoleW",
+    "CreateEventW",
+    "SwitchToThread",
+    "GetThreadId",
+    "CreateSemaphoreA",
+    "CreateEventA",
+    "GetTickCount",
+    "DuplicateHandle",
+    "FormatMessageA",
+    "CreateFileA",
+    "SetFilePointer",
+    "MapViewOfFileEx",
+    "CreateFileMappingA",
+    "GetDiskFreeSpaceExW",
+    "DeviceIoControl",
+    "SetWaitableTimer",
+    "CreateWaitableTimerW",
+    "TlsAlloc",
+    "TlsGetValue",
+    "TlsSetValue",
+    "TlsFree",
+    "OpenEventA",
+    "WaitForMultipleObjectsEx",
+    "AreFileApisANSI",
+    "GetFileType",
+    "InitializeCriticalSectionAndSpinCount",
+    "InterlockedFlushSList",
+    "RtlUnwindEx",
+    "RtlPcToFileHeader",
+    "GetCPInfo",
+    "CompareStringEx",
+    "FlsGetValue",
+    "FlsSetValue",
+    "FlsFree",
+    "GetDateFormatW",
+    "GetTimeFormatW",
+    "CompareStringW",
+    "LCMapStringW",
+    "GetLocaleInfoW",
+    "IsValidLocale",
+    "GetUserDefaultLCID",
+    "EnumSystemLocalesW",
+    "FlushFileBuffers",
+    "HeapReAlloc",
+    "HeapSize",
+    "IsValidCodePage",
+    "GetACP",
+    "GetOEMCP",
+    "GetCommandLineA",
+    "GetCommandLineW",
+    "GetEnvironmentStringsW",
+    "FreeEnvironmentStringsW",
+    "GetStdHandle",
+    "SetFilePointerEx",
+    "LCMapStringEx",
+    "EncodePointer",
+    "FindFirstFileExW",
+    "GetLocaleInfoEx",
+    "GetStringTypeW",
+    "TryAcquireSRWLockExclusive",
+    "InitializeSListHead",
+    "GetStartupInfoW",
+    "IsProcessorFeaturePresent",
+    "EnterCriticalSection",
+    "LeaveCriticalSection",
+    "WakeAllConditionVariable",
+    "RtlCaptureContext",
+    "RtlLookupFunctionEntry",
+    "RtlVirtualUnwind",
+    "UnhandledExceptionFilter",
+    "SetUnhandledExceptionFilter",
+    "TerminateProcess",
+    "RtlUnwind"
+   ]
+  },
+  {
+   "dll": "USER32.dll",
+   "count": 1,
+   "funcs": [
+    "GetSystemMetrics"
+   ]
+  },
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 10,
+   "funcs": [
+    "RegCreateKeyExW",
+    "RegDeleteKeyW",
+    "RegEnumKeyExW",
+    "RegOpenKeyExW",
+    "RegSetValueExW",
+    "CryptAcquireContextW",
+    "CryptReleaseContext",
+    "RegCloseKey",
+    "RegGetValueW",
+    "CryptGenRandom"
+   ]
+  },
+  {
+   "dll": "dbghelp.dll",
+   "count": 1,
+   "funcs": [
+    "SymFromAddr"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "DllCanUnloadNow",
+   "addr": "0x6970"
+  },
+  {
+   "ord": 2,
+   "name": "DllGetClassObject",
+   "addr": "0x6980"
+  },
+  {
+   "ord": 3,
+   "name": "DllRegisterServer",
+   "addr": "0x6b90"
+  },
+  {
+   "ord": 4,
+   "name": "DllUnregisterServer",
+   "addr": "0x6c40"
+  },
+  {
+   "ord": 5,
+   "name": "__ASSERT",
+   "addr": "0x136640"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\workspace\\WeChatPinYin\\wxkb\\01_mozc\\cmake-build-x64-release\\win32\\shell\\wetype_tip_x64.pdb\u0000",
+   "guid": "1457598643",
+   "age": 1
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": [
+  {
+   "type": "RT_ICON",
+   "id": 3
+  },
+  {
+   "type": "RT_STRING",
+   "id": 6
+  },
+  {
+   "type": "RT_GROUP_ICON",
+   "id": 14
+  },
+  {
+   "type": "RT_VERSION",
+   "id": 16
+  },
+  {
+   "type": "RT_MANIFEST",
+   "id": 24
+  }
+ ]
+}

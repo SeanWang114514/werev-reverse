@@ -1,0 +1,46 @@
+// file: WtStatCandidateClickReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtKeyboardType.proto', 'WtStatCandidateScene.proto']
+package com.tencent.wrbus.pb;
+message WtStatCandidateClickReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string candidate_word = 2;
+  optional int64 candidate_index = 3;
+  optional int64 candidate_source = 4;
+  optional string candidate_input = 5;
+  optional string candidate_top_source = 6;
+  optional string candidate_top_words = 7;
+  optional string engine_version = 8;
+  optional string dict_info = 9;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 10;
+  optional int64 user_dict_size = 11;
+  optional string edittext_content = 12;
+  optional string app_name = 13;
+  optional enum<.com.tencent.wrbus.pb.WtStatCandidateScene> app_scene = 14;
+  optional string last_app_name = 15;
+  optional int64 client_performance_level = 16;
+  optional int64 cloud_service_version = 17;
+  optional int64 is_chat = 18;
+  optional string user_feature = 19;
+  optional int64 candidate_type = 20;
+  optional string candidate_top_type = 21;
+  optional string a_b_params = 22;
+  optional string label = 23;
+  optional int64 candidate_flag = 24;
+  optional string candidate_top_flag = 25;
+  optional int64 candidate_word_length = 26;
+  optional int64 candidate_strokes_num = 27;
+  optional int64 candidate_click_source = 28;
+  optional int64 duration = 29;
+  optional int64 engine_duration = 30;
+  optional string word_frequency_tag = 31;
+  optional int64 candidate_input_scene = 32;
+  optional int64 candidate_input_sequence_length = 33;
+  optional string request_id = 34;
+  optional double user_dict_usage = 35;
+  optional int64 is_single_top_50 = 36;
+  optional string a_b_hits = 37;
+  optional int64 typing_num = 38;
+  optional string exposure_candidate_extra_infos = 39;
+  optional string click_candidate_extra_infos = 40;
+  optional string exposure_top5_records = 41;
+  optional int64 is_first_screen = 42;
+}

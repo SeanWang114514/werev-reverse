@@ -1,0 +1,338 @@
+### std  (63)
+    ?$_Associated_state@H
+    ?$_Binder@U_Unforced
+    ?$_ExceptionPtr_static@Vbad_alloc
+    ?$_ExceptionPtr_static@Vbad_exception
+    ?$_Func_base@X$$V
+    ?$_Func_base@XAEBVerror_code
+    ?$_Func_base@XV?$weak_ptr@X
+    ?$_Func_base@X_NI
+    ?$_Func_base@_NV?$weak_ptr@X
+    ?$_Func_impl_no_alloc@V?$_Binder@U_Unforced
+    ?$_Iosb@H
+    ?$_Ref_count_obj2@V?$basic_string@DU?$char_traits@D
+    ?$_Ref_count_obj2@Vthread
+    ?$basic_filebuf@DU?$char_traits@D
+    ?$basic_ios@DU?$char_traits@D
+    ?$basic_iostream@DU?$char_traits@D
+    ?$basic_istream@DU?$char_traits@D
+    ?$basic_istringstream@DU?$char_traits@D
+    ?$basic_ostream@DU?$char_traits@D
+    ?$basic_ostringstream@DU?$char_traits@D
+    ?$basic_streambuf@DU?$char_traits@D
+    ?$basic_streambuf@V?$allocator@D
+    ?$basic_stringbuf@DU?$char_traits@D
+    ?$basic_stringstream@DU?$char_traits@D
+    ?$clone_impl@U?$error_info_injector@Vlength_error
+    ?$clone_impl@U?$error_info_injector@Vruntime_error
+    ?$ctype@D
+    ?$error_info_injector@Vlength_error
+    ?$error_info_injector@Vruntime_error
+    ?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D
+    ?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D
+    ?$numpunct@D
+    ?$verify_callback@V?$_Binder@U_Unforced
+    ?$wrapexcept@Vlength_error
+    ?$wrapexcept@Vruntime_error
+    _Crt_new_delete
+    _Facet_base
+    _Future_error_category2
+    _Generic_error_category
+    _Iostream_error_category2
+    _Ref_count_base
+    _System_error
+    _System_error_category
+    __non_rtti_object
+    bad_alloc
+    bad_array_new_length
+    bad_cast
+    bad_exception
+    bad_function_call
+    bad_typeid
+    bad_weak_ptr
+    codecvt_base
+    ctype_base
+    error_category
+    exception
+    future_error
+    invalid_argument
+    ios_base
+    length_error
+    logic_error
+    out_of_range
+    runtime_error
+    system_error
+### websocketpp::config  (30)
+    ?$_Ref_count_obj2@V?$connection@Uasio
+    ?$_Ref_count_obj2@V?$connection@Uasio_client
+    ?$_Ref_count_obj2@V?$connection@Uasio_tls_client
+    ?$_Ref_count_obj2@V?$hybi00@Uasio
+    ?$_Ref_count_obj2@V?$hybi00@Uasio_client
+    ?$_Ref_count_obj2@V?$hybi00@Uasio_tls_client
+    ?$_Ref_count_obj2@V?$hybi07@Uasio
+    ?$_Ref_count_obj2@V?$hybi07@Uasio_client
+    ?$_Ref_count_obj2@V?$hybi07@Uasio_tls_client
+    ?$_Ref_count_obj2@V?$hybi08@Uasio
+    ?$_Ref_count_obj2@V?$hybi08@Uasio_client
+    ?$_Ref_count_obj2@V?$hybi08@Uasio_tls_client
+    ?$_Ref_count_obj2@V?$hybi13@Uasio
+    ?$_Ref_count_obj2@V?$hybi13@Uasio_client
+    ?$_Ref_count_obj2@V?$hybi13@Uasio_tls_client
+    ?$hybi00@Uasio
+    ?$hybi00@Uasio_client
+    ?$hybi00@Uasio_tls_client
+    ?$hybi07@Uasio
+    ?$hybi07@Uasio_client
+    ?$hybi07@Uasio_tls_client
+    ?$hybi08@Uasio
+    ?$hybi08@Uasio_client
+    ?$hybi08@Uasio_tls_client
+    ?$hybi13@Uasio
+    ?$hybi13@Uasio_client
+    ?$hybi13@Uasio_tls_client
+    ?$processor@Uasio
+    ?$processor@Uasio_client
+    ?$processor@Uasio_tls_client
+### (global)  (29)
+    ?$_Func_impl_no_alloc@V<lambda_0257b8e71bb7bd70c1fd7c4b6ee231b1>
+    ?$_Func_impl_no_alloc@V<lambda_16c3124cb7f66bf115ab17f1b9567177>
+    ?$_Func_impl_no_alloc@V<lambda_1d74ca38e4947aec92460df9ccb3b0cd>
+    ?$_Func_impl_no_alloc@V<lambda_21c90acf34e5b0ea24457c9a3f57ed63>
+    ?$_Func_impl_no_alloc@V<lambda_22b12f9a090f1208466cc3a9ea4a11cb>
+    ?$_Func_impl_no_alloc@V<lambda_24506ac6e811acbbd7bf787215365963>
+    ?$_Func_impl_no_alloc@V<lambda_3377e01957d500a6605e64c402c7da6e>
+    ?$_Func_impl_no_alloc@V<lambda_35f8e4f551ed74833b732ac989ee45d3>
+    ?$_Func_impl_no_alloc@V<lambda_58ccb645c782c8f79abde3b35ad48247>
+    ?$_Func_impl_no_alloc@V<lambda_5ce1ddeb5acc5c30dc093baeabf4ead4>
+    ?$_Func_impl_no_alloc@V<lambda_660945140e3cb7c62741c4529f77cacc>
+    ?$_Func_impl_no_alloc@V<lambda_6787fc0ce31c45d74d19ff9728568761>
+    ?$_Func_impl_no_alloc@V<lambda_67d24fbcae6ad9337d2d0d60a1b45404>
+    ?$_Func_impl_no_alloc@V<lambda_792bcd3df92ba3381b1ac078daa0ee6b>
+    ?$_Func_impl_no_alloc@V<lambda_7c0b835ed9d06702dc02b7f65e8b309a>
+    ?$_Func_impl_no_alloc@V<lambda_8970844f4f62a20654cc5e5c1f8b07ff>
+    ?$_Func_impl_no_alloc@V<lambda_91c7958eca801eadca4576040bb00172>
+    ?$_Func_impl_no_alloc@V<lambda_990de9aefaef2f75d93435655c6dd412>
+    ?$_Func_impl_no_alloc@V<lambda_9a2b44aaad87ca375e5dd5dab015f751>
+    ?$_Func_impl_no_alloc@V<lambda_abbeac2c9c8a403c18d639908ff109c2>
+    ?$_Func_impl_no_alloc@V<lambda_b99a740d695e635c3a010b3a7d896121>
+    ?$_Func_impl_no_alloc@V<lambda_bae0c7691c217b8bc6952cdb041c2515>
+    ?$_Func_impl_no_alloc@V<lambda_c8e4cbbd322a6f74745651cb081f81ff>
+    ?$_Func_impl_no_alloc@V<lambda_d56859f64e30d7e16e86fadfdae845b3>
+    ?$_Func_impl_no_alloc@V<lambda_db8ee35532a6fb7c08b9e6de2aa6c41a>
+    ?$_Func_impl_no_alloc@V<lambda_f23fa89be4b32ee30fd729b791f26c0b>
+    ?$_Func_impl_no_alloc@V<lambda_f5105ebf93728531b8456571a9826145>
+    ?$codecvt@DDU_Mbstatet
+    type_info
+### wcwss  (28)
+    ?$_Func_base@XAEBUHappyEyeballsResult
+    ?$_Ref_count@VHappyEyeballsConnector
+    ?$_Ref_count_obj2@V?$connection@Udeflate_no_tls_config
+    ?$_Ref_count_obj2@V?$connection@Udeflate_tls_config
+    ?$_Ref_count_obj2@V?$hybi00@Udeflate_no_tls_config
+    ?$_Ref_count_obj2@V?$hybi00@Udeflate_tls_config
+    ?$_Ref_count_obj2@V?$hybi07@Udeflate_no_tls_config
+    ?$_Ref_count_obj2@V?$hybi07@Udeflate_tls_config
+    ?$_Ref_count_obj2@V?$hybi08@Udeflate_no_tls_config
+    ?$_Ref_count_obj2@V?$hybi08@Udeflate_tls_config
+    ?$_Ref_count_obj2@V?$hybi13@Udeflate_no_tls_config
+    ?$_Ref_count_obj2@V?$hybi13@Udeflate_tls_config
+    ?$_Ref_count_obj2@VTaskContext
+    ?$_Ref_count_obj2@Vconnection_metadata
+    ?$_Ref_count_obj2@Vwebsocket_endpoint
+    ?$hybi00@Udeflate_no_tls_config
+    ?$hybi00@Udeflate_tls_config
+    ?$hybi07@Udeflate_no_tls_config
+    ?$hybi07@Udeflate_tls_config
+    ?$hybi08@Udeflate_no_tls_config
+    ?$hybi08@Udeflate_tls_config
+    ?$hybi13@Udeflate_no_tls_config
+    ?$hybi13@Udeflate_tls_config
+    ?$processor@Udeflate_no_tls_config
+    ?$processor@Udeflate_tls_config
+    Observer
+    WssClientMgr
+    websocket_endpoint
+### boost::asio::detail  (18)
+    ?$execution_context_service_base@Vselect_reactor
+    ?$execution_context_service_base@Vstrand_executor_service
+    ?$execution_context_service_base@Vwin_iocp_io_context
+    ?$service_base@Vstrand_service
+    ?$timer_queue@Uforwarding_posix_time_traits
+    ?$typeid_wrapper@Vselect_reactor
+    ?$typeid_wrapper@Vstrand_executor_service
+    ?$typeid_wrapper@Vstrand_service
+    ?$typeid_wrapper@Vwin_iocp_io_context
+    noncopyable
+    resolver_service_base
+    select_reactor
+    strand_executor_service
+    strand_service
+    thread_context
+    timer_queue_base
+    win_iocp_io_context
+    win_iocp_socket_service_base
+### boost::asio::ip  (16)
+    ?$_Ref_count@V?$basic_resolver@Vtcp
+    ?$_Ref_count@V?$basic_socket_acceptor@Vtcp
+    ?$_Ref_count@V?$basic_stream_socket@Vtcp
+    ?$_Ref_count@V?$stream@V?$basic_stream_socket@Vtcp
+    ?$_Ref_count@V?$vector@V?$basic_resolver_entry@Vtcp
+    ?$_Ref_count_obj2@V?$basic_stream_socket@Vtcp
+    ?$clone_impl@U?$error_info_injector@Vbad_address_cast
+    ?$error_info_injector@Vbad_address_cast
+    ?$execution_context_service_base@V?$resolver_service@Vtcp
+    ?$execution_context_service_base@V?$win_iocp_socket_service@Vtcp
+    ?$resolver_service@Vtcp
+    ?$typeid_wrapper@V?$resolver_service@Vtcp
+    ?$typeid_wrapper@V?$win_iocp_socket_service@Vtcp
+    ?$win_iocp_socket_service@Vtcp
+    ?$wrapexcept@Vbad_address_cast
+    bad_address_cast
+### boost::gregorian  (12)
+    ?$clone_impl@U?$error_info_injector@Ubad_day_of_month
+    ?$clone_impl@U?$error_info_injector@Ubad_month
+    ?$clone_impl@U?$error_info_injector@Ubad_year
+    ?$error_info_injector@Ubad_day_of_month
+    ?$error_info_injector@Ubad_month
+    ?$error_info_injector@Ubad_year
+    ?$wrapexcept@Ubad_day_of_month
+    ?$wrapexcept@Ubad_month
+    ?$wrapexcept@Ubad_year
+    bad_day_of_month
+    bad_month
+    bad_year
+### boost::asio  (12)
+    ?$clone_impl@U?$error_info_injector@Vbad_executor
+    ?$clone_impl@U?$error_info_injector@Vinvalid_service_owner
+    ?$clone_impl@U?$error_info_injector@Vservice_already_exists
+    ?$error_info_injector@Vbad_executor
+    ?$error_info_injector@Vinvalid_service_owner
+    ?$error_info_injector@Vservice_already_exists
+    ?$wrapexcept@Vbad_executor
+    ?$wrapexcept@Vinvalid_service_owner
+    ?$wrapexcept@Vservice_already_exists
+    bad_executor
+    invalid_service_owner
+    service_already_exists
+### owl  (8)
+    ?$async_function@$$A6AXXZ
+    callable
+    default_looper
+    dispatcher
+    dispatcher_base
+    executor
+    looper
+    thread_runnable
+### boost::asio::io_context  (7)
+    ?$_Ref_count@Vwork
+    ?$_Ref_count_obj2@Vstrand
+    ?$impl@V?$strand@Vexecutor_type
+    ?$impl@Vexecutor_type
+    ?$strand@Vexecutor_type
+    executor_type
+    service
+### boost::system  (6)
+    ?$_Func_base@XAEBVerror_code
+    ?$clone_impl@U?$error_info_injector@Vsystem_error
+    ?$error_info_injector@Vsystem_error
+    ?$wrapexcept@Vsystem_error
+    error_category
+    system_error
+### Concurrency::details  (6)
+    stl_condition_variable_interface
+    stl_condition_variable_vista
+    stl_condition_variable_win7
+    stl_critical_section_interface
+    stl_critical_section_vista
+    stl_critical_section_win7
+### std::chrono  (5)
+    ?$_Ref_count_obj2@V?$basic_waitable_timer@Usteady_clock
+    ?$deadline_timer_service@U?$chrono_time_traits@Usteady_clock
+    ?$execution_context_service_base@V?$deadline_timer_service@U?$chrono_time_traits@Usteady_clock
+    ?$timer_queue@U?$chrono_time_traits@Usteady_clock
+    ?$typeid_wrapper@V?$deadline_timer_service@U?$chrono_time_traits@Usteady_clock
+### boost::posix_time  (4)
+    ?$deadline_timer_service@U?$time_traits@Vptime
+    ?$execution_context_service_base@V?$deadline_timer_service@U?$time_traits@Vptime
+    ?$timer_queue@U?$time_traits@Vptime
+    ?$typeid_wrapper@V?$deadline_timer_service@U?$time_traits@Vptime
+### websocketpp  (3)
+    ?$_Ref_count@V?$basic@V0concurrency
+    ?$_Ref_count_obj2@Vuri
+    exception
+### boost::system::detail  (3)
+    generic_error_category
+    std_category
+    system_error_category
+### boost::asio::detail::socket_ops  (2)
+    ?$_Ref_count_resource@PEAXUnoop_deleter
+    noop_deleter
+### boost::asio::ssl  (2)
+    ?$_Func_base@V?$shared_ptr@Vcontext
+    ?$_Ref_count_obj2@Vcontext
+### websocketpp::message_buffer::alloc  (2)
+    ?$_Ref_count@V?$con_msg_manager@V?$message@Vcon_msg_manager
+    ?$_Ref_count_obj2@V?$message@Vcon_msg_manager
+### boost::asio::detail::win_iocp_io_context  (2)
+    ?$func@Uthread_function
+    ?$func@Utimer_thread_function
+### std::locale  (2)
+    _Locimp
+    facet
+### boost::asio::error::detail  (2)
+    misc_category
+    ssl_category
+### utils::CancellationToken  (1)
+    ?$_Ref_count@UControl
+### boost::asio::ssl::detail::openssl_init_base  (1)
+    ?$_Ref_count@Vdo_init
+### boost::asio::detail::strand_executor_service  (1)
+    ?$_Ref_count@Vstrand_impl
+### wcwss::HappyEyeballsConnector  (1)
+    ?$_Ref_count_obj2@UAttempt
+### websocketpp::config::asio_client::?$connection@Utransport_config  (1)
+    ?$_Ref_count_obj2@Uproxy_data
+### websocketpp::config::asio_tls_client::?$connection@Utransport_config  (1)
+    ?$_Ref_count_obj2@Uproxy_data
+### boost::asio::detail::select_reactor  (1)
+    ?$func@Vthread_function
+### boost::asio::detail::resolver_service_base  (1)
+    ?$func@Vwork_scheduler_runner
+### wcwss::connection_metadata  (1)
+    Observer
+### ?A0xad5a25bc  (1)
+    _ExceptionPtr_normal
+### websocketpp::transport::asio::error  (1)
+    category
+### websocketpp::extensions::permessage_deflate::error  (1)
+    category
+### websocketpp::transport::error  (1)
+    category
+### wcwss::error  (1)
+    category
+### websocketpp::error  (1)
+    category
+### boost::exception_detail  (1)
+    clone_base
+### boost  (1)
+    exception
+### websocketpp::http  (1)
+    exception
+### std::ios_base  (1)
+    failure
+### boost::asio::detail::win_thread  (1)
+    func_base
+### boost::asio::executor  (1)
+    impl_base
+### websocketpp::processor::error  (1)
+    processor_category
+### owl::thread  (1)
+    runnable
+### boost::asio::execution_context  (1)
+    service
+### websocketpp::transport::asio::socket  (1)
+    socket_category
+### boost::asio::ssl::error::detail  (1)
+    stream_category
+### boost::asio::ssl::detail  (1)
+    verify_callback_base

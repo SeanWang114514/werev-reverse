@@ -1,0 +1,26 @@
+// file: WtStatCommonTermsAction.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatCommonTermsAction {
+  wt_common_terms_invalid = 0;
+  wt_common_terms_add_window_exposure = 1;
+  wt_common_terms_add_window_click = 2;
+  wt_common_terms_success_window_exposure = 3;
+  wt_common_terms_success_window_click = 4;
+  wt_common_terms_first_add_click = 5;
+  wt_common_terms_add_click = 6;
+  wt_common_terms_terms_click = 7;
+  wt_common_terms_terms_add_quit = 8;
+  wt_common_terms_terms_add_confirm = 9;
+  wt_common_terms_edit_click = 10;
+  wt_common_terms_edit_long_click = 11;
+  wt_common_terms_delete_click = 12;
+  wt_common_terms_delete_confirm = 13;
+  wt_common_terms_candidate_exposure = 14;
+  wt_common_terms_candidate_click = 15;
+  wt_common_terms_association_exposure = 16;
+  wt_common_terms_association_click = 17;
+  wt_common_terms_terms_customize_add_confirm = 18;
+  wt_common_terms_panel_exposure = 19;
+  wt_common_terms_first_import_terms_click = 20;
+  wt_common_terms_import_terms_click = 21;
+}

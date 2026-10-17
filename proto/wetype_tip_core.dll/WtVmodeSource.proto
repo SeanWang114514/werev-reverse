@@ -1,0 +1,14 @@
+// file: WtVmodeSource.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtVmodeSource {
+  vmode_source_space = 0;
+  vmode_source_enter = 1;
+  vmode_source_click = 2;
+  vmode_source_tab = 3;
+  vmode_source_switch_left_right = 4;
+  vmode_source_esc = 5;
+  vmode_source_delete = 6;
+  vmode_source_else = 7;
+  vmode_source_emit = 8;
+  vmode_source_blank = 9;
+}

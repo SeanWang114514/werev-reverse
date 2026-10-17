@@ -1,0 +1,5 @@
+// file: SKBuiltinString_t.proto  package: com.tencent.wetype.pb  syntax: proto3  deps: -
+package com.tencent.wetype.pb;
+message SKBuiltinString_t {
+  optional string String = 1;
+}

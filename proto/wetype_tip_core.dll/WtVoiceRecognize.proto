@@ -1,0 +1,94 @@
+// file: WtVoiceRecognize.proto  package: com.tencent.wetype.pb  syntax: proto3  deps: ['BaseRequest.proto', 'BaseResponse.proto']
+package com.tencent.wetype.pb;
+message ImeVoiceRecognizeRequest {
+  optional message<.com.tencent.wetype.pb.BaseRequest> BaseRequest = 1;
+  optional string voice_id = 2;
+  optional uint32 scene = 3;
+  optional bytes voice_data = 4;
+  optional uint32 file_encode_type = 5;
+  optional bool is_end = 6;
+  optional uint32 seq = 7;
+  optional bytes last_buffer = 8;
+  optional bool ch_simp2trad = 9;
+}
+message ImeVoiceRecognizeResponse {
+  optional message<.com.tencent.wetype.pb.BaseResponse> BaseResponse = 1;
+  optional string voice_id = 2;
+  optional uint32 seq = 3;
+  optional string result_text = 4;
+  optional uint32 end_flag = 5;
+  optional uint32 interval = 6;
+  optional uint32 max_packet_size = 7;
+  optional bytes last_buffer = 8;
+}
+message ImeVoiceAssistantReq {
+  optional message<.com.tencent.wetype.pb.BaseRequest> BaseRequest = 1;
+  optional string voice_id = 2;
+  optional uint32 scene = 3;
+  optional bytes voice_data = 4;
+  optional uint32 file_encode_type = 5;
+  optional bool is_end = 6;
+  optional uint32 seq = 7;
+  optional bytes last_buffer = 8;
+  optional bool ch_simp2trad = 9;
+  repeated string words = 10;
+  optional int32 current_voice_total_bytes = 11;
+  optional message<.com.tencent.wetype.pb.ImeVoiceAssistantReq.TranslationOpt> translate_opt = 20;
+  optional bool need_translate = 21;
+  optional bool need_paragraph = 22;
+  optional bool need_reduce_redundancy = 23;
+  repeated message<.com.tencent.wetype.pb.ImeVoiceAssistantReq.ExptParamsEntry> expt_params = 50;
+  message TranslationOpt {
+    optional enum<.com.tencent.wetype.pb.TranslateLanguage> source_lang = 1;
+    optional enum<.com.tencent.wetype.pb.TranslateLanguage> target_lang = 2;
+    optional enum<.com.tencent.wetype.pb.TranslateMode> mode = 3;
+  }
+  message ExptParamsEntry {
+    optional string key = 1;
+    optional string value = 2;
+  }
+}
+message ImeVoiceAssistantRsp {
+  optional message<.com.tencent.wetype.pb.BaseResponse> BaseResponse = 1;
+  optional string voice_id = 2;
+  optional uint32 seq = 3;
+  optional string result_text = 4;
+  optional uint32 end_flag = 5;
+  optional uint32 interval = 6;
+  optional uint32 max_packet_size = 7;
+  optional bytes last_buffer = 8;
+  optional string translate_text = 9;
+  optional uint32 translate_frozen_offset = 10;
+  optional uint32 frozen_offset = 11;
+  optional uint32 cgi_timeout = 100;
+  optional uint32 cgi_retry_count = 101;
+  optional bool need_simplify = 200;
+  optional string button_text = 201;
+  optional string cancel_button_text = 202;
+  optional bytes extra_data = 300;
+}
+enum TranslateLanguage {
+  TL_AUTO = 0;
+  TL_CHINESE = 1;
+  TL_ENGLISH = 2;
+  TL_KOREAN = 3;
+  TL_JAPANESE = 4;
+  TL_ZH_HK = 5;
+  TL_VIETNAMESE = 6;
+  TL_ARABIC = 7;
+  TL_THAI = 8;
+  TL_SPANISH = 9;
+  TL_GERMAN = 10;
+  TL_MALAY = 11;
+  TL_ITALIAN = 12;
+  TL_PORTUGUESE = 13;
+  TL_INDONESIAN = 14;
+  TL_RUSSIAN = 15;
+  TL_TURKISH = 16;
+  TL_FRENCH = 17;
+  TL_OTHER = 100;
+}
+enum TranslateMode {
+  TranslateMode_NONE = 0;
+  TranslateMode_EN_CN = 1;
+}

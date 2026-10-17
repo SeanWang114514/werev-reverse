@@ -1,0 +1,72 @@
+// file: WtAbTestCommon.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+message ABTestStatus {
+  optional int32 code = 1;
+  optional string message = 2;
+}
+message ABTestHitedInfo {
+  optional enum<.com.tencent.wrbus.pb.ABTestHitedInfo.HitType> hit_type = 3;
+  optional uint32 expt_id = 1;
+  optional uint32 group_id = 2;
+  optional uint32 launch_layer_id = 4;
+  optional uint64 bucket_src = 5;
+  enum HitType {
+    Unknown = 0;
+    WhiteList = 1;
+    LaunchLayer = 2;
+    BaseAB = 3;
+    DefaultParam = 4;
+  }
+}
+message ABTestHitDetailInfo {
+  repeated message<.com.tencent.wrbus.pb.ABTestHitDetailInfo.Item> engine_item = 1;
+  repeated message<.com.tencent.wrbus.pb.ABTestHitDetailInfo.Item> client_item = 2;
+  message Item {
+    optional message<.com.tencent.wrbus.pb.ABTestHitedInfo> expt_info = 1;
+    repeated message<.com.tencent.wrbus.pb.ABTestHitDetailInfo.Item.ParamsEntry> params = 2;
+    message ParamsEntry {
+      optional string key = 1;
+      optional string value = 2;
+    }
+  }
+}
+message ABTestUserUsageStatus {
+  optional bool is_initial_installation = 1;
+}
+message ABTestClientVersion {
+  optional uint32 major = 1;
+  optional uint32 minor = 2;
+  optional uint32 patch = 3;
+  optional uint32 fix = 4;
+}
+message ABTestDeviceInfo {
+  optional string model = 1;
+  optional string brand = 2;
+  optional enum<.com.tencent.wrbus.pb.ABTestDevicePerformance> device_performance = 3;
+  optional string system_version = 4;
+}
+enum ABTestKeyboardType {
+  kUnKnowKeyboardType = 0;
+  kFullPinyin = 1;
+  kT9Pinyin = 2;
+  kFullEnglish = 3;
+  KHandWriting = 4;
+  KT9Stroke = 5;
+  KFullWubi = 6;
+}
+enum ABTestOsType {
+  kUnKnow = 0;
+  kAndroid = 1;
+  kIos = 2;
+  kApplet = 3;
+  kH5 = 4;
+  kMac = 5;
+  kWindows = 6;
+}
+enum ABTestDevicePerformance {
+  HIGH = 0;
+  STANDARD = 1;
+  LOW = 2;
+  INVALID = 100;
+  ULTRA_HIGH = 18446744073709551611;
+}

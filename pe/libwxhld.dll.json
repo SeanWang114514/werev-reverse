@@ -1,0 +1,1932 @@
+{
+ "file": "libwxhld.dll",
+ "size": 19676720,
+ "sha256": "7ba24c0e0db1c5119813ede7cc4a5e686b66533f4f9b538d85f92745fa901490",
+ "machine": "0x8664",
+ "timestamp": 1788772172,
+ "timestamp_iso": "2026-09-07T09:09:32Z",
+ "characteristics": "0x2022",
+ "subsystem": 3,
+ "dll": true,
+ "entrypoint": "0xbcbf78",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 14616828,
+   "raw": "0x400",
+   "rawsize": 14617088,
+   "entropy": 6.443,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0xdf2000",
+   "vsize": 3321218,
+   "raw": "0xdf0e00",
+   "rawsize": 3321344,
+   "entropy": 6.208,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x111d000",
+   "vsize": 1201200,
+   "raw": "0x111bc00",
+   "rawsize": 947200,
+   "entropy": 4.721,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x1243000",
+   "vsize": 665064,
+   "raw": "0x1203000",
+   "rawsize": 665088,
+   "entropy": 6.541,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "va": "0x12e6000",
+   "vsize": 480,
+   "raw": "0x12a5600",
+   "rawsize": 512,
+   "entropy": 4.723,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x12e7000",
+   "vsize": 113352,
+   "raw": "0x12a5800",
+   "rawsize": 113664,
+   "entropy": 5.476,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "WS2_32.dll",
+   "count": 26,
+   "funcs": [
+    "WSACleanup",
+    "gethostname",
+    "listen",
+    "htons",
+    "bind",
+    "accept",
+    "getnameinfo",
+    "freeaddrinfo",
+    "getaddrinfo",
+    "WSASocketW",
+    "WSAGetLastError",
+    "socket",
+    "shutdown",
+    "setsockopt",
+    "send",
+    "select",
+    "recv",
+    "ntohs",
+    "getsockopt",
+    "getpeername",
+    "ioctlsocket",
+    "connect",
+    "closesocket",
+    "__WSAFDIsSet",
+    "WSAStartup",
+    "inet_pton"
+   ]
+  },
+  {
+   "dll": "XNet.dll",
+   "count": 201,
+   "funcs": [
+    "??1DnnInferenceModel@dnn@xnet@@UEAA@XZ",
+    "?Create@DnnInferenceWorkspace@dnn@xnet@@QEAA?AVStatus@3@_J@Z",
+    "??1DnnInferenceWorkspace@dnn@xnet@@UEAA@XZ",
+    "??0DnnInferenceWorkspace@dnn@xnet@@QEAA@XZ",
+    "??$CopyTensor@MM@xnet@@YA_NPEAMPEBM_JPEB_J3@Z",
+    "??$CopyTensor@MUFloat16@xnet@@@xnet@@YA_NPEAMPEBUFloat16@0@_JPEB_J3@Z",
+    "??$CopyTensor@MM@xnet@@YA_NPEAMPEBM_JPEB_J@Z",
+    "??$CopyTensor@MUFloat16@xnet@@@xnet@@YA_NPEAMPEBUFloat16@0@_JPEB_J@Z",
+    "??9Status@xnet@@QEBA_NAEBV01@@Z",
+    "?Ok@Status@xnet@@SA?AV12@XZ",
+    "?mMutex@DnnOperator@dnn@xnet@@0UStaticMutex@3@A",
+    "?LogicLayout@TensorLayoutInfo@xnet@@2QBW4ETensorLayoutKind@2@B",
+    "?Reshape@DnnKernelBase@dnn@xnet@@UEBA_NAEAVDnnWorkspace@23@@Z",
+    "?CalculateDataKind@IDnnCustomOperator@dnn@xnet@@UEBA_NAEBUDnnOperator@23@AEAVDnnOperandsRef@23@AEAH@Z",
+    "?Tune@DnnKernelBase@dnn@xnet@@UEAA_NAEAVDnnWorkspace@23@@Z",
+    "?DeviceKind@DnnKernelBase@dnn@xnet@@UEBA?AW4EDeviceKind@3@XZ",
+    "?GetDescString@IDnnCustomOperator@dnn@xnet@@UEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+    "?ConvertPhyscLayouts@IDnnCustomOperator@dnn@xnet@@UEAA_NAEBUDnnPhyscLayouts@23@AEAUDnnPhyscLayout@23@@Z",
+    "?GetInitPhyscLayouts@IDnnCustomOperator@dnn@xnet@@UEAAXAEAUDnnPhyscLayouts@23@AEAUDnnPhyscLayout@23@@Z",
+    "?ShareWeightTo@DnnKernelBase@dnn@xnet@@QEBA_NAEAU?$Tensor@U?$Storage@$00$0A@@xnet@@@3@_K@Z",
+    "??1DnnKernelBase@dnn@xnet@@UEAA@XZ",
+    "??0DnnKernelBase@dnn@xnet@@QEAA@XZ",
+    "?DefaultAccumBytes@DnnShapeCalculator@dnn@xnet@@SAXAEAUOpStats@23@AEBUDnnOperator@23@AEBV?$vector@UDnnReadWriteOperand@dnn@xnet@@V?$allocator@UDnnReadWriteOperand@dnn@xnet@@@std@@@std@@AEBV?$vector@UDnnReadOnlyOperand@dnn@xnet@@V?$allocator@UDnnReadOnlyOperand@dnn@xnet@@@std@@@7@@Z",
+    "??1IDnnCustomOperator@dnn@xnet@@UEAA@XZ",
+    "??0IDnnCustomOperator@dnn@xnet@@QEAA@XZ",
+    "?PhyscLayoutForInput@DnnOperator@dnn@xnet@@QEBA?AUDnnPhyscLayout@23@H@Z",
+    "?GetOpHash@DnnOperator@dnn@xnet@@QEBAHXZ",
+    "?CustomOpCreators@DnnOperator@dnn@xnet@@CAAEAV?$map@HP6APEAVIDnnCustomOperator@dnn@xnet@@XZU?$less@H@std@@V?$allocator@U?$pair@$$CBHP6APEAVIDnnCustomOperator@dnn@xnet@@XZ@std@@@5@@std@@XZ",
+    "?SyncGetCpuTensorBImpl@DnnWorkspace@dnn@xnet@@AEAAAEBU?$Tensor@U?$Storage@$00$0A@@xnet@@@3@_K@Z",
+    "?ReshapeImpl@DnnWorkspace@dnn@xnet@@AEAA_N_KAEBU?$DnnSizeLimitedArray@H$07@23@@Z",
+    "?RecreateTensor@DnnWorkspace@dnn@xnet@@QEAA_N_K_N@Z",
+    "?ReadWriteOperands@DnnWorkspace@dnn@xnet@@QEAAAEAV?$vector@UDnnReadWriteOperand@dnn@xnet@@V?$allocator@UDnnReadWriteOperand@dnn@xnet@@@std@@@std@@XZ",
+    "?ReadOnlyOperands@DnnWorkspace@dnn@xnet@@QEBAAEBV?$vector@UDnnReadOnlyOperand@dnn@xnet@@V?$allocator@UDnnReadOnlyOperand@dnn@xnet@@@std@@@std@@XZ",
+    "?ProdShape@DnnTensorParams@dnn@xnet@@QEBA_JH@Z",
+    "?LayoutAtIndex@DnnPhyscLayouts@dnn@xnet@@CA?AUDnnPhyscLayout@23@_KAEBV?$vector@UDnnPhyscLayout@dnn@xnet@@V?$allocator@UDnnPhyscLayout@dnn@xnet@@@std@@@std@@@Z",
+    "?GetW@DnnLogicLayout@dnn@xnet@@QEBA_NAEAHAEBU?$DnnSizeLimitedArray@H$07@23@@Z",
+    "?GetH@DnnLogicLayout@dnn@xnet@@QEBA_NAEAHAEBU?$DnnSizeLimitedArray@H$07@23@@Z",
+    "??0DnnLogicLayout@dnn@xnet@@QEAA@W4ETensorLayoutKind@2@@Z",
+    "??0?$Storage@$00$0A@@xnet@@QEAA@$$QEAU01@@Z",
+    "?Enlarge@?$Storage@$00$0A@@xnet@@QEAA_N_K0@Z",
+    "?ElementSize@StorageDataKindInfo@xnet@@2QB_KB",
+    "?Create@DnnInferenceModel@dnn@xnet@@UEAA?AVStatus@3@AEBVDnnModel@23@AEBUDnnInferenceOptions@23@P6AXAEAV?$DnnDevice@$0A@@23@@ZP6A_N2AEAW4ETensorLayoutKind@3@4AEA_N@Z66@Z",
+    "?Register@?$GeKernelRegisterer@$0DD@$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DC@$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CE@$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$05$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$03$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CP@M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CD@M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BP@M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BN@M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BL@M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$02M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CG@M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0P@$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CL@$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CC@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CB@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BM@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BG@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@X64NCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@X64NCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CK@$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DK@$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CF@$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$03$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$00$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0DF@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BO@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@X64NSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@X64NSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BE@M$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CN@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CH@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BK@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0M@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0L@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DI@$00@X64B@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$03$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0DC@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CG@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$09M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$08M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@X64NCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0N@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CN@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CH@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CD@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BN@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BL@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BA@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0M@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0L@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CG@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?CalcKernelHashCode@?$DnnDevice@$0A@@dnn@xnet@@SAHHAEBUDnnPhyscLayout@23@@Z",
+    "?Register@?$FpKernelRegisterer@$0BK@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$09M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$08M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DC@$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DM@$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "??0DnnInferenceSession@dnn@xnet@@QEAA@XZ",
+    "??1DnnInferenceSession@dnn@xnet@@UEAA@XZ",
+    "?Create@DnnInferenceSession@dnn@xnet@@QEAA?AVStatus@3@AEBVDnnInferenceModel@23@@Z",
+    "?Run@DnnInferenceSession@dnn@xnet@@QEBA?AVStatus@3@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$Tensor@U?$Storage@$00$0A@@xnet@@@xnet@@@std@@@2@@std@@AEAV56@PEAVDnnInferenceWorkspace@23@_N3V?$function@$$A6A_NXZ@6@I@Z",
+    "?Register@?$GeKernelRegisterer@$0P@$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0P@$00@CpuRefNSC@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DK@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DM@$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DC@$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$08M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?RegisterAcceleratedKernelsNCS@?$DnnDeviceImplBase@$00@dnn@xnet@@IEAAXXZ",
+    "??1DnnModel@dnn@xnet@@QEAA@XZ",
+    "?LoadBin@DnnModel@dnn@xnet@@QEAA_NAEAVSequentialInputStream@3@_N@Z",
+    "??0DnnModel@dnn@xnet@@QEAA@XZ",
+    "??0?$Storage@$00$0A@@xnet@@QEAA@AEBU01@@Z",
+    "??1?$Storage@$00$0A@@xnet@@QEAA@XZ",
+    "?Create@?$Storage@$00$0A@@xnet@@QEAA_N_K0PEAVStHeapspaceAllocator@2@@Z",
+    "?Satisfy@?$Storage@$00$0A@@xnet@@QEBA_NAEBUMemoryRequirement@2@@Z",
+    "??0?$Storage@$00$0A@@xnet@@QEAA@XZ",
+    "?DefaultDevice@?$Device@$00@XDevice@xnet@@SAAEAU123@XZ",
+    "?Open@SequentialInputMem@xnet@@QEAA_NPEBX_K@Z",
+    "??1SequentialInputMem@xnet@@UEAA@XZ",
+    "??0SequentialInputMem@xnet@@QEAA@_N@Z",
+    "?Destroy@MemoryBlock@xnet@@QEAAXXZ",
+    "??4MemoryBlock@xnet@@QEAAAEAV01@AEBV01@@Z",
+    "??1LogMessage@xnet@@UEAA@XZ",
+    "??0LogMessage@xnet@@QEAA@PEAVLogger@1@PEBDH@Z",
+    "?GetLogger@xnet@@YAPEAVLogger@1@H@Z",
+    "??1Status@xnet@@QEAA@XZ",
+    "??7Status@xnet@@QEBA_NXZ",
+    "?FullDesc@Status@xnet@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ",
+    "?CheckFailed@xnet@@YAXPEBD00H@Z",
+    "??0DnnInferenceModel@dnn@xnet@@QEAA@XZ",
+    "?Register@?$FpKernelRegisterer@$01M$00@CpuRefNCScB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DJ@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DH@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DG@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DB@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DA@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DP@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CM@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CL@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CK@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CJ@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CF@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0ED@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DO@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0BH@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0BF@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0BD@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0EA@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0P@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$07$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$06$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$04$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$00$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CO@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0EH@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CC@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CB@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BJ@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BM@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BG@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0A@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0DF@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CP@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0EB@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BP@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BO@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BE@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BB@M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$02M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DI@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DD@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$03$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$01M$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0DE@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$0CE@$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$GeKernelRegisterer@$05$00@CpuRefB@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0N@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0DL@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CN@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CH@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CD@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BN@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BL@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0EC@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BC@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BA@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0M@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0L@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0CG@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$0BK@M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z",
+    "?Register@?$FpKernelRegisterer@$09M$00@CpuRefNCS@dnn@xnet@@SAXAEAV?$DnnDevice@$0A@@34@AEBUDnnPhyscLayout@34@@Z"
+   ]
+  },
+  {
+   "dll": "tensorflowlite_c.dll",
+   "count": 21,
+   "funcs": [
+    "TfLiteTensorQuantizationParams",
+    "TfLiteTensorData",
+    "TfLiteInterpreterResetVariableTensors",
+    "TfLiteModelCreate",
+    "TfLiteTensorDim",
+    "TfLiteTensorNumDims",
+    "TfLiteTensorType",
+    "TfLiteInterpreterGetOutputTensor",
+    "TfLiteInterpreterGetOutputTensorCount",
+    "TfLiteInterpreterInvoke",
+    "TfLiteInterpreterAllocateTensors",
+    "TfLiteInterpreterResizeInputTensor",
+    "TfLiteInterpreterGetInputTensor",
+    "TfLiteInterpreterGetInputTensorCount",
+    "TfLiteInterpreterDelete",
+    "TfLiteInterpreterCreate",
+    "TfLiteInterpreterOptionsSetNumThreads",
+    "TfLiteInterpreterOptionsDelete",
+    "TfLiteInterpreterOptionsCreate",
+    "TfLiteModelDelete",
+    "TfLiteTensorByteSize"
+   ]
+  },
+  {
+   "dll": "ime_net.dll",
+   "count": 5,
+   "funcs": [
+    "net_initialize",
+    "destroy_net_api_context",
+    "net_start_task_with_option",
+    "net_start_custom_host_ws_task_with_auth",
+    "create_net_api_context"
+   ]
+  },
+  {
+   "dll": "KERNEL32.dll",
+   "count": 163,
+   "funcs": [
+    "GetACP",
+    "IsValidCodePage",
+    "HeapSize",
+    "SetStdHandle",
+    "HeapReAlloc",
+    "EnumSystemLocalesW",
+    "GetUserDefaultLCID",
+    "IsValidLocale",
+    "GetLocaleInfoW",
+    "LCMapStringW",
+    "CompareStringW",
+    "GetTimeFormatW",
+    "GetDateFormatW",
+    "FlsFree",
+    "FlsSetValue",
+    "FlsGetValue",
+    "FlsAlloc",
+    "GetModuleFileNameW",
+    "GetConsoleOutputCP",
+    "ReadConsoleW",
+    "GetFileType",
+    "SetEnvironmentVariableW",
+    "FreeLibraryAndExitThread",
+    "ExitThread",
+    "CreateThread",
+    "GetModuleHandleExW",
+    "ExitProcess",
+    "LoadLibraryExW",
+    "InterlockedFlushSList",
+    "InterlockedPushEntrySList",
+    "RtlUnwindEx",
+    "TerminateProcess",
+    "GetCurrentProcessId",
+    "IsProcessorFeaturePresent",
+    "GetStartupInfoW",
+    "UnhandledExceptionFilter",
+    "IsDebuggerPresent",
+    "RtlVirtualUnwind",
+    "RtlLookupFunctionEntry",
+    "GetCommandLineA",
+    "GetCPInfo",
+    "CompareStringEx",
+    "LCMapStringEx",
+    "DecodePointer",
+    "EncodePointer",
+    "InitializeCriticalSectionEx",
+    "GetStringTypeW",
+    "WakeAllConditionVariable",
+    "GetNativeSystemInfo",
+    "GetExitCodeThread",
+    "SwitchToThread",
+    "WaitForSingleObjectEx",
+    "CreateSymbolicLinkW",
+    "GetFileInformationByHandleEx",
+    "CreateHardLinkW",
+    "CopyFileW",
+    "DeviceIoControl",
+    "AreFileApisANSI",
+    "SetFileInformationByHandle",
+    "GetFinalPathNameByHandleW",
+    "GetFileInformationByHandle",
+    "GetDiskFreeSpaceExW",
+    "FindFirstFileExW",
+    "RaiseException",
+    "RtlPcToFileHeader",
+    "GetLocaleInfoEx",
+    "GetOEMCP",
+    "GetEnvironmentStringsW",
+    "GetCommandLineW",
+    "FreeEnvironmentStringsW",
+    "WriteConsoleW",
+    "InitializeSListHead",
+    "PostQueuedCompletionStatus",
+    "GetModuleHandleW",
+    "LoadLibraryExA",
+    "FreeLibrary",
+    "Sleep",
+    "VirtualAlloc",
+    "GetModuleHandleA",
+    "GetTickCount64",
+    "QueryPerformanceFrequency",
+    "QueryPerformanceCounter",
+    "SleepConditionVariableSRW",
+    "WakeConditionVariable",
+    "InitializeConditionVariable",
+    "InitOnceComplete",
+    "InitOnceBeginInitialize",
+    "AcquireSRWLockShared",
+    "ReleaseSRWLockShared",
+    "InitializeSRWLock",
+    "LoadLibraryA",
+    "GetProcAddress",
+    "GetCurrentThreadId",
+    "GetCurrentThread",
+    "GetCurrentProcess",
+    "SetUnhandledExceptionFilter",
+    "RtlCaptureContext",
+    "ReplaceFileW",
+    "MoveFileW",
+    "GetLocalTime",
+    "GetSystemTimeAsFileTime",
+    "WriteFile",
+    "UnlockFile",
+    "RemoveDirectoryW",
+    "ReadFile",
+    "LockFile",
+    "GetFileAttributesExW",
+    "GetFileAttributesW",
+    "DeleteFileW",
+    "CreateDirectoryW",
+    "GetProcessHeap",
+    "HeapFree",
+    "HeapAlloc",
+    "SetConsoleMode",
+    "GetConsoleMode",
+    "GetStdHandle",
+    "FindNextFileW",
+    "FindFirstFileW",
+    "FindClose",
+    "WideCharToMultiByte",
+    "MultiByteToWideChar",
+    "GetLogicalProcessorInformation",
+    "GetSystemInfo",
+    "MoveFileExW",
+    "FlushFileBuffers",
+    "SetFilePointerEx",
+    "SetEndOfFile",
+    "TryAcquireSRWLockExclusive",
+    "AcquireSRWLockExclusive",
+    "ReleaseSRWLockExclusive",
+    "GetTimeZoneInformation",
+    "UnmapViewOfFile",
+    "MapViewOfFile",
+    "CreateFileMappingW",
+    "GetFileSizeEx",
+    "CreateFileW",
+    "VerifyVersionInfoA",
+    "CreateWaitableTimerA",
+    "TlsSetValue",
+    "SetWaitableTimer",
+    "CreateEventW",
+    "SleepEx",
+    "InitializeCriticalSectionAndSpinCount",
+    "GetQueuedCompletionStatus",
+    "CreateIoCompletionPort",
+    "SetLastError",
+    "VerSetConditionMask",
+    "TlsGetValue",
+    "FormatMessageA",
+    "LocalFree",
+    "TlsFree",
+    "TlsAlloc",
+    "TerminateThread",
+    "QueueUserAPC",
+    "WaitForMultipleObjects",
+    "WaitForSingleObject",
+    "SetEvent",
+    "DeleteCriticalSection",
+    "LeaveCriticalSection",
+    "EnterCriticalSection",
+    "RtlUnwind",
+    "GetLastError",
+    "CloseHandle"
+   ]
+  },
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 3,
+   "funcs": [
+    "RegCloseKey",
+    "RegQueryValueExW",
+    "RegOpenKeyExW"
+   ]
+  },
+  {
+   "dll": "pdh.dll",
+   "count": 3,
+   "funcs": [
+    "PdhCollectQueryData",
+    "PdhAddEnglishCounterW",
+    "PdhOpenQueryA"
+   ]
+  },
+  {
+   "dll": "IPHLPAPI.DLL",
+   "count": 1,
+   "funcs": [
+    "GetAdaptersInfo"
+   ]
+  },
+  {
+   "dll": "dbghelp.dll",
+   "count": 1,
+   "funcs": [
+    "SymFromAddr"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "??0Boosting@LightGBM@@QEAA@XZ",
+   "addr": "0x88c250"
+  },
+  {
+   "ord": 2,
+   "name": "??0Dataset@LightGBM@@QEAA@H@Z",
+   "addr": "0x8c8360"
+  },
+  {
+   "ord": 3,
+   "name": "??0Dataset@LightGBM@@QEAA@XZ",
+   "addr": "0x8c8720"
+  },
+  {
+   "ord": 4,
+   "name": "??0DatasetLoader@LightGBM@@QEAA@AEBUConfig@1@AEBV?$function@$$A6AXAEBV?$vector@U?$pair@HN@std@@V?$allocator@U?$pair@HN@std@@@2@@std@@PEAN@Z@std@@HPEBD@Z",
+   "addr": "0x8d4730"
+  },
+  {
+   "ord": 5,
+   "name": "??1Boosting@LightGBM@@UEAA@XZ",
+   "addr": "0x88e870"
+  },
+  {
+   "ord": 6,
+   "name": "??1Dataset@LightGBM@@QEAA@XZ",
+   "addr": "0x8c8fd0"
+  },
+  {
+   "ord": 7,
+   "name": "??1DatasetLoader@LightGBM@@QEAA@XZ",
+   "addr": "0x8d4800"
+  },
+  {
+   "ord": 8,
+   "name": "??_7Boosting@LightGBM@@6B@",
+   "addr": "0xf70860"
+  },
+  {
+   "ord": 9,
+   "name": "?CheckAlign@Dataset@LightGBM@@QEBA_NAEBV12@@Z",
+   "addr": "0x891440"
+  },
+  {
+   "ord": 10,
+   "name": "?ConstructFromSampleData@DatasetLoader@LightGBM@@QEAAPEAVDataset@2@PEAPEANPEAPEAHHPEBH_KH_J@Z",
+   "addr": "0x8d7e30"
+  },
+  {
+   "ord": 11,
+   "name": "?CopyFeatureMapperFrom@Dataset@LightGBM@@QEAAXPEBV12@@Z",
+   "addr": "0x8cc970"
+  },
+  {
+   "ord": 12,
+   "name": "?CreateBoosting@Boosting@LightGBM@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD@Z",
+   "addr": "0x8b17e0"
+  },
+  {
+   "ord": 13,
+   "name": "?CreateMetric@Metric@LightGBM@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUConfig@2@@Z",
+   "addr": "0x8f6530"
+  },
+  {
+   "ord": 14,
+   "name": "?CreateObjectiveFunction@ObjectiveFunction@LightGBM@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+   "addr": "0x8e8060"
+  },
+  {
+   "ord": 15,
+   "name": "?CreateObjectiveFunction@ObjectiveFunction@LightGBM@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUConfig@2@@Z",
+   "addr": "0x8e9600"
+  },
+  {
+   "ord": 16,
+   "name": "?CreatePredictionEarlyStopInstance@LightGBM@@YA?AUPredictionEarlyStopInstance@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUPredictionEarlyStopConfig@1@@Z",
+   "addr": "0x9059c0"
+  },
+  {
+   "ord": 17,
+   "name": "?CreateValid@Dataset@LightGBM@@QEAAXPEBV12@@Z",
+   "addr": "0x8cd330"
+  },
+  {
+   "ord": 18,
+   "name": "?Data@ByteBuffer@LightGBM@@QEAAPEADXZ",
+   "addr": "0x17dae0"
+  },
+  {
+   "ord": 19,
+   "name": "?DumpTextFile@Dataset@LightGBM@@QEAAXPEBD@Z",
+   "addr": "0x8cd9e0"
+  },
+  {
+   "ord": 20,
+   "name": "?FinishLoad@Dataset@LightGBM@@QEAAXXZ",
+   "addr": "0x8cffc0"
+  },
+  {
+   "ord": 21,
+   "name": "?GetAt@ByteBuffer@LightGBM@@QEAAD_K@Z",
+   "addr": "0x892930"
+  },
+  {
+   "ord": 22,
+   "name": "?GetDoubleField@Dataset@LightGBM@@QEAA_NPEBDPEAHPEAPEBN@Z",
+   "addr": "0x8d02d0"
+  },
+  {
+   "ord": 23,
+   "name": "?GetFloatField@Dataset@LightGBM@@QEAA_NPEBDPEAHPEAPEBM@Z",
+   "addr": "0x8d04e0"
+  },
+  {
+   "ord": 24,
+   "name": "?GetIntField@Dataset@LightGBM@@QEAA_NPEBDPEAHPEAPEBH@Z",
+   "addr": "0x8d08e0"
+  },
+  {
+   "ord": 25,
+   "name": "?GetSize@ByteBuffer@LightGBM@@QEAA_KXZ",
+   "addr": "0x892ce0"
+  },
+  {
+   "ord": 26,
+   "name": "?InitByReference@Dataset@LightGBM@@QEAAXHPEBV12@@Z",
+   "addr": "0x892d30"
+  },
+  {
+   "ord": 27,
+   "name": "?InitStreaming@Dataset@LightGBM@@QEAAXHHHHHHH@Z",
+   "addr": "0x892d40"
+  },
+  {
+   "ord": 28,
+   "name": "?IsLinear@Boosting@LightGBM@@UEBA_NXZ",
+   "addr": "0x1be180"
+  },
+  {
+   "ord": 29,
+   "name": "?LoadFileToBoosting@Boosting@LightGBM@@SA_NPEAV12@PEBD@Z",
+   "addr": "0x8b33f0"
+  },
+  {
+   "ord": 30,
+   "name": "?LoadFromFile@DatasetLoader@LightGBM@@QEAAPEAVDataset@2@PEBD@Z",
+   "addr": "0x892f30"
+  },
+  {
+   "ord": 31,
+   "name": "?LoadFromFile@DatasetLoader@LightGBM@@QEAAPEAVDataset@2@PEBDHH@Z",
+   "addr": "0x8dbd10"
+  },
+  {
+   "ord": 32,
+   "name": "?LoadFromFileAlignWithOtherDataset@DatasetLoader@LightGBM@@QEAAPEAVDataset@2@PEBDPEBV32@@Z",
+   "addr": "0x8dc510"
+  },
+  {
+   "ord": 33,
+   "name": "?LoadFromSerializedReference@DatasetLoader@LightGBM@@QEAAPEAVDataset@2@PEBD_KHH@Z",
+   "addr": "0x8dca30"
+  },
+  {
+   "ord": 34,
+   "name": "?Reserve@ByteBuffer@LightGBM@@QEAAX_K@Z",
+   "addr": "0x897400"
+  },
+  {
+   "ord": 35,
+   "name": "?SaveBinaryFile@Dataset@LightGBM@@QEAAXPEBD@Z",
+   "addr": "0x8d18e0"
+  },
+  {
+   "ord": 36,
+   "name": "?SerializeReference@Dataset@LightGBM@@QEAAXPEAUByteBuffer@2@@Z",
+   "addr": "0x8d2380"
+  },
+  {
+   "ord": 37,
+   "name": "?Set@Config@LightGBM@@QEAAXAEBV?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@Z",
+   "addr": "0x8ad5c0"
+  },
+  {
+   "ord": 38,
+   "name": "?SetDoubleField@Dataset@LightGBM@@QEAA_NPEBDPEBNH@Z",
+   "addr": "0x8d2930"
+  },
+  {
+   "ord": 39,
+   "name": "?SetFloatField@Dataset@LightGBM@@QEAA_NPEBDPEBMH@Z",
+   "addr": "0x8d2b20"
+  },
+  {
+   "ord": 40,
+   "name": "?SetIntField@Dataset@LightGBM@@QEAA_NPEBDPEBHH@Z",
+   "addr": "0x8d2f10"
+  },
+  {
+   "ord": 41,
+   "name": "LGBM_BoosterAddValidData",
+   "addr": "0x89ab80"
+  },
+  {
+   "ord": 42,
+   "name": "LGBM_BoosterCalcNumPredict",
+   "addr": "0x89abb0"
+  },
+  {
+   "ord": 43,
+   "name": "LGBM_BoosterCreate",
+   "addr": "0x89ac20"
+  },
+  {
+   "ord": 44,
+   "name": "LGBM_BoosterCreateFromModelfile",
+   "addr": "0x89aca0"
+  },
+  {
+   "ord": 45,
+   "name": "LGBM_BoosterDumpModel",
+   "addr": "0x89ad30"
+  },
+  {
+   "ord": 46,
+   "name": "LGBM_BoosterFeatureImportance",
+   "addr": "0x89ae00"
+  },
+  {
+   "ord": 47,
+   "name": "LGBM_BoosterFree",
+   "addr": "0x89aec0"
+  },
+  {
+   "ord": 48,
+   "name": "LGBM_BoosterFreePredictSparse",
+   "addr": "0x89aef0"
+  },
+  {
+   "ord": 49,
+   "name": "LGBM_BoosterGetCurrentIteration",
+   "addr": "0x89af80"
+  },
+  {
+   "ord": 50,
+   "name": "LGBM_BoosterGetEval",
+   "addr": "0x89afc0"
+  },
+  {
+   "ord": 51,
+   "name": "LGBM_BoosterGetEvalCounts",
+   "addr": "0x89b090"
+  },
+  {
+   "ord": 52,
+   "name": "LGBM_BoosterGetEvalNames",
+   "addr": "0x89b180"
+  },
+  {
+   "ord": 53,
+   "name": "LGBM_BoosterGetFeatureNames",
+   "addr": "0x89b1d0"
+  },
+  {
+   "ord": 54,
+   "name": "LGBM_BoosterGetLeafValue",
+   "addr": "0x89b220"
+  },
+  {
+   "ord": 55,
+   "name": "LGBM_BoosterGetLinear",
+   "addr": "0x89b320"
+  },
+  {
+   "ord": 56,
+   "name": "LGBM_BoosterGetLoadedParam",
+   "addr": "0x89b360"
+  },
+  {
+   "ord": 57,
+   "name": "LGBM_BoosterGetLowerBoundValue",
+   "addr": "0x89b430"
+  },
+  {
+   "ord": 58,
+   "name": "LGBM_BoosterGetNumClasses",
+   "addr": "0x89b500"
+  },
+  {
+   "ord": 59,
+   "name": "LGBM_BoosterGetNumFeature",
+   "addr": "0x89b540"
+  },
+  {
+   "ord": 60,
+   "name": "LGBM_BoosterGetNumPredict",
+   "addr": "0x89b580"
+  },
+  {
+   "ord": 61,
+   "name": "LGBM_BoosterGetPredict",
+   "addr": "0x89b5c0"
+  },
+  {
+   "ord": 62,
+   "name": "LGBM_BoosterGetUpperBoundValue",
+   "addr": "0x89b600"
+  },
+  {
+   "ord": 63,
+   "name": "LGBM_BoosterLoadModelFromStreamString",
+   "addr": "0x89b6d0"
+  },
+  {
+   "ord": 64,
+   "name": "LGBM_BoosterLoadModelFromString",
+   "addr": "0x89b790"
+  },
+  {
+   "ord": 65,
+   "name": "LGBM_BoosterMerge",
+   "addr": "0x89b840"
+  },
+  {
+   "ord": 66,
+   "name": "LGBM_BoosterNumModelPerIteration",
+   "addr": "0x89b910"
+  },
+  {
+   "ord": 67,
+   "name": "LGBM_BoosterNumberOfTotalModel",
+   "addr": "0x89b950"
+  },
+  {
+   "ord": 68,
+   "name": "LGBM_BoosterPredictForCSC",
+   "addr": "0x89b990"
+  },
+  {
+   "ord": 69,
+   "name": "LGBM_BoosterPredictForCSR",
+   "addr": "0x89bda0"
+  },
+  {
+   "ord": 70,
+   "name": "LGBM_BoosterPredictForCSRSingleRow",
+   "addr": "0x89c050"
+  },
+  {
+   "ord": 71,
+   "name": "LGBM_BoosterPredictForCSRSingleRowFast",
+   "addr": "0x89c330"
+  },
+  {
+   "ord": 72,
+   "name": "LGBM_BoosterPredictForCSRSingleRowFastInit",
+   "addr": "0x89c4d0"
+  },
+  {
+   "ord": 73,
+   "name": "LGBM_BoosterPredictForFile",
+   "addr": "0x89c5d0"
+  },
+  {
+   "ord": 74,
+   "name": "LGBM_BoosterPredictForMat",
+   "addr": "0x89c700"
+  },
+  {
+   "ord": 75,
+   "name": "LGBM_BoosterPredictForMatSingleRow",
+   "addr": "0x89c8e0"
+  },
+  {
+   "ord": 76,
+   "name": "LGBM_BoosterPredictForMatSingleRowFast",
+   "addr": "0x89cad0"
+  },
+  {
+   "ord": 77,
+   "name": "LGBM_BoosterPredictForMatSingleRowFastInit",
+   "addr": "0x89ccb0"
+  },
+  {
+   "ord": 78,
+   "name": "LGBM_BoosterPredictForMats",
+   "addr": "0x89cd70"
+  },
+  {
+   "ord": 79,
+   "name": "LGBM_BoosterPredictSparseOutput",
+   "addr": "0x89cf60"
+  },
+  {
+   "ord": 80,
+   "name": "LGBM_BoosterRefit",
+   "addr": "0x89d5b0"
+  },
+  {
+   "ord": 81,
+   "name": "LGBM_BoosterResetParameter",
+   "addr": "0x89d5e0"
+  },
+  {
+   "ord": 82,
+   "name": "LGBM_BoosterResetTrainingData",
+   "addr": "0x89d610"
+  },
+  {
+   "ord": 83,
+   "name": "LGBM_BoosterRollbackOneIter",
+   "addr": "0x89d640"
+  },
+  {
+   "ord": 84,
+   "name": "LGBM_BoosterSaveModel",
+   "addr": "0x89d700"
+  },
+  {
+   "ord": 85,
+   "name": "LGBM_BoosterSaveModelToString",
+   "addr": "0x89d740"
+  },
+  {
+   "ord": 86,
+   "name": "LGBM_BoosterSetLeafValue",
+   "addr": "0x89d810"
+  },
+  {
+   "ord": 87,
+   "name": "LGBM_BoosterShuffleModels",
+   "addr": "0x89d910"
+  },
+  {
+   "ord": 88,
+   "name": "LGBM_BoosterUpdateOneIter",
+   "addr": "0x89d9f0"
+  },
+  {
+   "ord": 89,
+   "name": "LGBM_BoosterUpdateOneIterCustom",
+   "addr": "0x89dad0"
+  },
+  {
+   "ord": 90,
+   "name": "LGBM_BoosterValidateFeatureNames",
+   "addr": "0x89dbb0"
+  },
+  {
+   "ord": 91,
+   "name": "LGBM_ByteBufferFree",
+   "addr": "0x89e000"
+  },
+  {
+   "ord": 92,
+   "name": "LGBM_ByteBufferGetAt",
+   "addr": "0x89e090"
+  },
+  {
+   "ord": 93,
+   "name": "LGBM_DatasetAddFeaturesFrom",
+   "addr": "0x89e0d0"
+  },
+  {
+   "ord": 94,
+   "name": "LGBM_DatasetCreateByReference",
+   "addr": "0x89e100"
+  },
+  {
+   "ord": 95,
+   "name": "LGBM_DatasetCreateFromCSC",
+   "addr": "0x89e1a0"
+  },
+  {
+   "ord": 96,
+   "name": "LGBM_DatasetCreateFromCSR",
+   "addr": "0x89ede0"
+  },
+  {
+   "ord": 97,
+   "name": "LGBM_DatasetCreateFromCSRFunc",
+   "addr": "0x89fae0"
+  },
+  {
+   "ord": 98,
+   "name": "LGBM_DatasetCreateFromFile",
+   "addr": "0x8a0740"
+  },
+  {
+   "ord": 99,
+   "name": "LGBM_DatasetCreateFromMat",
+   "addr": "0x8a08f0"
+  },
+  {
+   "ord": 100,
+   "name": "LGBM_DatasetCreateFromMats",
+   "addr": "0x8a0950"
+  },
+  {
+   "ord": 101,
+   "name": "LGBM_DatasetCreateFromSampledColumn",
+   "addr": "0x8a1720"
+  },
+  {
+   "ord": 102,
+   "name": "LGBM_DatasetCreateFromSerializedReference",
+   "addr": "0x8a18d0"
+  },
+  {
+   "ord": 103,
+   "name": "LGBM_DatasetDumpText",
+   "addr": "0x8a1a60"
+  },
+  {
+   "ord": 104,
+   "name": "LGBM_DatasetFree",
+   "addr": "0x8a1a90"
+  },
+  {
+   "ord": 105,
+   "name": "LGBM_DatasetGetFeatureNames",
+   "addr": "0x8a1ad0"
+  },
+  {
+   "ord": 106,
+   "name": "LGBM_DatasetGetFeatureNumBin",
+   "addr": "0x8a1c50"
+  },
+  {
+   "ord": 107,
+   "name": "LGBM_DatasetGetField",
+   "addr": "0x8a1ce0"
+  },
+  {
+   "ord": 108,
+   "name": "LGBM_DatasetGetNumData",
+   "addr": "0x8a1db0"
+  },
+  {
+   "ord": 109,
+   "name": "LGBM_DatasetGetNumFeature",
+   "addr": "0x8a1de0"
+  },
+  {
+   "ord": 110,
+   "name": "LGBM_DatasetGetSubset",
+   "addr": "0x8a1e10"
+  },
+  {
+   "ord": 111,
+   "name": "LGBM_DatasetInitStreaming",
+   "addr": "0x8a20b0"
+  },
+  {
+   "ord": 112,
+   "name": "LGBM_DatasetMarkFinished",
+   "addr": "0x8a2120"
+  },
+  {
+   "ord": 113,
+   "name": "LGBM_DatasetPushRows",
+   "addr": "0x8a2150"
+  },
+  {
+   "ord": 114,
+   "name": "LGBM_DatasetPushRowsByCSR",
+   "addr": "0x8a23d0"
+  },
+  {
+   "ord": 115,
+   "name": "LGBM_DatasetPushRowsByCSRWithMetadata",
+   "addr": "0x8a25f0"
+  },
+  {
+   "ord": 116,
+   "name": "LGBM_DatasetPushRowsWithMetadata",
+   "addr": "0x8a2890"
+  },
+  {
+   "ord": 117,
+   "name": "LGBM_DatasetSaveBinary",
+   "addr": "0x8a2b90"
+  },
+  {
+   "ord": 118,
+   "name": "LGBM_DatasetSerializeReferenceToBinary",
+   "addr": "0x8a2bc0"
+  },
+  {
+   "ord": 119,
+   "name": "LGBM_DatasetSetFeatureNames",
+   "addr": "0x8a2c60"
+  },
+  {
+   "ord": 120,
+   "name": "LGBM_DatasetSetField",
+   "addr": "0x8a2df0"
+  },
+  {
+   "ord": 121,
+   "name": "LGBM_DatasetSetWaitForManualFinish",
+   "addr": "0x8a2e50"
+  },
+  {
+   "ord": 122,
+   "name": "LGBM_DatasetUpdateParamChecking",
+   "addr": "0x8a2e80"
+  },
+  {
+   "ord": 123,
+   "name": "LGBM_DumpParamAliases",
+   "addr": "0x8a2ff0"
+  },
+  {
+   "ord": 124,
+   "name": "LGBM_EncodeStringToBuf",
+   "addr": "0x8a30c0"
+  },
+  {
+   "ord": 125,
+   "name": "LGBM_FastConfigFree",
+   "addr": "0x8a31c0"
+  },
+  {
+   "ord": 126,
+   "name": "LGBM_GetLastError",
+   "addr": "0x8a3210"
+  },
+  {
+   "ord": 127,
+   "name": "LGBM_GetSampleCount",
+   "addr": "0x8a3230"
+  },
+  {
+   "ord": 128,
+   "name": "LGBM_NetworkFree",
+   "addr": "0x8a3340"
+  },
+  {
+   "ord": 129,
+   "name": "LGBM_NetworkInit",
+   "addr": "0x8a3370"
+  },
+  {
+   "ord": 130,
+   "name": "LGBM_NetworkInitWithFunctions",
+   "addr": "0x8a3540"
+  },
+  {
+   "ord": 131,
+   "name": "LGBM_RegisterLogCallback",
+   "addr": "0x8a3570"
+  },
+  {
+   "ord": 132,
+   "name": "LGBM_SampleIndices",
+   "addr": "0x8a35b0"
+  },
+  {
+   "ord": 133,
+   "name": "wxime_add_cell_dict",
+   "addr": "0x1dd8c0"
+  },
+  {
+   "ord": 134,
+   "name": "wxime_add_fetch_user_hot_word_detection",
+   "addr": "0x1ddbe0"
+  },
+  {
+   "ord": 135,
+   "name": "wxime_add_hard_fixed_position_user_word",
+   "addr": "0x1de060"
+  },
+  {
+   "ord": 136,
+   "name": "wxime_add_session_listener",
+   "addr": "0x1de220"
+  },
+  {
+   "ord": 137,
+   "name": "wxime_add_user_history",
+   "addr": "0x1de310"
+  },
+  {
+   "ord": 138,
+   "name": "wxime_add_word_to_user_block_list",
+   "addr": "0x1de700"
+  },
+  {
+   "ord": 139,
+   "name": "wxime_attempt_to_drop_emitted_text",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 140,
+   "name": "wxime_candidate_next",
+   "addr": "0x1de950"
+  },
+  {
+   "ord": 141,
+   "name": "wxime_check_candidate_extra_info",
+   "addr": "0x1dea00"
+  },
+  {
+   "ord": 142,
+   "name": "wxime_clear_cell_dicts",
+   "addr": "0x1debb0"
+  },
+  {
+   "ord": 143,
+   "name": "wxime_clear_user_hot_word",
+   "addr": "0x1dedb0"
+  },
+  {
+   "ord": 144,
+   "name": "wxime_client_cos_job_completed",
+   "addr": "0x1df370"
+  },
+  {
+   "ord": 145,
+   "name": "wxime_cloud_general_search",
+   "addr": "0x1df4a0"
+  },
+  {
+   "ord": 146,
+   "name": "wxime_cloud_llm_cancel",
+   "addr": "0x1df660"
+  },
+  {
+   "ord": 147,
+   "name": "wxime_cloud_llm_cancel_without_session",
+   "addr": "0x1df7e0"
+  },
+  {
+   "ord": 148,
+   "name": "wxime_cloud_llm_search",
+   "addr": "0x1dfa20"
+  },
+  {
+   "ord": 149,
+   "name": "wxime_cloud_llm_search_without_session",
+   "addr": "0x1dfbe0"
+  },
+  {
+   "ord": 150,
+   "name": "wxime_config_dict",
+   "addr": "0x1dfda0"
+  },
+  {
+   "ord": 151,
+   "name": "wxime_create_session",
+   "addr": "0x1e03c0"
+  },
+  {
+   "ord": 152,
+   "name": "wxime_delete_candidate_iterator",
+   "addr": "0x1e08f0"
+  },
+  {
+   "ord": 153,
+   "name": "wxime_delete_user_history",
+   "addr": "0x1e0a60"
+  },
+  {
+   "ord": 154,
+   "name": "wxime_delete_user_hot_word_iterator",
+   "addr": "0x1e0db0"
+  },
+  {
+   "ord": 155,
+   "name": "wxime_destroy_session",
+   "addr": "0x1e0ee0"
+  },
+  {
+   "ord": 156,
+   "name": "wxime_drop_last",
+   "addr": "0x1e0f60"
+  },
+  {
+   "ord": 157,
+   "name": "wxime_dump_number_associations",
+   "addr": "0x1e1050"
+  },
+  {
+   "ord": 158,
+   "name": "wxime_enrich_cloud_input_cache",
+   "addr": "0x1e1b30"
+  },
+  {
+   "ord": 159,
+   "name": "wxime_enrich_user_dict",
+   "addr": "0x1e1bb0"
+  },
+  {
+   "ord": 160,
+   "name": "wxime_enrich_user_english_dict",
+   "addr": "0x1e1f10"
+  },
+  {
+   "ord": 161,
+   "name": "wxime_export_user_data",
+   "addr": "0x1e2270"
+  },
+  {
+   "ord": 162,
+   "name": "wxime_fetch_user_hot_file",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 163,
+   "name": "wxime_finalize",
+   "addr": "0x1e2630"
+  },
+  {
+   "ord": 164,
+   "name": "wxime_finalize_last_emit_log_dumper",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 165,
+   "name": "wxime_finish_fl",
+   "addr": "0x1e2740"
+  },
+  {
+   "ord": 166,
+   "name": "wxime_force_emit_pending_input",
+   "addr": "0x1e27c0"
+  },
+  {
+   "ord": 167,
+   "name": "wxime_free_candidate_info",
+   "addr": "0x1e28b0"
+  },
+  {
+   "ord": 168,
+   "name": "wxime_free_pending_input",
+   "addr": "0x1e28b0"
+  },
+  {
+   "ord": 169,
+   "name": "wxime_gc_sessions",
+   "addr": "0x1e28c0"
+  },
+  {
+   "ord": 170,
+   "name": "wxime_get_all_en_font",
+   "addr": "0x1e29e0"
+  },
+  {
+   "ord": 171,
+   "name": "wxime_get_base_dict_version",
+   "addr": "0x1e2ce0"
+  },
+  {
+   "ord": 172,
+   "name": "wxime_get_candidates",
+   "addr": "0x1e2cf0"
+  },
+  {
+   "ord": 173,
+   "name": "wxime_get_cell_dict_version",
+   "addr": "0x1e2eb0"
+  },
+  {
+   "ord": 174,
+   "name": "wxime_get_cloud_general_config",
+   "addr": "0x1e2ec0"
+  },
+  {
+   "ord": 175,
+   "name": "wxime_get_commit_date",
+   "addr": "0x1e3050"
+  },
+  {
+   "ord": 176,
+   "name": "wxime_get_e2e_dict_version",
+   "addr": "0x1e3150"
+  },
+  {
+   "ord": 177,
+   "name": "wxime_get_e2e_status",
+   "addr": "0x1e3160"
+  },
+  {
+   "ord": 178,
+   "name": "wxime_get_emoticon",
+   "addr": "0x1e3480"
+  },
+  {
+   "ord": 179,
+   "name": "wxime_get_fl_key_buffer",
+   "addr": "0x1e34f0"
+  },
+  {
+   "ord": 180,
+   "name": "wxime_get_freq_dict_version",
+   "addr": "0x17f490"
+  },
+  {
+   "ord": 181,
+   "name": "wxime_get_hand_writing_dict_version",
+   "addr": "0x17f490"
+  },
+  {
+   "ord": 182,
+   "name": "wxime_get_jianpin_dict_version",
+   "addr": "0x1e3570"
+  },
+  {
+   "ord": 183,
+   "name": "wxime_get_large_dict_version",
+   "addr": "0x1e3580"
+  },
+  {
+   "ord": 184,
+   "name": "wxime_get_most_commonly_used_emoji",
+   "addr": "0x1e3590"
+  },
+  {
+   "ord": 185,
+   "name": "wxime_get_most_commonly_used_punctuations",
+   "addr": "0x1e37f0"
+  },
+  {
+   "ord": 186,
+   "name": "wxime_get_most_likely_sequel",
+   "addr": "0x1e39e0"
+  },
+  {
+   "ord": 187,
+   "name": "wxime_get_nnlm_dict_version",
+   "addr": "0x1e3570"
+  },
+  {
+   "ord": 188,
+   "name": "wxime_get_puncts_classification",
+   "addr": "0x1e3b70"
+  },
+  {
+   "ord": 189,
+   "name": "wxime_get_recommend_user_hot_word_key",
+   "addr": "0x1e3ed0"
+  },
+  {
+   "ord": 190,
+   "name": "wxime_get_second_level_dict_version",
+   "addr": "0x1e4150"
+  },
+  {
+   "ord": 191,
+   "name": "wxime_get_session_status",
+   "addr": "0x1e4160"
+  },
+  {
+   "ord": 192,
+   "name": "wxime_get_stroke_dict_version",
+   "addr": "0x1e4220"
+  },
+  {
+   "ord": 193,
+   "name": "wxime_get_task_queue_status",
+   "addr": "0x1e4230"
+  },
+  {
+   "ord": 194,
+   "name": "wxime_get_text_around_cursor_snap_shot",
+   "addr": "0x1e4300"
+  },
+  {
+   "ord": 195,
+   "name": "wxime_get_user_coordinate_info",
+   "addr": "0x1e4540"
+  },
+  {
+   "ord": 196,
+   "name": "wxime_get_user_dict_size",
+   "addr": "0x182e30"
+  },
+  {
+   "ord": 197,
+   "name": "wxime_get_user_hot_word",
+   "addr": "0x1e4840"
+  },
+  {
+   "ord": 198,
+   "name": "wxime_get_user_hot_word_by_rank",
+   "addr": "0x1e4cc0"
+  },
+  {
+   "ord": 199,
+   "name": "wxime_get_user_hot_word_iterator",
+   "addr": "0x1e51a0"
+  },
+  {
+   "ord": 200,
+   "name": "wxime_get_user_hot_word_stats",
+   "addr": "0x1e53f0"
+  },
+  {
+   "ord": 201,
+   "name": "wxime_get_user_hot_word_type",
+   "addr": "0x1e5570"
+  },
+  {
+   "ord": 202,
+   "name": "wxime_get_user_id",
+   "addr": "0x1e56f0"
+  },
+  {
+   "ord": 203,
+   "name": "wxime_get_version",
+   "addr": "0x1e5840"
+  },
+  {
+   "ord": 204,
+   "name": "wxime_get_word_tag_info",
+   "addr": "0x1e5850"
+  },
+  {
+   "ord": 205,
+   "name": "wxime_get_wubi_dict_version",
+   "addr": "0x1e4150"
+  },
+  {
+   "ord": 206,
+   "name": "wxime_group_sync_info_changed",
+   "addr": "0x1e5930"
+  },
+  {
+   "ord": 207,
+   "name": "wxime_has_session",
+   "addr": "0x1e5a70"
+  },
+  {
+   "ord": 208,
+   "name": "wxime_import_user_data",
+   "addr": "0x1e5ad0"
+  },
+  {
+   "ord": 209,
+   "name": "wxime_import_user_hot_word",
+   "addr": "0x1e5dc0"
+  },
+  {
+   "ord": 210,
+   "name": "wxime_independent_cloud_general_search",
+   "addr": "0x1e6b10"
+  },
+  {
+   "ord": 211,
+   "name": "wxime_init_last_emit_log_dumper",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 212,
+   "name": "wxime_init_network",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 213,
+   "name": "wxime_initialize",
+   "addr": "0x1e6cd0"
+  },
+  {
+   "ord": 214,
+   "name": "wxime_is_alive",
+   "addr": "0x1e7360"
+  },
+  {
+   "ord": 215,
+   "name": "wxime_is_login_status_ok",
+   "addr": "0x1be180"
+  },
+  {
+   "ord": 216,
+   "name": "wxime_keyword_split",
+   "addr": "0x1e7470"
+  },
+  {
+   "ord": 217,
+   "name": "wxime_load_and_execute",
+   "addr": "0x1e7530"
+  },
+  {
+   "ord": 218,
+   "name": "wxime_load_and_execute_json",
+   "addr": "0x1e7910"
+  },
+  {
+   "ord": 219,
+   "name": "wxime_load_bootstrap_dict",
+   "addr": "0x1be180"
+  },
+  {
+   "ord": 220,
+   "name": "wxime_look_up_bottom_session",
+   "addr": "0x1e7c40"
+  },
+  {
+   "ord": 221,
+   "name": "wxime_look_up_stroke_by_rune",
+   "addr": "0x1e7d00"
+  },
+  {
+   "ord": 222,
+   "name": "wxime_look_up_syllable_by_word",
+   "addr": "0x1e7ee0"
+  },
+  {
+   "ord": 223,
+   "name": "wxime_network_login",
+   "addr": "0x1e8130"
+  },
+  {
+   "ord": 224,
+   "name": "wxime_network_logout",
+   "addr": "0x1e83b0"
+  },
+  {
+   "ord": 225,
+   "name": "wxime_next_n_user_hot_word",
+   "addr": "0x1e84c0"
+  },
+  {
+   "ord": 226,
+   "name": "wxime_pre_select_candidate",
+   "addr": "0x1e8920"
+  },
+  {
+   "ord": 227,
+   "name": "wxime_pre_set_text_around_cursor",
+   "addr": "0x1e8990"
+  },
+  {
+   "ord": 228,
+   "name": "wxime_process_handwriting_input",
+   "addr": "0x1e8a00"
+  },
+  {
+   "ord": 229,
+   "name": "wxime_process_input",
+   "addr": "0x1e8ae0"
+  },
+  {
+   "ord": 230,
+   "name": "wxime_read_and_clean_last_emit_log",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 231,
+   "name": "wxime_record_diff_match_text",
+   "addr": "0x1e8c00"
+  },
+  {
+   "ord": 232,
+   "name": "wxime_refresh_contact_word_dict",
+   "addr": "0x1e9070"
+  },
+  {
+   "ord": 233,
+   "name": "wxime_register_client_cos_api",
+   "addr": "0x1e90f0"
+  },
+  {
+   "ord": 234,
+   "name": "wxime_register_get_config",
+   "addr": "0x1e9290"
+  },
+  {
+   "ord": 235,
+   "name": "wxime_remove_word_from_user_block_list",
+   "addr": "0x1e93a0"
+  },
+  {
+   "ord": 236,
+   "name": "wxime_report",
+   "addr": "0x1e9590"
+  },
+  {
+   "ord": 237,
+   "name": "wxime_report_input_to_screen",
+   "addr": "0x17ed10"
+  },
+  {
+   "ord": 238,
+   "name": "wxime_report_keystroke",
+   "addr": "0x1e9bf0"
+  },
+  {
+   "ord": 239,
+   "name": "wxime_reset_cli_ab_test_info",
+   "addr": "0x1e9e90"
+  },
+  {
+   "ord": 240,
+   "name": "wxime_reset_cloud_svr_cache",
+   "addr": "0x1ea080"
+  },
+  {
+   "ord": 241,
+   "name": "wxime_reset_device_performance",
+   "addr": "0x1ea230"
+  },
+  {
+   "ord": 242,
+   "name": "wxime_reset_internal_cursor",
+   "addr": "0x1ea400"
+  },
+  {
+   "ord": 243,
+   "name": "wxime_reset_session",
+   "addr": "0x1ea4b0"
+  },
+  {
+   "ord": 244,
+   "name": "wxime_reset_user_dict",
+   "addr": "0x1ea540"
+  },
+  {
+   "ord": 245,
+   "name": "wxime_reset_user_id",
+   "addr": "0x1ea760"
+  },
+  {
+   "ord": 246,
+   "name": "wxime_reset_wechat_ability",
+   "addr": "0x1ea840"
+  },
+  {
+   "ord": 247,
+   "name": "wxime_reset_wevis_device_score_info",
+   "addr": "0x1ea9f0"
+  },
+  {
+   "ord": 248,
+   "name": "wxime_rune_split",
+   "addr": "0x1eac10"
+  },
+  {
+   "ord": 249,
+   "name": "wxime_search_candidates",
+   "addr": "0x1eac80"
+  },
+  {
+   "ord": 250,
+   "name": "wxime_select_candidate",
+   "addr": "0x1eae10"
+  },
+  {
+   "ord": 251,
+   "name": "wxime_select_default_candidate",
+   "addr": "0x1eae90"
+  },
+  {
+   "ord": 252,
+   "name": "wxime_session_get_bool_option",
+   "addr": "0x1eaf90"
+  },
+  {
+   "ord": 253,
+   "name": "wxime_session_set_bool_option",
+   "addr": "0x1eb140"
+  },
+  {
+   "ord": 254,
+   "name": "wxime_session_set_syllable_hint",
+   "addr": "0x1eb2f0"
+  },
+  {
+   "ord": 255,
+   "name": "wxime_set_e2e_timeout",
+   "addr": "0x1eb4f0"
+  },
+  {
+   "ord": 256,
+   "name": "wxime_set_emotion_recent_id",
+   "addr": "0x1eb570"
+  },
+  {
+   "ord": 257,
+   "name": "wxime_set_en_font",
+   "addr": "0x1eb720"
+  },
+  {
+   "ord": 258,
+   "name": "wxime_set_keyboard_layout",
+   "addr": "0x1eb7f0"
+  },
+  {
+   "ord": 259,
+   "name": "wxime_set_number_association_tier_expiry",
+   "addr": "0x1eb980"
+  },
+  {
+   "ord": 260,
+   "name": "wxime_set_skey",
+   "addr": "0x1eb9f0"
+  },
+  {
+   "ord": 261,
+   "name": "wxime_set_text_around_cursor",
+   "addr": "0x1eba60"
+  },
+  {
+   "ord": 262,
+   "name": "wxime_set_text_around_cursor_struct",
+   "addr": "0x1ebb00"
+  },
+  {
+   "ord": 263,
+   "name": "wxime_set_user_hot_word",
+   "addr": "0x1ebce0"
+  },
+  {
+   "ord": 264,
+   "name": "wxime_size_check",
+   "addr": "0x1ec9e0"
+  },
+  {
+   "ord": 265,
+   "name": "wxime_start_fl",
+   "addr": "0x1ecb00"
+  },
+  {
+   "ord": 266,
+   "name": "wxime_sync_syllable_prefix",
+   "addr": "0x1ecb80"
+  },
+  {
+   "ord": 267,
+   "name": "wxime_test",
+   "addr": "0x1ecc00"
+  },
+  {
+   "ord": 268,
+   "name": "wxime_translate",
+   "addr": "0x1ecc10"
+  },
+  {
+   "ord": 269,
+   "name": "wxime_user_hot_word_value_exists",
+   "addr": "0x1ecfe0"
+  },
+  {
+   "ord": 270,
+   "name": "wxime_visit_diff_match_text",
+   "addr": "0x1ed230"
+  },
+  {
+   "ord": 271,
+   "name": "wxime_warm_up_dict",
+   "addr": "0x1ed350"
+  },
+  {
+   "ord": 272,
+   "name": "wxime_warm_up_session",
+   "addr": "0x1ed500"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\data\\landun\\workspace\\wxime\\build\\wxime\\c_api\\RelWithDebInfo\\libwxhld.pdb\u0000",
+   "guid": "1990698600",
+   "age": 2
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": [
+  {
+   "type": "RT_MANIFEST",
+   "id": 24
+  }
+ ]
+}

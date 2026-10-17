@@ -1,0 +1,35 @@
+// file: WtStatVoiceInputAction.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatVoiceInputAction {
+  voice_input_action_invalid = 0;
+  voice_input_action_open = 1;
+  voice_input_action_close = 2;
+  voice_input_action_open_failed = 3;
+  voice_input_action_exposure_withdraw = 4;
+  voice_input_action_finish_withdraw = 5;
+  voice_input_action_finish_shortcut_action = 6;
+  voice_input_action_send = 7;
+  voice_input_action_exposure = 8;
+  voice_input_action_auto_newline = 9;
+  voice_input_action_microphone_pop_window_expo = 10;
+  voice_input_action_microphone_pop_window_click = 11;
+  voice_input_action_download_offline = 12;
+  voice_input_action_download_offline_finish = 13;
+  voice_input_action_download_offline_start = 14;
+  voice_input_action_user_dict_replace = 15;
+  voice_input_action_click_choose_language = 16;
+  voice_input_action_finish_voice_aiquestion = 17;
+  voice_input_action_diff_audio_upload = 18;
+  voice_input_action_nodiff_audio_upload = 19;
+  voice_input_action_finish_back_to_keyboard = 20;
+  voice_input_action_finish_close_voice_input = 21;
+  voice_input_action_voice_failed = 22;
+  voice_input_action_voice_hold_to_hands_free = 23;
+  voice_input_action_standalone_pop_window_expo = 24;
+  voice_input_action_standalone_pop_window_click = 25;
+  voice_input_action_support_pop_window_expo = 26;
+  voice_input_action_support_pop_window_click = 27;
+  voice_input_action_freeform_end = 28;
+  voice_input_action_click_cancel = 29;
+  voice_input_action_pc_audio_upload = 30;
+}

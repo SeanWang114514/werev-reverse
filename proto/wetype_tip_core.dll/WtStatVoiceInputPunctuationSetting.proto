@@ -1,0 +1,13 @@
+// file: WtStatVoiceInputPunctuationSetting.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatVoiceInputPunctuationSetting {
+  voice_punctuation_invalid = 0;
+  voice_punctuation_add_whole_punctuation = 1;
+  voice_punctuation_ignore_period = 2;
+  voice_punctuation_space_replace_punctuation = 3;
+  voice_punctuation_auto_add_punctuation_ignore_period_comma = 4;
+  voice_punctuation_auto_add_punctuation_ignore_period_space = 5;
+  voice_punctuation_auto_add_punctuation_with_period_comma = 6;
+  voice_punctuation_auto_add_punctuation_with_period_space = 7;
+  voice_punctuation_auto_add_punctuation = 8;
+}

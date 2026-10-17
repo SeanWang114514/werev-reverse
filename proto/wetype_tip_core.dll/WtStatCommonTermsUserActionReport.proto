@@ -1,0 +1,15 @@
+// file: WtStatCommonTermsUserActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtKeyboardType.proto', 'WtStatCommonTermsAction.proto']
+package com.tencent.wrbus.pb;
+message WtStatCommonTermsUserActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string dict_infos = 2;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 3;
+  optional string engine_version = 4;
+  optional enum<.com.tencent.wrbus.pb.WtStatCommonTermsAction> action = 5;
+  optional string term_id = 6;
+  optional string action_context = 7;
+  optional string send_id = 8;
+  optional string request_id = 9;
+  optional string bundle_id = 10;
+  optional int64 item_index = 11;
+}

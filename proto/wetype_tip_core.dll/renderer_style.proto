@@ -1,0 +1,51 @@
+// file: renderer_style.proto  package: wetype.renderer  syntax: proto2  deps: -
+package wetype.renderer;
+message RendererStyle {
+  optional int32 window_border = 1;
+  optional int32 footer_height = 2;
+  optional int32 row_rect_padding = 3;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> border_color = 4;
+  optional string column_minimum_width_string = 5;
+  repeated message<.wetype.renderer.RendererStyle.TextStyle> text_styles = 6;
+  repeated message<.wetype.renderer.RendererStyle.RGBAColor> footer_border_colors = 7;
+  optional message<.wetype.renderer.RendererStyle.TextStyle> footer_style = 8;
+  optional message<.wetype.renderer.RendererStyle.TextStyle> footer_sub_label_style = 9;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> focused_background_color = 10;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> focused_border_color = 11;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> scrollbar_background_color = 12;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> scrollbar_indicator_color = 13;
+  optional int32 scrollbar_width = 14;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> footer_top_color = 15;
+  optional message<.wetype.renderer.RendererStyle.RGBAColor> footer_bottom_color = 16;
+  optional string logo_file_name = 17;
+  optional message<.wetype.renderer.RendererStyle.InfolistStyle> infolist_style = 18;
+  message RGBAColor {
+    optional double r = 1;
+    optional double g = 2;
+    optional double b = 3;
+    optional double a = 4;
+  }
+  message TextStyle {
+    optional double font_size = 1;
+    optional message<.wetype.renderer.RendererStyle.RGBAColor> foreground_color = 2;
+    optional message<.wetype.renderer.RendererStyle.RGBAColor> background_color = 3;
+    optional int32 left_padding = 4;
+    optional int32 right_padding = 5;
+    optional string font_name = 6;
+  }
+  message InfolistStyle {
+    optional string caption_string = 1;
+    optional int32 caption_height = 2;
+    optional int32 caption_padding = 3;
+    optional int32 window_border = 4;
+    optional int32 row_rect_padding = 5;
+    optional int32 window_width = 6;
+    optional message<.wetype.renderer.RendererStyle.TextStyle> caption_style = 7;
+    optional message<.wetype.renderer.RendererStyle.TextStyle> title_style = 8;
+    optional message<.wetype.renderer.RendererStyle.TextStyle> description_style = 9;
+    optional message<.wetype.renderer.RendererStyle.RGBAColor> border_color = 10;
+    optional message<.wetype.renderer.RendererStyle.RGBAColor> caption_background_color = 11;
+    optional message<.wetype.renderer.RendererStyle.RGBAColor> focused_background_color = 12;
+    optional message<.wetype.renderer.RendererStyle.RGBAColor> focused_border_color = 13;
+  }
+}

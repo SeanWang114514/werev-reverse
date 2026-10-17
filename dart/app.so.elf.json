@@ -1,0 +1,189 @@
+{
+ "file": "app.so",
+ "size": 13632432,
+ "sha256": "6c9d0022484110c12cd6b4e8ee5feef2946bcdfe326b182454605278edd05425",
+ "class": 64,
+ "machine": "EM_X86_64",
+ "type": "ET_DYN",
+ "entry": "0x0",
+ "sections": [
+  {
+   "name": "",
+   "type": "SHT_NULL",
+   "addr": "0x0",
+   "off": "0x0",
+   "size": 0,
+   "flags": 0
+  },
+  {
+   "name": ".note.gnu.build-id",
+   "type": "SHT_NOTE",
+   "addr": "0x1c8",
+   "off": "0x1c8",
+   "size": 32,
+   "flags": 2
+  },
+  {
+   "name": ".rodata",
+   "type": "SHT_PROGBITS",
+   "addr": "0x200",
+   "off": "0x200",
+   "size": 6114080,
+   "flags": 2
+  },
+  {
+   "name": ".eh_frame",
+   "type": "SHT_PROGBITS",
+   "addr": "0x5d4d20",
+   "off": "0x5d4d20",
+   "size": 66,
+   "flags": 2
+  },
+  {
+   "name": ".dynstr",
+   "type": "SHT_STRTAB",
+   "addr": "0x5d4d68",
+   "off": "0x5d4d68",
+   "size": 133,
+   "flags": 2
+  },
+  {
+   "name": ".dynsym",
+   "type": "SHT_DYNSYM",
+   "addr": "0x5d4df0",
+   "off": "0x5d4df0",
+   "size": 144,
+   "flags": 2
+  },
+  {
+   "name": ".hash",
+   "type": "SHT_HASH",
+   "addr": "0x5d4e80",
+   "off": "0x5d4e80",
+   "size": 56,
+   "flags": 2
+  },
+  {
+   "name": ".text",
+   "type": "SHT_PROGBITS",
+   "addr": "0x5d8000",
+   "off": "0x5d8000",
+   "size": 7493248,
+   "flags": 6
+  },
+  {
+   "name": ".bss",
+   "type": "SHT_PROGBITS",
+   "addr": "0xd00000",
+   "off": "0xd00000",
+   "size": 48,
+   "flags": 3
+  },
+  {
+   "name": ".dynamic",
+   "type": "SHT_DYNAMIC",
+   "addr": "0xd00030",
+   "off": "0xd00030",
+   "size": 96,
+   "flags": 3
+  },
+  {
+   "name": ".shstrtab",
+   "type": "SHT_STRTAB",
+   "addr": "0x0",
+   "off": "0xd00090",
+   "size": 90,
+   "flags": 0
+  }
+ ],
+ "symbols": [
+  {
+   "name": "_kDartVmSnapshotInstructions",
+   "value": "0x5d8000",
+   "size": 26112,
+   "shndx": 7
+  },
+  {
+   "name": "_kDartIsolateSnapshotInstructions",
+   "value": "0x5de600",
+   "size": 7467072,
+   "shndx": 7
+  },
+  {
+   "name": "_kDartVmSnapshotData",
+   "value": "0x200",
+   "size": 35344,
+   "shndx": 2
+  },
+  {
+   "name": "_kDartIsolateSnapshotData",
+   "value": "0x8c40",
+   "size": 6078688,
+   "shndx": 2
+  },
+  {
+   "name": "_kDartSnapshotBuildId",
+   "value": "0x1c8",
+   "size": 32,
+   "shndx": 1
+  }
+ ],
+ "segments": [
+  {
+   "type": "PT_PHDR",
+   "vaddr": "0x40",
+   "off": "0x40",
+   "filesz": 392,
+   "memsz": "0x188",
+   "flags": 4
+  },
+  {
+   "type": "PT_LOAD",
+   "vaddr": "0x0",
+   "off": "0x0",
+   "filesz": 6115000,
+   "memsz": "0x5d4eb8",
+   "flags": 4
+  },
+  {
+   "type": "PT_LOAD",
+   "vaddr": "0x5d8000",
+   "off": "0x5d8000",
+   "filesz": 7493248,
+   "memsz": "0x725680",
+   "flags": 5
+  },
+  {
+   "type": "PT_LOAD",
+   "vaddr": "0xd00000",
+   "off": "0xd00000",
+   "filesz": 144,
+   "memsz": "0x90",
+   "flags": 6
+  },
+  {
+   "type": "PT_NOTE",
+   "vaddr": "0x1c8",
+   "off": "0x1c8",
+   "filesz": 32,
+   "memsz": "0x20",
+   "flags": 4
+  },
+  {
+   "type": "PT_DYNAMIC",
+   "vaddr": "0xd00030",
+   "off": "0xd00030",
+   "filesz": 96,
+   "memsz": "0x60",
+   "flags": 6
+  },
+  {
+   "type": "PT_GNU_STACK",
+   "vaddr": "0x0",
+   "off": "0x0",
+   "filesz": 0,
+   "memsz": "0x0",
+   "flags": 6
+  }
+ ]
+}

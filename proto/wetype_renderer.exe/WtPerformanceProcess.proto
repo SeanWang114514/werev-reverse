@@ -1,0 +1,8 @@
+// file: WtPerformanceProcess.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtPerformanceProcessType.proto']
+package com.tencent.wrbus.pb;
+message WtPerformanceProcess {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional int64 start_type = 2;
+  optional int64 start_cost = 3;
+  optional enum<.com.tencent.wrbus.pb.WtPerformanceProcessType> process_type = 4;
+}

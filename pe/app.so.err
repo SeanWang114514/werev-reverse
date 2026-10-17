@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\VibeCoding\΢�����뷨����\tools\pe_report.py", line 63, in <module>
+    main()
+    ~~~~^^
+  File "D:\VibeCoding\΢�����뷨����\tools\pe_report.py", line 12, in main
+    pe = pefile.PE(str(p), fast_load=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pefile.py", line 2941, in __init__
+    self.__parse__(name, data, fast_load)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\pefile.py", line 3082, in __parse__
+    raise PEFormatError("DOS Header magic not found.")
+pefile.PEFormatError: 'DOS Header magic not found.'

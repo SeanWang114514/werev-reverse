@@ -1,0 +1,6 @@
+// file: google/protobuf/any.proto  package: google.protobuf  syntax: proto3  deps: -
+package google.protobuf;
+message Any {
+  optional string type_url = 1;
+  optional bytes value = 2;
+}

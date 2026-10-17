@@ -1,0 +1,30 @@
+// file: WtWinCostReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtKeyboardType.proto']
+package com.tencent.wrbus.pb;
+message WtWinCostReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string device_type = 2;
+  optional int64 version = 3;
+  optional int64 process_id = 4;
+  optional string process_name = 5;
+  optional int64 key_type = 6;
+  optional int64 first_show = 7;
+  optional int64 session_id = 8;
+  optional int64 input_interval = 9;
+  optional int64 press_process_cost = 10;
+  optional int64 candidate_prepare_cost = 11;
+  optional int64 candidate_trans_cost = 12;
+  optional int64 load_more_send_cost = 13;
+  optional int64 more_prepare_cost = 14;
+  optional int64 more_trans_cost = 15;
+  optional int64 more_process_cost = 16;
+  optional int64 ui_trans_cost = 17;
+  optional int64 ui_render_cost = 18;
+  optional int64 total_cost = 19;
+  optional int64 pending_len = 20;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 21;
+  optional int64 session_lifetime = 22;
+  optional int64 sys_cpu_usage = 23;
+  optional int64 sys_mem_usage = 24;
+  optional int64 sys_available_mem = 25;
+  optional int64 sys_disk_active_time = 26;
+}

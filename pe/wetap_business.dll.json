@@ -1,0 +1,508 @@
+{
+ "file": "wetap_business.dll",
+ "size": 3722280,
+ "sha256": "150db28dc24ba69e78a7a875e9507c4f40155cffa71ae15242761aff7501ae08",
+ "machine": "0x8664",
+ "timestamp": 1788855691,
+ "timestamp_iso": "2026-09-08T08:21:31Z",
+ "characteristics": "0x2022",
+ "subsystem": 3,
+ "dll": true,
+ "entrypoint": "0x21fb60",
+ "imagebase": "0x180000000",
+ "dllchar": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "va": "0x1000",
+   "vsize": 2839076,
+   "raw": "0x400",
+   "rawsize": 2839552,
+   "entropy": 6.447,
+   "chars": "0x60000020"
+  },
+  {
+   "name": ".rdata",
+   "va": "0x2b7000",
+   "vsize": 628550,
+   "raw": "0x2b5800",
+   "rawsize": 628736,
+   "entropy": 5.57,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".data",
+   "va": "0x351000",
+   "vsize": 99608,
+   "raw": "0x34f000",
+   "rawsize": 78336,
+   "entropy": 4.572,
+   "chars": "0xc0000040"
+  },
+  {
+   "name": ".pdata",
+   "va": "0x36a000",
+   "vsize": 142056,
+   "raw": "0x362200",
+   "rawsize": 142336,
+   "entropy": 6.386,
+   "chars": "0x40000040"
+  },
+  {
+   "name": "_RDATA",
+   "va": "0x38d000",
+   "vsize": 244,
+   "raw": "0x384e00",
+   "rawsize": 512,
+   "entropy": 2.394,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".rsrc",
+   "va": "0x38e000",
+   "vsize": 480,
+   "raw": "0x385000",
+   "rawsize": 512,
+   "entropy": 4.721,
+   "chars": "0x40000040"
+  },
+  {
+   "name": ".reloc",
+   "va": "0x38f000",
+   "vsize": 20100,
+   "raw": "0x385200",
+   "rawsize": 20480,
+   "entropy": 5.441,
+   "chars": "0x42000040"
+  }
+ ],
+ "imports": [
+  {
+   "dll": "ime_net.dll",
+   "count": 28,
+   "funcs": [
+    "?Decrypt@AES@Crypto@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV34@P6AXW4inner_loglevel@@PEBD@Z@Z",
+    "?net_add_host_map_with_scope@net@wetap@@YAXPEAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HW4HostMapScope@12@@Z",
+    "net_add_host_map",
+    "net_set_socket_ready_callback",
+    "net_generate_device_code_v2",
+    "net_generate_device_code",
+    "net_test_send_exception",
+    "net_cancel_task",
+    "net_start_get_timestamp_task",
+    "net_start_task_with_option_v2",
+    "net_update_android_process_status",
+    "net_update_android_screen_status",
+    "net_resume_network_monitor",
+    "net_suspend_network_monitor",
+    "net_stop_receive_notify_ws",
+    "net_start_receive_notify_ws",
+    "net_handshake_if_needed",
+    "net_reset_uin",
+    "net_switch_server",
+    "net_finalize",
+    "net_perform_init_action",
+    "net_initialize_get_uin",
+    "destroy_net_api_context",
+    "create_net_api_context",
+    "net_log",
+    "net_start_task_with_option",
+    "net_start_task",
+    "?Encrypt@AES@Crypto@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV34@@Z"
+   ]
+  },
+  {
+   "dll": "KERNEL32.dll",
+   "count": 201,
+   "funcs": [
+    "GetCommandLineW",
+    "GetCommandLineA",
+    "GetOEMCP",
+    "GetACP",
+    "IsValidCodePage",
+    "HeapQueryInformation",
+    "SetConsoleCtrlHandler",
+    "SetStdHandle",
+    "GetFileSizeEx",
+    "GetStdHandle",
+    "EnumSystemLocalesW",
+    "GetUserDefaultLCID",
+    "IsValidLocale",
+    "GetLocaleInfoW",
+    "LCMapStringW",
+    "CompareStringW",
+    "GetTimeFormatW",
+    "GetDateFormatW",
+    "GetTimeZoneInformation",
+    "GetModuleFileNameW",
+    "GetConsoleOutputCP",
+    "ReadConsoleW",
+    "GetConsoleMode",
+    "DuplicateHandle",
+    "SetEnvironmentVariableW",
+    "FlushFileBuffers",
+    "GetTickCount",
+    "QueryPerformanceCounter",
+    "MapViewOfFile",
+    "CreateFileMappingW",
+    "FormatMessageA",
+    "GetSystemTime",
+    "GetSystemTimeAsFileTime",
+    "WideCharToMultiByte",
+    "FreeLibrary",
+    "SystemTimeToFileTime",
+    "GetProcessHeap",
+    "GetCurrentProcessId",
+    "GetFileSize",
+    "LockFileEx",
+    "LocalFree",
+    "GetProcAddress",
+    "UnlockFile",
+    "HeapDestroy",
+    "HeapCompact",
+    "HeapAlloc",
+    "LoadLibraryW",
+    "GetSystemInfo",
+    "CloseHandle",
+    "HeapReAlloc",
+    "GetEnvironmentStringsW",
+    "DeleteFileA",
+    "WaitForSingleObjectEx",
+    "LoadLibraryA",
+    "CreateFileA",
+    "FlushViewOfFile",
+    "OutputDebugStringW",
+    "GetFileAttributesExW",
+    "GetFileAttributesA",
+    "GetLastError",
+    "GetDiskFreeSpaceA",
+    "FormatMessageW",
+    "GetTempPathA",
+    "Sleep",
+    "MultiByteToWideChar",
+    "HeapSize",
+    "HeapValidate",
+    "UnmapViewOfFile",
+    "GetFileAttributesW",
+    "CreateFileW",
+    "WaitForSingleObject",
+    "CreateMutexW",
+    "GetTempPathW",
+    "UnlockFileEx",
+    "SetEndOfFile",
+    "GetFullPathNameA",
+    "SetFilePointer",
+    "LockFile",
+    "OutputDebugStringA",
+    "GetDiskFreeSpaceW",
+    "WriteFile",
+    "GetFullPathNameW",
+    "HeapFree",
+    "HeapCreate",
+    "ReadFile",
+    "AreFileApisANSI",
+    "InitializeCriticalSection",
+    "EnterCriticalSection",
+    "LeaveCriticalSection",
+    "TryEnterCriticalSection",
+    "DeleteCriticalSection",
+    "GetCurrentThreadId",
+    "GetThreadId",
+    "SetLastError",
+    "QueryPerformanceFrequency",
+    "GetCurrentThread",
+    "GetThreadTimes",
+    "GetCurrentDirectoryW",
+    "FindClose",
+    "FindFirstFileW",
+    "FindNextFileW",
+    "ExitProcess",
+    "FreeEnvironmentStringsW",
+    "WriteConsoleW",
+    "DeleteFileW",
+    "CreateDirectoryW",
+    "RtlPcToFileHeader",
+    "RaiseException",
+    "InitializeSRWLock",
+    "ReleaseSRWLockExclusive",
+    "AcquireSRWLockExclusive",
+    "InitializeCriticalSectionEx",
+    "SetCurrentDirectoryW",
+    "RtlUnwind",
+    "FindFirstFileExW",
+    "GetDiskFreeSpaceExW",
+    "GetFileInformationByHandle",
+    "GetFinalPathNameByHandleW",
+    "SetFileAttributesW",
+    "SetFileInformationByHandle",
+    "SetFilePointerEx",
+    "SetFileTime",
+    "DeviceIoControl",
+    "CreateDirectoryExW",
+    "CopyFileW",
+    "MoveFileExW",
+    "CreateHardLinkW",
+    "GetFileInformationByHandleEx",
+    "CreateSymbolicLinkW",
+    "SwitchToThread",
+    "GetExitCodeThread",
+    "GetNativeSystemInfo",
+    "InitializeConditionVariable",
+    "WakeConditionVariable",
+    "WakeAllConditionVariable",
+    "SleepConditionVariableCS",
+    "SleepConditionVariableSRW",
+    "InitOnceBeginInitialize",
+    "InitOnceComplete",
+    "GetStringTypeW",
+    "FlsAlloc",
+    "FlsGetValue",
+    "FlsSetValue",
+    "FlsFree",
+    "InitOnceExecuteOnce",
+    "CreateEventExW",
+    "CreateSemaphoreExW",
+    "FlushProcessWriteBuffers",
+    "GetCurrentProcessorNumber",
+    "GetTickCount64",
+    "FreeLibraryWhenCallbackReturns",
+    "CreateThreadpoolWork",
+    "SubmitThreadpoolWork",
+    "CloseThreadpoolWork",
+    "CreateThreadpoolTimer",
+    "SetThreadpoolTimer",
+    "WaitForThreadpoolTimerCallbacks",
+    "CloseThreadpoolTimer",
+    "CreateThreadpoolWait",
+    "SetThreadpoolWait",
+    "CloseThreadpoolWait",
+    "GetModuleHandleW",
+    "EncodePointer",
+    "DecodePointer",
+    "LCMapStringEx",
+    "GetLocaleInfoEx",
+    "CompareStringEx",
+    "GetCPInfo",
+    "InitializeCriticalSectionAndSpinCount",
+    "SetEvent",
+    "ResetEvent",
+    "CreateEventW",
+    "RtlCaptureContext",
+    "RtlLookupFunctionEntry",
+    "RtlVirtualUnwind",
+    "UnhandledExceptionFilter",
+    "SetUnhandledExceptionFilter",
+    "GetCurrentProcess",
+    "TerminateProcess",
+    "IsProcessorFeaturePresent",
+    "InitializeSListHead",
+    "IsDebuggerPresent",
+    "GetStartupInfoW",
+    "RtlUnwindEx",
+    "InterlockedPushEntrySList",
+    "InterlockedFlushSList",
+    "TlsAlloc",
+    "TlsGetValue",
+    "TlsSetValue",
+    "TlsFree",
+    "LoadLibraryExW",
+    "CreateThread",
+    "ExitThread",
+    "ResumeThread",
+    "FreeLibraryAndExitThread",
+    "GetModuleHandleExW",
+    "GetDriveTypeW",
+    "GetFileType",
+    "PeekNamedPipe",
+    "SystemTimeToTzSpecificLocalTime",
+    "FileTimeToSystemTime"
+   ]
+  },
+  {
+   "dll": "ADVAPI32.dll",
+   "count": 3,
+   "funcs": [
+    "CryptReleaseContext",
+    "CryptAcquireContextA",
+    "CryptGenRandom"
+   ]
+  }
+ ],
+ "exports": [
+  {
+   "ord": 1,
+   "name": "business_add_host_map",
+   "addr": "0xef0c0"
+  },
+  {
+   "ord": 2,
+   "name": "business_add_host_map_with_scope",
+   "addr": "0xef0e0"
+  },
+  {
+   "ord": 3,
+   "name": "business_finalize",
+   "addr": "0xef110"
+  },
+  {
+   "ord": 4,
+   "name": "business_generate_device_code",
+   "addr": "0xef2c0"
+  },
+  {
+   "ord": 5,
+   "name": "business_generate_device_code_v2",
+   "addr": "0xef2d0"
+  },
+  {
+   "ord": 6,
+   "name": "business_get_commit_date",
+   "addr": "0xef2e0"
+  },
+  {
+   "ord": 7,
+   "name": "business_get_server_timestamp",
+   "addr": "0xef450"
+  },
+  {
+   "ord": 8,
+   "name": "business_get_version",
+   "addr": "0xef530"
+  },
+  {
+   "ord": 9,
+   "name": "business_initialize",
+   "addr": "0xef590"
+  },
+  {
+   "ord": 10,
+   "name": "business_mark_db_broken",
+   "addr": "0xef7b0"
+  },
+  {
+   "ord": 11,
+   "name": "business_net_cancel_task",
+   "addr": "0xef850"
+  },
+  {
+   "ord": 12,
+   "name": "business_net_handshake_if_needed",
+   "addr": "0xef8d0"
+  },
+  {
+   "ord": 13,
+   "name": "business_net_start_receive_notify",
+   "addr": "0xef970"
+  },
+  {
+   "ord": 14,
+   "name": "business_net_start_task",
+   "addr": "0xefa10"
+  },
+  {
+   "ord": 15,
+   "name": "business_net_start_task_with_option",
+   "addr": "0xefb50"
+  },
+  {
+   "ord": 16,
+   "name": "business_net_stop_receive_notify",
+   "addr": "0xefca0"
+  },
+  {
+   "ord": 17,
+   "name": "business_report_batch",
+   "addr": "0xefd40"
+  },
+  {
+   "ord": 18,
+   "name": "business_report_flush_to_db",
+   "addr": "0xefe30"
+  },
+  {
+   "ord": 19,
+   "name": "business_report_instantly",
+   "addr": "0xefed0"
+  },
+  {
+   "ord": 20,
+   "name": "business_report_set_debug_mode",
+   "addr": "0xf0120"
+  },
+  {
+   "ord": 21,
+   "name": "business_report_single",
+   "addr": "0xf01f0"
+  },
+  {
+   "ord": 22,
+   "name": "business_reset_uin",
+   "addr": "0xf0440"
+  },
+  {
+   "ord": 23,
+   "name": "business_resume_network_monitor",
+   "addr": "0xf04f0"
+  },
+  {
+   "ord": 24,
+   "name": "business_set_socket_ready_callback",
+   "addr": "0xf0560"
+  },
+  {
+   "ord": 25,
+   "name": "business_start_auto_report_cache",
+   "addr": "0xf0570"
+  },
+  {
+   "ord": 26,
+   "name": "business_stop_auto_report_cache",
+   "addr": "0xf0620"
+  },
+  {
+   "ord": 27,
+   "name": "business_suspend_network_monitor",
+   "addr": "0xf06d0"
+  },
+  {
+   "ord": 28,
+   "name": "business_switch_server",
+   "addr": "0xf0740"
+  },
+  {
+   "ord": 29,
+   "name": "business_test_report_exception",
+   "addr": "0xf0820"
+  },
+  {
+   "ord": 30,
+   "name": "business_update_android_process_status",
+   "addr": "0xf08c0"
+  },
+  {
+   "ord": 31,
+   "name": "business_update_android_screen_status",
+   "addr": "0xf0970"
+  }
+ ],
+ "debug": [
+  {
+   "type": "CODEVIEW",
+   "pdb": "E:\\data\\landun\\workspace\\ime-business\\build_x64\\business\\Release\\wetap_business.pdb\u0000",
+   "guid": "414050640",
+   "age": 1
+  },
+  {
+   "type": 12
+  },
+  {
+   "type": 13
+  }
+ ],
+ "resources": [
+  {
+   "type": "RT_MANIFEST",
+   "id": 24
+  }
+ ]
+}

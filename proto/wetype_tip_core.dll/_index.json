@@ -1,0 +1,407 @@
+[
+ {
+  "proto": "ABTestHitedInfo.proto",
+  "offset": "0x327c60",
+  "bytes": 306
+ },
+ {
+  "proto": "App.proto",
+  "offset": "0x327e50",
+  "bytes": 137
+ },
+ {
+  "proto": "BaseMsg.proto",
+  "offset": "0x327f50",
+  "bytes": 172
+ },
+ {
+  "proto": "BaseRequest.proto",
+  "offset": "0x328130",
+  "bytes": 174
+ },
+ {
+  "proto": "BaseResponse.proto",
+  "offset": "0x3282c0",
+  "bytes": 163
+ },
+ {
+  "proto": "SKBuiltinString_t.proto",
+  "offset": "0x328450",
+  "bytes": 93
+ },
+ {
+  "proto": "WeTypeSharedData.proto",
+  "offset": "0x3285e0",
+  "bytes": 371
+ },
+ {
+  "proto": "WtAbTest.proto",
+  "offset": "0x3289c0",
+  "bytes": 747
+ },
+ {
+  "proto": "WtAbTestCommon.proto",
+  "offset": "0x328f00",
+  "bytes": 1656
+ },
+ {
+  "proto": "WtAiQuestionAction.proto",
+  "offset": "0x329ff0",
+  "bytes": 1299
+ },
+ {
+  "proto": "WtAiQuestionSource.proto",
+  "offset": "0x32a550",
+  "bytes": 316
+ },
+ {
+  "proto": "WtAndroidMemeryAbout.proto",
+  "offset": "0x32a780",
+  "bytes": 488
+ },
+ {
+  "proto": "WtAppPcInstallSource.proto",
+  "offset": "0x32abb0",
+  "bytes": 1160
+ },
+ {
+  "proto": "WtAskAI.proto",
+  "offset": "0x32b160",
+  "bytes": 1087
+ },
+ {
+  "proto": "WtClipboardAction.proto",
+  "offset": "0x32bdd0",
+  "bytes": 1350
+ },
+ {
+  "proto": "WtClipboardScene.proto",
+  "offset": "0x32c350",
+  "bytes": 637
+ },
+ {
+  "proto": "WtDictUpdateStatusReport.proto",
+  "offset": "0x32c6e0",
+  "bytes": 598
+ },
+ {
+  "proto": "WtExceptionEventReport.proto",
+  "offset": "0x32cca0",
+  "bytes": 467
+ },
+ {
+  "proto": "WtExceptionSubtype.proto",
+  "offset": "0x32d030",
+  "bytes": 210
+ },
+ {
+  "proto": "WtExceptionType.proto",
+  "offset": "0x32d150",
+  "bytes": 1729
+ },
+ {
+  "proto": "WtKeyboardLandscapePortraitMode.proto",
+  "offset": "0x32d850",
+  "bytes": 185
+ },
+ {
+  "proto": "WtKeyboardShowMode.proto",
+  "offset": "0x32d960",
+  "bytes": 239
+ },
+ {
+  "proto": "WtKeyboardType.proto",
+  "offset": "0x32da90",
+  "bytes": 395
+ },
+ {
+  "proto": "WtPcPatch.proto",
+  "offset": "0x32dd00",
+  "bytes": 543
+ },
+ {
+  "proto": "WtPcPatchErrorType.proto",
+  "offset": "0x32e0c0",
+  "bytes": 554
+ },
+ {
+  "proto": "WtPerformanceProcess.proto",
+  "offset": "0x32e370",
+  "bytes": 289
+ },
+ {
+  "proto": "WtPerformanceProcessType.proto",
+  "offset": "0x32e560",
+  "bytes": 189
+ },
+ {
+  "proto": "WtStatAiQuestionActionReport.proto",
+  "offset": "0x32e750",
+  "bytes": 907
+ },
+ {
+  "proto": "WtStatAiQuestionUserActionReport.proto",
+  "offset": "0x32ef80",
+  "bytes": 929
+ },
+ {
+  "proto": "WtStatAppPcInstall.proto",
+  "offset": "0x32f6d0",
+  "bytes": 427
+ },
+ {
+  "proto": "WtStatCandidateClickReport.proto",
+  "offset": "0x32fa30",
+  "bytes": 1348
+ },
+ {
+  "proto": "WtStatCandidateScene.proto",
+  "offset": "0x330740",
+  "bytes": 276
+ },
+ {
+  "proto": "WtStatCandidateUserClickReport.proto",
+  "offset": "0x3309a0",
+  "bytes": 1005
+ },
+ {
+  "proto": "WtStatClipboardActionReport.proto",
+  "offset": "0x3311d0",
+  "bytes": 413
+ },
+ {
+  "proto": "WtStatCloudCandidateActionReport.proto",
+  "offset": "0x331560",
+  "bytes": 527
+ },
+ {
+  "proto": "WtStatCommonTermsAction.proto",
+  "offset": "0x3319c0",
+  "bytes": 928
+ },
+ {
+  "proto": "WtStatCommonTermsUserActionReport.proto",
+  "offset": "0x331e30",
+  "bytes": 511
+ },
+ {
+  "proto": "WtStatEmojiAction.proto",
+  "offset": "0x332320",
+  "bytes": 764
+ },
+ {
+  "proto": "WtStatEmojiClickReport.proto",
+  "offset": "0x332710",
+  "bytes": 736
+ },
+ {
+  "proto": "WtStatEmojiExitSource.proto",
+  "offset": "0x332d20",
+  "bytes": 326
+ },
+ {
+  "proto": "WtStatEmojiQueryStatus.proto",
+  "offset": "0x332eb0",
+  "bytes": 235
+ },
+ {
+  "proto": "WtStatEmojiSource.proto",
+  "offset": "0x332fe0",
+  "bytes": 309
+ },
+ {
+  "proto": "WtStatEmojiType.proto",
+  "offset": "0x333150",
+  "bytes": 150
+ },
+ {
+  "proto": "WtStatEmojiUserActionReport.proto",
+  "offset": "0x333220",
+  "bytes": 1039
+ },
+ {
+  "proto": "WtStatGroupClipboardUserActionReport.proto",
+  "offset": "0x333c00",
+  "bytes": 475
+ },
+ {
+  "proto": "WtStatKeyboardActiveAction.proto",
+  "offset": "0x333fa0",
+  "bytes": 246
+ },
+ {
+  "proto": "WtStatKeyboardActiveActionSecond.proto",
+  "offset": "0x3340e0",
+  "bytes": 279
+ },
+ {
+  "proto": "WtStatKeyboardActiveReport.proto",
+  "offset": "0x334240",
+  "bytes": 1340
+ },
+ {
+  "proto": "WtStatKeyboardLostReport.proto",
+  "offset": "0x334c20",
+  "bytes": 279
+ },
+ {
+  "proto": "WtStatPcAppButtonStatusReport.proto",
+  "offset": "0x334e80",
+  "bytes": 1684
+ },
+ {
+  "proto": "WtStatPcAppCommonAction.proto",
+  "offset": "0x335ab0",
+  "bytes": 12431
+ },
+ {
+  "proto": "WtStatPcAppCommonActionReport.proto",
+  "offset": "0x338b80",
+  "bytes": 796
+ },
+ {
+  "proto": "WtStatPcAppCommonScene.proto",
+  "offset": "0x339280",
+  "bytes": 3486
+ },
+ {
+  "proto": "WtStatRefetchContextReport.proto",
+  "offset": "0x33a100",
+  "bytes": 553
+ },
+ {
+  "proto": "WtStatVmodeUserActionReport.proto",
+  "offset": "0x33a590",
+  "bytes": 610
+ },
+ {
+  "proto": "WtStatVoiceInputAction.proto",
+  "offset": "0x33aa00",
+  "bytes": 1400
+ },
+ {
+  "proto": "WtStatVoiceInputActionReport.proto",
+  "offset": "0x33afc0",
+  "bytes": 1889
+ },
+ {
+  "proto": "WtStatVoiceInputContentActionReport.proto",
+  "offset": "0x33c050",
+  "bytes": 2086
+ },
+ {
+  "proto": "WtStatVoiceInputLanguageSetting.proto",
+  "offset": "0x33d770",
+  "bytes": 871
+ },
+ {
+  "proto": "WtStatVoiceInputPunctuationSetting.proto",
+  "offset": "0x33db20",
+  "bytes": 569
+ },
+ {
+  "proto": "WtStatVoiceInputScene.proto",
+  "offset": "0x33ddb0",
+  "bytes": 605
+ },
+ {
+  "proto": "WtVmodeAction.proto",
+  "offset": "0x33e050",
+  "bytes": 688
+ },
+ {
+  "proto": "WtVmodeScene.proto",
+  "offset": "0x33e340",
+  "bytes": 225
+ },
+ {
+  "proto": "WtVmodeSource.proto",
+  "offset": "0x33e460",
+  "bytes": 316
+ },
+ {
+  "proto": "WtVoiceRecognize.proto",
+  "offset": "0x33e710",
+  "bytes": 2896
+ },
+ {
+  "proto": "WtVoiceTrans.proto",
+  "offset": "0x33fb90",
+  "bytes": 1490
+ },
+ {
+  "proto": "WtWinCostReport.proto",
+  "offset": "0x340970",
+  "bytes": 797
+ },
+ {
+  "proto": "commands.proto",
+  "offset": "0x3416d0",
+  "bytes": 31485
+ },
+ {
+  "proto": "google/protobuf/any.proto",
+  "offset": "0x382960",
+  "bytes": 212
+ },
+ {
+  "proto": "google/protobuf/cpp_features.proto",
+  "offset": "0x380f80",
+  "bytes": 213
+ },
+ {
+  "proto": "google/protobuf/descriptor.proto",
+  "offset": "0x37d800",
+  "bytes": 9574
+ },
+ {
+  "proto": "google/protobuf/source_context.proto",
+  "offset": "0x382b40",
+  "bytes": 240
+ },
+ {
+  "proto": "google/protobuf/type.proto",
+  "offset": "0x381d30",
+  "bytes": 1647
+ },
+ {
+  "proto": "ipc.proto",
+  "offset": "0x34c990",
+  "bytes": 160
+ },
+ {
+  "proto": "multi_platform_sync.proto",
+  "offset": "0x34d870",
+  "bytes": 5030
+ },
+ {
+  "proto": "renderer_command.proto",
+  "offset": "0x34fe50",
+  "bytes": 2150
+ },
+ {
+  "proto": "renderer_style.proto",
+  "offset": "0x350c10",
+  "bytes": 2019
+ },
+ {
+  "proto": "update.proto",
+  "offset": "0x3525b0",
+  "bytes": 7497
+ },
+ {
+  "proto": "wetype_file_transfer.proto",
+  "offset": "0x356160",
+  "bytes": 2751
+ },
+ {
+  "proto": "wetype_wechat.proto",
+  "offset": "0x358130",
+  "bytes": 2036
+ },
+ {
+  "proto": "window_info.proto",
+  "offset": "0x359240",
+  "bytes": 66
+ }
+]

@@ -1,0 +1,53 @@
+########## input_dll_import_lib.dll ##########
+[URLS 14]
+    2  http://ocsp.digicert.com0A
+    2  http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+    2  http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+    1  http://www.digicert.com/CPS0
+    1  http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+    1  http://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+    1  http://ocsp.digicert.com0
+    1  http://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+    1  http://ocsp.digicert.com0]
+    1  http://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+    1  http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+    1  http://ocsp.digicert.com0C
+    1  http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+    1  http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+
+[DOMAINS 7]
+    5  cacerts.digicert.com
+    5  crl3.digicert.com
+    1  logging.cc
+    1  flag.cc
+    1  mutex.cc
+    1  www.digicert.com
+    1  crl4.digicert.com
+
+[HOST-LIKE 6]
+    2  kernel32.dll
+    1  sh9.tgh
+    1  ntdll.dll
+    1  revision.txt
+    1  input.dll
+    1  mscoree.dll
+
+[SOURCE/PDB PATHS 8]
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\win32\base\input_dll.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\base\logging.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\flags\internal\flag.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\mutex.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\internal\win32_waiter.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\base\internal\low_level_alloc.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\boost-src\libs\exception\include\boost/exception/detail/exception_ptr.h
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\win32\base\input_dll_import_lib.pdb
+
+[FS PATHS 8]
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\win32\base\input_dll.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\base\logging.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\flags\internal\flag.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\mutex.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\synchronization\internal\win32_waiter.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\abseil-cpp-src\absl\base\internal\low_level_alloc.cc
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\_deps\boost-src\libs\exception\include\boost/exception/detail/exception_ptr.hpp
+    1  E:\workspace\WeChatPinYin\wxkb\01_mozc\cmake-build-x64-release\win32\base\input_dll_import_lib.pdb

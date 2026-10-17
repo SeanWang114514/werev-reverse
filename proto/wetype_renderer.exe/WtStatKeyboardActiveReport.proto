@@ -1,0 +1,35 @@
+// file: WtStatKeyboardActiveReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtStatKeyboardActiveActionSecond.proto', 'WtKeyboardType.proto', 'WtStatCandidateScene.proto', 'WtKeyboardShowMode.proto', 'WtKeyboardLandscapePortraitMode.proto', 'WtStatKeyboardActiveAction.proto']
+package com.tencent.wrbus.pb;
+message WtStatKeyboardActiveReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional string engine_version = 2;
+  optional string dict_infos = 3;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardType> keyboard_type = 4;
+  optional string device_type = 5;
+  optional int64 plus_status = 6;
+  optional int64 plus_typing_status = 7;
+  optional int64 plus_media_status = 8;
+  optional int64 plus_emoji_status = 9;
+  optional int64 plus_correction_status = 10;
+  optional string bundle_id = 11;
+  optional enum<.com.tencent.wrbus.pb.WtStatCandidateScene> app_scene = 12;
+  optional int64 client_performance_score = 13;
+  optional int64 client_performance_level = 14;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardShowMode> keyboard_mode = 15;
+  optional enum<.com.tencent.wrbus.pb.WtKeyboardLandscapePortraitMode> landscape_portrait_mode = 16;
+  optional int64 plus_aiwrite_status = 17;
+  optional int64 window_status = 18;
+  optional enum<.com.tencent.wrbus.pb.WtStatKeyboardActiveAction> action = 19;
+  optional enum<.com.tencent.wrbus.pb.WtStatKeyboardActiveActionSecond> action_type = 20;
+  optional string a_b_params = 21;
+  optional string session_id = 22;
+  optional int64 memory = 23;
+  optional string process_id = 24;
+  optional int64 symbol_auto_match_button = 25;
+  optional string device_info = 26;
+  optional int64 switch_type = 27;
+  optional int64 is_chat = 28;
+  optional int64 last_crash = 29;
+  optional string button_status = 30;
+  optional int64 tool_status = 31;
+}

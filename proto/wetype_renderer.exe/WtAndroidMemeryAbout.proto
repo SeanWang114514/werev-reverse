@@ -1,0 +1,21 @@
+// file: WtAndroidMemeryAbout.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto']
+package com.tencent.wrbus.pb;
+message WtAndroidMemeryAbout {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional int64 totalMemory = 2;
+  optional int64 freeMemory = 3;
+  optional int64 maxMemory = 4;
+  optional int64 nativeAllocatedSize = 5;
+  optional int64 nativeHeapSize = 6;
+  optional int64 nativeFreeSize = 7;
+  optional int64 useMemory = 8;
+  optional string process = 9;
+  optional string amsPss = 10;
+  optional string dbgPss = 11;
+  optional string processInfo = 12;
+  optional string statusInfo = 13;
+  optional string systemInfo = 14;
+  optional int64 isForeground = 15;
+  optional int64 process_open_time_diff = 16;
+  optional string device_type = 17;
+}

@@ -1,0 +1,17 @@
+// file: WtClipboardScene.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtClipboardScene {
+  clipboard_scene_invalid = 0;
+  clipboard_scene_clipboard_intro = 1;
+  clipboard_scene_clipboard_storage_time_intro = 2;
+  clipboard_scene_clipboard_null_page = 3;
+  clipboard_scene_clipboard_content_page = 4;
+  clipboard_scene_clipboard_storage_time = 5;
+  clipboard_scene_clipboard_close_notify = 6;
+  clipboard_scene_candidate_input = 7;
+  clipboard_scene_clipboard_open_succ = 8;
+  clipboard_scene_clipboard_null_no_permission_page = 9;
+  clipboard_scene_clipboard_content_no_permission_page = 10;
+  clipboard_scene_clipboard_choose_word_page = 11;
+  clipboard_scene_pc_clipboard = 12;
+}

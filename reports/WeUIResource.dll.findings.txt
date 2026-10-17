@@ -1,0 +1,36 @@
+########## WeUIResource.dll ##########
+[URLS 14]
+    2  http://ocsp.digicert.com0A
+    2  http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+    2  http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+    1  http://www.digicert.com/CPS0
+    1  http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+    1  http://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+    1  http://ocsp.digicert.com0
+    1  http://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+    1  http://ocsp.digicert.com0]
+    1  http://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+    1  http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+    1  http://ocsp.digicert.com0C
+    1  http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+    1  http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+
+[DOMAINS 5]
+    5  cacerts.digicert.com
+    5  crl3.digicert.com
+    1  w.cn
+    1  www.digicert.com
+    1  crl4.digicert.com
+
+[HOST-LIKE 6]
+    1  q.ag
+    1  t.tn
+    1  -j.cd
+    1  colortablefragment.xml
+    1  weuireso.dll
+    1  weuiresource.dll
+
+[SOURCE/PDB PATHS 1]
+    1  G:\weuiEngine\WeUIEngine\Release\x64\WeUIResource_x64.pdb
+
+[FS PATHS 0]

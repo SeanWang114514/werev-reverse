@@ -1,0 +1,285 @@
+// file: multi_platform_sync.proto  package: wetype.multiplatform  syntax: proto2  deps: -
+package wetype.multiplatform;
+message DeviceInfo {
+  optional string name = 1;
+  optional uint32 platform = 2;
+  optional int64 bind_time = 3;
+  optional string client_version = 4;
+  optional bool support_file_transfer = 5;
+}
+message GetMatchCodeReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional message<.wetype.multiplatform.DeviceInfo> device_info = 3;
+}
+message GetMatchCodeRsp {
+  optional int32 err_code = 1;
+  optional string match_code = 2;
+  optional int64 expire_at = 3;
+  optional int64 expiration = 4;
+  optional string err_tips = 5;
+}
+message BindMatchCodeReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional string match_code = 3;
+  optional string self_match_code = 4;
+  optional message<.wetype.multiplatform.DeviceInfo> device_info = 5;
+}
+message BindMatchCodeRsp {
+  optional int32 err_code = 1;
+  optional string bind_id = 2;
+  optional bool show_reconfirm = 3;
+  optional message<.wetype.multiplatform.DeviceInfo> device_info = 4;
+  optional string err_tips = 5;
+}
+message RealBindMatchCodeReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional string bind_id = 3;
+}
+message RealBindMatchCodeRsp {
+  optional int32 err_code = 1;
+  optional uint64 group_id = 2;
+  optional message<.wetype.multiplatform.BoundInfo> bound_info = 3;
+  optional string err_tips = 4;
+}
+message FetchBindStatusReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional string bind_id = 3;
+}
+message FetchBindStatusRsp {
+  optional int32 err_code = 1;
+  optional int32 status = 2;
+  optional string err_tips = 3;
+}
+message ReleaseMatchCodeOrBindReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional string self_match_code = 3;
+  optional string bind_id = 4;
+}
+message ReleaseMatchCodeOrBindRsp {
+}
+message BoundInfo {
+  optional uint64 uin = 1;
+  optional message<.wetype.multiplatform.DeviceInfo> device_info = 2;
+}
+message GroupInfo {
+  optional uint64 group_id = 1;
+  repeated message<.wetype.multiplatform.BoundInfo> list = 2;
+  optional message<.wetype.multiplatform.ClipboardMsg> clipboard_msg = 3;
+  optional message<.wetype.multiplatform.UserHotWords> user_hot_words = 4;
+  optional uint64 func_switch = 5;
+}
+message GetGroupInfoReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional uint64 filter = 3;
+  optional uint64 current_clipboard_version = 4;
+  optional uint64 current_user_hot_words_version = 5;
+}
+message GetGroupInfoRsp {
+  optional message<.wetype.multiplatform.GroupInfo> group = 1;
+  optional int32 err_code = 2;
+  optional string device_remark_name = 3;
+}
+message UpdateDeviceInfoReq {
+  optional string device_token = 1;
+  optional string user_device_name = 2;
+  repeated message<.wetype.multiplatform.UpdateDeviceInfoReq.DeviceRemarkName> device_remark_names = 3;
+  message DeviceRemarkName {
+    optional uint64 uin = 1;
+    optional string device_remark_name = 2;
+  }
+}
+message UpdateDeviceInfoRsp {
+  optional int32 err_code = 1;
+}
+message UnbindReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional uint64 unbind_uin = 3;
+}
+message UnbindRsp {
+  optional int32 err_code = 1;
+  optional string err_tips = 2;
+}
+message SetGroupFuncSwitchReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional uint64 group_id = 3;
+  optional uint64 func_switch = 4;
+}
+message SetGroupFuncSwitchRsp {
+  optional int32 err_code = 1;
+}
+message ClipboardMsg {
+  optional uint64 version = 1;
+  optional int32 type = 2;
+  optional string data = 3;
+  optional int64 expire_at = 4;
+  optional int64 expiration = 5;
+  optional bytes binary_data = 6;
+  optional uint64 from_uin = 7;
+  optional bytes extra_info = 8;
+  optional string trace_id = 9;
+}
+message SendClipboardMsgReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional message<.wetype.multiplatform.ClipboardMsg> clipboard_msg = 3;
+  optional uint64 group_id = 4;
+  optional int64 client_timestamp = 5;
+}
+message SendClipboardMsgRsp {
+  optional int32 err_code = 1;
+  optional uint64 version = 2;
+}
+message UserHotWords {
+  optional uint64 version = 1;
+  optional bytes data = 2;
+}
+message SendUserHotWordsReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional message<.wetype.multiplatform.UserHotWords> user_hot_words = 3;
+  optional uint64 group_id = 4;
+}
+message SendUserHotWordsRsp {
+  optional int32 err_code = 1;
+  optional uint64 version = 2;
+}
+message PushInfo {
+  optional enum<.wetype.multiplatform.PushMsgEvent> event = 1;
+  optional int64 timestamp = 2;
+  optional int32 compress_type = 3;
+  optional bytes data = 4;
+  optional string push_id = 5;
+}
+message PushBindReconfirm {
+  optional bool show_reconfirm = 1;
+  optional message<.wetype.multiplatform.DeviceInfo> device_info = 2;
+  optional string bind_id = 3;
+}
+message PushBindCancel {
+  optional string bind_id = 1;
+}
+message PushUnBind {
+  optional uint64 group_id = 1;
+}
+message PushBindSuccess {
+  optional uint64 group_id = 1;
+  optional message<.wetype.multiplatform.BoundInfo> bound_info = 2;
+  optional string bind_id = 4;
+}
+message PushClipboardMsg {
+  optional uint64 group_id = 1;
+  optional message<.wetype.multiplatform.ClipboardMsg> msg = 2;
+}
+message PushUserHotWords {
+  optional uint64 group_id = 1;
+  optional uint64 version = 2;
+  optional bytes data = 3;
+}
+message PushGroupFuncSwitch {
+  optional uint64 group_id = 1;
+  optional uint64 func_switch = 2;
+}
+message PushOnBoundListChange {
+  optional uint64 group_id = 1;
+  optional int32 operate = 2;
+}
+message GetMatchCodeStatusReq {
+  optional uint64 uin = 1;
+  optional uint32 platform = 2;
+  optional string self_match_code = 3;
+}
+message GetMatchCodeStatusRsp {
+  optional int32 status = 1;
+  optional string bind_id = 2;
+  optional bool show_reconfirm = 3;
+  optional message<.wetype.multiplatform.DeviceInfo> device_info = 4;
+}
+enum Platform {
+  Android = 1;
+  IOS = 2;
+  MiniProgram = 3;
+  H5 = 4;
+  Mac = 5;
+  Windows = 6;
+}
+enum ErrCode {
+  ErrCountLimit = 10001;
+  MatchCodeBusy = 10002;
+  BindConfirmTimeout = 10003;
+  PushMsgErr = 10006;
+  MaxGroupCount = 10007;
+  RepeatBind = 10008;
+  ParamErr = 10010;
+  MatchCodeBindBusy = 10011;
+  ConflictVersion = 10012;
+  NotInGroup = 10013;
+  BindTimeout = 10014;
+  FuncClosed = 10015;
+}
+enum BindStatus {
+  Wait = 0;
+  Suc = 1;
+  Cancel = 2;
+  Timeout = 3;
+}
+enum Filter {
+  FilterNone = 0;
+  FilterBoundList = 1;
+  FilterClipboard = 2;
+  FilterUserHotWords = 4;
+  FilterUserHotWordsVersion = 8;
+  FilterUserDict = 16;
+}
+enum FuncSwitch {
+  AllClose = 0;
+  FuncSwitchClipboard = 1;
+  FuncSwitchUserHotWords = 2;
+  FuncSwitchUserDict = 4;
+}
+enum ClipboardMsgType {
+  Text = 0;
+}
+enum ClipboardType {
+  TypeNone = 0;
+  TypeTextOri = 1;
+  TypeTextCos = 2;
+  TypeImageOri = 5;
+  TypeImageCos = 6;
+  TypeImageFileOri = 100;
+}
+enum PushMsgEvent {
+  SyncUnknown = 0;
+  SyncBindReconfirm = 1;
+  SyncBindSuccess = 2;
+  SyncBindCancel = 3;
+  SyncClipboardMsg = 4;
+  SyncUserHotWords = 5;
+  SyncUnBind = 6;
+  SyncClipboardMsgVersion = 7;
+  SyncUserHotWordsVersion = 8;
+  SyncGroupFuncSwitch = 9;
+  SyncOnBoundListChange = 10;
+  SyncP2PTransferInvite = 11;
+}
+enum CompressType {
+  NotSupport = 0;
+  NoneCompress = 1;
+  Snappy = 2;
+}
+enum OnBoundOperate {
+  Add = 0;
+  Remove = 1;
+}
+enum MatchCodeStatus {
+  Free = 0;
+  Binding = 1;
+  Nil = 2;
+}

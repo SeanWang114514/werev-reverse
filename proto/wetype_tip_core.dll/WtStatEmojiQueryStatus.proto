@@ -1,0 +1,9 @@
+// file: WtStatEmojiQueryStatus.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtStatEmojiQueryStatus {
+  wt_emoji_query_invalid = 0;
+  wt_emoji_query_unsent = 1;
+  wt_emoji_query_sent = 2;
+  wt_emoji_query_pending = 3;
+  wt_emoji_unsent_symbol_association = 4;
+}

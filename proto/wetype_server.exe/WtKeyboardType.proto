@@ -1,0 +1,14 @@
+// file: WtKeyboardType.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: -
+package com.tencent.wrbus.pb;
+enum WtKeyboardType {
+  keyboard_type_full_pinyin = 0;
+  keyboard_type_nine_pinyin = 1;
+  keyboard_type_full_english = 2;
+  keyboard_type_handwrite = 3;
+  keyboard_type_nine_stroke = 4;
+  keyboard_type_full_wubi = 5;
+  keyboard_type_nine_double_pinyin = 6;
+  keyboard_type_full_double_pinyin = 7;
+  keyboard_type_find_words = 8;
+  keyboard_type_choose_keyboard = 9;
+}

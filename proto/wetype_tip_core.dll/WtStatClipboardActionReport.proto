@@ -1,0 +1,12 @@
+// file: WtStatClipboardActionReport.proto  package: com.tencent.wrbus.pb  syntax: proto3  deps: ['BaseMsg.proto', 'WtClipboardScene.proto', 'WtClipboardAction.proto']
+package com.tencent.wrbus.pb;
+message WtStatClipboardActionReport {
+  optional message<.com.tencent.wrbus.pb.BaseMsg> base_log = 1;
+  optional enum<.com.tencent.wrbus.pb.WtClipboardScene> scene = 2;
+  optional enum<.com.tencent.wrbus.pb.WtClipboardAction> action = 3;
+  optional string content = 4;
+  optional int64 index = 5;
+  optional int64 content_type = 6;
+  optional int64 clip_time = 7;
+  optional string app_name = 8;
+}
